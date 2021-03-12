@@ -1,0 +1,33 @@
+{
+  "pools": [{
+    "rolls": 1,
+    "entries": [{
+      "type": "item",
+      "weight": 1,
+      "name": "minecraft:creeper_head",
+      "functions": [{
+          "function": "set_lore",
+          "lore": [{
+            "italic": false,
+            "color": "gray",
+            "translate": "item.durability",
+            "with": [{
+                "nbt": "root.temp.Items[0].tag.tcc.durability[0]",
+                "storage": "tcc:storage"
+              },
+              {
+                "nbt": "root.temp.Items[0].tag.tcc.durability[1]",
+                "storage": "tcc:storage"
+              }
+            ]
+          }],
+          "entity": "this"
+        },
+        {
+          "function": "set_nbt",
+          "tag": "{tcc:{id:\"kill_item\"}}"
+        }
+      ]
+    }]
+  }]
+}

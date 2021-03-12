@@ -1,0 +1,19 @@
+{
+  "criteria": {
+    "effects_changed": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "player": {
+          "nbt": "{Tags:[\"tcc.tea.vigor\"]}"
+        },
+        "effects": {
+          "minecraft:weakness": {}
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "tcc:item/tea/clear/vigor"
+  },
+  "parent": "tcc:technical/root"
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "tcc_compat:um/item/ring/metal/shadow_steel_with_gemstone",
+    "layer1": "tcc_compat:ttb/item/ring/gemstone/vulcaanium"
+  }
+}

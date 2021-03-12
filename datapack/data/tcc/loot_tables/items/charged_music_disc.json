@@ -1,0 +1,38 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:tag",
+          "name": "minecraft:creeper_drop_music_discs",
+          "expand": true,
+          "weight": 1
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_nbt",
+          "tag": "{tcc:{id:\"charged_music_disc\"},HideFlags:1,Enchantments:[{id:\"minecraft:binding_curse\",lvl:1s}]}"
+        },
+        {
+          "function": "minecraft:set_name",
+          "name": {
+            "translate": "item.tcc.charged_music_disc",
+            "italic": false
+          }
+        },
+        {
+          "function": "minecraft:set_lore",
+          "lore": [
+            {
+              "translate": "pack.tcc",
+              "color": "#008725",
+              "italic": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "drink_plenty_tea": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "nbt": "{tcc:{id:\"tea\",tea:\"plenty\"}}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "tcc:item/tea/drink/plenty"
+  },
+  "parent": "tcc:technical/root"
+}

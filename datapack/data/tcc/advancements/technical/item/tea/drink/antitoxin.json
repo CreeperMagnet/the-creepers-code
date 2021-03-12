@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "drink_antitoxin_tea": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "nbt": "{tcc:{id:\"tea\",tea:\"antitoxin\"}}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "tcc:item/tea/drink/antitoxin"
+  },
+  "parent": "tcc:technical/root"
+}

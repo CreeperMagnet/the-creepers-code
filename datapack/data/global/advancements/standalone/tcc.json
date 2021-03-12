@@ -1,0 +1,78 @@
+{
+  "display": {
+    "title": {
+      "translate": "TCC (MISSING RESOURCES)",
+      "with": [
+        [{
+          "translate": "pack.tcc"
+        }]
+      ]
+    },
+    "description": {
+      "translate": "The Creeper's Code Resource Pack is not installed. Please go to https://thecreeperscode.com/download.",
+      "with": [
+        [{
+            "translate": "advancements.tcc.installed_datapacks_menu.description_1",
+            "color": "#008725"
+          },
+          {
+            "translate": "pack.tcc.version",
+            "color": "green"
+          },
+          {
+            "translate": "advancements.tcc.installed_datapacks_menu.description_2",
+            "color": "gray"
+          },
+          {
+            "translate": "advancements.tcc.installed_datapacks_menu.creepermagnet_.icon",
+            "color": "white",
+            "font": "tcc:icons"
+          },
+          {
+            "translate": "advancements.tcc.installed_datapacks_menu.creepermagnet_",
+            "color": "gray"
+          },
+          {
+            "translate": "advancements.tcc.installed_datapacks_menu.dragoncommands.icon",
+            "color": "white",
+            "font": "tcc:icons"
+          },
+          {
+            "translate": "advancements.tcc.installed_datapacks_menu.dragoncommands",
+            "color": "gray"
+          },
+          {
+            "translate": "advancements.tcc.installed_datapacks_menu.chromakey.icon",
+            "color": "white",
+            "font": "tcc:icons"
+          },
+          {
+            "translate": "advancements.tcc.installed_datapacks_menu.chromakey",
+            "color": "gray"
+          },
+          {
+            "translate": "advancements.tcc.installed_datapacks_menu.ragnorakkr.icon",
+            "color": "white",
+            "font": "tcc:icons"
+          },
+          {
+            "translate": "advancements.tcc.installed_datapacks_menu.ragnorakkr",
+            "color": "gray"
+          }
+        ]
+      ]
+    },
+    "show_toast": false,
+    "announce_to_chat": false,
+    "icon": {
+      "item": "minecraft:barrier",
+      "nbt": "{CustomModelData:330000}"
+    }
+  },
+  "parent": "global:root",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

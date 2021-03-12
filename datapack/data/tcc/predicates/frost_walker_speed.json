@@ -1,0 +1,35 @@
+[
+  {
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "equipment": {
+        "feet": {
+          "enchantments": [
+            {
+              "enchantment": "minecraft:frost_walker"
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "condition": "minecraft:location_check",
+    "offsetX": 0,
+    "offsetY": -1,
+    "offsetZ": 0,
+    "predicate": {
+      "block": {
+        "tag": "tcc:frost_walker_speed"
+      }
+    }
+  },
+  {
+    "condition": "minecraft:inverted",
+    "term": {
+      "condition": "minecraft:reference",
+      "name": "tcc:sneaking"
+    }
+  }
+]

@@ -1,0 +1,1459 @@
+{
+  "parent": "item/handheld_rod",
+  "textures": {
+    "layer0": "item/carrot_on_a_stick"
+  },
+  "overrides": [{
+      "predicate": {
+        "custom_model_data": 330000
+      },
+      "model": "tcc:item/witch_hat"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330001
+      },
+      "model": "tcc:item/cursed_crown"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330002
+      },
+      "model": "tcc:item/quest_book"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330003
+      },
+      "model": "tcc:item/complete_quest_book"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330004
+      },
+      "model": "tcc:item/boomerang"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330005
+      },
+      "model": "tcc:item/spectral_boomerang"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330006
+      },
+      "model": "tcc:item/peculiar_berries"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330007
+      },
+      "model": "tcc:item/obsidian_mirror"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330008
+      },
+      "model": "tcc:item/obsidian_scythe"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330009
+      },
+      "model": "tcc:item/wrench"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330010
+      },
+      "model": "tcc:item/paintbrush/unused"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330011
+      },
+      "model": "tcc:item/paintbrush/black"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330012
+      },
+      "model": "tcc:item/paintbrush/blue"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330013
+      },
+      "model": "tcc:item/paintbrush/brown"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330014
+      },
+      "model": "tcc:item/paintbrush/cyan"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330015
+      },
+      "model": "tcc:item/paintbrush/gray"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330016
+      },
+      "model": "tcc:item/paintbrush/green"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330017
+      },
+      "model": "tcc:item/paintbrush/light_blue"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330018
+      },
+      "model": "tcc:item/paintbrush/light_gray"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330019
+      },
+      "model": "tcc:item/paintbrush/lime"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330020
+      },
+      "model": "tcc:item/paintbrush/magenta"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330021
+      },
+      "model": "tcc:item/paintbrush/orange"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330022
+      },
+      "model": "tcc:item/paintbrush/pink"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330023
+      },
+      "model": "tcc:item/paintbrush/purple"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330024
+      },
+      "model": "tcc:item/paintbrush/red"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330025
+      },
+      "model": "tcc:item/paintbrush/white"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330026
+      },
+      "model": "tcc:item/paintbrush/yellow"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330027
+      },
+      "model": "tcc:item/smoldering_seeker/unset"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330028
+      },
+      "model": "tcc:item/creeper_magnet"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330029
+      },
+      "model": "tcc:item/teapot"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330030
+      },
+      "model": "tcc:item/frostbloom"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330031
+      },
+      "model": "tcc:item/locket_of_learning/empty"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330032
+      },
+      "model": "tcc:item/locket_of_learning/filled_1"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330033
+      },
+      "model": "tcc:item/locket_of_learning/filled_2"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330034
+      },
+      "model": "tcc:item/locket_of_learning/filled_3"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330035
+      },
+      "model": "tcc:item/locket_of_learning/filled_4"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330036
+      },
+      "model": "tcc:item/locket_of_learning/filled_5"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330037
+      },
+      "model": "tcc:item/gobblerift"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 338000
+      },
+      "model": "tcc:item/ring/iron/gemstone/none"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 338001
+      },
+      "model": "tcc:item/ring/iron/gemstone/amethyst"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 338002
+      },
+      "model": "tcc:item/ring/iron/gemstone/diamond"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 338003
+      },
+      "model": "tcc:item/ring/iron/gemstone/emerald"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 338004
+      },
+      "model": "tcc:item/ring/iron/gemstone/ender_pearl"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 338005
+      },
+      "model": "tcc:item/ring/iron/gemstone/lapis_lazuli"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 338006
+      },
+      "model": "tcc:item/ring/iron/gemstone/obsidian"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 338007
+      },
+      "model": "tcc:item/ring/iron/gemstone/prismarine_crystal"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 338008
+      },
+      "model": "tcc:item/ring/iron/gemstone/quartz"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 338010
+      },
+      "model": "tcc:item/ring/golden/gemstone/none"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 338011
+      },
+      "model": "tcc:item/ring/golden/gemstone/amethyst"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 338012
+      },
+      "model": "tcc:item/ring/golden/gemstone/diamond"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 338013
+      },
+      "model": "tcc:item/ring/golden/gemstone/emerald"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 338014
+      },
+      "model": "tcc:item/ring/golden/gemstone/ender_pearl"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 338015
+      },
+      "model": "tcc:item/ring/golden/gemstone/lapis_lazuli"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 338016
+      },
+      "model": "tcc:item/ring/golden/gemstone/obsidian"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 338017
+      },
+      "model": "tcc:item/ring/golden/gemstone/prismarine_crystal"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 338018
+      },
+      "model": "tcc:item/ring/golden/gemstone/quartz"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 338020
+      },
+      "model": "tcc_compat:um/item/ring/demonsteel/gemstone/tcc/none"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 338021
+      },
+      "model": "tcc_compat:um/item/ring/demonsteel/gemstone/tcc/amethyst"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 338022
+      },
+      "model": "tcc_compat:um/item/ring/demonsteel/gemstone/tcc/diamond"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 338023
+      },
+      "model": "tcc_compat:um/item/ring/demonsteel/gemstone/tcc/emerald"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 338024
+      },
+      "model": "tcc_compat:um/item/ring/demonsteel/gemstone/tcc/ender_pearl"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 338025
+      },
+      "model": "tcc_compat:um/item/ring/demonsteel/gemstone/tcc/lapis_lazuli"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 338026
+      },
+      "model": "tcc_compat:um/item/ring/demonsteel/gemstone/tcc/obsidian"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 338027
+      },
+      "model": "tcc_compat:um/item/ring/demonsteel/gemstone/tcc/prismarine_crystal"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 338028
+      },
+      "model": "tcc_compat:um/item/ring/demonsteel/gemstone/tcc/quartz"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 338030
+      },
+      "model": "tcc_compat:um/item/ring/shadow_steel/gemstone/tcc/none"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 338031
+      },
+      "model": "tcc_compat:um/item/ring/shadow_steel/gemstone/tcc/amethyst"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 338032
+      },
+      "model": "tcc_compat:um/item/ring/shadow_steel/gemstone/tcc/diamond"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 338033
+      },
+      "model": "tcc_compat:um/item/ring/shadow_steel/gemstone/tcc/emerald"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 338034
+      },
+      "model": "tcc_compat:um/item/ring/shadow_steel/gemstone/tcc/ender_pearl"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 338035
+      },
+      "model": "tcc_compat:um/item/ring/shadow_steel/gemstone/tcc/lapis_lazuli"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 338036
+      },
+      "model": "tcc_compat:um/item/ring/shadow_steel/gemstone/tcc/obsidian"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 338037
+      },
+      "model": "tcc_compat:um/item/ring/shadow_steel/gemstone/tcc/prismarine_crystal"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 338038
+      },
+      "model": "tcc_compat:um/item/ring/shadow_steel/gemstone/tcc/quartz"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 338040
+      },
+      "model": "tcc_compat:um/item/ring/tenebrous/gemstone/tcc/none"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 338041
+      },
+      "model": "tcc_compat:um/item/ring/tenebrous/gemstone/tcc/amethyst"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 338042
+      },
+      "model": "tcc_compat:um/item/ring/tenebrous/gemstone/tcc/diamond"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 338043
+      },
+      "model": "tcc_compat:um/item/ring/tenebrous/gemstone/tcc/emerald"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 338044
+      },
+      "model": "tcc_compat:um/item/ring/tenebrous/gemstone/tcc/ender_pearl"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 338045
+      },
+      "model": "tcc_compat:um/item/ring/tenebrous/gemstone/tcc/lapis_lazuli"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 338046
+      },
+      "model": "tcc_compat:um/item/ring/tenebrous/gemstone/tcc/obsidian"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 338047
+      },
+      "model": "tcc_compat:um/item/ring/tenebrous/gemstone/tcc/prismarine_crystal"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 338048
+      },
+      "model": "tcc_compat:um/item/ring/tenebrous/gemstone/tcc/quartz"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 338050
+      },
+      "model": "tcc_compat:mechanization/item/ring/titanium/gemstone/tcc/none"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 338051
+      },
+      "model": "tcc_compat:mechanization/item/ring/titanium/gemstone/tcc/amethyst"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 338052
+      },
+      "model": "tcc_compat:mechanization/item/ring/titanium/gemstone/tcc/diamond"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 338053
+      },
+      "model": "tcc_compat:mechanization/item/ring/titanium/gemstone/tcc/emerald"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 338054
+      },
+      "model": "tcc_compat:mechanization/item/ring/titanium/gemstone/tcc/ender_pearl"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 338055
+      },
+      "model": "tcc_compat:mechanization/item/ring/titanium/gemstone/tcc/lapis_lazuli"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 338056
+      },
+      "model": "tcc_compat:mechanization/item/ring/titanium/gemstone/tcc/obsidian"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 338057
+      },
+      "model": "tcc_compat:mechanization/item/ring/titanium/gemstone/tcc/prismarine_crystal"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 338058
+      },
+      "model": "tcc_compat:mechanization/item/ring/titanium/gemstone/tcc/quartz"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 339000
+      },
+      "model": "tcc:item/ring/iron/gemstone_and_potion/none"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 339001
+      },
+      "model": "tcc:item/ring/iron/gemstone_and_potion/amethyst"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 339002
+      },
+      "model": "tcc:item/ring/iron/gemstone_and_potion/diamond"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 339003
+      },
+      "model": "tcc:item/ring/iron/gemstone_and_potion/emerald"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 339004
+      },
+      "model": "tcc:item/ring/iron/gemstone_and_potion/ender_pearl"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 339005
+      },
+      "model": "tcc:item/ring/iron/gemstone_and_potion/lapis_lazuli"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 339006
+      },
+      "model": "tcc:item/ring/iron/gemstone_and_potion/obsidian"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 339007
+      },
+      "model": "tcc:item/ring/iron/gemstone_and_potion/prismarine_crystal"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 339008
+      },
+      "model": "tcc:item/ring/iron/gemstone_and_potion/quartz"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 339010
+      },
+      "model": "tcc:item/ring/golden/gemstone_and_potion/none"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 339011
+      },
+      "model": "tcc:item/ring/golden/gemstone_and_potion/amethyst"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 339012
+      },
+      "model": "tcc:item/ring/golden/gemstone_and_potion/diamond"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 339013
+      },
+      "model": "tcc:item/ring/golden/gemstone_and_potion/emerald"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 339014
+      },
+      "model": "tcc:item/ring/golden/gemstone_and_potion/ender_pearl"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 339015
+      },
+      "model": "tcc:item/ring/golden/gemstone_and_potion/lapis_lazuli"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 339016
+      },
+      "model": "tcc:item/ring/golden/gemstone_and_potion/obsidian"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 339017
+      },
+      "model": "tcc:item/ring/golden/gemstone_and_potion/prismarine_crystal"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 339018
+      },
+      "model": "tcc:item/ring/golden/gemstone_and_potion/quartz"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 339020
+      },
+      "model": "tcc_compat:um/item/ring/demonsteel/gemstone_and_potion/tcc/none"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 339021
+      },
+      "model": "tcc_compat:um/item/ring/demonsteel/gemstone_and_potion/tcc/amethyst"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 339022
+      },
+      "model": "tcc_compat:um/item/ring/demonsteel/gemstone_and_potion/tcc/diamond"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 339023
+      },
+      "model": "tcc_compat:um/item/ring/demonsteel/gemstone_and_potion/tcc/emerald"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 339024
+      },
+      "model": "tcc_compat:um/item/ring/demonsteel/gemstone_and_potion/tcc/ender_pearl"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 339025
+      },
+      "model": "tcc_compat:um/item/ring/demonsteel/gemstone_and_potion/tcc/lapis_lazuli"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 339026
+      },
+      "model": "tcc_compat:um/item/ring/demonsteel/gemstone_and_potion/tcc/obsidian"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 339027
+      },
+      "model": "tcc_compat:um/item/ring/demonsteel/gemstone_and_potion/tcc/prismarine_crystal"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 339028
+      },
+      "model": "tcc_compat:um/item/ring/demonsteel/gemstone_and_potion/tcc/quartz"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 339030
+      },
+      "model": "tcc_compat:um/item/ring/shadow_steel/gemstone_and_potion/tcc/none"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 339031
+      },
+      "model": "tcc_compat:um/item/ring/shadow_steel/gemstone_and_potion/tcc/amethyst"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 339032
+      },
+      "model": "tcc_compat:um/item/ring/shadow_steel/gemstone_and_potion/tcc/diamond"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 339033
+      },
+      "model": "tcc_compat:um/item/ring/shadow_steel/gemstone_and_potion/tcc/emerald"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 339034
+      },
+      "model": "tcc_compat:um/item/ring/shadow_steel/gemstone_and_potion/tcc/ender_pearl"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 339035
+      },
+      "model": "tcc_compat:um/item/ring/shadow_steel/gemstone_and_potion/tcc/lapis_lazuli"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 339036
+      },
+      "model": "tcc_compat:um/item/ring/shadow_steel/gemstone_and_potion/tcc/obsidian"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 339037
+      },
+      "model": "tcc_compat:um/item/ring/shadow_steel/gemstone_and_potion/tcc/prismarine_crystal"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 339038
+      },
+      "model": "tcc_compat:um/item/ring/shadow_steel/gemstone_and_potion/tcc/quartz"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 339040
+      },
+      "model": "tcc_compat:um/item/ring/tenebrous/gemstone_and_potion/tcc/none"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 339041
+      },
+      "model": "tcc_compat:um/item/ring/tenebrous/gemstone_and_potion/tcc/amethyst"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 339042
+      },
+      "model": "tcc_compat:um/item/ring/tenebrous/gemstone_and_potion/tcc/diamond"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 339043
+      },
+      "model": "tcc_compat:um/item/ring/tenebrous/gemstone_and_potion/tcc/emerald"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 339044
+      },
+      "model": "tcc_compat:um/item/ring/tenebrous/gemstone_and_potion/tcc/ender_pearl"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 339045
+      },
+      "model": "tcc_compat:um/item/ring/tenebrous/gemstone_and_potion/tcc/lapis_lazuli"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 339046
+      },
+      "model": "tcc_compat:um/item/ring/tenebrous/gemstone_and_potion/tcc/obsidian"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 339047
+      },
+      "model": "tcc_compat:um/item/ring/tenebrous/gemstone_and_potion/tcc/prismarine_crystal"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 339048
+      },
+      "model": "tcc_compat:um/item/ring/tenebrous/gemstone_and_potion/tcc/quartz"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 339050
+      },
+      "model": "tcc_compat:mechanization/item/ring/titanium/gemstone_and_potion/tcc/none"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 339051
+      },
+      "model": "tcc_compat:mechanization/item/ring/titanium/gemstone_and_potion/tcc/amethyst"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 339052
+      },
+      "model": "tcc_compat:mechanization/item/ring/titanium/gemstone_and_potion/tcc/diamond"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 339053
+      },
+      "model": "tcc_compat:mechanization/item/ring/titanium/gemstone_and_potion/tcc/emerald"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 339054
+      },
+      "model": "tcc_compat:mechanization/item/ring/titanium/gemstone_and_potion/tcc/ender_pearl"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 339055
+      },
+      "model": "tcc_compat:mechanization/item/ring/titanium/gemstone_and_potion/tcc/lapis_lazuli"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 339056
+      },
+      "model": "tcc_compat:mechanization/item/ring/titanium/gemstone_and_potion/tcc/obsidian"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 339057
+      },
+      "model": "tcc_compat:mechanization/item/ring/titanium/gemstone_and_potion/tcc/prismarine_crystal"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 339058
+      },
+      "model": "tcc_compat:mechanization/item/ring/titanium/gemstone_and_potion/tcc/quartz"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 408000
+      },
+      "model": "tcc_compat:tcc/item/ring/iron/gemstone/dnd/amber"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 408001
+      },
+      "model": "tcc_compat:tcc/item/ring/iron/gemstone/dnd/gypsum"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 408010
+      },
+      "model": "tcc_compat:tcc/item/ring/golden/gemstone/dnd/amber"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 408011
+      },
+      "model": "tcc_compat:tcc/item/ring/golden/gemstone/dnd/gypsum"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 408020
+      },
+      "model": "tcc_compat:um/item/ring/demonsteel/gemstone/dnd/amber"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 408021
+      },
+      "model": "tcc_compat:um/item/ring/demonsteel/gemstone/dnd/gypsum"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 408030
+      },
+      "model": "tcc_compat:um/item/ring/shadow_steel/gemstone/dnd/amber"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 408031
+      },
+      "model": "tcc_compat:um/item/ring/shadow_steel/gemstone/dnd/gypsum"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 408040
+      },
+      "model": "tcc_compat:um/item/ring/tenebrous/gemstone/dnd/amber"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 408041
+      },
+      "model": "tcc_compat:um/item/ring/tenebrous/gemstone/dnd/gypsum"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 408050
+      },
+      "model": "tcc_compat:mechanization/item/ring/titanium/gemstone/dnd/amber"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 408051
+      },
+      "model": "tcc_compat:mechanization/item/ring/titanium/gemstone/dnd/gypsum"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 409000
+      },
+      "model": "tcc_compat:tcc/item/ring/iron/gemstone_and_potion/dnd/amber"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 409001
+      },
+      "model": "tcc_compat:tcc/item/ring/iron/gemstone_and_potion/dnd/gypsum"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 409010
+      },
+      "model": "tcc_compat:tcc/item/ring/golden/gemstone_and_potion/dnd/amber"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 409011
+      },
+      "model": "tcc_compat:tcc/item/ring/golden/gemstone_and_potion/dnd/gypsum"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 409020
+      },
+      "model": "tcc_compat:um/item/ring/demonsteel/gemstone_and_potion/dnd/amber"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 409021
+      },
+      "model": "tcc_compat:um/item/ring/demonsteel/gemstone_and_potion/dnd/gypsum"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 409030
+      },
+      "model": "tcc_compat:um/item/ring/shadow_steel/gemstone_and_potion/dnd/amber"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 409031
+      },
+      "model": "tcc_compat:um/item/ring/shadow_steel/gemstone_and_potion/dnd/gypsum"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 409040
+      },
+      "model": "tcc_compat:um/item/ring/tenebrous/gemstone_and_potion/dnd/amber"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 409041
+      },
+      "model": "tcc_compat:um/item/ring/tenebrous/gemstone_and_potion/dnd/gypsum"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 409050
+      },
+      "model": "tcc_compat:mechanization/item/ring/titanium/gemstone_and_potion/dnd/amber"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 409051
+      },
+      "model": "tcc_compat:mechanization/item/ring/titanium/gemstone_and_potion/dnd/gypsum"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 428000
+      },
+      "model": "tcc_compat:tcc/item/ring/iron/gemstone/um/abyssal"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 428001
+      },
+      "model": "tcc_compat:tcc/item/ring/iron/gemstone/um/crystallized_blood"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 428002
+      },
+      "model": "tcc_compat:tcc/item/ring/iron/gemstone/um/demon_heart"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 428003
+      },
+      "model": "tcc_compat:tcc/item/ring/iron/gemstone/um/ebonquartz"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 428004
+      },
+      "model": "tcc_compat:tcc/item/ring/iron/gemstone/um/magic_crystal"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 428010
+      },
+      "model": "tcc_compat:tcc/item/ring/golden/gemstone/um/abyssal"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 428011
+      },
+      "model": "tcc_compat:tcc/item/ring/golden/gemstone/um/crystallized_blood"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 428012
+      },
+      "model": "tcc_compat:tcc/item/ring/golden/gemstone/um/demon_heart"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 428013
+      },
+      "model": "tcc_compat:tcc/item/ring/golden/gemstone/um/ebonquartz"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 428014
+      },
+      "model": "tcc_compat:tcc/item/ring/golden/gemstone/um/magic_crystal"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 428020
+      },
+      "model": "tcc_compat:um/item/ring/demonsteel/gemstone/um/abyssal"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 428021
+      },
+      "model": "tcc_compat:um/item/ring/demonsteel/gemstone/um/crystallized_blood"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 428022
+      },
+      "model": "tcc_compat:um/item/ring/demonsteel/gemstone/um/demon_heart"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 428023
+      },
+      "model": "tcc_compat:um/item/ring/demonsteel/gemstone/um/ebonquartz"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 428024
+      },
+      "model": "tcc_compat:um/item/ring/demonsteel/gemstone/um/magic_crystal"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 428030
+      },
+      "model": "tcc_compat:um/item/ring/shadow_steel/gemstone/um/abyssal"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 428031
+      },
+      "model": "tcc_compat:um/item/ring/shadow_steel/gemstone/um/crystallized_blood"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 428032
+      },
+      "model": "tcc_compat:um/item/ring/shadow_steel/gemstone/um/demon_heart"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 428033
+      },
+      "model": "tcc_compat:um/item/ring/shadow_steel/gemstone/um/ebonquartz"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 428034
+      },
+      "model": "tcc_compat:um/item/ring/shadow_steel/gemstone/um/magic_crystal"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 428040
+      },
+      "model": "tcc_compat:um/item/ring/tenebrous/gemstone/um/abyssal"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 428041
+      },
+      "model": "tcc_compat:um/item/ring/tenebrous/gemstone/um/crystallized_blood"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 428042
+      },
+      "model": "tcc_compat:um/item/ring/tenebrous/gemstone/um/demon_heart"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 428043
+      },
+      "model": "tcc_compat:um/item/ring/tenebrous/gemstone/um/ebonquartz"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 428044
+      },
+      "model": "tcc_compat:um/item/ring/tenebrous/gemstone/um/magic_crystal"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 428050
+      },
+      "model": "tcc_compat:mechanization/item/ring/titanium/gemstone/um/abyssal"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 428051
+      },
+      "model": "tcc_compat:mechanization/item/ring/titanium/gemstone/um/crystallized_blood"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 428052
+      },
+      "model": "tcc_compat:mechanization/item/ring/titanium/gemstone/um/demon_heart"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 428053
+      },
+      "model": "tcc_compat:mechanization/item/ring/titanium/gemstone/um/ebonquartz"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 428054
+      },
+      "model": "tcc_compat:mechanization/item/ring/titanium/gemstone/um/magic_crystal"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 429000
+      },
+      "model": "tcc_compat:tcc/item/ring/iron/gemstone_and_potion/um/abyssal"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 429001
+      },
+      "model": "tcc_compat:tcc/item/ring/iron/gemstone_and_potion/um/crystallized_blood"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 429002
+      },
+      "model": "tcc_compat:tcc/item/ring/iron/gemstone_and_potion/um/demon_heart"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 429003
+      },
+      "model": "tcc_compat:tcc/item/ring/iron/gemstone_and_potion/um/ebonquartz"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 429004
+      },
+      "model": "tcc_compat:tcc/item/ring/iron/gemstone_and_potion/um/magic_crystal"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 429010
+      },
+      "model": "tcc_compat:tcc/item/ring/golden/gemstone_and_potion/um/abyssal"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 429011
+      },
+      "model": "tcc_compat:tcc/item/ring/golden/gemstone_and_potion/um/crystallized_blood"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 429012
+      },
+      "model": "tcc_compat:tcc/item/ring/golden/gemstone_and_potion/um/demon_heart"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 429013
+      },
+      "model": "tcc_compat:tcc/item/ring/golden/gemstone_and_potion/um/ebonquartz"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 429014
+      },
+      "model": "tcc_compat:tcc/item/ring/golden/gemstone_and_potion/um/magic_crystal"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 429020
+      },
+      "model": "tcc_compat:um/item/ring/demonsteel/gemstone_and_potion/um/abyssal"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 429021
+      },
+      "model": "tcc_compat:um/item/ring/demonsteel/gemstone_and_potion/um/crystallized_blood"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 429022
+      },
+      "model": "tcc_compat:um/item/ring/demonsteel/gemstone_and_potion/um/demon_heart"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 429023
+      },
+      "model": "tcc_compat:um/item/ring/demonsteel/gemstone_and_potion/um/ebonquartz"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 429024
+      },
+      "model": "tcc_compat:um/item/ring/demonsteel/gemstone_and_potion/um/magic_crystal"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 429030
+      },
+      "model": "tcc_compat:um/item/ring/shadow_steel/gemstone_and_potion/um/abyssal"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 429031
+      },
+      "model": "tcc_compat:um/item/ring/shadow_steel/gemstone_and_potion/um/crystallized_blood"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 429032
+      },
+      "model": "tcc_compat:um/item/ring/shadow_steel/gemstone_and_potion/um/demon_heart"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 429033
+      },
+      "model": "tcc_compat:um/item/ring/shadow_steel/gemstone_and_potion/um/ebonquartz"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 429034
+      },
+      "model": "tcc_compat:um/item/ring/shadow_steel/gemstone_and_potion/um/magic_crystal"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 429040
+      },
+      "model": "tcc_compat:um/item/ring/tenebrous/gemstone_and_potion/um/abyssal"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 429041
+      },
+      "model": "tcc_compat:um/item/ring/tenebrous/gemstone_and_potion/um/crystallized_blood"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 429042
+      },
+      "model": "tcc_compat:um/item/ring/tenebrous/gemstone_and_potion/um/demon_heart"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 429043
+      },
+      "model": "tcc_compat:um/item/ring/tenebrous/gemstone_and_potion/um/ebonquartz"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 429044
+      },
+      "model": "tcc_compat:um/item/ring/tenebrous/gemstone_and_potion/um/magic_crystal"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 429050
+      },
+      "model": "tcc_compat:mechanization/item/ring/titanium/gemstone_and_potion/um/abyssal"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 429051
+      },
+      "model": "tcc_compat:mechanization/item/ring/titanium/gemstone_and_potion/um/crystallized_blood"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 429052
+      },
+      "model": "tcc_compat:mechanization/item/ring/titanium/gemstone_and_potion/um/demon_heart"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 429053
+      },
+      "model": "tcc_compat:mechanization/item/ring/titanium/gemstone_and_potion/um/ebonquartz"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 429054
+      },
+      "model": "tcc_compat:mechanization/item/ring/titanium/gemstone_and_potion/um/magic_crystal"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6838000
+      },
+      "model": "tcc_compat:tcc/item/ring/iron/gemstone/ttb/vulcaanium"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6838010
+      },
+      "model": "tcc_compat:tcc/item/ring/golden/gemstone/ttb/vulcaanium"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6838020
+      },
+      "model": "tcc_compat:um/item/ring/demonsteel/gemstone/ttb/vulcaanium"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6838030
+      },
+      "model": "tcc_compat:um/item/ring/shadow_steel/gemstone/ttb/vulcaanium"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6838040
+      },
+      "model": "tcc_compat:um/item/ring/tenebrous/gemstone/ttb/vulcaanium"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6838050
+      },
+      "model": "tcc_compat:mechanization/item/ring/titanium/gemstone/ttb/vulcaanium"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6839000
+      },
+      "model": "tcc_compat:tcc/item/ring/iron/gemstone_and_potion/ttb/vulcaanium"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6839010
+      },
+      "model": "tcc_compat:tcc/item/ring/golden/gemstone_and_potion/ttb/vulcaanium"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6839020
+      },
+      "model": "tcc_compat:um/item/ring/demonsteel/gemstone_and_potion/ttb/vulcaanium"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6839030
+      },
+      "model": "tcc_compat:um/item/ring/shadow_steel/gemstone_and_potion/ttb/vulcaanium"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6839040
+      },
+      "model": "tcc_compat:um/item/ring/tenebrous/gemstone_and_potion/ttb/vulcaanium"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6839050
+      },
+      "model": "tcc_compat:mechanization/item/ring/titanium/gemstone_and_potion/ttb/vulcaanium"
+    }
+  ]
+}

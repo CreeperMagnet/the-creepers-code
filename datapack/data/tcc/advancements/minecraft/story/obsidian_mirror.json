@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:carrot_on_a_stick",
+      "nbt": "{CustomModelData:330007}"
+    },
+    "title": {
+      "translate": "advancements.tcc.minecraft.story.obsidian_mirror.title"
+    },
+    "description": [{
+        "translate": "advancements.tcc.minecraft.story.obsidian_mirror.description"
+      },
+      {
+        "translate": "advancements.tcc.minecraft.tooltip_spacer"
+      },
+      {
+        "translate": "pack.tcc",
+        "color": "#008725",
+        "italic": true
+      }
+    ],
+    "show_toast": true,
+    "announce_to_chat": true,
+    "frame": "goal"
+  },
+  "parent": "tcc:minecraft/story/obsidian_shard",
+  "criteria": {
+    "use_obsidian_mirror": {
+      "trigger": "impossible"
+    }
+  }
+}

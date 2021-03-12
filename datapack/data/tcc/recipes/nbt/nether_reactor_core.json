@@ -1,0 +1,22 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "GGG",
+    "NSN",
+    "GGG"
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:gilded_blackstone"
+    },
+    "N": {
+      "item": "minecraft:netherite_scrap"
+    },
+    "S": {
+      "item": "minecraft:nether_star"
+    }
+  },
+  "result": {
+    "item": "minecraft:knowledge_book"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "pools": [{
+    "rolls": 1,
+    "entries": [{
+      "type": "minecraft:item",
+      "weight": 1,
+      "functions": [{
+          "function": "minecraft:set_nbt",
+          "tag": "{HideFlags:2,tcc:{id:\"nibbled_golden_apple_pie\"},CustomModelData:330006}"
+        },
+        {
+          "function": "minecraft:set_name",
+          "name": {
+            "translate": "item.tcc.nibbled_golden_apple_pie",
+            "color": "aqua",
+            "italic": false
+          }
+        },
+        {
+          "function": "minecraft:set_lore",
+          "lore": [{
+            "translate": "pack.tcc",
+            "color": "#008725",
+            "italic": true
+          }]
+        },
+        {
+          "function": "minecraft:set_attributes",
+          "modifiers": [{
+            "attribute": "generic.movement_speed",
+            "name": "generic.movement_speed",
+            "amount": 0.0,
+            "operation": "multiply_base",
+            "slot": [
+              "head"
+            ]
+          }]
+        }
+      ],
+      "name": "minecraft:bread"
+    }]
+  }]
+}

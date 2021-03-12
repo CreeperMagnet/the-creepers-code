@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "exit_gui": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "nbt": "{Tags:[\"tcc.inside_jewelry_table_gui\"]}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "tcc:block/jewelry_table/interact/exit"
+  }
+}

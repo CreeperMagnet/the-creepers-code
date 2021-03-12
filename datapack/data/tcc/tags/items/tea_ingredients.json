@@ -1,0 +1,13 @@
+{
+    "replace": false,
+    "values": [
+        "minecraft:dandelion",
+        "minecraft:wither_rose",
+        "minecraft:glowstone_dust",
+        "minecraft:ink_sac",
+        "minecraft:blaze_powder",
+        "minecraft:sweet_berries",
+        "minecraft:rabbit_foot",
+        "minecraft:honey_bottle"
+    ]
+}

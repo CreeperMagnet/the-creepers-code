@@ -1,0 +1,6 @@
+{
+  "parent": "tcc:gui/toasts/template",
+  "textures": {
+    "0": "tcc:gui/toasts/quests/complete"
+  }
+}

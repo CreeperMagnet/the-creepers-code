@@ -1,0 +1,29 @@
+{
+  "condition": "minecraft:alternative",
+  "terms": [
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "equipment": {
+          "head": {
+            "nbt": "{tcc:{id:\"witch_hat\"}}",
+            "item": "minecraft:leather_helmet"
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "equipment": {
+          "head": {
+            "nbt": "{tcc:{id:\"cursed_crown\"}}",
+            "item": "minecraft:golden_helmet"
+          }
+        }
+      }
+    }
+  ]
+}

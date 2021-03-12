@@ -1,0 +1,1740 @@
+{
+  "criteria": {
+    "minecraft_bat": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [{
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Inventory:[{Slot:-106b,tag:{tcc:{gemstone:{id:\"minecraft:emerald\"}}}}]}"
+            }
+          },
+          {
+            "condition": "inverted",
+            "term": {
+              "condition": "entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Inventory:[{Slot:-106b,tag:{tcc:{id:\"gemstone\"}}}]}"
+              }
+            }
+          }
+        ],
+        "entity": {
+          "type": "bat"
+        }
+      }
+    },
+    "minecraft_bee": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [{
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Inventory:[{Slot:-106b,tag:{tcc:{gemstone:{id:\"minecraft:emerald\"}}}}]}"
+            }
+          },
+          {
+            "condition": "inverted",
+            "term": {
+              "condition": "entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Inventory:[{Slot:-106b,tag:{tcc:{id:\"gemstone\"}}}]}"
+              }
+            }
+          }
+        ],
+        "entity": {
+          "type": "bee"
+        }
+      }
+    },
+    "minecraft_blaze": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [{
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Inventory:[{Slot:-106b,tag:{tcc:{gemstone:{id:\"minecraft:emerald\"}}}}]}"
+            }
+          },
+          {
+            "condition": "inverted",
+            "term": {
+              "condition": "entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Inventory:[{Slot:-106b,tag:{tcc:{id:\"gemstone\"}}}]}"
+              }
+            }
+          }
+        ],
+        "entity": {
+          "type": "blaze"
+        }
+      }
+    },
+    "minecraft_cat": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [{
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Inventory:[{Slot:-106b,tag:{tcc:{gemstone:{id:\"minecraft:emerald\"}}}}]}"
+            }
+          },
+          {
+            "condition": "inverted",
+            "term": {
+              "condition": "entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Inventory:[{Slot:-106b,tag:{tcc:{id:\"gemstone\"}}}]}"
+              }
+            }
+          }
+        ],
+        "entity": {
+          "type": "cat"
+        }
+      }
+    },
+    "minecraft_cave_spider": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [{
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Inventory:[{Slot:-106b,tag:{tcc:{gemstone:{id:\"minecraft:emerald\"}}}}]}"
+            }
+          },
+          {
+            "condition": "inverted",
+            "term": {
+              "condition": "entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Inventory:[{Slot:-106b,tag:{tcc:{id:\"gemstone\"}}}]}"
+              }
+            }
+          }
+        ],
+        "entity": {
+          "type": "cave_spider"
+        }
+      }
+    },
+    "minecraft_chicken": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [{
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Inventory:[{Slot:-106b,tag:{tcc:{gemstone:{id:\"minecraft:emerald\"}}}}]}"
+            }
+          },
+          {
+            "condition": "inverted",
+            "term": {
+              "condition": "entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Inventory:[{Slot:-106b,tag:{tcc:{id:\"gemstone\"}}}]}"
+              }
+            }
+          }
+        ],
+        "entity": {
+          "type": "chicken"
+        }
+      }
+    },
+    "minecraft_cod": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [{
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Inventory:[{Slot:-106b,tag:{tcc:{gemstone:{id:\"minecraft:emerald\"}}}}]}"
+            }
+          },
+          {
+            "condition": "inverted",
+            "term": {
+              "condition": "entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Inventory:[{Slot:-106b,tag:{tcc:{id:\"gemstone\"}}}]}"
+              }
+            }
+          }
+        ],
+        "entity": {
+          "type": "cod"
+        }
+      }
+    },
+    "minecraft_cow": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [{
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Inventory:[{Slot:-106b,tag:{tcc:{gemstone:{id:\"minecraft:emerald\"}}}}]}"
+            }
+          },
+          {
+            "condition": "inverted",
+            "term": {
+              "condition": "entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Inventory:[{Slot:-106b,tag:{tcc:{id:\"gemstone\"}}}]}"
+              }
+            }
+          }
+        ],
+        "entity": {
+          "type": "cow"
+        }
+      }
+    },
+    "minecraft_creeper": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [{
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Inventory:[{Slot:-106b,tag:{tcc:{gemstone:{id:\"minecraft:emerald\"}}}}]}"
+            }
+          },
+          {
+            "condition": "inverted",
+            "term": {
+              "condition": "entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Inventory:[{Slot:-106b,tag:{tcc:{id:\"gemstone\"}}}]}"
+              }
+            }
+          }
+        ],
+        "entity": {
+          "type": "creeper"
+        }
+      }
+    },
+    "minecraft_dolphin": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [{
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Inventory:[{Slot:-106b,tag:{tcc:{gemstone:{id:\"minecraft:emerald\"}}}}]}"
+            }
+          },
+          {
+            "condition": "inverted",
+            "term": {
+              "condition": "entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Inventory:[{Slot:-106b,tag:{tcc:{id:\"gemstone\"}}}]}"
+              }
+            }
+          }
+        ],
+        "entity": {
+          "type": "dolphin"
+        }
+      }
+    },
+    "minecraft_donkey": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [{
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Inventory:[{Slot:-106b,tag:{tcc:{gemstone:{id:\"minecraft:emerald\"}}}}]}"
+            }
+          },
+          {
+            "condition": "inverted",
+            "term": {
+              "condition": "entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Inventory:[{Slot:-106b,tag:{tcc:{id:\"gemstone\"}}}]}"
+              }
+            }
+          }
+        ],
+        "entity": {
+          "type": "donkey"
+        }
+      }
+    },
+    "minecraft_drowned": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [{
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Inventory:[{Slot:-106b,tag:{tcc:{gemstone:{id:\"minecraft:emerald\"}}}}]}"
+            }
+          },
+          {
+            "condition": "inverted",
+            "term": {
+              "condition": "entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Inventory:[{Slot:-106b,tag:{tcc:{id:\"gemstone\"}}}]}"
+              }
+            }
+          }
+        ],
+        "entity": {
+          "type": "drowned"
+        }
+      }
+    },
+    "minecraft_elder_guardian": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [{
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Inventory:[{Slot:-106b,tag:{tcc:{gemstone:{id:\"minecraft:emerald\"}}}}]}"
+            }
+          },
+          {
+            "condition": "inverted",
+            "term": {
+              "condition": "entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Inventory:[{Slot:-106b,tag:{tcc:{id:\"gemstone\"}}}]}"
+              }
+            }
+          }
+        ],
+        "entity": {
+          "type": "elder_guardian"
+        }
+      }
+    },
+    "minecraft_enderman": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [{
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Inventory:[{Slot:-106b,tag:{tcc:{gemstone:{id:\"minecraft:emerald\"}}}}]}"
+            }
+          },
+          {
+            "condition": "inverted",
+            "term": {
+              "condition": "entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Inventory:[{Slot:-106b,tag:{tcc:{id:\"gemstone\"}}}]}"
+              }
+            }
+          }
+        ],
+        "entity": {
+          "type": "enderman"
+        }
+      }
+    },
+    "minecraft_endermite": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [{
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Inventory:[{Slot:-106b,tag:{tcc:{gemstone:{id:\"minecraft:emerald\"}}}}]}"
+            }
+          },
+          {
+            "condition": "inverted",
+            "term": {
+              "condition": "entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Inventory:[{Slot:-106b,tag:{tcc:{id:\"gemstone\"}}}]}"
+              }
+            }
+          }
+        ],
+        "entity": {
+          "type": "endermite"
+        }
+      }
+    },
+    "minecraft_fox": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [{
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Inventory:[{Slot:-106b,tag:{tcc:{gemstone:{id:\"minecraft:emerald\"}}}}]}"
+            }
+          },
+          {
+            "condition": "inverted",
+            "term": {
+              "condition": "entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Inventory:[{Slot:-106b,tag:{tcc:{id:\"gemstone\"}}}]}"
+              }
+            }
+          }
+        ],
+        "entity": {
+          "type": "fox"
+        }
+      }
+    },
+    "minecraft_ghast": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [{
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Inventory:[{Slot:-106b,tag:{tcc:{gemstone:{id:\"minecraft:emerald\"}}}}]}"
+            }
+          },
+          {
+            "condition": "inverted",
+            "term": {
+              "condition": "entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Inventory:[{Slot:-106b,tag:{tcc:{id:\"gemstone\"}}}]}"
+              }
+            }
+          }
+        ],
+        "entity": {
+          "type": "ghast"
+        }
+      }
+    },
+    "minecraft_guardian": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [{
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Inventory:[{Slot:-106b,tag:{tcc:{gemstone:{id:\"minecraft:emerald\"}}}}]}"
+            }
+          },
+          {
+            "condition": "inverted",
+            "term": {
+              "condition": "entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Inventory:[{Slot:-106b,tag:{tcc:{id:\"gemstone\"}}}]}"
+              }
+            }
+          }
+        ],
+        "entity": {
+          "type": "guardian"
+        }
+      }
+    },
+    "minecraft_horse": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [{
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Inventory:[{Slot:-106b,tag:{tcc:{gemstone:{id:\"minecraft:emerald\"}}}}]}"
+            }
+          },
+          {
+            "condition": "inverted",
+            "term": {
+              "condition": "entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Inventory:[{Slot:-106b,tag:{tcc:{id:\"gemstone\"}}}]}"
+              }
+            }
+          }
+        ],
+        "entity": {
+          "type": "horse"
+        }
+      }
+    },
+    "minecraft_hoglin": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [{
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Inventory:[{Slot:-106b,tag:{tcc:{gemstone:{id:\"minecraft:emerald\"}}}}]}"
+            }
+          },
+          {
+            "condition": "inverted",
+            "term": {
+              "condition": "entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Inventory:[{Slot:-106b,tag:{tcc:{id:\"gemstone\"}}}]}"
+              }
+            }
+          }
+        ],
+        "entity": {
+          "type": "hoglin"
+        }
+      }
+    },
+    "minecraft_husk": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [{
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Inventory:[{Slot:-106b,tag:{tcc:{gemstone:{id:\"minecraft:emerald\"}}}}]}"
+            }
+          },
+          {
+            "condition": "inverted",
+            "term": {
+              "condition": "entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Inventory:[{Slot:-106b,tag:{tcc:{id:\"gemstone\"}}}]}"
+              }
+            }
+          }
+        ],
+        "entity": {
+          "type": "husk"
+        }
+      }
+    },
+    "minecraft_illusioner": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [{
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Inventory:[{Slot:-106b,tag:{tcc:{gemstone:{id:\"minecraft:emerald\"}}}}]}"
+            }
+          },
+          {
+            "condition": "inverted",
+            "term": {
+              "condition": "entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Inventory:[{Slot:-106b,tag:{tcc:{id:\"gemstone\"}}}]}"
+              }
+            }
+          }
+        ],
+        "entity": {
+          "type": "illusioner"
+        }
+      }
+    },
+    "minecraft_iron_golem": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [{
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Inventory:[{Slot:-106b,tag:{tcc:{gemstone:{id:\"minecraft:emerald\"}}}}]}"
+            }
+          },
+          {
+            "condition": "inverted",
+            "term": {
+              "condition": "entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Inventory:[{Slot:-106b,tag:{tcc:{id:\"gemstone\"}}}]}"
+              }
+            }
+          }
+        ],
+        "entity": {
+          "type": "iron_golem"
+        }
+      }
+    },
+    "minecraft_llama": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [{
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Inventory:[{Slot:-106b,tag:{tcc:{gemstone:{id:\"minecraft:emerald\"}}}}]}"
+            }
+          },
+          {
+            "condition": "inverted",
+            "term": {
+              "condition": "entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Inventory:[{Slot:-106b,tag:{tcc:{id:\"gemstone\"}}}]}"
+              }
+            }
+          }
+        ],
+        "entity": {
+          "type": "llama"
+        }
+      }
+    },
+    "minecraft_magma_cube": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [{
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Inventory:[{Slot:-106b,tag:{tcc:{gemstone:{id:\"minecraft:emerald\"}}}}]}"
+            }
+          },
+          {
+            "condition": "inverted",
+            "term": {
+              "condition": "entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Inventory:[{Slot:-106b,tag:{tcc:{id:\"gemstone\"}}}]}"
+              }
+            }
+          }
+        ],
+        "entity": {
+          "type": "magma_cube"
+        }
+      }
+    },
+    "minecraft_mooshroom": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [{
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Inventory:[{Slot:-106b,tag:{tcc:{gemstone:{id:\"minecraft:emerald\"}}}}]}"
+            }
+          },
+          {
+            "condition": "inverted",
+            "term": {
+              "condition": "entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Inventory:[{Slot:-106b,tag:{tcc:{id:\"gemstone\"}}}]}"
+              }
+            }
+          }
+        ],
+        "entity": {
+          "type": "mooshroom"
+        }
+      }
+    },
+    "minecraft_mule": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [{
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Inventory:[{Slot:-106b,tag:{tcc:{gemstone:{id:\"minecraft:emerald\"}}}}]}"
+            }
+          },
+          {
+            "condition": "inverted",
+            "term": {
+              "condition": "entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Inventory:[{Slot:-106b,tag:{tcc:{id:\"gemstone\"}}}]}"
+              }
+            }
+          }
+        ],
+        "entity": {
+          "type": "mule"
+        }
+      }
+    },
+    "minecraft_ocelot": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [{
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Inventory:[{Slot:-106b,tag:{tcc:{gemstone:{id:\"minecraft:emerald\"}}}}]}"
+            }
+          },
+          {
+            "condition": "inverted",
+            "term": {
+              "condition": "entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Inventory:[{Slot:-106b,tag:{tcc:{id:\"gemstone\"}}}]}"
+              }
+            }
+          }
+        ],
+        "entity": {
+          "type": "ocelot"
+        }
+      }
+    },
+    "minecraft_panda": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [{
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Inventory:[{Slot:-106b,tag:{tcc:{gemstone:{id:\"minecraft:emerald\"}}}}]}"
+            }
+          },
+          {
+            "condition": "inverted",
+            "term": {
+              "condition": "entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Inventory:[{Slot:-106b,tag:{tcc:{id:\"gemstone\"}}}]}"
+              }
+            }
+          }
+        ],
+        "entity": {
+          "type": "panda"
+        }
+      }
+    },
+    "minecraft_parrot": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [{
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Inventory:[{Slot:-106b,tag:{tcc:{gemstone:{id:\"minecraft:emerald\"}}}}]}"
+            }
+          },
+          {
+            "condition": "inverted",
+            "term": {
+              "condition": "entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Inventory:[{Slot:-106b,tag:{tcc:{id:\"gemstone\"}}}]}"
+              }
+            }
+          }
+        ],
+        "entity": {
+          "type": "parrot"
+        }
+      }
+    },
+    "minecraft_phantom": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [{
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Inventory:[{Slot:-106b,tag:{tcc:{gemstone:{id:\"minecraft:emerald\"}}}}]}"
+            }
+          },
+          {
+            "condition": "inverted",
+            "term": {
+              "condition": "entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Inventory:[{Slot:-106b,tag:{tcc:{id:\"gemstone\"}}}]}"
+              }
+            }
+          }
+        ],
+        "entity": {
+          "type": "phantom"
+        }
+      }
+    },
+    "minecraft_pig": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [{
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Inventory:[{Slot:-106b,tag:{tcc:{gemstone:{id:\"minecraft:emerald\"}}}}]}"
+            }
+          },
+          {
+            "condition": "inverted",
+            "term": {
+              "condition": "entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Inventory:[{Slot:-106b,tag:{tcc:{id:\"gemstone\"}}}]}"
+              }
+            }
+          }
+        ],
+        "entity": {
+          "type": "pig"
+        }
+      }
+    },
+    "minecraft_piglin": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [{
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Inventory:[{Slot:-106b,tag:{tcc:{gemstone:{id:\"minecraft:emerald\"}}}}]}"
+            }
+          },
+          {
+            "condition": "inverted",
+            "term": {
+              "condition": "entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Inventory:[{Slot:-106b,tag:{tcc:{id:\"gemstone\"}}}]}"
+              }
+            }
+          }
+        ],
+        "entity": {
+          "type": "piglin"
+        }
+      }
+    },
+    "minecraft_piglin_brute": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [{
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Inventory:[{Slot:-106b,tag:{tcc:{gemstone:{id:\"minecraft:emerald\"}}}}]}"
+            }
+          },
+          {
+            "condition": "inverted",
+            "term": {
+              "condition": "entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Inventory:[{Slot:-106b,tag:{tcc:{id:\"gemstone\"}}}]}"
+              }
+            }
+          }
+        ],
+        "entity": {
+          "type": "piglin_brute"
+        }
+      }
+    },
+    "minecraft_pillager": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [{
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Inventory:[{Slot:-106b,tag:{tcc:{gemstone:{id:\"minecraft:emerald\"}}}}]}"
+            }
+          },
+          {
+            "condition": "inverted",
+            "term": {
+              "condition": "entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Inventory:[{Slot:-106b,tag:{tcc:{id:\"gemstone\"}}}]}"
+              }
+            }
+          }
+        ],
+        "entity": {
+          "type": "pillager"
+        }
+      }
+    },
+    "minecraft_polar_bear": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [{
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Inventory:[{Slot:-106b,tag:{tcc:{gemstone:{id:\"minecraft:emerald\"}}}}]}"
+            }
+          },
+          {
+            "condition": "inverted",
+            "term": {
+              "condition": "entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Inventory:[{Slot:-106b,tag:{tcc:{id:\"gemstone\"}}}]}"
+              }
+            }
+          }
+        ],
+        "entity": {
+          "type": "polar_bear"
+        }
+      }
+    },
+    "minecraft_pufferfish": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [{
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Inventory:[{Slot:-106b,tag:{tcc:{gemstone:{id:\"minecraft:emerald\"}}}}]}"
+            }
+          },
+          {
+            "condition": "inverted",
+            "term": {
+              "condition": "entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Inventory:[{Slot:-106b,tag:{tcc:{id:\"gemstone\"}}}]}"
+              }
+            }
+          }
+        ],
+        "entity": {
+          "type": "pufferfish"
+        }
+      }
+    },
+    "minecraft_rabbit": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [{
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Inventory:[{Slot:-106b,tag:{tcc:{gemstone:{id:\"minecraft:emerald\"}}}}]}"
+            }
+          },
+          {
+            "condition": "inverted",
+            "term": {
+              "condition": "entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Inventory:[{Slot:-106b,tag:{tcc:{id:\"gemstone\"}}}]}"
+              }
+            }
+          }
+        ],
+        "entity": {
+          "type": "rabbit"
+        }
+      }
+    },
+    "minecraft_ravager": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [{
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Inventory:[{Slot:-106b,tag:{tcc:{gemstone:{id:\"minecraft:emerald\"}}}}]}"
+            }
+          },
+          {
+            "condition": "inverted",
+            "term": {
+              "condition": "entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Inventory:[{Slot:-106b,tag:{tcc:{id:\"gemstone\"}}}]}"
+              }
+            }
+          }
+        ],
+        "entity": {
+          "type": "ravager"
+        }
+      }
+    },
+    "minecraft_salmon": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [{
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Inventory:[{Slot:-106b,tag:{tcc:{gemstone:{id:\"minecraft:emerald\"}}}}]}"
+            }
+          },
+          {
+            "condition": "inverted",
+            "term": {
+              "condition": "entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Inventory:[{Slot:-106b,tag:{tcc:{id:\"gemstone\"}}}]}"
+              }
+            }
+          }
+        ],
+        "entity": {
+          "type": "salmon"
+        }
+      }
+    },
+    "minecraft_sheep": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [{
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Inventory:[{Slot:-106b,tag:{tcc:{gemstone:{id:\"minecraft:emerald\"}}}}]}"
+            }
+          },
+          {
+            "condition": "inverted",
+            "term": {
+              "condition": "entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Inventory:[{Slot:-106b,tag:{tcc:{id:\"gemstone\"}}}]}"
+              }
+            }
+          }
+        ],
+        "entity": {
+          "type": "sheep"
+        }
+      }
+    },
+    "minecraft_shulker": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [{
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Inventory:[{Slot:-106b,tag:{tcc:{gemstone:{id:\"minecraft:emerald\"}}}}]}"
+            }
+          },
+          {
+            "condition": "inverted",
+            "term": {
+              "condition": "entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Inventory:[{Slot:-106b,tag:{tcc:{id:\"gemstone\"}}}]}"
+              }
+            }
+          }
+        ],
+        "entity": {
+          "type": "shulker"
+        }
+      }
+    },
+    "minecraft_silverfish": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [{
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Inventory:[{Slot:-106b,tag:{tcc:{gemstone:{id:\"minecraft:emerald\"}}}}]}"
+            }
+          },
+          {
+            "condition": "inverted",
+            "term": {
+              "condition": "entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Inventory:[{Slot:-106b,tag:{tcc:{id:\"gemstone\"}}}]}"
+              }
+            }
+          }
+        ],
+        "entity": {
+          "type": "silverfish"
+        }
+      }
+    },
+    "minecraft_skeleton_horse": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [{
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Inventory:[{Slot:-106b,tag:{tcc:{gemstone:{id:\"minecraft:emerald\"}}}}]}"
+            }
+          },
+          {
+            "condition": "inverted",
+            "term": {
+              "condition": "entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Inventory:[{Slot:-106b,tag:{tcc:{id:\"gemstone\"}}}]}"
+              }
+            }
+          }
+        ],
+        "entity": {
+          "type": "skeleton_horse"
+        }
+      }
+    },
+    "minecraft_skeleton": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [{
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Inventory:[{Slot:-106b,tag:{tcc:{gemstone:{id:\"minecraft:emerald\"}}}}]}"
+            }
+          },
+          {
+            "condition": "inverted",
+            "term": {
+              "condition": "entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Inventory:[{Slot:-106b,tag:{tcc:{id:\"gemstone\"}}}]}"
+              }
+            }
+          }
+        ],
+        "entity": {
+          "type": "skeleton"
+        }
+      }
+    },
+    "minecraft_slime": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [{
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Inventory:[{Slot:-106b,tag:{tcc:{gemstone:{id:\"minecraft:emerald\"}}}}]}"
+            }
+          },
+          {
+            "condition": "inverted",
+            "term": {
+              "condition": "entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Inventory:[{Slot:-106b,tag:{tcc:{id:\"gemstone\"}}}]}"
+              }
+            }
+          }
+        ],
+        "entity": {
+          "type": "slime"
+        }
+      }
+    },
+    "minecraft_snow_golem": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [{
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Inventory:[{Slot:-106b,tag:{tcc:{gemstone:{id:\"minecraft:emerald\"}}}}]}"
+            }
+          },
+          {
+            "condition": "inverted",
+            "term": {
+              "condition": "entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Inventory:[{Slot:-106b,tag:{tcc:{id:\"gemstone\"}}}]}"
+              }
+            }
+          }
+        ],
+        "entity": {
+          "type": "snow_golem"
+        }
+      }
+    },
+    "minecraft_spider": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [{
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Inventory:[{Slot:-106b,tag:{tcc:{gemstone:{id:\"minecraft:emerald\"}}}}]}"
+            }
+          },
+          {
+            "condition": "inverted",
+            "term": {
+              "condition": "entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Inventory:[{Slot:-106b,tag:{tcc:{id:\"gemstone\"}}}]}"
+              }
+            }
+          }
+        ],
+        "entity": {
+          "type": "spider"
+        }
+      }
+    },
+    "minecraft_squid": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [{
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Inventory:[{Slot:-106b,tag:{tcc:{gemstone:{id:\"minecraft:emerald\"}}}}]}"
+            }
+          },
+          {
+            "condition": "inverted",
+            "term": {
+              "condition": "entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Inventory:[{Slot:-106b,tag:{tcc:{id:\"gemstone\"}}}]}"
+              }
+            }
+          }
+        ],
+        "entity": {
+          "type": "squid"
+        }
+      }
+    },
+    "minecraft_stray": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [{
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Inventory:[{Slot:-106b,tag:{tcc:{gemstone:{id:\"minecraft:emerald\"}}}}]}"
+            }
+          },
+          {
+            "condition": "inverted",
+            "term": {
+              "condition": "entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Inventory:[{Slot:-106b,tag:{tcc:{id:\"gemstone\"}}}]}"
+              }
+            }
+          }
+        ],
+        "entity": {
+          "type": "stray"
+        }
+      }
+    },
+    "minecraft_strider": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [{
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Inventory:[{Slot:-106b,tag:{tcc:{gemstone:{id:\"minecraft:emerald\"}}}}]}"
+            }
+          },
+          {
+            "condition": "inverted",
+            "term": {
+              "condition": "entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Inventory:[{Slot:-106b,tag:{tcc:{id:\"gemstone\"}}}]}"
+              }
+            }
+          }
+        ],
+        "entity": {
+          "type": "strider"
+        }
+      }
+    },
+    "minecraft_trader_llama": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [{
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Inventory:[{Slot:-106b,tag:{tcc:{gemstone:{id:\"minecraft:emerald\"}}}}]}"
+            }
+          },
+          {
+            "condition": "inverted",
+            "term": {
+              "condition": "entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Inventory:[{Slot:-106b,tag:{tcc:{id:\"gemstone\"}}}]}"
+              }
+            }
+          }
+        ],
+        "entity": {
+          "type": "trader_llama"
+        }
+      }
+    },
+    "minecraft_tropical_fish": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [{
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Inventory:[{Slot:-106b,tag:{tcc:{gemstone:{id:\"minecraft:emerald\"}}}}]}"
+            }
+          },
+          {
+            "condition": "inverted",
+            "term": {
+              "condition": "entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Inventory:[{Slot:-106b,tag:{tcc:{id:\"gemstone\"}}}]}"
+              }
+            }
+          }
+        ],
+        "entity": {
+          "type": "tropical_fish"
+        }
+      }
+    },
+    "minecraft_turtle": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [{
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Inventory:[{Slot:-106b,tag:{tcc:{gemstone:{id:\"minecraft:emerald\"}}}}]}"
+            }
+          },
+          {
+            "condition": "inverted",
+            "term": {
+              "condition": "entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Inventory:[{Slot:-106b,tag:{tcc:{id:\"gemstone\"}}}]}"
+              }
+            }
+          }
+        ],
+        "entity": {
+          "type": "turtle"
+        }
+      }
+    },
+    "minecraft_vex": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [{
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Inventory:[{Slot:-106b,tag:{tcc:{gemstone:{id:\"minecraft:emerald\"}}}}]}"
+            }
+          },
+          {
+            "condition": "inverted",
+            "term": {
+              "condition": "entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Inventory:[{Slot:-106b,tag:{tcc:{id:\"gemstone\"}}}]}"
+              }
+            }
+          }
+        ],
+        "entity": {
+          "type": "vex"
+        }
+      }
+    },
+    "minecraft_vindicator": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [{
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Inventory:[{Slot:-106b,tag:{tcc:{gemstone:{id:\"minecraft:emerald\"}}}}]}"
+            }
+          },
+          {
+            "condition": "inverted",
+            "term": {
+              "condition": "entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Inventory:[{Slot:-106b,tag:{tcc:{id:\"gemstone\"}}}]}"
+              }
+            }
+          }
+        ],
+        "entity": {
+          "type": "vindicator"
+        }
+      }
+    },
+    "minecraft_witch": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [{
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Inventory:[{Slot:-106b,tag:{tcc:{gemstone:{id:\"minecraft:emerald\"}}}}]}"
+            }
+          },
+          {
+            "condition": "inverted",
+            "term": {
+              "condition": "entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Inventory:[{Slot:-106b,tag:{tcc:{id:\"gemstone\"}}}]}"
+              }
+            }
+          }
+        ],
+        "entity": {
+          "type": "witch"
+        }
+      }
+    },
+    "minecraft_wither_skeleton": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [{
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Inventory:[{Slot:-106b,tag:{tcc:{gemstone:{id:\"minecraft:emerald\"}}}}]}"
+            }
+          },
+          {
+            "condition": "inverted",
+            "term": {
+              "condition": "entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Inventory:[{Slot:-106b,tag:{tcc:{id:\"gemstone\"}}}]}"
+              }
+            }
+          }
+        ],
+        "entity": {
+          "type": "wither_skeleton"
+        }
+      }
+    },
+    "minecraft_wolf": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [{
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Inventory:[{Slot:-106b,tag:{tcc:{gemstone:{id:\"minecraft:emerald\"}}}}]}"
+            }
+          },
+          {
+            "condition": "inverted",
+            "term": {
+              "condition": "entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Inventory:[{Slot:-106b,tag:{tcc:{id:\"gemstone\"}}}]}"
+              }
+            }
+          }
+        ],
+        "entity": {
+          "type": "wolf"
+        }
+      }
+    },
+    "minecraft_zoglin": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [{
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Inventory:[{Slot:-106b,tag:{tcc:{gemstone:{id:\"minecraft:emerald\"}}}}]}"
+            }
+          },
+          {
+            "condition": "inverted",
+            "term": {
+              "condition": "entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Inventory:[{Slot:-106b,tag:{tcc:{id:\"gemstone\"}}}]}"
+              }
+            }
+          }
+        ],
+        "entity": {
+          "type": "zoglin"
+        }
+      }
+    },
+    "minecraft_zombie": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [{
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Inventory:[{Slot:-106b,tag:{tcc:{gemstone:{id:\"minecraft:emerald\"}}}}]}"
+            }
+          },
+          {
+            "condition": "inverted",
+            "term": {
+              "condition": "entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Inventory:[{Slot:-106b,tag:{tcc:{id:\"gemstone\"}}}]}"
+              }
+            }
+          }
+        ],
+        "entity": {
+          "type": "zombie"
+        }
+      }
+    },
+    "minecraft_zombie_horse": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [{
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Inventory:[{Slot:-106b,tag:{tcc:{gemstone:{id:\"minecraft:emerald\"}}}}]}"
+            }
+          },
+          {
+            "condition": "inverted",
+            "term": {
+              "condition": "entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Inventory:[{Slot:-106b,tag:{tcc:{id:\"gemstone\"}}}]}"
+              }
+            }
+          }
+        ],
+        "entity": {
+          "type": "zombie_horse"
+        }
+      }
+    },
+    "minecraft_zombified_piglin": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [{
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Inventory:[{Slot:-106b,tag:{tcc:{gemstone:{id:\"minecraft:emerald\"}}}}]}"
+            }
+          },
+          {
+            "condition": "inverted",
+            "term": {
+              "condition": "entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Inventory:[{Slot:-106b,tag:{tcc:{id:\"gemstone\"}}}]}"
+              }
+            }
+          }
+        ],
+        "entity": {
+          "type": "zombified_piglin"
+        }
+      }
+    },
+    "minecraft_zombie_villager": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [{
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Inventory:[{Slot:-106b,tag:{tcc:{gemstone:{id:\"minecraft:emerald\"}}}}]}"
+            }
+          },
+          {
+            "condition": "inverted",
+            "term": {
+              "condition": "entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Inventory:[{Slot:-106b,tag:{tcc:{id:\"gemstone\"}}}]}"
+              }
+            }
+          }
+        ],
+        "entity": {
+          "type": "zombie_villager"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "tcc:item/item_modification/durability/damage/rings/emerald_damage"
+  },
+  "requirements": [
+    [
+      "minecraft_bat",
+      "minecraft_bee",
+      "minecraft_blaze",
+      "minecraft_cat",
+      "minecraft_cave_spider",
+      "minecraft_chicken",
+      "minecraft_cod",
+      "minecraft_cow",
+      "minecraft_creeper",
+      "minecraft_dolphin",
+      "minecraft_donkey",
+      "minecraft_drowned",
+      "minecraft_elder_guardian",
+      "minecraft_enderman",
+      "minecraft_endermite",
+      "minecraft_fox",
+      "minecraft_ghast",
+      "minecraft_guardian",
+      "minecraft_hoglin",
+      "minecraft_horse",
+      "minecraft_husk",
+      "minecraft_illusioner",
+      "minecraft_iron_golem",
+      "minecraft_llama",
+      "minecraft_magma_cube",
+      "minecraft_mooshroom",
+      "minecraft_mule",
+      "minecraft_ocelot",
+      "minecraft_panda",
+      "minecraft_parrot",
+      "minecraft_phantom",
+      "minecraft_pig",
+      "minecraft_piglin",
+      "minecraft_piglin_brute",
+      "minecraft_pillager",
+      "minecraft_polar_bear",
+      "minecraft_pufferfish",
+      "minecraft_rabbit",
+      "minecraft_ravager",
+      "minecraft_salmon",
+      "minecraft_sheep",
+      "minecraft_shulker",
+      "minecraft_silverfish",
+      "minecraft_skeleton_horse",
+      "minecraft_skeleton",
+      "minecraft_slime",
+      "minecraft_snow_golem",
+      "minecraft_spider",
+      "minecraft_squid",
+      "minecraft_stray",
+      "minecraft_strider",
+      "minecraft_trader_llama",
+      "minecraft_tropical_fish",
+      "minecraft_turtle",
+      "minecraft_vex",
+      "minecraft_vindicator",
+      "minecraft_witch",
+      "minecraft_wither_skeleton",
+      "minecraft_wolf",
+      "minecraft_zoglin",
+      "minecraft_zombie",
+      "minecraft_zombie_horse",
+      "minecraft_zombified_piglin",
+      "minecraft_zombie_villager"
+    ]
+  ],
+  "parent": "tcc:technical/root"
+}

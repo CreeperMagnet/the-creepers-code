@@ -1,0 +1,27 @@
+{
+  "criteria": {
+    "hurt_entity": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "equipment": {
+              "mainhand": {
+                "tag": "tcc:swords",
+                "nbt": "{tcc:{potion:{}}}"
+              }
+            }
+          },
+          "type": {
+            "is_projectile": false,
+            "is_magic": false
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "tcc:item/tipped_swords/hurt_entity"
+  },
+  "parent": "tcc:technical/root"
+}

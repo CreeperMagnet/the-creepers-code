@@ -1,0 +1,36 @@
+{
+  "pools": [{
+    "rolls": 1,
+    "entries": [{
+      "type": "minecraft:item",
+      "weight": 1,
+      "functions": [{
+          "function": "minecraft:set_nbt",
+          "tag": "{RepairCost:100,Unbreakable:1b,HideFlags:4,tcc:{id:\"quest_book\",quest:\"warrior\"},CustomModelData:330002}"
+        },
+        {
+          "function": "minecraft:set_name",
+          "name": {
+            "translate": "item.tcc.quest_book",
+            "italic": false
+          }
+        },
+        {
+          "function": "minecraft:set_lore",
+          "lore": [{
+              "translate": "advancements.tcc.quests.warrior.root.title",
+              "color": "gray",
+              "italic": false
+            },
+            {
+              "translate": "pack.tcc",
+              "color": "#008725",
+              "italic": true
+            }
+          ]
+        }
+      ],
+      "name": "minecraft:carrot_on_a_stick"
+    }]
+  }]
+}

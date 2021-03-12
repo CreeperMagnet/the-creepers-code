@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:compass",
+      "nbt": "{CustomModelData:330000}"
+    },
+    "title": {
+      "translate": "advancements.tcc.minecraft.nether.smoldering_seeker.title"
+    },
+    "description": [{
+        "translate": "advancements.tcc.minecraft.nether.smoldering_seeker.description"
+      },
+      {
+        "translate": "advancements.tcc.minecraft.tooltip_spacer"
+      },
+      {
+        "translate": "pack.tcc",
+        "color": "#008725",
+        "italic": true
+      }
+    ],
+    "frame": "task"
+  },
+  "parent": "minecraft:nether/root",
+  "criteria": {
+    "use_smoldering_seeker": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

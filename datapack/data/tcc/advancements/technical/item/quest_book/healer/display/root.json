@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:carrot_on_a_stick",
+      "nbt": "{CustomModelData:330002}"
+    },
+    "title": {
+      "translate": "advancements.tcc.quests.healer.root.title",
+      "color": "dark_purple"
+    },
+    "description": {
+      "translate": "advancements.tcc.quests.healer.root.description"
+    },
+    "background": "minecraft:textures/block/birch_planks.png",
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "impossible": {
+      "trigger": "impossible"
+    }
+  }
+}

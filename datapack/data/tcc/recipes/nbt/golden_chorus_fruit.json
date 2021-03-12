@@ -1,0 +1,19 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+      "###",
+      "#F#",
+      "###"
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:gold_ingot"
+      },
+      "F":{
+          "item":"minecraft:chorus_fruit"
+      }
+    },
+    "result": {
+      "item": "minecraft:knowledge_book"
+    }
+  }

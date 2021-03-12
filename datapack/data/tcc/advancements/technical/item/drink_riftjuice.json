@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "drank_riftjuice": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "nbt": "{tcc:{id:\"riftjuice_bottle\"}}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "tcc:item/riftjuice_bottle/uuid_check"
+  },
+  "parent": "tcc:technical/root"
+}

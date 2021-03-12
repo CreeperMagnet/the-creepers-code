@@ -1,0 +1,38 @@
+{
+  "parent": "minecraft:husbandry/plant_seed",
+  "display": {
+    "icon": {
+      "item": "minecraft:bread",
+      "nbt": "{CustomModelData:330001}"
+    },
+    "title": {
+      "translate": "advancements.tcc.minecraft.husbandry.muffin_time.title"
+    },
+    "description": [{
+        "translate": "advancements.tcc.minecraft.husbandry.muffin_time.description"
+      },
+      {
+        "translate": "advancements.tcc.minecraft.tooltip_spacer"
+      },
+      {
+        "translate": "pack.tcc",
+        "color": "#008725",
+        "italic": true
+      }
+    ],
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "sweet_berry_muffin": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "nbt": "{tcc:{id:\"sweet_berry_muffin\"}}"
+        }
+      }
+    }
+  }
+}

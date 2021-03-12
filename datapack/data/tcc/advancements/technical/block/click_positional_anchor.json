@@ -1,0 +1,32 @@
+{
+  "criteria": {
+    "normal": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": {
+          "block": {
+            "block": "minecraft:dropper",
+            "nbt": "{Lock:\"positional_anchor\\\\uF001\"}"
+          }
+        }
+      }
+    },
+    "filled": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": {
+          "block": {
+            "block": "minecraft:dropper",
+            "nbt": "{Lock:\"positional_anchor_filled\\\\uF001\"}"
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    ["normal", "filled"]
+  ],
+  "rewards": {
+    "function": "tcc:block/positional_anchor/stop_sound"
+  }
+}

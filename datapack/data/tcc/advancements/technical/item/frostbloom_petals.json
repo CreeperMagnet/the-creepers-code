@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "ate_frostbloom_petals": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "nbt": "{tcc:{id:\"frostbloom_petals\"}}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "tcc:item/frostbloom_petals/eat"
+  },
+  "parent": "tcc:technical/root"
+}

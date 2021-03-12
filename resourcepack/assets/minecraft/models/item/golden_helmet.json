@@ -1,0 +1,14 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/golden_helmet"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 330001
+      },
+      "model": "tcc:item/cursed_crown"
+    }
+  ]
+}

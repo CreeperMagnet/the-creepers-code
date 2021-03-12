@@ -1,0 +1,9 @@
+{
+  "values": [
+    "minecraft:stone_bricks",
+    "minecraft:polished_blackstone_bricks",
+    "minecraft:nether_bricks",
+    "minecraft:infested_stone_bricks",
+    "#tcc:anvil_smash_glass"
+  ]
+}

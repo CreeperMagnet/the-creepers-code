@@ -1,0 +1,21 @@
+{
+    "criteria": {
+      "click_positional_anchor": {
+        "trigger": "minecraft:item_used_on_block",
+        "conditions": {
+          "item": {
+            "item": "minecraft:ender_pearl"
+          },
+          "location": {
+            "block": {
+              "block": "minecraft:dropper",
+              "nbt": "{Lock:\"positional_anchor\\\\uF001\"}"
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "tcc:block/positional_anchor/fill/start"
+    }
+  }

@@ -1,0 +1,6 @@
+{
+  "parent": "tcc:item/teacup/empty",
+  "textures": {
+    "layer1": "tcc:item/teacup/clearsight"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "parent": "minecraft:item/template_spawn_egg",
+  "overrides": [{
+    "predicate": {
+      "custom_model_data": 330000
+    },
+    "model": "tcc:item/enchanter_spawn_egg"
+  },
+  {
+    "predicate": {
+      "custom_model_data": 330001
+    },
+    "model": "tcc:item/iceologer_spawn_egg"
+  }]
+}

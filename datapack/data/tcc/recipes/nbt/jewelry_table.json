@@ -1,0 +1,19 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    " WW",
+    " QQ",
+    " QQ"
+  ],
+  "key": {
+    "W": {
+      "tag": "minecraft:wool"
+    },
+    "Q": {
+      "item": "minecraft:quartz_block"
+    }
+  },
+  "result": {
+    "item": "minecraft:knowledge_book"
+  }
+}

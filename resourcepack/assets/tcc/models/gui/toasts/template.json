@@ -1,0 +1,22 @@
+{
+  "textures": {
+    "0": "tcc:gui/toasts/pog"
+  },
+  "elements": [{
+    "from": [-8, 7, 8],
+    "to": [32, 15, 8],
+    "faces": {
+      "north": { "uv": [0, 0, 10, 2], "texture": "#0" },
+      "east": { "uv": [0, 0, 5, 1], "texture": "#0" },
+      "south": { "uv": [0, 0, 10, 2], "texture": "#0" },
+      "west": { "uv": [0, 0, 5, 1], "texture": "#0" }
+    }
+  }],
+  "gui_light": "front",
+  "display": {
+    "gui": {
+      "translation": [48, -12, 0],
+      "scale": [3.993, 3.993, 3.993]
+    }
+  }
+}

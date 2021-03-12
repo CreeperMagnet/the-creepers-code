@@ -1,0 +1,32 @@
+{
+  "parent": "tcc:recipes/root",
+  "rewards": {
+    "recipes": [
+      "tcc:chainmail_helmet"
+    ]
+  },
+  "criteria": {
+    "has_chain": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:chain"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "tcc:chainmail_helmet"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_chain",
+      "has_the_recipe"
+    ]
+  ]
+}

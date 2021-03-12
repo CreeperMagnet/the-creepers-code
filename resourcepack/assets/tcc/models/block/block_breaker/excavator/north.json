@@ -1,0 +1,6 @@
+{
+  "parent": "tcc:block/block_breaker/template_north",
+  "textures": {
+    "top": "tcc:block/block_breaker/excavator_top"
+  }
+}

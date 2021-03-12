@@ -1,0 +1,47 @@
+{
+  "type": "minecraft:block",
+  "pools": [{
+    "rolls": 1,
+    "entries": [{
+      "type": "minecraft:alternatives",
+      "children": [{
+          "type": "minecraft:item",
+          "name": "minecraft:soul_campfire",
+          "conditions": [{
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "enchantments": [{
+                "enchantment": "minecraft:silk_touch"
+              }]
+            }
+          }]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:soul_campfire",
+          "functions": [{
+            "function": "minecraft:set_nbt",
+            "tag": "{CustomModelData:330000,BlockStateTag:{lit:\"false\"}}"
+          }],
+          "conditions": [{
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "tag": "tcc:axes"
+            }
+          }]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:soul_soil",
+          "conditions": [{
+            "condition": "minecraft:survives_explosion"
+          }],
+          "functions": [{
+            "function": "minecraft:set_count",
+            "count": 1
+          }]
+        }
+      ]
+    }]
+  }]
+}

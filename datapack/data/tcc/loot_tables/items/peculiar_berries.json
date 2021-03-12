@@ -1,0 +1,31 @@
+{
+  "pools": [{
+    "rolls": 1,
+    "entries": [{
+      "type": "minecraft:item",
+      "weight": 1,
+      "functions": [{
+          "function": "minecraft:set_nbt",
+          "tag": "{RepairCost:100,tcc:{id:\"peculiar_berries\"},CustomModelData:330006,Unbreakable:1b,HideFlags:4}"
+        },
+        {
+          "function": "minecraft:set_name",
+          "name": {
+            "translate": "item.tcc.peculiar_berries",
+            "color": "light_purple",
+            "italic": false
+          }
+        },
+        {
+          "function": "minecraft:set_lore",
+          "lore": [{
+            "translate": "pack.tcc",
+            "color": "#008725",
+            "italic": true
+          }]
+        }
+      ],
+      "name": "minecraft:carrot_on_a_stick"
+    }]
+  }]
+}

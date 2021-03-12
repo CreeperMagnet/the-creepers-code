@@ -1,0 +1,31 @@
+{
+	"parent":"block/block",
+	"textures": {
+		"back": "tcc:block/block_breaker/back",
+		"front": "tcc:block/block_breaker/front",
+		"side": "tcc:block/block_breaker/side",
+		"top": "tcc:block/block_breaker/excavator_top",
+		"particle": "tcc:block/block_breaker/front"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#front"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#side"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#back"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#side"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#top"},
+				"down": {"uv": [0, 0, 16, 16], "rotation": 180, "texture": "#top"}
+			}
+		}
+	],
+  "display": {
+    "head": {
+      "rotation": [0, 0, 0],
+      "translation": [0, -43.23, 0],
+      "scale": [1.601, 1.601, 1.601]
+    }
+  }
+}

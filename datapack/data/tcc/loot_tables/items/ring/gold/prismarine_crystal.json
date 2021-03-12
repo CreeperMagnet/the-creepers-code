@@ -1,0 +1,61 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:338017,tcc:{gemstone:{id:\"minecraft:prismarine_crystal\",quality:\"cut\"},id:\"ring\",metal:\"minecraft:gold\",durability:[50,50],repaired:1b},Unbreakable:1b,HideFlags:4}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.tcc.ring.gemstone.prismarine_crystal",
+                "italic": false
+              }
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "translate": "item.durability",
+                  "with": [
+                    50,
+                    50
+                  ],
+                  "italic": false,
+                  "color": "gray"
+                },
+                {
+                  "translate": "pack.tcc",
+                  "color": "#008725",
+                  "italic": true
+                }
+              ],
+              "entity": "this"
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "generic.attack_speed",
+                  "name": "generic.attack_speed",
+                  "amount": 0.10,
+                  "operation": "multiply_base",
+                  "slot": [
+                    "offhand"
+                  ]
+                }
+              ]
+            }
+          ],
+          "name": "minecraft:carrot_on_a_stick"
+        }
+      ]
+    }
+  ]
+}

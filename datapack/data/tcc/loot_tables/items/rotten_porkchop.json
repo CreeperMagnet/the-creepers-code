@@ -1,0 +1,30 @@
+{
+  "pools": [{
+    "rolls": 1,
+    "entries": [{
+      "type": "minecraft:item",
+      "weight": 1,
+      "functions": [{
+          "function": "minecraft:set_nbt",
+          "tag": "{tcc:{id:\"rotten_porkchop\"},CustomModelData:330000}"
+        },
+        {
+          "function": "minecraft:set_name",
+          "name": {
+            "translate": "item.tcc.rotten_porkchop",
+            "italic": false
+          }
+        },
+        {
+          "function": "minecraft:set_lore",
+          "lore": [{
+            "translate": "pack.tcc",
+            "color": "#008725",
+            "italic": true
+          }]
+        }
+      ],
+      "name": "minecraft:porkchop"
+    }]
+  }]
+}

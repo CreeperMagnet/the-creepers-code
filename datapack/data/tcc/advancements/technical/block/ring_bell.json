@@ -1,0 +1,28 @@
+{
+    "criteria": {
+      "ring_bell": {
+        "trigger": "minecraft:item_used_on_block",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "flags": {
+                  "is_sneaking": false
+                }
+              }
+            }
+          ],
+          "location": {
+            "block": {
+              "block": "minecraft:bell"
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "tcc:entity/trader_entity/bell"
+    }
+  }

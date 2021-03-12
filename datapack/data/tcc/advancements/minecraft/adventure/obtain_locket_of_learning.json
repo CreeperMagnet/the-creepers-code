@@ -1,0 +1,33 @@
+{
+  "parent": "minecraft:adventure/kill_a_mob",
+  "display": {
+    "icon": {
+      "item": "minecraft:carrot_on_a_stick",
+      "nbt": "{CustomModelData:330036,Enchantments:[{}]}"
+    },
+    "title": {
+      "translate": "advancements.tcc.minecraft.adventure.obtain_locket_of_learning.title"
+    },
+    "description": [{
+        "translate": "advancements.tcc.minecraft.adventure.obtain_locket_of_learning.description"
+      },
+      {
+        "translate": "advancements.tcc.minecraft.tooltip_spacer"
+      },
+      {
+        "translate": "pack.tcc",
+        "color": "#008725",
+        "italic": true
+      }
+    ],
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "get_locket": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

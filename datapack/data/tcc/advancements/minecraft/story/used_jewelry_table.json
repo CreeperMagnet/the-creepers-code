@@ -1,0 +1,41 @@
+{
+  "parent": "tcc:minecraft/story/gemstone",
+  "display": {
+    "icon": {
+      "item": "minecraft:hopper",
+      "nbt": "{CustomModelData:330000}"
+    },
+    "title": {
+      "translate": "advancements.tcc.minecraft.story.used_jewelry_table.title"
+    },
+    "description": [
+      {
+        "translate": "advancements.tcc.minecraft.story.used_jewelry_table.description"
+      },
+      {
+        "translate": "advancements.tcc.minecraft.tooltip_spacer"
+      },
+      {
+        "translate": "pack.tcc",
+        "color": "#008725",
+        "italic": true
+      }
+    ],
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "gemstone_ring": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{tcc:{id:\"ring\",gemstone:{}}}"
+          }
+        ]
+      }
+    }
+  }
+}

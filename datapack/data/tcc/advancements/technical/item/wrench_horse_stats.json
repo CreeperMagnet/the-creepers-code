@@ -1,0 +1,19 @@
+{
+  "criteria": {
+    "click_horse": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "#tcc:horses"
+        },
+        "item": {
+          "nbt": "{tcc:{id:\"wrench\"}}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "tcc:item/wrench/horse_stats/raycast_start"
+  },
+  "parent": "tcc:technical/root"
+}

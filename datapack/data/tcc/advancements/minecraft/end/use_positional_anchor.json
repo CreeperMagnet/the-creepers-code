@@ -1,0 +1,41 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:dropper",
+      "nbt": "{CustomModelData:330032}"
+    },
+    "title": {
+      "translate": "advancements.tcc.minecraft.end.use_positional_anchor.title"
+    },
+    "description": [{
+        "translate": "advancements.tcc.minecraft.end.use_positional_anchor.description"
+      },
+      {
+        "translate": "advancements.tcc.minecraft.tooltip_spacer"
+      },
+      {
+        "translate": "pack.tcc",
+        "color": "#008725",
+        "italic": true
+      }
+    ],
+    "frame": "task"
+  },
+  "parent": "minecraft:end/find_end_city",
+  "criteria": {
+    "click_positional_anchor": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "item": {
+          "item": "minecraft:ender_pearl"
+        },
+        "location": {
+          "block": {
+            "block": "minecraft:dropper",
+            "nbt": "{Lock:\"positional_anchor\\\\uF001\"}"
+          }
+        }
+      }
+    }
+  }
+}

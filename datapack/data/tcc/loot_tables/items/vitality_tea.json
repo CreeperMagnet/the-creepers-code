@@ -1,0 +1,44 @@
+{
+  "pools": [{
+    "rolls": 1,
+    "entries": [{
+      "type": "minecraft:item",
+      "weight": 1,
+      "functions": [{
+          "function": "minecraft:set_nbt",
+          "tag": "{Potion:\"minecraft:mundane\",CustomPotionColor:16777215,HideFlags:36,tcc:{id:\"tea\",tea:\"vitality\"},CustomModelData:330010}"
+        },
+        {
+          "function": "minecraft:set_name",
+          "name": {
+            "translate": "item.tcc.vitality_tea",
+            "italic": false
+          }
+        },
+        {
+          "function": "minecraft:set_lore",
+          "lore": [{
+              "translate": "potion.withDuration",
+              "color": "gold",
+              "italic": false,
+              "with": [{
+                  "translate": "item.tcc.vitality_tea.lore"
+                },
+                {
+                  "translate": "potion.tcc.duration",
+                  "with": [5, 0, 0]
+                }
+              ]
+            },
+            {
+              "translate": "pack.tcc",
+              "color": "#008725",
+              "italic": true
+            }
+          ]
+        }
+      ],
+      "name": "minecraft:potion"
+    }]
+  }]
+}

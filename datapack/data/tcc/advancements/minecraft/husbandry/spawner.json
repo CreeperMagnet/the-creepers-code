@@ -1,0 +1,43 @@
+{
+  "parent": "tcc:minecraft/husbandry/peculiar_berries",
+  "display": {
+    "icon": {
+      "item": "minecraft:spawner"
+    },
+    "title": {
+      "translate": "advancements.tcc.minecraft.husbandry.spawner.title"
+    },
+    "description": [
+      {
+        "translate": "advancements.tcc.minecraft.husbandry.spawner.description"
+      },
+      {
+        "translate": "advancements.tcc.minecraft.tooltip_spacer"
+      },
+      {
+        "translate": "pack.tcc",
+        "color": "#008725",
+        "italic": true
+      }
+    ],
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "click_spawner": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": {
+          "block": {
+            "block": "minecraft:spawner"
+          }
+        },
+        "item": {
+          "tag": "tcc:spawn_eggs"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "tcc:block/block_breaker/template_down",
+  "textures": {
+    "top": "tcc:block/block_breaker/harvester_top"
+  }
+}

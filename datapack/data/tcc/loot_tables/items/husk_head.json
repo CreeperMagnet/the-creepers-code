@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:entity",
+  "pools": [{
+    "rolls": 1,
+    "entries": [{
+      "type": "minecraft:item",
+      "weight": 1,
+      "functions": [{
+          "function": "minecraft:set_nbt",
+          "tag": "{tcc:{id:\"husk_head\"},SkullOwner:{Name:\"Husk\",Id:[I;-543595956,1475298536,-1557353608,427041782],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWQ2ZDllZjVkMjljYzFmNjhjYmU4NTZjMWQ0M2JjZGUzOWM4MWU1MzM0ZDJjYTM5NTg5NDFmMTRlNTNkZTlmMCJ9fX0=\"}]}}}"
+        },
+        {
+          "function": "minecraft:set_name",
+          "name": {
+            "translate": "block.tcc.husk_head",
+            "color": "yellow",
+            "italic": false
+          }
+        },
+        {
+          "function": "minecraft:set_lore",
+          "lore": [{
+            "translate": "pack.tcc",
+            "color": "#008725",
+            "italic": true
+          }]
+        }
+      ],
+      "name": "minecraft:player_head"
+    }]
+  }]
+}

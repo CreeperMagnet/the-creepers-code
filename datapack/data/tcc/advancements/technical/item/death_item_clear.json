@@ -1,0 +1,19 @@
+{
+  "parent": "tcc:technical/root",
+  "criteria": {
+    "pick_up_death_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:structure_block",
+            "nbt": "{tcc:{id:\"death_item\"}}"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "tcc:item/clear_death_item/schedule"
+  }
+}

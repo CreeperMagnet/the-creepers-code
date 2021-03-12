@@ -1,0 +1,17 @@
+{
+  "pools": [{
+    "rolls": 1,
+    "entries": [{
+      "type": "minecraft:loot_table",
+      "weight": 1,
+      "functions": [{
+        "function": "minecraft:set_count",
+        "count": {
+          "min": 0,
+          "max": 2
+        }
+      }],
+      "name": "tcc:items/frostbloom_petals"
+    }]
+  }]
+}

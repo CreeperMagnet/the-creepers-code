@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:golden_sword",
+      "nbt": "{CustomModelData:330000}"
+    },
+    "title": {
+      "translate": "advancements.tcc.minecraft.end.tip_sword.title"
+    },
+    "description": [
+      {
+        "translate": "advancements.tcc.minecraft.end.tip_sword.description"
+      },
+      {
+        "translate": "advancements.tcc.minecraft.tooltip_spacer"
+      },
+      {
+        "translate": "pack.tcc",
+        "color": "#008725",
+        "italic": true
+      }
+    ],
+    "frame": "task"
+  },
+  "parent": "minecraft:end/dragon_breath",
+  "criteria": {
+    "tipped_sword": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{tcc:{potion:{}}}",
+            "tag": "tcc:swords"
+          }
+        ]
+      }
+    }
+  }
+}

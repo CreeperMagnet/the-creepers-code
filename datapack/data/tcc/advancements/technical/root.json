@@ -1,0 +1,10 @@
+{
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "tcc:commands/revoke_technical_advancements"
+  }
+}

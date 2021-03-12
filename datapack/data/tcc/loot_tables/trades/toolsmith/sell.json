@@ -1,0 +1,129 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "tcc:items/ring/gold/diamond",
+          "weight": 1
+        },
+        {
+          "type": "loot_table",
+          "name": "tcc:items/ring/gold/ender_pearl",
+          "weight": 1
+        },
+        {
+          "type": "loot_table",
+          "name": "tcc:items/ring/gold/lapis_lazuli",
+          "weight": 1
+        },
+        {
+          "type": "loot_table",
+          "name": "tcc:items/ring/gold/obsidian",
+          "weight": 1
+        },
+        {
+          "type": "loot_table",
+          "name": "tcc:items/ring/gold/prismarine_crystal",
+          "weight": 1
+        },
+        {
+          "type": "loot_table",
+          "name": "tcc:items/ring/gold/quartz",
+          "weight": 1
+        },
+        {
+          "type": "loot_table",
+          "name": "tcc:items/ring/iron/diamond",
+          "weight": 1
+        },
+        {
+          "type": "loot_table",
+          "name": "tcc:items/ring/iron/ender_pearl",
+          "weight": 1
+        },
+        {
+          "type": "loot_table",
+          "name": "tcc:items/ring/iron/lapis_lazuli",
+          "weight": 1
+        },
+        {
+          "type": "loot_table",
+          "name": "tcc:items/ring/iron/obsidian",
+          "weight": 1
+        },
+        {
+          "type": "loot_table",
+          "name": "tcc:items/ring/iron/prismarine_crystal",
+          "weight": 1
+        },
+        {
+          "type": "loot_table",
+          "name": "tcc:items/ring/iron/quartz",
+          "weight": 1
+        },
+        {
+          "type": "loot_table",
+          "name": "tcc:items/ring/gold/pristine_diamond",
+          "weight": 1
+        },
+        {
+          "type": "loot_table",
+          "name": "tcc:items/ring/gold/pristine_ender_pearl",
+          "weight": 1
+        },
+        {
+          "type": "loot_table",
+          "name": "tcc:items/ring/gold/pristine_lapis_lazuli",
+          "weight": 1
+        },
+        {
+          "type": "loot_table",
+          "name": "tcc:items/ring/gold/pristine_obsidian",
+          "weight": 1
+        },
+        {
+          "type": "loot_table",
+          "name": "tcc:items/ring/gold/pristine_prismarine_crystal",
+          "weight": 1
+        },
+        {
+          "type": "loot_table",
+          "name": "tcc:items/ring/gold/pristine_quartz",
+          "weight": 1
+        },
+        {
+          "type": "loot_table",
+          "name": "tcc:items/ring/iron/pristine_diamond",
+          "weight": 1
+        },
+        {
+          "type": "loot_table",
+          "name": "tcc:items/ring/iron/pristine_ender_pearl",
+          "weight": 1
+        },
+        {
+          "type": "loot_table",
+          "name": "tcc:items/ring/iron/pristine_lapis_lazuli",
+          "weight": 1
+        },
+        {
+          "type": "loot_table",
+          "name": "tcc:items/ring/iron/pristine_obsidian",
+          "weight": 1
+        },
+        {
+          "type": "loot_table",
+          "name": "tcc:items/ring/iron/pristine_prismarine_crystal",
+          "weight": 1
+        },
+        {
+          "type": "loot_table",
+          "name": "tcc:items/ring/iron/pristine_quartz",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

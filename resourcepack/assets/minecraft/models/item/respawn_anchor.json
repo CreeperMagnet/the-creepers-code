@@ -1,0 +1,28 @@
+{
+  "parent": "minecraft:block/respawn_anchor_0",
+  "overrides": [{
+      "predicate": {
+        "custom_model_data": 330000
+      },
+      "model": "minecraft:block/respawn_anchor_1"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330001
+      },
+      "model": "minecraft:block/respawn_anchor_2"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330002
+      },
+      "model": "minecraft:block/respawn_anchor_3"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330003
+      },
+      "model": "minecraft:block/respawn_anchor_4"
+    }
+  ]
+}

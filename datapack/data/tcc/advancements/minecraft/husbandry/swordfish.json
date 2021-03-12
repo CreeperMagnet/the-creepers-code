@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:tropical_fish",
+      "nbt": "{CustomModelData:330000}"
+    },
+    "title": {
+      "translate": "advancements.tcc.minecraft.husbandry.swordfish.title"
+    },
+    "description": [{
+        "translate": "advancements.tcc.minecraft.husbandry.swordfish.description"
+      },
+      {
+        "translate": "advancements.tcc.minecraft.tooltip_spacer"
+      },
+      {
+        "translate": "pack.tcc",
+        "color": "#008725",
+        "italic": true
+      }
+    ],
+    "frame": "goal"
+  },
+  "parent": "minecraft:husbandry/fishy_business",
+  "criteria": {
+    "swordfish": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{
+          "nbt": "{tcc:{id:\"swordfish\"}}"
+        }]
+      }
+    }
+  }
+}

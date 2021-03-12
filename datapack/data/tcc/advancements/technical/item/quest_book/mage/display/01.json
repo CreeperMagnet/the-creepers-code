@@ -1,0 +1,21 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:splash_potion"
+        },
+        "title": {
+            "translate": "advancements.tcc.quests.mage.01.title"
+        },
+        "description": {
+            "translate": "advancements.tcc.quests.mage.01.description"
+        },
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "tcc:technical/item/quest_book/mage/display/root",
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

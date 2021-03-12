@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "hit_squid": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "type": "squid"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "tcc:entity/player/hit_squid"
+  },
+  "parent": "tcc:technical/root"
+}

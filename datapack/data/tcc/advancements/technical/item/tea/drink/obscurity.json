@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "drink_obscurity_tea": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "nbt": "{tcc:{id:\"tea\",tea:\"obscurity\"}}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "tcc:item/tea/drink/obscurity"
+  },
+  "parent": "tcc:technical/root"
+}

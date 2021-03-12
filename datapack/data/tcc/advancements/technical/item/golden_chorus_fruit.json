@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "ate_golden_chorus_fruit": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "nbt": "{tcc:{id:\"golden_chorus_fruit\"}}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "tcc:item/golden_chorus_fruit"
+  }
+}

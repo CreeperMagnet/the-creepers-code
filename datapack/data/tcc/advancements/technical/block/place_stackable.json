@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "place": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "item": {
+          "nbt": "{BlockEntityTag:{name:\"tcc:stackable_item\"}}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "tcc:block/remove_stackables"
+  }
+}

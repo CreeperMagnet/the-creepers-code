@@ -1,0 +1,62 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:338016,tcc:{gemstone:{id:\"minecraft:obsidian\",quality:\"pristine\"},id:\"ring\",metal:\"minecraft:gold\",durability:[50,50],repaired:1b},Unbreakable:1b,HideFlags:4}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.tcc.ring.gemstone.obsidian.pristine",
+                "italic": false,
+                "color": "yellow"
+              }
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "translate": "item.durability",
+                  "with": [
+                    50,
+                    50
+                  ],
+                  "italic": false,
+                  "color": "gray"
+                },
+                {
+                  "translate": "pack.tcc",
+                  "color": "#008725",
+                  "italic": true
+                }
+              ],
+              "entity": "this"
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "generic.knockback_resistance",
+                  "name": "generic.knockback_resistance",
+                  "amount": 0.2,
+                  "operation": "addition",
+                  "slot": [
+                    "offhand"
+                  ]
+                }
+              ]
+            }
+          ],
+          "name": "minecraft:carrot_on_a_stick"
+        }
+      ]
+    }
+  ]
+}

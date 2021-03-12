@@ -1,0 +1,38 @@
+{
+  "parent": "minecraft:story/smelt_iron",
+  "display": {
+    "icon": {
+      "item": "minecraft:carrot_on_a_stick",
+      "nbt": "{CustomModelData:338000}"
+    },
+    "title": {
+      "translate": "advancements.tcc.minecraft.story.iron_ring.title"
+    },
+    "description": [{
+        "translate": "advancements.tcc.minecraft.story.iron_ring.description"
+      },
+      {
+        "translate": "advancements.tcc.minecraft.tooltip_spacer"
+      },
+      {
+        "translate": "pack.tcc",
+        "color": "#008725",
+        "italic": true
+      }
+    ],
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "iron_ring": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{
+          "nbt": "{tcc:{id:\"ring\",metal:\"minecraft:iron\"}}"
+        }]
+      }
+    }
+  }
+}

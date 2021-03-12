@@ -1,0 +1,27 @@
+{
+  "parent": "tcc:technical/root",
+  "criteria": {
+    "equip_witch_hat": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "item": "minecraft:leather_helmet",
+              "nbt": "{tcc:{id:\"witch_hat\"}}"
+            }
+          }
+        },
+        "items": [
+          {
+            "item": "minecraft:leather_helmet",
+            "nbt": "{tcc:{id:\"witch_hat\"}}"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "tcc:item/witch_hat/schedule_equip"
+  }
+}

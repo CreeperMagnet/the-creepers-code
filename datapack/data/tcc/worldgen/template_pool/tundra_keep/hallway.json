@@ -1,0 +1,13 @@
+{
+  "name": "tcc:tundra_keep/hallway",
+  "fallback": "minecraft:empty",
+  "elements": [{
+    "weight": 1,
+    "element": {
+      "location": "tcc:tundra_keep/hallway",
+      "processors": "tcc:crack_10_percent",
+      "projection": "rigid",
+      "element_type": "minecraft:single_pool_element"
+    }
+  }]
+}

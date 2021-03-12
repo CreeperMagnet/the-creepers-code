@@ -1,0 +1,21 @@
+{
+  "pools": [{
+    "rolls": 1,
+    "entries": [{
+      "type": "minecraft:item",
+      "functions": [{
+          "destination": "fortress",
+          "function": "minecraft:exploration_map",
+          "decoration": "target_point",
+          "zoom": 1,
+          "skip_existing_chunks": false
+        },
+        {
+          "function": "minecraft:set_nbt",
+          "tag": "{tcc:{id:\"smoldering_seeker_map\"}}"
+        }
+      ],
+      "name": "minecraft:map"
+    }]
+  }]
+}

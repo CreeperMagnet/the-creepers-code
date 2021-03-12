@@ -1,0 +1,96 @@
+{
+  "type": "minecraft:block",
+  "pools": [{
+    "rolls": 1,
+    "entries": [{
+      "type": "minecraft:alternatives",
+      "children": [{
+          "type": "minecraft:item",
+          "name": "minecraft:respawn_anchor",
+          "functions": [{
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "block.tcc.charged_respawn_anchor",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:copy_state",
+              "block": "minecraft:respawn_anchor",
+              "properties": [
+                "charges"
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:330000}",
+              "conditions": [{
+                "condition": "minecraft:block_state_property",
+                "block": "minecraft:respawn_anchor",
+                "properties": {
+                  "charges": "1"
+                }
+              }]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:330001}",
+              "conditions": [{
+                "condition": "minecraft:block_state_property",
+                "block": "minecraft:respawn_anchor",
+                "properties": {
+                  "charges": "2"
+                }
+              }]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:330002}",
+              "conditions": [{
+                "condition": "minecraft:block_state_property",
+                "block": "minecraft:respawn_anchor",
+                "properties": {
+                  "charges": "3"
+                }
+              }]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:330003}",
+              "conditions": [{
+                "condition": "minecraft:block_state_property",
+                "block": "minecraft:respawn_anchor",
+                "properties": {
+                  "charges": "4"
+                }
+              }]
+            }
+          ],
+          "conditions": [{
+              "condition": "minecraft:inverted",
+              "term": {
+                "condition": "minecraft:block_state_property",
+                "block": "minecraft:respawn_anchor",
+                "properties": {
+                  "charges": "0"
+                }
+              }
+            },
+            {
+              "condition": "minecraft:match_tool",
+              "predicate": {
+                "enchantments": [{
+                  "enchantment": "minecraft:silk_touch"
+                }]
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:respawn_anchor"
+        }
+      ]
+    }]
+  }]
+}

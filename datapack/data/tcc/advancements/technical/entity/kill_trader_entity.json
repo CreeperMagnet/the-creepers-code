@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "kill_trader_entity": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "nbt": "{Tags:[\"tcc.trader_entity\"]}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "tcc:entity/trader_entity/death/schedule"
+  },
+  "parent": "tcc:technical/root"
+}

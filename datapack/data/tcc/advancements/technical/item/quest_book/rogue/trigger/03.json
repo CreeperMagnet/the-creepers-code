@@ -1,0 +1,27 @@
+{
+  "criteria": {
+    "invisibility": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{
+          "nbt": "{Potion:\"minecraft:invisibility\"}"
+        }]
+      }
+    },
+    "long_invisibility": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{
+          "nbt": "{Potion:\"minecraft:long_invisibility\"}"
+        }]
+      }
+    }
+  },
+  "rewards": {
+    "function": "tcc:item/quest_book/rogue/trigger/03"
+  },
+  "requirements": [
+    ["invisibility", "long_invisibility"]
+  ],
+  "parent": "tcc:technical/root"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": "minecraft:alternative",
+  "terms": [{
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "flags": {
+          "is_baby": true
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{UUID:[I; 1809200861, -1751232988, -1628462218, 2135519595]}"
+      }
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "ate_enchanted_golden_apple_pie_slice": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "nbt": "{tcc:{id:\"enchanted_golden_apple_pie_slice\"}}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "tcc:item/enchanted_golden_apple_pie/eat_slice"
+  },
+  "parent": "tcc:technical/root"
+}

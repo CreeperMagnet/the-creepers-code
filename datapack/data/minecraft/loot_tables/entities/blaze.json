@@ -1,0 +1,44 @@
+{
+  "pools": [{
+      "rolls": 1,
+      "entries": [{
+        "type": "item",
+        "weight": 1,
+        "name": "minecraft:blaze_rod",
+        "functions": [{
+            "function": "set_count",
+            "count": {
+              "min": 0,
+              "max": 2
+            }
+          },
+          {
+            "function": "looting_enchant",
+            "count": {
+              "min": 0,
+              "max": 1
+            }
+          }
+        ]
+      }],
+      "conditions": [{
+        "condition": "killed_by_player"
+      }]
+    },
+    {
+      "rolls": 1,
+      "conditions": [{
+        "condition": "entity_properties",
+        "entity": "killer",
+        "predicate": {
+          "nbt": "{powered:1b}"
+        }
+      }],
+      "entries": [{
+        "type": "loot_table",
+        "weight": 1,
+        "name": "tcc:items/blaze_head"
+      }]
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "type": "minecraft:block",
+  "pools": [{
+    "rolls": 1,
+    "entries": [{
+      "type": "minecraft:alternatives",
+      "children": [{
+          "type": "minecraft:item",
+          "name": "minecraft:daylight_detector",
+          "functions": [{
+              "function": "minecraft:copy_state",
+              "block": "minecraft:daylight_detector",
+              "properties": [
+                "inverted"
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:330000}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "block.tcc.moonlight_detector",
+                "italic": false
+              }
+            }
+          ],
+          "conditions": [{
+              "condition": "minecraft:inverted",
+              "term": {
+                "condition": "minecraft:block_state_property",
+                "block": "minecraft:daylight_detector",
+                "properties": {
+                  "inverted": false
+                }
+              }
+            },
+            {
+              "condition": "minecraft:match_tool",
+              "predicate": {
+                "enchantments": [{
+                  "enchantment": "minecraft:silk_touch"
+                }]
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:daylight_detector"
+        }
+      ]
+    }]
+  }]
+}

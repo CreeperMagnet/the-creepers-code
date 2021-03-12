@@ -1,0 +1,6 @@
+{
+    "parent": "item/golden_sword",
+    "textures": {
+        "layer1": "tcc:item/tipped_sword_overlay"
+    }
+}

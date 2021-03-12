@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "drink_vivacity_tea": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "nbt": "{tcc:{id:\"tea\",tea:\"vivacity\"}}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "tcc:item/tea/drink/vivacity"
+  },
+  "parent": "tcc:technical/root"
+}

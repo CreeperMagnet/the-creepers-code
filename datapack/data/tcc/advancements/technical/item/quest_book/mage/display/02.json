@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:spectral_arrow"
+    },
+    "title": {
+      "translate": "advancements.tcc.quests.mage.02.title"
+    },
+    "description": {
+      "translate": "advancements.tcc.quests.mage.02.description"
+    },
+    "show_toast": false,
+    "announce_to_chat": false,
+    "frame": "challenge"
+  },
+  "parent": "tcc:technical/item/quest_book/mage/display/03",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

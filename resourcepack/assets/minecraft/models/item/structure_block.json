@@ -1,0 +1,280 @@
+{
+  "parent": "block/structure_block",
+  "overrides": [{
+      "predicate": {
+        "custom_model_data": 330000
+      },
+      "model": "tcc:item/empty"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330001
+      },
+      "model": "tcc:gui/toasts/quests/item_complete"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330002
+      },
+      "model": "tcc:gui/toasts/quests/complete"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330003
+      },
+      "model": "tcc:item/empty"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330004
+      },
+      "model": "tcc:item/boomerang_spinning"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330005
+      },
+      "model": "tcc:item/spectral_boomerang_spinning"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330006
+      },
+      "model": "tcc:item/gemstone/amethyst"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330007
+      },
+      "model": "tcc:item/gemstone/pristine/amethyst"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330008
+      },
+      "model": "tcc:item/gemstone/diamond"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330009
+      },
+      "model": "tcc:item/gemstone/pristine/diamond"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330010
+      },
+      "model": "tcc:item/gemstone/emerald"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330011
+      },
+      "model": "tcc:item/gemstone/pristine/emerald"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330012
+      },
+      "model": "tcc:item/gemstone/ender_pearl"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330013
+      },
+      "model": "tcc:item/gemstone/pristine/ender_pearl"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330014
+      },
+      "model": "tcc:item/gemstone/lapis_lazuli"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330015
+      },
+      "model": "tcc:item/gemstone/pristine/lapis_lazuli"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330016
+      },
+      "model": "tcc:item/gemstone/obsidian"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330017
+      },
+      "model": "tcc:item/gemstone/pristine/obsidian"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330018
+      },
+      "model": "tcc:item/gemstone/prismarine_crystal"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330019
+      },
+      "model": "tcc:item/gemstone/pristine/prismarine_crystal"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330020
+      },
+      "model": "tcc:item/gemstone/quartz"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330021
+      },
+      "model": "tcc:item/gemstone/pristine/quartz"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330022
+      },
+      "model": "tcc:item/warped_wart"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330023
+      },
+      "model": "tcc:block/teapot_empty"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330024
+      },
+      "model": "tcc:item/teacup/empty"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330025
+      },
+      "model": "tcc:block/frostbloom"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330026
+      },
+      "model": "tcc:block/geomancer_pillar/normal_bottom"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330027
+      },
+      "model": "tcc:block/geomancer_pillar/normal_top"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330028
+      },
+      "model": "tcc:block/geomancer_pillar/explosive_bottom"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330029
+      },
+      "model": "tcc:block/geomancer_pillar/explosive_top"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330030
+      },
+      "model": "tcc:block/gobblerift/stage_1"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330031
+      },
+      "model": "tcc:block/gobblerift/hurt/stage_1"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330032
+      },
+      "model": "tcc:block/gobblerift/stage_2"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330033
+      },
+      "model": "tcc:block/gobblerift/hurt/stage_2"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330034
+      },
+      "model": "tcc:block/gobblerift/stage_3"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330035
+      },
+      "model": "tcc:block/gobblerift/hurt/stage_3"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330036
+      },
+      "model": "tcc:block/gobblerift/stage_4"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330037
+      },
+      "model": "tcc:block/gobblerift/hurt/stage_4"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330038
+      },
+      "model": "tcc:block/gobblerift/stage_5"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330039
+      },
+      "model": "tcc:block/gobblerift/hurt/stage_5"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330040
+      },
+      "model": "tcc:block/gobblerift/stage_6_empty"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330041
+      },
+      "model": "tcc:block/gobblerift/hurt/stage_6_empty"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330042
+      },
+      "model": "tcc:block/gobblerift/stage_6_digesting"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330043
+      },
+      "model": "tcc:block/gobblerift/hurt/stage_6_digesting"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330044
+      },
+      "model": "tcc:block/gobblerift/stage_6_full"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330045
+      },
+      "model": "tcc:block/gobblerift/hurt/stage_6_full"
+    }
+  ]
+}

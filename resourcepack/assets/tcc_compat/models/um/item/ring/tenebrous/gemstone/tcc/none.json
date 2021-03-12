@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "tcc_compat:um/item/ring/metal/tenebrous"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "tcc:tundra_keep/mobs/vindicator",
+  "fallback": "minecraft:empty",
+  "elements": [{
+    "weight": 1,
+    "element": {
+      "location": "tcc:tundra_keep/mobs/vindicator",
+      "processors": "minecraft:empty",
+      "projection": "rigid",
+      "element_type": "minecraft:single_pool_element"
+    }
+  }]
+}

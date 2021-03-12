@@ -1,0 +1,102 @@
+{
+  "providers": [{
+      "type": "bitmap",
+      "file": "tcc:gui/tea/antitoxin.png",
+      "ascent": 15,
+      "height": 20,
+      "chars": [
+        "\uc001"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "tcc:gui/tea/clearsight.png",
+      "ascent": 15,
+      "height": 20,
+      "chars": [
+        "\uc002"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "tcc:gui/tea/obscurity.png",
+      "ascent": 15,
+      "height": 20,
+      "chars": [
+        "\uc003"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "tcc:gui/tea/plenty.png",
+      "ascent": 15,
+      "height": 20,
+      "chars": [
+        "\uc004"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "tcc:gui/tea/purity.png",
+      "ascent": 15,
+      "height": 20,
+      "chars": [
+        "\uc005"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "tcc:gui/tea/serendipity.png",
+      "ascent": 15,
+      "height": 20,
+      "chars": [
+        "\uc006"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "tcc:gui/tea/stability.png",
+      "ascent": 15,
+      "height": 20,
+      "chars": [
+        "\uc007"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "tcc:gui/tea/steadiness.png",
+      "ascent": 15,
+      "height": 20,
+      "chars": [
+        "\uc008"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "tcc:gui/tea/vigor.png",
+      "ascent": 15,
+      "height": 20,
+      "chars": [
+        "\uc009"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "tcc:gui/tea/vitality.png",
+      "ascent": 15,
+      "height": 20,
+      "chars": [
+        "\uc010"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "tcc:gui/tea/vivacity.png",
+      "ascent": 15,
+      "height": 20,
+      "chars": [
+        "\uc011"
+      ]
+    }
+  ]
+}

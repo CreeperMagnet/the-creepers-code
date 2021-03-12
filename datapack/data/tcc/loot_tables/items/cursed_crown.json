@@ -1,0 +1,31 @@
+{
+  "pools": [{
+    "rolls": 1,
+    "entries": [{
+      "type": "minecraft:item",
+      "weight": 1,
+      "functions": [{
+          "function": "minecraft:set_nbt",
+          "tag": "{AttributeModifiers:[],Unbreakable:1b,HideFlags:68,RepairCost:100,tcc:{id:\"cursed_crown\"},CustomModelData:330001}"
+        },
+        {
+          "function": "minecraft:set_name",
+          "name": {
+            "translate": "item.tcc.cursed_crown",
+            "color": "yellow",
+            "italic": false
+          }
+        },
+        {
+          "function": "minecraft:set_lore",
+          "lore": [{
+            "translate": "pack.tcc",
+            "color": "#008725",
+            "italic": true
+          }]
+        }
+      ],
+      "name": "minecraft:golden_helmet"
+    }]
+  }]
+}

@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "drink_stability_tea": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "nbt": "{tcc:{id:\"tea\",tea:\"stability\"}}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "tcc:item/tea/drink/stability"
+  },
+  "parent": "tcc:technical/root"
+}

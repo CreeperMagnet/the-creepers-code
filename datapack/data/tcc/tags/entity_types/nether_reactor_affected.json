@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:player",
+    "minecraft:iron_golem",
+    "minecraft:villager",
+    "minecraft:parrot",
+    "minecraft:cat",
+    "minecraft:wolf",
+    "minecraft:horse",
+    "minecraft:mule",
+    "minecraft:donkey",
+    "minecraft:fox"
+  ]
+}

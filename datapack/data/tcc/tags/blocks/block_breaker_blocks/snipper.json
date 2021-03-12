@@ -1,0 +1,24 @@
+{
+  "values": [
+    "#minecraft:leaves",
+    "#minecraft:wool",
+    "minecraft:cobweb",
+    "minecraft:grass",
+    "minecraft:tall_grass",
+    "minecraft:fern",
+    "minecraft:large_fern",
+    "minecraft:dead_bush",
+    "minecraft:seagrass",
+    "minecraft:tall_seagrass",
+    "minecraft:cactus",
+    "minecraft:vine",
+    "minecraft:twisting_vines_plant",
+    "minecraft:twisting_vines",
+    "minecraft:weeping_vines_plant",
+    "minecraft:weeping_vines",
+    "minecraft:nether_sprouts",
+    "#tcc:mod/quark/blossom_leaves",
+    "#tcc:air",
+    {"id": "quark:root", "required": false}
+  ]
+}

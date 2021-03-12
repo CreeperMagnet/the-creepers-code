@@ -1,0 +1,10 @@
+{
+  "parent": "tcc:block/block_breaker/template",
+  "display": {
+    "head": {
+      "rotation": [-90, 0, 180],
+      "translation": [0, -43.23, 0],
+      "scale": [1.601, 1.601, 1.601]
+    }
+  }
+}

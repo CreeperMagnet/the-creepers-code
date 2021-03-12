@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "tcc:item/ring/potion/overlay",
+    "layer1": "tcc_compat:um/item/ring/metal/tenebrous"
+  }
+}

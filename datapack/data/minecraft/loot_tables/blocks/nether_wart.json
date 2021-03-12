@@ -1,0 +1,49 @@
+{
+  "type": "minecraft:block",
+  "pools": [{
+      "rolls": 1.0,
+      "entries": [{
+        "type": "minecraft:item",
+        "name": "minecraft:nether_wart"
+      }],
+      "conditions": [{
+        "condition": "minecraft:inverted",
+        "term": {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "nbt": "{SelectedItem:{tag:{tcc:{id:\"obsidian_scythe\"}}}}",
+            "flags": {
+              "is_sneaking": false
+            }
+          }
+        }
+      }]
+    },
+    {
+      "rolls": 1,
+      "entries": [{
+        "type": "minecraft:item",
+        "conditions": [{
+          "condition": "minecraft:block_state_property",
+          "block": "minecraft:nether_wart",
+          "properties": {
+            "age": "3"
+          }
+        }],
+        "functions": [{
+          "function": "minecraft:set_count",
+          "count": {
+            "min": 1.0,
+            "max": 3.0,
+            "type": "minecraft:uniform"
+          }
+        }],
+        "name": "minecraft:nether_wart"
+      }],
+      "functions": [{
+        "function": "minecraft:explosion_decay"
+      }]
+    }
+  ]
+}

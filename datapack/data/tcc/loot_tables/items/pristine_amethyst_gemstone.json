@@ -1,0 +1,47 @@
+{
+  "pools": [{
+    "rolls": 1,
+    "entries": [{
+      "type": "minecraft:item",
+      "weight": 1,
+      "functions": [{
+          "function": "set_nbt",
+          "tag": "{BlockEntityTag:{name:\"tcc:stackable_item\"},HideFlags:2,tcc:{id:\"gemstone\",gemstone:{id:\"minecraft:amethyst\",quality:\"pristine\"}},CustomModelData:330007}"
+        },
+        {
+          "function": "minecraft:set_name",
+          "name": {
+            "translate": "item.tcc.pristine_amethyst_gemstone",
+            "color": "yellow",
+            "italic": false
+          }
+        },
+        {
+          "function": "set_lore",
+          "lore": [{
+              "translate": "pack.tcc",
+              "color": "#008725",
+              "italic": true
+            },
+            "",
+            {
+              "translate": "item.tcc.modifiers.ring",
+              "italic": false,
+              "color": "gray"
+            },
+            {
+              "translate": "attribute.modifier.plus.0",
+              "italic": false,
+              "color": "blue",
+              "with": ["2", {
+                "translate": "attribute.name.tcc.AMETHYST_ATTRIBUTE"
+              }]
+            }
+          ],
+          "entity": "this"
+        }
+      ],
+      "name": "minecraft:structure_block"
+    }]
+  }]
+}

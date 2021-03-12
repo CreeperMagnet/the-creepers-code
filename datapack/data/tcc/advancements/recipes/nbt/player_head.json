@@ -1,0 +1,15 @@
+{
+  "parent": "tcc:recipes/nbt/root",
+  "rewards": {
+    "function": "tcc:entity/player/nbt_recipe",
+    "loot": ["tcc:recipes/player_head"]
+  },
+  "criteria": {
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "tcc:nbt/player_head"
+      }
+    }
+  }
+}

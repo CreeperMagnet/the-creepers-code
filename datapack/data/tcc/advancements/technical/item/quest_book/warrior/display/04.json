@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:sand"
+        },
+        "title": {
+            "translate": "advancements.tcc.quests.warrior.04.title"
+        },
+        "description": {
+            "translate": "advancements.tcc.quests.warrior.04.description"
+        },
+        "show_toast": false,
+        "announce_to_chat": false,
+        "frame": "goal"
+    },
+    "parent": "tcc:technical/item/quest_book/warrior/display/02",
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

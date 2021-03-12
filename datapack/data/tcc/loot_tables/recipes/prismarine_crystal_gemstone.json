@@ -1,0 +1,16 @@
+{
+  "pools": [{
+    "rolls": 1,
+    "entries": [{
+        "type": "minecraft:loot_table",
+        "weight": 9,
+        "name": "tcc:items/prismarine_crystal_gemstone"
+      },
+      {
+        "type": "minecraft:loot_table",
+        "weight": 1,
+        "name": "tcc:items/pristine_prismarine_crystal_gemstone"
+      }
+    ]
+  }]
+}

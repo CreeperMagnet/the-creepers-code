@@ -1,0 +1,19 @@
+{
+  "criteria": {
+    "feed_gobblerift": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "nbt": "{Tags:[\"tcc.gobblerift.can_love\"]}"
+        },
+        "item": {
+          "item": "minecraft:rabbit_stew"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "tcc:block/gobblerift/feed_stew/raycast_start"
+  },
+  "parent": "tcc:technical/root"
+}

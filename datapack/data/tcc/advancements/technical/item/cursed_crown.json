@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "killed_entity": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [{
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "nbt": "{Inventory:[{Slot:103b,tag:{tcc:{id:\"cursed_crown\"}}}]}"
+          }
+        }]
+      }
+    }
+  },
+  "rewards": {
+    "function": "tcc:item/cursed_crown/make_gold"
+  },
+  "parent": "tcc:technical/root"
+}

@@ -1,0 +1,31 @@
+{
+  "criteria": {
+    "killed_entity": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [{
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Inventory:[{Slot:-106b,tag:{tcc:{gemstone:{id:\"minecraft:lapis_lazuli\"}}}}]}"
+            }
+          },
+          {
+            "condition": "inverted",
+            "term": {
+              "condition": "entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Inventory:[{Slot:-106b,tag:{tcc:{id:\"gemstone\"}}}]}"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "tcc:item/item_modification/durability/damage/rings/lapis_damage"
+  },
+  "parent": "tcc:technical/root"
+}

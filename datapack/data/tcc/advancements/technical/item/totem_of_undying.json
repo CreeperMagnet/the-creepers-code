@@ -1,0 +1,24 @@
+{
+  "parent": "tcc:technical/root",
+  "criteria": {
+    "used_totem": {
+      "trigger": "minecraft:used_totem"
+    },
+    "void_damage": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "type": {
+            "bypasses_invulnerability": true
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    ["used_totem", "void_damage"]
+  ],
+  "rewards": {
+    "function": "tcc:item/totem_of_undying/schedule"
+  }
+}

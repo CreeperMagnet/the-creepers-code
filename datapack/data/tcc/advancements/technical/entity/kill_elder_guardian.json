@@ -1,0 +1,19 @@
+{
+  "criteria": {
+    "kill_elder_guardian": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [{
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "type": "minecraft:elder_guardian"
+          }
+        }]
+      }
+    }
+  },
+  "rewards": {
+    "function": "tcc:entity/player/kill_elder_guardian"
+  }
+}

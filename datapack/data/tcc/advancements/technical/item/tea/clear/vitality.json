@@ -1,0 +1,19 @@
+{
+  "criteria": {
+    "effects_changed": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "player": {
+          "nbt": "{Tags:[\"tcc.tea.vitality\"]}"
+        },
+        "effects": {
+          "minecraft:mining_fatigue": {}
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "tcc:item/tea/clear/vitality"
+  },
+  "parent": "tcc:technical/root"
+}

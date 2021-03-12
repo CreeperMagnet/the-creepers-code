@@ -1,0 +1,68 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:creeper_head",
+          "functions": [
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "italic": false,
+                  "color": "gray",
+                  "translate": "item.tcc.riftjuice_bottle.lore.name",
+                  "italic": true,
+                  "with": [
+                    {
+                      "nbt": "CustomName",
+                      "entity": "@s",
+                      "interpret": true
+                    }
+                  ]
+                },
+                {
+                  "italic": false,
+                  "color": "gray",
+                  "translate": "item.tcc.riftjuice_bottle.lore.pos",
+                  "with": [
+                    {
+                      "nbt": "root.inventory_temp.gobblerift_dimension",
+                      "storage": "tcc:storage",
+                      "interpret": true
+                    },
+                    {
+                      "nbt": "root.inventory_temp.Inventory[{tag:{tcc:{id:\"unset_riftjuice_bottle\"}}}].tag.tcc.riftjuice.pos[0]",
+                      "storage": "tcc:storage"
+                    },
+                    {
+                      "nbt": "root.inventory_temp.Inventory[{tag:{tcc:{id:\"unset_riftjuice_bottle\"}}}].tag.tcc.riftjuice.pos[1]",
+                      "storage": "tcc:storage"
+                    },
+                    {
+                      "nbt": "root.inventory_temp.Inventory[{tag:{tcc:{id:\"unset_riftjuice_bottle\"}}}].tag.tcc.riftjuice.pos[2]",
+                      "storage": "tcc:storage"
+                    }
+                  ]
+                },
+                {
+                  "translate": "pack.tcc",
+                  "italic": true,
+                  "color": "#008725"
+                }
+              ],
+              "entity": "this"
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{tcc:{id:\"kill_item\"}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

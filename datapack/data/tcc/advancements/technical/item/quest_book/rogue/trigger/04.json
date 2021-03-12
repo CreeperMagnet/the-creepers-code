@@ -1,0 +1,48 @@
+{
+  "criteria": {
+    "poison_tipped_sword": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{tcc:{potion:{id:\"minecraft:poison\"}}}",
+            "tag": "tcc:swords"
+          }
+        ]
+      }
+    },
+    "long_posion_tipped_sword": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{tcc:{potion:{id:\"minecraft:long_poison\"}}}",
+            "tag": "tcc:swords"
+          }
+        ]
+      }
+    },
+    "strong_poison_tipped_sword": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{tcc:{potion:{id:\"minecraft:strong_poison\"}}}",
+            "tag": "tcc:swords"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "tcc:item/quest_book/rogue/trigger/04"
+  },
+  "requirements": [
+    [
+      "poison_tipped_sword",
+      "long_posion_tipped_sword",
+      "strong_poison_tipped_sword"
+    ]
+  ],
+  "parent": "tcc:technical/root"
+}

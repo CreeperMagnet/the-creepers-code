@@ -1,0 +1,26 @@
+{
+  "pools": [{
+    "rolls": 1,
+    "entries": [{
+        "type": "loot_table",
+        "name": "tcc:trades/cartographer/trade_1/quests/healer",
+        "weight": 1
+      },
+      {
+        "type": "loot_table",
+        "name": "tcc:trades/cartographer/trade_1/quests/mage",
+        "weight": 1
+      },
+      {
+        "type": "loot_table",
+        "name": "tcc:trades/cartographer/trade_1/quests/rogue",
+        "weight": 1
+      },
+      {
+        "type": "loot_table",
+        "name": "tcc:trades/cartographer/trade_1/quests/warrior",
+        "weight": 1
+      }
+    ]
+  }]
+}

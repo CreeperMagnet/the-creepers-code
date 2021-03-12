@@ -1,0 +1,48 @@
+[{
+    "condition": "minecraft:location_check",
+    "predicate": {
+      "position": {
+        "y": {
+          "min": -60,
+          "max": -50
+        }
+      }
+    }
+  },
+  {
+    "condition": "minecraft:alternative",
+    "terms": [{
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "item": "minecraft:totem_of_undying"
+            }
+          }
+        }
+      },
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "offhand": {
+              "item": "minecraft:totem_of_undying"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "condition": "minecraft:entity_scores",
+    "entity": "this",
+    "scores": {
+      "tcc.health": {
+        "min": 0,
+        "max": 5
+      }
+    }
+  }
+]

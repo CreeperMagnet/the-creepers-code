@@ -1,0 +1,19 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    " O ",
+    "OMO",
+    " O "
+  ],
+  "key": {
+    "O": {
+      "item": "minecraft:repeating_command_block"
+    },
+    "M": {
+      "item": "minecraft:magma_block"
+    }
+  },
+  "result": {
+    "item": "minecraft:knowledge_book"
+  }
+}

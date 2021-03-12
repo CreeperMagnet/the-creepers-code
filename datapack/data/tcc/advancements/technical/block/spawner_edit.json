@@ -1,0 +1,51 @@
+{
+  "criteria": {
+    "click_spawner": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": {
+          "block": {
+            "block": "minecraft:spawner"
+          }
+        },
+        "item": {
+          "tag": "tcc:spawn_eggs",
+          "nbt": "{tcc:{id:\"spawn_egg\"}}"
+        }
+      }
+    },
+    "click_spawner_with_enchanter": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": {
+          "block": {
+            "block": "minecraft:spawner"
+          }
+        },
+        "item": {
+          "nbt": "{tcc:{id:\"spawn_egg\",entity:\"enchanter\"}}"
+        }
+      }
+    },
+    "click_spawner_with_iceologer": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": {
+          "block": {
+            "block": "minecraft:spawner"
+          }
+        },
+        "item": {
+          "nbt": "{tcc:{id:\"spawn_egg\",entity:\"iceologer\"}}"
+        }
+      }
+    }
+  },
+  "requirements": [
+    ["click_spawner", "click_spawner_with_enchanter", "click_spawner_with_iceologer"]
+  ],
+  "rewards": {
+    "function": "tcc:block/spawner_edit/used_spawn_egg"
+  },
+  "parent": "tcc:technical/root"
+}

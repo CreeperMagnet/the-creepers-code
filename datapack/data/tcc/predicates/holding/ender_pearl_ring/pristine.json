@@ -1,0 +1,20 @@
+[
+  {
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "equipment": {
+        "offhand": {
+          "nbt": "{tcc:{id:\"ring\",gemstone:{id:\"minecraft:ender_pearl\",quality:\"pristine\"}}}"
+        }
+      }
+    }
+  },
+  {
+    "condition": "minecraft:inverted",
+    "term": {
+      "condition": "minecraft:reference",
+      "name": "tcc:full_inventory"
+    }
+  }
+]

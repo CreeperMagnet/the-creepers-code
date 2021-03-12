@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:repeating_command_block"
+    },
+    "title": {
+      "translate": "advancements.tcc.minecraft.story.obsidian_shard.title"
+    },
+    "description": [
+      {
+        "translate": "advancements.tcc.minecraft.story.obsidian_shard.description"
+      },
+      {
+        "translate": "advancements.tcc.minecraft.tooltip_spacer"
+      },
+      {
+        "translate": "pack.tcc",
+        "color": "#008725",
+        "italic": true
+      }
+    ],
+    "show_toast": true,
+    "announce_to_chat": true,
+    "frame": "task"
+  },
+  "parent": "minecraft:story/form_obsidian",
+  "criteria": {
+    "obsidian_shard": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:repeating_command_block"
+          }
+        ]
+      }
+    }
+  }
+}

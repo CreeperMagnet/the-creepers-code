@@ -1,0 +1,21 @@
+{
+    "criteria": {
+        "killed_zombie_with_potion": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity":{
+                    "type":"minecraft:zombie"
+                },
+                "killing_blow": {
+                    "direct_entity": {
+                        "type": "minecraft:potion"
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "tcc:item/quest_book/mage/trigger/01"
+    },
+    "parent": "tcc:technical/root"
+}

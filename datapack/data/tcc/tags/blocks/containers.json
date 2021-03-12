@@ -1,0 +1,12 @@
+{
+  "values": [
+    "minecraft:chest",
+    "minecraft:trapped_chest",
+    "minecraft:dispenser",
+    "minecraft:dropper",
+    "minecraft:hopper",
+    "minecraft:barrel",
+    "#minecraft:shulker_boxes",
+    "#tcc:furnaces"
+  ]
+}

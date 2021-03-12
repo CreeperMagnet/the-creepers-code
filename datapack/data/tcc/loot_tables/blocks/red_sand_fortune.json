@@ -1,0 +1,56 @@
+{
+  "pools": [{
+    "rolls": 1,
+    "entries": [{
+        "type": "item",
+        "weight": 30,
+        "name": "minecraft:redstone"
+      },
+      {
+        "type": "item",
+        "weight": 60,
+        "name": "minecraft:fermented_spider_eye"
+      },
+      {
+        "type": "item",
+        "weight": 60,
+        "name": "minecraft:bone"
+      },
+      {
+        "type": "item",
+        "weight": 60,
+        "name": "minecraft:leather"
+      },
+      {
+        "type": "item",
+        "weight": 8,
+        "name": "minecraft:experience_bottle"
+      },
+      {
+        "type": "item",
+        "weight": 4,
+        "name": "minecraft:music_disc_far"
+      },
+      {
+        "type": "item",
+        "weight": 20,
+        "name": "minecraft:iron_nugget"
+      },
+      {
+        "type": "item",
+        "weight": 10,
+        "name": "minecraft:acacia_sapling"
+      },
+      {
+        "type": "item",
+        "weight": 60,
+        "name": "minecraft:dead_bush"
+      },
+      {
+        "type": "loot_table",
+        "weight": 1,
+        "name": "tcc:items/husk_head"
+      }
+    ]
+  }]
+}

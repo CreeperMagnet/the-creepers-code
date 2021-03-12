@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "place_block": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": {
+          "block": {
+            "tag": "tcc:nether_reactor_update"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "tcc:block/nether_reactor/update"
+  }
+}

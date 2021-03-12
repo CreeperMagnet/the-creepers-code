@@ -1,0 +1,28 @@
+{
+  "parent": "tcc:technical/root",
+  "criteria": {
+    "juiced_gobblerift": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:reference",
+              "name": "tcc:full_inventory"
+            }
+          }
+        ],
+        "item": {
+          "item": "minecraft:glass_bottle"
+        },
+        "entity": {
+          "nbt": "{Tags:[\"tcc.gobblerift.juice_ready\"]}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "tcc:block/gobblerift/juice/raycast_start"
+  }
+}

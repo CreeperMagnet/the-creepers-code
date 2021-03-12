@@ -1,0 +1,32 @@
+{
+    "parent": "tcc:recipes/root",
+    "rewards": {
+      "recipes": [
+        "tcc:glass_from_soul_sand"
+      ]
+    },
+    "criteria": {
+      "has_soul_sand": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "item": "minecraft:soul_sand"
+            }
+          ]
+        }
+      },
+      "has_the_recipe": {
+        "trigger": "minecraft:recipe_unlocked",
+        "conditions": {
+          "recipe": "tcc:glass_from_soul_sand"
+        }
+      }
+    },
+    "requirements": [
+      [
+        "has_soul_sand",
+        "has_the_recipe"
+      ]
+    ]
+  }

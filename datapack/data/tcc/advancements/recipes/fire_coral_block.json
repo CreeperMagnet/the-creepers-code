@@ -1,0 +1,43 @@
+{
+  "parent": "tcc:recipes/root",
+  "rewards": {
+    "recipes": [
+      "tcc:fire_coral_block"
+    ]
+  },
+  "criteria": {
+    "has_coral_fan": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:fire_coral_fan"
+          }
+        ]
+      }
+    },
+    "has_coral": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:fire_coral"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "tcc:fire_coral_block"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_coral",
+      "has_the_recipe",
+      "has_coral_fan"
+    ]
+  ]
+}

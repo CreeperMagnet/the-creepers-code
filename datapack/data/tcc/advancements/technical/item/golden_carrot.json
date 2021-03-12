@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "ate_golden_carrot": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecraft:golden_carrot"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "tcc:item/golden_carrot"
+  },
+  "parent": "tcc:technical/root"
+}

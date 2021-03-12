@@ -1,0 +1,892 @@
+{
+  "criteria": {
+    "minecraft_absorption": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "equipment": {
+              "mainhand": {
+                "tag": "tcc:swords",
+                "nbt": "{tcc:{potion:{id:\"minecraft:absorption\"}}}"
+              }
+            }
+          }
+        }
+      }
+    },
+    "minecraft_blindness": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "equipment": {
+              "mainhand": {
+                "tag": "tcc:swords",
+                "nbt": "{tcc:{potion:{id:\"minecraft:blindness\"}}}"
+              }
+            }
+          }
+        }
+      }
+    },
+    "minecraft_fire_resistance": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "equipment": {
+              "mainhand": {
+                "tag": "tcc:swords",
+                "nbt": "{tcc:{potion:{id:\"minecraft:fire_resistance\"}}}"
+              }
+            }
+          }
+        }
+      }
+    },
+    "minecraft_glowing": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "equipment": {
+              "mainhand": {
+                "tag": "tcc:swords",
+                "nbt": "{tcc:{potion:{id:\"minecraft:glowing\"}}}"
+              }
+            }
+          }
+        }
+      }
+    },
+    "minecraft_harming": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "equipment": {
+              "mainhand": {
+                "tag": "tcc:swords",
+                "nbt": "{tcc:{potion:{id:\"minecraft:harming\"}}}"
+              }
+            }
+          }
+        }
+      }
+    },
+    "minecraft_haste": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "equipment": {
+              "mainhand": {
+                "tag": "tcc:swords",
+                "nbt": "{tcc:{potion:{id:\"minecraft:haste\"}}}"
+              }
+            }
+          }
+        }
+      }
+    },
+    "minecraft_healing": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "equipment": {
+              "mainhand": {
+                "tag": "tcc:swords",
+                "nbt": "{tcc:{potion:{id:\"minecraft:healing\"}}}"
+              }
+            }
+          }
+        }
+      }
+    },
+    "minecraft_health_boost": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "equipment": {
+              "mainhand": {
+                "tag": "tcc:swords",
+                "nbt": "{tcc:{potion:{id:\"minecraft:health_boost\"}}}"
+              }
+            }
+          }
+        }
+      }
+    },
+    "minecraft_hunger": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "equipment": {
+              "mainhand": {
+                "tag": "tcc:swords",
+                "nbt": "{tcc:{potion:{id:\"minecraft:hunger\"}}}"
+              }
+            }
+          }
+        }
+      }
+    },
+    "minecraft_invisibility": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "equipment": {
+              "mainhand": {
+                "tag": "tcc:swords",
+                "nbt": "{tcc:{potion:{id:\"minecraft:invisibility\"}}}"
+              }
+            }
+          }
+        }
+      }
+    },
+    "minecraft_leaping": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "equipment": {
+              "mainhand": {
+                "tag": "tcc:swords",
+                "nbt": "{tcc:{potion:{id:\"minecraft:leaping\"}}}"
+              }
+            }
+          }
+        }
+      }
+    },
+    "minecraft_levitation": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "equipment": {
+              "mainhand": {
+                "tag": "tcc:swords",
+                "nbt": "{tcc:{potion:{id:\"minecraft:levitation\"}}}"
+              }
+            }
+          }
+        }
+      }
+    },
+    "minecraft_long_fire_resistance": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "equipment": {
+              "mainhand": {
+                "tag": "tcc:swords",
+                "nbt": "{tcc:{potion:{id:\"minecraft:long_fire_resistance\"}}}"
+              }
+            }
+          }
+        }
+      }
+    },
+    "minecraft_long_invisibility": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "equipment": {
+              "mainhand": {
+                "tag": "tcc:swords",
+                "nbt": "{tcc:{potion:{id:\"minecraft:long_invisibility\"}}}"
+              }
+            }
+          }
+        }
+      }
+    },
+    "minecraft_long_leaping": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "equipment": {
+              "mainhand": {
+                "tag": "tcc:swords",
+                "nbt": "{tcc:{potion:{id:\"minecraft:long_leaping\"}}}"
+              }
+            }
+          }
+        }
+      }
+    },
+    "minecraft_long_night_vision": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "equipment": {
+              "mainhand": {
+                "tag": "tcc:swords",
+                "nbt": "{tcc:{potion:{id:\"minecraft:long_night_vision\"}}}"
+              }
+            }
+          }
+        }
+      }
+    },
+    "minecraft_long_poison": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "equipment": {
+              "mainhand": {
+                "tag": "tcc:swords",
+                "nbt": "{tcc:{potion:{id:\"minecraft:long_poison\"}}}"
+              }
+            }
+          }
+        }
+      }
+    },
+    "minecraft_long_regeneration": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "equipment": {
+              "mainhand": {
+                "tag": "tcc:swords",
+                "nbt": "{tcc:{potion:{id:\"minecraft:long_regeneration\"}}}"
+              }
+            }
+          }
+        }
+      }
+    },
+    "minecraft_long_slow_falling": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "equipment": {
+              "mainhand": {
+                "tag": "tcc:swords",
+                "nbt": "{tcc:{potion:{id:\"minecraft:long_slow_falling\"}}}"
+              }
+            }
+          }
+        }
+      }
+    },
+    "minecraft_long_slowness": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "equipment": {
+              "mainhand": {
+                "tag": "tcc:swords",
+                "nbt": "{tcc:{potion:{id:\"minecraft:long_slowness\"}}}"
+              }
+            }
+          }
+        }
+      }
+    },
+    "minecraft_long_strength": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "equipment": {
+              "mainhand": {
+                "tag": "tcc:swords",
+                "nbt": "{tcc:{potion:{id:\"minecraft:long_strength\"}}}"
+              }
+            }
+          }
+        }
+      }
+    },
+    "minecraft_long_swiftness": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "equipment": {
+              "mainhand": {
+                "tag": "tcc:swords",
+                "nbt": "{tcc:{potion:{id:\"minecraft:long_swiftness\"}}}"
+              }
+            }
+          }
+        }
+      }
+    },
+    "minecraft_long_turtle_master": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "equipment": {
+              "mainhand": {
+                "tag": "tcc:swords",
+                "nbt": "{tcc:{potion:{id:\"minecraft:long_turtle_master\"}}}"
+              }
+            }
+          }
+        }
+      }
+    },
+    "minecraft_long_water_breathing": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "equipment": {
+              "mainhand": {
+                "tag": "tcc:swords",
+                "nbt": "{tcc:{potion:{id:\"minecraft:long_water_breathing\"}}}"
+              }
+            }
+          }
+        }
+      }
+    },
+    "minecraft_long_weakness": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "equipment": {
+              "mainhand": {
+                "tag": "tcc:swords",
+                "nbt": "{tcc:{potion:{id:\"minecraft:long_weakness\"}}}"
+              }
+            }
+          }
+        }
+      }
+    },
+    "minecraft_luck": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "equipment": {
+              "mainhand": {
+                "tag": "tcc:swords",
+                "nbt": "{tcc:{potion:{id:\"minecraft:luck\"}}}"
+              }
+            }
+          }
+        }
+      }
+    },
+    "minecraft_mining_fatigue": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "equipment": {
+              "mainhand": {
+                "tag": "tcc:swords",
+                "nbt": "{tcc:{potion:{id:\"minecraft:mining_fatigue\"}}}"
+              }
+            }
+          }
+        }
+      }
+    },
+    "minecraft_nausea": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "equipment": {
+              "mainhand": {
+                "tag": "tcc:swords",
+                "nbt": "{tcc:{potion:{id:\"minecraft:nausea\"}}}"
+              }
+            }
+          }
+        }
+      }
+    },
+    "minecraft_night_vision": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "equipment": {
+              "mainhand": {
+                "tag": "tcc:swords",
+                "nbt": "{tcc:{potion:{id:\"minecraft:night_vision\"}}}"
+              }
+            }
+          }
+        }
+      }
+    },
+    "minecraft_poison": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "equipment": {
+              "mainhand": {
+                "tag": "tcc:swords",
+                "nbt": "{tcc:{potion:{id:\"minecraft:poison\"}}}"
+              }
+            }
+          }
+        }
+      }
+    },
+    "minecraft_regeneration": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "equipment": {
+              "mainhand": {
+                "tag": "tcc:swords",
+                "nbt": "{tcc:{potion:{id:\"minecraft:regeneration\"}}}"
+              }
+            }
+          }
+        }
+      }
+    },
+    "minecraft_resistance": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "equipment": {
+              "mainhand": {
+                "tag": "tcc:swords",
+                "nbt": "{tcc:{potion:{id:\"minecraft:resistance\"}}}"
+              }
+            }
+          }
+        }
+      }
+    },
+    "minecraft_saturation": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "equipment": {
+              "mainhand": {
+                "tag": "tcc:swords",
+                "nbt": "{tcc:{potion:{id:\"minecraft:saturation\"}}}"
+              }
+            }
+          }
+        }
+      }
+    },
+    "minecraft_slow_falling": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "equipment": {
+              "mainhand": {
+                "tag": "tcc:swords",
+                "nbt": "{tcc:{potion:{id:\"minecraft:slow_falling\"}}}"
+              }
+            }
+          }
+        }
+      }
+    },
+    "minecraft_slowness": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "equipment": {
+              "mainhand": {
+                "tag": "tcc:swords",
+                "nbt": "{tcc:{potion:{id:\"minecraft:slowness\"}}}"
+              }
+            }
+          }
+        }
+      }
+    },
+    "minecraft_strength": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "equipment": {
+              "mainhand": {
+                "tag": "tcc:swords",
+                "nbt": "{tcc:{potion:{id:\"minecraft:strength\"}}}"
+              }
+            }
+          }
+        }
+      }
+    },
+    "minecraft_strong_harming": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "equipment": {
+              "mainhand": {
+                "tag": "tcc:swords",
+                "nbt": "{tcc:{potion:{id:\"minecraft:strong_harming\"}}}"
+              }
+            }
+          }
+        }
+      }
+    },
+    "minecraft_strong_healing": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "equipment": {
+              "mainhand": {
+                "tag": "tcc:swords",
+                "nbt": "{tcc:{potion:{id:\"minecraft:strong_healing\"}}}"
+              }
+            }
+          }
+        }
+      }
+    },
+    "minecraft_strong_leaping": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "equipment": {
+              "mainhand": {
+                "tag": "tcc:swords",
+                "nbt": "{tcc:{potion:{id:\"minecraft:strong_leaping\"}}}"
+              }
+            }
+          }
+        }
+      }
+    },
+    "minecraft_strong_poison": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "equipment": {
+              "mainhand": {
+                "tag": "tcc:swords",
+                "nbt": "{tcc:{potion:{id:\"minecraft:strong_poison\"}}}"
+              }
+            }
+          }
+        }
+      }
+    },
+    "minecraft_strong_regeneration": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "equipment": {
+              "mainhand": {
+                "tag": "tcc:swords",
+                "nbt": "{tcc:{potion:{id:\"minecraft:strong_regeneration\"}}}"
+              }
+            }
+          }
+        }
+      }
+    },
+    "minecraft_strong_slowness": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "equipment": {
+              "mainhand": {
+                "tag": "tcc:swords",
+                "nbt": "{tcc:{potion:{id:\"minecraft:strong_slowness\"}}}"
+              }
+            }
+          }
+        }
+      }
+    },
+    "minecraft_strong_strength": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "equipment": {
+              "mainhand": {
+                "tag": "tcc:swords",
+                "nbt": "{tcc:{potion:{id:\"minecraft:strong_strength\"}}}"
+              }
+            }
+          }
+        }
+      }
+    },
+    "minecraft_strong_swiftness": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "equipment": {
+              "mainhand": {
+                "tag": "tcc:swords",
+                "nbt": "{tcc:{potion:{id:\"minecraft:strong_swiftness\"}}}"
+              }
+            }
+          }
+        }
+      }
+    },
+    "minecraft_strong_turtle_master": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "equipment": {
+              "mainhand": {
+                "tag": "tcc:swords",
+                "nbt": "{tcc:{potion:{id:\"minecraft:strong_turtle_master\"}}}"
+              }
+            }
+          }
+        }
+      }
+    },
+    "minecraft_swiftness": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "equipment": {
+              "mainhand": {
+                "tag": "tcc:swords",
+                "nbt": "{tcc:{potion:{id:\"minecraft:swiftness\"}}}"
+              }
+            }
+          }
+        }
+      }
+    },
+    "minecraft_turtle_master": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "equipment": {
+              "mainhand": {
+                "tag": "tcc:swords",
+                "nbt": "{tcc:{potion:{id:\"minecraft:turtle_master\"}}}"
+              }
+            }
+          }
+        }
+      }
+    },
+    "minecraft_unluck": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "equipment": {
+              "mainhand": {
+                "tag": "tcc:swords",
+                "nbt": "{tcc:{potion:{id:\"minecraft:unluck\"}}}"
+              }
+            }
+          }
+        }
+      }
+    },
+    "minecraft_water_breathing": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "equipment": {
+              "mainhand": {
+                "tag": "tcc:swords",
+                "nbt": "{tcc:{potion:{id:\"minecraft:water_breathing\"}}}"
+              }
+            }
+          }
+        }
+      }
+    },
+    "minecraft_weakness": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "equipment": {
+              "mainhand": {
+                "tag": "tcc:swords",
+                "nbt": "{tcc:{potion:{id:\"minecraft:weakness\"}}}"
+              }
+            }
+          }
+        }
+      }
+    },
+    "minecraft_wither": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "equipment": {
+              "mainhand": {
+                "tag": "tcc:swords",
+                "nbt": "{tcc:{potion:{id:\"minecraft:wither\"}}}"
+              }
+            }
+          }
+        }
+      }
+    },
+    "minecraft_conduit_power": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "equipment": {
+              "mainhand": {
+                "tag": "tcc:swords",
+                "nbt": "{tcc:{potion:{id:\"minecraft:conduit_power\"}}}"
+              }
+            }
+          }
+        }
+      }
+    },
+    "minecraft_dolphins_grace": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "equipment": {
+              "mainhand": {
+                "tag": "tcc:swords",
+                "nbt": "{tcc:{potion:{id:\"minecraft:dolphins_grace\"}}}"
+              }
+            }
+          }
+        }
+      }
+    },
+    "minecraft_bad_omen": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "equipment": {
+              "mainhand": {
+                "tag": "tcc:swords",
+                "nbt": "{tcc:{potion:{id:\"minecraft:bad_omen\"}}}"
+              }
+            }
+          }
+        }
+      }
+    },
+    "minecraft_hero_of_the_village": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "equipment": {
+              "mainhand": {
+                "tag": "tcc:swords",
+                "nbt": "{tcc:{potion:{id:\"minecraft:hero_of_the_village\"}}}"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "tcc:item/tipped_swords/entity_hurt"
+  },
+  "requirements": [
+    [
+      "minecraft_absorption",
+      "minecraft_blindness",
+      "minecraft_fire_resistance",
+      "minecraft_glowing",
+      "minecraft_harming",
+      "minecraft_haste",
+      "minecraft_healing",
+      "minecraft_health_boost",
+      "minecraft_hunger",
+      "minecraft_invisibility",
+      "minecraft_leaping",
+      "minecraft_levitation",
+      "minecraft_long_fire_resistance",
+      "minecraft_long_invisibility",
+      "minecraft_long_leaping",
+      "minecraft_long_night_vision",
+      "minecraft_long_poison",
+      "minecraft_long_regeneration",
+      "minecraft_long_slow_falling",
+      "minecraft_long_slowness",
+      "minecraft_long_strength",
+      "minecraft_long_swiftness",
+      "minecraft_long_turtle_master",
+      "minecraft_conduit_power",
+      "minecraft_dolphins_grace",
+      "minecraft_bad_omen",
+      "minecraft_long_water_breathing",
+      "minecraft_long_weakness",
+      "minecraft_luck",
+      "minecraft_mining_fatigue",
+      "minecraft_nausea",
+      "minecraft_night_vision",
+      "minecraft_poison",
+      "minecraft_regeneration",
+      "minecraft_resistance",
+      "minecraft_saturation",
+      "minecraft_slow_falling",
+      "minecraft_slowness",
+      "minecraft_strength",
+      "minecraft_strong_harming",
+      "minecraft_strong_healing",
+      "minecraft_strong_leaping",
+      "minecraft_strong_poison",
+      "minecraft_strong_regeneration",
+      "minecraft_strong_slowness",
+      "minecraft_strong_strength",
+      "minecraft_strong_swiftness",
+      "minecraft_strong_turtle_master",
+      "minecraft_swiftness",
+      "minecraft_turtle_master",
+      "minecraft_unluck",
+      "minecraft_water_breathing",
+      "minecraft_weakness",
+      "minecraft_wither",
+      "minecraft_hero_of_the_village"
+    ]
+  ],
+  "parent": "tcc:technical/root"
+}

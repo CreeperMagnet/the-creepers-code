@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "drink_purity_tea": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "nbt": "{tcc:{id:\"tea\",tea:\"purity\"}}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "tcc:item/tea/drink/purity"
+  },
+  "parent": "tcc:technical/root"
+}

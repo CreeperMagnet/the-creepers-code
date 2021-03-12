@@ -1,0 +1,376 @@
+0.1: A CLEAN SLATE
+
+  Additions:
+    -Charms and Charmers: Charmers are villagers which will ‘charm’ your items for emeralds. Charms are basically custom enchantments, only obtainable from charmers or chest loot. They can also hex your items, so watch out.
+    -New charms: Several new charms have been added, to both new TCC tools, and vanilla tools. Previous custom enchantments have been ported over to the new charm system. Some new charms are: Everlasting, which can be applied to milk or water buckets to make them never run out, along with several horse armor charms.
+    -Boomerangs: A new weapon, made from leather and wood. Right click to throw, and if it doesn’t hit a block, it will come back after it has traveled 50 blocks. It can be charmed with charms or hexes that can allow it to bounce off walls, track you, or even work underwater.
+    -Obsidian Shards: Created from smelting obsidian in a furnace. Takes a while, but can be crafted into obsidian scythes, arrows, and mirrors.
+    -Obsidian Scythes: A new tool and weapon, which has a very heavy attack, long cooldown, and a sweep attack. Imagine a sword mixed with an axe. They can be charmed to steal health from what you hit, or to ‘vein-mine’ fully grown crops.
+    -Obsidian Mirrors: A new tool, which if you gaze into it while it is in an item frame, it puts you into gamemode spectator for 20-ish seconds, and then teleports you back to the now broken mirror afterwards. Crafted with an ender eye and 8 obsidian shards.
+    -Iron Rings: A new item, which replaces all old ring variants, which can be both charmed, and tipped with potion effects. Potion-soaked rings will give you a short duration of their effect on right-click in the offhand. Charmed rings will give you small buffs, or debuffs if they are hexed. Iron rings are crafted from 8 iron nuggets in a ring formation, and can be used to craft chain armor, tripwire hooks, and saddles. They can also be fished up either charmed or not.
+    -Swordfish: A new weapon, which can be fished up as a treasure. It does about as much damage as a stone sword, but since it is a fish, it can’t be enchanted and has no durability. It also cannot be tipped with potions.
+    -If you’re killed by a charged creeper, you will drop your head.
+    -Added some new crafting recipes for smooth stone and the like. (Smooth stone, wool to string, nether warts from the block, dyeable glass panes, horse armor recipes)
+    -Added the chorus beetle horn, a new weapon which does immense knockback, gives crazy amounts of speed, and is dropped by chorus beetles. Its durability of 64 uses can be used either by hitting mobs, or by right clicking.
+    -Added a new ‘rogue’ quest. (Idea from Jish!)
+    -Items from TCC will now have a tooltip in their lore that says “The Creeper’s Code”.
+    -A few new advancements
+
+  Changes:
+    -Block breakers now rely on block tags, which are easily editable using datapacks of your own!
+    -Lang files now use proper vanilla-like structure
+    -Wrenches now use raycasting and can rotate more things. (They can even open unpowered iron trapdoors!)
+    -Tweaked some vanilla crafting recipes. (Stairs give 8, sandstone gives 4, prismarine recipes are easier, stone tools can be crafted from all stone)
+    -Prismarine crystals are now required to craft ender eyes. (Idea from u/camcamcam753 on reddit)
+    -Tripwire hooks are now made from iron rings, instead of iron ingots.
+    -End crystals will now both heal and point to players with dragon heads on
+    -Drowned will drop prismarine crystals instead of gold ingots. (Where’d they even get those?)
+    -Enchanted seeds have been replaced by peculiar berries, which can be found by either mining tall grass or finding them in dungeon chests
+    -Updated splash texts
+    -Updated the initiation functions: TCC will now tell you if you don’t have the resource pack or if you’re playing on the wrong version
+    -Updated the entire pack to 1.13. Probably the biggest change this version.
+
+  Removals:
+    -Removed the chisel and stonemason villager, chisel’s blocks were removed with ‘the flattening’
+    -Removed quite a few custom advancements, as they didn’t really add anything, and were annoying.
+    -Removed obsidian swords, as they have been replaced with obsidian scythes
+    -Removed ships in bottles, as Mojang added shipwrecks. (They simply don’t work together!) But don’t worry, spyglasses are still a thing, and they’re found in shipwrecks.
+    -Redid some loot:
+      -Removed loot books, as they messed with progression in a bad way.
+      -Removed the sponge drop from normal guardians, and added it to drowned instead
+      -Iron golems no longer drop increased amounts of iron
+      -Removed the luck stat, except for the misfortune charm on iron rings, used to get cracked nether stars
+      -Removed the lucky rabbit’s foot, as luck is gone now
+      -Witches no longer potions they don’t drink
+      -Witches no longer drop enchanted sticks, as they’re brewers, not enchanters
+      -Silverfish no longer drop iron nuggets, as that made no sense
+      -Strays no longer drop packed ice, as Mojang added a packed ice recipe
+      -Chorus beetles no longer drop elytra, as that was a tad bit overpowered. Now, their rare drop has been replaced with the chorus beetle horn.
+
+
+0.2 THE DEBUGGING AND TREEHUGGING UPDATE
+
+  Additions:
+    -Ancient Acorns
+    -Apple Pie, and Golden Apple Pie, crafted using two apples, one egg, and one sugar. You can eat a slice out of them 3 times, each time getting smaller. Golden apple pie has the same effects as golden apples.
+    -The Charm of Sifting now finds different items in different biomes, and the loot has been generally updated.
+    -Biome-based fishing loot (With new rewards!)
+    -Levitation suspicious stew (crafted with chorus flowers)
+    -Sweet berry muffins
+    -Grass paths and farmland can be silk-touched
+    -Bat wings
+    -Rotten porkchop texture
+    -Golden Rings (with charms and potion-soaking)
+    -Updated potion-tipped/soaked items (Maintain names, will now run out)
+    -Wrenches, Boomerangs, Obsidian Scythes, Obsidian Mirrors, and Soaked Iron Rings can now have unbreaking, mending, and the curse of vanishing
+    -A crafting recipe for the wrench
+    -Tridents can be repaired in a crafting table
+    -New textures for tipped swords and rings
+    -A new charm and hex animation
+    -Some new advancements
+    -Swordfish can now be eaten, but beware, they are swords after all!
+    -Peculiar Berries are now traded by the wandering trader, instead of being found randomly in grass.
+    -The obsidian scythe is now more of a farming tool: Crops harvested with it will now drop extra loot.
+    -The Charm of Momentum, a golden ring charm which gives you varying levels of speed, depending on the amount of time you’ve been sprinting. The more you run, the faster you go!
+    -The Charm of Attraction, a golden ring charm which attracts any nearby items to you, if you didn’t drop them on purpose and your inventory isn’t full.
+    -The Hex of Rotting, a new obsidian scythe hex which causes potato crops that you mine to have a higher chance of being poisonous.
+    -You can now close your elytra mid-air to go into freefall by shifting. This allows for some cool tricks.
+    -All horse armor charms are now saddle charms, so you can put them on skeleton horses, mules, and donkeys! Also, the charm of frost trotting actually works now.
+    -Block Breakers will now get the block they break within their inventory, instead of dropping it out on the ground. They will also not pick up blocks if their inventory is full, and will also ‘fart’ out blocks in their inventory when powered. 😛
+    -The snipper, a new kind of block breaker which breaks shears-related blocks.
+    -The Complete Creeper’s Compendium, a handy-dandy encyclopedia for all things TCC! Crafted with a piece of gunpowder and a book.
+
+  Changes:
+    -Obsidian Shards can now only be made via blast furnace
+    -Shields now require iron rings to craft
+    -The cracked nether star is now created by dropping an anvil on a nether star
+    -The cracked nether star now gives one random beacon effect for 5 minutes, and multiple cannot be applied at once
+    -TCC advancements and all items now show ‘The Creeper’s Code’ in their description.
+    -Rotten flesh can now only be turned into leather in a smoker.
+    -Only potatoes can be soaked in potion effects, instead of all foods, to make the feature less overpowered. However, potion-soaked potatoes can also be found in potato crops rarely.
+    -The obsidian mirror has received a rework, which changes it into a handheld item which flips potion effects, instead of a wall-mounted mirror which puts you into spectator mode.
+    -The ‘Hex of Fatigue’ has been renamed to the ‘Hex of Sloth’. Sloth just sounded better, and gets rid of any association with mining fatigue.
+    -The Hex of Midas Touch has been edited so that now it will give you bad luck, which makes mobs from drop only gold nuggets when you use the sword. (King Midas couldn’t touch anything, it all turned to gold. So now, neither can you!)
+
+  Removals:
+    -Enchanted Rotten Flesh: Was useless, and broke in 1.14.
+    -Enchanted Ghast Tear: Was useless, and broke in 1.14.
+    -Enchanted mushroom stew: See the other enchanted items. You get the idea.
+    -Some advancements that went with the above features
+    -Removed lumberjacks. They got broken in 1.14 ;-;
+    -The Charms of Sturdiness and Everlasting. Sturdiness was removed as it clashed with custom durabilities, while Everlasting was removed to due unfixable bugs.
+    -The Chorus Beetle Horn. The grindstone pretty much broke it. Don’t worry though, the chorus beetle will get another drop in the future.
+
+
+0.3 THE GOLD AND GEMS UPDATE
+
+  Additions:
+    -The cursed crown, a rare head decoration you can find in bastions. When worn on your head, it turns the drops of all the mobs you kill into golden nuggets. Yikes. Or maybe not, depending on if you want gold.
+    -Enchanted golden carrots, which are crafted like golden carrots except with ingots instead of nuggets. They give you night vision for five minutes.
+    -The enchanted golden apple recipe. That’s all. I don’t like having certain items that are required for advancement being loot-exclusive.
+    -Nether reactors. This isn’t the old nether reactor from the days of bedrock, as it has a completely different function. This nether reactor, made from blackstone, gilded blackstone, and netherite, gives all friendly mobs in a radius fire resistance, clears wither I from players, and gives striders speed III. The specifics can be found on its feature page.
+    -You can now craft your own head with a glistering melon (Made with gold, remember?), and a skeleton skull. This one just barely sneaks by into the gold category.
+    -Added gemstones, which can be made by dropping a crystalline item (Diamond, Emerald, Ender Pearl, Lapis, Obsidian, Prismarine Crystal, Quartz) onto a stonecutter and waiting a little bit.
+      -Each gemstone gives a specific attribute:
+        -Diamond: Max Health
+        -Emerald: Luck (chance to double mob drops)
+        -Ender Pearl: Item Teleportation Distance
+        -Lapis Lazuli: Mob XP Bonus
+        -Obsidian: Knockback Resistance
+        -Prismarine Crystal: Attack Speed
+        -Quartz: Attack Damage
+      -Gemstones have a 10% chance to turn out pristine, which have their effect doubled
+    -Added the jewelry table, which allows you to apply potion effects, enchantments like flame, thorns, and channeling, and gemstones to rings.
+    -Added the spectral boomerang, a glowing variant of the boomerang that can go through walls.
+    -Villager emoji, activated by typing /trigger tcc.emoji. There’s lots of fun emoji you can use, most of which have already been installed on the discord server. Go check them out!
+    -A handy-dandy crafting menu located in the advancements tab. There’s also a fun toast that pops up whenever you unlock a new custom recipe.
+    -Creepers killed by piglins will now drop pigstep. Great for those of you without any bastions nearby!
+    -Charged music discs, dropped by charged creepers killed by skeletons (or piglins.) When played in a jukebox, they will change the weather to thunder as long as the song lasts.
+    -Player hoppers! This was a very fun feature to test. Basically, players can now jump in a hopper and be transported down the chain, unless it’s blocked or too long.
+    -Added a bunch more fun advancements for you get while you’re playing the pack
+    -The harvester, a hoe block breaker variant
+    -More bugs
+
+  Changes:
+    -Golden carrots of both types now clear any blindness you may have.
+    -Golden apples and Enchanted golden apples now can stack absorption, meaning if you eat a golden apple while you have two absorption hearts, it’ll add two on to give you four! The maximum amount for this is 10 hearts.
+    -Totems (which are somewhat golden, right?) will now save you from the void if you fall by giving you levitation and slow falling, and they will also give you water breathing if you drown, and fire resistance if you burn in lava.
+    -Unbreaking, mending, fire aspect, thorns, and channeling can now be applied to rings via jewelry table.
+    -Potion effects can now be applied to rings via jewelry table. Don’t worry though, you can still apply them via lingering effect cloud, so your wither swords are safe. 😉
+    -Masons will now trade gemstones
+    -Toolsmiths will now trade iron rings with gems
+    -Falling anvils can now smash glass and glowstone. When glowstone is smashed, it gives lots of ‘fun’ potion effects to the surrounding mobs.
+    -Wrenches can now see how many bees are in a hive if you shift-click a nest wih it
+    -Boomerangs now bounce off walls and come back to you no matter what
+    -Obsidian scythes can now mine out large areas of crops and replant them all in one go
+    -Elytra now show a actionbar message when you close them midair, so you know when you’re starting to plummet to your death
+    -Frost walker now works when riding horses
+    -Shovels with fortune will now get you more loot when mining out sandy blocks, like podzol, soul sand, and mycelium
+    -Chains are now climbable
+    -Silk touch can now pick up more blocks, like filled cauldrons, inverted daylight sensors, charged respawn anchors, grass paths, farmland, etc.
+    -Ancient Acorns now give Haste II instead of health boost, since health boost would’ve broken a lot of my code
+    -ALL of the compendium. It’s all been reworked. It’s now a whole lot better. Recipes, indexes, feature versions, wiki links, the works. It’s a beautiful sight to behold.
+    -Quest books have now been changed so they give notifications in the top left when you complete an item. Their difficulty has also been tweaked.
+    -Boomerangs now do much less damage, but still ignore armor. 1 heart, rather than 3, so they’re not insanely overpowered anymore.
+    -Got rid of some uneccessary files that replaced vanilla content
+    -Generally improved TCC code, fixing bugs and such
+
+  Removals:
+    -Charms. All the functionality of the charm system has either been shifted into gemstones/other features, or completely removed.
+    -Potion potatoes. This was for the best. Potion potatoes added nothing existing potions didn’t, and were just inventory clutter. Plus, the code was really messy.
+    -Eating rotten porkchops no longer angers zombie pigm… err.. sorry… zombified piglins. First, 1.16 broke this feature, and second, yay! Now you can munch down on that rotten pork in peace!
+    -Removed a bunch of random recipe tweaks that didn’t make much sense:
+      -Wool -> 4 string: Why doesn’t this work for dyed wool? How are you just pulling the wool apart into threads? Doesn’t make sense.
+      -Iron nuggets and obsidian shards giving more arrows than flint: This just didn’t make sense at all. You use the same amount of sticks, why should you get more arrows?
+      -Grass block crafting recipe: Pressing grass onto dirt isn’t gonna make it grow
+      -4 sandstone from 4 sand: Normal 4:1 ratio makes more sense, you’re compressing sand into sandstone
+      -Kelp cooking faster in furnaces: Didn’t make sense, since if kelp cooked faster, then kelp blocks shouldn’t last longer as fuel
+      -Rotten flesh to leather via a smoker: This was a little bit overpowered. Besides, bat wings are already early-game leather.
+
+  Temporary Removals:
+    -Chorus Beetles. Say goodbye to the chorus beetle for this update, but not for too long. Next update, he’ll come back in full force with a whole new look and new behavior. I just need a little more time to fix him up… 1.16 broke a lot of his behavior.
+
+
+0.3.1 GOLD AND GEMS AND... GLITCHES?
+
+  Additions:
+    -Added a tcc.compendium trigger objective, which grants a compendium when set to higher than 1 (run /trigger tcc.compendium)
+    -Added a command to grant all non-technical minecraft + tcc advancements (/function tcc:commands/grant_advancements)
+    -Added enchanted golden apple pies
+    -Added lingering potions of grace, obtained as treasure via fishing
+    -Added the ability to give block breakers enchantments by “feeding” them enchanted book items. (Silk touch, fortune)
+    -Polished blackstone can now be smelted into smooth stone
+    -Crying obsidian can now be smelted into normal obsidian (300 ticks cooking time)
+    -Soul sand can now be smelted into glass at a 100 tick cooking time
+    -The cursed crown now affects farming loot, such as apples, carrots, and melons
+
+  Changes:
+    -Horse armor above leather tier are uncraftable again
+    -Snippers can now break twisted/weeping vines and Nether sprouts
+    -Choppers can now break bamboo
+    -The version detector has been made more smart, so you won’t get as many errors anymore.
+    -Filled composters now reflect their compost level in their item model
+    -Golden rings fished up in desert biomes now have a lapis gemstone attached, with a very slim chance of a pristine cut
+    -Obsidian mirrors now flip hunger to saturation
+    -Retextured the jewelry table, and gave it a new recipe as well.
+    -The jewelry table can now be placed directionally
+    -Made the gemstone creation process a lot less rage-inducing
+    -Changed lots of data to use proper formatting of true/false rather than “true”/“false”
+    -Fixed many compatibility issues with other datapacks
+    -Removed Herobrine
+
+  Fixes:
+    -Pristine gemstones can now actually be obtained (lmfao)
+    -Iron rings no longer show up as chain command blocks in the recipe book
+    -Fixed various errors involving obsidian scythes
+    -Many %s translation keys have been split into multiple keys for compatibility with certain languages
+    -Compendium titles no longer reference item/block translation keys
+    -Fixed an issue where wither skeletons could sometimes drop two stone swords
+    -The WRENCH TEXTURE AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+    -Relevant recipes will now unlock when the player obtains blackstone
+    -The parent advancement of “Royal Riches” has been corrected to “War Pigs”
+    -The parent advancement of “Burn the Witch” has been corrected to “Monster Hunter”
+    -Many gold-related items now display the proper rarity
+    -Player hopper invisibility effects no longer show particles
+    -Player hoppers no longer give an error message when there is a dropper at the end of the chain
+    -Player hoppers no longer see jewelry tables as valid hoppers
+    -Fixed some compendium typos
+    -Obsidian mirrors now flip hunger to saturation
+    -Obsidian mirrors no longer give regeneration when flipping irrelevant effects
+    -Ender crystals will now properly heal players with dragon heads on in the end
+    -Villagers’ trades will now no longer be randomly replaced
+    -Some missed carrots on stick custom items are now unbreakable
+    -Everything will now properly work in multiplayer, rather than breaking occasionally when players leave and join the server
+
+
+0.3.2 THE ART UPDATE
+
+  Additions:
+    -The Paintbrush, which can redye blocks and cycle through painting art
+    -The Smoldering Seeker, a compass which when used in the Nether points toward a nearby fortress
+    -The Ender Dragon will now drop its head when killed by a charged creeper (good luck with this one lol)
+    -Wrenches can now measure the statistics of a horse on right-click (jump height, speed)
+    -Added some compatibility with the quark mod for the block breakers and boomerangs via “optional” block tags (WIP, not completely integrated yet)
+    -Ragno as a new developer 🙂
+
+  Changes:
+    -Gemstones can now be crafted within the actual interface of the stonecutter, rather than being drop-crafted on top of it
+    -New textures
+    -Added textures on the tops of block breakers so you can tell the different types apart
+    -All ring textures are now centered
+    -Buffed the duration of the cracked nether star to one in-game day so there’s actually a reason to use it
+    -Optimized lots of code
+    -Updated pack to 1.16.2
+
+  Fixes:
+    -Fixed wither skeleton sword issue
+    -Fixed some compendium mis-versioning errors and typos
+    -Fixed a duplication bug with the jewelry table
+    -Fixed a bug where the boomerang could fly away randomly
+    -Fixed some hitbox errors with the boomerang and spectral boomerang
+    -Fixed missing translation strings for pristine prismarine crystal/obsidian rings
+    -Fixed a bug where anvils smashing default glass wouldn’t show particles
+
+  Removals:
+    -Fire resistance from totems (now part of the base game)
+    -Blackstone brewing stand recipe (now part of the base game)
+    -Vanilla recipes that were changed to use iron rings (Shield, Tripwire Hook, etc; they interfered with compatibility with other datapacks, and confused players)
+    -Cat water hissing (Interfered with existing cat hissing behavior towards phantoms)
+
+
+0.3.2 HOTFIX 1
+
+  Fixes:
+    -Fixed issues involving armor deletion when equipping a cursed crown or witch hat, or activating a smoldering seeker
+
+
+0.4 THE END AND EMERALD UPDATE
+
+  Additions:
+    -The Positional Anchor. Put an ender pearl in it, and power it with redstone to launch the pearl later.
+    -Warped wart, crafted with warped sprouts and nether wart and used in tea. Warped wart blocks are also now craftable using 2x the warped wart recipe.
+    -Tea and teapots. Place a teapot atop a campfire, pour in a bottle of water, and add some warped wart. Add the right ingredient to make a tea.
+      -Each tea grants immunity to a status effect. Only one immunity is applied at a time; drinking a different tea overrides the current one.
+        -Wither Rose -> Tea of Purity, Wither immunity
+        -Honey Bottle -> Tea of Antitoxin, Poison immunity
+        -Glowstone Dust -> Tea of Clearsight, Blindness immunity
+        -Sweet Berries -> Tea of Plenty, Hunger immunity
+        -Blaze Powder -> Tea of Vigor, Weakness immunity
+        -Rabbit's Foot -> Tea of Serendipity, Bad Luck immunity
+        -Ink Sac -> Tea of Obscurity, Glowing immunity
+        -Dandelion -> Tea of Steadiness, Nausea immunity
+        -Ancient Acorn -> Tea of Vitality, Mining Fatigue immunity
+        -Riftjuice -> Tea of Stability, Levitation immunity (See 'Gobblerift')
+        -Frostbloom Petals -> Tea of Vivacity, Slowness immunity (See "Frostbloom Petals")
+    -The Gobblerift, a mysterious carnivorous plant found within end city additions. If grown to full size and fed plenty of meat, it'll produce riftjuice, which teleports you back to the gobblerift when bottled and consumed.
+    -End City Additions, small extensions of the end city, found about 66% of the time. Contains gobblerifts and plenty of danger in the form of shulkers.
+    -Golden Chorus Fruit, a golden version of the normal chorus fruit that teleports you much further.
+    -Village or Pillage Explorer Maps are always sold by the Wandering Trader. They have a 50/50 chance of either leading to a pillager outpost (or outpost variant) or a village.
+    -The Tundra Keep, a pillager outpost variant that generates in snowy biomes. Iceologers and pillagers occupy the Keep, who protect a room containing a Frostbloom.
+    -The Iceologer, the rejected illager from the mob vote. Drops ice onto players' heads. Don't even think about trying to hide underneath a ceiling; the iceologer is smarter than that and will freeze you if they notice. They spawn in the Tundra Keep and in raids within cold biomes.
+    -The Frostbloom, a magic flower that produces snow around its position and freezes water to ice, ice to packed ice, and packed ice to blue ice. It can be found in the Tundra Keep and rarely dropped by iceologers (except iceologers spawning in raids).
+    -Frostbloom Petals, dropped occasionally by strays and iceologers. When eaten, they give a short regeneration effect, and a longer frozen screen overlay and slowness effect. They are also used to brew the tea of vivacity. (See 'Tea')
+    -Woodland Mansion Basements, a deadly structure found beneath the woodland mansion. It's filled with illagers such as the enchanter, and has lots of good loot, including the Locket of Learning.
+    -The Enchanter, a direct port from Minecraft Dungeons. It gives nearby illagers and zombies positive effects, and drops the locket of learning and plenty of other nice loot.
+    -The Locket of Learning, a useful magic tool used to store experience. It can hold up to 30 levels.
+    -Witch Trading, a risky way to get some useful goods by wearing a witch hat and trading a witch some spider eyes or potion ingredients.
+    -A new overlay for pristine gemstones
+    -Way too many splashes. Seriously, the sheer number is insane.
+    -The wither sword lore, something that was accidentally removed last update.
+    -A whole lot of new advancements.
+    -Bunches of new sounds for old and new content alike. Thanks, Elli!
+    -A completely revamped compendium, now with a snazzy index and fun clickable icons.
+
+  Changes:
+    -Campfires now drop unlit campfires instead of raw materials when broken with a non-Silk Touch axe
+    -Pigs now always breed two children, with a 50% chance of breeding a third
+    -Occupied beehives now generate on some village farms
+    -The frost walker enchantment will now give you a speed boost when on ice
+    -Anvils can now be repaired fully in a smithing table using a block of iron
+    -Cake no longer drops nothing when broken, and now drops the proper amount of slices
+    -Killing elder guardians now clears any mining fatigue you may have
+    -Sheep named "jeb_" will now drop a random color of wool on death
+    -Jewelry tables can now repair gemstone rings simply by adding a gemstone
+    -Iron and golden rings are now unstackable
+      -The ring code has also been heavily tweaked, allowing easy implementation of third-party rings and gemstones.
+    -Balanced the bonuses given by quartz and prismarine crystal rings from 15/30% to 10/20%
+    -Smoldering seekers can now be found in ruined portal loot
+    -The peculiar berry particles are now purple instead of enchanting particles
+    -Tweaked some values for the absorption stacking feature
+    -The 'fortune shovel loot' feature now applies to block breakers (See bug #11)
+    -Grace potions can now be applied to rings and swords
+    -Allowed boomerangs to damage withers
+    -Block breakers now support the efficiency enchantment, which allows them to break multiple blocks in front of them
+    -Block breakers now respect the DoTileDrops gamerule
+    -Boomerangs and other custom damage sources now take resistance and armor into account
+    -Wrenches can now take the stats of mules and donkeys too, rather than just horses
+    -Tweaked how the obsidian scythe lore appears
+    -The witch hat now uses the witch texture, meaning it has resource pack compatibility
+    -Anvils can now crack blocks they're dropped onto
+    -The duration of the effects given by smashing glowstone with an anvil has been heavily reduced
+    -Anvils now have to drop 3+ blocks in order to crack or smash blocks
+    -The arrows in the jungle temple are now tipped with poison
+    -Changed the color of the "The Creeper's Code" tooltip to a nice shade of green
+    -Tripled the rate at which witch hats drop
+    -Improved drop rates for cursed crowns from soul sand
+    -Witch hats and cursed crowns can now be put on armor stands and other mobs
+    -Nerfed fortune shovel loot from soul soil and soul sand
+    -Added a bunch more consistency for creative mode interactions
+    -Rotten porkchops anger zombified piglins once again
+    -Wrenches can now rotate a whole lot more blocks
+    -Changed a whole lot of textures (Thanks, Ninni!)
+    -And, finally, heavily optimized the pack. I've also restructured the entirety of the code.
+
+  Removals:
+    -The extremely laggy pointer from end crystal to player when wearing a dragon head
+    -Give commands; Instead, you can use /loot give @s loot tcc:items/<item>
+    -Poppers, short for player hoppers. To put it simply, this feature was dumb and it sucked.
+    -The Spyglass, since a basic carbon copy of it is being added in 1.17.
+    -The Cracked Nether Star. It was stupid, overpowered, and had a stupid way of making it.
+
+
+  Fixes:
+    -#1 Boomerangs do not trigger aggression in neutral mobs
+    -#2 TCC-Modified villagers don't update their trades if their workstation is broken
+    -#3 Lingering potions cannot drop-soak rings properly
+    -#4 Non-potion area effect clouds can tip items
+    -#5 Some soaked rings have typos in their translation keys
+    -#6 Tipped swords do not work properly outside of the Overworld
+    -#7 Wrenches cannot read the stats of donkeys or mules
+    -#8 "Gems Galore" advancement description is now inaccurate
+    -#9 Boomerangs can hit Endermen
+    -#10 Nether Reactors deactivate in caves
+    -#11 Sifters don't drop proper loot for fortune shovels
+    -#12 Block breakers will not mine the block if all their slots are occupied, even if the mined block could stack with a slot
+    -#13 Hashs is mistakenly misgendered in compendium credits
+    -#14 Iron swords tipped with blindness do not have their name translated correctly
+    -#15 Ender pearl rings acquire broken drops from custom blocks
+    -#16 Spectral Boomerangs' durabilities don't visually update
+    -#17 Emerald rings break randomly
+    -#18 Charged Music Discs don't drop from charged creepers if they're killed by skeletons
+    -#19 All mobs heads added by TCC are completely broken
+    -#20 Quest books can be enchanted with enchanted books in anvils
+    -#21 Quest books remove your mainhand item when using them in your offhand
+    -#22 Rings enchanted with thorns take damage in nonsensical situations
+    -#23 Interacting with a jewelry table is timed improperly, leading to inventory desync
+    -#24 Absorption tweak takes into account effect level, rather than absorption amount

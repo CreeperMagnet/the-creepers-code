@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:carrot_on_a_stick",
+      "nbt": "{CustomModelData:330002}"
+    },
+    "title": {
+      "translate": "advancements.tcc.minecraft.adventure.begin_quest.title"
+    },
+    "description": [{
+        "translate": "advancements.tcc.minecraft.adventure.begin_quest.description"
+      },
+      {
+        "translate": "advancements.tcc.minecraft.tooltip_spacer"
+      },
+      {
+        "translate": "pack.tcc",
+        "color": "#008725",
+        "italic": true
+      }
+    ],
+    "show_toast": true,
+    "announce_to_chat": true,
+    "frame": "goal"
+  },
+  "parent": "minecraft:adventure/trade",
+  "criteria": {
+    "begin_quest": {
+      "trigger": "impossible"
+    }
+  }
+}

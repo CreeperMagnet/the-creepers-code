@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "ate_ancient_acorn": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                   "nbt": "{tcc:{id:\"ancient_acorn\"}}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "tcc:item/ancient_acorn"
+    },
+    "parent": "tcc:technical/root"
+}

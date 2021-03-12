@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "killed_zombie": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity":{
+                    "type":"minecraft:zombie"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "tcc:item/quest_book/warrior/trigger/02"
+    },
+    "parent": "tcc:technical/root"
+}

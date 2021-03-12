@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "ate_enchanted_golden_carrot": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "nbt": "{tcc:{id:\"enchanted_golden_carrot\"}}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "tcc:item/enchanted_golden_carrot"
+  },
+  "parent": "tcc:technical/root"
+}

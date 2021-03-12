@@ -1,0 +1,31 @@
+{
+  "pools": [{
+    "rolls": 1,
+    "entries": [{
+      "type": "minecraft:item",
+      "weight": 1,
+      "functions": [{
+          "function": "minecraft:set_nbt",
+          "tag": "{Enchantments:[{id:\"binding_curse\"}],HideFlags:1,tcc:{id:\"enchanted_golden_carrot\"}}"
+        },
+        {
+          "function": "minecraft:set_name",
+          "name": {
+            "translate": "item.tcc.enchanted_golden_carrot",
+            "color": "aqua",
+            "italic": false
+          }
+        },
+        {
+          "function": "minecraft:set_lore",
+          "lore": [{
+            "translate": "pack.tcc",
+            "color": "#008725",
+            "italic": true
+          }]
+        }
+      ],
+      "name": "minecraft:golden_carrot"
+    }]
+  }]
+}

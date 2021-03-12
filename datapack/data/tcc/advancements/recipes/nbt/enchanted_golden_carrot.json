@@ -1,0 +1,15 @@
+{
+  "parent": "tcc:recipes/nbt/root",
+  "rewards": {
+    "function": "tcc:entity/player/nbt_recipe",
+    "loot": ["tcc:items/enchanted_golden_carrot"]
+  },
+  "criteria": {
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "tcc:nbt/enchanted_golden_carrot"
+      }
+    }
+  }
+}

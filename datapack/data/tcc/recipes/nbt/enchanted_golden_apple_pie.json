@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      {
+        "item": "minecraft:enchanted_golden_apple"
+      },
+      {
+        "item": "minecraft:enchanted_golden_apple"
+      },
+      {
+        "item": "minecraft:sugar"
+      },
+      {
+        "item": "minecraft:egg"
+      }
+    ],
+    "result": {
+      "item": "minecraft:knowledge_book"
+    }
+  }
+  

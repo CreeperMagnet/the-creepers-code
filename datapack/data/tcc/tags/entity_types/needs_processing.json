@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:drowned",
+    "minecraft:wither_skeleton",
+    "minecraft:villager",
+    "minecraft:wandering_trader",
+    "#tcc:hates_villagers"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "X#",
+    "#X"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:warped_roots"
+    },
+    "X": {
+      "item": "minecraft:nether_wart"
+    }
+  },
+  "result": {
+    "item": "minecraft:warped_wart_block"
+  }
+}

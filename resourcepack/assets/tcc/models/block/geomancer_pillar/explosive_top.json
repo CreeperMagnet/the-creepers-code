@@ -1,0 +1,47 @@
+{
+  "textures": {
+    "0": "tcc:block/geomancer_pillar/explosive",
+    "particle": "tcc:block/geomancer_pillar/explosive"
+  },
+  "elements": [{
+    "from": [0, 8, 0],
+    "to": [16, 32, 16],
+    "faces": {
+      "north": {
+        "uv": [0, 4, 4, 10],
+        "texture": "#0"
+      },
+      "east": {
+        "uv": [12, 4, 16, 10],
+        "texture": "#0"
+      },
+      "south": {
+        "uv": [8, 4, 12, 10],
+        "texture": "#0"
+      },
+      "west": {
+        "uv": [4, 4, 8, 10],
+        "texture": "#0"
+      },
+      "up": {
+        "uv": [4, 0, 8, 4],
+        "texture": "#0"
+      },
+      "down": {
+        "uv": [8, 0, 12, 4],
+        "texture": "#0"
+      }
+    }
+  }],
+  "display": {
+    "head": {
+      "translation": [0, -30.43, 0],
+      "scale": [1.601, 1.601, 1.601]
+    },
+    "fixed": {
+      "rotation": [-90, 0, 0],
+      "translation": [0, 0, 16],
+      "scale": [2.01, 2.01, 2.01]
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:blaze_powder"
+        },
+        "title": {
+            "translate": "advancements.tcc.quests.mage.03.title"
+        },
+        "description": {
+            "translate": "advancements.tcc.quests.mage.03.description"
+        },
+        "show_toast": false,
+        "announce_to_chat": false,
+        "frame": "task"
+    },
+    "parent": "tcc:technical/item/quest_book/mage/display/root",
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

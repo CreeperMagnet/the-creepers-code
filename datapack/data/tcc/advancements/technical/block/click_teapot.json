@@ -1,0 +1,125 @@
+{
+  "parent": "tcc:technical/root",
+  "criteria": {
+    "add_water": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "item": "minecraft:potion",
+          "nbt": "{Potion:\"minecraft:water\"}"
+        },
+        "entity": {
+          "nbt": "{Tags:[\"tcc.teapot.empty\"]}",
+          "location": {
+            "block": {
+              "tag": "minecraft:campfires",
+              "state": {
+                "lit": "true"
+              }
+            }
+          }
+        }
+      }
+    },
+    "take_water": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "item": "minecraft:glass_bottle"
+        },
+        "entity": {
+          "nbt": "{Tags:[\"tcc.teapot.filled_water\"]}",
+          "location": {
+            "block": {
+              "tag": "minecraft:campfires",
+              "state": {
+                "lit": "true"
+              }
+            }
+          }
+        }
+      }
+    },
+    "add_warped_wart": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "nbt": "{tcc:{id:\"warped_wart\"}}"
+        },
+        "entity": {
+          "nbt": "{Tags:[\"tcc.teapot.filled_water\"]}",
+          "location": {
+            "block": {
+              "tag": "minecraft:campfires",
+              "state": {
+                "lit": "true"
+              }
+            }
+          }
+        }
+      }
+    },
+    "add_ingredient": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:reference",
+            "name": "tcc:holding/tea_ingredient"
+          }
+        ],
+        "entity": {
+          "nbt": "{Tags:[\"tcc.teapot.filled_warped_wart\"]}",
+          "location": {
+            "block": {
+              "tag": "minecraft:campfires",
+              "state": {
+                "lit": "true"
+              }
+            }
+          }
+        }
+      }
+    },
+    "take_tea": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:reference",
+              "name": "tcc:full_inventory"
+            }
+          }
+        ],
+        "item": {
+          "nbt": "{tcc:{id:\"teacup\"}}"
+        },
+        "entity": {
+          "nbt": "{Tags:[\"tcc.teapot.filled_tea\"]}",
+          "location": {
+            "block": {
+              "tag": "minecraft:campfires",
+              "state": {
+                "lit": "true"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "add_water",
+      "take_water",
+      "add_warped_wart",
+      "add_ingredient",
+      "take_tea"
+    ]
+  ],
+  "rewards": {
+    "function": "tcc:block/teapot/interact/raycast_start"
+  }
+}

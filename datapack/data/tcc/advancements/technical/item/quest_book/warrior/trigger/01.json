@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "summoned_iron_golem": {
+            "trigger": "minecraft:summoned_entity",
+            "conditions": {
+                "entity": {
+                    "type":"minecraft:iron_golem"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "tcc:item/quest_book/warrior/trigger/01"
+    },
+    "parent": "tcc:technical/root"
+}

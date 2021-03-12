@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:carrot_on_a_stick",
+      "nbt": "{CustomModelData:330001}"
+    },
+    "title": {
+      "translate": "advancements.tcc.minecraft.nether.cursed_crown.title"
+    },
+    "description": [{
+        "translate": "advancements.tcc.minecraft.nether.cursed_crown.description"
+      },
+      {
+        "translate": "advancements.tcc.minecraft.tooltip_spacer"
+      },
+      {
+        "translate": "pack.tcc",
+        "color": "#008725",
+        "italic": true
+      }
+    ],
+    "frame": "goal"
+  },
+  "parent": "minecraft:nether/loot_bastion",
+  "criteria": {
+    "wear_cursed_crown": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

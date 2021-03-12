@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:block",
+  "pools": [{
+    "rolls": 1,
+    "entries": [{
+      "type": "minecraft:loot_table",
+      "name": "tcc:items/gobblerift",
+      "functions": [{
+        "function": "minecraft:copy_nbt",
+        "source": "this",
+        "ops": [{
+            "source": "CustomName",
+            "target": "display.Name",
+            "op": "replace"
+          }
+        ],
+        "conditions": [{
+          "condition": "minecraft:inverted",
+          "term": {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{CustomName:'{\"translate\":\"block.tcc.gobblerift\"}'}"
+            }
+          }
+        }]
+      }]
+    }]
+  }]
+}

@@ -1,0 +1,30 @@
+{
+    "criteria": {
+        "ate_swordfish": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                   "nbt": "{tcc:{id:\"swordfish\"}}"
+                },
+                "player": [
+                    {
+                        "condition": "minecraft:inverted",
+                        "term": {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "player": {
+                                    "gamemode": "creative"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "tcc:item/swordfish"
+    },
+    "parent": "tcc:technical/root"
+}

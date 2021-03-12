@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:carrot_on_a_stick",
+      "nbt": "{CustomModelData:330000}"
+    },
+    "title": {
+      "translate": "advancements.tcc.minecraft.adventure.witch_hat.title"
+    },
+    "description": [{
+        "translate": "advancements.tcc.minecraft.adventure.witch_hat.description"
+      },
+      {
+        "translate": "advancements.tcc.minecraft.tooltip_spacer"
+      },
+      {
+        "translate": "pack.tcc",
+        "color": "#008725",
+        "italic": true
+      }
+    ],
+    "frame": "task"
+  },
+  "parent": "minecraft:adventure/kill_a_mob",
+  "criteria": {
+    "wear_witch_hat": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

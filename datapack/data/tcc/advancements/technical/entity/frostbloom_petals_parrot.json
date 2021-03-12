@@ -1,0 +1,20 @@
+{
+  "parent": "tcc:technical/root",
+  "criteria": {
+    "feed_parrot": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "item": "minecraft:cookie",
+          "nbt": "{tcc:{id:\"frostbloom_petals\"}}"
+        },
+        "entity": {
+          "type": "minecraft:parrot"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "tcc:item/frostbloom_petals/feed_parrot"
+  }
+}

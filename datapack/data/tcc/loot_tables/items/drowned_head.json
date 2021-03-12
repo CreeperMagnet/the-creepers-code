@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:entity",
+  "pools": [{
+    "rolls": 1,
+    "entries": [{
+      "type": "minecraft:item",
+      "weight": 1,
+      "functions": [{
+          "function": "minecraft:set_nbt",
+          "tag": "{tcc:{id:\"drowned_head\"},SkullOwner:{Name:\"Drowned\",Id:[I;-661062590,1439648191,-2058130321,624579559],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2NjNTYxYzVlNTIzZWVkNDIwNjIwMDM0OTczZmZiMzNmMTY2N2E2ZDE3ZDViYWI2MDFmMTU0YzY1NDQzYjZlMiJ9fX0=\"}]}}}"
+        },
+        {
+          "function": "minecraft:set_name",
+          "name": {
+            "translate": "block.tcc.drowned_head",
+            "color": "yellow",
+            "italic": false
+          }
+        },
+        {
+          "function": "minecraft:set_lore",
+          "lore": [{
+            "translate": "pack.tcc",
+            "color": "#008725",
+            "italic": true
+          }]
+        }
+      ],
+      "name": "minecraft:player_head"
+    }]
+  }]
+}

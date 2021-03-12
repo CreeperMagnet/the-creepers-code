@@ -1,0 +1,21 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:iron_ingot"
+        },
+        "title": {
+            "translate": "advancements.tcc.quests.warrior.01.title"
+        },
+        "description": {
+            "translate": "advancements.tcc.quests.warrior.01.description"
+        },
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "tcc:technical/item/quest_book/warrior/display/root",
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

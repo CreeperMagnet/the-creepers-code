@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "killed_husk": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity":{
+                    "type":"minecraft:husk"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "tcc:item/quest_book/warrior/trigger/04"
+    },
+    "parent": "tcc:technical/root"
+}

@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "ate_apple_pie": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "nbt": "{tcc:{id:\"apple_pie\"}}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "tcc:item/apple_pie/eat"
+  },
+  "parent": "tcc:technical/root"
+}

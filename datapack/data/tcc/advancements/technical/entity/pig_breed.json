@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "bred_pigs": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "child": {
+          "type": "minecraft:pig"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "tcc:entity/pig/bred"
+  },
+  "parent": "tcc:technical/root"
+}

@@ -1,0 +1,76 @@
+{
+  "pools": [{
+      "rolls": 1,
+      "entries": [{
+        "type": "item",
+        "weight": 1,
+        "name": "minecraft:rotten_flesh",
+        "functions": [{
+            "function": "set_count",
+            "count": {
+              "min": 0,
+              "max": 2
+            }
+          },
+          {
+            "function": "looting_enchant",
+            "count": {
+              "min": 0,
+              "max": 1
+            }
+          }
+        ]
+      }]
+    },
+    {
+      "conditions": [{
+          "condition": "killed_by_player"
+        },
+        {
+          "condition": "random_chance_with_looting",
+          "chance": 0.05,
+          "looting_multiplier": 0.01
+        }
+      ],
+      "rolls": 1,
+      "entries": [{
+          "type": "item",
+          "name": "minecraft:prismarine_crystals",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:wet_sponge",
+          "functions": [{
+            "function": "furnace_smelt",
+            "conditions": [{
+              "condition": "minecraft:entity_properties",
+              "predicate": {
+                "flags": {
+                  "is_on_fire": true
+                }
+              },
+              "entity": "this"
+            }]
+          }]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "conditions": [{
+        "condition": "entity_properties",
+        "entity": "killer",
+        "predicate": {
+          "nbt": "{powered:1b}"
+        }
+      }],
+      "entries": [{
+        "type": "loot_table",
+        "weight": 1,
+        "name": "tcc:items/drowned_head"
+      }]
+    }
+  ]
+}

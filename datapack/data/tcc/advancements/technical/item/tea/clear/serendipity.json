@@ -1,0 +1,19 @@
+{
+  "criteria": {
+    "effects_changed": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "player": {
+          "nbt": "{Tags:[\"tcc.tea.serendipity\"]}"
+        },
+        "effects": {
+          "minecraft:unluck": {}
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "tcc:item/tea/clear/serendipity"
+  },
+  "parent": "tcc:technical/root"
+}

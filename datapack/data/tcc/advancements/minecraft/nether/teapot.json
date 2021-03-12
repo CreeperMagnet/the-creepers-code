@@ -1,0 +1,151 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:carrot_on_a_stick",
+      "nbt": "{CustomModelData:330029}"
+    },
+    "title": {
+      "translate": "advancements.tcc.minecraft.nether.teapot.title"
+    },
+    "description": [{
+        "translate": "advancements.tcc.minecraft.nether.teapot.description"
+      },
+      {
+        "translate": "advancements.tcc.minecraft.tooltip_spacer"
+      },
+      {
+        "translate": "pack.tcc",
+        "color": "#008725",
+        "italic": true
+      }
+    ],
+    "frame": "task"
+  },
+  "parent": "minecraft:nether/brew_potion",
+  "criteria": {
+    "antitoxin": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "nbt": "{Tags:[\"tcc.teapot.filled_antitoxin_tea\"]}"
+        },
+        "item": {
+          "nbt": "{tcc:{id:\"teacup\"}}"
+        }
+      }
+    },
+    "clearsight": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "nbt": "{Tags:[\"tcc.teapot.filled_clearsight_tea\"]}"
+        },
+        "item": {
+          "nbt": "{tcc:{id:\"teacup\"}}"
+        }
+      }
+    },
+    "obscurity": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "nbt": "{Tags:[\"tcc.teapot.filled_obscurity_tea\"]}"
+        },
+        "item": {
+          "nbt": "{tcc:{id:\"teacup\"}}"
+        }
+      }
+    },
+    "plenty": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "nbt": "{Tags:[\"tcc.teapot.filled_plenty_tea\"]}"
+        },
+        "item": {
+          "nbt": "{tcc:{id:\"teacup\"}}"
+        }
+      }
+    },
+    "purity": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "nbt": "{Tags:[\"tcc.teapot.filled_purity_tea\"]}"
+        },
+        "item": {
+          "nbt": "{tcc:{id:\"teacup\"}}"
+        }
+      }
+    },
+    "serendipity": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "nbt": "{Tags:[\"tcc.teapot.filled_serendipity_tea\"]}"
+        },
+        "item": {
+          "nbt": "{tcc:{id:\"teacup\"}}"
+        }
+      }
+    },
+    "stability": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "nbt": "{Tags:[\"tcc.teapot.filled_stability_tea\"]}"
+        },
+        "item": {
+          "nbt": "{tcc:{id:\"teacup\"}}"
+        }
+      }
+    },
+    "vigor": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "nbt": "{Tags:[\"tcc.teapot.filled_vigor_tea\"]}"
+        },
+        "item": {
+          "nbt": "{tcc:{id:\"teacup\"}}"
+        }
+      }
+    },
+    "vitality": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "nbt": "{Tags:[\"tcc.teapot.filled_vitality_tea\"]}"
+        },
+        "item": {
+          "nbt": "{tcc:{id:\"teacup\"}}"
+        }
+      }
+    },
+    "vivacity": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "nbt": "{Tags:[\"tcc.teapot.filled_vivacity_tea\"]}"
+        },
+        "item": {
+          "nbt": "{tcc:{id:\"teacup\"}}"
+        }
+      }
+    },
+    "amenable": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "nbt": "{Tags:[\"tcc.teapot.filled_warped_wart\"]}"
+        },
+        "item": {
+          "nbt": "{tcc:{id:\"teacup\"}}"
+        }
+      }
+    }
+  },
+  "requirements": [
+    ["antitoxin", "clearsight", "obscurity", "plenty", "purity", "serendipity", "stability", "vigor", "vitality", "vivacity", "amenable"]
+  ]
+}

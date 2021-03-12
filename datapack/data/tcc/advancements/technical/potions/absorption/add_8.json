@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "eat_enchanted_golden_apple": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecraft:enchanted_golden_apple"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "tcc:entity/player/modify_absorption/add_8"
+  },
+  "parent": "tcc:technical/root"
+}

@@ -1,0 +1,31 @@
+{
+  "pools": [{
+    "rolls": 1,
+    "entries": [{
+      "type": "minecraft:item",
+      "weight": 1,
+      "functions": [{
+          "function": "minecraft:set_nbt",
+          "tag": "{BlockEntityTag:{name:\"tcc:stackable_item\"},HideFlags:4,Unbreakable:1b,tcc:{id:\"teacup\"},CustomModelData:330024}"
+        },
+        {
+          "function": "minecraft:set_name",
+          "name": {
+            "translate": "item.tcc.teacup",
+            "color": "white",
+            "italic": false
+          }
+        },
+        {
+          "function": "minecraft:set_lore",
+          "lore": [{
+            "translate": "pack.tcc",
+            "color": "#008725",
+            "italic": true
+          }]
+        }
+      ],
+      "name": "minecraft:structure_block"
+    }]
+  }]
+}

@@ -1,0 +1,47 @@
+{
+  "pools": [{
+    "rolls": 1,
+    "entries": [{
+      "type": "minecraft:item",
+      "weight": 1,
+      "functions": [{
+          "function": "set_nbt",
+          "tag": "{BlockEntityTag:{name:\"tcc:stackable_item\"},HideFlags:2,tcc:{id:\"gemstone\",gemstone:{id:\"minecraft:obsidian\",quality:\"cut\"}},CustomModelData:330016}"
+        },
+        {
+          "function": "minecraft:set_name",
+          "name": {
+            "translate": "item.tcc.obsidian_gemstone",
+            "color": "white",
+            "italic": false
+          }
+        },
+        {
+          "function": "set_lore",
+          "lore": [{
+              "translate": "pack.tcc",
+              "color": "#008725",
+              "italic": true
+            },
+            "",
+            {
+              "translate": "item.tcc.modifiers.ring",
+              "italic": false,
+              "color": "gray"
+            },
+            {
+              "translate": "attribute.modifier.plus.0",
+              "italic": false,
+              "color": "blue",
+              "with": ["1", {
+                "translate": "attribute.name.generic.knockback_resistance"
+              }]
+            }
+          ],
+          "entity": "this"
+        }
+      ],
+      "name": "minecraft:structure_block"
+    }]
+  }]
+}

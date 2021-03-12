@@ -1,0 +1,39 @@
+{
+  "providers": [{
+      "type": "bitmap",
+      "file": "tcc:gui/icons/creepermagnet_.png",
+      "ascent": 7,
+      "height": 7,
+      "chars": [
+        "c"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "tcc:gui/icons/dragoncommands.png",
+      "ascent": 7,
+      "height": 7,
+      "chars": [
+        "d"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "tcc:gui/icons/chromakey.png",
+      "ascent": 7,
+      "height": 7,
+      "chars": [
+        "k"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "tcc:gui/icons/ragnorakkr.png",
+      "ascent": 7,
+      "height": 7,
+      "chars": [
+        "r"
+      ]
+    }
+  ]
+}

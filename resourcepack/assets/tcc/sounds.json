@@ -1,0 +1,369 @@
+{
+  "item.boomerang.swish": {
+    "sounds": [{
+      "name": "tcc:item/boomerang",
+      "stream": true
+    }],
+    "subtitle": "subtitles.tcc.item.boomerang.swish",
+    "category": "master"
+  },
+  "item.potion_soak": {
+    "sounds": [
+      "block/brewing_stand/brew1",
+      "block/brewing_stand/brew2"
+    ],
+    "subtitle": "subtitles.tcc.item.potion_soak"
+  },
+  "block.jewelry_table.use": {
+    "sounds": [
+      "tcc:block/jewelry_table_use1",
+      "tcc:block/jewelry_table_use2",
+      "tcc:block/jewelry_table_use3"
+    ],
+    "subtitle": "subtitles.tcc.block.jewelry_table.use"
+  },
+  "block.positional_anchor.fill": {
+    "sounds": [
+      "tcc:block/positional_anchor_fill"
+    ],
+    "subtitle": "subtitles.tcc.block.positional_anchor.fill"
+  },
+  "block.positional_anchor.fire": {
+    "sounds": [
+      "tcc:block/positional_anchor_fire"
+    ],
+    "subtitle": "subtitles.tcc.block.positional_anchor.fire"
+  },
+  "item.obsidian_mirror.use": {
+    "sounds": [
+      "block/enchantment_table/enchant1"
+    ],
+    "subtitle": "subtitles.tcc.item.obsidian_mirror.use"
+  },
+  "item.quest_book.use": {
+    "sounds": [{
+        "name": "item/book/open_flip1",
+        "volume": 2
+      },
+      {
+        "name": "item/book/open_flip2",
+        "volume": 2
+      },
+      {
+        "name": "item/book/open_flip3",
+        "volume": 2
+      }
+    ],
+    "subtitle": "subtitles.tcc.item.quest_book.use"
+  },
+  "item.armor.equip_witch_hat": {
+    "sounds": [
+      "item/armor/equip_leather1",
+      "item/armor/equip_leather2",
+      "item/armor/equip_leather3",
+      "item/armor/equip_leather4",
+      "item/armor/equip_leather5",
+      "item/armor/equip_leather6"
+    ],
+    "subtitle": "subtitles.tcc.item.armor.equip_witch_hat"
+  },
+  "item.wrench.rotate_block": {
+    "sounds": [
+      "tcc:item/wrench1",
+      "tcc:item/wrench2",
+      "tcc:item/wrench3",
+      "tcc:item/wrench4"
+    ],
+    "subtitle": "subtitles.tcc.item.wrench.rotate_block"
+  },
+  "item.armor.equip_cursed_crown": {
+    "sounds": [
+      "item/armor/equip_gold1",
+      "item/armor/equip_gold2",
+      "item/armor/equip_gold3",
+      "item/armor/equip_gold4",
+      "item/armor/equip_gold5",
+      "item/armor/equip_gold6"
+    ],
+    "subtitle": "subtitles.tcc.item.armor.equip_cursed_crown"
+  },
+  "block.nether_reactor.activate": {
+    "sounds": [
+      "tcc:block/nether_reactor_activate1",
+	  "tcc:block/nether_reactor_activate2",
+	  "tcc:block/nether_reactor_activate3"
+    ],
+    "subtitle": "subtitles.tcc.block.nether_reactor.activate"
+  },
+  "block.nether_reactor.burn_out": {
+    "sounds": [
+      "random/fizz"
+    ],
+    "subtitle": "subtitles.tcc.block.nether_reactor.burn_out"
+  },
+  "block.block_breaker.enchant": {
+    "sounds": [
+      "block/enchantment_table/enchant1",
+      "block/enchantment_table/enchant2",
+      "block/enchantment_table/enchant3"
+    ],
+    "subtitle": "subtitles.tcc.block.block_breaker.enchant"
+  },
+  "entity.enchanter.ambient": {
+    "sounds": [
+      "tcc:mob/enchanter/idle1",
+      "tcc:mob/enchanter/idle2",
+      "tcc:mob/enchanter/idle3"
+    ],
+    "subtitle": "subtitles.tcc.entity.enchanter.ambient"
+  },
+  "entity.enchanter.death": {
+    "sounds": [
+      "tcc:mob/enchanter/death1",
+      "tcc:mob/enchanter/death2",
+      "tcc:mob/enchanter/death3"
+    ],
+    "subtitle": "subtitles.tcc.entity.enchanter.death"
+  },
+  "entity.enchanter.hurt": {
+    "sounds": [
+      "tcc:mob/enchanter/hurt1",
+      "tcc:mob/enchanter/hurt2",
+      "tcc:mob/enchanter/hurt3"
+    ],
+    "subtitle": "subtitles.tcc.entity.enchanter.hurt"
+  },
+  "entity.enchanter.spell": {
+    "sounds": [
+      "tcc:mob/enchanter/spell1",
+      "tcc:mob/enchanter/spell2"
+    ],
+    "subtitle": "subtitles.tcc.entity.enchanter.spell"
+  },
+  "entity.iceologer.ambient": {
+    "sounds": [
+      "tcc:mob/iceologer/idle1",
+      "tcc:mob/iceologer/idle2",
+      "tcc:mob/iceologer/idle3"
+    ],
+    "subtitle": "subtitles.tcc.entity.iceologer.ambient"
+  },
+  "entity.iceologer.death": {
+    "sounds": [
+      "tcc:mob/iceologer/death1",
+      "tcc:mob/iceologer/death2",
+      "tcc:mob/iceologer/death3"
+    ],
+    "subtitle": "subtitles.tcc.entity.iceologer.death"
+  },
+  "entity.iceologer.hurt": {
+    "sounds": [
+      "tcc:mob/iceologer/hurt1",
+      "tcc:mob/iceologer/hurt2",
+      "tcc:mob/iceologer/hurt3"
+    ],
+    "subtitle": "subtitles.tcc.entity.iceologer.hurt"
+  },
+  "entity.iceologer.attack": {
+    "sounds": [
+      "tcc:mob/iceologer/attack1",
+      "tcc:mob/iceologer/attack2",
+      "tcc:mob/iceologer/attack3"
+    ],
+    "subtitle": "subtitles.tcc.entity.iceologer.attack"
+  },
+  "entity.iceologer.cast_spell": {
+    "sounds": [
+      "tcc:mob/iceologer/cast1",
+      "tcc:mob/iceologer/cast2",
+      "tcc:mob/iceologer/cast3"
+    ],
+    "subtitle": "subtitles.tcc.entity.iceologer.cast_spell"
+  },
+  "entity.iceologer.ice_hit": {
+    "sounds": [
+      "tcc:mob/iceologer/ice_hit1",
+      "tcc:mob/iceologer/ice_hit2"
+    ],
+    "volume": 0.5,
+    "subtitle": "subtitles.tcc.entity.iceologer.ice_hit"
+  },
+  "entity.geomancer.ambient": {
+    "sounds": [
+      "tcc:mob/geomancer/idle1",
+      "tcc:mob/geomancer/idle2",
+      "tcc:mob/geomancer/idle3",
+      "tcc:mob/geomancer/idle4",
+      "tcc:mob/geomancer/idle5",
+      "tcc:mob/geomancer/idle6"
+    ],
+    "subtitle": "subtitles.tcc.entity.geomancer.ambient"
+  },
+  "entity.geomancer.death": {
+    "sounds": [
+      "tcc:mob/geomancer/death1",
+      "tcc:mob/geomancer/death2",
+      "tcc:mob/geomancer/death3"
+    ],
+    "subtitle": "subtitles.tcc.entity.geomancer.death"
+  },
+  "entity.geomancer.hurt": {
+    "sounds": [
+      "tcc:mob/geomancer/hurt1",
+      "tcc:mob/geomancer/hurt2",
+      "tcc:mob/geomancer/hurt3",
+      "tcc:mob/geomancer/hurt4"
+    ],
+    "subtitle": "subtitles.tcc.entity.geomancer.hurt"
+  },
+  "entity.geomancer.attack": {
+    "sounds": [
+      "tcc:mob/geomancer/attack1",
+      "tcc:mob/geomancer/attack2"
+    ],
+    "subtitle": "subtitles.tcc.entity.geomancer.attack"
+  },
+  "entity.geomancer.pre_attack": {
+    "sounds": [
+      "tcc:mob/geomancer/pre_attack1",
+      "tcc:mob/geomancer/pre_attack2"
+    ],
+    "subtitle": "subtitles.tcc.entity.geomancer.pre_attack"
+  },
+  "entity.geomancer.cast_spell": {
+    "sounds": [
+      "mob/evocation_illager/cast1",
+      "mob/evocation_illager/cast2"
+    ],
+    "subtitle": "subtitles.tcc.entity.geomancer.cast_spell"
+  },
+  "block.explosive_geomancer_pillar.explode": {
+    "sounds": [
+      "random/explode1",
+      "random/explode2",
+      "random/explode3",
+      "random/explode4"
+    ],
+    "subtitle": "subtitles.tcc.block.explosive_geomancer_pillar.explode"
+  },
+  "block.explosive_geomancer_pillar.hiss": {
+    "sounds": [
+      "random/fuse"
+    ],
+    "subtitle": "subtitles.tcc.block.explosive_geomancer_pillar.hiss"
+  },
+  "block.teapot.brew": {
+    "sounds": [
+      "block/brewing_stand/brew1",
+      "block/brewing_stand/brew2"
+    ],
+    "subtitle": "subtitles.tcc.block.teapot.brew"
+  },
+  "item.teacup.fill": {
+    "sounds": [
+      "item/bottle/fill1",
+      "item/bottle/fill2",
+      "item/bottle/fill3",
+      "item/bottle/fill4"
+    ],
+    "subtitle": "subtitles.tcc.item.teacup.fill"
+  },
+  "block.gobblerift.place": {
+    "sounds": [
+      "tcc:block/gobblerift/place1",
+      "tcc:block/gobblerift/place2",
+      "tcc:block/gobblerift/place3"
+    ],
+    "subtitle": "subtitles.block.generic.place"
+  },
+  "block.gobblerift.break": {
+    "sounds": [
+      "tcc:block/gobblerift/break1",
+      "tcc:block/gobblerift/break2",
+      "tcc:block/gobblerift/break3"
+    ],
+    "subtitle": "subtitles.block.generic.break"
+  },
+  "block.gobblerift.hungry": {
+    "sounds": [
+      "tcc:block/gobblerift/stomach1",
+      "tcc:block/gobblerift/stomach2",
+      "tcc:block/gobblerift/stomach3"
+    ],
+    "subtitle": "subtitles.tcc.block.gobblerift.hungry"
+  },
+  "block.gobblerift.swallow": {
+    "sounds": [
+      "tcc:block/gobblerift/devour1",
+      "tcc:block/gobblerift/devour2",
+      "tcc:block/gobblerift/devour3"
+    ],
+    "subtitle": "subtitles.tcc.block.gobblerift.swallow"
+  },
+  "block.gobblerift.swallow_favorite": {
+    "sounds": [
+      "tcc:block/gobblerift/devour_favorite1",
+      "tcc:block/gobblerift/devour_favorite2"
+    ],
+    "subtitle": "subtitles.tcc.block.gobblerift.swallow_favorite"
+  },
+  "block.gobblerift.fill_bottle": {
+    "sounds": [
+      "tcc:block/gobblerift/fill_bottle1",
+      "tcc:block/gobblerift/fill_bottle2"
+    ],
+    "subtitle": "subtitles.tcc.block.gobblerift.fill_bottle"
+  },
+  "block.gobblerift.teleport_player": {
+    "sounds": [
+      "tcc:block/gobblerift/spitleport1",
+      "tcc:block/gobblerift/spitleport2",
+      "tcc:block/gobblerift/spitleport3"
+    ],
+    "subtitle": "subtitles.tcc.block.gobblerift.teleport_player"
+  },
+  "block.gobblerift.hurt": {
+    "sounds": [
+      "tcc:block/gobblerift/hurt1",
+      "tcc:block/gobblerift/hurt2",
+      "tcc:block/gobblerift/hurt3",
+	    "tcc:block/gobblerift/hurt4"
+    ],
+    "subtitle": "subtitles.tcc.block.gobblerift.hurt"
+  },
+  "block.gobblerift.digest": {
+    "sounds": [
+      "tcc:block/gobblerift/digesting1",
+      "tcc:block/gobblerift/digesting2",
+      "tcc:block/gobblerift/digesting3",
+	    "tcc:block/gobblerift/digesting4"
+    ],
+    "subtitle": "subtitles.tcc.block.gobblerift.digest"
+  },
+  "item.locket_of_learning.deposit": {
+    "sounds": [
+      "tcc:item/locket_deposit1",
+      "tcc:item/locket_deposit2",
+      "tcc:item/locket_deposit3",
+	    "tcc:item/locket_deposit4"
+    ],
+    "subtitle": "subtitles.tcc.item.locket_of_learning.deposit"
+  },
+  "item.elytra.close": {
+    "sounds": [
+      "tcc:item/elytra_close1",
+      "tcc:item/elytra_close2",
+      "tcc:item/elytra_close3",
+      "tcc:item/elytra_close4"
+    ],
+    "subtitle": "subtitles.tcc.item.elytra.close"
+  },
+  "item.peculiar_berries.feed": {
+    "sounds": [
+      "tcc:item/peculiar_berries_feed1",
+      "tcc:item/peculiar_berries_feed2",
+      "tcc:item/peculiar_berries_feed3"
+    ],
+    "subtitle": "subtitles.tcc.item.peculiar_berries.feed"
+  }
+}

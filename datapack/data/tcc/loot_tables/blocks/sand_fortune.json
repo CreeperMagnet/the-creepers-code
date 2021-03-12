@@ -1,0 +1,89 @@
+{
+  "pools": [{
+    "rolls": 1,
+    "entries": [{
+      "type": "minecraft:alternatives",
+      "children": [{
+          "type": "minecraft:loot_table",
+          "name": "tcc:blocks/sand_fortune/beach",
+          "conditions": [{
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "biome": "minecraft:beach"
+            }
+          }]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "tcc:blocks/sand_fortune/lukewarm_ocean",
+          "conditions": [{
+            "condition": "minecraft:alternative",
+            "terms": [{
+                "condition": "minecraft:location_check",
+                "predicate": {
+                  "biome": "minecraft:deep_lukewarm_ocean"
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "predicate": {
+                  "biome": "minecraft:lukewarm_ocean"
+                }
+              }
+            ]
+          }]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "tcc:blocks/sand_fortune/warm_ocean",
+          "conditions": [{
+            "condition": "minecraft:alternative",
+            "terms": [{
+                "condition": "minecraft:location_check",
+                "predicate": {
+                  "biome": "minecraft:deep_warm_ocean"
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "predicate": {
+                  "biome": "minecraft:warm_ocean"
+                }
+              }
+            ]
+          }]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "tcc:blocks/sand_fortune/desert",
+          "conditions": [{
+            "condition": "minecraft:alternative",
+            "terms": [{
+                "condition": "minecraft:location_check",
+                "predicate": {
+                  "biome": "minecraft:desert"
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "predicate": {
+                  "biome": "minecraft:desert_hills"
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "predicate": {
+                  "biome": "minecraft:desert_lakes"
+                }
+              }
+            ]
+          }]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:sand"
+        }
+      ]
+    }]
+  }]
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "tcc:item/smoldering_seeker/31"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "drink_vigor_tea": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "nbt": "{tcc:{id:\"tea\",tea:\"vigor\"}}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "tcc:item/tea/drink/vigor"
+  },
+  "parent": "tcc:technical/root"
+}

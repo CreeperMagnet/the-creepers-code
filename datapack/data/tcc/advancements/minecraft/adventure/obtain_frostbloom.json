@@ -1,0 +1,38 @@
+{
+  "parent": "tcc:minecraft/adventure/kill_iceologer",
+  "display": {
+    "icon": {
+      "item": "minecraft:carrot_on_a_stick",
+      "nbt": "{CustomModelData:330030}"
+    },
+    "title": {
+      "translate": "advancements.tcc.minecraft.adventure.obtain_frostbloom.title"
+    },
+    "description": [{
+        "translate": "advancements.tcc.minecraft.adventure.obtain_frostbloom.description"
+      },
+      {
+        "translate": "advancements.tcc.minecraft.tooltip_spacer"
+      },
+      {
+        "translate": "pack.tcc",
+        "color": "#008725",
+        "italic": true
+      }
+    ],
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "frostbloom": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{
+          "nbt": "{tcc:{id:\"frostbloom\"}}"
+        }]
+      }
+    }
+  }
+}

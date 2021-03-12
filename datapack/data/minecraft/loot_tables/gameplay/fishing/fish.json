@@ -1,0 +1,115 @@
+{
+  "pools": [{
+    "rolls": 1,
+    "entries": [{
+        "type": "minecraft:item",
+        "weight": 60,
+        "name": "minecraft:cod"
+      },
+      {
+        "type": "minecraft:item",
+        "weight": 100,
+        "name": "minecraft:salmon",
+        "conditions": [{
+          "condition": "minecraft:alternative",
+          "terms": [{
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:river"
+              }
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:frozen_river"
+              }
+            },
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.25
+            }
+          ]
+        }]
+      },
+      {
+        "type": "minecraft:item",
+        "weight": 4,
+        "name": "minecraft:tropical_fish",
+        "conditions": [{
+          "condition": "minecraft:alternative",
+          "terms": [{
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:deep_warm_ocean"
+              }
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:warm_ocean"
+              }
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:deep_lukewarm_ocean"
+              }
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:lukewarm_ocean"
+              }
+            },
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.5
+            }
+          ]
+        }]
+      },
+      {
+        "type": "minecraft:item",
+        "weight": 26,
+        "name": "minecraft:pufferfish",
+        "conditions": [{
+          "condition": "minecraft:alternative",
+          "terms": [{
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:deep_warm_ocean"
+              }
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:warm_ocean"
+              }
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:deep_lukewarm_ocean"
+              }
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:lukewarm_ocean"
+              }
+            },
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.5
+            }
+          ]
+        }]
+      },
+      {
+        "type": "minecraft:loot_table",
+        "weight": 1,
+        "name": "tcc:items/swordfish"
+      }
+    ]
+  }]
+}

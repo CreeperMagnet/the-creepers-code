@@ -1,0 +1,12 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "item/campfire"
+  },
+  "overrides": [{
+    "predicate": {
+      "custom_model_data": 330000
+    },
+    "model": "tcc:item/unlit_campfire"
+  }]
+}

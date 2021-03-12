@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "ate_nibbled_golden_apple_pie": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "nbt": "{tcc:{id:\"nibbled_golden_apple_pie\"}}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "tcc:item/golden_apple_pie/eat_nibbled"
+  },
+  "parent": "tcc:technical/root"
+}

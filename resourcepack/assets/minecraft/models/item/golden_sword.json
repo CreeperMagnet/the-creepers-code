@@ -1,0 +1,12 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "item/golden_sword"
+  },
+  "overrides": [{
+    "predicate": {
+      "custom_model_data": 330000
+    },
+    "model": "tcc:item/tipped_swords/golden_sword"
+  }]
+}

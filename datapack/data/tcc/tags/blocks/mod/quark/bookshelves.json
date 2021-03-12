@@ -1,0 +1,29 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "quark:acacia_bookshelf",
+      "required": false
+    },
+    {
+      "id": "quark:spruce_bookshelf",
+      "required": false
+    },
+    {
+      "id": "quark:dark_oak_bookshelf",
+      "required": false
+    },
+    {
+      "id": "quark:birch_bookshelf",
+      "required": false
+    },
+    {
+      "id": "quark:warped_bookshelf",
+      "required": false
+    },
+    {
+      "id": "quark:crimson_bookshelf",
+      "required": false
+    }
+  ]
+}

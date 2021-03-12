@@ -1,0 +1,13 @@
+{
+  "name": "tcc:tundra_keep/mobs/iron_golem",
+  "fallback": "minecraft:empty",
+  "elements": [{
+    "weight": 1,
+    "element": {
+      "location": "tcc:tundra_keep/mobs/iron_golem",
+      "processors": "minecraft:empty",
+      "projection": "rigid",
+      "element_type": "minecraft:single_pool_element"
+    }
+  }]
+}

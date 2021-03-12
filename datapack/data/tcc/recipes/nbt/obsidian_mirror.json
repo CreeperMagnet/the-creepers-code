@@ -1,0 +1,23 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "B#B",
+    "#S#",
+    "B#B"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:repeating_command_block"
+    },
+    "S": {
+      "item": "minecraft:fermented_spider_eye"
+    },
+    "B": {
+      "item": "minecraft:blaze_rod"
+    }
+  },
+  "result": {
+    "item": "minecraft:knowledge_book",
+    "count": 1
+  }
+}
