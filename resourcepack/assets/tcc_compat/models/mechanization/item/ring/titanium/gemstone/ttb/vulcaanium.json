@@ -1,7 +1,0 @@
-{
-  "parent": "item/generated",
-  "textures": {
-    "layer0": "tcc_compat:mechanization/item/ring/metal/titanium_with_gemstone",
-    "layer1": "tcc_compat:ttb/item/ring/gemstone/vulcaanium"
-  }
-}

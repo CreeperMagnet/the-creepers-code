@@ -35,5 +35,5 @@ data modify entity @s Offers.Recipes[-1].sell set from entity @s HandItems[1]
 # Setting NBT to lock the items up
 
 data modify entity @s Offers.Recipes[-2].buy.tag merge value {CustomModelData:330000,tcc:{id:"cycler_trade",cycle_state:0}}
-replaceitem entity @s weapon.mainhand air
-replaceitem entity @s weapon.offhand air
+item entity @s weapon.mainhand replace air
+item entity @s weapon.offhand replace air

@@ -275,6 +275,24 @@
         "custom_model_data": 330045
       },
       "model": "tcc:block/gobblerift/hurt/stage_6_full"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330046
+      },
+      "model": "tcc:block/phantom_item_frame"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330047
+      },
+      "model": "tcc:item/amethyst_dust"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330048
+      },
+      "model": "tcc:entity/snail/normal"
     }
   ]
 }

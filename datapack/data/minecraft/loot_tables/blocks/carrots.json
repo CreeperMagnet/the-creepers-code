@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:alternatives",
-          "children":[
+          "children": [
             {
               "type": "minecraft:item",
               "name": "minecraft:carrot"
@@ -34,54 +34,19 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:alternatives",
-          "children": [
+          "type": "minecraft:item",
+          "functions": [
             {
-              "type": "minecraft:item",
-              "name": "minecraft:golden_carrot",
-              "functions": [
-                {
-                  "function":"minecraft:set_count",
-                  "count": 1
-                }
-              ],
-              "conditions": [
-                {
-                  "condition": "minecraft:entity_properties",
-                  "entity": "this",
-                  "predicate": {
-                    "equipment": {
-                      "head": {
-                        "nbt": "{tcc:{id:\"cursed_crown\"}}"
-                      }
-                    }
-                  }
-                },
-                {
-                  "condition": "minecraft:block_state_property",
-                  "block": "minecraft:carrots",
-                  "properties": {
-                    "age": "7"
-                  }
-                }
-              ]
-            },
-            {
-              "type": "minecraft:item",
-              "functions": [
-                {
-                  "function": "minecraft:apply_bonus",
-                  "enchantment": "minecraft:fortune",
-                  "formula": "minecraft:binomial_with_bonus_count",
-                  "parameters": {
-                    "extra": 3,
-                    "probability": 0.5714286
-                  }
-                }
-              ],
-              "name": "minecraft:carrot"
+              "function": "minecraft:apply_bonus",
+              "enchantment": "minecraft:fortune",
+              "formula": "minecraft:binomial_with_bonus_count",
+              "parameters": {
+                "extra": 3,
+                "probability": 0.5714286
+              }
             }
-          ]
+          ],
+          "name": "minecraft:carrot"
         }
       ],
       "conditions": [

@@ -17,46 +17,10 @@
           },
           {
             "translate": "pack.tcc.version",
-            "color": "green"
+            "color": "blue"
           },
           {
             "translate": "advancements.tcc.installed_datapacks_menu.description_2",
-            "color": "gray"
-          },
-          {
-            "translate": "advancements.tcc.installed_datapacks_menu.creepermagnet_.icon",
-            "color": "white",
-            "font": "tcc:icons"
-          },
-          {
-            "translate": "advancements.tcc.installed_datapacks_menu.creepermagnet_",
-            "color": "gray"
-          },
-          {
-            "translate": "advancements.tcc.installed_datapacks_menu.dragoncommands.icon",
-            "color": "white",
-            "font": "tcc:icons"
-          },
-          {
-            "translate": "advancements.tcc.installed_datapacks_menu.dragoncommands",
-            "color": "gray"
-          },
-          {
-            "translate": "advancements.tcc.installed_datapacks_menu.chromakey.icon",
-            "color": "white",
-            "font": "tcc:icons"
-          },
-          {
-            "translate": "advancements.tcc.installed_datapacks_menu.chromakey",
-            "color": "gray"
-          },
-          {
-            "translate": "advancements.tcc.installed_datapacks_menu.ragnorakkr.icon",
-            "color": "white",
-            "font": "tcc:icons"
-          },
-          {
-            "translate": "advancements.tcc.installed_datapacks_menu.ragnorakkr",
             "color": "gray"
           }
         ]

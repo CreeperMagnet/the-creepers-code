@@ -39,5 +39,11 @@ execute if block ~ ~-0.9 ~ minecraft:purple_stained_glass_pane run particle mine
 execute if block ~ ~-0.9 ~ minecraft:blue_stained_glass_pane run particle minecraft:item minecraft:blue_stained_glass_pane ~ ~ ~ 0.5 0.5 0.5 0.5 100 normal
 execute if block ~ ~-0.9 ~ minecraft:brown_stained_glass_pane run particle minecraft:item minecraft:brown_stained_glass_pane ~ ~ ~ 0.5 0.5 0.5 0.5 100 normal
 execute if block ~ ~-0.9 ~ minecraft:green_stained_glass_pane run particle minecraft:item minecraft:green_stained_glass_pane ~ ~ ~ 0.5 0.5 0.5 0.5 100 normal
+execute if block ~ ~-0.9 ~ minecraft:tinted_glass run particle minecraft:item minecraft:tinted_glass ~ ~ ~ 0.5 0.5 0.5 0.5 100 normal
+execute if block ~ ~-0.9 ~ minecraft:amethyst_block run particle minecraft:item minecraft:amethyst_block ~ ~ ~ 0.5 0.5 0.5 0.5 100 normal
+execute if block ~ ~-0.9 ~ minecraft:amethyst_cluster run particle minecraft:item minecraft:amethyst_cluster ~ ~ ~ 0.5 0.5 0.5 0.5 100 normal
+execute if block ~ ~-0.9 ~ minecraft:small_amethyst_bud run particle minecraft:item minecraft:small_amethyst_bud ~ ~ ~ 0.5 0.5 0.5 0.5 100 normal
+execute if block ~ ~-0.9 ~ minecraft:medium_amethyst_bud run particle minecraft:item minecraft:medium_amethyst_bud ~ ~ ~ 0.5 0.5 0.5 0.5 100 normal
+execute if block ~ ~-0.9 ~ minecraft:large_amethyst_bud run particle minecraft:item minecraft:large_amethyst_bud ~ ~ ~ 0.5 0.5 0.5 0.5 100 normal
 
 setblock ~ ~-0.9 ~ air destroy

@@ -4,7 +4,7 @@
 
   "pack.tcc": "The Creeper's Code",
   "pack.tcc.hover_event": "Click here to go to the official website",
-  "pack.tcc.version": "Version 0.4",
+  "pack.tcc.version": "Version 0.5 Beta 1",
   "pack.tcc.version.hover_event": "Click here to see changelog notes",
   "TCC (MISSING RESOURCES)": "%s",
   "The Creeper's Code Resource Pack is not installed. Please go to https://thecreeperscode.com/download.": "%s",
@@ -29,6 +29,7 @@
   "item.tcc.compendium.version.0_2": "Version 0.2",
   "item.tcc.compendium.version.0_3": "Version 0.3",
   "item.tcc.compendium.version.0_4": "Version 0.4",
+  "item.tcc.compendium.version.0_5": "Version 0.5",
 
   "item.tcc.compendium.page.contributors_icon": "\ud005",
   "item.tcc.compendium.page.contributors_icon.hover_event": "Contributors\n%s",
@@ -49,7 +50,7 @@
   "item.tcc.compendium.index_page.empty_icon": "\uf000",
 
 
-  "item.tcc.compendium.cover_page": "\n\ud000\n\n\n       %s\n\n\ud020%s%s%s%s\n\n%s",
+  "item.tcc.compendium.cover_page": "\n\ud000\n\n\n   %s\n\n\ud020%s%s%s%s\n\n%s",
   "item.tcc.compendium.cover_page.content": "A comprehensive guide to all the content in The Creeper's Code.\n\nTo get another copy, run %s",
   "item.tcc.compendium.cover_page.give_command": "this command.",
   "item.tcc.compendium.cover_page.give_command.hover_event": "/trigger tcc.compendium",
@@ -131,7 +132,7 @@
 
   "item.tcc.compendium.credits.inspiration": "Inspiration",
   "item.tcc.compendium.credits.inspiration.icon": "\ue004",
-  "item.tcc.compendium.credits.inspiration.description": "%s\n\nJragon014/Zoey: Started the entire idea of a \"command block mod\". Honestly, without that idea, TCC wouldn't be here.\n\nVazkii: He made quark, which is TCC but a mod. I'd be lying if I didn't take some inspiration from that.",
+  "item.tcc.compendium.credits.inspiration.description": "%s\n\nJragon014/Zoey: Started the entire idea of a \"command block mod\". Honestly, without that idea, TCC wouldn't be here.\n\nVazkii: He made quark, which is TCC but a mod. I'd be lying if I said I didn't take some inspiration from that.",
 
 
 
@@ -140,7 +141,7 @@
   "item.tcc.compendium.entry.absorption_improvements.contributors": "Skaliber: Came up with the idea\n%1$s: Implemented",
   "item.tcc.compendium.entry.absorption_improvements.more_info": "This effect also applies to both variants of golden apple pies.",
   "item.tcc.compendium.entry.absorption_improvements.history": "%3$s: Added this feature\n%4$s: Tweaked values",
-  "item.tcc.compendium.entry.absorption_improvements.description": "Absorption now stacks, meaning you gain +2 (+4, if enchanted) absorption hearts every time you eat a golden apple, up to a max of 10. The effect also wears off if you lose the hearts.\n\n\n",
+  "item.tcc.compendium.entry.absorption_improvements.description": "Absorption now stacks, meaning you gain +2 (+8, if enchanted) absorption hearts every time you eat a golden apple, up to a max of 10. The effect also wears off if you lose the hearts.\n\n\n",
 
   "item.tcc.compendium.entry.ancient_acorn.icon": "\uf002",
   "item.tcc.compendium.entry.ancient_acorn.history": "%1$s: Added\n%3$s: Now gives haste instead of health boost\n%4$s: Can now be brewed into a tea",
@@ -159,10 +160,10 @@
 
   "item.tcc.compendium.entry.anvil_smashing.title": "Anvil Smashing",
   "item.tcc.compendium.entry.anvil_smashing.icon": "\uf004",
-  "item.tcc.compendium.entry.anvil_smashing.history": "%3$s: Added\n%4$s: Can now crack blocks as well",
+  "item.tcc.compendium.entry.anvil_smashing.history": "%3$s: Added\n%4$s: Can now crack blocks as well\n%5$s: Can now smash amethyst blocks",
   "item.tcc.compendium.entry.anvil_smashing.contributors": "%1$s: Created",
   "item.tcc.compendium.entry.anvil_smashing.more_info": "When smashing glowstone, it gives all mobs in a 5-block radius glowing for a minute, and all players nausea II and haste II for 5 minutes.",
-  "item.tcc.compendium.entry.anvil_smashing.description": "Anvils dropped onto glass blocks will smash them into a spray of particles! This also works on glowstone, which sprays out lots of fun potion effects. You can also crack blocks by dropping anvils on them too.\n",
+  "item.tcc.compendium.entry.anvil_smashing.description": "Anvils dropped onto glass and amethyst blocks will smash them into a spray of particles! This also works on glowstone, which sprays out lots of fun potion effects. You can also crack blocks by dropping anvils on them too.\n",
 
   "item.tcc.compendium.entry.apple_pie.icon": "\uf005",
   "item.tcc.compendium.entry.apple_pie.history": "%2$s: Added",
@@ -182,8 +183,8 @@
   "item.tcc.compendium.entry.better_recipes.icon": "\uf007",
   "item.tcc.compendium.entry.better_recipes.contributors": "%1$s: Created",
   "item.tcc.compendium.entry.better_recipes.more_info": "Fun feature trivia: After V0.3, many of the blackstone recipes were implemented into vanilla.",
-  "item.tcc.compendium.entry.better_recipes.history": "%1$s: Implemented most recipes\n%3$s: Removed many nonsensical recipes",
-  "item.tcc.compendium.entry.better_recipes.description": "Many recipes have been improved. Stairs now have an output of 8, prismarine recipes have been generally improved, and many stone items can be crafted with blackstone.\n\n\n",
+  "item.tcc.compendium.entry.better_recipes.history": "%1$s: Implemented most recipes\n%3$s: Removed many nonsensical recipes\n%5$s: Added deepslate recipes",
+  "item.tcc.compendium.entry.better_recipes.description": "Many recipes have been improved. Stairs now have an output of 8, prismarine recipes have been generally improved, and many stone items can be crafted with blackstone or deepslate.\n\n",
 
   "item.tcc.compendium.entry.biome_based_fishing.title": "Biome-Based Fishing",
   "item.tcc.compendium.entry.biome_based_fishing.icon": "\uf008",
@@ -196,7 +197,7 @@
   "item.tcc.compendium.entry.block_breakers.icon": "\uf009",
   "item.tcc.compendium.entry.block_breakers.contributors": "%1$s: Created\n%3$s: Implemented efficiency enchantments\n%4$s: Rewrote majority of the code",
   "item.tcc.compendium.entry.block_breakers.more_info": "Valid Enchantments:\n - Efficiency\n - Silk Touch\n - Fortune\n\nEfficiency affects how many blocks the block breaker can break in front of it, while silk touch and fortune have the expected effects.",
-  "item.tcc.compendium.entry.block_breakers.history": "%1$s: Implemented\n%2$s: Added the snipper variant\n%3$s: Added the harvester variant and enchantments\n%4$s: Added efficiency enchantment support and doTileDrops gamerule support",
+  "item.tcc.compendium.entry.block_breakers.history": "%1$s: Implemented\n%2$s: Added the snipper variant\n%3$s: Added the harvester variant and enchantments\n%4$s: Added efficiency enchantment support and doTileDrops gamerule support\n%5$s: Can now be crafted with deepslate and blackstone",
   "item.tcc.compendium.entry.block_breakers.recipe": "\n\n\n\n\n\n\uc000\n",
   "item.tcc.compendium.entry.block_breakers.description": "Block breakers are made with any diamond tool or shears. When powered, they eat blocks, and \"fart\" the result out. They can be enchanted by \"feeding\" them enchanted books by throwing a book in front of their face and powering them.",
 
@@ -273,7 +274,7 @@
   "item.tcc.compendium.entry.drowned_loot_improvements.contributors": "%1$s: Created",
   "item.tcc.compendium.entry.drowned_loot_improvements.more_info": "There is a 5% to drop either prismarine crystals or sponge.\nThere is a 25% chance for drowned with tridents to drop their trident.",
   "item.tcc.compendium.entry.drowned_loot_improvements.history": "%1$s: Implemented",
-  "item.tcc.compendium.entry.drowned_loot_improvements.description": "Tridents now drop from drowned with tridents in their hand more often, making them much easier to get. Drowned also drop sponge and prismarine crystals instead of gold.\n\n\n",
+  "item.tcc.compendium.entry.drowned_loot_improvements.description": "Tridents now drop from drowned with tridents in their hand more often, making them much easier to get. Drowned also drop sponge and prismarine crystals.\n\n\n\n",
 
   "item.tcc.compendium.entry.elder_guardian_improvements.title": "Elder Guardian Improvements",
   "item.tcc.compendium.entry.elder_guardian_improvements.icon": "\uf020",
@@ -629,8 +630,8 @@
   "item.tcc.compendium.entry.silk_touch_improvements.icon": "\uf065",
   "item.tcc.compendium.entry.silk_touch_improvements.contributors": "%3$s: Created\n%1$s: Bugfixed",
   "item.tcc.compendium.entry.silk_touch_improvements.more_info": "Fun feature trivia: The grass path feature was implemented after I started going insane trying to make a path.",
-  "item.tcc.compendium.entry.silk_touch_improvements.history": "%3$s: Implemented",
-  "item.tcc.compendium.entry.silk_touch_improvements.description": "Silk touch now picks up farmland, grass paths, filled cauldrons & composters, infested blocks, moonlight detectors, charged respawn anchors, and note blocks.\n\n\n",
+  "item.tcc.compendium.entry.silk_touch_improvements.history": "%3$s: Implemented\n%5$s: Removed cauldrons due to Mojang removing functionality, added ability to silk touch infested deepslate",
+  "item.tcc.compendium.entry.silk_touch_improvements.description": "Silk touch now picks up farmland, grass paths, filled composters, infested blocks, moonlight detectors, charged respawn anchors, and note blocks.\n\n\n\n",
 
   "item.tcc.compendium.entry.smoldering_seeker.icon": "\uf066",
   "item.tcc.compendium.entry.smoldering_seeker.contributors": "%1$s: Created\nHinge: Suggested ruined portal loot",
@@ -853,6 +854,7 @@
   "item.tcc.ancient_acorn": "Ancient Acorn",
   "item.tcc.bat_wing": "Bat Wing",
   "item.tcc.sweet_berry_muffin": "Sweet Berry Muffin",
+  "item.tcc.glow_berry_muffin": "Glow Berry Muffin",
   "item.tcc.apple_pie": "Apple Pie",
   "item.tcc.nibbled_apple_pie": "Nibbled Apple Pie",
   "item.tcc.apple_pie_slice": "Slice of Apple Pie",
@@ -878,7 +880,14 @@
   "item.tcc.teacup": "Teacup",
   "item.tcc.locket_of_learning": "Locket of Learning",
   "item.tcc.creeper_magnet": "Creeper Magnet",
+  "item.tcc.phantom_item_frame": "Phantom Item Frame",
   "item.tcc.easter_egg.lore": "insert witty easter egg text here",
+  "item.tcc.amethyst_dust": "Amethyst Dust",
+  "item.tcc.snail_mucus": "Snail Mucus",
+  "item.tcc.snail_shell": "Snail Shell",
+  "item.tcc.snail_in_a_bucket": "Snail in a Bucket",
+  "item.tcc.photometer": "Photometer",
+
 
   "item.tcc.amenable_tea": "Amenable Tea",
 
@@ -1265,11 +1274,9 @@
   "block.tcc.positional_anchor.name": "\uF001\uF001\uF001\uF001\uF001",
   "block.tcc.gobblerift": "Gobblerift",
 
-  "block.tcc.filled_cauldron": "Filled Cauldron",
   "block.tcc.filled_composter": "Filled Composter",
   "block.tcc.moonlight_detector": "Moonlight Detector",
   "block.tcc.charged_respawn_anchor": "Charged Respawn Anchor",
-  "block.tcc.filled_cauldron.water_level": "Water Level: %s",
   "block.tcc.filled_composter.compost_level": "Compost Level: %s",
   "block.tcc.filled_composter.contents_ready": "Ready for Harvest",
 
@@ -1283,12 +1290,14 @@
   "entity.tcc.iceologer": "Iceologer",
   "entity.tcc.iceologer.ice_overlay": "icyicyicy",
   "entity.tcc.geomancer":" Geomancer",
+  "entity.tcc.snail": "Snail",
 
   "commands.tcc.reload.success": " Updated datapacks and TCC scoreboards",
   "commands.tcc.scold_naughty_player": "Don't use that command.",
+  "commands.tcc.compendium_trigger.spectator": "The compendium cannot be given in spectator mode. Try again in another gamemode.",
   "commands.tcc.initiate": "%s %s is enabled. (?)",
   "commands.tcc.initiate.hover_event": "Click here for help",
-  "commands.tcc.initiate.wrong_version": "\nYou are using TCC on the incorrect version. The correct version is Minecraft 1.16.5.",
+  "commands.tcc.initiate.wrong_version": "\nYou are using TCC on the incorrect version. The correct version is Minecraft Snapshot 21w11a.",
   "commands.tcc.initiate.wrong_version.title": "WRONG VERSION",
   "commands.tcc.initiate.incompatible": "The world you have loaded is running an older version of The Creeper's Code and will be incompatible. Please create a new world, or proceed at your own risk of broken content.",
   "commands.tcc.terminate": "%s %s data has been uninstalled.\n\n%s",
@@ -1380,7 +1389,7 @@
   "chat.tcc.emoji.zombie.chat": "\uc020",
 
   "death.tcc.boomerang": "%s didn't realize that boomerangs come back",
-  "death.tcc.iceologer_ice": "%s was crushed by an iceologer's ice",
+  "death.tcc.iceologer_ice": "%s was crushed by Iceologer's ice",
   "death.tcc.iceologer_freeze": "%s experienced ice magic first-hand",
   "death.tcc.geomancer_explosive": "%s was exploded by a geomancer",
   "death.tcc.swordfish": "%s impaled themselves from the inside out using a swordfish",
@@ -1391,15 +1400,7 @@
   "attribute.name.tcc.item_teleportation_range": "Item Teleportation Range",
 
   "advancements.tcc.installed_datapacks_menu.description_1": "Default Minecraft, but better.\n",
-  "advancements.tcc.installed_datapacks_menu.description_2": "\nDeveloped By:\n",
-  "advancements.tcc.installed_datapacks_menu.creepermagnet_.icon": "c",
-  "advancements.tcc.installed_datapacks_menu.dragoncommands.icon": "d",
-  "advancements.tcc.installed_datapacks_menu.chromakey.icon": "k",
-  "advancements.tcc.installed_datapacks_menu.ragnorakkr.icon": "r",
-  "advancements.tcc.installed_datapacks_menu.creepermagnet_": " CreeperMagnet_\n",
-  "advancements.tcc.installed_datapacks_menu.dragoncommands": " dragoncommands\n",
-  "advancements.tcc.installed_datapacks_menu.chromakey": " ChromaKey\n",
-  "advancements.tcc.installed_datapacks_menu.ragnorakkr": " Ragnorakkr_\n",
+  "advancements.tcc.installed_datapacks_menu.description_2": "\nDeveloped By:\n\n- CreeperMagnet_\n- Ragtime Gal\n- Ellivers\n- ChromaKey\n- Jachro\n- TheNuclearNexus\n- dragoncommands",
 
   "advancements.tcc.quests.toast": "%s: %s/%s",
 
@@ -1486,7 +1487,7 @@
   "advancements.tcc.minecraft.husbandry.swordfish.title": "A 'Tasty' Weapon?",
   "advancements.tcc.minecraft.husbandry.swordfish.description": "Fish up a swordfish",
   "advancements.tcc.minecraft.husbandry.muffin_time.title": "It's Muffin Time!",
-  "advancements.tcc.minecraft.husbandry.muffin_time.description": "Eat a sweet berry muffin",
+  "advancements.tcc.minecraft.husbandry.muffin_time.description": "Eat a muffin",
   "advancements.tcc.minecraft.husbandry.eat_last_slice.title": "Gone, Reduced to Crumbs",
   "advancements.tcc.minecraft.husbandry.eat_last_slice.description": "Eat the last piece of a pie",
 
@@ -1523,6 +1524,7 @@
   "subtitles.tcc.item.teacup.fill": "Teacup fills",
   "subtitles.tcc.item.elytra.close": "Elytra closes",
   "subtitles.tcc.item.peculiar_berries.feed": "Chicken eats Peculiar Berries",
+  "subtitles.tcc.item.paintbrush.paint": "Paintbrush strokes",
   "subtitles.tcc.entity.enchanter.ambient": "Enchanter mumbles",
   "subtitles.tcc.entity.enchanter.hurt": "Enchanter hurts",
   "subtitles.tcc.entity.enchanter.death": "Enchanter dies",

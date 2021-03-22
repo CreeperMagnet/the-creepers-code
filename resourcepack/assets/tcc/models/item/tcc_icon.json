@@ -1,7 +1,7 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "tcc:gui/icons/tcc"
+    "layer0": "tcc:gui/advancement_icon"
   },
   "display": {
     "gui": {

@@ -6,7 +6,7 @@
 scoreboard objectives add tcc.dummy dummy
 execute as @a unless entity @s[name=!CreeperMagnet_,name=!CreeperRepellant,name=!dragoncommands,name=!ChromaKey81,name=!Ragnorakkr_,name=!Ellivers] run tellraw @s [{"translate":"debug.prefix","color":"yellow","bold":true},{"translate":"commands.tcc.reload.success","color":"white","bold":false}]
 execute if score tcc.server_version tcc.dummy matches ..39 run tellraw @a {"translate":"commands.tcc.initiate.incompatible","color":"dark_red","bold":true}
-execute unless score tcc.server_version tcc.dummy matches 40 run function tcc:technical/initiate
+execute unless score tcc.server_version tcc.dummy matches 50 run function tcc:technical/initiate
 
 # Gamerules
 gamerule doLimitedCrafting false
@@ -62,5 +62,3 @@ scoreboard objectives add tcc.emoji trigger
 scoreboard objectives add tcc.compendium trigger
 
 team add tcc.antivillager
-
-execute if score 425.nex_core major matches 0.. run tellraw @a [{"text":"Go follow me on twitch: ","color":"light_purple"},{"text":"https://twitch.tv/the_nuclear_nexus","underlined": true,"clickEvent": {"action":"open_url","value": "https://twitch.tv/the_nuclear_nexus"}}]

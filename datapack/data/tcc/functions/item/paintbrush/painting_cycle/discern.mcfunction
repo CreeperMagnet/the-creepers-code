@@ -15,3 +15,5 @@ execute unless entity @s[nbt=!{Motive:"minecraft:bust"},nbt=!{Motive:"minecraft:
 execute unless entity @s[nbt=!{Motive:"minecraft:donkey_kong"},nbt=!{Motive:"minecraft:skeleton"}] run function tcc:item/paintbrush/painting_cycle/4x3
 # 4x4 paintings
 execute unless entity @s[nbt=!{Motive:"minecraft:burning_skull"},nbt=!{Motive:"minecraft:pigscene"},nbt=!{Motive:"minecraft:pointer"}] positioned ~ ~-1 ~ run function tcc:item/paintbrush/painting_cycle/4x4
+
+playsound tcc:item.paintbrush.paint block @a[distance=..16]

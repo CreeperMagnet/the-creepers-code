@@ -17,4 +17,8 @@ execute if block ~ ~ ~ #tcc:air if block ~ ~-1 ~ #tcc:opaque run setblock ~ ~ ~ 
 execute if block ~ ~ ~ #tcc:air if block ~ ~-1 ~ minecraft:snow[layers=8] run setblock ~ ~ ~ minecraft:snow[layers=1] replace
 
 
+execute if block ~ ~ ~ minecraft:powder_snow_cauldron[level=2] run setblock ~ ~ ~ minecraft:powder_snow_cauldron[level=3] replace
+execute if block ~ ~ ~ minecraft:powder_snow_cauldron[level=1] run setblock ~ ~ ~ minecraft:powder_snow_cauldron[level=2] replace
+execute if block ~ ~ ~ minecraft:cauldron run setblock ~ ~ ~ minecraft:powder_snow_cauldron[level=1] replace
+
 scoreboard players reset tcc.temp_0

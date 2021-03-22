@@ -32,3 +32,14 @@ execute if block ~ ~ ~ diorite_stairs run function tcc:item/wrench/rotate/block/
 execute if block ~ ~ ~ blackstone_stairs run function tcc:item/wrench/rotate/block/blackstone_stairs/main
 execute if block ~ ~ ~ polished_blackstone_brick_stairs run function tcc:item/wrench/rotate/block/polished_blackstone_brick_stairs/main
 execute if block ~ ~ ~ polished_blackstone_stairs run function tcc:item/wrench/rotate/block/polished_blackstone_stairs/main
+execute if block ~ ~ ~ cobbled_deepslate_stairs run function tcc:item/wrench/rotate/block/cobbled_deepslate_stairs/main
+execute if block ~ ~ ~ deepslate_brick_stairs run function tcc:item/wrench/rotate/block/deepslate_brick_stairs/main
+execute if block ~ ~ ~ deepslate_tile_stairs run function tcc:item/wrench/rotate/block/deepslate_tile_stairs/main
+execute if block ~ ~ ~ polished_deepslate_stairs run function tcc:item/wrench/rotate/block/polished_deepslate_stairs/main
+execute if block ~ ~ ~ cut_copper_stairs run function tcc:item/wrench/rotate/block/cut_copper_stairs/main
+execute if block ~ ~ ~ exposed_cut_copper_stairs run function tcc:item/wrench/rotate/block/exposed_cut_copper_stairs/main
+execute if block ~ ~ ~ weathered_cut_copper_stairs run function tcc:item/wrench/rotate/block/weathered_cut_copper_stairs/main
+execute if block ~ ~ ~ oxidized_cut_copper_stairs run function tcc:item/wrench/rotate/block/oxidized_cut_copper_stairs/main
+execute if block ~ ~ ~ waxed_cut_copper_stairs run function tcc:item/wrench/rotate/block/waxed_cut_copper_stairs/main
+execute if block ~ ~ ~ waxed_exposed_cut_copper_stairs run function tcc:item/wrench/rotate/block/waxed_exposed_cut_copper_stairs/main
+execute if block ~ ~ ~ waxed_weathered_cut_copper_stairs run function tcc:item/wrench/rotate/block/waxed_weathered_cut_copper_stairs/main

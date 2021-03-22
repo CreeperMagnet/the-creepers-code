@@ -1,65 +1,82 @@
 {
-  "pools": [{
+  "type": "minecraft:entity",
+  "pools": [
+    {
       "rolls": 1,
-      "entries": [{
-        "type": "item",
-        "weight": 1,
-        "name": "minecraft:string",
-        "functions": [{
-            "function": "set_count",
-            "count": {
-              "min": 0,
-              "max": 2
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 0,
+                "max": 2
+              },
+              "add": false
+            },
+            {
+              "function": "minecraft:looting_enchant",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 0,
+                "max": 1
+              }
             }
-          },
-          {
-            "function": "looting_enchant",
-            "count": {
-              "min": 0,
-              "max": 1
-            }
-          }
-        ]
-      }]
+          ],
+          "name": "minecraft:string"
+        }
+      ]
     },
     {
       "rolls": 1,
-      "conditions": [{
-        "condition": "killed_by_player"
-      }],
-      "entries": [{
-        "type": "item",
-        "weight": 1,
-        "name": "minecraft:spider_eye",
-        "functions": [{
-            "function": "set_count",
-            "count": {
-              "min": -1,
-              "max": 1
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": -1,
+                "max": 1
+              },
+              "add": false
+            },
+            {
+              "function": "minecraft:looting_enchant",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 0,
+                "max": 1
+              }
             }
-          },
-          {
-            "function": "looting_enchant",
-            "count": {
-              "min": 0,
-              "max": 1
-            }
-          }
-        ]
-      }]
+          ],
+          "name": "minecraft:spider_eye"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:killed_by_player"
+        }
+      ]
     },
     {
       "rolls": 1,
-      "conditions": [{
-        "condition": "random_chance_with_looting",
-        "chance": 0.025,
-        "looting_multiplier": 0.01
-      }],
-      "entries": [{
-        "type": "item",
-        "weight": 1,
-        "name": "minecraft:cobweb"
-      }]
+      "conditions": [
+        {
+          "condition": "random_chance_with_looting",
+          "chance": 0.025,
+          "looting_multiplier": 0.01
+        }
+      ],
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:cobweb"
+        }
+      ]
     }
   ]
 }

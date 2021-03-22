@@ -5,7 +5,7 @@
 
 scoreboard players reset @s tcc.useelytra
 scoreboard players reset @s tcc.sneaktime
-loot replace entity @s armor.chest loot tcc:technical/elytra_close/close
+item entity @s armor.chest modify tcc:elytra_close
 tag @s add tcc.schedule.elytra_close
 title @s[tag=!global.ignore.gui] actionbar {"translate":"item.tcc.elytra.reopen_warning","with":[{"keybind":"key.jump"}]}
 schedule function tcc:item/elytra_close/scheduled 2t

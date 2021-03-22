@@ -51,6 +51,12 @@
         "custom_model_data": 330007
       },
       "model": "tcc:item/golden_apple_pie_slice"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330008
+      },
+      "model": "tcc:item/glow_berry_muffin"
     }
   ]
 }

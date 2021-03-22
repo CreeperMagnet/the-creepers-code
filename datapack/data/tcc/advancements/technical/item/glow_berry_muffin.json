@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "ate_glow_berry_muffin": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                   "nbt": "{tcc:{id:\"glow_berry_muffin\"}}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "tcc:item/glow_berry_muffin"
+    },
+    "parent": "tcc:technical/root"
+}

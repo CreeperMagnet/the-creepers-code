@@ -12,30 +12,6 @@
         }]
       }
     },
-    "thorns": {
-      "trigger": "minecraft:entity_hurt_player",
-      "conditions": {
-        "damage": {
-          "type": {
-            "is_fire": false,
-            "is_lightning": false,
-            "bypasses_magic": false,
-            "is_magic": false,
-            "bypasses_invulnerability": false,
-            "bypasses_armor": false,
-            "blocked": false,
-            "is_explosion": false
-          }
-        },
-        "player": [{
-          "condition": "entity_properties",
-          "entity": "this",
-          "predicate": {
-            "nbt": "{Inventory:[{Slot:-106b,tag:{Enchantments:[{id:\"minecraft:thorns\"}],tcc:{id:\"ring\"}}}]}"
-          }
-        }]
-      }
-    },
     "obsidian": {
       "trigger": "minecraft:entity_hurt_player",
       "conditions": {
@@ -98,7 +74,7 @@
     }
   },
   "requirements": [
-    ["diamond", "prismarine", "obsidian", "quartz", "thorns"]
+    ["diamond", "prismarine", "obsidian", "quartz"]
   ],
   "rewards": {
     "function": "tcc:item/item_modification/durability/damage/offhand"

@@ -3,6 +3,6 @@
 # Creator: CreeperMagnet_
 ############################################################
 
-tag @s add tcc.scheduled.tea_replace
-schedule function tcc:item/tea/scheduled_replace 1t append
+tag @s[nbt={SelectedItem:{tag:{tcc:{id:"tea"}}}}] add tcc.scheduled.tea_drink.mainhand
+tag @s[nbt={Inventory:[{Slot:-106b,tag:{tcc:{id:"tea"}}}]}] add tcc.scheduled.tea_drink.offhand
 advancement revoke @s only tcc:technical/item/tea/drink

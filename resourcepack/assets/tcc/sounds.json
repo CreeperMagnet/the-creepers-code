@@ -14,26 +14,6 @@
     ],
     "subtitle": "subtitles.tcc.item.potion_soak"
   },
-  "block.jewelry_table.use": {
-    "sounds": [
-      "tcc:block/jewelry_table_use1",
-      "tcc:block/jewelry_table_use2",
-      "tcc:block/jewelry_table_use3"
-    ],
-    "subtitle": "subtitles.tcc.block.jewelry_table.use"
-  },
-  "block.positional_anchor.fill": {
-    "sounds": [
-      "tcc:block/positional_anchor_fill"
-    ],
-    "subtitle": "subtitles.tcc.block.positional_anchor.fill"
-  },
-  "block.positional_anchor.fire": {
-    "sounds": [
-      "tcc:block/positional_anchor_fire"
-    ],
-    "subtitle": "subtitles.tcc.block.positional_anchor.fire"
-  },
   "item.obsidian_mirror.use": {
     "sounds": [
       "block/enchantment_table/enchant1"
@@ -87,6 +67,71 @@
     ],
     "subtitle": "subtitles.tcc.item.armor.equip_cursed_crown"
   },
+  "item.teacup.fill": {
+    "sounds": [
+      "item/bottle/fill1",
+      "item/bottle/fill2",
+      "item/bottle/fill3",
+      "item/bottle/fill4"
+    ],
+    "subtitle": "subtitles.tcc.item.teacup.fill"
+  },
+  "item.locket_of_learning.deposit": {
+    "sounds": [
+      "tcc:item/locket_deposit1",
+      "tcc:item/locket_deposit2",
+      "tcc:item/locket_deposit3",
+	    "tcc:item/locket_deposit4"
+    ],
+    "subtitle": "subtitles.tcc.item.locket_of_learning.deposit"
+  },
+  "item.elytra.close": {
+    "sounds": [
+      "tcc:item/elytra_close1",
+      "tcc:item/elytra_close2",
+      "tcc:item/elytra_close3",
+      "tcc:item/elytra_close4"
+    ],
+    "subtitle": "subtitles.tcc.item.elytra.close"
+  },
+  "item.peculiar_berries.feed": {
+    "sounds": [
+      "tcc:item/peculiar_berries_feed1",
+      "tcc:item/peculiar_berries_feed2",
+      "tcc:item/peculiar_berries_feed3"
+    ],
+    "subtitle": "subtitles.tcc.item.peculiar_berries.feed"
+  },
+  "item.paintbrush.paint": {
+    "sounds": [
+      "tcc:item/paintbrush1",
+      "tcc:item/paintbrush2",
+      "tcc:item/paintbrush3",
+      "tcc:item/paintbrush4",
+      "tcc:item/paintbrush5"
+    ],
+    "subtitle": "subtitles.tcc.item.paintbrush.paint"
+  },
+  "block.jewelry_table.use": {
+    "sounds": [
+      "tcc:block/jewelry_table_use1",
+      "tcc:block/jewelry_table_use2",
+      "tcc:block/jewelry_table_use3"
+    ],
+    "subtitle": "subtitles.tcc.block.jewelry_table.use"
+  },
+  "block.positional_anchor.fill": {
+    "sounds": [
+      "tcc:block/positional_anchor_fill"
+    ],
+    "subtitle": "subtitles.tcc.block.positional_anchor.fill"
+  },
+  "block.positional_anchor.fire": {
+    "sounds": [
+      "tcc:block/positional_anchor_fire"
+    ],
+    "subtitle": "subtitles.tcc.block.positional_anchor.fire"
+  },
   "block.nether_reactor.activate": {
     "sounds": [
       "tcc:block/nether_reactor_activate1",
@@ -108,6 +153,100 @@
       "block/enchantment_table/enchant3"
     ],
     "subtitle": "subtitles.tcc.block.block_breaker.enchant"
+  },
+  "block.explosive_geomancer_pillar.explode": {
+    "sounds": [
+      "random/explode1",
+      "random/explode2",
+      "random/explode3",
+      "random/explode4"
+    ],
+    "subtitle": "subtitles.tcc.block.explosive_geomancer_pillar.explode"
+  },
+  "block.explosive_geomancer_pillar.hiss": {
+    "sounds": [
+      "random/fuse"
+    ],
+    "subtitle": "subtitles.tcc.block.explosive_geomancer_pillar.hiss"
+  },
+  "block.teapot.brew": {
+    "sounds": [
+      "tcc:block/plop1",
+      "tcc:block/plop2"
+    ],
+    "subtitle": "subtitles.tcc.block.teapot.brew"
+  },
+  "block.gobblerift.place": {
+    "sounds": [
+      "tcc:block/gobblerift/place1",
+      "tcc:block/gobblerift/place2",
+      "tcc:block/gobblerift/place3"
+    ],
+    "subtitle": "subtitles.block.generic.place"
+  },
+  "block.gobblerift.break": {
+    "sounds": [
+      "tcc:block/gobblerift/break1",
+      "tcc:block/gobblerift/break2",
+      "tcc:block/gobblerift/break3"
+    ],
+    "subtitle": "subtitles.block.generic.break"
+  },
+  "block.gobblerift.hungry": {
+    "sounds": [
+      "tcc:block/gobblerift/stomach1",
+      "tcc:block/gobblerift/stomach2",
+      "tcc:block/gobblerift/stomach3"
+    ],
+    "subtitle": "subtitles.tcc.block.gobblerift.hungry"
+  },
+  "block.gobblerift.swallow": {
+    "sounds": [
+      "tcc:block/gobblerift/devour1",
+      "tcc:block/gobblerift/devour2",
+      "tcc:block/gobblerift/devour3"
+    ],
+    "subtitle": "subtitles.tcc.block.gobblerift.swallow"
+  },
+  "block.gobblerift.swallow_favorite": {
+    "sounds": [
+      "tcc:block/gobblerift/devour_favorite1",
+      "tcc:block/gobblerift/devour_favorite2"
+    ],
+    "subtitle": "subtitles.tcc.block.gobblerift.swallow_favorite"
+  },
+  "block.gobblerift.fill_bottle": {
+    "sounds": [
+      "tcc:block/gobblerift/fill_bottle1",
+      "tcc:block/gobblerift/fill_bottle2"
+    ],
+    "subtitle": "subtitles.tcc.block.gobblerift.fill_bottle"
+  },
+  "block.gobblerift.teleport_player": {
+    "sounds": [
+      "tcc:block/gobblerift/spitleport1",
+      "tcc:block/gobblerift/spitleport2",
+      "tcc:block/gobblerift/spitleport3"
+    ],
+    "subtitle": "subtitles.tcc.block.gobblerift.teleport_player"
+  },
+  "block.gobblerift.hurt": {
+    "sounds": [
+      "tcc:block/gobblerift/hurt1",
+      "tcc:block/gobblerift/hurt2",
+      "tcc:block/gobblerift/hurt3",
+	    "tcc:block/gobblerift/hurt4"
+    ],
+    "subtitle": "subtitles.tcc.block.gobblerift.hurt"
+  },
+  "block.gobblerift.digest": {
+    "sounds": [
+      "tcc:block/gobblerift/digesting1",
+      "tcc:block/gobblerift/digesting2",
+      "tcc:block/gobblerift/digesting3",
+	    "tcc:block/gobblerift/digesting4"
+    ],
+    "subtitle": "subtitles.tcc.block.gobblerift.digest"
   },
   "entity.enchanter.ambient": {
     "sounds": [
@@ -236,134 +375,5 @@
       "mob/evocation_illager/cast2"
     ],
     "subtitle": "subtitles.tcc.entity.geomancer.cast_spell"
-  },
-  "block.explosive_geomancer_pillar.explode": {
-    "sounds": [
-      "random/explode1",
-      "random/explode2",
-      "random/explode3",
-      "random/explode4"
-    ],
-    "subtitle": "subtitles.tcc.block.explosive_geomancer_pillar.explode"
-  },
-  "block.explosive_geomancer_pillar.hiss": {
-    "sounds": [
-      "random/fuse"
-    ],
-    "subtitle": "subtitles.tcc.block.explosive_geomancer_pillar.hiss"
-  },
-  "block.teapot.brew": {
-    "sounds": [
-      "block/brewing_stand/brew1",
-      "block/brewing_stand/brew2"
-    ],
-    "subtitle": "subtitles.tcc.block.teapot.brew"
-  },
-  "item.teacup.fill": {
-    "sounds": [
-      "item/bottle/fill1",
-      "item/bottle/fill2",
-      "item/bottle/fill3",
-      "item/bottle/fill4"
-    ],
-    "subtitle": "subtitles.tcc.item.teacup.fill"
-  },
-  "block.gobblerift.place": {
-    "sounds": [
-      "tcc:block/gobblerift/place1",
-      "tcc:block/gobblerift/place2",
-      "tcc:block/gobblerift/place3"
-    ],
-    "subtitle": "subtitles.block.generic.place"
-  },
-  "block.gobblerift.break": {
-    "sounds": [
-      "tcc:block/gobblerift/break1",
-      "tcc:block/gobblerift/break2",
-      "tcc:block/gobblerift/break3"
-    ],
-    "subtitle": "subtitles.block.generic.break"
-  },
-  "block.gobblerift.hungry": {
-    "sounds": [
-      "tcc:block/gobblerift/stomach1",
-      "tcc:block/gobblerift/stomach2",
-      "tcc:block/gobblerift/stomach3"
-    ],
-    "subtitle": "subtitles.tcc.block.gobblerift.hungry"
-  },
-  "block.gobblerift.swallow": {
-    "sounds": [
-      "tcc:block/gobblerift/devour1",
-      "tcc:block/gobblerift/devour2",
-      "tcc:block/gobblerift/devour3"
-    ],
-    "subtitle": "subtitles.tcc.block.gobblerift.swallow"
-  },
-  "block.gobblerift.swallow_favorite": {
-    "sounds": [
-      "tcc:block/gobblerift/devour_favorite1",
-      "tcc:block/gobblerift/devour_favorite2"
-    ],
-    "subtitle": "subtitles.tcc.block.gobblerift.swallow_favorite"
-  },
-  "block.gobblerift.fill_bottle": {
-    "sounds": [
-      "tcc:block/gobblerift/fill_bottle1",
-      "tcc:block/gobblerift/fill_bottle2"
-    ],
-    "subtitle": "subtitles.tcc.block.gobblerift.fill_bottle"
-  },
-  "block.gobblerift.teleport_player": {
-    "sounds": [
-      "tcc:block/gobblerift/spitleport1",
-      "tcc:block/gobblerift/spitleport2",
-      "tcc:block/gobblerift/spitleport3"
-    ],
-    "subtitle": "subtitles.tcc.block.gobblerift.teleport_player"
-  },
-  "block.gobblerift.hurt": {
-    "sounds": [
-      "tcc:block/gobblerift/hurt1",
-      "tcc:block/gobblerift/hurt2",
-      "tcc:block/gobblerift/hurt3",
-	    "tcc:block/gobblerift/hurt4"
-    ],
-    "subtitle": "subtitles.tcc.block.gobblerift.hurt"
-  },
-  "block.gobblerift.digest": {
-    "sounds": [
-      "tcc:block/gobblerift/digesting1",
-      "tcc:block/gobblerift/digesting2",
-      "tcc:block/gobblerift/digesting3",
-	    "tcc:block/gobblerift/digesting4"
-    ],
-    "subtitle": "subtitles.tcc.block.gobblerift.digest"
-  },
-  "item.locket_of_learning.deposit": {
-    "sounds": [
-      "tcc:item/locket_deposit1",
-      "tcc:item/locket_deposit2",
-      "tcc:item/locket_deposit3",
-	    "tcc:item/locket_deposit4"
-    ],
-    "subtitle": "subtitles.tcc.item.locket_of_learning.deposit"
-  },
-  "item.elytra.close": {
-    "sounds": [
-      "tcc:item/elytra_close1",
-      "tcc:item/elytra_close2",
-      "tcc:item/elytra_close3",
-      "tcc:item/elytra_close4"
-    ],
-    "subtitle": "subtitles.tcc.item.elytra.close"
-  },
-  "item.peculiar_berries.feed": {
-    "sounds": [
-      "tcc:item/peculiar_berries_feed1",
-      "tcc:item/peculiar_berries_feed2",
-      "tcc:item/peculiar_berries_feed3"
-    ],
-    "subtitle": "subtitles.tcc.item.peculiar_berries.feed"
   }
 }

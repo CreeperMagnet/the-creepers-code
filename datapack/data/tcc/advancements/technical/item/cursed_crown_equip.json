@@ -22,6 +22,6 @@
     }
   },
   "rewards": {
-    "function": "tcc:item/cursed_crown/schedule_equip"
+    "function": "tcc:item/cursed_crown/equip"
   }
 }

@@ -16,5 +16,5 @@ data modify entity @s Offers.Recipes[0].buy set from entity @s HandItems[0]
 data modify entity @s Offers.Recipes[0].sell set from entity @s HandItems[1]
 
 
-replaceitem entity @s weapon.mainhand air
-replaceitem entity @s weapon.offhand air
+item entity @s weapon.mainhand replace air
+item entity @s weapon.offhand replace air

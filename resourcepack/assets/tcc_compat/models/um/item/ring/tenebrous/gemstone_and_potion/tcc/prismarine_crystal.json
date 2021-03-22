@@ -1,8 +1,0 @@
-{
-  "parent": "item/generated",
-  "textures": {
-    "layer0": "tcc:item/ring/potion/overlay_with_gemstone",
-    "layer1": "tcc_compat:um/item/ring/metal/tenebrous_with_gemstone",
-    "layer2": "tcc:item/ring/gemstone/prismarine_crystal"
-  }
-}

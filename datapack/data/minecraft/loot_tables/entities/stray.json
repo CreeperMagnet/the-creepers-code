@@ -1,116 +1,142 @@
 {
-  "pools": [{
-      "rolls": 1,
-      "entries": [{
-        "type": "item",
-        "name": "minecraft:arrow",
-        "weight": 1,
-        "functions": [{
-            "function": "set_count",
-            "count": {
-              "min": 0,
-              "max": 2
-            }
-          },
-          {
-            "function": "looting_enchant",
-            "count": {
-              "min": 0,
-              "max": 1
-            }
-          }
-        ]
-      }]
-    },
+  "type": "minecraft:entity",
+  "pools": [
     {
       "rolls": 1,
-      "entries": [{
-        "type": "item",
-        "weight": 1,
-        "name": "minecraft:bone",
-        "functions": [{
-            "function": "set_count",
-            "count": {
-              "min": 0,
-              "max": 2
-            }
-          },
-          {
-            "function": "looting_enchant",
-            "count": {
-              "min": 0,
-              "max": 1
-            }
-          }
-        ]
-      }]
-    },
-    {
-      "rolls": 1,
-      "entries": [{
-        "type": "item",
-        "name": "minecraft:tipped_arrow",
-        "weight": 1,
-        "functions": [{
-            "function": "set_count",
-            "count": {
-              "min": 0,
-              "max": 1
-            }
-          },
-          {
-            "function": "looting_enchant",
-            "count": {
-              "min": 0,
-              "max": 1
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 0,
+                "max": 2
+              },
+              "add": false
             },
-            "limit": 1
-          },
-          {
-            "function": "set_nbt",
-            "tag": "{Potion:\"minecraft:slowness\"}"
-          }
-        ]
-      }],
-      "conditions": [{
-        "condition": "killed_by_player"
-      }]
-    },
-    {
-      "rolls": 1,
-      "conditions": [{
-        "condition": "entity_properties",
-        "entity": "killer",
-        "predicate": {
-          "nbt": "{powered:1b}"
+            {
+              "function": "minecraft:looting_enchant",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 0,
+                "max": 1
+              }
+            }
+          ],
+          "name": "minecraft:arrow"
         }
-      }],
-      "entries": [{
-        "type": "loot_table",
-        "weight": 1,
-        "name": "tcc:items/stray_skull"
-      }]
+      ]
     },
     {
       "rolls": 1,
-      "conditions": [{
-        "condition": "random_chance_with_looting",
-        "chance": 0.05,
-        "looting_multiplier": 0.01
-      }],
-      "entries": [{
-        "type": "loot_table",
-        "weight": 1,
-        "name": "tcc:items/frostbloom_petals",
-        "functions": [{
-          "function": "set_count",
-          "count": {
-            "min": 1,
-            "max": 3
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 0,
+                "max": 2
+              },
+              "add": false
+            },
+            {
+              "function": "minecraft:looting_enchant",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 0,
+                "max": 1
+              }
+            }
+          ],
+          "name": "minecraft:bone"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 0,
+                "max": 1
+              },
+              "add": false
+            },
+            {
+              "function": "minecraft:looting_enchant",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 0,
+                "max": 1
+              },
+              "limit": 1
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Potion:\"minecraft:slowness\"}"
+            }
+          ],
+          "name": "minecraft:tipped_arrow"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:killed_by_player"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "conditions": [
+        {
+          "condition": "entity_properties",
+          "entity": "killer",
+          "predicate": {
+            "nbt": "{powered:1b}"
           }
-        }]
-      }]
+        }
+      ],
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "tcc:items/stray_skull"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "conditions": [
+        {
+          "condition": "random_chance_with_looting",
+          "chance": 0.05,
+          "looting_multiplier": 0.01
+        }
+      ],
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "tcc:items/frostbloom_petals",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        }
+      ]
     }
   ]
-}]
 }

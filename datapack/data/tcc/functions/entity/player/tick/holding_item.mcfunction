@@ -12,6 +12,9 @@ execute if entity @s[predicate=tcc:holding/mending_item] run function tcc:item/i
 ## Obsidian Scythes
 execute if entity @s[predicate=tcc:holding/obsidian_scythe] run function tcc:item/obsidian_scythe/tick
 
+## Photometer
+execute if entity @s[predicate=tcc:holding/photometer] run function tcc:item/photometer
+
 ## Totem of Undying and void bugfix
 effect give @s[predicate=tcc:totem_void_heal] instant_health 1 0
 

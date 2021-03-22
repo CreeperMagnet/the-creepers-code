@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gray_candle"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cake",
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "block": {
+                  "block": "minecraft:air"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

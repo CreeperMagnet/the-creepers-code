@@ -5,8 +5,8 @@
 
 tag @s[nbt={Inventory:[{Slot:-106b,tag:{tcc:{gemstone:{quality:"cut"}}}}]},predicate=tcc:chance/one_fourth] add tcc.tag
 tag @s[nbt={Inventory:[{Slot:-106b,tag:{tcc:{gemstone:{quality:"pristine"}}}}]},predicate=tcc:chance/one_half] add tcc.tag
-execute if entity @s[gamemode=!creative,gamemode=!spectator] run function tcc:item/item_modification/durability/damage/offhand
 
+execute if entity @s[tag=tcc.tag,advancements={tcc:technical/item/rings/emerald_damage={minecraft_axolotl=true}}] run loot spawn ~ ~ ~ loot minecraft:entities/axolotl
 execute if entity @s[tag=tcc.tag,advancements={tcc:technical/item/rings/emerald_damage={minecraft_bat=true}}] run loot spawn ~ ~ ~ loot minecraft:entities/bat
 execute if entity @s[tag=tcc.tag,advancements={tcc:technical/item/rings/emerald_damage={minecraft_bee=true}}] run loot spawn ~ ~ ~ loot minecraft:entities/bee
 execute if entity @s[tag=tcc.tag,advancements={tcc:technical/item/rings/emerald_damage={minecraft_blaze=true}}] run loot spawn ~ ~ ~ loot minecraft:entities/blaze
@@ -24,6 +24,7 @@ execute if entity @s[tag=tcc.tag,advancements={tcc:technical/item/rings/emerald_
 execute if entity @s[tag=tcc.tag,advancements={tcc:technical/item/rings/emerald_damage={minecraft_endermite=true}}] run loot spawn ~ ~ ~ loot minecraft:entities/endermite
 execute if entity @s[tag=tcc.tag,advancements={tcc:technical/item/rings/emerald_damage={minecraft_fox=true}}] run loot spawn ~ ~ ~ loot minecraft:entities/fox
 execute if entity @s[tag=tcc.tag,advancements={tcc:technical/item/rings/emerald_damage={minecraft_ghast=true}}] run loot spawn ~ ~ ~ loot minecraft:entities/ghast
+execute if entity @s[tag=tcc.tag,advancements={tcc:technical/item/rings/emerald_damage={minecraft_glow_squid=true}}] run loot spawn ~ ~ ~ loot minecraft:entities/glow_squid
 execute if entity @s[tag=tcc.tag,advancements={tcc:technical/item/rings/emerald_damage={minecraft_guardian=true}}] run loot spawn ~ ~ ~ loot minecraft:entities/guardian
 execute if entity @s[tag=tcc.tag,advancements={tcc:technical/item/rings/emerald_damage={minecraft_hoglin=true}}] run loot spawn ~ ~ ~ loot minecraft:entities/hoglin
 execute if entity @s[tag=tcc.tag,advancements={tcc:technical/item/rings/emerald_damage={minecraft_horse=true}}] run loot spawn ~ ~ ~ loot minecraft:entities/horse
@@ -71,8 +72,14 @@ execute if entity @s[tag=tcc.tag,advancements={tcc:technical/item/rings/emerald_
 execute if entity @s[tag=tcc.tag,advancements={tcc:technical/item/rings/emerald_damage={minecraft_zombie_horse=true}}] run loot spawn ~ ~ ~ loot minecraft:entities/zombie_horse
 execute if entity @s[tag=tcc.tag,advancements={tcc:technical/item/rings/emerald_damage={minecraft_zombified_piglin=true}}] run loot spawn ~ ~ ~ loot minecraft:entities/zombified_piglin
 execute if entity @s[tag=tcc.tag,advancements={tcc:technical/item/rings/emerald_damage={minecraft_zombie_villager=true}}] run loot spawn ~ ~ ~ loot minecraft:entities/zombie_villager
+execute if entity @s[tag=tcc.tag,advancements={tcc:technical/item/rings/emerald_damage={tcc_enchanter=true}}] run loot spawn ~ ~ ~ loot tcc:entities/enchanter
+execute if entity @s[tag=tcc.tag,advancements={tcc:technical/item/rings/emerald_damage={tcc_geomancer=true}}] run loot spawn ~ ~ ~ loot tcc:entities/geomancer
+execute if entity @s[tag=tcc.tag,advancements={tcc:technical/item/rings/emerald_damage={tcc_iceologer=true}}] run loot spawn ~ ~ ~ loot tcc:entities/iceologer
+execute if entity @s[tag=tcc.tag,advancements={tcc:technical/item/rings/emerald_damage={tcc_iceologer_raid=true}}] run loot spawn ~ ~ ~ loot tcc:entities/iceologer_raid
 
 execute if entity @s[tag=tcc.tag] run playsound minecraft:entity.item.pickup player @s ~ ~ ~ 1000 0
+
+execute if entity @s[gamemode=!creative,gamemode=!spectator] run function tcc:item/item_modification/durability/damage/offhand
 
 advancement revoke @s only tcc:technical/item/rings/emerald_damage
 

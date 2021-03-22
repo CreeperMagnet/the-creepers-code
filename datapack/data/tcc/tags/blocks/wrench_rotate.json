@@ -32,6 +32,8 @@
     "minecraft:repeater",
     "minecraft:comparator",
     "minecraft:iron_trapdoor",
-    "minecraft:lectern"
+    "minecraft:lectern",
+    "minecraft:deepslate",
+    "minecraft:lightning_rod"
   ]
 }

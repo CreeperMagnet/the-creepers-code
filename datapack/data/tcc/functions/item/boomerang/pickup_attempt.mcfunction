@@ -11,6 +11,6 @@ execute if entity @s[tag=!tcc.boomerang.dead,scores={tcc.dummy2=6..}] if entity 
 execute if entity @s[tag=!tcc.boomerang.dead,scores={tcc.dummy2=6..}] if entity @a[scores={tcc.dummy=0},distance=..2,gamemode=!spectator] run tag @e[type=item,limit=1,sort=nearest,distance=..3,tag=tcc.replace_item] remove tcc.replace_item
 execute if entity @s[tag=!tcc.boomerang.dead,scores={tcc.dummy2=6..}] if entity @a[scores={tcc.dummy=0},distance=..2,gamemode=!spectator] run kill @s
 execute if entity @s[tag=!tcc.boomerang.dead,scores={tcc.dummy2=6..}] if entity @a[scores={tcc.dummy=0},distance=..2,gamemode=!spectator] run tag @s add tcc.boomerang.dead
-execute if entity @s[nbt=!{ArmorItems:[{tag:{tcc:{id:"spectral_boomerang"}}}]}] as @e[gamemode=!creative,gamemode=!spectator,distance=..2,sort=arbitrary,scores={tcc.invul_timer=0}] unless entity @s[scores={tcc.dummy=0}] run function tcc:item/boomerang/hurt/player_damage
+execute if entity @s[nbt=!{ArmorItems:[{tag:{tcc:{id:"spectral_boomerang"}}}]}] as @e[type=player,gamemode=!creative,gamemode=!spectator,distance=..2,sort=arbitrary,scores={tcc.invul_timer=0}] unless entity @s[scores={tcc.dummy=0}] run function tcc:item/boomerang/hurt/player_damage
 execute if entity @s[nbt={ArmorItems:[{tag:{tcc:{id:"spectral_boomerang"}}}]}] as @a[distance=..2,sort=arbitrary] unless entity @s[scores={tcc.dummy=0}] run effect give @s glowing 10 0 false
 scoreboard players reset @a[distance=..2] tcc.dummy

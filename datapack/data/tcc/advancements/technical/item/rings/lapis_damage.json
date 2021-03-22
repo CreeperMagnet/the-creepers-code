@@ -3,21 +3,12 @@
     "killed_entity": {
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
-        "player": [{
+        "player": [
+          {
             "condition": "entity_properties",
             "entity": "this",
             "predicate": {
-              "nbt": "{Inventory:[{Slot:-106b,tag:{tcc:{gemstone:{id:\"minecraft:lapis_lazuli\"}}}}]}"
-            }
-          },
-          {
-            "condition": "inverted",
-            "term": {
-              "condition": "entity_properties",
-              "entity": "this",
-              "predicate": {
-                "nbt": "{Inventory:[{Slot:-106b,tag:{tcc:{id:\"gemstone\"}}}]}"
-              }
+              "nbt": "{Inventory:[{Slot:-106b,tag:{tcc:{id:\"ring\",gemstone:{id:\"minecraft:lapis_lazuli\"}}}}]}"
             }
           }
         ]

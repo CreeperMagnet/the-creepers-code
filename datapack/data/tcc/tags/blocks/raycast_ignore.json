@@ -33,6 +33,9 @@
     "minecraft:sea_pickle",
     "minecraft:bubble_column",
     "minecraft:soul_torch",
+    "minecraft:glow_lichen",
+    "minecraft:hanging_roots",
+    "minecraft:spore_blossom",
     {
       "id": "quark:root",
       "required": false

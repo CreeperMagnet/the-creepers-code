@@ -3,6 +3,6 @@
 # Creator: CreeperMagnet_
 ############################################################
 
-data modify storage tcc:storage root.temp.Items insert 0 from entity @s Item
+data modify storage tcc:storage root.temp.item set from entity @s Item
 function tcc:item/item_modification/tipped_sword/add_potion/main
-data modify entity @s Item set from storage tcc:storage root.temp.Items[0]
+data modify entity @s Item set from storage tcc:storage root.temp.item

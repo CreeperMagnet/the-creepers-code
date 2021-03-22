@@ -1,44 +1,56 @@
 {
-  "pools": [{
+  "type": "minecraft:entity",
+  "pools": [
+    {
       "rolls": 1,
-      "entries": [{
-        "type": "item",
-        "weight": 1,
-        "name": "minecraft:blaze_rod",
-        "functions": [{
-            "function": "set_count",
-            "count": {
-              "min": 0,
-              "max": 2
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 0,
+                "max": 1
+              },
+              "add": false
+            },
+            {
+              "function": "minecraft:looting_enchant",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 0,
+                "max": 1
+              }
             }
-          },
-          {
-            "function": "looting_enchant",
-            "count": {
-              "min": 0,
-              "max": 1
-            }
-          }
-        ]
-      }],
-      "conditions": [{
-        "condition": "killed_by_player"
-      }]
+          ],
+          "name": "minecraft:blaze_rod"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:killed_by_player"
+        }
+      ]
     },
     {
       "rolls": 1,
-      "conditions": [{
-        "condition": "entity_properties",
-        "entity": "killer",
-        "predicate": {
-          "nbt": "{powered:1b}"
+      "conditions": [
+        {
+          "condition": "entity_properties",
+          "entity": "killer",
+          "predicate": {
+            "nbt": "{powered:1b}"
+          }
         }
-      }],
-      "entries": [{
-        "type": "loot_table",
-        "weight": 1,
-        "name": "tcc:items/blaze_head"
-      }]
+      ],
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "tcc:items/blaze_head"
+        }
+      ]
     }
   ]
 }

@@ -23,3 +23,6 @@ execute if entity @s[type=armor_stand,tag=tcc.positional_anchor] run function tc
 
 ## Frostbloom
 execute if entity @s[type=item_frame,tag=tcc.frostbloom] unless block ~ ~ ~ spruce_sapling[stage=0] run function tcc:block/frostbloom/block_change
+
+## Phantom Item Frame
+execute if entity @s[type=item_frame,tag=tcc.phantom_item_frame] run function tcc:block/phantom_item_frame/tick

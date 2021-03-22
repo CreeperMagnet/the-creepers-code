@@ -23,6 +23,6 @@ execute as @a[sort=arbitrary] at @s run function tcc:entity/player/second_clock
 execute as @e[tag=tcc.entity,sort=arbitrary] at @s run function tcc:entity/second_clock
 
 ## Witch trader check
-execute as @e[type=witch,tag=!global.ignore,sort=arbitrary] at @s run function tcc:entity/witch/second_clock
+execute as @e[type=witch,tag=!global.ignore,sort=arbitrary,tag=!global.ignore.kill] at @s run function tcc:entity/witch/second_clock
 
 schedule function tcc:technical/second_clock 1s replace

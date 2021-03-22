@@ -1,0 +1,39 @@
+{
+  "parent": "tcc:technical/root",
+  "criteria": {
+    "pick_up_glass_bottle": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:alternative",
+            "terms": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "nbt": "{Tags:[\"tcc.scheduled.tea_drink.mainhand\"]}"
+                }
+              },
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "nbt": "{Tags:[\"tcc.scheduled.tea_drink.offhand\"]}"
+                }
+              }
+            ]
+          }
+        ],
+        "items": [
+          {
+            "item": "minecraft:glass_bottle"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "tcc:item/tea/replace_glass_bottle"
+  }
+}

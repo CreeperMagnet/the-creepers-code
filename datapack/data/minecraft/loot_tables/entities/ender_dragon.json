@@ -1,17 +1,22 @@
 {
-  "pools": [{
-    "rolls": 1,
-    "conditions": [{
-      "condition": "entity_properties",
-      "entity": "killer",
-      "predicate": {
-        "nbt": "{powered:1b}"
-      }
-    }],
-    "entries": [{
-      "type": "item",
-      "weight": 1,
-      "name": "minecraft:dragon_head"
-    }]
-  }]
+  "pools": [
+    {
+      "rolls": 1,
+      "conditions": [
+        {
+          "condition": "entity_properties",
+          "entity": "killer",
+          "predicate": {
+            "nbt": "{powered:1b}"
+          }
+        }
+      ],
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:dragon_head"
+        }
+      ]
+    }
+  ]
 }

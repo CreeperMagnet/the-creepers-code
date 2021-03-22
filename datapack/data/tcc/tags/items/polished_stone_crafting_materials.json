@@ -2,7 +2,7 @@
     "replace": false,
     "values": [
       "minecraft:polished_blackstone",
-      "minecraft:stone"
+      "minecraft:stone",
+      "minecraft:deepslate"
     ]
   }
-  

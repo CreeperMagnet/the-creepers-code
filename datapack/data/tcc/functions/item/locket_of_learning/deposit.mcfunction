@@ -12,4 +12,4 @@ playsound tcc:item.locket_of_learning.deposit player @a[distance=..16]
 advancement grant @s only tcc:minecraft/adventure/obtain_locket_of_learning
 
 # run ending function
-execute in minecraft:overworld run function tcc:item/locket_of_learning/end
+function tcc:item/locket_of_learning/end

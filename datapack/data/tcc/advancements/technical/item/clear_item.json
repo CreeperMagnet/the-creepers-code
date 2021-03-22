@@ -1,0 +1,18 @@
+{
+  "parent": "tcc:technical/root",
+  "criteria": {
+    "pick_up_clear_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{tcc:{clear:1b}}"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "tcc:item/clear_item/schedule"
+  }
+}

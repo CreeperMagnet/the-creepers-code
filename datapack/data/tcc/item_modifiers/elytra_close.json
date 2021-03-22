@@ -1,0 +1,17 @@
+[
+  {
+    "function": "copy_nbt",
+    "source": "this",
+    "ops": [
+      {
+        "source": "Inventory[{Slot:102b}].tag.Damage",
+        "target": "tcc_storage_damage",
+        "op": "replace"
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_damage",
+    "damage": 0.001
+  }
+]

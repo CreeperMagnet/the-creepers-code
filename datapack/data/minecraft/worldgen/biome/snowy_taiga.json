@@ -16,7 +16,8 @@
   "carvers": {
     "air": [
       "minecraft:cave",
-      "minecraft:canyon"
+      "minecraft:canyon",
+      "minecraft:crack"
     ]
   },
   "features": [
@@ -27,6 +28,7 @@
     ],
     [],
     [
+      "minecraft:amethyst_geode",
       "minecraft:monster_room"
     ],
     [],
@@ -37,12 +39,20 @@
       "minecraft:ore_granite",
       "minecraft:ore_diorite",
       "minecraft:ore_andesite",
-      "minecraft:ore_coal",
-      "minecraft:ore_iron",
+      "minecraft:ore_tuff",
+      "minecraft:ore_coal_upper",
+      "minecraft:ore_coal_lower",
+      "minecraft:ore_iron_upper",
+      "minecraft:ore_iron_middle",
+      "minecraft:ore_iron_lower",
       "minecraft:ore_gold",
       "minecraft:ore_redstone",
+      "minecraft:ore_redstone_lower",
       "minecraft:ore_diamond",
       "minecraft:ore_lapis",
+      "minecraft:ore_lapis_buried",
+      "minecraft:ore_copper",
+      "minecraft:underwater_magma",
       "minecraft:disk_sand",
       "minecraft:disk_clay",
       "minecraft:disk_gravel"
@@ -50,6 +60,7 @@
     [],
     [
       "minecraft:patch_large_fern",
+      "minecraft:glow_lichen",
       "minecraft:taiga_vegetation",
       "minecraft:flower_default",
       "minecraft:patch_grass_taiga_2",
@@ -75,7 +86,8 @@
     "tcc:tundra_keep"
   ],
   "spawners": {
-    "monster": [{
+    "monster": [
+      {
         "type": "minecraft:spider",
         "weight": 100,
         "minCount": 4,
@@ -124,7 +136,8 @@
         "maxCount": 1
       }
     ],
-    "creature": [{
+    "creature": [
+      {
         "type": "minecraft:sheep",
         "weight": 12,
         "minCount": 4,
@@ -167,12 +180,14 @@
         "maxCount": 4
       }
     ],
-    "ambient": [{
-      "type": "minecraft:bat",
-      "weight": 10,
-      "minCount": 8,
-      "maxCount": 8
-    }],
+    "ambient": [
+      {
+        "type": "minecraft:bat",
+        "weight": 10,
+        "minCount": 8,
+        "maxCount": 8
+      }
+    ],
     "water_creature": [],
     "water_ambient": [],
     "misc": []

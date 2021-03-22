@@ -1,76 +1,84 @@
 {
   "type": "minecraft:entity",
-  "pools": [{
-      "rolls": 1,
-      "entries": [{
-        "type": "minecraft:item",
-        "functions": [{
-            "function": "minecraft:set_count",
-            "count": {
-              "min": 0.0,
-              "max": 2.0,
-              "type": "minecraft:uniform"
-            }
-          },
-          {
-            "function": "minecraft:looting_enchant",
-            "count": {
-              "min": 0.0,
-              "max": 1.0
-            }
-          }
-        ],
-        "name": "minecraft:rotten_flesh"
-      }]
-    },
+  "pools": [
     {
       "rolls": 1,
-      "entries": [{
-        "type": "item",
-        "weight": 1,
-        "name": "minecraft:iron_nugget",
-        "functions": [{
-            "function": "set_count",
-            "count": {
-              "min": 0,
-              "max": 1
-            }
-          },
-          {
-            "function": "looting_enchant",
-            "count": {
-              "min": 0,
-              "max": 1
-            }
-          }
-        ]
-      }]
-    },
-    {
-      "rolls": 1,
-      "entries": [{
+      "entries": [
+        {
           "type": "minecraft:item",
-          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 0,
+                "max": 2
+              },
+              "add": false
+            },
+            {
+              "function": "minecraft:looting_enchant",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 0,
+                "max": 1
+              }
+            }
+          ],
+          "name": "minecraft:rotten_flesh"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
           "name": "minecraft:iron_ingot"
         },
         {
           "type": "minecraft:item",
-          "weight": 1,
           "name": "minecraft:carrot"
         },
         {
           "type": "minecraft:item",
-          "weight": 1,
           "name": "minecraft:potato"
         }
       ],
-      "conditions": [{
+      "conditions": [
+        {
           "condition": "minecraft:killed_by_player"
         },
         {
           "condition": "minecraft:random_chance_with_looting",
           "chance": 0.025,
           "looting_multiplier": 0.01
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:iron_nugget",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 0,
+                "max": 1
+              }
+            },
+            {
+              "function": "looting_enchant",
+              "count": {
+                "min": 0,
+                "max": 1
+              }
+            }
+          ]
         }
       ]
     }

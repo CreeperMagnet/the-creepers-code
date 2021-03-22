@@ -1,0 +1,38 @@
+[
+  {
+    "function": "minecraft:copy_nbt",
+    "source": {
+      "type": "minecraft:storage",
+      "source": "tcc:storage"
+    },
+    "ops": [
+      {
+        "source": "root.temp.item.tag",
+        "target": "{}",
+        "op": "merge"
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "translate": "item.tcc.potion_items.durability",
+        "with": [
+          {
+            "nbt": "root.temp.item.tag.tcc.potion.durability[0]",
+            "storage": "tcc:storage"
+          },
+          {
+            "nbt": "root.temp.item.tag.tcc.potion.durability[1]",
+            "storage": "tcc:storage"
+          }
+        ],
+        "color": "gray",
+        "italic": false
+      }
+    ],
+    "replace": false
+  }
+]

@@ -2,6 +2,7 @@
   "values": [
     "#tcc:glass",
     "#tcc:glass_panes",
-    "minecraft:glowstone"
+    "minecraft:glowstone",
+    "minecraft:tinted_glass"
   ]
 }

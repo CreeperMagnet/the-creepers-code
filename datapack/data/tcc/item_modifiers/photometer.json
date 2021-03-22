@@ -1,0 +1,82 @@
+[
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{CustomModelData:330039}",
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "location": {
+            "light": {
+              "light": {
+                "min": 0,
+                "max": 3
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{CustomModelData:330040}",
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "location": {
+            "light": {
+              "light": {
+                "min": 4,
+                "max": 7
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{CustomModelData:330041}",
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "location": {
+            "light": {
+              "light": {
+                "min": 8,
+                "max": 11
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{CustomModelData:330042}",
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "location": {
+            "light": {
+              "light": {
+                "min": 12,
+                "max": 15
+              }
+            }
+          }
+        }
+      }
+    ]
+  }
+]

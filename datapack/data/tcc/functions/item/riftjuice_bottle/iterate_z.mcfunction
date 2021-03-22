@@ -3,7 +3,7 @@
 # Creator: CreeperMagnet_
 ############################################################
 
-execute if entity @s[scores={tcc.dummy=0}] run tp @s ~ ~ ~
+execute if entity @s[scores={tcc.dummy=0}] run tp @s[tag=!global.ignore.pos] ~ ~ ~
 execute if entity @s[scores={tcc.dummy=0}] run particle dragon_breath ~ ~ ~ 0.5 1 0.5 0.05 100 force
 execute if entity @s[scores={tcc.dummy=0}] run playsound tcc:block.gobblerift.teleport_player block @a[distance=..16]
 execute store success score tcc.temp_0 tcc.dummy run scoreboard players remove @s[scores={tcc.dummy=1}] tcc.dummy 1

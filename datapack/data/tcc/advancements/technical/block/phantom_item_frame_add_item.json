@@ -1,0 +1,41 @@
+{
+  "criteria": {
+    "add_item": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:reference",
+            "name": "tcc:holding/anything_mainhand"
+          }
+        ],
+        "entity": {
+          "type": "minecraft:item_frame",
+          "nbt": "{Tags:[\"tcc.phantom_item_frame.empty\"]}"
+        }
+      }
+    },
+    "rotate_empty": {
+        "trigger": "minecraft:player_interacted_with_entity",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:inverted",
+              "term": {
+                "condition": "minecraft:reference",
+                "name": "tcc:holding/anything_mainhand"
+              }
+            }
+          ],
+          "entity": {
+            "type": "minecraft:item_frame",
+            "nbt": "{Tags:[\"tcc.phantom_item_frame.empty\"]}"
+          }
+        }
+      }
+  },
+  "requirements": [["add_item","rotate_empty"]],
+  "rewards": {
+    "function": "tcc:block/phantom_item_frame/interact/check"
+  }
+}

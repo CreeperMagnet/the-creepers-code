@@ -331,6 +331,14 @@
         }
       }
     },
+    "glow_berries": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecraft:glow_berries"
+        }
+      }
+    },
     "rotten_porkchop": {
       "trigger": "minecraft:consume_item",
       "conditions": {
@@ -392,6 +400,14 @@
       "conditions": {
         "item": {
           "nbt": "{tcc:{id:\"golden_chorus_fruit\"}}"
+        }
+      }
+    },
+    "glow_berry_muffin": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "nbt": "{tcc:{id:\"glow_berry_muffin\"}}"
         }
       }
     }
@@ -515,6 +531,9 @@
       "honey_bottle"
     ],
     [
+      "glow_berries"
+    ],
+    [
       "rotten_porkchop"
     ],
     [
@@ -537,6 +556,9 @@
     ],
     [
       "golden_chorus_fruit"
+    ],
+    [
+      "glow_berry_muffin"
     ]
   ]
 }

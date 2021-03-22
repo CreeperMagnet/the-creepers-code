@@ -3,5 +3,5 @@
 # Creator: CreeperMagnet_
 ############################################################
 
-execute as @a[tag=tcc.schedule.elytra_close] run loot replace entity @s armor.chest loot tcc:technical/elytra_close/open
-execute as @a[tag=tcc.schedule.elytra_close] run tag @s remove tcc.schedule.elytra_close
+execute as @a[tag=tcc.schedule.elytra_close] run item entity @s armor.chest modify tcc:elytra_open
+tag @a remove tcc.schedule.elytra_close

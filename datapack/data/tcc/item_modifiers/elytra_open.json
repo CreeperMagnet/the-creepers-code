@@ -1,0 +1,11 @@
+{
+  "function": "copy_nbt",
+  "source": "this",
+  "ops": [
+    {
+      "source": "Inventory[{Slot:102b}].tag.tcc_storage_damage",
+      "target": "Damage",
+      "op": "replace"
+    }
+  ]
+}

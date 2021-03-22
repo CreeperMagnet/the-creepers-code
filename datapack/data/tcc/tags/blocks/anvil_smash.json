@@ -4,6 +4,9 @@
     "minecraft:polished_blackstone_bricks",
     "minecraft:nether_bricks",
     "minecraft:infested_stone_bricks",
-    "#tcc:anvil_smash_glass"
+    "minecraft:deepslate_bricks",
+    "minecraft:deepslate_tiles",
+    "#tcc:anvil_smash_glass",
+    "#tcc:amethyst_blocks"
   ]
 }

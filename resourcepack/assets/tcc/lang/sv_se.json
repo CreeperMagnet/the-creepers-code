@@ -773,11 +773,9 @@
   "block.tcc.positional_anchor": "Positionellt ankare",
   "block.tcc.positional_anchor.name": "\uF001\uF001\uF001\uF001\uF001",
 
-  "block.tcc.filled_cauldron": "Fylld Kittel",
   "block.tcc.filled_composter": "Fylld Kompost",
   "block.tcc.moonlight_detector": "Månljusdetektor",
   "block.tcc.charged_respawn_anchor": "Laddat Återuppståndelseankare",
-  "block.tcc.filled_cauldron.level": "Vattennivå: %s",
   "block.tcc.filled_composter.compost_level": "Kompostnivå: %s",
   "block.tcc.filled_composter.contents_ready": "Redo för Skörd",
 

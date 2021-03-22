@@ -6,9 +6,8 @@
 # decrements the score by 1, to later store back into the locket data
 scoreboard players remove @s tcc.dummy 1
 
-# gives the player 7 points
-experience add @s 31 points
-summon minecraft:experience_orb
+# gives the player 31 points
+summon minecraft:experience_orb ~ ~ ~ {Value:31s}
 
 # run ending function
-execute in minecraft:overworld run function tcc:item/locket_of_learning/end
+function tcc:item/locket_of_learning/end

@@ -53,7 +53,7 @@
         "name": "minecraft:structure_block",
         "functions": [{
           "function": "minecraft:set_nbt",
-          "tag": "{tcc:{id:\"death_item\",entity:\"iceologer\"},CustomModelData:330000}"
+          "tag": "{tcc:{id:\"death_item\",entity:\"iceologer\",clear:1b},CustomModelData:330000}"
         }],
         "conditions": [{
           "condition": "minecraft:killed_by_player"

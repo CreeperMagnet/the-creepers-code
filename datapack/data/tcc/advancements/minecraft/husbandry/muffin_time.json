@@ -8,7 +8,8 @@
     "title": {
       "translate": "advancements.tcc.minecraft.husbandry.muffin_time.title"
     },
-    "description": [{
+    "description": [
+      {
         "translate": "advancements.tcc.minecraft.husbandry.muffin_time.description"
       },
       {
@@ -33,6 +34,20 @@
           "nbt": "{tcc:{id:\"sweet_berry_muffin\"}}"
         }
       }
+    },
+    "glow_berry_muffin": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "nbt": "{tcc:{id:\"glow_berry_muffin\"}}"
+        }
+      }
     }
-  }
+  },
+  "requirements": [
+    [
+      "sweet_berry_muffin",
+      "glow_berry_muffin"
+    ]
+  ]
 }

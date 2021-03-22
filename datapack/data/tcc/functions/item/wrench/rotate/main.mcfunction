@@ -22,11 +22,15 @@ execute if block ~ ~ ~ minecraft:quartz_pillar run function tcc:item/wrench/rota
 
 execute if block ~ ~ ~ minecraft:purpur_pillar run function tcc:item/wrench/rotate/block/purpur_pillar
 
+execute if block ~ ~ ~ minecraft:deepslate run function tcc:item/wrench/rotate/block/deepslate
+
 execute if block ~ ~ ~ minecraft:hay_block run function tcc:item/wrench/rotate/block/hay_block
 
 execute if block ~ ~ ~ minecraft:bone_block run function tcc:item/wrench/rotate/block/bone_block
 
 execute if block ~ ~ ~ minecraft:end_rod run function tcc:item/wrench/rotate/block/end_rod
+
+execute if block ~ ~ ~ minecraft:lightning_rod run function tcc:item/wrench/rotate/block/lightning_rod/main
 
 execute if block ~ ~ ~ minecraft:observer run function tcc:item/wrench/rotate/block/observer
 

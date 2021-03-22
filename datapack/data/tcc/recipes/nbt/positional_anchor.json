@@ -12,9 +12,14 @@
     "D": {
       "item": "minecraft:dispenser"
     },
-    "P": {
-      "item": "minecraft:purpur_block"
-    }
+    "P": [
+      {
+        "item": "minecraft:purpur_block"
+      },
+      {
+        "item": "minecraft:purpur_pillar"
+      }
+    ]
   },
   "result": {
     "item": "minecraft:knowledge_book"

@@ -32,7 +32,7 @@ execute unless entity @s[nbt=!{SelectedItem:{tag:{tcc:{id:"peculiar_berries"}}}}
 execute if entity @s[tag=!tcc.quest.healer,tag=!tcc.quest.mage,tag=!tcc.quest.warrior,tag=!tcc.quest.rogue] unless entity @s[nbt=!{SelectedItem:{tag:{tcc:{id:"quest_book"}}}},nbt=!{Inventory:[{tag:{tcc:{id:"quest_book"}},Slot:-106b}]}] run function tcc:item/quest_book/item
 
 # Boomerangs
-execute if entity @s[x_rotation=-50..50,nbt=!{SelectedItem:{tag:{tcc:{durability:[1,300]}}}},nbt={SelectedItem:{tag:{tcc:{id:"boomerang"}}}}] anchored eyes if block ^ ^ ^1 #tcc:not_solid if block ^ ^ ^2 #tcc:not_solid if block ^ ^ ^3 #tcc:not_solid if block ^ ^ ^4 #tcc:not_solid if block ^ ^ ^5 #tcc:not_solid run function tcc:item/boomerang/throw
+execute if entity @s[x_rotation=-50..50,nbt=!{SelectedItem:{tag:{tcc:{durability:[1,300]}}}},nbt={SelectedItem:{tag:{tcc:{id:"boomerang"}}}}] anchored eyes if block ^ ^ ^1 #tcc:boomerang_ignore if block ^ ^ ^2 #tcc:boomerang_ignore if block ^ ^ ^3 #tcc:boomerang_ignore if block ^ ^ ^4 #tcc:boomerang_ignore if block ^ ^ ^5 #tcc:boomerang_ignore run function tcc:item/boomerang/throw
 
 # Spectral Boomerangs
 execute if entity @s[x_rotation=-50..50,nbt=!{SelectedItem:{tag:{tcc:{durability:[1,300]}}}},nbt={SelectedItem:{tag:{tcc:{id:"spectral_boomerang"}}}}] anchored eyes run function tcc:item/boomerang/throw

@@ -2,6 +2,11 @@
   "values": [
     "#minecraft:flowers",
     "#minecraft:leaves",
+    "minecraft:sculk_sensor",
+    "minecraft:flowering_azalea",
+    "minecraft:azalea",
+    "minecraft:spore_blossom",
+    "minecraft:sweet_berry_bush",
     "minecraft:melon_stem",
     "minecraft:pumpkin_stem",
     "minecraft:beetroots",

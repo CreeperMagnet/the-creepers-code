@@ -44,7 +44,7 @@
                 {
                   "attribute": "generic.attack_damage",
                   "name": "generic.attack_damage",
-                  "amount": 0.15,
+                  "amount": 0.1,
                   "operation": "multiply_total",
                   "slot": [
                     "offhand"

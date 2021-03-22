@@ -33,8 +33,8 @@
               "translate": "attribute.modifier.plus.0",
               "italic": false,
               "color": "blue",
-              "with": ["2", {
-                "translate": "attribute.name.tcc.AMETHYST_ATTRIBUTE"
+              "with": ["300", {
+                "translate": "attribute.name.tcc.item_preservation"
               }]
             }
           ],

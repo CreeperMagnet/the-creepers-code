@@ -26,6 +26,6 @@
     }
   },
   "rewards": {
-    "function": "tcc:item/witch_hat/schedule_unequip"
+    "function": "tcc:item/witch_hat/unequip"
   }
 }
