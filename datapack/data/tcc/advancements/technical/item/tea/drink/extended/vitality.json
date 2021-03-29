@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "drink_vitality_tea": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "nbt": "{tcc:{id:\"tea\",tea:\"vitality\",extended_tea:1b}}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "tcc:item/tea/drink/extended/vitality"
+  },
+  "parent": "tcc:technical/root"
+}

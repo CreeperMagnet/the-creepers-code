@@ -108,6 +108,51 @@
           }
         }
       }
+    },
+    "add_snail_mucus": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "nbt": "{tcc:{id:\"snail_mucus\"}}"
+        },
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Tags:[\"tcc.teapot.filled_tea\"]}",
+              "location": {
+                "block": {
+                  "tag": "minecraft:campfires",
+                  "state": {
+                    "lit": "true"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Tags:[\"tcc.teapot.filled_snail_mucus\"]}"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Tags:[\"tcc.teapot.filled_warped_wart\"]}"
+              }
+            }
+          }
+        ]
+      }
     }
   },
   "requirements": [
@@ -116,7 +161,8 @@
       "take_water",
       "add_warped_wart",
       "add_ingredient",
-      "take_tea"
+      "take_tea",
+      "add_snail_mucus"
     ]
   ],
   "rewards": {

@@ -1,0 +1,15 @@
+{
+    "criteria": {
+        "place": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "item": {
+                    "nbt": "{tcc:{id:\"phantom_item_frame\"}}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "tcc:block/phantom_item_frame/player_place"
+    }
+}

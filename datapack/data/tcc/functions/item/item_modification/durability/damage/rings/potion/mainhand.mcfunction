@@ -5,6 +5,13 @@
 
 tag @s remove tcc.tag
 data remove storage tcc:storage root.temp
-data modify storage tcc:storage root.temp.Items insert 0 from entity @s SelectedItem
+data modify storage tcc:storage root.temp.item set from entity @s SelectedItem
 function tcc:item/item_modification/durability/damage/rings/potion/modify_durability
-execute in minecraft:overworld run loot replace entity @s weapon.mainhand 1 mine -30000000 0 2033 minecraft:air{drop_contents:1b}
+
+item entity @s[tag=tcc.tag] weapon.mainhand replace minecraft:carrot_on_a_stick
+execute unless entity @s[tag=tcc.tag] run item entity @s weapon.mainhand modify tcc:potion_durability_lore
+execute unless entity @s[tag=tcc.tag] run data modify storage tcc:storage root.temp.item set from entity @s SelectedItem
+execute unless entity @s[tag=tcc.tag] unless data storage tcc:storage root.temp.item.tag.tcc.gemstone{lore_attribute:1} run data modify storage tcc:storage root.temp.item.tag.display.Lore[-3] set from storage tcc:storage root.temp.item.tag.display.Lore[-1]
+execute unless entity @s[tag=tcc.tag] if data storage tcc:storage root.temp.item.tag.tcc.gemstone{lore_attribute:1} run data modify storage tcc:storage root.temp.item.tag.display.Lore[-6] set from storage tcc:storage root.temp.item.tag.display.Lore[-1]
+execute unless entity @s[tag=tcc.tag] run data remove storage tcc:storage root.temp.item.tag.display.Lore[-1]
+item entity @s weapon.mainhand modify tcc:copy_nbt

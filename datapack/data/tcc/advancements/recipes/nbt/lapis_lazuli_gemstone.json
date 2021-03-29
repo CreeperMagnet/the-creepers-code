@@ -2,7 +2,7 @@
   "parent": "tcc:recipes/nbt/root",
   "rewards": {
     "function": "tcc:entity/player/nbt_recipe",
-    "loot": ["tcc:recipes/lapis_lazuli_gemstone"]
+    "loot": ["tcc:items/lapis_lazuli_gemstone"]
   },
   "criteria": {
     "has_the_recipe": {

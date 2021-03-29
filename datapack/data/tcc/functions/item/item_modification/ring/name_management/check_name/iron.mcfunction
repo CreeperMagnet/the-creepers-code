@@ -3,4 +3,4 @@
 # Creator: CreeperMagnet_
 ############################################################
 
-execute if data storage tcc:storage root.temp.Items[0].tag.tcc{metal:"minecraft:iron"} if data storage tcc:storage root.temp.Items[0].tag.display{Name:'{"italic":false,"translate":"item.tcc.ring.iron"}'} run data modify storage tcc:storage root.temp.default_name set value 1
+execute if data storage tcc:storage root.temp.item.tag.tcc{metal:"minecraft:iron"} if data storage tcc:storage root.temp.item.tag.display{Name:'{"italic":false,"translate":"item.tcc.ring.iron"}'} run data modify storage tcc:storage root.temp.default_name set value 1

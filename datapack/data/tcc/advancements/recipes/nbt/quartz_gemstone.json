@@ -2,7 +2,7 @@
   "parent": "tcc:recipes/nbt/root",
   "rewards": {
     "function": "tcc:entity/player/nbt_recipe",
-    "loot": ["tcc:recipes/quartz_gemstone"]
+    "loot": ["tcc:items/quartz_gemstone"]
   },
   "criteria": {
     "has_the_recipe": {

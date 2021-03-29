@@ -11,6 +11,8 @@
     "#minecraft:wall_corals",
     "#minecraft:crops",
     "#minecraft:signs",
+    "#minecraft:wall_signs",
+    "#minecraft:cave_vines",
     "#tcc:air",
     "minecraft:small_amethyst_bud",
     "minecraft:medium_amethyst_bud",
@@ -40,6 +42,7 @@
     "minecraft:rail",
     "minecraft:lever",
     "minecraft:redstone_torch",
+    "minecraft:redstone_wall_torch",
     "minecraft:lily_pad",
     "minecraft:tripwire_hook",
     "minecraft:daylight_detector",
@@ -62,6 +65,14 @@
     "minecraft:crimson_roots",
     "minecraft:warped_fungus",
     "minecraft:crimson_fungus",
+    "minecraft:seagrass",
+    "minecraft:tall_seagrass",
+    "minecraft:sugar_cane",
+    "minecraft:scaffolding",
+    "minecraft:tripwire",
+    "minecraft:snow",
+    "minecraft:sweet_berry_bush",
+    "minecraft:bamboo_sapling",
     {"id": "quark:root", "required": false}
   ]
 }

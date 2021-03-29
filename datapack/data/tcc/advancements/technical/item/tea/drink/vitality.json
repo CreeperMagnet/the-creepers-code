@@ -4,7 +4,7 @@
       "trigger": "minecraft:consume_item",
       "conditions": {
         "item": {
-          "nbt": "{tcc:{id:\"tea\",tea:\"vitality\"}}"
+          "nbt": "{tcc:{id:\"tea\",tea:\"vitality\",extended_tea:0b}}"
         }
       }
     }

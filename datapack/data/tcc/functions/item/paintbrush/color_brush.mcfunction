@@ -24,8 +24,7 @@ execute if score tcc.temp_2 tcc.dummy matches 16 run clear @s[gamemode=!creative
 data remove storage tcc:storage root.temp
 execute if entity @s[nbt={SelectedItem:{tag:{tcc:{id:"paintbrush"}}}}] run data modify storage tcc:storage root.temp.item set from entity @s SelectedItem
 execute if entity @s[nbt=!{SelectedItem:{tag:{tcc:{id:"paintbrush"}}}},nbt={Inventory:[{tag:{tcc:{id:"paintbrush"}},Slot:-106b}]}] run data modify storage tcc:storage root.temp.item set from entity @s Inventory[{Slot:-106b}]
-scoreboard players add tcc.temp_2 tcc.dummy 330010
-execute store result storage tcc:storage root.temp.item.tag.CustomModelData int 1 run scoreboard players get tcc.temp_2 tcc.dummy
+execute store result storage tcc:storage root.temp.item.tag.CustomModelData int 1 run scoreboard players add tcc.temp_2 tcc.dummy 330010
 item entity @s[nbt={SelectedItem:{tag:{tcc:{id:"paintbrush"}}}}] weapon.mainhand modify tcc:copy_nbt
 item entity @s[nbt=!{SelectedItem:{tag:{tcc:{id:"paintbrush"}}}}] weapon.offhand modify tcc:copy_nbt
 scoreboard players reset tcc.temp_2

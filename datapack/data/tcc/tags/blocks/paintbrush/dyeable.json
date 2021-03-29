@@ -9,6 +9,7 @@
     "#tcc:terracotta",
     "#tcc:concrete_powder",
     "#tcc:glass",
-    "#tcc:glass_panes"
+    "#tcc:glass_panes",
+    "#minecraft:candles"
   ]
 }

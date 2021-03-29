@@ -13,4 +13,4 @@ execute if block ~ ~-0.9 ~ minecraft:large_amethyst_bud run particle minecraft:i
 execute if block ~ ~-0.9 ~ minecraft:budding_amethyst run particle minecraft:item minecraft:budding_amethyst ~ ~ ~ 0.5 0.5 0.5 0.5 100 normal
 
 setblock ~ ~-0.9 ~ air
-execute if predicate tcc:chance/one_tenth run loot spawn ~ ~ ~ loot tcc:items/amethyst_dust
+execute if predicate tcc:chance/one_fourth run loot spawn ~ ~ ~ loot tcc:items/amethyst_dust

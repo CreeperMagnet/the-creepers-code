@@ -3,6 +3,8 @@
 # Creator: CreeperMagnet_
 ############################################################
 
+data modify storage tcc:storage root.temp.extended set value 0b
+execute if entity @s[tag=tcc.teapot.filled_snail_mucus] run data modify storage tcc:storage root.temp.extended set value 1b
 execute if entity @s[tag=tcc.teapot.filled_warped_wart] run data modify storage tcc:storage root.temp.tea set value "amenable"
 execute if entity @s[tag=tcc.teapot.filled_antitoxin_tea] run data modify storage tcc:storage root.temp.tea set value "antitoxin"
 execute if entity @s[tag=tcc.teapot.filled_clearsight_tea] run data modify storage tcc:storage root.temp.tea set value "clearsight"

@@ -18,4 +18,5 @@ tag @s remove tcc.teapot.filled_vigor_tea
 tag @s remove tcc.teapot.filled_vitality_tea
 tag @s remove tcc.teapot.filled_vivacity_tea
 tag @s remove tcc.teapot.filled_water
+tag @s remove tcc.teapot.filled_snail_mucus
 tag @s add tcc.teapot.empty

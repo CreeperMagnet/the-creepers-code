@@ -41,7 +41,6 @@ scoreboard objectives add tcc.old_xp dummy
 scoreboard objectives add tcc.tea dummy
 scoreboard objectives add tcc.invul_timer dummy
 
-scoreboard objectives add tcc.dummy dummy
 scoreboard objectives add tcc.dummy2 dummy
 
 scoreboard players set tcc.const.-1 tcc.dummy -1

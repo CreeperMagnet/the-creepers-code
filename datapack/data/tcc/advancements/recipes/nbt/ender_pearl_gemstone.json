@@ -2,7 +2,7 @@
   "parent": "tcc:recipes/nbt/root",
   "rewards": {
     "function": "tcc:entity/player/nbt_recipe",
-    "loot": ["tcc:recipes/ender_pearl_gemstone"]
+    "loot": ["tcc:items/ender_pearl_gemstone"]
   },
   "criteria": {
     "has_the_recipe": {

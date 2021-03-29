@@ -1,0 +1,27 @@
+{
+    "values": [
+        "#minecraft:carpets",
+        "minecraft:moss_carpet",
+        "minecraft:sea_pickle",
+        "minecraft:turtle_egg",
+        "#minecraft:candles",
+        "#minecraft:candle_cakes",
+        "#tcc:chests",
+        "minecraft:ladder",
+        "minecraft:lily_pad",
+        "#minecraft:anvil",
+        "minecraft:lectern",
+        "minecraft:comparator",
+        "minecraft:repeater",
+        "#minecraft:doors",
+        "minecraft:brewing_stand",
+        "#tcc:ground_heads",
+        "minecraft:cake",
+        "minecraft:flower_pot",
+        "minecraft:bamboo",
+        "#tcc:horizontally_connectable",
+        "minecraft:cactus",
+        "minecraft:honey_block",
+        "#minecraft:walls"
+    ]
+}

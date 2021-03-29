@@ -14,5 +14,3 @@ tag @s remove tcc.tea.vigor
 tag @s remove tcc.tea.vitality
 tag @s remove tcc.tea.vivacity
 tag @s remove tcc.tea.steadiness
-
-scoreboard players set @s tcc.tea 300

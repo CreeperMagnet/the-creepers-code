@@ -6,29 +6,54 @@
 tag @s remove tcc.tag
 tag @s[nbt={SelectedItem:{Count:1b}},gamemode=!creative] add tcc.tag
 execute if entity @s[tag=!tcc.tag,gamemode=!creative] run item entity @s weapon.mainhand modify tcc:reduce_count
-execute if data storage tcc:storage root.temp{tea:"amenable"} if entity @s[tag=tcc.tag] run loot replace entity @s weapon.mainhand loot tcc:items/amenable_tea
-execute if data storage tcc:storage root.temp{tea:"amenable"} if entity @s[tag=!tcc.tag] run loot give @s loot tcc:items/amenable_tea
-execute if data storage tcc:storage root.temp{tea:"antitoxin"} if entity @s[tag=tcc.tag] run loot replace entity @s weapon.mainhand loot tcc:items/antitoxin_tea
-execute if data storage tcc:storage root.temp{tea:"antitoxin"} if entity @s[tag=!tcc.tag] run loot give @s loot tcc:items/antitoxin_tea
-execute if data storage tcc:storage root.temp{tea:"clearsight"} if entity @s[tag=tcc.tag] run loot replace entity @s weapon.mainhand loot tcc:items/clearsight_tea
-execute if data storage tcc:storage root.temp{tea:"clearsight"} if entity @s[tag=!tcc.tag] run loot give @s loot tcc:items/clearsight_tea
-execute if data storage tcc:storage root.temp{tea:"obscurity"} if entity @s[tag=tcc.tag] run loot replace entity @s weapon.mainhand loot tcc:items/obscurity_tea
-execute if data storage tcc:storage root.temp{tea:"obscurity"} if entity @s[tag=!tcc.tag] run loot give @s loot tcc:items/obscurity_tea
-execute if data storage tcc:storage root.temp{tea:"plenty"} if entity @s[tag=tcc.tag] run loot replace entity @s weapon.mainhand loot tcc:items/plenty_tea
-execute if data storage tcc:storage root.temp{tea:"plenty"} if entity @s[tag=!tcc.tag] run loot give @s loot tcc:items/plenty_tea
-execute if data storage tcc:storage root.temp{tea:"purity"} if entity @s[tag=tcc.tag] run loot replace entity @s weapon.mainhand loot tcc:items/purity_tea
-execute if data storage tcc:storage root.temp{tea:"purity"} if entity @s[tag=!tcc.tag] run loot give @s loot tcc:items/purity_tea
-execute if data storage tcc:storage root.temp{tea:"serendipity"} if entity @s[tag=tcc.tag] run loot replace entity @s weapon.mainhand loot tcc:items/serendipity_tea
-execute if data storage tcc:storage root.temp{tea:"serendipity"} if entity @s[tag=!tcc.tag] run loot give @s loot tcc:items/serendipity_tea
-execute if data storage tcc:storage root.temp{tea:"stability"} if entity @s[tag=tcc.tag] run loot replace entity @s weapon.mainhand loot tcc:items/stability_tea
-execute if data storage tcc:storage root.temp{tea:"stability"} if entity @s[tag=!tcc.tag] run loot give @s loot tcc:items/stability_tea
-execute if data storage tcc:storage root.temp{tea:"steadiness"} if entity @s[tag=tcc.tag] run loot replace entity @s weapon.mainhand loot tcc:items/steadiness_tea
-execute if data storage tcc:storage root.temp{tea:"steadiness"} if entity @s[tag=!tcc.tag] run loot give @s loot tcc:items/steadiness_tea
-execute if data storage tcc:storage root.temp{tea:"vigor"} if entity @s[tag=tcc.tag] run loot replace entity @s weapon.mainhand loot tcc:items/vigor_tea
-execute if data storage tcc:storage root.temp{tea:"vigor"} if entity @s[tag=!tcc.tag] run loot give @s loot tcc:items/vigor_tea
-execute if data storage tcc:storage root.temp{tea:"vitality"} if entity @s[tag=tcc.tag] run loot replace entity @s weapon.mainhand loot tcc:items/vitality_tea
-execute if data storage tcc:storage root.temp{tea:"vitality"} if entity @s[tag=!tcc.tag] run loot give @s loot tcc:items/vitality_tea
-execute if data storage tcc:storage root.temp{tea:"vivacity"} if entity @s[tag=tcc.tag] run loot replace entity @s weapon.mainhand loot tcc:items/vivacity_tea
-execute if data storage tcc:storage root.temp{tea:"vivacity"} if entity @s[tag=!tcc.tag] run loot give @s loot tcc:items/vivacity_tea
+
+execute if data storage tcc:storage root.temp{tea:"amenable"} if entity @s[tag=tcc.tag] run loot replace entity @s weapon.mainhand loot tcc:items/tea/amenable
+execute if data storage tcc:storage root.temp{tea:"amenable"} if entity @s[tag=!tcc.tag] run loot give @s loot tcc:items/tea/amenable
+execute if data storage tcc:storage root.temp{tea:"antitoxin",extended:0b} if entity @s[tag=tcc.tag] run loot replace entity @s weapon.mainhand loot tcc:items/tea/antitoxin
+execute if data storage tcc:storage root.temp{tea:"antitoxin",extended:0b} if entity @s[tag=!tcc.tag] run loot give @s loot tcc:items/tea/antitoxin
+execute if data storage tcc:storage root.temp{tea:"clearsight",extended:0b} if entity @s[tag=tcc.tag] run loot replace entity @s weapon.mainhand loot tcc:items/tea/clearsight
+execute if data storage tcc:storage root.temp{tea:"clearsight",extended:0b} if entity @s[tag=!tcc.tag] run loot give @s loot tcc:items/tea/clearsight
+execute if data storage tcc:storage root.temp{tea:"obscurity",extended:0b} if entity @s[tag=tcc.tag] run loot replace entity @s weapon.mainhand loot tcc:items/tea/obscurity
+execute if data storage tcc:storage root.temp{tea:"obscurity",extended:0b} if entity @s[tag=!tcc.tag] run loot give @s loot tcc:items/tea/obscurity
+execute if data storage tcc:storage root.temp{tea:"plenty",extended:0b} if entity @s[tag=tcc.tag] run loot replace entity @s weapon.mainhand loot tcc:items/tea/plenty
+execute if data storage tcc:storage root.temp{tea:"plenty",extended:0b} if entity @s[tag=!tcc.tag] run loot give @s loot tcc:items/tea/plenty
+execute if data storage tcc:storage root.temp{tea:"purity",extended:0b} if entity @s[tag=tcc.tag] run loot replace entity @s weapon.mainhand loot tcc:items/tea/purity
+execute if data storage tcc:storage root.temp{tea:"purity",extended:0b} if entity @s[tag=!tcc.tag] run loot give @s loot tcc:items/tea/purity
+execute if data storage tcc:storage root.temp{tea:"serendipity",extended:0b} if entity @s[tag=tcc.tag] run loot replace entity @s weapon.mainhand loot tcc:items/tea/serendipity
+execute if data storage tcc:storage root.temp{tea:"serendipity",extended:0b} if entity @s[tag=!tcc.tag] run loot give @s loot tcc:items/tea/serendipity
+execute if data storage tcc:storage root.temp{tea:"stability",extended:0b} if entity @s[tag=tcc.tag] run loot replace entity @s weapon.mainhand loot tcc:items/tea/stability
+execute if data storage tcc:storage root.temp{tea:"stability",extended:0b} if entity @s[tag=!tcc.tag] run loot give @s loot tcc:items/tea/stability
+execute if data storage tcc:storage root.temp{tea:"steadiness",extended:0b} if entity @s[tag=tcc.tag] run loot replace entity @s weapon.mainhand loot tcc:items/tea/steadiness
+execute if data storage tcc:storage root.temp{tea:"steadiness",extended:0b} if entity @s[tag=!tcc.tag] run loot give @s loot tcc:items/tea/steadiness
+execute if data storage tcc:storage root.temp{tea:"vigor",extended:0b} if entity @s[tag=tcc.tag] run loot replace entity @s weapon.mainhand loot tcc:items/tea/vigor
+execute if data storage tcc:storage root.temp{tea:"vigor",extended:0b} if entity @s[tag=!tcc.tag] run loot give @s loot tcc:items/tea/vigor
+execute if data storage tcc:storage root.temp{tea:"vitality",extended:0b} if entity @s[tag=tcc.tag] run loot replace entity @s weapon.mainhand loot tcc:items/tea/vitality
+execute if data storage tcc:storage root.temp{tea:"vitality",extended:0b} if entity @s[tag=!tcc.tag] run loot give @s loot tcc:items/tea/vitality
+execute if data storage tcc:storage root.temp{tea:"vivacity",extended:0b} if entity @s[tag=tcc.tag] run loot replace entity @s weapon.mainhand loot tcc:items/tea/vivacity
+execute if data storage tcc:storage root.temp{tea:"vivacity",extended:0b} if entity @s[tag=!tcc.tag] run loot give @s loot tcc:items/tea/vivacity
+
+execute if data storage tcc:storage root.temp{tea:"antitoxin",extended:1b} if entity @s[tag=tcc.tag] run loot replace entity @s weapon.mainhand loot tcc:items/tea/extended/antitoxin
+execute if data storage tcc:storage root.temp{tea:"antitoxin",extended:1b} if entity @s[tag=!tcc.tag] run loot give @s loot tcc:items/tea/extended/antitoxin
+execute if data storage tcc:storage root.temp{tea:"clearsight",extended:1b} if entity @s[tag=tcc.tag] run loot replace entity @s weapon.mainhand loot tcc:items/tea/extended/clearsight
+execute if data storage tcc:storage root.temp{tea:"clearsight",extended:1b} if entity @s[tag=!tcc.tag] run loot give @s loot tcc:items/tea/extended/clearsight
+execute if data storage tcc:storage root.temp{tea:"obscurity",extended:1b} if entity @s[tag=tcc.tag] run loot replace entity @s weapon.mainhand loot tcc:items/tea/extended/obscurity
+execute if data storage tcc:storage root.temp{tea:"obscurity",extended:1b} if entity @s[tag=!tcc.tag] run loot give @s loot tcc:items/tea/extended/obscurity
+execute if data storage tcc:storage root.temp{tea:"plenty",extended:1b} if entity @s[tag=tcc.tag] run loot replace entity @s weapon.mainhand loot tcc:items/tea/extended/plenty
+execute if data storage tcc:storage root.temp{tea:"plenty",extended:1b} if entity @s[tag=!tcc.tag] run loot give @s loot tcc:items/tea/extended/plenty
+execute if data storage tcc:storage root.temp{tea:"purity",extended:1b} if entity @s[tag=tcc.tag] run loot replace entity @s weapon.mainhand loot tcc:items/tea/extended/purity
+execute if data storage tcc:storage root.temp{tea:"purity",extended:1b} if entity @s[tag=!tcc.tag] run loot give @s loot tcc:items/tea/extended/purity
+execute if data storage tcc:storage root.temp{tea:"serendipity",extended:1b} if entity @s[tag=tcc.tag] run loot replace entity @s weapon.mainhand loot tcc:items/tea/extended/serendipity
+execute if data storage tcc:storage root.temp{tea:"serendipity",extended:1b} if entity @s[tag=!tcc.tag] run loot give @s loot tcc:items/tea/extended/serendipity
+execute if data storage tcc:storage root.temp{tea:"stability",extended:1b} if entity @s[tag=tcc.tag] run loot replace entity @s weapon.mainhand loot tcc:items/tea/extended/stability
+execute if data storage tcc:storage root.temp{tea:"stability",extended:1b} if entity @s[tag=!tcc.tag] run loot give @s loot tcc:items/tea/extended/stability
+execute if data storage tcc:storage root.temp{tea:"steadiness",extended:1b} if entity @s[tag=tcc.tag] run loot replace entity @s weapon.mainhand loot tcc:items/tea/extended/steadiness
+execute if data storage tcc:storage root.temp{tea:"steadiness",extended:1b} if entity @s[tag=!tcc.tag] run loot give @s loot tcc:items/tea/extended/steadiness
+execute if data storage tcc:storage root.temp{tea:"vigor",extended:1b} if entity @s[tag=tcc.tag] run loot replace entity @s weapon.mainhand loot tcc:items/tea/extended/vigor
+execute if data storage tcc:storage root.temp{tea:"vigor",extended:1b} if entity @s[tag=!tcc.tag] run loot give @s loot tcc:items/tea/extended/vigor
+execute if data storage tcc:storage root.temp{tea:"vitality",extended:1b} if entity @s[tag=tcc.tag] run loot replace entity @s weapon.mainhand loot tcc:items/tea/extended/vitality
+execute if data storage tcc:storage root.temp{tea:"vitality",extended:1b} if entity @s[tag=!tcc.tag] run loot give @s loot tcc:items/tea/extended/vitality
+execute if data storage tcc:storage root.temp{tea:"vivacity",extended:1b} if entity @s[tag=tcc.tag] run loot replace entity @s weapon.mainhand loot tcc:items/tea/extended/vivacity
+execute if data storage tcc:storage root.temp{tea:"vivacity",extended:1b} if entity @s[tag=!tcc.tag] run loot give @s loot tcc:items/tea/extended/vivacity
+
 playsound tcc:item.teacup.fill player @a[distance=..16]
 tag @s remove tcc.tag

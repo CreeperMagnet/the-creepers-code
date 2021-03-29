@@ -120,6 +120,12 @@
     ],
     "subtitle": "subtitles.tcc.block.jewelry_table.use"
   },
+  "block.jewelry_table.pristine": {
+    "sounds": [
+      "tcc:block/jewelry_table_pristine"
+    ],
+    "subtitle": "subtitles.tcc.block.jewelry_table.use"
+  },
   "block.positional_anchor.fill": {
     "sounds": [
       "tcc:block/positional_anchor_fill"

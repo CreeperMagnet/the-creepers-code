@@ -1,9 +1,9 @@
 {
   "type": "crafting_shaped",
   "pattern": [
-    "AAA",
-    "IRI",
-    "III"
+    "IAI",
+    "ARA",
+    "IAI"
   ],
   "key": {
     "A": {

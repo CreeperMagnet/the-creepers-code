@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "-#-",
+    "#D#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:rabbit_hide"
+    },
+    "-": {
+      "item": "minecraft:string"
+    },
+    "D": {
+      "item": "minecraft:cyan_dye"
+    }
+  },
+  "result": {
+    "item": "minecraft:knowledge_book"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{tcc:{id:\"dyed_bundle\",color:\"red\"},CustomModelData:330013}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.tcc.dyed_bundle.red",
+                "italic": false
+              }
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "translate": "pack.tcc",
+                  "color": "#008725",
+                  "italic": true
+                }
+              ]
+            }
+          ],
+          "name": "minecraft:bundle"
+        }
+      ]
+    }
+  ]
+}

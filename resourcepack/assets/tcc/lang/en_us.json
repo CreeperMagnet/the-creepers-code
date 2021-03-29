@@ -4,7 +4,7 @@
 
   "pack.tcc": "The Creeper's Code",
   "pack.tcc.hover_event": "Click here to go to the official website",
-  "pack.tcc.version": "Version 0.5 Beta 1",
+  "pack.tcc.version": "Version 0.5 Beta 2",
   "pack.tcc.version.hover_event": "Click here to see changelog notes",
   "TCC (MISSING RESOURCES)": "%s",
   "The Creeper's Code Resource Pack is not installed. Please go to https://thecreeperscode.com/download.": "%s",
@@ -887,6 +887,22 @@
   "item.tcc.snail_shell": "Snail Shell",
   "item.tcc.snail_in_a_bucket": "Snail in a Bucket",
   "item.tcc.photometer": "Photometer",
+  "item.tcc.dyed_bundle.black": "Black Bundle",
+  "item.tcc.dyed_bundle.blue": "Blue Bundle",
+  "item.tcc.dyed_bundle.brown": "Brown Bundle",
+  "item.tcc.dyed_bundle.cyan": "Cyan Bundle",
+  "item.tcc.dyed_bundle.gray": "Gray Bundle",
+  "item.tcc.dyed_bundle.green": "Green Bundle",
+  "item.tcc.dyed_bundle.light_blue": "Light Blue Bundle",
+  "item.tcc.dyed_bundle.light_gray": "Light Gray Bundle",
+  "item.tcc.dyed_bundle.lime": "Lime Bundle",
+  "item.tcc.dyed_bundle.magenta": "Magenta Bundle",
+  "item.tcc.dyed_bundle.orange": "Orange Bundle",
+  "item.tcc.dyed_bundle.pink": "Pink Bundle",
+  "item.tcc.dyed_bundle.purple": "Purple Bundle",
+  "item.tcc.dyed_bundle.red": "Red Bundle",
+  "item.tcc.dyed_bundle.white": "White Bundle",
+  "item.tcc.dyed_bundle.yellow": "Yellow Bundle",
 
 
   "item.tcc.amenable_tea": "Amenable Tea",
@@ -1265,7 +1281,7 @@
   "block.tcc.harvester": "Harvester",
 
   "block.tcc.jewelry_table": "Jewelry Table",
-  "block.tcc.jewelry_table.gui": "\uc000\uc001\uc002%s",
+  "block.tcc.jewelry_table.gui": "\uc000\uc001 \uc002\uc003%s",
 
   "block.tcc.nether_reactor_core": "Nether Reactor Core",
 

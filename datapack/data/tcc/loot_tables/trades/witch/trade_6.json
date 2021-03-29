@@ -24,42 +24,42 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "tcc:items/antitoxin_tea",
+          "name": "tcc:items/tea/antitoxin",
           "weight": 2
         },
         {
           "type": "loot_table",
-          "name": "tcc:items/clearsight_tea",
+          "name": "tcc:items/tea/clearsight",
           "weight": 1
         },
         {
           "type": "loot_table",
-          "name": "tcc:items/obscurity_tea",
+          "name": "tcc:items/tea/obscurity",
           "weight": 1
         },
         {
           "type": "loot_table",
-          "name": "tcc:items/plenty_tea",
+          "name": "tcc:items/tea/plenty",
           "weight": 1
         },
         {
           "type": "loot_table",
-          "name": "tcc:items/purity_tea",
+          "name": "tcc:items/tea/purity",
           "weight": 2
         },
         {
           "type": "loot_table",
-          "name": "tcc:items/steadiness_tea",
+          "name": "tcc:items/tea/steadiness",
           "weight": 1
         },
         {
           "type": "loot_table",
-          "name": "tcc:items/vigor_tea",
+          "name": "tcc:items/tea/vigor",
           "weight": 1
         },
         {
           "type": "loot_table",
-          "name": "tcc:items/vivacity_tea",
+          "name": "tcc:items/tea/vivacity",
           "weight": 1
         }
       ]

@@ -6,7 +6,7 @@
         "weight": 1,
         "functions": [{
             "function": "minecraft:set_nbt",
-            "tag": "{tcc:{id:\"phantom_item_frame\"},CustomModelData:330000,EntityTag:{Tags:[\"tcc.phantom_item_frame.empty\",\"tcc.phantom_item_frame\",\"tcc.entity\",\"tcc.block\"],Invisible:1b,Item:{id:\"minecraft:structure_block\",Count:1b,tag:{tcc:{id:\"phantom_item_frame_model\",clear:1b},CustomModelData:330046}}}}"
+            "tag": "{tcc:{id:\"phantom_item_frame\"},CustomModelData:330000,EntityTag:{Tags:[\"tcc.phantom_item_frame.place\",\"tcc.phantom_item_frame.empty\",\"tcc.phantom_item_frame\",\"tcc.entity\",\"tcc.block\"],Invisible:1b,Item:{id:\"minecraft:structure_block\",Count:1b,tag:{tcc:{id:\"phantom_item_frame_model\",clear:1b},CustomModelData:330046}}}}"
           },
           {
             "function": "minecraft:set_name",

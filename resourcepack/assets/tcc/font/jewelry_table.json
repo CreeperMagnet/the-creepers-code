@@ -182,18 +182,27 @@
       "type": "bitmap",
       "file": "tcc:gui/negative_space.png",
       "ascent": -32768,
-      "height": -10,
+      "height": -140,
       "chars": [
         "\uc000"
       ]
     },
     {
       "type": "bitmap",
-      "file": "tcc:gui/jewelry_table.png",
+      "file": "tcc:gui/jewelry_table/recipe_book.png",
+      "ascent": 13,
+      "height": 133,
+      "chars": [
+        "\uc001"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "tcc:gui/jewelry_table/main.png",
       "ascent": 13,
       "height": 256,
       "chars": [
-        "\uc001"
+        "\uc002"
       ]
     },
     {
@@ -202,7 +211,7 @@
       "ascent": -32768,
       "height": -171,
       "chars": [
-        "\uc002"
+        "\uc003"
       ]
     }
   ]

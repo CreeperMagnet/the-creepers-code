@@ -1,13 +1,16 @@
 {
   "type": "crafting_shaped",
   "pattern": [
-    " WW",
-    " QQ",
-    " QQ"
+    "CCC",
+    "QAQ",
+    " Q "
   ],
   "key": {
-    "W": {
-      "tag": "minecraft:wool"
+    "C": {
+      "tag": "minecraft:carpets"
+    },
+    "A": {
+      "item": "minecraft:amethyst_shard"
     },
     "Q": {
       "item": "minecraft:quartz_block"
