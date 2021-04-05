@@ -58,6 +58,7 @@
     "minecraft:snow",
     "minecraft:redstone_wire",
     "minecraft:soul_torch",
+    "minecraft:soul_wall_torch",
     "minecraft:twisting_vines",
     "minecraft:weeping_vines",
     "minecraft:nether_sprouts",
@@ -73,6 +74,7 @@
     "minecraft:snow",
     "minecraft:sweet_berry_bush",
     "minecraft:bamboo_sapling",
+    "minecraft:soul_fire",
     {"id": "quark:root", "required": false}
   ]
 }

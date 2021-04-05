@@ -6,8 +6,7 @@
 effect give @s[type=#tcc:undead] instant_health 1 31
 effect give @s[type=!#tcc:undead] instant_damage 1 31
 execute store result score @s tcc.dummy run data get entity @s Health 10
-scoreboard players remove @s tcc.dummy 40
-execute store result entity @s[scores={tcc.dummy=1..}] Health float 0.1 run scoreboard players get @s tcc.dummy
+execute store result entity @s[scores={tcc.dummy=1..}] Health float 0.1 run scoreboard players remove @s tcc.dummy 40
 kill @s[scores={tcc.dummy=..0},tag=!global.ignore.kill]
 data merge entity @s {HurtTime:10s}
 scoreboard players reset @s tcc.dummy

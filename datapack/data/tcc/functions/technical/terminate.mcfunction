@@ -26,6 +26,8 @@ scoreboard objectives remove tcc.useelytra
 scoreboard objectives remove tcc.sneaktime
 scoreboard objectives remove tcc.health
 
+scoreboard objectives remove tcc.crafted_item
+
 scoreboard objectives remove tcc.current_xp
 scoreboard objectives remove tcc.old_xp
 

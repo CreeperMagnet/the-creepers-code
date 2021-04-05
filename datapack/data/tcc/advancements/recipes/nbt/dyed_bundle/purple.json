@@ -1,13 +1,24 @@
 {
   "parent": "tcc:recipes/nbt/root",
   "rewards": {
-    "function": "tcc:entity/player/nbt_recipe",
+    "function": "tcc:entity/player/nbt_recipe/crafted_item",
     "loot": ["tcc:items/dyed_bundle/purple"]
   },
   "criteria": {
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "tcc.crafted_item": {
+                "min": 1
+              }
+            }
+          }
+        ],
         "recipe": "tcc:nbt/dyed_bundle/purple"
       }
     }

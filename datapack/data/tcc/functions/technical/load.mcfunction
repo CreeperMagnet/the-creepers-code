@@ -35,6 +35,8 @@ scoreboard objectives add tcc.useelytra minecraft.custom:minecraft.aviate_one_cm
 scoreboard objectives add tcc.sneaktime minecraft.custom:minecraft.sneak_time
 scoreboard objectives add tcc.health health
 
+scoreboard objectives add tcc.crafted_item minecraft.crafted:minecraft.knowledge_book
+
 scoreboard objectives add tcc.current_xp xp
 scoreboard objectives add tcc.old_xp dummy
 

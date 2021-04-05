@@ -28,6 +28,4 @@ scoreboard players operation tcc.temp_0 tcc.dummy %= tcc.const.100 tcc.dummy
 scoreboard players operation tcc.temp_0 tcc.dummy *= tcc.const.10 tcc.dummy
 # Add gem/pack id with metal id
 scoreboard players operation tcc.temp_0 tcc.dummy += tcc.temp_1 tcc.dummy
-execute if data storage tcc:storage root.temp.item.tag.tcc.potion run scoreboard players add tcc.temp_0 tcc.dummy 1000
-
-execute store result storage tcc:storage root.temp.item.tag.CustomModelData int 1 run scoreboard players get tcc.temp_0 tcc.dummy
+execute if data storage tcc:storage root.temp.item.tag.tcc.potion store result storage tcc:storage root.temp.item.tag.CustomModelData int 1 run scoreboard players add tcc.temp_0 tcc.dummy 1000

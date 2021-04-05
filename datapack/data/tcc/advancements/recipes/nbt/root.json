@@ -1,12 +1,1145 @@
 {
   "criteria": {
-    "impossible": {
-      "trigger": "minecraft:impossible"
+    "apple_pie": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "tcc.crafted_item": {
+                  "min": 1
+                }
+              }
+            }
+          }
+        ],
+        "recipe": "tcc:nbt/apple_pie"
+      }
+    },
+    "boomerang": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "tcc.crafted_item": {
+                  "min": 1
+                }
+              }
+            }
+          }
+        ],
+        "recipe": "tcc:nbt/boomerang"
+      }
+    },
+    "chopper": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "tcc.crafted_item": {
+                  "min": 1
+                }
+              }
+            }
+          }
+        ],
+        "recipe": "tcc:nbt/chopper"
+      }
+    },
+    "diamond_gemstone": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "tcc.crafted_item": {
+                  "min": 1
+                }
+              }
+            }
+          }
+        ],
+        "recipe": "tcc:nbt/diamond_gemstone"
+      }
+    },
+    "dyed_bundle_black": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "tcc.crafted_item": {
+                  "min": 1
+                }
+              }
+            }
+          }
+        ],
+        "recipe": "tcc:nbt/dyed_bundle/black"
+      }
+    },
+    "dyed_bundle_blue": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "tcc.crafted_item": {
+                  "min": 1
+                }
+              }
+            }
+          }
+        ],
+        "recipe": "tcc:nbt/dyed_bundle/blue"
+      }
+    },
+    "dyed_bundle_brown": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "tcc.crafted_item": {
+                  "min": 1
+                }
+              }
+            }
+          }
+        ],
+        "recipe": "tcc:nbt/dyed_bundle/brown"
+      }
+    },
+    "dyed_bundle_cyan": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "tcc.crafted_item": {
+                  "min": 1
+                }
+              }
+            }
+          }
+        ],
+        "recipe": "tcc:nbt/dyed_bundle/cyan"
+      }
+    },
+    "dyed_bundle_gray": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "tcc.crafted_item": {
+                  "min": 1
+                }
+              }
+            }
+          }
+        ],
+        "recipe": "tcc:nbt/dyed_bundle/gray"
+      }
+    },
+    "dyed_bundle_green": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "tcc.crafted_item": {
+                  "min": 1
+                }
+              }
+            }
+          }
+        ],
+        "recipe": "tcc:nbt/dyed_bundle/green"
+      }
+    },
+    "dyed_bundle_light_blue": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "tcc.crafted_item": {
+                  "min": 1
+                }
+              }
+            }
+          }
+        ],
+        "recipe": "tcc:nbt/dyed_bundle/light_blue"
+      }
+    },
+    "dyed_bundle_light_gray": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "tcc.crafted_item": {
+                  "min": 1
+                }
+              }
+            }
+          }
+        ],
+        "recipe": "tcc:nbt/dyed_bundle/light_gray"
+      }
+    },
+    "dyed_bundle_lime": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "tcc.crafted_item": {
+                  "min": 1
+                }
+              }
+            }
+          }
+        ],
+        "recipe": "tcc:nbt/dyed_bundle/lime"
+      }
+    },
+    "dyed_bundle_magenta": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "tcc.crafted_item": {
+                  "min": 1
+                }
+              }
+            }
+          }
+        ],
+        "recipe": "tcc:nbt/dyed_bundle/magenta"
+      }
+    },
+    "dyed_bundle_orange": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "tcc.crafted_item": {
+                  "min": 1
+                }
+              }
+            }
+          }
+        ],
+        "recipe": "tcc:nbt/dyed_bundle/orange"
+      }
+    },
+    "dyed_bundle_pink": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "tcc.crafted_item": {
+                  "min": 1
+                }
+              }
+            }
+          }
+        ],
+        "recipe": "tcc:nbt/dyed_bundle/pink"
+      }
+    },
+    "dyed_bundle_purple": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "tcc.crafted_item": {
+                  "min": 1
+                }
+              }
+            }
+          }
+        ],
+        "recipe": "tcc:nbt/dyed_bundle/purple"
+      }
+    },
+    "dyed_bundle_red": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "tcc.crafted_item": {
+                  "min": 1
+                }
+              }
+            }
+          }
+        ],
+        "recipe": "tcc:nbt/dyed_bundle/red"
+      }
+    },
+    "dyed_bundle_white": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "tcc.crafted_item": {
+                  "min": 1
+                }
+              }
+            }
+          }
+        ],
+        "recipe": "tcc:nbt/dyed_bundle/white"
+      }
+    },
+    "dyed_bundle_yellow": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "tcc.crafted_item": {
+                  "min": 1
+                }
+              }
+            }
+          }
+        ],
+        "recipe": "tcc:nbt/dyed_bundle/yellow"
+      }
+    },
+    "emerald_gemstone": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "tcc.crafted_item": {
+                  "min": 1
+                }
+              }
+            }
+          }
+        ],
+        "recipe": "tcc:nbt/emerald_gemstone"
+      }
+    },
+    "enchanted_golden_apple_pie": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "tcc.crafted_item": {
+                  "min": 1
+                }
+              }
+            }
+          }
+        ],
+        "recipe": "tcc:nbt/enchanted_golden_apple_pie"
+      }
+    },
+    "enchanted_golden_carrot": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "tcc.crafted_item": {
+                  "min": 1
+                }
+              }
+            }
+          }
+        ],
+        "recipe": "tcc:nbt/enchanted_golden_carrot"
+      }
+    },
+    "ender_pearl_gemstone": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "tcc.crafted_item": {
+                  "min": 1
+                }
+              }
+            }
+          }
+        ],
+        "recipe": "tcc:nbt/ender_pearl_gemstone"
+      }
+    },
+    "excavator": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "tcc.crafted_item": {
+                  "min": 1
+                }
+              }
+            }
+          }
+        ],
+        "recipe": "tcc:nbt/excavator"
+      }
+    },
+    "glow_berry_muffin": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "tcc.crafted_item": {
+                  "min": 1
+                }
+              }
+            }
+          }
+        ],
+        "recipe": "tcc:nbt/glow_berry_muffin"
+      }
+    },
+    "golden_apple_pie": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "tcc.crafted_item": {
+                  "min": 1
+                }
+              }
+            }
+          }
+        ],
+        "recipe": "tcc:nbt/golden_apple_pie"
+      }
+    },
+    "golden_chorus_fruit": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "tcc.crafted_item": {
+                  "min": 1
+                }
+              }
+            }
+          }
+        ],
+        "recipe": "tcc:nbt/golden_chorus_fruit"
+      }
+    },
+    "golden_ring": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "tcc.crafted_item": {
+                  "min": 1
+                }
+              }
+            }
+          }
+        ],
+        "recipe": "tcc:nbt/golden_ring"
+      }
+    },
+    "harvester": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "tcc.crafted_item": {
+                  "min": 1
+                }
+              }
+            }
+          }
+        ],
+        "recipe": "tcc:nbt/harvester"
+      }
+    },
+    "iron_ring": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "tcc.crafted_item": {
+                  "min": 1
+                }
+              }
+            }
+          }
+        ],
+        "recipe": "tcc:nbt/iron_ring"
+      }
+    },
+    "jewelry_table": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "tcc.crafted_item": {
+                  "min": 1
+                }
+              }
+            }
+          }
+        ],
+        "recipe": "tcc:nbt/jewelry_table"
+      }
+    },
+    "lapis_lazuli_gemstone": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "tcc.crafted_item": {
+                  "min": 1
+                }
+              }
+            }
+          }
+        ],
+        "recipe": "tcc:nbt/lapis_lazuli_gemstone"
+      }
+    },
+    "levitation_suspicious_stew": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "tcc.crafted_item": {
+                  "min": 1
+                }
+              }
+            }
+          }
+        ],
+        "recipe": "tcc:nbt/levitation_suspicious_stew"
+      }
+    },
+    "nether_reactor_core": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "tcc.crafted_item": {
+                  "min": 1
+                }
+              }
+            }
+          }
+        ],
+        "recipe": "tcc:nbt/nether_reactor_core"
+      }
+    },
+    "obsidian_gemstone": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "tcc.crafted_item": {
+                  "min": 1
+                }
+              }
+            }
+          }
+        ],
+        "recipe": "tcc:nbt/obsidian_gemstone"
+      }
+    },
+    "obsidian_mirror": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "tcc.crafted_item": {
+                  "min": 1
+                }
+              }
+            }
+          }
+        ],
+        "recipe": "tcc:nbt/obsidian_mirror"
+      }
+    },
+    "obsidian_scythe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "tcc.crafted_item": {
+                  "min": 1
+                }
+              }
+            }
+          }
+        ],
+        "recipe": "tcc:nbt/obsidian_scythe"
+      }
+    },
+    "paintbrush": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "tcc.crafted_item": {
+                  "min": 1
+                }
+              }
+            }
+          }
+        ],
+        "recipe": "tcc:nbt/paintbrush"
+      }
+    },
+    "phantom_item_frame": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "tcc.crafted_item": {
+                  "min": 1
+                }
+              }
+            }
+          }
+        ],
+        "recipe": "tcc:nbt/phantom_item_frame"
+      }
+    },
+    "photometer": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "tcc.crafted_item": {
+                  "min": 1
+                }
+              }
+            }
+          }
+        ],
+        "recipe": "tcc:nbt/photometer"
+      }
+    },
+    "player_head": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "tcc.crafted_item": {
+                  "min": 1
+                }
+              }
+            }
+          }
+        ],
+        "recipe": "tcc:nbt/player_head"
+      }
+    },
+    "positional_anchor": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "tcc.crafted_item": {
+                  "min": 1
+                }
+              }
+            }
+          }
+        ],
+        "recipe": "tcc:nbt/positional_anchor"
+      }
+    },
+    "prismarine_crystal_gemstone": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "tcc.crafted_item": {
+                  "min": 1
+                }
+              }
+            }
+          }
+        ],
+        "recipe": "tcc:nbt/prismarine_crystal_gemstone"
+      }
+    },
+    "quartz_gemstone": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "tcc.crafted_item": {
+                  "min": 1
+                }
+              }
+            }
+          }
+        ],
+        "recipe": "tcc:nbt/quartz_gemstone"
+      }
+    },
+    "sifter": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "tcc.crafted_item": {
+                  "min": 1
+                }
+              }
+            }
+          }
+        ],
+        "recipe": "tcc:nbt/sifter"
+      }
+    },
+    "smoldering_seeker": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "tcc.crafted_item": {
+                  "min": 1
+                }
+              }
+            }
+          }
+        ],
+        "recipe": "tcc:nbt/smoldering_seeker"
+      }
+    },
+    "snipper": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "tcc.crafted_item": {
+                  "min": 1
+                }
+              }
+            }
+          }
+        ],
+        "recipe": "tcc:nbt/snipper"
+      }
+    },
+    "spectral_boomerang": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "tcc.crafted_item": {
+                  "min": 1
+                }
+              }
+            }
+          }
+        ],
+        "recipe": "tcc:nbt/spectral_boomerang"
+      }
+    },
+    "sweet_berry_muffin": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "tcc.crafted_item": {
+                  "min": 1
+                }
+              }
+            }
+          }
+        ],
+        "recipe": "tcc:nbt/sweet_berry_muffin"
+      }
+    },
+    "teacup": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "tcc.crafted_item": {
+                  "min": 1
+                }
+              }
+            }
+          }
+        ],
+        "recipe": "tcc:nbt/teacup"
+      }
+    },
+    "teapot": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "tcc.crafted_item": {
+                  "min": 1
+                }
+              }
+            }
+          }
+        ],
+        "recipe": "tcc:nbt/teapot"
+      }
+    },
+    "warped_wart": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "tcc.crafted_item": {
+                  "min": 1
+                }
+              }
+            }
+          }
+        ],
+        "recipe": "tcc:nbt/warped_wart"
+      }
+    },
+    "wrench": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "tcc.crafted_item": {
+                  "min": 1
+                }
+              }
+            }
+          }
+        ],
+        "recipe": "tcc:nbt/wrench"
+      }
     }
   },
   "requirements": [
     [
-      "impossible"
+      "apple_pie",
+      "boomerang",
+      "chopper",
+      "diamond_gemstone",
+      "dyed_bundle_black",
+      "dyed_bundle_blue",
+      "dyed_bundle_brown",
+      "dyed_bundle_cyan",
+      "dyed_bundle_gray",
+      "dyed_bundle_green",
+      "dyed_bundle_light_blue",
+      "dyed_bundle_light_gray",
+      "dyed_bundle_lime",
+      "dyed_bundle_magenta",
+      "dyed_bundle_orange",
+      "dyed_bundle_pink",
+      "dyed_bundle_purple",
+      "dyed_bundle_red",
+      "dyed_bundle_white",
+      "dyed_bundle_yellow",
+      "emerald_gemstone",
+      "enchanted_golden_apple_pie",
+      "enchanted_golden_carrot",
+      "ender_pearl_gemstone",
+      "excavator",
+      "glow_berry_muffin",
+      "golden_apple_pie",
+      "golden_chorus_fruit",
+      "golden_ring",
+      "harvester",
+      "iron_ring",
+      "jewelry_table",
+      "lapis_lazuli_gemstone",
+      "levitation_suspicious_stew",
+      "nether_reactor_core",
+      "obsidian_gemstone",
+      "obsidian_mirror",
+      "obsidian_scythe",
+      "paintbrush",
+      "phantom_item_frame",
+      "photometer",
+      "player_head",
+      "positional_anchor",
+      "prismarine_crystal_gemstone",
+      "quartz_gemstone",
+      "sifter",
+      "smoldering_seeker",
+      "snipper",
+      "spectral_boomerang",
+      "sweet_berry_muffin",
+      "teacup",
+      "teapot",
+      "warped_wart",
+      "wrench"
     ]
-  ]
+  ],
+  "rewards": {
+    "function": "tcc:entity/player/nbt_recipe/take_recipe"
+  }
 }
