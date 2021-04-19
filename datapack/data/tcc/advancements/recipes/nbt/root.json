@@ -1,5 +1,25 @@
 {
   "criteria": {
+    "amethyst_gemstone": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "tcc.crafted_item": {
+                  "min": 1
+                }
+              }
+            }
+          }
+        ],
+        "recipe": "tcc:nbt/amethyst_gemstone"
+      }
+    },
     "apple_pie": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
@@ -1083,6 +1103,7 @@
   },
   "requirements": [
     [
+      "amethyst_gemstone",
       "apple_pie",
       "boomerang",
       "chopper",

@@ -3,5 +3,5 @@
 # Creator: CreeperMagnet_
 ############################################################
 
-effect give @s[type=minecraft:blaze] minecraft:instant_damage
+effect give @s[type=#minecraft:freeze_hurts_extra_types] minecraft:instant_damage
 effect give @s[type=minecraft:snow_golem] minecraft:instant_health

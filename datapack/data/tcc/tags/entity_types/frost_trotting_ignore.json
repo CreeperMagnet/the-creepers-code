@@ -3,6 +3,7 @@
   "values": [
     "minecraft:item",
     "#minecraft:arrows",
-    "minecraft:experience_orb"
+    "minecraft:experience_orb",
+    "minecraft:marker"
   ]
 }

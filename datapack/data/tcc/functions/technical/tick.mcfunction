@@ -4,7 +4,7 @@
 ############################################################
 
 ## Entity Ticking
-execute as @e[sort=arbitrary,tag=tcc.entity] at @s run function tcc:entity/tick
+execute as @e[tag=tcc.entity] at @s run function tcc:entity/tick
 
 ## Player Tick
-execute as @a[sort=arbitrary] at @s run function tcc:entity/player/tick/main
+execute as @a at @s run function tcc:entity/player/tick/main

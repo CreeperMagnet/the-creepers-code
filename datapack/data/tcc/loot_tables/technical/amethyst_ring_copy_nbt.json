@@ -1,0 +1,55 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:carrot_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:copy_nbt",
+              "source": {
+                "type": "minecraft:storage",
+                "source": "tcc:storage"
+              },
+              "ops": [
+                {
+                  "source": "root.temp.item.tag",
+                  "target": "{}",
+                  "op": "merge"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "translate": "item.durability",
+                  "with": [
+                    {
+                      "nbt": "root.temp.item.tag.tcc.durability[0]",
+                      "storage": "tcc:storage"
+                    },
+                    {
+                      "nbt": "root.temp.item.tag.tcc.durability[1]",
+                      "storage": "tcc:storage"
+                    }
+                  ],
+                  "color": "gray",
+                  "italic": false
+                }
+              ],
+              "replace": false
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{tcc:{replace_item:1b}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

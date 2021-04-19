@@ -1,7 +1,0 @@
-{
-  "parent": "item/generated",
-  "textures": {
-    "layer0": "tcc:item/ring/metal/iron_with_gemstone",
-    "layer1": "tcc_compat:um/item/ring/gemstone/demon_heart"
-  }
-}

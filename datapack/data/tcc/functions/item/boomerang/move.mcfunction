@@ -9,4 +9,4 @@ execute if entity @s[nbt=!{ArmorItems:[{tag:{tcc:{id:"spectral_boomerang"}}}]}] 
 scoreboard players add @s tcc.dummy2 1
 tag @s remove tcc.boomerang.bounce
 function tcc:item/boomerang/sound
-execute as @e[type=enderman,distance=..2,sort=arbitrary,tag=!global.ignore] run function tcc:item/boomerang/enderman_artificial_teleport
+execute as @e[type=enderman,distance=..2,tag=!global.ignore] run function tcc:item/boomerang/enderman_artificial_teleport

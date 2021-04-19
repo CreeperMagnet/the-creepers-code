@@ -4,6 +4,7 @@
 ############################################################
 
 advancement revoke @s through tcc:recipes/nbt/root
+recipe take @s tcc:nbt/amethyst_gemstone
 recipe take @s tcc:nbt/apple_pie
 recipe take @s tcc:nbt/boomerang
 recipe take @s tcc:nbt/chopper

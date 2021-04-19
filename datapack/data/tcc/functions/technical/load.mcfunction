@@ -15,13 +15,6 @@ gamerule commandBlockOutput false
 schedule function tcc:technical/second_clock 1s replace
 schedule function tcc:technical/ten_second_clock 10s replace
 
-# Forceloading
-execute in minecraft:overworld run forceload remove -30000000 2033
-execute in minecraft:overworld run forceload add -30000000 2033
-execute in minecraft:overworld run setblock -30000000 0 2033 air replace
-execute in minecraft:overworld run setblock -30000000 0 2033 yellow_shulker_box{Items:[{id:"minecraft:creeper_head",Count:1b}]}
-
-
 # Scoreboards
 scoreboard objectives add tcc.carrotstick minecraft.used:minecraft.carrot_on_a_stick
 
@@ -36,6 +29,7 @@ scoreboard objectives add tcc.sneaktime minecraft.custom:minecraft.sneak_time
 scoreboard objectives add tcc.health health
 
 scoreboard objectives add tcc.crafted_item minecraft.crafted:minecraft.knowledge_book
+scoreboard objectives add tcc.drop minecraft.custom:minecraft.drop
 
 scoreboard objectives add tcc.current_xp xp
 scoreboard objectives add tcc.old_xp dummy
@@ -63,3 +57,5 @@ scoreboard objectives add tcc.emoji trigger
 scoreboard objectives add tcc.compendium trigger
 
 team add tcc.antivillager
+team add tcc.amethyst
+team modify tcc.amethyst color light_purple

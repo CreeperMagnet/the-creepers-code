@@ -276,9 +276,11 @@
     "minecraft:waxed_copper_block",
     "minecraft:waxed_exposed_copper",
     "minecraft:waxed_weathered_copper",
+		"minecraft:waxed_oxidized_copper",
     "minecraft:waxed_cut_copper",
     "minecraft:waxed_exposed_cut_copper",
     "minecraft:waxed_weathered_cut_copper",
+		"minecraft:waxed_oxidized_cut_copper",
     "minecraft:calcite",
     "minecraft:deepslate",
     "minecraft:polished_deepslate",
@@ -300,6 +302,9 @@
     "minecraft:deepslate_emerald_ore",
     "minecraft:infested_deepslate",
     "minecraft:cracked_deepslate_tiles",
-    "minecraft:cracked_deepslate_bricks"
+    "minecraft:cracked_deepslate_bricks",
+		"minecraft:raw_copper_block",
+		"minecraft:raw_gold_block",
+		"minecraft:raw_iron_block"
 	]
 }

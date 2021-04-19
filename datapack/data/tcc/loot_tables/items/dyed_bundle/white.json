@@ -9,12 +9,12 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{tcc:{id:\"dyed_bundle\",color:\"red\"},CustomModelData:330014}"
+              "tag": "{tcc:{id:\"dyed_bundle\",color:\"white\"},CustomModelData:330014}"
             },
             {
               "function": "minecraft:set_name",
               "name": {
-                "translate": "item.tcc.dyed_bundle.red",
+                "translate": "item.tcc.dyed_bundle.white",
                 "italic": false
               }
             },

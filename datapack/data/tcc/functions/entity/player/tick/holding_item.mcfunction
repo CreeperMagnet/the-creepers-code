@@ -20,3 +20,6 @@ effect give @s[predicate=tcc:totem_void_heal] instant_health 1 0
 
 ## Ender Pearl Gemstones
 execute if entity @s[predicate=tcc:holding/ender_pearl_ring/any] run function tcc:item/ender_pearl_gemstone
+
+## Amethyst Gemstones
+execute if entity @s[predicate=tcc:holding/amethyst_ring/any,scores={tcc.drop=1..}] run function tcc:item/amethyst_ring/find_item

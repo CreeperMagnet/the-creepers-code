@@ -9,9 +9,6 @@
     "minecraft:glow_item_frame",
     "minecraft:fishing_bobber",
     "minecraft:arrow",
-    "minecraft:chest_minecart",
-    "minecraft:minecart",
-    "minecraft:furnace_minecart",
     "minecraft:command_block_minecart",
     "minecraft:egg",
     "minecraft:fireball",
@@ -22,7 +19,6 @@
     "minecraft:eye_of_ender",
     "minecraft:falling_block",
     "minecraft:firework_rocket",
-    "minecraft:hopper_minecart",
     "minecraft:leash_knot",
     "minecraft:llama_spit",
     "minecraft:potion",
@@ -32,14 +28,13 @@
     "minecraft:spawner_minecart",
     "minecraft:spectral_arrow",
     "minecraft:tnt",
-    "minecraft:tnt_minecart",
     "minecraft:trident",
     "minecraft:wither_skull",
     "minecraft:experience_bottle",
     "minecraft:experience_orb",
-    "minecraft:boat",
     "minecraft:player",
     "minecraft:ender_dragon",
-    "minecraft:enderman"
+    "minecraft:enderman",
+    "minecraft:marker"
   ]
 }

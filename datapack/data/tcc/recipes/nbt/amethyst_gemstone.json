@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:amethyst_shard"
+  },
+  "result": "minecraft:knowledge_book",
+  "count": 1
+}

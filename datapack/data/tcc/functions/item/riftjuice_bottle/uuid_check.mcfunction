@@ -11,5 +11,5 @@ data modify storage tcc:storage root.temp.gobblerift_array set from storage tcc:
 execute store result score tcc.temp_0 tcc.dummy run data modify storage tcc:storage root.temp.gobblerift_array[] set value 0
 data modify storage tcc:storage root.temp.gobblerift_array set from storage tcc:storage root.gobblerift_array
 execute store result score tcc.temp_1 tcc.dummy run data modify storage tcc:storage root.temp.gobblerift_array[] set from storage tcc:storage root.temp.riftjuice.uuid
-execute unless score tcc.temp_0 tcc.dummy = tcc.temp_1 tcc.dummy run function tcc:item/riftjuice_bottle/set_dimension
-execute unless data storage tcc:storage root.temp.riftjuice.uuid run function tcc:item/riftjuice_bottle/set_dimension
+execute unless score tcc.temp_0 tcc.dummy = tcc.temp_1 tcc.dummy run function #tcc:riftjuice_dimensions/teleportation
+execute unless data storage tcc:storage root.temp.riftjuice.uuid run function #tcc:riftjuice_dimensions/teleportation

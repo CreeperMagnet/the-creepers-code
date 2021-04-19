@@ -627,6 +627,39 @@
         ]
       }
     },
+    "minecraft_goat": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Inventory:[{Slot:-106b,tag:{tcc:{id:\"ring\",gemstone:{id:\"minecraft:emerald\"}}}}]}"
+            }
+          }
+        ],
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "goat"
+            }
+          },
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Tags:[\"global.ignore\"]}"
+              }
+            }
+          }
+        ]
+      }
+    },
     "minecraft_guardian": {
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
@@ -2305,6 +2338,7 @@
       "minecraft_fox",
       "minecraft_ghast",
       "minecraft_glow_squid",
+      "minecraft_goat",
       "minecraft_guardian",
       "minecraft_hoglin",
       "minecraft_horse",

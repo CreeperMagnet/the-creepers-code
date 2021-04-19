@@ -25,6 +25,7 @@ execute if entity @s[tag=tcc.tag,advancements={tcc:technical/item/rings/emerald_
 execute if entity @s[tag=tcc.tag,advancements={tcc:technical/item/rings/emerald_damage={minecraft_fox=true}}] run loot spawn ~ ~ ~ loot minecraft:entities/fox
 execute if entity @s[tag=tcc.tag,advancements={tcc:technical/item/rings/emerald_damage={minecraft_ghast=true}}] run loot spawn ~ ~ ~ loot minecraft:entities/ghast
 execute if entity @s[tag=tcc.tag,advancements={tcc:technical/item/rings/emerald_damage={minecraft_glow_squid=true}}] run loot spawn ~ ~ ~ loot minecraft:entities/glow_squid
+execute if entity @s[tag=tcc.tag,advancements={tcc:technical/item/rings/emerald_damage={minecraft_goat=true}}] run loot spawn ~ ~ ~ loot minecraft:entities/goat
 execute if entity @s[tag=tcc.tag,advancements={tcc:technical/item/rings/emerald_damage={minecraft_guardian=true}}] run loot spawn ~ ~ ~ loot minecraft:entities/guardian
 execute if entity @s[tag=tcc.tag,advancements={tcc:technical/item/rings/emerald_damage={minecraft_hoglin=true}}] run loot spawn ~ ~ ~ loot minecraft:entities/hoglin
 execute if entity @s[tag=tcc.tag,advancements={tcc:technical/item/rings/emerald_damage={minecraft_horse=true}}] run loot spawn ~ ~ ~ loot minecraft:entities/horse
