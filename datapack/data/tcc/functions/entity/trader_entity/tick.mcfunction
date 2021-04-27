@@ -16,5 +16,4 @@ execute if entity @s[tag=tcc.trader_entity.still] run data modify entity @s Hand
 execute if entity @s[nbt={HurtTime:0s}] unless entity @s[nbt=!{HandItems:[{tag:{display:{color:14586514}}}]},nbt=!{ArmorItems:[{tag:{display:{color:14586514}}}]}] run function tcc:entity/trader_entity/unhurt
 execute if entity @s[nbt=!{HurtTime:0s},nbt=!{HandItems:[{tag:{display:{color:14586514}}}]}] run function tcc:entity/trader_entity/hurt
 
-execute store result score tcc.temp_0 tcc.dummy run difficulty
-execute if score tcc.temp_0 tcc.dummy matches 0 run tp ~ -1000 ~
+execute if entity @s[tag=!tcc.snail] if score #difficulty tcc.dummy matches 0 run tp ~ -1000 ~

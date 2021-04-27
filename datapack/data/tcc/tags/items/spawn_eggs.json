@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "minecraft:axolotl_spawn_egg",
     "minecraft:bat_spawn_egg",
     "minecraft:bee_spawn_egg",
     "minecraft:blaze_spawn_egg",
@@ -19,6 +20,7 @@
     "minecraft:evoker_spawn_egg",
     "minecraft:fox_spawn_egg",
     "minecraft:ghast_spawn_egg",
+    "minecraft:glow_squid_spawn_egg",
     "minecraft:goat_spawn_egg",
     "minecraft:guardian_spawn_egg",
     "minecraft:hoglin_spawn_egg",

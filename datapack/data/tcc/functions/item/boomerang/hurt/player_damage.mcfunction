@@ -3,7 +3,6 @@
 # Creator: CreeperMagnet_
 ############################################################
 
-scoreboard players set @s tcc.invul_timer 10
 scoreboard players set tcc.damage tcc.dummy 40
 scoreboard players set tcc.ignore_armor tcc.dummy 0
 tag @s add tcc.damage.boomerang

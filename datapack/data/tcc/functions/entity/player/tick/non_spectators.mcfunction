@@ -10,7 +10,7 @@ execute if entity @s[scores={tcc.useelytra=1..,tcc.sneaktime=1..},nbt={Inventory
 execute if entity @s[predicate=tcc:holding/anything] run function tcc:entity/player/tick/holding_item
 
 ## Horses with Frost Trotting
-execute if entity @s[nbt={Inventory:[{Slot:100b,tag:{Enchantments:[{id:"minecraft:frost_walker"}]}}]},predicate=tcc:moving,nbt={RootVehicle:{Entity:{OnGround:1b,SaddleItem:{id:"minecraft:saddle"}}}}] positioned ~ ~-1.85 ~ if block ~ ~1.85 ~ air positioned ~-3 ~-0.1 ~-3 unless entity @e[dx=6,dz=6,dy=0,type=!#tcc:frost_trotting_ignore,tag=!global.ignore] positioned ~3 ~0.1 ~3 run fill ~-3 ~ ~-3 ~3 ~ ~3 frosted_ice replace water[level=0]
+execute if entity @s[tag=tcc.frost_trotting] run function tcc:entity/horse_frost_trotting/tick
 
 ## Jewelry Table
 execute if entity @s[tag=tcc.inside_jewelry_table_gui] as @e[type=armor_stand,tag=tcc.jewelry_table,distance=..12] at @s if block ~ ~ ~ hopper run function tcc:block/jewelry_table/tick

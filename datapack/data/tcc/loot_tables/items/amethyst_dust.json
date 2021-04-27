@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{BlockEntityTag:{name:\"tcc:stackable_item\"},tcc:{id:\"amethyst_dust\"},CustomModelData:330047}"
+              "tag": "{BlockEntityTag:{name:\"tcc:stackable_item\",id:\"minecraft:structure_block\"},tcc:{id:\"amethyst_dust\"},CustomModelData:330047}"
             },
             {
               "function": "minecraft:set_name",

@@ -1,80 +1,118 @@
 {
   "type": "minecraft:entity",
-  "pools": [{
+  "pools": [
+    {
       "rolls": 1,
-      "entries": [{
-        "type": "minecraft:item",
-        "functions": [{
-            "function": "minecraft:set_count",
-            "count": {
-              "min": 1.0,
-              "max": 5.0,
-              "type": "minecraft:uniform"
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 5,
+                "type": "minecraft:uniform"
+              }
+            },
+            {
+              "function": "minecraft:looting_enchant",
+              "count": {
+                "min": 0,
+                "max": 1
+              }
+            },
+            {
+              "function": "minecraft:furnace_smelt",
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "predicate": {
+                    "flags": {
+                      "is_on_fire": true
+                    }
+                  },
+                  "entity": "this"
+                }
+              ]
             }
-          },
-          {
-            "function": "minecraft:looting_enchant",
-            "count": {
-              "min": 0.0,
-              "max": 1.0
-            }
-          }
-        ],
-        "name": "minecraft:stone"
-      }]
+          ],
+          "name": "minecraft:cobbled_deepslate"
+        }
+      ]
     },
     {
       "rolls": 1,
-      "entries": [{
-        "type": "minecraft:item",
-        "functions": [{
-            "function": "minecraft:set_count",
-            "count": {
-              "min": -1.0,
-              "max": 1.0,
-              "type": "minecraft:uniform"
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "tcc:items/amethyst_dust"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 3,
+                "type": "minecraft:uniform"
+              }
+            },
+            {
+              "function": "minecraft:looting_enchant",
+              "count": {
+                "min": 0,
+                "max": 1
+              }
             }
-          },
-          {
-            "function": "minecraft:looting_enchant",
-            "count": {
-              "min": 0.0,
-              "max": 1.0
-            }
-          }
-        ],
-        "name": "minecraft:emerald"
-      }]
+          ],
+          "name": "minecraft:amethyst_shard"
+        }
+      ]
     },
     {
       "rolls": 1,
-      "entries": [{
-        "type": "minecraft:item",
-        "name": "minecraft:stick"
-      }],
-      "conditions": [{
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "tcc:items/pristine_amethyst_gemstone"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stick"
+        }
+      ],
+      "conditions": [
+        {
           "condition": "minecraft:killed_by_player"
         },
         {
           "condition": "minecraft:random_chance_with_looting",
-          "chance": 0.045,
+          "chance": 0.1,
           "looting_multiplier": 0.01
         }
       ]
     },
     {
       "rolls": 1,
-      "entries": [{
-        "type": "minecraft:item",
-        "name": "minecraft:structure_block",
-        "functions": [{
-          "function": "minecraft:set_nbt",
-          "tag": "{tcc:{id:\"death_item\",entity:\"geomancer\",clear:1b},CustomModelData:330000}"
-        }],
-        "conditions": [{
-          "condition": "minecraft:killed_by_player"
-        }]
-      }]
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:structure_block",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{tcc:{id:\"death_item\",entity:\"geomancer\",clear:1b},CustomModelData:330000}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:killed_by_player"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

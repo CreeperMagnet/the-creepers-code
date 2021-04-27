@@ -18,6 +18,10 @@ execute unless entity @s[nbt=!{SelectedItem:{tag:{tcc:{id:"frostbloom"}}}},nbt=!
 # Gobblerift
 execute unless entity @s[nbt=!{SelectedItem:{tag:{tcc:{id:"gobblerift"}}}},nbt=!{Inventory:[{tag:{tcc:{id:"gobblerift"}},Slot:-106b}]}] run function tcc:block/gobblerift/place/raycast_start
 
+
+# Gobblerift
+execute if entity @s[nbt={SelectedItem:{tag:{tcc:{id:"snail_in_a_bucket"}}}}] run function tcc:entity/snail/unbucket/raycast_start
+
 # Soaked Rings
 execute if entity @s[nbt={Inventory:[{Slot:-106b,tag:{tcc:{id:"ring",potion:{}}}}]}] run function #tcc:dynamic_rings/material_checks/use_soaked_ring_offhand
 execute if entity @s[nbt={SelectedItem:{tag:{tcc:{id:"ring",potion:{}}}}}] run function #tcc:dynamic_rings/material_checks/use_soaked_ring_mainhand

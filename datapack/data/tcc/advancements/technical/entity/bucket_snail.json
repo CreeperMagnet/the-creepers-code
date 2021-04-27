@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "bucket_snail": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "nbt": "{Tags:[\"tcc.snail\"]}"
+        },
+        "item": {
+          "item": "minecraft:bucket",
+          "count": 1
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "tcc:entity/snail/bucket/raycast_start"
+  },
+  "parent": "tcc:technical/root"
+}

@@ -6,7 +6,7 @@
       "weight": 1,
       "functions": [{
           "function": "set_nbt",
-          "tag": "{BlockEntityTag:{name:\"tcc:stackable_item\"},HideFlags:2,tcc:{id:\"gemstone\",gemstone:{id:\"minecraft:quartz\",quality:\"cut\"}},CustomModelData:330020}"
+          "tag": "{BlockEntityTag:{name:\"tcc:stackable_item\",id:\"minecraft:structure_block\"},HideFlags:2,tcc:{id:\"gemstone\",gemstone:{id:\"minecraft:quartz\",quality:\"cut\"}},CustomModelData:330020}"
         },
         {
           "function": "minecraft:set_name",

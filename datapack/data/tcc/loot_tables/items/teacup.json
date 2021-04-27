@@ -6,7 +6,7 @@
       "weight": 1,
       "functions": [{
           "function": "minecraft:set_nbt",
-          "tag": "{BlockEntityTag:{name:\"tcc:stackable_item\"},HideFlags:4,Unbreakable:1b,tcc:{id:\"teacup\"},CustomModelData:330024}"
+          "tag": "{BlockEntityTag:{name:\"tcc:stackable_item\",id:\"minecraft:structure_block\"},HideFlags:4,Unbreakable:1b,tcc:{id:\"teacup\"},CustomModelData:330024}"
         },
         {
           "function": "minecraft:set_name",

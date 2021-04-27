@@ -287,12 +287,6 @@
         "custom_model_data": 330047
       },
       "model": "tcc:item/amethyst_dust"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 330048
-      },
-      "model": "tcc:entity/snail/normal"
     }
   ]
 }

@@ -3,6 +3,7 @@
 # Creator: CreeperMagnet_
 ############################################################
 
+execute if entity @s[type=minecraft:witch,predicate=tcc:geomancer_spawning] run function tcc:entity/geomancer/spawn
 execute if entity @s[type=minecraft:drowned,predicate=tcc:holding/trident] run function tcc:entity/processing/drowned
 execute if entity @s[type=minecraft:villager,predicate=tcc:modify_villager] run function tcc:entity/processing/villager
 execute if entity @s[type=minecraft:wandering_trader] run function tcc:entity/processing/wandering_trader

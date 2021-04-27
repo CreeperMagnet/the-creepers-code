@@ -39,10 +39,23 @@
           "nbt": "{tcc:{id:\"spawn_egg\",entity:\"iceologer\"}}"
         }
       }
+    },
+    "click_spawner_with_geomancer": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": {
+          "block": {
+            "block": "minecraft:spawner"
+          }
+        },
+        "item": {
+          "nbt": "{tcc:{id:\"spawn_egg\",entity:\"geomancer\"}}"
+        }
+      }
     }
   },
   "requirements": [
-    ["click_spawner", "click_spawner_with_enchanter", "click_spawner_with_iceologer"]
+    ["click_spawner", "click_spawner_with_enchanter", "click_spawner_with_iceologer", "click_spawner_with_geomancer"]
   ],
   "rewards": {
     "function": "tcc:block/spawner_edit/used_spawn_egg"

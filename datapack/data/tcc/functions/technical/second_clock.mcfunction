@@ -3,6 +3,9 @@
 # Creator: CreeperMagnet_
 ############################################################
 
+## Gamerule check
+execute store result score #difficulty tcc.dummy run difficulty
+
 ## Area Effect Clouds
 execute as @e[type=area_effect_cloud,tag=!global.ignore,tag=!tcc.aec.no_potion,tag=!tcc.entity] at @s align xyz positioned ~-2 ~ ~-2 if entity @e[type=item,dx=4,dz=4,dy=1,tag=!global.ignore,predicate=tcc:unpotioned_item] run function tcc:entity/area_effect_cloud/discern_item
 

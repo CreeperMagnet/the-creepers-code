@@ -6,7 +6,7 @@
       "weight": 1,
       "functions": [{
           "function": "minecraft:set_nbt",
-          "tag": "{BlockEntityTag:{name:\"tcc:stackable_item\"},tcc:{id:\"warped_wart\"},CustomModelData:330022}"
+          "tag": "{BlockEntityTag:{name:\"tcc:stackable_item\",id:\"minecraft:structure_block\"},tcc:{id:\"warped_wart\"},CustomModelData:330022}"
         },
         {
           "function": "minecraft:set_name",

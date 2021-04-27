@@ -24,6 +24,8 @@ execute if block ~ ~ ~ minecraft:purpur_pillar run function tcc:item/wrench/rota
 
 execute if block ~ ~ ~ minecraft:deepslate run function tcc:item/wrench/rotate/block/deepslate
 
+execute if block ~ ~ ~ minecraft:infested_deepslate run function tcc:item/wrench/rotate/block/infested_deepslate
+
 execute if block ~ ~ ~ minecraft:hay_block run function tcc:item/wrench/rotate/block/hay_block
 
 execute if block ~ ~ ~ minecraft:bone_block run function tcc:item/wrench/rotate/block/bone_block

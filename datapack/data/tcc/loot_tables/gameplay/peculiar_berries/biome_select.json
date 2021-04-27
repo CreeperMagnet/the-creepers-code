@@ -80,6 +80,22 @@
         }]
       },
       {
+        "type": "loot_table",
+        "weight": 1,
+        "name": "tcc:items/geomancer_spawn_egg",
+        "conditions": [{
+          "condition": "minecraft:location_check",
+          "predicate": {
+            "position": {
+              "y": {
+                "min": 0,
+                "max": 40
+              }
+            }
+          }
+        }]
+      },
+      {
         "type": "item",
         "weight": 1,
         "name": "minecraft:enderman_spawn_egg",
@@ -551,6 +567,102 @@
               "condition": "minecraft:location_check",
               "predicate": {
                 "biome": "minecraft:cold_ocean"
+              }
+            }
+          ]
+        }]
+      },
+      {
+        "type": "item",
+        "weight": 1,
+        "name": "minecraft:glow_squid_spawn_egg",
+        "conditions": [{
+          "condition": "minecraft:alternative",
+          "terms": [{
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:ocean"
+              }
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:deep_ocean"
+              }
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:deep_lukewarm_ocean"
+              }
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:lukewarm_ocean"
+              }
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:deep_warm_ocean"
+              }
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:warm_ocean"
+              }
+            }
+          ]
+        }]
+      },
+      {
+        "type": "item",
+        "weight": 1,
+        "name": "minecraft:axolotl_spawn_egg",
+        "conditions": [{
+          "condition": "minecraft:alternative",
+          "terms": [{
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:river"
+              }
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:ocean"
+              }
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:deep_ocean"
+              }
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:deep_lukewarm_ocean"
+              }
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:lukewarm_ocean"
+              }
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:deep_warm_ocean"
+              }
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:warm_ocean"
               }
             }
           ]

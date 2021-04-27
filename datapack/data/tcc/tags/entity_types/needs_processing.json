@@ -5,6 +5,7 @@
     "minecraft:wither_skeleton",
     "minecraft:villager",
     "minecraft:wandering_trader",
+    "minecraft:witch",
     "#tcc:hates_villagers"
   ]
 }

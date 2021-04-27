@@ -98,6 +98,12 @@
         "custom_model_data": 330015
       },
       "model": "tcc:entity/passive_witch/head"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330016
+      },
+      "model": "tcc:entity/snail/normal"
     }
   ]
 }
