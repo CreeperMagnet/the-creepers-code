@@ -14,3 +14,6 @@ execute if entity @s[type=item_frame,tag=tcc.geomancer_pillar] run function tcc:
 
 ## Gobblerift Second Clock
 execute if entity @s[type=minecraft:wandering_trader,tag=tcc.gobblerift] run function tcc:block/gobblerift/second_clock
+
+## Jewelry table GUI updating
+execute if entity @s[type=armor_stand,tag=tcc.jewelry_table] unless entity @a[tag=tcc.inside_jewelry_table_gui,distance=..10] as @a[tag=tcc.inside_jewelry_table_gui,distance=10..] at @s unless entity @e[type=armor_stand,tag=tcc.jewelry_table,distance=..10] run tag @s remove tcc.inside_jewelry_table_gui

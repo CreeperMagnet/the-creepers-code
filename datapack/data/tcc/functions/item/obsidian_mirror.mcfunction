@@ -3,6 +3,33 @@
 # Creator: CreeperMagnet_
 ############################################################
 
+## two-way effects
+# [speed - slowness]
+# [haste - mining fatigue]
+# [strength - weakness]
+# [blindness - night vision]
+# [regeneration - poison]
+# [hunger - saturation]
+# [glowing - invisibility]
+# [levitation - slow falling]
+# [luck - bad luck]
+# [fire resistance - water breathing]
+
+## one-way effects
+# jump boost - slowness
+# nausea - night vision
+# dolphin's grace - slowness
+# wither - regeneration
+# health boost - poison
+# absorption - poison
+# resistance - poison
+
+## Forbidden effects
+# conduit power - beacony effect
+# instant health - instant damage no flipping instants
+# bad omen - hero of the village overpowered
+
+
 scoreboard players reset @s tcc.dummy
 execute store result score @s[nbt={ActiveEffects:[{Id:20b,Amplifier:0b}]}] tcc.dummy run data get entity @s ActiveEffects[{Id:20b}].Duration
 effect give @s[scores={tcc.dummy=..300}] regeneration 15 0

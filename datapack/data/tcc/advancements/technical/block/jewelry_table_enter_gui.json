@@ -13,7 +13,7 @@
     }
   },
   "rewards": {
-    "function": "tcc:block/jewelry_table/interact/enter"
+    "function": "tcc:block/jewelry_table/enter_gui"
   },
   "parent": "tcc:technical/root"
 }

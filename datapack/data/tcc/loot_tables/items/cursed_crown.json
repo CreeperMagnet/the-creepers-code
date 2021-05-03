@@ -1,31 +1,43 @@
 {
-  "pools": [{
-    "rolls": 1,
-    "entries": [{
-      "type": "minecraft:item",
-      "weight": 1,
-      "functions": [{
-          "function": "minecraft:set_nbt",
-          "tag": "{AttributeModifiers:[],Unbreakable:1b,HideFlags:68,RepairCost:100,tcc:{id:\"cursed_crown\"},CustomModelData:330001}"
-        },
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
         {
-          "function": "minecraft:set_name",
-          "name": {
-            "translate": "item.tcc.cursed_crown",
-            "color": "yellow",
-            "italic": false
-          }
-        },
-        {
-          "function": "minecraft:set_lore",
-          "lore": [{
-            "translate": "pack.tcc",
-            "color": "#008725",
-            "italic": true
-          }]
+          "type": "minecraft:item",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Enchantments:[{id:\"minecraft:binding_curse\",lvl:1s}],AttributeModifiers:[{Amount:2.0d,Slot:\"head\",AttributeName:\"minecraft:generic.armor\",Name:\"minecraft:generic.armor\",Operation:0,UUID:[I;2,0,3,3]}],Unbreakable:1b,HideFlags:68,tcc:{id:\"cursed_crown\",durability:[100,100],repaired:1b},CustomModelData:330001}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.tcc.cursed_crown",
+                "color": "yellow",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [{
+                  "translate": "item.durability",
+                  "color": "gray",
+                  "italic": false,
+                  "with": [100, 100]
+                },
+                {
+                  "translate": "pack.tcc",
+                  "color": "#008725",
+                  "italic": true
+                }
+              ]
+            }
+          ],
+          "name": "minecraft:golden_helmet"
         }
-      ],
-      "name": "minecraft:golden_helmet"
-    }]
-  }]
+      ]
+    }
+  ]
 }

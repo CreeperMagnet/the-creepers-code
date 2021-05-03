@@ -4,7 +4,7 @@
 
   "pack.tcc": "The Creeper's Code",
   "pack.tcc.hover_event": "Click here to go to the official website",
-  "pack.tcc.version": "Version 0.5 Beta 5",
+  "pack.tcc.version": "Version 0.5 Beta 6",
   "pack.tcc.version.hover_event": "Click here to see changelog notes",
   "TCC (MISSING RESOURCES)": "%s",
   "The Creeper's Code Resource Pack is not installed. Please go to https://thecreeperscode.com/download.": "%s",
@@ -1314,7 +1314,7 @@
   "commands.tcc.compendium_trigger.spectator": "The compendium cannot be given in spectator mode. Try again in another gamemode.",
   "commands.tcc.initiate": "%s %s is enabled. (?)",
   "commands.tcc.initiate.hover_event": "Click here for help",
-  "commands.tcc.initiate.wrong_version": "\nYou are using TCC on the incorrect version. The correct version is Minecraft Snapshot 21w16a.",
+  "commands.tcc.initiate.wrong_version": "\nYou are using TCC on the incorrect version. The correct version is Minecraft Snapshot 21w17a.",
   "commands.tcc.initiate.wrong_version.title": "WRONG VERSION",
   "commands.tcc.initiate.incompatible": "The world you have loaded is running an older version of The Creeper's Code and will be incompatible. Please create a new world, or proceed at your own risk of broken content.",
   "commands.tcc.terminate": "%s %s data has been uninstalled.\n\n%s",

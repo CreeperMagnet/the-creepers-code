@@ -3,18 +3,50 @@
     "killed_entity": {
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
-        "player": [{
-          "condition": "entity_properties",
-          "entity": "this",
-          "predicate": {
-            "nbt": "{Inventory:[{Slot:103b,tag:{tcc:{id:\"cursed_crown\"}}}]}"
+        "player": [
+          {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Inventory:[{Slot:103b,tag:{tcc:{id:\"cursed_crown\"}}}]}"
+            }
           }
-        }]
+        ]
+      }
+    },
+    "took_damage": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": [
+          {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Inventory:[{Slot:103b,tag:{tcc:{id:\"cursed_crown\"}}}]}"
+            }
+          }
+        ],
+        "damage": {
+          "type": {
+            "is_fire": false,
+            "is_magic": false,
+            "is_lightning": false,
+            "bypasses_armor": false,
+            "bypasses_invulnerability": false,
+            "bypasses_magic": false
+          }
+        }
       }
     }
   },
+  "requirements": [
+    [
+      "killed_entity",
+      "took_damage"
+    ]
+  ],
   "rewards": {
-    "function": "tcc:item/cursed_crown/make_gold"
+    "function": "tcc:item/cursed_crown/main"
   },
   "parent": "tcc:technical/root"
 }

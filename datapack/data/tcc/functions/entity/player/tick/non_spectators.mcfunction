@@ -12,8 +12,5 @@ execute if entity @s[predicate=tcc:holding/anything] run function tcc:entity/pla
 ## Horses with Frost Trotting
 execute if entity @s[tag=tcc.frost_trotting] run function tcc:entity/horse_frost_trotting/tick
 
-## Jewelry Table
-execute if entity @s[tag=tcc.inside_jewelry_table_gui] as @e[type=armor_stand,tag=tcc.jewelry_table,distance=..12] at @s if block ~ ~ ~ hopper run function tcc:block/jewelry_table/tick
-
 ## Score reset
 execute if entity @s[gamemode=!creative] run function tcc:entity/player/score_reset

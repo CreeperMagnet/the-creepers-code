@@ -4,7 +4,7 @@
       "trigger": "minecraft:player_interacted_with_entity",
       "conditions": {
         "entity": {
-          "type": "#tcc:horses"
+          "type": "#tcc:living_horses"
         },
         "item": {
           "nbt": "{tcc:{id:\"wrench\"}}"

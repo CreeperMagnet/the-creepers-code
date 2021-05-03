@@ -381,5 +381,33 @@
       "mob/evocation_illager/cast2"
     ],
     "subtitle": "subtitles.tcc.entity.geomancer.cast_spell"
+  },
+  "entity.snail.hurt": {
+    "sounds": [
+      "tcc:mob/snail/hurt1",
+      "tcc:mob/snail/hurt2",
+      "tcc:mob/snail/hurt3"
+    ]
+  },
+  "entity.snail.feed": {
+    "sounds": [
+      "tcc:mob/snail/chew1",
+      "tcc:mob/snail/chew2",
+      "tcc:mob/snail/chew3"
+    ]
+  },
+  "entity.snail.bucket": {
+    "sounds": [
+      "tcc:mob/snail/bucket1",
+      "tcc:mob/snail/bucket2",
+      "tcc:mob/snail/bucket3"
+    ]
+  },
+  "entity.snail.unbucket": {
+    "sounds": [
+      "tcc:mob/snail/unbucket1",
+      "tcc:mob/snail/unbucket2",
+      "tcc:mob/snail/unbucket3"
+    ]
   }
 }

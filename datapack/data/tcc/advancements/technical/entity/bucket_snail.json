@@ -1,20 +1,28 @@
 {
+  "parent": "tcc:technical/root",
   "criteria": {
     "bucket_snail": {
       "trigger": "minecraft:player_interacted_with_entity",
       "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:reference",
+              "name": "tcc:full_inventory"
+            }
+          }
+        ],
+        "item": {
+          "item": "minecraft:bucket"
+        },
         "entity": {
           "nbt": "{Tags:[\"tcc.snail\"]}"
-        },
-        "item": {
-          "item": "minecraft:bucket",
-          "count": 1
         }
       }
     }
   },
   "rewards": {
     "function": "tcc:entity/snail/bucket/raycast_start"
-  },
-  "parent": "tcc:technical/root"
+  }
 }

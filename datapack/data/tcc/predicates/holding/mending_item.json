@@ -1,6 +1,18 @@
 {
   "condition": "minecraft:alternative",
-  "terms": [{
+  "terms": [
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "equipment": {
+          "head": {
+            "nbt": "{Enchantments:[{id:\"minecraft:mending\"}],tcc:{id:\"cursed_crown\",repaired:0b}}"
+          }
+        }
+      }
+    },
+    {
       "condition": "minecraft:entity_properties",
       "entity": "this",
       "predicate": {

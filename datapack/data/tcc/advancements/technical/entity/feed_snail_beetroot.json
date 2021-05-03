@@ -1,0 +1,19 @@
+{
+  "parent": "tcc:technical/root",
+  "criteria": {
+    "feed_snail": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "item": "minecraft:beetroot"
+        },
+        "entity": {
+          "nbt": "{Tags:[\"tcc.snail\"]}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "tcc:entity/snail/feed_beetroot/raycast_start"
+  }
+}

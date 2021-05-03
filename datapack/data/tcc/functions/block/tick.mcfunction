@@ -7,7 +7,7 @@
 execute if entity @s[type=armor_stand,tag=tcc.block_breaker] run function tcc:block/block_breakers/tick
 
 ## Jewelry Table
-execute if entity @s[type=armor_stand,tag=tcc.jewelry_table] unless block ~ ~ ~ hopper run function tcc:block/jewelry_table/break
+execute if entity @s[type=armor_stand,tag=tcc.jewelry_table] run function tcc:block/jewelry_table/tick
 
 ## Teapot
 execute if entity @s[type=villager,tag=tcc.teapot,predicate=!tcc:teapot_valid] run function tcc:block/teapot/break
