@@ -6,11 +6,28 @@
       "conditions": {
         "player": [
           {
-            "condition": "minecraft:inverted",
-            "term": {
-              "condition": "minecraft:reference",
-              "name": "tcc:full_inventory"
-            }
+            "condition": "minecraft:alternative",
+            "terms": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "equipment": {
+                    "mainhand": {
+                      "item": "minecraft:glass_bottle",
+                      "count": 1
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:inverted",
+                "term": {
+                  "condition": "minecraft:reference",
+                  "name": "tcc:full_inventory"
+                }
+              }
+            ]
           }
         ],
         "item": {

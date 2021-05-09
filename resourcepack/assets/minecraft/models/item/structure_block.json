@@ -1,6 +1,7 @@
 {
   "parent": "block/structure_block",
-  "overrides": [{
+  "overrides": [
+    {
       "predicate": {
         "custom_model_data": 330000
       },
@@ -160,25 +161,25 @@
       "predicate": {
         "custom_model_data": 330026
       },
-      "model": "tcc:block/geomancer_pillar/normal_bottom"
+      "model": "tcc:block/geomancer_pillar/normal"
     },
     {
       "predicate": {
         "custom_model_data": 330027
       },
-      "model": "tcc:block/geomancer_pillar/normal_top"
+      "model": "tcc:block/geomancer_pillar/explosive"
     },
     {
       "predicate": {
         "custom_model_data": 330028
       },
-      "model": "tcc:block/geomancer_pillar/explosive_bottom"
+      "model": "tcc:item/empty"
     },
     {
       "predicate": {
         "custom_model_data": 330029
       },
-      "model": "tcc:block/geomancer_pillar/explosive_top"
+      "model": "tcc:item/empty"
     },
     {
       "predicate": {

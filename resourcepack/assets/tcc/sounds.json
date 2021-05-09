@@ -1,9 +1,11 @@
 {
   "item.boomerang.swish": {
-    "sounds": [{
-      "name": "tcc:item/boomerang",
-      "stream": true
-    }],
+    "sounds": [
+      {
+        "name": "tcc:item/boomerang",
+        "stream": true
+      }
+    ],
     "subtitle": "subtitles.tcc.item.boomerang.swish",
     "category": "master"
   },
@@ -21,7 +23,8 @@
     "subtitle": "subtitles.tcc.item.obsidian_mirror.use"
   },
   "item.quest_book.use": {
-    "sounds": [{
+    "sounds": [
+      {
         "name": "item/book/open_flip1",
         "volume": 2
       },
@@ -81,7 +84,7 @@
       "tcc:item/locket_deposit1",
       "tcc:item/locket_deposit2",
       "tcc:item/locket_deposit3",
-	    "tcc:item/locket_deposit4"
+      "tcc:item/locket_deposit4"
     ],
     "subtitle": "subtitles.tcc.item.locket_of_learning.deposit"
   },
@@ -141,8 +144,8 @@
   "block.nether_reactor.activate": {
     "sounds": [
       "tcc:block/nether_reactor_activate1",
-	  "tcc:block/nether_reactor_activate2",
-	  "tcc:block/nether_reactor_activate3"
+      "tcc:block/nether_reactor_activate2",
+      "tcc:block/nether_reactor_activate3"
     ],
     "subtitle": "subtitles.tcc.block.nether_reactor.activate"
   },
@@ -241,7 +244,7 @@
       "tcc:block/gobblerift/hurt1",
       "tcc:block/gobblerift/hurt2",
       "tcc:block/gobblerift/hurt3",
-	    "tcc:block/gobblerift/hurt4"
+      "tcc:block/gobblerift/hurt4"
     ],
     "subtitle": "subtitles.tcc.block.gobblerift.hurt"
   },
@@ -250,7 +253,7 @@
       "tcc:block/gobblerift/digesting1",
       "tcc:block/gobblerift/digesting2",
       "tcc:block/gobblerift/digesting3",
-	    "tcc:block/gobblerift/digesting4"
+      "tcc:block/gobblerift/digesting4"
     ],
     "subtitle": "subtitles.tcc.block.gobblerift.digest"
   },
@@ -387,27 +390,31 @@
       "tcc:mob/snail/hurt1",
       "tcc:mob/snail/hurt2",
       "tcc:mob/snail/hurt3"
-    ]
+    ],
+    "subtitle": "subtitles.tcc.entity.snail.hurt"
   },
   "entity.snail.feed": {
     "sounds": [
       "tcc:mob/snail/chew1",
       "tcc:mob/snail/chew2",
       "tcc:mob/snail/chew3"
-    ]
+    ],
+    "subtitle": "subtitles.tcc.entity.snail.feed"
   },
   "entity.snail.bucket": {
     "sounds": [
       "tcc:mob/snail/bucket1",
       "tcc:mob/snail/bucket2",
       "tcc:mob/snail/bucket3"
-    ]
+    ],
+    "subtitle": "subtitles.tcc.entity.snail.bucket"
   },
   "entity.snail.unbucket": {
     "sounds": [
       "tcc:mob/snail/unbucket1",
       "tcc:mob/snail/unbucket2",
       "tcc:mob/snail/unbucket3"
-    ]
+    ],
+    "subtitle": "subtitles.item.bucket.empty"
   }
 }

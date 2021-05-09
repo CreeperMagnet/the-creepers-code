@@ -1,0 +1,26 @@
+[
+  {
+    "condition": "minecraft:location_check",
+    "predicate": {
+      "position": {
+        "y": {
+          "min": 0,
+          "max": 40
+        }
+      }
+    }
+  },
+  {
+    "condition": "minecraft:value_check",
+    "value": {
+      "type": "minecraft:score",
+      "target": {
+        "type": "minecraft:fixed",
+        "name": "tcc.extended_world_height"
+      },
+      "score": "tcc.dummy",
+      "scale": 1
+    },
+    "range": 0
+  }
+]

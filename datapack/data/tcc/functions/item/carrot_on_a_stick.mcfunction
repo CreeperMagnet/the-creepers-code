@@ -27,7 +27,7 @@ execute if entity @s[nbt={Inventory:[{Slot:-106b,tag:{tcc:{id:"ring",potion:{}}}
 execute if entity @s[nbt={SelectedItem:{tag:{tcc:{id:"ring",potion:{}}}}}] run function #tcc:dynamic_rings/material_checks/use_soaked_ring_mainhand
 
 # Obsidian Mirror
-execute unless entity @s[nbt=!{SelectedItem:{tag:{tcc:{id:"obsidian_mirror"}}}},nbt=!{Inventory:[{Slot:-106b,tag:{tcc:{id:"obsidian_mirror"}}}]}] unless entity @s[nbt=!{ActiveEffects:[{Id:2b}]},nbt=!{ActiveEffects:[{Id:4b}]},nbt=!{ActiveEffects:[{Id:9b}]},nbt=!{ActiveEffects:[{Id:15b}]},nbt=!{ActiveEffects:[{Id:17b}]},nbt=!{ActiveEffects:[{Id:18b}]},nbt=!{ActiveEffects:[{Id:19b}]},nbt=!{ActiveEffects:[{Id:20b}]},nbt=!{ActiveEffects:[{Id:24b}]},nbt=!{ActiveEffects:[{Id:25b}]},nbt=!{ActiveEffects:[{Id:27b}]}] run function tcc:item/obsidian_mirror
+execute unless entity @s[nbt=!{SelectedItem:{tag:{tcc:{id:"obsidian_mirror"}}}},nbt=!{Inventory:[{Slot:-106b,tag:{tcc:{id:"obsidian_mirror"}}}]}] if data entity @s ActiveEffects run function tcc:item/obsidian_mirror/main
 
 # Peculiar Berries
 execute unless entity @s[nbt=!{SelectedItem:{tag:{tcc:{id:"peculiar_berries"}}}},nbt=!{Inventory:[{tag:{tcc:{id:"peculiar_berries"}},Slot:-106b}]}] run function tcc:item/peculiar_berries/item

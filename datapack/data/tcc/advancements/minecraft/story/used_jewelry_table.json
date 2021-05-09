@@ -1,5 +1,5 @@
 {
-  "parent": "tcc:minecraft/story/gemstone",
+  "parent": "tcc:minecraft/story/craft_ring",
   "display": {
     "icon": {
       "item": "minecraft:hopper",

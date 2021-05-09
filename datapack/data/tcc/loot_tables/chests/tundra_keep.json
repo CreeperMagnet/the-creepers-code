@@ -1,111 +1,130 @@
 {
   "type": "minecraft:chest",
-  "pools": [{
-      "rolls": {
-        "min": 0.0,
-        "max": 1.0,
-        "type": "minecraft:uniform"
-      },
-      "entries": [{
-        "type": "minecraft:loot_table",
-        "name": "tcc:items/frostbloom_petals",
-        "functions": [{
-          "function": "minecraft:set_count",
-          "count": {
-            "min": 1.0,
-            "max": 2.0,
-            "type": "minecraft:uniform"
-          }
-        }]
-      }]
-    },
+  "pools": [
     {
       "rolls": {
-        "min": 2.0,
-        "max": 3.0,
-        "type": "minecraft:uniform"
+        "type": "minecraft:uniform",
+        "min": 0,
+        "max": 1
       },
-      "entries": [{
-          "type": "minecraft:item",
-          "weight": 3,
-          "functions": [{
-            "function": "minecraft:set_count",
-            "count": {
-              "min": 3.0,
-              "max": 10.0,
-              "type": "minecraft:uniform"
-            }
-          }],
-          "name": "minecraft:iron_ingot"
-        },
+      "entries": [
         {
-          "type": "minecraft:item",
-          "weight": 3,
-          "functions": [{
-            "function": "minecraft:set_count",
-            "count": {
-              "min": 2.0,
-              "max": 5.0,
-              "type": "minecraft:uniform"
+          "type": "minecraft:loot_table",
+          "name": "tcc:items/frostbloom_petals",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
             }
-          }],
-          "name": "minecraft:blue_ice"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 3,
-          "functions": [{
-            "function": "minecraft:set_count",
-            "count": {
-              "min": 3.0,
-              "max": 5.0,
-              "type": "minecraft:uniform"
-            }
-          }],
-          "name": "minecraft:arrow"
+          ]
         }
       ]
     },
     {
-      "rolls": 1.0,
-      "entries": [{
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 2,
+        "max": 3
+      },
+      "entries": [
+        {
           "type": "minecraft:item",
           "weight": 3,
-          "name": "minecraft:experience_bottle",
-          "functions": [{
-            "function": "minecraft:set_count",
-            "count": {
-              "min": 1.0,
-              "max": 6.0,
-              "type": "minecraft:uniform"
+          "name": "minecraft:iron_ingot",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 3,
+                "max": 10
+              }
             }
-          }]
+          ]
         },
         {
           "type": "minecraft:item",
           "weight": 3,
-          "functions": [{
-            "function": "minecraft:set_count",
-            "count": {
-              "min": 4.0,
-              "max": 6.0,
-              "type": "minecraft:uniform"
+          "name": "minecraft:blue_ice",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 5
+              }
             }
-          }],
-          "name": "minecraft:gold_ingot"
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:arrow",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 3,
+                "max": 5
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:experience_bottle",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 6
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:gold_ingot",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 4,
+                "max": 6
+              }
+            }
+          ]
         },
         {
           "type": "minecraft:item",
           "weight": 2,
-          "functions": [{
-            "function": "minecraft:set_count",
-            "count": {
-              "min": 2.0,
-              "max": 7.0,
-              "type": "minecraft:uniform"
+          "name": "minecraft:emerald",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 7
+              }
             }
-          }],
-          "name": "minecraft:emerald"
+          ]
         },
         {
           "type": "minecraft:loot_table",
@@ -115,10 +134,25 @@
         {
           "type": "minecraft:item",
           "weight": 1,
-          "functions": [{
-            "function": "minecraft:enchant_randomly"
-          }],
-          "name": "minecraft:book"
+          "name": "minecraft:book",
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:book",
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "enchantments": [
+                "minecraft:frost_walker"
+              ]
+            }
+          ]
         }
       ]
     }

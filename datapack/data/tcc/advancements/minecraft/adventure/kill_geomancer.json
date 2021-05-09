@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "title": {
+      "translate": "advancements.tcc.minecraft.adventure.kill_geomancer.title"
+    },
+    "description": [
+      {
+        "translate": "advancements.tcc.minecraft.adventure.kill_geomancer.description"
+      },
+      {
+        "translate": "advancements.tcc.minecraft.tooltip_spacer"
+      },
+      {
+        "translate": "pack.tcc",
+        "color": "#008725",
+        "italic": true
+      }
+    ],
+    "show_toast": true,
+    "announce_to_chat": true,
+    "frame": "goal"
+  },
+  "parent": "minecraft:adventure/kill_a_mob",
+  "criteria": {
+    "kill_geomancer": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "nbt": "{Tags:[\"tcc.geomancer\"]}"
+        }
+      }
+    }
+  }
+}

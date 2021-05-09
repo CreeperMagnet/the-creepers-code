@@ -4,7 +4,6 @@
 ############################################################
 
 team join tcc.antivillager @s
-execute if entity @s[type=zombie,predicate=tcc:iceologer_biomes,predicate=tcc:chance/one_tenth] run function tcc:entity/iceologer/spawn
 execute if entity @s[predicate=tcc:iceologer_biomes,predicate=tcc:chance/one_tenth] if data entity @s RaidId run function tcc:entity/iceologer/spawn_raid
 execute if entity @s[type=evoker,predicate=tcc:chance/one_half] if data entity @s RaidId run function tcc:commands/summon/enchanter
 execute if entity @s[type=pillager,tag=tcc.iceologer_replace] run function tcc:entity/iceologer/spawn

@@ -8,7 +8,7 @@
       },
       {
         "type": "minecraft:loot_table",
-        "name": "tcc:items/ring/gold",
+        "name": "tcc:items/golden_ring",
         "weight": 1,
         "conditions": [{
           "condition": "minecraft:alternative",
@@ -54,7 +54,7 @@
       {
         "type": "minecraft:loot_table",
         "weight": 1,
-        "name":"tcc:items/ring/gold/pristine_lapis_lazuli",
+        "name":"tcc:items/pristine_lapis_lazuli_gemstone",
         "conditions": [{
           "condition": "minecraft:alternative",
           "terms": [{

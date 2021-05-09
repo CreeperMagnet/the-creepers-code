@@ -1,0 +1,68 @@
+{
+  "parent": "minecraft:husbandry/tactical_fishing",
+  "display": {
+    "icon": {
+      "item": "minecraft:carrot_on_a_stick",
+      "nbt": "{CustomModelData:330038}"
+    },
+    "title": {
+      "translate": "advancements.tcc.minecraft.husbandry.bucket_snail.title"
+    },
+    "description": [
+      {
+        "translate": "advancements.tcc.minecraft.husbandry.bucket_snail.description"
+      },
+      {
+        "translate": "advancements.tcc.minecraft.tooltip_spacer"
+      },
+      {
+        "translate": "pack.tcc",
+        "color": "#008725",
+        "italic": true
+      }
+    ],
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "bucket_snail": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:alternative",
+            "terms": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "equipment": {
+                    "mainhand": {
+                      "item": "minecraft:bucket",
+                      "count": 1
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:inverted",
+                "term": {
+                  "condition": "minecraft:reference",
+                  "name": "tcc:full_inventory"
+                }
+              }
+            ]
+          }
+        ],
+        "item": {
+          "item": "minecraft:bucket"
+        },
+        "entity": {
+          "nbt": "{Tags:[\"tcc.snail\"]}"
+        }
+      }
+    }
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "parent": "tcc:minecraft/story/iron_ring",
+  "parent": "tcc:minecraft/story/amethyst_dust",
   "display": {
     "icon": {
       "item": "minecraft:structure_block",
@@ -8,7 +8,8 @@
     "title": {
       "translate": "advancements.tcc.minecraft.story.gemstone.title"
     },
-    "description": [{
+    "description": [
+      {
         "translate": "advancements.tcc.minecraft.story.gemstone.description"
       },
       {
@@ -29,9 +30,11 @@
     "gemstone": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "items": [{
-          "nbt": "{tcc:{id:\"gemstone\"}}"
-        }]
+        "items": [
+          {
+            "nbt": "{tcc:{id:\"gemstone\"}}"
+          }
+        ]
       }
     }
   }

@@ -1,0 +1,30 @@
+{
+  "criteria": {
+    "use_pig_spawn_egg": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "item": {
+          "item": "minecraft:pig_spawn_egg"
+        }
+      }
+    },
+    "use_witch_spawn_egg": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "item": {
+          "item": "minecraft:witch_spawn_egg"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "use_pig_spawn_egg",
+      "use_witch_spawn_egg"
+    ]
+  ],
+  "rewards": {
+    "function": "tcc:entity/processing/disable_spawning"
+  },
+  "parent": "tcc:technical/root"
+}

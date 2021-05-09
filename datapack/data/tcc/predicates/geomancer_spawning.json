@@ -1,11 +1,13 @@
 {
-  "condition": "minecraft:location_check",
-  "predicate": {
-    "position": {
-      "y": {
-        "min": 0,
-        "max": 40
-      }
+  "condition": "minecraft:alternative",
+  "terms": [
+    {
+      "condition": "minecraft:reference",
+      "name": "tcc:geomancer_spawning/extended"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "tcc:geomancer_spawning/normal"
     }
-  }
+  ]
 }

@@ -14,6 +14,32 @@
         }
       }
     },
+    "click_spawner_with_pig": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": {
+          "block": {
+            "block": "minecraft:spawner"
+          }
+        },
+        "item": {
+          "item": "minecraft:pig_spawn_egg"
+        }
+      }
+    },
+    "click_spawner_with_witch": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": {
+          "block": {
+            "block": "minecraft:spawner"
+          }
+        },
+        "item": {
+          "item": "minecraft:witch_spawn_egg"
+        }
+      }
+    },
     "click_spawner_with_enchanter": {
       "trigger": "minecraft:item_used_on_block",
       "conditions": {
@@ -52,10 +78,31 @@
           "nbt": "{tcc:{id:\"spawn_egg\",entity:\"geomancer\"}}"
         }
       }
+    },
+    "click_spawner_with_snail": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": {
+          "block": {
+            "block": "minecraft:spawner"
+          }
+        },
+        "item": {
+          "nbt": "{tcc:{id:\"spawn_egg\",entity:\"snail\"}}"
+        }
+      }
     }
   },
   "requirements": [
-    ["click_spawner", "click_spawner_with_enchanter", "click_spawner_with_iceologer", "click_spawner_with_geomancer"]
+    [
+      "click_spawner",
+      "click_spawner_with_enchanter",
+      "click_spawner_with_iceologer",
+      "click_spawner_with_geomancer",
+      "click_spawner_with_snail",
+      "click_spawner_with_pig",
+      "click_spawner_with_witch"
+    ]
   ],
   "rewards": {
     "function": "tcc:block/spawner_edit/used_spawn_egg"

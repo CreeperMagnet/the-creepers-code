@@ -6,6 +6,7 @@
     "minecraft:villager",
     "minecraft:wandering_trader",
     "minecraft:witch",
+    "minecraft:pig",
     "#tcc:hates_villagers"
   ]
 }

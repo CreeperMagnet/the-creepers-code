@@ -18,6 +18,12 @@
         "custom_model_data": 330002
       },
       "model": "tcc:item/geomancer_spawn_egg"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330003
+      },
+      "model": "tcc:item/snail_spawn_egg"
     }
   ]
 }

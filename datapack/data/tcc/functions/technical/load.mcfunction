@@ -51,7 +51,9 @@ scoreboard players set tcc.const.25 tcc.dummy 25
 scoreboard players set tcc.const.60 tcc.dummy 60
 scoreboard players set tcc.const.100 tcc.dummy 100
 
+# World Data
 execute store result score tcc.world_seed tcc.dummy run seed
+execute store result score tcc.extended_world_height tcc.dummy unless block ~ -64 ~ dispenser{impossible:1b}
 
 scoreboard objectives add tcc.emoji trigger
 scoreboard objectives add tcc.compendium trigger

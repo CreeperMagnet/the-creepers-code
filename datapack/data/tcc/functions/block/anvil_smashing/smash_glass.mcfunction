@@ -5,7 +5,7 @@
 
 playsound minecraft:block.glass.break block @a[distance=..16] ~ ~ ~ 1 0.7
 
-execute if block ~ ~-0.9 ~ minecraft:glowstone run function tcc:block/anvil_smashing/glowstone_drugs
+execute if block ~ ~-0.9 ~ minecraft:glowstone run function tcc:block/anvil_smashing/glowstone_drugs/main
 execute if block ~ ~-0.9 ~ minecraft:glass run particle minecraft:item minecraft:glass ~ ~ ~ 0.5 0.5 0.5 0.5 100 normal
 execute if block ~ ~-0.9 ~ minecraft:red_stained_glass run particle minecraft:item minecraft:red_stained_glass ~ ~ ~ 0.5 0.5 0.5 0.5 100 normal
 execute if block ~ ~-0.9 ~ minecraft:black_stained_glass run particle minecraft:item minecraft:black_stained_glass ~ ~ ~ 0.5 0.5 0.5 0.5 100 normal
