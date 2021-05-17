@@ -3,7 +3,7 @@
 # Creator: CreeperMagnet_
 ############################################################
 
-execute if entity @s[nbt={SelectedItem:{Count:1b}},gamemode=!creative] run item entity @s weapon.mainhand replace minecraft:potion{Potion:"minecraft:water"} 1
+execute if entity @s[nbt={SelectedItem:{Count:1b}},gamemode=!creative] run item replace entity @s weapon.mainhand with minecraft:potion{Potion:"minecraft:water"} 1
 execute unless entity @s[nbt={SelectedItem:{Count:1b}},gamemode=!creative] run give @s minecraft:potion{Potion:"minecraft:water"} 1
 execute if entity @s[nbt=!{SelectedItem:{Count:1b}},gamemode=!creative] run clear @s minecraft:glass_bottle 1
 playsound minecraft:item.bottle.fill player @a[distance=..16]

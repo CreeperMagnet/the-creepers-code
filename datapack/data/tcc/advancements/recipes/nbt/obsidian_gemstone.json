@@ -8,17 +8,6 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "player": [
-          {
-            "condition": "minecraft:entity_scores",
-            "entity": "this",
-            "scores": {
-              "tcc.crafted_item": {
-                "min": 1
-              }
-            }
-          }
-        ],
         "recipe": "tcc:nbt/obsidian_gemstone"
       }
     }

@@ -23,11 +23,11 @@ setblock ^ ^ ^1 air destroy
 execute if score tcc.tiledrops_default tcc.dummy matches 1.. run gamerule doTileDrops true
 tag @s remove tcc.scheduled.block_breaker
 scoreboard players add @s tcc.dummy2 1
-execute if entity @s[tag=tcc.chopper] unless score @s tcc.dummy2 = tcc.temp_1 tcc.dummy unless block ^ ^ ^2 #tcc:block_breaker_blocks/chopper store result score @s tcc.dummy2 run scoreboard players get tcc.temp_1 tcc.dummy
-execute if entity @s[tag=tcc.excavator] unless score @s tcc.dummy2 = tcc.temp_1 tcc.dummy unless block ^ ^ ^2 #tcc:block_breaker_blocks/excavator store result score @s tcc.dummy2 run scoreboard players get tcc.temp_1 tcc.dummy
-execute if entity @s[tag=tcc.harvester] unless score @s tcc.dummy2 = tcc.temp_1 tcc.dummy unless block ^ ^ ^2 #tcc:block_breaker_blocks/harvester store result score @s tcc.dummy2 run scoreboard players get tcc.temp_1 tcc.dummy
-execute if entity @s[tag=tcc.sifter] unless score @s tcc.dummy2 = tcc.temp_1 tcc.dummy unless block ^ ^ ^2 #tcc:block_breaker_blocks/sifter store result score @s tcc.dummy2 run scoreboard players get tcc.temp_1 tcc.dummy
-execute if entity @s[tag=tcc.snipper] unless score @s tcc.dummy2 = tcc.temp_1 tcc.dummy unless block ^ ^ ^2 #tcc:block_breaker_blocks/snipper store result score @s tcc.dummy2 run scoreboard players get tcc.temp_1 tcc.dummy
+execute if entity @s[tag=tcc.chopper] unless score @s tcc.dummy2 = tcc.temp_1 tcc.dummy positioned ^ ^ ^2 unless predicate tcc:block_breakers/chopper store result score @s tcc.dummy2 run scoreboard players get tcc.temp_1 tcc.dummy
+execute if entity @s[tag=tcc.excavator] unless score @s tcc.dummy2 = tcc.temp_1 tcc.dummy positioned ^ ^ ^2 unless predicate tcc:block_breakers/excavator store result score @s tcc.dummy2 run scoreboard players get tcc.temp_1 tcc.dummy
+execute if entity @s[tag=tcc.harvester] unless score @s tcc.dummy2 = tcc.temp_1 tcc.dummy positioned ^ ^ ^2 unless predicate tcc:block_breakers/harvester store result score @s tcc.dummy2 run scoreboard players get tcc.temp_1 tcc.dummy
+execute if entity @s[tag=tcc.sifter] unless score @s tcc.dummy2 = tcc.temp_1 tcc.dummy positioned ^ ^ ^2 unless predicate tcc:block_breakers/sifter store result score @s tcc.dummy2 run scoreboard players get tcc.temp_1 tcc.dummy
+execute if entity @s[tag=tcc.snipper] unless score @s tcc.dummy2 = tcc.temp_1 tcc.dummy positioned ^ ^ ^2 unless predicate tcc:block_breakers/snipper store result score @s tcc.dummy2 run scoreboard players get tcc.temp_1 tcc.dummy
 execute unless score @s tcc.dummy2 = tcc.temp_1 tcc.dummy positioned ^ ^ ^1 run function tcc:block/block_breakers/break_block
 execute if score @s tcc.dummy2 = tcc.temp_1 tcc.dummy run scoreboard players reset @s tcc.dummy2
 execute if score @s tcc.dummy2 = tcc.temp_1 tcc.dummy run scoreboard players reset tcc.temp_1

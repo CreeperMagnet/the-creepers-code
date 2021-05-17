@@ -12,6 +12,6 @@ execute if entity @s[tag=!tcc.quest.rogue,nbt={Inventory:[{Slot:-106b,tag:{tcc:{
 execute if entity @s[tag=!tcc.quest.warrior,nbt={Inventory:[{Slot:-106b,tag:{tcc:{quest:"warrior"}}}]},nbt=!{SelectedItem:{tag:{tcc:{id:"quest_book"}}}}] run function tcc:item/quest_book/warrior/start
 execute if entity @s[tag=!tcc.quest.healer,nbt={Inventory:[{Slot:-106b,tag:{tcc:{quest:"healer"}}}]},nbt=!{SelectedItem:{tag:{tcc:{id:"quest_book"}}}}] run function tcc:item/quest_book/healer/start
 
-item entity @s[nbt={Inventory:[{Slot:-106b,tag:{tcc:{id:"quest_book"}}}]},nbt=!{SelectedItem:{tag:{tcc:{id:"quest_book"}}}}] weapon.offhand replace air
-item entity @s[nbt={SelectedItem:{tag:{tcc:{id:"quest_book"}}}}] weapon.mainhand replace air
+item replace entity @s[nbt={Inventory:[{Slot:-106b,tag:{tcc:{id:"quest_book"}}}]},nbt=!{SelectedItem:{tag:{tcc:{id:"quest_book"}}}}] weapon.offhand with air
+item replace entity @s[nbt={SelectedItem:{tag:{tcc:{id:"quest_book"}}}}] weapon.mainhand with air
 playsound tcc:item.quest_book.use player @a[distance=..16]

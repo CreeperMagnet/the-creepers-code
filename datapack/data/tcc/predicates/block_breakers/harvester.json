@@ -1,0 +1,34 @@
+[
+  {
+    "condition": "minecraft:inverted",
+    "term": {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "block": {
+          "tag": "tcc:block_breaker_blocks/denied/harvester"
+        }
+      }
+    }
+  },
+  {
+    "condition": "minecraft:alternative",
+    "terms": [
+      {
+        "condition": "minecraft:location_check",
+        "predicate": {
+          "block": {
+            "tag": "tcc:block_breaker_blocks/additions/harvester"
+          }
+        }
+      },
+      {
+        "condition": "minecraft:location_check",
+        "predicate": {
+          "block": {
+            "tag": "minecraft:mineable/hoe"
+          }
+        }
+      }
+    ]
+  }
+]

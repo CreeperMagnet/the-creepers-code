@@ -107,6 +107,7 @@
     "minecraft:cobweb",
     "minecraft:brewing_stand",
     "minecraft:structure_void",
-    "minecraft:end_portal"
+    "minecraft:end_portal",
+    "minecraft:barrier"
   ]
 }

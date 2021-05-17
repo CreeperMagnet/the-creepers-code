@@ -8,10 +8,10 @@ data modify storage tcc:storage root.temp.item set from entity @s Inventory[{Slo
 scoreboard players set @s tcc.dummy2 1
 function tcc:item/item_modification/durability/modify_durability
 
-execute unless entity @s[tag=tcc.break] run item entity @s armor.head modify tcc:durability_lore
+execute unless entity @s[tag=tcc.break] run item modify entity @s armor.head tcc:durability_lore
 execute unless entity @s[tag=tcc.break] run data modify storage tcc:storage root.temp.item set from entity @s Inventory[{Slot:103b}]
 execute unless entity @s[tag=tcc.break] run data modify storage tcc:storage root.temp.item.tag.display.Lore[0] set from storage tcc:storage root.temp.item.tag.display.Lore[-1]
 execute unless entity @s[tag=tcc.break] run data remove storage tcc:storage root.temp.item.tag.display.Lore[-1]
-execute unless entity @s[tag=tcc.break] run item entity @s armor.head modify tcc:copy_nbt
-execute if entity @s[tag=tcc.break] run item entity @s armor.head replace air
+execute unless entity @s[tag=tcc.break] run item modify entity @s armor.head tcc:copy_nbt
+execute if entity @s[tag=tcc.break] run item replace entity @s armor.head with air
 tag @s remove tcc.break

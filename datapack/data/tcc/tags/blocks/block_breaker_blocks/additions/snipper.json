@@ -21,8 +21,10 @@
     "minecraft:weeping_vines_plant",
     "minecraft:weeping_vines",
     "minecraft:nether_sprouts",
-    "#tcc:mod/quark/blossom_leaves",
     "#tcc:air",
-    {"id": "quark:root", "required": false}
+    {
+      "id": "quark:root",
+      "required": false
+    }
   ]
 }

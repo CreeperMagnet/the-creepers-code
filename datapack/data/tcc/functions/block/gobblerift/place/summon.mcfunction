@@ -22,8 +22,8 @@ execute unless entity @s run summon wandering_trader ~ ~-0.5 ~ {Team:"tcc.antivi
 
 execute if entity @s run summon item_frame ~ ~1 ~ {Item:{id:"minecraft:structure_block",Count:1b,tag:{CustomModelData:330030}},Facing:1b,Invulnerable:1b,Tags:["global.ignore","global.ignore.kill","global.ignore.pos","tcc.gobblerift.temp"],Silent:1b,Fixed:1b,Invisible:1b}
 execute as @e[type=wandering_trader,limit=1,sort=nearest,tag=tcc.gobblerift.start] run function tcc:block/gobblerift/place/initiate
-item entity @s[gamemode=!creative,nbt={Inventory:[{Slot:-106b,tag:{tcc:{id:"gobblerift"}}}]},nbt=!{SelectedItem:{tag:{tcc:{id:"gobblerift"}}}}] weapon.offhand replace air
-item entity @s[gamemode=!creative,nbt={SelectedItem:{tag:{tcc:{id:"gobblerift"}}}}] weapon.mainhand replace air
+item replace entity @s[gamemode=!creative,nbt={Inventory:[{Slot:-106b,tag:{tcc:{id:"gobblerift"}}}]},nbt=!{SelectedItem:{tag:{tcc:{id:"gobblerift"}}}}] weapon.offhand with air
+item replace entity @s[gamemode=!creative,nbt={SelectedItem:{tag:{tcc:{id:"gobblerift"}}}}] weapon.mainhand with air
 scoreboard players reset @s tcc.dummy
 playsound tcc:block.gobblerift.place block @a[distance=..16]
 tag @s remove tcc.tag

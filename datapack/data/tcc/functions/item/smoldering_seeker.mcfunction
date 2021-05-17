@@ -14,5 +14,5 @@ execute if data storage tcc:storage root.temp.item2{id:"minecraft:filled_map"} r
 data modify storage tcc:storage root.temp.item.tag.LodestonePos.X set from storage tcc:storage root.temp.item2.tag.Decorations[0].x
 data modify storage tcc:storage root.temp.item.tag.LodestonePos.Z set from storage tcc:storage root.temp.item2.tag.Decorations[0].z
 
-item entity @s weapon.mainhand modify tcc:copy_nbt
+item modify entity @s weapon.mainhand tcc:copy_nbt
 advancement grant @s only tcc:minecraft/nether/smoldering_seeker

@@ -1,8 +1,6 @@
 {
   "values": [
     "#minecraft:flowers",
-    "#minecraft:leaves",
-    "minecraft:sculk_sensor",
     "minecraft:flowering_azalea",
     "minecraft:azalea",
     "minecraft:spore_blossom",
@@ -21,14 +19,6 @@
     "minecraft:warped_fungus",
     "minecraft:crimson_roots",
     "minecraft:warped_roots",
-    "minecraft:nether_wart_block",
-    "minecraft:warped_wart_block",
-    "minecraft:shroomlight",
-    "minecraft:hay_block",
-    "minecraft:target",
-    "minecraft:dried_kelp_block",
-    "minecraft:sponge",
-    "minecraft:wet_sponge",
     "#tcc:air",
     "#tcc:mod/quark/blossom_leaves"
   ]

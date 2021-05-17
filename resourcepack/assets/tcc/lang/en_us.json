@@ -4,7 +4,7 @@
 
   "pack.tcc": "The Creeper's Code",
   "pack.tcc.hover_event": "Click here to go to the official website",
-  "pack.tcc.version": "Version 0.5 Beta 7",
+  "pack.tcc.version": "Version 0.5 Beta 8",
   "pack.tcc.version.hover_event": "Click here to see changelog notes",
   "TCC (MISSING RESOURCES)": "%s",
   "The Creeper's Code Resource Pack is not installed. Please go to https://thecreeperscode.com/download.": "%s",
@@ -92,7 +92,7 @@
 
   "item.tcc.compendium.credits.thenuclearnexus": "TheNuclearNexus",
   "item.tcc.compendium.credits.thenuclearnexus.icon": "\ue009",
-  "item.tcc.compendium.credits.thenuclearnexus.description": "%s\n\nNexus has helped me during lots of phases of TCC, like figuring out the MANY MANY edge cases for jewelry tables. He's also a great friend, and all-around cool guy. Follow him on twitch.",
+  "item.tcc.compendium.credits.thenuclearnexus.description": "%s\n\nNexus has helped me during lots of phases of TCC, like figuring out the MANY MANY edge cases for jewelry tables. He's also a great friend, and all-around cool guy. Follow him on twitch. https://twitch.tv/the_nuclear_nexus",
 
   "item.tcc.compendium.credits.dragoncommands": "dragoncommands",
   "item.tcc.compendium.credits.dragoncommands.icon": "\ue010",
@@ -1315,7 +1315,7 @@
   "commands.tcc.compendium_trigger.spectator": "The compendium cannot be given in spectator mode. Try again in another gamemode.",
   "commands.tcc.initiate": "%s %s is enabled. (?)",
   "commands.tcc.initiate.hover_event": "Click here for help",
-  "commands.tcc.initiate.wrong_version": "\nYou are using TCC on the incorrect version. The correct version is Minecraft Snapshot 21w18a.",
+  "commands.tcc.initiate.wrong_version": "\nYou are using TCC on the incorrect version. The correct version is Minecraft Snapshot 21w19a.",
   "commands.tcc.initiate.wrong_version.title": "WRONG VERSION",
   "commands.tcc.initiate.incompatible": "The world you have loaded is running an older version of The Creeper's Code and will be incompatible. Please create a new world, or proceed at your own risk of broken content.",
   "commands.tcc.terminate": "%s %s data has been uninstalled.\n\n%s",
@@ -1409,7 +1409,7 @@
   "death.tcc.boomerang": "%s didn't realize that boomerangs come back",
   "death.tcc.iceologer_ice": "%s was crushed by Iceologer's ice",
   "death.tcc.iceologer_freeze": "%s experienced ice magic first-hand",
-  "death.tcc.geomancer_explosive": "%s was exploded by a geomancer",
+  "death.tcc.geomancer_explosive": "%s was exploded by a Geomancer",
   "death.tcc.swordfish": "%s impaled themselves from the inside out using a swordfish",
   "death.tcc.channeling_lightning": "%s struck themselves with lightning",
 
@@ -1483,6 +1483,8 @@
   "advancements.tcc.minecraft.adventure.obtain_frostbloom.description": "Take a frostbloom from the depths of a tundra keep in the mountains",
   "advancements.tcc.minecraft.adventure.obtain_locket_of_learning.title": "Experience Extraction",
   "advancements.tcc.minecraft.adventure.obtain_locket_of_learning.description": "Obtain a useful enchanting tool from the basement of a woodland mansion and use it to store some XP",
+  "advancements.tcc.minecraft.adventure.blow_up.title": "Spontaneous Combustion",
+  "advancements.tcc.minecraft.adventure.blow_up.description": "Observe a villager exploding itself in the nether via a bed.",
 
   "advancements.tcc.minecraft.end.tip_sword.title": "Tainted",
   "advancements.tcc.minecraft.end.tip_sword.description": "Tip a sword in a lingering potion",

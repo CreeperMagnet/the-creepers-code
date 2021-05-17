@@ -3,7 +3,7 @@
 # Creator: CreeperMagnet_
 ############################################################
 
-item block ~ ~ ~ container.4 replace minecraft:carrot_on_a_stick
+item replace block ~ ~ ~ container.4 with minecraft:carrot_on_a_stick
 data modify block ~ ~ ~ Items[{Slot:4b}].tag set from block ~ ~ ~ Items[{Slot:0b}].tag
 execute if block ~ ~ ~ hopper{Items:[{id:"minecraft:milk_bucket",Slot:2b}]} run function tcc:block/jewelry_table/assemble_output/add_milk
 execute if block ~ ~ ~ hopper{Items:[{id:"minecraft:lingering_potion",Slot:2b}]} run function tcc:block/jewelry_table/assemble_output/add_potion

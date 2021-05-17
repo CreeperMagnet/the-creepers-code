@@ -5,7 +5,7 @@
 
 tag @s remove tcc.tag
 tag @s[nbt={SelectedItem:{Count:1b}},gamemode=!creative] add tcc.tag
-execute if entity @s[tag=!tcc.tag,gamemode=!creative] run item entity @s weapon.mainhand modify tcc:reduce_count
+execute if entity @s[tag=!tcc.tag,gamemode=!creative] run item modify entity @s weapon.mainhand tcc:reduce_count
 
 execute if data storage tcc:storage root.temp{tea:"amenable"} if entity @s[tag=tcc.tag] run loot replace entity @s weapon.mainhand loot tcc:items/tea/amenable
 execute if data storage tcc:storage root.temp{tea:"amenable"} if entity @s[tag=!tcc.tag] run loot give @s loot tcc:items/tea/amenable

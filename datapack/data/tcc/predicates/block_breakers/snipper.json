@@ -1,0 +1,21 @@
+[
+  {
+    "condition": "minecraft:inverted",
+    "term": {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "block": {
+          "tag": "tcc:block_breaker_blocks/denied/snipper"
+        }
+      }
+    }
+  },
+  {
+    "condition": "minecraft:location_check",
+    "predicate": {
+      "block": {
+        "tag": "tcc:block_breaker_blocks/additions/snipper"
+      }
+    }
+  }
+]

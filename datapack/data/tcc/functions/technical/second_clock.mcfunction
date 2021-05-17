@@ -29,3 +29,5 @@ execute as @e[tag=tcc.entity] at @s run function tcc:entity/second_clock
 execute as @e[type=witch,tag=!global.ignore,tag=!global.ignore.kill] at @s run function tcc:entity/witch/second_clock
 
 schedule function tcc:technical/second_clock 1s replace
+
+execute as @e[type=villager,predicate=tcc:in_nether_or_end] if data entity @s SleepingX at @s run function tcc:entity/villager/blow_up

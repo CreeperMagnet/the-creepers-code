@@ -16,7 +16,7 @@ tag @s[scores={tcc.dummy=..1}] add tcc.tag
   scoreboard players remove @s[tag=!tcc.tag] tcc.dummy 1
 
   execute unless entity @s[tag=tcc.tag] store result storage tcc:storage root.temp.item.tag.tcc.potion.durability[0] int 1 run scoreboard players get @s tcc.dummy
-  execute unless entity @s[tag=tcc.tag] run item entity @s weapon.mainhand modify tcc:potion_durability_lore
+  execute unless entity @s[tag=tcc.tag] run item modify entity @s weapon.mainhand tcc:potion_durability_lore
   execute unless entity @s[tag=tcc.tag] run data modify storage tcc:storage root.temp.item set from entity @s SelectedItem
   execute unless entity @s[tag=tcc.tag] if data storage tcc:storage root.temp.item.tag.tcc.potion{id:"minecraft:healing"} run data modify storage tcc:storage root.temp.item.tag.display.Lore[-6] set from storage tcc:storage root.temp.item.tag.display.Lore[-1]
   execute unless entity @s[tag=tcc.tag] if data storage tcc:storage root.temp.item.tag.tcc.potion{id:"minecraft:strong_healing"} run data modify storage tcc:storage root.temp.item.tag.display.Lore[-6] set from storage tcc:storage root.temp.item.tag.display.Lore[-1]
@@ -26,5 +26,5 @@ tag @s[scores={tcc.dummy=..1}] add tcc.tag
   execute unless entity @s[tag=tcc.tag] run data remove storage tcc:storage root.temp.item.tag.display.Lore[-1]
 
 
-item entity @s weapon.mainhand modify tcc:copy_nbt
-  tag @s remove tcc.tag
+item modify entity @s weapon.mainhand tcc:copy_nbt
+tag @s remove tcc.tag
