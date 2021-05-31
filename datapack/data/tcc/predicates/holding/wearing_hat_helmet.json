@@ -8,7 +8,9 @@
         "equipment": {
           "head": {
             "nbt": "{tcc:{id:\"witch_hat\"}}",
-            "item": "minecraft:leather_helmet"
+            "items": [
+              "minecraft:leather_helmet"
+            ]
           }
         }
       }
@@ -20,7 +22,9 @@
         "equipment": {
           "head": {
             "nbt": "{tcc:{id:\"cursed_crown\"}}",
-            "item": "minecraft:golden_helmet"
+            "items": [
+              "minecraft:golden_helmet"
+            ]
           }
         }
       }

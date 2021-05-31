@@ -31,7 +31,9 @@
       "conditions": {
         "location": {
           "block": {
-            "block": "minecraft:spawner"
+            "blocks": [
+              "minecraft:spawner"
+            ]
           }
         },
         "item": {

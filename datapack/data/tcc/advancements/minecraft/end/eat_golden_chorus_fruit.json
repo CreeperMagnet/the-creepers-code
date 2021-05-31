@@ -8,7 +8,8 @@
     "title": {
       "translate": "advancements.tcc.minecraft.end.eat_golden_chorus_fruit.title"
     },
-    "description": [{
+    "description": [
+      {
         "translate": "advancements.tcc.minecraft.end.eat_golden_chorus_fruit.description"
       },
       {

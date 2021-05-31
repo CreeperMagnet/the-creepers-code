@@ -1,10 +1,10 @@
 {
-  "item.minecraft.knowledge_book": "Recipe Output",
+  "item.minecraft.knowledge_book": "§fRecipe Output",
   "block.minecraft.repeating_command_block": "§fObsidian Shard",
 
   "pack.tcc": "The Creeper's Code",
   "pack.tcc.hover_event": "Click here to go to the official website",
-  "pack.tcc.version": "Version 0.5 Beta 8",
+  "pack.tcc.version": "Version 0.5 Beta 9",
   "pack.tcc.version.hover_event": "Click here to see changelog notes",
   "TCC (MISSING RESOURCES)": "%s",
   "The Creeper's Code Resource Pack is not installed. Please go to https://thecreeperscode.com/download.": "%s",
@@ -124,11 +124,11 @@
 
   "item.tcc.compendium.credits.artists": "Artists",
   "item.tcc.compendium.credits.artists.icon": "\ue002",
-  "item.tcc.compendium.credits.artists.description": "%s\n\nNinni: Retextured a whole lot of stuff, HE'S ALSO THE REASON WHY THE SWORDFISH SUCKS SO MUCH\n\nSkaliber: Created the frostbloom textures\n\nPrimalugly: Created some other textures\n\nInsanial: Made the locket of learning texture\n\nFrenderman: Tried to retexture stuff lol\n\nDMTHGM: Made the gobblerift juice animated texture",
+  "item.tcc.compendium.credits.artists.description": "%s\n\nNinni: Retextured a whole lot of stuff\n\nSkaliber: Created the original frostbloom textures\n\nPrimalugly: Created some other textures\n\nInsanial: Made the locket of learning texture\n\nDMTHGM: Made the gobblerift juice animated texture, the snail texture, and the deepslate geomancer pillar textures\n\nIronicalIrony: Made snail in a bucket texture",
 
   "item.tcc.compendium.credits.suggestors": "Suggestors",
   "item.tcc.compendium.credits.suggestors.icon": "\ue003",
-  "item.tcc.compendium.credits.suggestors.description": "%s\n\nPringleBeaver: Suggested too much to list.\n\nDylzMC: Suggested spectral boomerangs\n\nAdequoir: Suggested wither sword lore\n\nLots of random people: Suggested new splashes\n\nDMTHGM: Suggested frostblooms damaging blazes\n\nwoakey: Suggested funny easter egg\n\nDave Hue: Suggested \"more end plants\", the catalyst for the gobblerift",
+  "item.tcc.compendium.credits.suggestors.description": "%s\n\nPringleBeaver: Suggested too much to list.\n\nDylzMC: Suggested spectral boomerangs\n\nAdequoir: Suggested wither sword lore\n\nLots of random people: Suggested new splashes\n\nDMTHGM: Suggested frostblooms damaging blazes\n\nDave Hue: Suggested \"more end plants\", the catalyst for the gobblerift\n\nHinge: Suggested the ability to put snails in cauldrons\n\ntubbawubba: Suggested villagers exploding when they sleep in the nether",
 
   "item.tcc.compendium.credits.inspiration": "Inspiration",
   "item.tcc.compendium.credits.inspiration.icon": "\ue004",
@@ -1315,7 +1315,7 @@
   "commands.tcc.compendium_trigger.spectator": "The compendium cannot be given in spectator mode. Try again in another gamemode.",
   "commands.tcc.initiate": "%s %s is enabled. (?)",
   "commands.tcc.initiate.hover_event": "Click here for help",
-  "commands.tcc.initiate.wrong_version": "\nYou are using TCC on the incorrect version. The correct version is Minecraft Snapshot 21w19a.",
+  "commands.tcc.wrong_version: You are using TCC on the incorrect Minecraft version. Please check the download.": "\nYou are using TCC on the incorrect Minecraft version. Please check the download.",
   "commands.tcc.initiate.wrong_version.title": "WRONG VERSION",
   "commands.tcc.initiate.incompatible": "The world you have loaded is running an older version of The Creeper's Code and will be incompatible. Please create a new world, or proceed at your own risk of broken content.",
   "commands.tcc.terminate": "%s %s data has been uninstalled.\n\n%s",
@@ -1569,6 +1569,7 @@
   "subtitles.tcc.entity.snail.hurt": "Snail hurts",
   "subtitles.tcc.entity.snail.feed": "Snail nibbles",
   "subtitles.tcc.entity.snail.bucket": "Snail captured",
+  "subtitles.tcc.entity.creeper.charged_ambient": "Charged Creeper crackles",
   "subtitles.tcc.block.explosive_geomancer_pillar.explode": "Geomancer's explosive explodes",
   "subtitles.tcc.block.explosive_geomancer_pillar.hiss": "Geomancer's explosive hisses",
   "subtitles.tcc.block.jewelry_table.use": "Jewelry Table used",

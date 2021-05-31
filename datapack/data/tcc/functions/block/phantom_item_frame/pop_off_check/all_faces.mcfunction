@@ -13,4 +13,4 @@ execute if entity @s[tag=tcc.phantom_item_frame.south] run function tcc:block/ph
 execute if entity @s[tag=tcc.phantom_item_frame.west] run function tcc:block/phantom_item_frame/pop_off_check/west
 execute if entity @s[tag=tcc.phantom_item_frame.east] run function tcc:block/phantom_item_frame/pop_off_check/east
 
-execute if block ^ ^ ^-.1 #tcc:phantom_item_frame_allowed/back_not_allowed run scoreboard players set @s tcc.dummy2 1
+execute unless score @s tcc.dummy2 matches 1 if block ^ ^ ^-.1 #tcc:phantom_item_frame_allowed/back_not_allowed run scoreboard players set @s tcc.dummy2 1

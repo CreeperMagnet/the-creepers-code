@@ -19,12 +19,6 @@ execute if data storage tcc:storage root.temp{potion:"minecraft:strength"} run d
 execute if data storage tcc:storage root.temp{potion:"minecraft:long_strength"} run data modify storage tcc:storage root.temp.item.tag.display.Name set value "{\"translate\":\"item.tcc.tipped_sword.wooden.effect.strength\",\"italic\":false}"
 execute if data storage tcc:storage root.temp{potion:"minecraft:strong_strength"} run data modify storage tcc:storage root.temp.item.tag.display.Name set value "{\"translate\":\"item.tcc.tipped_sword.wooden.effect.strength\",\"italic\":false}"
 
-execute if data storage tcc:storage root.temp{potion:"minecraft:healing"} run data modify storage tcc:storage root.temp.item.tag.display.Name set value "{\"translate\":\"item.tcc.tipped_sword.wooden.effect.healing\",\"italic\":false}"
-execute if data storage tcc:storage root.temp{potion:"minecraft:strong_healing"} run data modify storage tcc:storage root.temp.item.tag.display.Name set value "{\"translate\":\"item.tcc.tipped_sword.wooden.effect.healing\",\"italic\":false}"
-
-execute if data storage tcc:storage root.temp{potion:"minecraft:harming"} run data modify storage tcc:storage root.temp.item.tag.display.Name set value "{\"translate\":\"item.tcc.tipped_sword.wooden.effect.harming\",\"italic\":false}"
-execute if data storage tcc:storage root.temp{potion:"minecraft:strong_harming"} run data modify storage tcc:storage root.temp.item.tag.display.Name set value "{\"translate\":\"item.tcc.tipped_sword.wooden.effect.harming\",\"italic\":false}"
-
 execute if data storage tcc:storage root.temp{potion:"minecraft:leaping"} run data modify storage tcc:storage root.temp.item.tag.display.Name set value "{\"translate\":\"item.tcc.tipped_sword.wooden.effect.leaping\",\"italic\":false}"
 execute if data storage tcc:storage root.temp{potion:"minecraft:long_leaping"} run data modify storage tcc:storage root.temp.item.tag.display.Name set value "{\"translate\":\"item.tcc.tipped_sword.wooden.effect.leaping\",\"italic\":false}"
 execute if data storage tcc:storage root.temp{potion:"minecraft:strong_leaping"} run data modify storage tcc:storage root.temp.item.tag.display.Name set value "{\"translate\":\"item.tcc.tipped_sword.wooden.effect.leaping\",\"italic\":false}"
@@ -65,8 +59,6 @@ execute if data storage tcc:storage root.temp{potion:"minecraft:wither"} run dat
 execute if data storage tcc:storage root.temp{potion:"minecraft:health_boost"} run data modify storage tcc:storage root.temp.item.tag.display.Name set value "{\"translate\":\"item.tcc.tipped_sword.wooden.effect.health_boost\",\"italic\":false}"
 
 execute if data storage tcc:storage root.temp{potion:"minecraft:absorption"} run data modify storage tcc:storage root.temp.item.tag.display.Name set value "{\"translate\":\"item.tcc.tipped_sword.wooden.effect.absorption\",\"italic\":false}"
-
-execute if data storage tcc:storage root.temp{potion:"minecraft:saturation"} run data modify storage tcc:storage root.temp.item.tag.display.Name set value "{\"translate\":\"item.tcc.tipped_sword.wooden.effect.saturation\",\"italic\":false}"
 
 execute if data storage tcc:storage root.temp{potion:"minecraft:glowing"} run data modify storage tcc:storage root.temp.item.tag.display.Name set value "{\"translate\":\"item.tcc.tipped_sword.wooden.effect.glowing\",\"italic\":false}"
 

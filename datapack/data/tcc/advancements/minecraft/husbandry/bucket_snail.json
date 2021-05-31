@@ -57,7 +57,9 @@
           }
         ],
         "item": {
-          "item": "minecraft:bucket"
+          "items": [
+            "minecraft:bucket"
+          ]
         },
         "entity": {
           "nbt": "{Tags:[\"tcc.snail\"]}"

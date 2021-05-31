@@ -7,14 +7,18 @@
         "player": {
           "equipment": {
             "head": {
-              "item": "minecraft:golden_helmet",
+              "items": [
+                "minecraft:golden_helmet"
+              ],
               "nbt": "{tcc:{id:\"cursed_crown\"}}"
             }
           }
         },
         "items": [
           {
-            "item": "minecraft:golden_helmet",
+            "items": [
+              "minecraft:golden_helmet"
+            ],
             "nbt": "{tcc:{id:\"cursed_crown\"}}"
           }
         ]

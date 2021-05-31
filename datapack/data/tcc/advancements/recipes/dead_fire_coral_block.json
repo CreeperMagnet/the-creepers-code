@@ -11,7 +11,9 @@
       "conditions": {
         "items": [
           {
-            "item": "minecraft:dead_fire_coral_fan"
+            "items": [
+              "minecraft:dead_fire_coral_fan"
+            ]
           }
         ]
       }
@@ -21,7 +23,9 @@
       "conditions": {
         "items": [
           {
-            "item": "minecraft:dead_fire_coral"
+            "items": [
+              "minecraft:dead_fire_coral"
+            ]
           }
         ]
       }

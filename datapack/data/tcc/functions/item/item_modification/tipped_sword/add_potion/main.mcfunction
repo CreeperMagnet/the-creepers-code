@@ -9,11 +9,8 @@
 
 data modify storage tcc:storage root.temp.item.tag.tcc.potion.durability set value [60,60]
 data modify storage tcc:storage root.temp.item.tag.tcc.potion.custom_name set value 0
-data modify storage tcc:storage root.temp.item.tag.tcc.potion.custom_attributes set value 0
-data modify storage tcc:storage root.temp.item.tag.tcc.potion.custom_hideflags set value 0
 data modify storage tcc:storage root.temp.item.tag.tcc.potion.id set from storage tcc:storage root.temp.potion
 execute if data storage tcc:storage root.temp.item.tag.display.Name run data modify storage tcc:storage root.temp.item.tag.tcc.potion.custom_name set value 1
-execute if data storage tcc:storage root.temp.item.tag.AttributeModifiers run data modify storage tcc:storage root.temp.item.tag.tcc.potion.custom_attributes set value 1
 
 execute unless data storage tcc:storage root.temp.item.tag.display.Name if data storage tcc:storage root.temp.item{id:"minecraft:wooden_sword"} run function tcc:item/item_modification/tipped_sword/add_potion/add_name/wooden
 execute unless data storage tcc:storage root.temp.item.tag.display.Name if data storage tcc:storage root.temp.item{id:"minecraft:stone_sword"} run function tcc:item/item_modification/tipped_sword/add_potion/add_name/stone

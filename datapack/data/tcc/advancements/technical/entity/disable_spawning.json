@@ -4,7 +4,9 @@
       "trigger": "minecraft:item_used_on_block",
       "conditions": {
         "item": {
-          "item": "minecraft:pig_spawn_egg"
+          "items": [
+            "minecraft:pig_spawn_egg"
+          ]
         }
       }
     },
@@ -12,7 +14,9 @@
       "trigger": "minecraft:item_used_on_block",
       "conditions": {
         "item": {
-          "item": "minecraft:witch_spawn_egg"
+          "items": [
+            "minecraft:witch_spawn_egg"
+          ]
         }
       }
     }

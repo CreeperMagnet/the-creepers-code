@@ -10,7 +10,9 @@
     "offsetZ": 1,
     "predicate": {
       "block": {
-        "block": "minecraft:gold_block"
+        "blocks": [
+          "minecraft:gold_block"
+        ]
       }
     }
   },
@@ -21,7 +23,9 @@
     "offsetZ": 1,
     "predicate": {
       "block": {
-        "block": "minecraft:gold_block"
+        "blocks": [
+          "minecraft:gold_block"
+        ]
       }
     }
   },
@@ -32,7 +36,9 @@
     "offsetZ": -1,
     "predicate": {
       "block": {
-        "block": "minecraft:gold_block"
+        "blocks": [
+          "minecraft:gold_block"
+        ]
       }
     }
   },
@@ -43,7 +49,9 @@
     "offsetZ": -1,
     "predicate": {
       "block": {
-        "block": "minecraft:gold_block"
+        "blocks": [
+          "minecraft:gold_block"
+        ]
       }
     }
   }

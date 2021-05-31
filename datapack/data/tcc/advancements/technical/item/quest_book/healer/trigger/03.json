@@ -3,9 +3,11 @@
     "healing_potion": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "items": [{
-          "nbt": "{Potion:\"minecraft:strong_healing\"}"
-        }]
+        "items": [
+          {
+            "nbt": "{Potion:\"minecraft:strong_healing\"}"
+          }
+        ]
       }
     }
   },

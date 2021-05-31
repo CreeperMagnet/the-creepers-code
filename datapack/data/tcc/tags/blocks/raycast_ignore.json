@@ -2,6 +2,11 @@
   "values": [
     "#minecraft:buttons",
     "#minecraft:pressure_plates",
+    "#minecraft:carpets",
+    "#minecraft:flower_pots",
+    "#minecraft:candles",
+    "#minecraft:wall_signs",
+    "#minecraft:rails",
     "#tcc:air",
     "minecraft:vine",
     "minecraft:torch",
@@ -36,6 +41,10 @@
     "minecraft:glow_lichen",
     "minecraft:hanging_roots",
     "minecraft:spore_blossom",
+    "minecraft:wall_torch",
+    "minecraft:soul_wall_torch",
+    "minecraft:redstone_wall_torch",
+    "minecraft:scaffolding",
     {
       "id": "quark:root",
       "required": false

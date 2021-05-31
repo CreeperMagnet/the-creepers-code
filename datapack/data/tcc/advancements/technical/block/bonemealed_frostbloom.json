@@ -4,11 +4,15 @@
       "trigger": "minecraft:item_used_on_block",
       "conditions": {
         "item": {
-          "item": "minecraft:bone_meal"
+          "items": [
+            "minecraft:bone_meal"
+          ]
         },
         "location": {
           "block": {
-            "block": "minecraft:spruce_sapling"
+            "blocks": [
+              "minecraft:spruce_sapling"
+            ]
           }
         }
       }

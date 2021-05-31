@@ -31,7 +31,9 @@
         "offsetZ": 0,
         "predicate": {
           "block": {
-            "block": "minecraft:snow",
+            "blocks": [
+              "minecraft:snow"
+            ],
             "state": {
               "layers": 1
             }
@@ -47,7 +49,9 @@
     "offsetZ": 0,
     "predicate": {
       "block": {
-        "block": "minecraft:end_stone"
+        "blocks": [
+          "minecraft:end_stone"
+        ]
       }
     }
   }

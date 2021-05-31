@@ -14,10 +14,6 @@ execute if data storage tcc:storage root.temp.item{potion:"minecraft:mining_fati
 execute if data storage tcc:storage root.temp.item{potion:"minecraft:strength"} run effect give @s strength 3 0
 execute if data storage tcc:storage root.temp.item{potion:"minecraft:long_strength"} run effect give @s strength 8 0
 execute if data storage tcc:storage root.temp.item{potion:"minecraft:strong_strength"} run effect give @s strength 2 1
-execute if data storage tcc:storage root.temp.item{potion:"minecraft:healing"} run effect give @s instant_health 1 0
-execute if data storage tcc:storage root.temp.item{potion:"minecraft:strong_healing"} run effect give @s instant_health 1 1
-execute if data storage tcc:storage root.temp.item{potion:"minecraft:harming"} run effect give @s instant_damage 1 0
-execute if data storage tcc:storage root.temp.item{potion:"minecraft:strong_harming"} run effect give @s instant_damage 1 1
 execute if data storage tcc:storage root.temp.item{potion:"minecraft:leaping"} run effect give @s jump_boost 3 0
 execute if data storage tcc:storage root.temp.item{potion:"minecraft:long_leaping"} run effect give @s jump_boost 8 0
 execute if data storage tcc:storage root.temp.item{potion:"minecraft:strong_leaping"} run effect give @s jump_boost 2 1
@@ -44,7 +40,6 @@ execute if data storage tcc:storage root.temp.item{potion:"minecraft:strong_pois
 execute if data storage tcc:storage root.temp.item{potion:"minecraft:wither"} run effect give @s wither 4 0
 execute if data storage tcc:storage root.temp.item{potion:"minecraft:health_boost"} run effect give @s health_boost 5 0
 execute if data storage tcc:storage root.temp.item{potion:"minecraft:absorption"} run effect give @s absorption 5 0
-execute if data storage tcc:storage root.temp.item{potion:"minecraft:saturation"} run effect give @s saturation 1 0
 execute if data storage tcc:storage root.temp.item{potion:"minecraft:glowing"} run effect give @s glowing 4 0
 execute if data storage tcc:storage root.temp.item{potion:"minecraft:levitation"} run effect give @s levitation 4 0
 execute if data storage tcc:storage root.temp.item{potion:"minecraft:luck"} run effect give @s luck 5 0

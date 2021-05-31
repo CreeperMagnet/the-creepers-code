@@ -18,11 +18,7 @@ tag @s[scores={tcc.dummy=..1}] add tcc.tag
   execute unless entity @s[tag=tcc.tag] store result storage tcc:storage root.temp.item.tag.tcc.potion.durability[0] int 1 run scoreboard players get @s tcc.dummy
   execute unless entity @s[tag=tcc.tag] run item modify entity @s weapon.mainhand tcc:potion_durability_lore
   execute unless entity @s[tag=tcc.tag] run data modify storage tcc:storage root.temp.item set from entity @s SelectedItem
-  execute unless entity @s[tag=tcc.tag] if data storage tcc:storage root.temp.item.tag.tcc.potion{id:"minecraft:healing"} run data modify storage tcc:storage root.temp.item.tag.display.Lore[-6] set from storage tcc:storage root.temp.item.tag.display.Lore[-1]
-  execute unless entity @s[tag=tcc.tag] if data storage tcc:storage root.temp.item.tag.tcc.potion{id:"minecraft:strong_healing"} run data modify storage tcc:storage root.temp.item.tag.display.Lore[-6] set from storage tcc:storage root.temp.item.tag.display.Lore[-1]
-  execute unless entity @s[tag=tcc.tag] if data storage tcc:storage root.temp.item.tag.tcc.potion{id:"minecraft:harming"} run data modify storage tcc:storage root.temp.item.tag.display.Lore[-6] set from storage tcc:storage root.temp.item.tag.display.Lore[-1]
-  execute unless entity @s[tag=tcc.tag] if data storage tcc:storage root.temp.item.tag.tcc.potion{id:"minecraft:strong_harming"} run data modify storage tcc:storage root.temp.item.tag.display.Lore[-6] set from storage tcc:storage root.temp.item.tag.display.Lore[-1]
-  execute unless entity @s[tag=tcc.tag] unless data storage tcc:storage root.temp.item.tag.tcc.potion{id:"minecraft:healing"} unless data storage tcc:storage root.temp.item.tag.tcc.potion{id:"minecraft:strong_healing"} unless data storage tcc:storage root.temp.item.tag.tcc.potion{id:"minecraft:harming"} unless data storage tcc:storage root.temp.item.tag.tcc.potion{id:"minecraft:strong_harming"} run data modify storage tcc:storage root.temp.item.tag.display.Lore[-2] set from storage tcc:storage root.temp.item.tag.display.Lore[-1]
+  execute unless entity @s[tag=tcc.tag] run data modify storage tcc:storage root.temp.item.tag.display.Lore[-2] set from storage tcc:storage root.temp.item.tag.display.Lore[-1]
   execute unless entity @s[tag=tcc.tag] run data remove storage tcc:storage root.temp.item.tag.display.Lore[-1]
 
 

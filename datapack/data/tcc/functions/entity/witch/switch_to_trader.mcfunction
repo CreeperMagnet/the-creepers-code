@@ -16,4 +16,3 @@ execute as @e[type=wandering_trader,tag=tcc.witch_trader,sort=nearest,limit=1] u
 data modify entity @e[type=wandering_trader,tag=tcc.witch_trader,sort=nearest,limit=1] ArmorItems[1].tag.witch_data set from entity @s
 particle minecraft:witch ~ ~2.5 ~ 0.1 0.5 0.1 0 100 force
 tp ~ -1000 ~
-kill @s

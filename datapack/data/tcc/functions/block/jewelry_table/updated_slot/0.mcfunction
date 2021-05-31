@@ -15,6 +15,5 @@ execute if block ~ ~ ~ hopper{Items:[{Slot:0b}]} unless block ~ ~ ~ hopper{Items
 execute if block ~ ~ ~ hopper{Items:[{Slot:0b,tag:{tcc:{id:"ring",gemstone:{}}}},{Slot:1b}]} run function tcc:block/jewelry_table/export_slot/1_check_gemstone
 execute if block ~ ~ ~ hopper{Items:[{Slot:0b,tag:{tcc:{id:"ring",potion:{}}}},{Slot:2b,id:"minecraft:lingering_potion"}]} run function tcc:block/jewelry_table/export_slot/2
 execute if block ~ ~ ~ hopper{Items:[{Slot:0b},{Slot:3b}]} run tag @s add tcc.jewelry_table.needs_to_assemble
-execute if block ~ ~ ~ hopper{Items:[{Slot:0b},{Slot:1b},{Slot:3b,Count:64b}]} run playsound tcc:block.jewelry_table.pristine block @a[distance=..16,tag=tcc.inside_jewelry_table_gui]
 
 execute unless block ~ ~ ~ hopper{Items:[{Slot:0b}]} run function tcc:block/jewelry_table/export_slot/clear_output

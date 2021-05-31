@@ -5,7 +5,9 @@
       "conditions": {
         "location": {
           "block": {
-            "block": "minecraft:spawner"
+            "blocks": [
+              "minecraft:spawner"
+            ]
           }
         },
         "item": {
@@ -19,11 +21,15 @@
       "conditions": {
         "location": {
           "block": {
-            "block": "minecraft:spawner"
+            "blocks": [
+              "minecraft:spawner"
+            ]
           }
         },
         "item": {
-          "item": "minecraft:pig_spawn_egg"
+          "items": [
+            "minecraft:pig_spawn_egg"
+          ]
         }
       }
     },
@@ -32,11 +38,15 @@
       "conditions": {
         "location": {
           "block": {
-            "block": "minecraft:spawner"
+            "blocks": [
+              "minecraft:spawner"
+            ]
           }
         },
         "item": {
-          "item": "minecraft:witch_spawn_egg"
+          "items": [
+            "minecraft:witch_spawn_egg"
+          ]
         }
       }
     },
@@ -45,7 +55,9 @@
       "conditions": {
         "location": {
           "block": {
-            "block": "minecraft:spawner"
+            "blocks": [
+              "minecraft:spawner"
+            ]
           }
         },
         "item": {
@@ -58,7 +70,9 @@
       "conditions": {
         "location": {
           "block": {
-            "block": "minecraft:spawner"
+            "blocks": [
+              "minecraft:spawner"
+            ]
           }
         },
         "item": {
@@ -71,7 +85,9 @@
       "conditions": {
         "location": {
           "block": {
-            "block": "minecraft:spawner"
+            "blocks": [
+              "minecraft:spawner"
+            ]
           }
         },
         "item": {
@@ -84,7 +100,9 @@
       "conditions": {
         "location": {
           "block": {
-            "block": "minecraft:spawner"
+            "blocks": [
+              "minecraft:spawner"
+            ]
           }
         },
         "item": {

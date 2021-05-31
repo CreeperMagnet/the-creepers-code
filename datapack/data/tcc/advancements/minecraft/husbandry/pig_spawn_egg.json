@@ -7,7 +7,8 @@
     "title": {
       "translate": "advancements.tcc.minecraft.husbandry.pig_spawn_egg.title"
     },
-    "description": [{
+    "description": [
+      {
         "translate": "advancements.tcc.minecraft.husbandry.pig_spawn_egg.description"
       },
       {
@@ -28,9 +29,13 @@
     "pig_spawn_egg": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "items": [{
-          "item": "minecraft:pig_spawn_egg"
-        }]
+        "items": [
+          {
+            "items": [
+              "minecraft:pig_spawn_egg"
+            ]
+          }
+        ]
       }
     }
   }

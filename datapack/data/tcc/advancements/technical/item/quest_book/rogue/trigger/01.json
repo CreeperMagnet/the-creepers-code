@@ -3,9 +3,11 @@
     "has_feather_falling": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "items": [{
-          "nbt": "{Enchantments:[{id:\"minecraft:feather_falling\"}]}"
-        }]
+        "items": [
+          {
+            "nbt": "{Enchantments:[{id:\"minecraft:feather_falling\"}]}"
+          }
+        ]
       }
     }
   },

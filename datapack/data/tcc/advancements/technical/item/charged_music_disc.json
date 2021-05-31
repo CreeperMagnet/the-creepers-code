@@ -2,21 +2,22 @@
   "rewards": {
     "function": "tcc:item/charged_music_disc"
   },
-  "requirements": [
-    ["music_disc_13", "music_disc_cat", "music_disc_blocks", "music_disc_far", "music_disc_chirp", "music_disc_mall", "music_disc_mellohi", "music_disc_stal", "music_disc_strad", "music_disc_ward", "music_disc_11", "music_disc_wait", "music_disc_pigstep"]
-  ],
   "criteria": {
     "music_disc_13": {
       "trigger": "minecraft:item_used_on_block",
       "conditions": {
         "location": {
           "block": {
-            "block": "minecraft:jukebox",
+            "blocks": [
+              "minecraft:jukebox"
+            ],
             "nbt": "{RecordItem:{tag:{tcc:{id:\"charged_music_disc\"}}}}"
           }
         },
         "item": {
-          "item": "minecraft:music_disc_13",
+          "items": [
+            "minecraft:music_disc_13"
+          ],
           "nbt": "{tcc:{id:\"charged_music_disc\"}}"
         }
       }
@@ -26,12 +27,16 @@
       "conditions": {
         "location": {
           "block": {
-            "block": "minecraft:jukebox",
+            "blocks": [
+              "minecraft:jukebox"
+            ],
             "nbt": "{RecordItem:{tag:{tcc:{id:\"charged_music_disc\"}}}}"
           }
         },
         "item": {
-          "item": "minecraft:music_disc_cat",
+          "items": [
+            "minecraft:music_disc_cat"
+          ],
           "nbt": "{tcc:{id:\"charged_music_disc\"}}"
         }
       }
@@ -41,12 +46,16 @@
       "conditions": {
         "location": {
           "block": {
-            "block": "minecraft:jukebox",
+            "blocks": [
+              "minecraft:jukebox"
+            ],
             "nbt": "{RecordItem:{tag:{tcc:{id:\"charged_music_disc\"}}}}"
           }
         },
         "item": {
-          "item": "minecraft:music_disc_blocks",
+          "items": [
+            "minecraft:music_disc_blocks"
+          ],
           "nbt": "{tcc:{id:\"charged_music_disc\"}}"
         }
       }
@@ -56,12 +65,16 @@
       "conditions": {
         "location": {
           "block": {
-            "block": "minecraft:jukebox",
+            "blocks": [
+              "minecraft:jukebox"
+            ],
             "nbt": "{RecordItem:{tag:{tcc:{id:\"charged_music_disc\"}}}}"
           }
         },
         "item": {
-          "item": "minecraft:music_disc_chirp",
+          "items": [
+            "minecraft:music_disc_chirp"
+          ],
           "nbt": "{tcc:{id:\"charged_music_disc\"}}"
         }
       }
@@ -71,12 +84,16 @@
       "conditions": {
         "location": {
           "block": {
-            "block": "minecraft:jukebox",
+            "blocks": [
+              "minecraft:jukebox"
+            ],
             "nbt": "{RecordItem:{tag:{tcc:{id:\"charged_music_disc\"}}}}"
           }
         },
         "item": {
-          "item": "minecraft:music_disc_far",
+          "items": [
+            "minecraft:music_disc_far"
+          ],
           "nbt": "{tcc:{id:\"charged_music_disc\"}}"
         }
       }
@@ -86,12 +103,16 @@
       "conditions": {
         "location": {
           "block": {
-            "block": "minecraft:jukebox",
+            "blocks": [
+              "minecraft:jukebox"
+            ],
             "nbt": "{RecordItem:{tag:{tcc:{id:\"charged_music_disc\"}}}}"
           }
         },
         "item": {
-          "item": "minecraft:music_disc_mall",
+          "items": [
+            "minecraft:music_disc_mall"
+          ],
           "nbt": "{tcc:{id:\"charged_music_disc\"}}"
         }
       }
@@ -101,12 +122,16 @@
       "conditions": {
         "location": {
           "block": {
-            "block": "minecraft:jukebox",
+            "blocks": [
+              "minecraft:jukebox"
+            ],
             "nbt": "{RecordItem:{tag:{tcc:{id:\"charged_music_disc\"}}}}"
           }
         },
         "item": {
-          "item": "minecraft:music_disc_mellohi",
+          "items": [
+            "minecraft:music_disc_mellohi"
+          ],
           "nbt": "{tcc:{id:\"charged_music_disc\"}}"
         }
       }
@@ -116,12 +141,16 @@
       "conditions": {
         "location": {
           "block": {
-            "block": "minecraft:jukebox",
+            "blocks": [
+              "minecraft:jukebox"
+            ],
             "nbt": "{RecordItem:{tag:{tcc:{id:\"charged_music_disc\"}}}}"
           }
         },
         "item": {
-          "item": "minecraft:music_disc_stal",
+          "items": [
+            "minecraft:music_disc_stal"
+          ],
           "nbt": "{tcc:{id:\"charged_music_disc\"}}"
         }
       }
@@ -131,12 +160,16 @@
       "conditions": {
         "location": {
           "block": {
-            "block": "minecraft:jukebox",
+            "blocks": [
+              "minecraft:jukebox"
+            ],
             "nbt": "{RecordItem:{tag:{tcc:{id:\"charged_music_disc\"}}}}"
           }
         },
         "item": {
-          "item": "minecraft:music_disc_strad",
+          "items": [
+            "minecraft:music_disc_strad"
+          ],
           "nbt": "{tcc:{id:\"charged_music_disc\"}}"
         }
       }
@@ -146,12 +179,16 @@
       "conditions": {
         "location": {
           "block": {
-            "block": "minecraft:jukebox",
+            "blocks": [
+              "minecraft:jukebox"
+            ],
             "nbt": "{RecordItem:{tag:{tcc:{id:\"charged_music_disc\"}}}}"
           }
         },
         "item": {
-          "item": "minecraft:music_disc_ward",
+          "items": [
+            "minecraft:music_disc_ward"
+          ],
           "nbt": "{tcc:{id:\"charged_music_disc\"}}"
         }
       }
@@ -161,12 +198,16 @@
       "conditions": {
         "location": {
           "block": {
-            "block": "minecraft:jukebox",
+            "blocks": [
+              "minecraft:jukebox"
+            ],
             "nbt": "{RecordItem:{tag:{tcc:{id:\"charged_music_disc\"}}}}"
           }
         },
         "item": {
-          "item": "minecraft:music_disc_11",
+          "items": [
+            "minecraft:music_disc_11"
+          ],
           "nbt": "{tcc:{id:\"charged_music_disc\"}}"
         }
       }
@@ -176,12 +217,16 @@
       "conditions": {
         "location": {
           "block": {
-            "block": "minecraft:jukebox",
+            "blocks": [
+              "minecraft:jukebox"
+            ],
             "nbt": "{RecordItem:{tag:{tcc:{id:\"charged_music_disc\"}}}}"
           }
         },
         "item": {
-          "item": "minecraft:music_disc_wait",
+          "items": [
+            "minecraft:music_disc_wait"
+          ],
           "nbt": "{tcc:{id:\"charged_music_disc\"}}"
         }
       }
@@ -191,15 +236,36 @@
       "conditions": {
         "location": {
           "block": {
-            "block": "minecraft:jukebox",
+            "blocks": [
+              "minecraft:jukebox"
+            ],
             "nbt": "{RecordItem:{tag:{tcc:{id:\"charged_music_disc\"}}}}"
           }
         },
         "item": {
-          "item": "minecraft:music_disc_pigstep",
+          "items": [
+            "minecraft:music_disc_pigstep"
+          ],
           "nbt": "{tcc:{id:\"charged_music_disc\"}}"
         }
       }
     }
-  }
+  },
+  "requirements": [
+    [
+      "music_disc_13",
+      "music_disc_cat",
+      "music_disc_blocks",
+      "music_disc_far",
+      "music_disc_chirp",
+      "music_disc_mall",
+      "music_disc_mellohi",
+      "music_disc_stal",
+      "music_disc_strad",
+      "music_disc_ward",
+      "music_disc_11",
+      "music_disc_wait",
+      "music_disc_pigstep"
+    ]
+  ]
 }

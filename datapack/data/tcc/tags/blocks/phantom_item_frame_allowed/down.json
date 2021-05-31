@@ -27,7 +27,7 @@
         "minecraft:composter",
         "minecraft:stonecutter",
         "minecraft:cake",
-        "minecraft:flower_pot",
+        "#minecraft:flower_pots",
         "minecraft:farmland",
         "minecraft:dirt_path",
         "minecraft:honey_block",

@@ -7,7 +7,8 @@
     "title": {
       "translate": "advancements.tcc.minecraft.end.use_positional_anchor.title"
     },
-    "description": [{
+    "description": [
+      {
         "translate": "advancements.tcc.minecraft.end.use_positional_anchor.description"
       },
       {
@@ -27,11 +28,15 @@
       "trigger": "minecraft:item_used_on_block",
       "conditions": {
         "item": {
-          "item": "minecraft:ender_pearl"
+          "items": [
+            "minecraft:ender_pearl"
+          ]
         },
         "location": {
           "block": {
-            "block": "minecraft:dropper",
+            "blocks": [
+              "minecraft:dropper"
+            ],
             "nbt": "{Lock:\"positional_anchor\\\\uF001\"}"
           }
         }

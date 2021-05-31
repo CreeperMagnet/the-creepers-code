@@ -8,7 +8,9 @@
           "type": "#tcc:wears_helmets"
         },
         "item": {
-          "item": "minecraft:leather_helmet",
+          "items": [
+            "minecraft:leather_helmet"
+          ],
           "nbt": "{tcc:{id:\"witch_hat\"}}"
         }
       }
@@ -17,7 +19,9 @@
       "trigger": "minecraft:player_interacted_with_entity",
       "conditions": {
         "item": {
-          "item": "minecraft:leather_helmet",
+          "items": [
+            "minecraft:leather_helmet"
+          ],
           "nbt": "{tcc:{id:\"witch_hat\"}}"
         },
         "entity": {
@@ -32,7 +36,9 @@
           "type": "#tcc:wears_helmets"
         },
         "item": {
-          "item": "minecraft:golden_helmet",
+          "items": [
+            "minecraft:golden_helmet"
+          ],
           "nbt": "{tcc:{id:\"cursed_crown\"}}"
         }
       }
@@ -41,7 +47,9 @@
       "trigger": "minecraft:player_interacted_with_entity",
       "conditions": {
         "item": {
-          "item": "minecraft:golden_helmet",
+          "items": [
+            "minecraft:golden_helmet"
+          ],
           "nbt": "{tcc:{id:\"cursed_crown\"}}"
         },
         "entity": {

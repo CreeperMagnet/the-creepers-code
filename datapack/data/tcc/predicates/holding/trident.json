@@ -1,11 +1,13 @@
 {
-    "condition": "minecraft:entity_properties",
-    "entity": "this",
-    "predicate": {
-      "equipment": {
-        "mainhand": {
-          "item": "minecraft:trident"
-        }
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "equipment": {
+      "mainhand": {
+        "items": [
+          "minecraft:trident"
+        ]
       }
     }
   }
+}

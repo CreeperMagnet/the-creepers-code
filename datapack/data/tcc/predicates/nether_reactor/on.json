@@ -10,7 +10,9 @@
     "offsetZ": 1,
     "predicate": {
       "block": {
-        "block": "minecraft:gilded_blackstone"
+        "blocks": [
+          "minecraft:gilded_blackstone"
+        ]
       }
     }
   },
@@ -21,7 +23,9 @@
     "offsetZ": 1,
     "predicate": {
       "block": {
-        "block": "minecraft:gilded_blackstone"
+        "blocks": [
+          "minecraft:gilded_blackstone"
+        ]
       }
     }
   },
@@ -32,7 +36,9 @@
     "offsetZ": -1,
     "predicate": {
       "block": {
-        "block": "minecraft:gilded_blackstone"
+        "blocks": [
+          "minecraft:gilded_blackstone"
+        ]
       }
     }
   },
@@ -43,7 +49,9 @@
     "offsetZ": -1,
     "predicate": {
       "block": {
-        "block": "minecraft:gilded_blackstone"
+        "blocks": [
+          "minecraft:gilded_blackstone"
+        ]
       }
     }
   }

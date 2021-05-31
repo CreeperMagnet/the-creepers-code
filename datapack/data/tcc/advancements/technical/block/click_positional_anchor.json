@@ -5,7 +5,9 @@
       "conditions": {
         "location": {
           "block": {
-            "block": "minecraft:dropper",
+            "blocks": [
+              "minecraft:dropper"
+            ],
             "nbt": "{Lock:\"positional_anchor\\\\uF001\"}"
           }
         }
@@ -16,7 +18,9 @@
       "conditions": {
         "location": {
           "block": {
-            "block": "minecraft:dropper",
+            "blocks": [
+              "minecraft:dropper"
+            ],
             "nbt": "{Lock:\"positional_anchor_filled\\\\uF001\"}"
           }
         }
@@ -24,7 +28,10 @@
     }
   },
   "requirements": [
-    ["normal", "filled"]
+    [
+      "normal",
+      "filled"
+    ]
   ],
   "rewards": {
     "function": "tcc:block/positional_anchor/stop_sound"

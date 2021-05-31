@@ -1,102 +1,122 @@
 {
   "type": "minecraft:block",
-  "pools": [{
-    "rolls": 1,
-    "entries": [{
-      "type": "minecraft:alternatives",
-      "children": [{
-          "type": "minecraft:item",
-          "name": "minecraft:cake",
-          "functions": [{
-              "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:330000}",
-              "conditions": [{
-                "condition": "minecraft:block_state_property",
-                "block": "minecraft:cake",
-                "properties": {
-                  "bites": "1"
-                }
-              }]
-            },
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:330001}",
-              "conditions": [{
-                "condition": "minecraft:block_state_property",
-                "block": "minecraft:cake",
-                "properties": {
-                  "bites": "2"
-                }
-              }]
-            },
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:330002}",
-              "conditions": [{
-                "condition": "minecraft:block_state_property",
-                "block": "minecraft:cake",
-                "properties": {
-                  "bites": "3"
-                }
-              }]
-            },
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:330003}",
-              "conditions": [{
-                "condition": "minecraft:block_state_property",
-                "block": "minecraft:cake",
-                "properties": {
-                  "bites": "4"
-                }
-              }]
-            },
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:330004}",
-              "conditions": [{
-                "condition": "minecraft:block_state_property",
-                "block": "minecraft:cake",
-                "properties": {
-                  "bites": "5"
-                }
-              }]
-            },
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:330005}",
-              "conditions": [{
-                "condition": "minecraft:block_state_property",
-                "block": "minecraft:cake",
-                "properties": {
-                  "bites": "6"
-                }
-              }]
-            },
-            {
-              "function": "minecraft:copy_state",
-              "block": "minecraft:cake",
-              "properties": [
-                "bites"
-              ]
-            }
-          ],
-          "conditions": [{
-            "condition": "minecraft:inverted",
-            "term": {
-              "condition": "minecraft:block_state_property",
-              "block": "minecraft:cake",
-              "properties": {
-                "bites": "0"
-              }
-            }
-          }]
-        },
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:cake"
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:cake",
+              "functions": [
+                {
+                  "function": "minecraft:set_nbt",
+                  "tag": "{CustomModelData:330000}",
+                  "conditions": [
+                    {
+                      "condition": "minecraft:block_state_property",
+                      "block": "minecraft:cake",
+                      "properties": {
+                        "bites": "1"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "function": "minecraft:set_nbt",
+                  "tag": "{CustomModelData:330001}",
+                  "conditions": [
+                    {
+                      "condition": "minecraft:block_state_property",
+                      "block": "minecraft:cake",
+                      "properties": {
+                        "bites": "2"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "function": "minecraft:set_nbt",
+                  "tag": "{CustomModelData:330002}",
+                  "conditions": [
+                    {
+                      "condition": "minecraft:block_state_property",
+                      "block": "minecraft:cake",
+                      "properties": {
+                        "bites": "3"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "function": "minecraft:set_nbt",
+                  "tag": "{CustomModelData:330003}",
+                  "conditions": [
+                    {
+                      "condition": "minecraft:block_state_property",
+                      "block": "minecraft:cake",
+                      "properties": {
+                        "bites": "4"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "function": "minecraft:set_nbt",
+                  "tag": "{CustomModelData:330004}",
+                  "conditions": [
+                    {
+                      "condition": "minecraft:block_state_property",
+                      "block": "minecraft:cake",
+                      "properties": {
+                        "bites": "5"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "function": "minecraft:set_nbt",
+                  "tag": "{CustomModelData:330005}",
+                  "conditions": [
+                    {
+                      "condition": "minecraft:block_state_property",
+                      "block": "minecraft:cake",
+                      "properties": {
+                        "bites": "6"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "function": "minecraft:copy_state",
+                  "block": "minecraft:cake",
+                  "properties": [
+                    "bites"
+                  ]
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:inverted",
+                  "term": {
+                    "condition": "minecraft:block_state_property",
+                    "block": "minecraft:cake",
+                    "properties": {
+                      "bites": "0"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:cake"
+            }
+          ]
         }
       ]
-    }]
-  }]
+    }
+  ]
 }

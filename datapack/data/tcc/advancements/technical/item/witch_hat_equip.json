@@ -7,14 +7,18 @@
         "player": {
           "equipment": {
             "head": {
-              "item": "minecraft:leather_helmet",
+              "items": [
+                "minecraft:leather_helmet"
+              ],
               "nbt": "{tcc:{id:\"witch_hat\"}}"
             }
           }
         },
         "items": [
           {
-            "item": "minecraft:leather_helmet",
+            "items": [
+              "minecraft:leather_helmet"
+            ],
             "nbt": "{tcc:{id:\"witch_hat\"}}"
           }
         ]

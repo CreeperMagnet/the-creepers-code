@@ -21,7 +21,9 @@
           }
         ],
         "item": {
-          "item": "minecraft:air"
+          "items": [
+            "minecraft:air"
+          ]
         },
         "entity": {
           "type": "#tcc:horses"

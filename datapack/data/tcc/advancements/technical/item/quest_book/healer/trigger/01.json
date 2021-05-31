@@ -3,9 +3,13 @@
     "golden_apple": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "items": [{
-          "item": "minecraft:golden_apple"
-        }]
+        "items": [
+          {
+            "items": [
+              "minecraft:golden_apple"
+            ]
+          }
+        ]
       }
     }
   },

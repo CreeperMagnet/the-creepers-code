@@ -11,7 +11,9 @@
       "conditions": {
         "items": [
           {
-            "item": "minecraft:tube_coral_fan"
+            "items": [
+              "minecraft:tube_coral_fan"
+            ]
           }
         ]
       }
@@ -21,7 +23,9 @@
       "conditions": {
         "items": [
           {
-            "item": "minecraft:tube_coral"
+            "items": [
+              "minecraft:tube_coral"
+            ]
           }
         ]
       }

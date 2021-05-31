@@ -1,32 +1,34 @@
 {
-    "parent": "tcc:recipes/root",
-    "rewards": {
-      "recipes": [
-        "tcc:obsidian_from_crying"
-      ]
-    },
-    "criteria": {
-      "has_crying_obsidian": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "item": "minecraft:crying_obsidian"
-            }
-          ]
-        }
-      },
-      "has_the_recipe": {
-        "trigger": "minecraft:recipe_unlocked",
-        "conditions": {
-          "recipe": "tcc:obsidian_from_crying"
-        }
+  "parent": "tcc:recipes/root",
+  "rewards": {
+    "recipes": [
+      "tcc:obsidian_from_crying"
+    ]
+  },
+  "criteria": {
+    "has_crying_obsidian": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:crying_obsidian"
+            ]
+          }
+        ]
       }
     },
-    "requirements": [
-      [
-        "has_crying_obsidian",
-        "has_the_recipe"
-      ]
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "tcc:obsidian_from_crying"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_crying_obsidian",
+      "has_the_recipe"
     ]
-  }
+  ]
+}

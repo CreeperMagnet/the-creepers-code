@@ -17,7 +17,7 @@
         "minecraft:brewing_stand",
         "#tcc:ground_heads",
         "minecraft:cake",
-        "minecraft:flower_pot",
+        "#minecraft:flower_pots",
         "minecraft:bamboo",
         "#tcc:horizontally_connectable",
         "minecraft:cactus",

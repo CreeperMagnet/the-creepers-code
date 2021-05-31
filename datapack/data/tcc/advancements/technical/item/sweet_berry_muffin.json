@@ -1,16 +1,16 @@
 {
-    "criteria": {
-        "ate_sweet_berry_muffin": {
-            "trigger": "minecraft:consume_item",
-            "conditions": {
-                "item": {
-                   "nbt": "{tcc:{id:\"sweet_berry_muffin\"}}"
-                }
-            }
+  "criteria": {
+    "ate_sweet_berry_muffin": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "nbt": "{tcc:{id:\"sweet_berry_muffin\"}}"
         }
-    },
-    "rewards": {
-        "function": "tcc:item/sweet_berry_muffin"
-    },
-    "parent": "tcc:technical/root"
+      }
+    }
+  },
+  "rewards": {
+    "function": "tcc:item/sweet_berry_muffin"
+  },
+  "parent": "tcc:technical/root"
 }

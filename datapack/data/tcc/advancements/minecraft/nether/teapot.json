@@ -7,7 +7,8 @@
     "title": {
       "translate": "advancements.tcc.minecraft.nether.teapot.title"
     },
-    "description": [{
+    "description": [
+      {
         "translate": "advancements.tcc.minecraft.nether.teapot.description"
       },
       {
@@ -146,6 +147,18 @@
     }
   },
   "requirements": [
-    ["antitoxin", "clearsight", "obscurity", "plenty", "purity", "serendipity", "stability", "vigor", "vitality", "vivacity", "amenable"]
+    [
+      "antitoxin",
+      "clearsight",
+      "obscurity",
+      "plenty",
+      "purity",
+      "serendipity",
+      "stability",
+      "vigor",
+      "vitality",
+      "vivacity",
+      "amenable"
+    ]
   ]
 }

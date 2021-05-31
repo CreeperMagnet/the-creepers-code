@@ -7,7 +7,8 @@
     "title": {
       "translate": "advancements.tcc.minecraft.husbandry.swordfish.title"
     },
-    "description": [{
+    "description": [
+      {
         "translate": "advancements.tcc.minecraft.husbandry.swordfish.description"
       },
       {
@@ -26,9 +27,11 @@
     "swordfish": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "items": [{
-          "nbt": "{tcc:{id:\"swordfish\"}}"
-        }]
+        "items": [
+          {
+            "nbt": "{tcc:{id:\"swordfish\"}}"
+          }
+        ]
       }
     }
   }

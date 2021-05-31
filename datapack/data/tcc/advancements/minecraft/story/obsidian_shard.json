@@ -30,7 +30,9 @@
       "conditions": {
         "items": [
           {
-            "item": "minecraft:repeating_command_block"
+            "items": [
+              "minecraft:repeating_command_block"
+            ]
           }
         ]
       }

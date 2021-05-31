@@ -1,19 +1,21 @@
 {
-    "criteria": {
-        "has_rotten_flesh_stack": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "item": "minecraft:rotten_flesh",
-                        "count": 64
-                    }
-                ]
-            }
-        }
-    },
-    "rewards": {
-        "function": "tcc:item/quest_book/warrior/trigger/06"
-    },
-    "parent": "tcc:technical/root"
+  "criteria": {
+    "has_rotten_flesh_stack": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:rotten_flesh"
+            ],
+            "count": 64
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "tcc:item/quest_book/warrior/trigger/06"
+  },
+  "parent": "tcc:technical/root"
 }

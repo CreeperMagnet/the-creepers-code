@@ -3,6 +3,7 @@
     "#minecraft:fire",
     "#tcc:air",
     "minecraft:water",
+    "minecraft:bubble_column",
     "minecraft:lava",
     "minecraft:grass",
     "minecraft:tall_grass",
@@ -16,6 +17,8 @@
     "minecraft:crimson_roots",
     "minecraft:warped_roots",
     "minecraft:nether_sprouts",
-    "minecraft:snow"
+    "minecraft:snow",
+    "minecraft:hanging_roots",
+    "minecraft:glow_lichen"
   ]
 }

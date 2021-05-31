@@ -14,4 +14,3 @@ execute if block ~ ~ ~ minecraft:hopper{Items:[{tag:{tcc:{id:"ring",gemstone:{}}
 execute if block ~ ~ ~ minecraft:hopper{Items:[{Slot:1b}]} unless block ~ ~ ~ hopper{Items:[{tag:{tcc:{id:"gemstone"}},Slot:1b}]} unless block ~ ~ ~ hopper{Items:[{id:"minecraft:end_crystal",Slot:1b}]} run function tcc:block/jewelry_table/export_slot/1
 
 execute if block ~ ~ ~ minecraft:hopper{Items:[{Slot:0b},{Slot:3b}]} run tag @s add tcc.jewelry_table.needs_to_assemble
-execute if block ~ ~ ~ minecraft:hopper{Items:[{Slot:0b},{Slot:1b},{Slot:3b,Count:64b}]} run playsound tcc:block.jewelry_table.pristine block @a[distance=..16,tag=tcc.inside_jewelry_table_gui]

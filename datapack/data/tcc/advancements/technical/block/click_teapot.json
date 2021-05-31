@@ -5,7 +5,9 @@
       "trigger": "minecraft:player_interacted_with_entity",
       "conditions": {
         "item": {
-          "item": "minecraft:potion",
+          "items": [
+            "minecraft:potion"
+          ],
           "nbt": "{Potion:\"minecraft:water\"}"
         },
         "entity": {
@@ -25,7 +27,9 @@
       "trigger": "minecraft:player_interacted_with_entity",
       "conditions": {
         "item": {
-          "item": "minecraft:glass_bottle"
+          "items": [
+            "minecraft:glass_bottle"
+          ]
         },
         "entity": {
           "nbt": "{Tags:[\"tcc.teapot.filled_water\"]}",

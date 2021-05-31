@@ -1,16 +1,16 @@
 {
-    "criteria": {
-        "ate_rotten_porkchop": {
-            "trigger": "minecraft:consume_item",
-            "conditions": {
-                "item": {
-                   "nbt": "{tcc:{id:\"rotten_porkchop\"}}"
-                }
-            }
+  "criteria": {
+    "ate_rotten_porkchop": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "nbt": "{tcc:{id:\"rotten_porkchop\"}}"
         }
-    },
-    "rewards": {
-        "function": "tcc:item/rotten_porkchop/eat"
-    },
-    "parent": "tcc:technical/root"
+      }
+    }
+  },
+  "rewards": {
+    "function": "tcc:item/rotten_porkchop/eat"
+  },
+  "parent": "tcc:technical/root"
 }

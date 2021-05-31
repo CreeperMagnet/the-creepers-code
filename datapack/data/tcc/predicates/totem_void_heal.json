@@ -1,4 +1,5 @@
-[{
+[
+  {
     "condition": "minecraft:location_check",
     "predicate": {
       "position": {
@@ -11,13 +12,16 @@
   },
   {
     "condition": "minecraft:alternative",
-    "terms": [{
+    "terms": [
+      {
         "condition": "minecraft:entity_properties",
         "entity": "this",
         "predicate": {
           "equipment": {
             "mainhand": {
-              "item": "minecraft:totem_of_undying"
+              "items": [
+                "minecraft:totem_of_undying"
+              ]
             }
           }
         }
@@ -28,7 +32,9 @@
         "predicate": {
           "equipment": {
             "offhand": {
-              "item": "minecraft:totem_of_undying"
+              "items": [
+                "minecraft:totem_of_undying"
+              ]
             }
           }
         }

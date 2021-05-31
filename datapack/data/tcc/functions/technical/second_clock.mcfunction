@@ -13,14 +13,13 @@ execute as @e[type=area_effect_cloud,tag=!global.ignore,tag=!tcc.aec.no_potion,t
 execute as @e[type=#tcc:needs_processing,tag=!global.ignore,tag=!tcc.modified_vanilla_entity] at @s run function tcc:entity/processing/main
 
 ## Villager Trade Edits
-execute as @e[type=villager,tag=!global.ignore,nbt={Offers:{Recipes:[{buy:{tag:{tcc:{id:"cycler_trade"}}},uses:0}]}}] at @s run function tcc:entity/villager/increment_cycling
 execute as @e[type=villager,tag=tcc.modified_vanilla_entity,predicate=tcc:modify_villager] unless data entity @s Offers.Recipes run tag @s remove tcc.modified_vanilla_entity
 
 ## Peculiar Berries
 execute as @e[type=chicken,tag=tcc.peculiar_chicken] at @s run function tcc:item/peculiar_berries/lay_test
 
 ## Player second_clock
-execute as @a[] at @s run function tcc:entity/player/second_clock
+execute as @a at @s run function tcc:entity/player/second_clock
 
 ## Entity second_clock
 execute as @e[tag=tcc.entity] at @s run function tcc:entity/second_clock
@@ -28,6 +27,6 @@ execute as @e[tag=tcc.entity] at @s run function tcc:entity/second_clock
 ## Witch trader check
 execute as @e[type=witch,tag=!global.ignore,tag=!global.ignore.kill] at @s run function tcc:entity/witch/second_clock
 
-schedule function tcc:technical/second_clock 1s replace
-
 execute as @e[type=villager,predicate=tcc:in_nether_or_end] if data entity @s SleepingX at @s run function tcc:entity/villager/blow_up
+
+schedule function tcc:technical/second_clock 1s replace

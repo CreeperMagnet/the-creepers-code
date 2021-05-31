@@ -1,7 +1,6 @@
 {
 	"textures": {
-		"0": "tcc:entity/enchanter",
-		"particle": "tcc:entity/enchanter"
+		"0": "tcc:entity/enchanter"
 	},
 	"elements": [
 		{
@@ -76,31 +75,9 @@
 		}
 	],
 	"display": {
-		"firstperson_righthand": {
-			"rotation": [-16, -180, 0],
-			"translation": [-0.5, 2.75, 1],
-			"scale": [0.3, 0.3, 0.3]
-		},
-		"firstperson_lefthand": {
-			"rotation": [-16, -180, 0],
-			"translation": [-0.5, 2.75, 1],
-			"scale": [0.3, 0.3, 0.3]
-		},
-		"ground": {
-			"translation": [0, 11.25, 0]
-		},
-		"gui": {
-			"rotation": [-30, -180, 21],
-			"translation": [-1.25, -1.75, 0],
-			"scale": [0.4, 0.4, 0.4]
-		},
 		"head": {
-			"translation": [0, -22.4, 0],
-			"scale": [1.6, 1.6, 1.6]
-		},
-		"fixed": {
-			"translation": [4, 0, 17.25],
-			"scale": [4, 4, 4]
+			"translation": [0, -22.4125, 0],
+			"scale": [1.601, 1.601, 1.601]
 		}
 	}
 }

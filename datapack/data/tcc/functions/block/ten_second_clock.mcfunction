@@ -3,9 +3,6 @@
 # Creator: CreeperMagnet_
 ############################################################
 
-## Blocks that need to be on fire
-data merge entity @s[tag=tcc.fire] {Fire:32767s}
-
 ## Teapot
 execute if entity @s[type=villager,tag=tcc.teapot] run function tcc:block/teapot/ten_second_clock
 

@@ -19,12 +19,6 @@ effect give @s[advancements={tcc:technical/item/entity_with_tipped_sword={minecr
 effect give @s[advancements={tcc:technical/item/entity_with_tipped_sword={minecraft_long_strength=true}}] strength 8 0
 effect give @s[advancements={tcc:technical/item/entity_with_tipped_sword={minecraft_strong_strength=true}}] strength 2 1
 
-effect give @s[advancements={tcc:technical/item/entity_with_tipped_sword={minecraft_healing=true}}] instant_health 1 0
-effect give @s[advancements={tcc:technical/item/entity_with_tipped_sword={minecraft_strong_healing=true}}] instant_health 1 1
-
-effect give @s[advancements={tcc:technical/item/entity_with_tipped_sword={minecraft_harming=true}}] instant_damage 1 0
-effect give @s[advancements={tcc:technical/item/entity_with_tipped_sword={minecraft_strong_harming=true}}] instant_damage 1 1
-
 effect give @s[advancements={tcc:technical/item/entity_with_tipped_sword={minecraft_leaping=true}}] jump_boost 3 0
 effect give @s[advancements={tcc:technical/item/entity_with_tipped_sword={minecraft_long_leaping=true}}] jump_boost 8 0
 effect give @s[advancements={tcc:technical/item/entity_with_tipped_sword={minecraft_strong_leaping=true}}] jump_boost 2 1
@@ -65,8 +59,6 @@ effect give @s[advancements={tcc:technical/item/entity_with_tipped_sword={minecr
 effect give @s[advancements={tcc:technical/item/entity_with_tipped_sword={minecraft_health_boost=true}}] health_boost 5 0
 
 effect give @s[advancements={tcc:technical/item/entity_with_tipped_sword={minecraft_absorption=true}}] absorption 5 0
-
-effect give @s[advancements={tcc:technical/item/entity_with_tipped_sword={minecraft_saturation=true}}] saturation 1 0
 
 effect give @s[advancements={tcc:technical/item/entity_with_tipped_sword={minecraft_glowing=true}}] glowing 4 0
 

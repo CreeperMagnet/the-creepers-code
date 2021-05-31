@@ -8,7 +8,8 @@
     "title": {
       "translate": "advancements.tcc.minecraft.adventure.obtain_frostbloom.title"
     },
-    "description": [{
+    "description": [
+      {
         "translate": "advancements.tcc.minecraft.adventure.obtain_frostbloom.description"
       },
       {
@@ -29,9 +30,11 @@
     "frostbloom": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "items": [{
-          "nbt": "{tcc:{id:\"frostbloom\"}}"
-        }]
+        "items": [
+          {
+            "nbt": "{tcc:{id:\"frostbloom\"}}"
+          }
+        ]
       }
     }
   }

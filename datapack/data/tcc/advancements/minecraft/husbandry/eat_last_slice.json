@@ -8,7 +8,8 @@
     "title": {
       "translate": "advancements.tcc.minecraft.husbandry.eat_last_slice.title"
     },
-    "description": [{
+    "description": [
+      {
         "translate": "advancements.tcc.minecraft.husbandry.eat_last_slice.description"
       },
       {
@@ -52,6 +53,10 @@
     }
   },
   "requirements": [
-    ["apple_pie_slice", "golden_apple_pie_slice", "enchanted_golden_apple_pie_slice"]
+    [
+      "apple_pie_slice",
+      "golden_apple_pie_slice",
+      "enchanted_golden_apple_pie_slice"
+    ]
   ]
 }
