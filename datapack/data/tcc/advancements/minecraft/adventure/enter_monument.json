@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:adventure/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:prismarine_bricks"
+    },
+    "title": {
+      "translate": "advancements.tcc.minecraft.adventure.enter_monument.title"
+    },
+    "description": [
+      {
+        "translate": "advancements.tcc.minecraft.adventure.enter_monument.description"
+      },
+      {
+        "translate": "advancements.tcc.minecraft.tooltip_spacer"
+      },
+      {
+        "translate": "pack.tcc",
+        "color": "#008725",
+        "italic": true
+      }
+    ]
+  },
+  "criteria": {
+    "enter_monument": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "feature": "monument"
+        }
+      }
+    }
+  }
+}

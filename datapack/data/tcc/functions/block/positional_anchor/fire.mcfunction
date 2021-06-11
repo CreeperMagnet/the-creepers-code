@@ -11,5 +11,5 @@ playsound tcc:block.positional_anchor.fire master @a[distance=..16]
 
 data modify entity @s ArmorItems[3].tag.CustomModelData set value 330032
 setblock ~ ~ ~ stone
-setblock ~ ~ ~ dropper[facing=down,triggered=true]{CustomName:'{"font":"tcc:technical","translate":"block.tcc.positional_anchor.name"}',Lock:"positional_anchor\\uF001"}
+setblock ~ ~ ~ dropper[facing=down,triggered=true]{CustomName:'{"font":"tcc:technical","translate":"block.tcc.positional_anchor.name"}',Lock:"§positional_anchor\\uF001"}
 tag @s remove tcc.positional_anchor.filled

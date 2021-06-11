@@ -40,7 +40,7 @@
                 "predicate": {
                   "equipment": {
                     "mainhand": {
-                      "item": "minecraft:bucket",
+                      "items": ["minecraft:bucket"],
                       "count": 1
                     }
                   }

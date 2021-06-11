@@ -10,4 +10,7 @@ execute if entity @s[type=villager,tag=tcc.teapot] run function tcc:block/teapot
 execute if entity @s[type=minecraft:wandering_trader,tag=tcc.gobblerift] run function tcc:block/gobblerift/ten_second_clock
 
 ## Positional Anchor
-execute if entity @s[type=armor_stand,tag=tcc.positional_anchor] run function tcc:block/positional_anchor/ten_second_clock
+execute if entity @s[type=armor_stand,tag=tcc.positional_anchor] run function tcc:block/hopper_updating
+
+## Jewelry Table
+execute if entity @s[type=armor_stand,tag=tcc.jewelry_table] run function tcc:block/hopper_updating

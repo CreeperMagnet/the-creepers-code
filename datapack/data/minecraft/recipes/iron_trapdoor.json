@@ -10,6 +10,7 @@
     }
   },
   "result": {
-    "item": "minecraft:iron_trapdoor"
+    "item": "minecraft:iron_trapdoor",
+    "count": 6
   }
 }

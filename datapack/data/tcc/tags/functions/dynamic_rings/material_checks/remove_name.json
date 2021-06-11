@@ -1,6 +1,7 @@
 {
   "values": [
     "tcc:item/item_modification/ring/name_management/remove_name/golden",
-    "tcc:item/item_modification/ring/name_management/remove_name/iron"
+    "tcc:item/item_modification/ring/name_management/remove_name/iron",
+    "tcc:item/item_modification/ring/name_management/remove_name/netherite"
   ]
 }

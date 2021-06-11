@@ -37,7 +37,7 @@
             "blocks": [
               "minecraft:dropper"
             ],
-            "nbt": "{Lock:\"positional_anchor\\\\uF001\"}"
+            "nbt": "{Lock:\"§positional_anchor\\\\uF001\"}"
           }
         }
       }

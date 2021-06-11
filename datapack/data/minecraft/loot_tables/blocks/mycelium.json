@@ -9,7 +9,11 @@
           "conditions": [{
               "condition": "minecraft:match_tool",
               "predicate": {
-                "nbt": "{Enchantments:[{id:\"minecraft:fortune\"}]}"
+                "enchantments": [
+                  {
+                    "enchantment": "minecraft:fortune"
+                  }
+                ]
               }
             },
             {

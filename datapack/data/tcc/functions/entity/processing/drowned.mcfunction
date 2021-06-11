@@ -1,6 +1,16 @@
 ############################################################
-# Description: Modifies drowned
+# Description: Adds coral to drowned
 # Creator: CreeperMagnet_
 ############################################################
 
-data modify entity @s HandDropChances[0] set value 0.25f
+execute store result score @s tcc.dummy run data get entity @s UUID[0]
+execute if score @s tcc.dummy matches ..-1 run scoreboard players operation @s tcc.dummy *= tcc.const.-1 tcc.dummy
+scoreboard players operation @s tcc.dummy %= tcc.const.7 tcc.dummy
+
+execute if score @s tcc.dummy matches 1 run data merge entity @s {Tags:["tcc.coral_drowned","tcc.coral_drowned.brain"],DeathLootTable:"tcc:entities/coral_drowned/brain",HandItems:[{id:"minecraft:structure_block",Count:1b,tag:{CustomModelData:330048}},{id:"minecraft:structure_block",Count:1b,tag:{CustomModelData:330048}}],ArmorItems:[{},{},{},{id:"minecraft:structure_block",Count:1b,tag:{CustomModelData:330049}}],ArmorDropChances:[-10000.0f,-10000.0f,-10000.0f,-10000.0f],HandDropChances:[-10000.0f,-10000.0f]}
+execute if score @s tcc.dummy matches 2 run data merge entity @s {Tags:["tcc.coral_drowned","tcc.coral_drowned.bubble"],DeathLootTable:"tcc:entities/coral_drowned/bubble",HandItems:[{id:"minecraft:structure_block",Count:1b,tag:{CustomModelData:330050}},{id:"minecraft:structure_block",Count:1b,tag:{CustomModelData:330050}}],ArmorItems:[{},{},{},{id:"minecraft:structure_block",Count:1b,tag:{CustomModelData:330051}}],ArmorDropChances:[-10000.0f,-10000.0f,-10000.0f,-10000.0f],HandDropChances:[-10000.0f,-10000.0f]}
+execute if score @s tcc.dummy matches 3 run data merge entity @s {Tags:["tcc.coral_drowned","tcc.coral_drowned.fire"],DeathLootTable:"tcc:entities/coral_drowned/fire",HandItems:[{id:"minecraft:structure_block",Count:1b,tag:{CustomModelData:330052}},{id:"minecraft:structure_block",Count:1b,tag:{CustomModelData:330052}}],ArmorItems:[{},{},{},{id:"minecraft:structure_block",Count:1b,tag:{CustomModelData:330053}}],ArmorDropChances:[-10000.0f,-10000.0f,-10000.0f,-10000.0f],HandDropChances:[-10000.0f,-10000.0f]}
+execute if score @s tcc.dummy matches 4 run data merge entity @s {Tags:["tcc.coral_drowned","tcc.coral_drowned.horn"],DeathLootTable:"tcc:entities/coral_drowned/horn",HandItems:[{id:"minecraft:structure_block",Count:1b,tag:{CustomModelData:330054}},{id:"minecraft:structure_block",Count:1b,tag:{CustomModelData:330054}}],ArmorItems:[{},{},{},{id:"minecraft:structure_block",Count:1b,tag:{CustomModelData:330055}}],ArmorDropChances:[-10000.0f,-10000.0f,-10000.0f,-10000.0f],HandDropChances:[-10000.0f,-10000.0f]}
+execute if score @s tcc.dummy matches 5 run data merge entity @s {Tags:["tcc.coral_drowned","tcc.coral_drowned.tube"],DeathLootTable:"tcc:entities/coral_drowned/tube",HandItems:[{id:"minecraft:structure_block",Count:1b,tag:{CustomModelData:330056}},{id:"minecraft:structure_block",Count:1b,tag:{CustomModelData:330056}}],ArmorItems:[{},{},{},{id:"minecraft:structure_block",Count:1b,tag:{CustomModelData:330057}}],ArmorDropChances:[-10000.0f,-10000.0f,-10000.0f,-10000.0f],HandDropChances:[-10000.0f,-10000.0f]}
+execute if score @s tcc.dummy matches 6 run data merge entity @s {Tags:["tcc.sponge_drowned"],DeathLootTable:"tcc:entities/sponge_drowned",HandItems:[{id:"minecraft:structure_block",Count:1b,tag:{CustomModelData:330060}},{id:"minecraft:structure_block",Count:1b,tag:{CustomModelData:330060}}],ArmorItems:[{},{},{},{id:"minecraft:structure_block",Count:1b,tag:{CustomModelData:330061}}],ArmorDropChances:[-10000.0f,-10000.0f,-10000.0f,-10000.0f],HandDropChances:[-10000.0f,-10000.0f]}
+scoreboard players reset @s tcc.dummy

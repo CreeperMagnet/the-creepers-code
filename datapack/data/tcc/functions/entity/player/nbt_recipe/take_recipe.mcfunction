@@ -40,6 +40,7 @@ recipe take @s tcc:nbt/jewelry_table
 recipe take @s tcc:nbt/lapis_lazuli_gemstone
 recipe take @s tcc:nbt/levitation_suspicious_stew
 recipe take @s tcc:nbt/nether_reactor_core
+recipe take @s tcc:nbt/netherite_ring
 recipe take @s tcc:nbt/obsidian_gemstone
 recipe take @s tcc:nbt/obsidian_mirror
 recipe take @s tcc:nbt/obsidian_scythe

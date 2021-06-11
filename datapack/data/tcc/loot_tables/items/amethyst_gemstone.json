@@ -33,7 +33,7 @@
               "translate": "attribute.modifier.plus.1",
               "italic": false,
               "color": "blue",
-              "with": ["150", {
+              "with": ["100", {
                 "translate": "attribute.name.tcc.item_preservation"
               }]
             }

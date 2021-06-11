@@ -9,9 +9,4 @@ execute if entity @s[tag=tcc.positional_anchor.filled] run particle minecraft:it
 execute unless entity @s[tag=tcc.positional_anchor.filled] run particle minecraft:item dropper{CustomModelData:330032} ~ ~ ~ 0.2 0.2 0.2 0.05 20 normal
 kill @s
 kill @e[type=item,nbt={Item:{tag:{tcc:{id:"positional_anchor_item"}}}},distance=..7]
-execute if block ~1 ~ ~ hopper[facing=west] run data modify block ~1 ~ ~ TransferCooldown set value 0
-execute if block ~-1 ~ ~ hopper[facing=east] run data modify block ~-1 ~ ~ TransferCooldown set value 0
-execute if block ~ ~ ~1 hopper[facing=north] run data modify block ~ ~ ~1 TransferCooldown set value 0
-execute if block ~ ~ ~-1 hopper[facing=south] run data modify block ~ ~ ~-1 TransferCooldown set value 0
-execute if block ~ ~1 ~ hopper[facing=down] run data modify block ~ ~1 ~ TransferCooldown set value 0
-execute if block ~ ~-1 ~ hopper[facing=down] run data modify block ~ ~-1 ~ TransferCooldown set value 0
+function tcc:block/hopper_updating/undo

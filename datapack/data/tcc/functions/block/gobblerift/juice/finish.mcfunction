@@ -13,7 +13,7 @@ execute store result storage tcc:storage root.temp.item.riftjuice.uuid int 1 run
 function #tcc:riftjuice_dimensions/gobblerift_set_dimensions
 execute unless entity @s[nbt={CustomName:'{"translate":"block.tcc.gobblerift"}'}] run data modify storage tcc:storage root.temp.item.custom_name set from entity @s CustomName
 
-playsound tcc:block.gobblerift.fill_bottle block @a[distance=..16]
+execute if entity @s[tag=!tcc.silent] run playsound tcc:block.gobblerift.fill_bottle block @a[distance=..16]
 data modify entity @s HandItems[0].tag.CustomModelData set value 330040
 tag @s remove tcc.gobblerift.juice_ready
 tag @s add tcc.gobblerift.hungry

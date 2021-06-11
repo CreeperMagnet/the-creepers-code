@@ -1,4 +1,4 @@
-#> RUN AT A BLOCK ENTITY
+#> tcc:worldgen/random_block RUN AT A BLOCK ENTITY
 ## tcc.in_0: max output value (0-100,000,000)
 #> tcc.out_0: generated number
 

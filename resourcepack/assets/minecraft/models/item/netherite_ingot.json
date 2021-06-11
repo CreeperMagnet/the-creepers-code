@@ -1,0 +1,140 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "item/netherite_ingot"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 338020
+      },
+      "model": "tcc:item/ring/netherite/gemstone/none"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 338021
+      },
+      "model": "tcc:item/ring/netherite/gemstone/amethyst"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 338022
+      },
+      "model": "tcc:item/ring/netherite/gemstone/diamond"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 338023
+      },
+      "model": "tcc:item/ring/netherite/gemstone/emerald"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 338024
+      },
+      "model": "tcc:item/ring/netherite/gemstone/ender_pearl"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 338025
+      },
+      "model": "tcc:item/ring/netherite/gemstone/lapis_lazuli"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 338026
+      },
+      "model": "tcc:item/ring/netherite/gemstone/obsidian"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 338027
+      },
+      "model": "tcc:item/ring/netherite/gemstone/prismarine_crystal"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 338028
+      },
+      "model": "tcc:item/ring/netherite/gemstone/quartz"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 339020
+      },
+      "model": "tcc:item/ring/netherite/gemstone_and_potion/none"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 339021
+      },
+      "model": "tcc:item/ring/netherite/gemstone_and_potion/amethyst"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 339022
+      },
+      "model": "tcc:item/ring/netherite/gemstone_and_potion/diamond"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 339023
+      },
+      "model": "tcc:item/ring/netherite/gemstone_and_potion/emerald"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 339024
+      },
+      "model": "tcc:item/ring/netherite/gemstone_and_potion/ender_pearl"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 339025
+      },
+      "model": "tcc:item/ring/netherite/gemstone_and_potion/lapis_lazuli"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 339026
+      },
+      "model": "tcc:item/ring/netherite/gemstone_and_potion/obsidian"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 339027
+      },
+      "model": "tcc:item/ring/netherite/gemstone_and_potion/prismarine_crystal"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 339028
+      },
+      "model": "tcc:item/ring/netherite/gemstone_and_potion/quartz"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 408020
+      },
+      "model": "tcc_compat:tcc/item/ring/netherite/gemstone/dnd/amber"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 408021
+      },
+      "model": "tcc_compat:tcc/item/ring/netherite/gemstone/dnd/gypsum"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 409020
+      },
+      "model": "tcc_compat:tcc/item/ring/netherite/gemstone_and_potion/dnd/amber"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 409021
+      },
+      "model": "tcc_compat:tcc/item/ring/netherite/gemstone_and_potion/dnd/gypsum"
+    }
+  ]
+}

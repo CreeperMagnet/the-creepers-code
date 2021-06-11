@@ -1,28 +1,36 @@
-
 {
-    "display": {
-      "icon": {
-        "item": "minecraft:tnt"
-      },
-      "title": {
-        "translate": "advancements.tcc.minecraft.adventure.blow_up.title"
-      },
-      "description": [{
-          "translate": "advancements.tcc.minecraft.adventure.blow_up.description"
-        }
-      ],
-      "show_toast": true,
-      "announce_to_chat": true,
-      "frame": "challenge",
-      "hidden": false
+  "display": {
+    "icon": {
+      "item": "minecraft:tnt"
     },
-    "rewards": {
-      "experience": 100
+    "title": {
+      "translate": "advancements.tcc.minecraft.adventure.blow_up.title"
     },
-    "parent": "minecraft:adventure/sleep_in_bed",
-    "criteria": {
-      "begin_quest": {
-        "trigger": "impossible"
+    "description": [
+      {
+        "translate": "advancements.tcc.minecraft.adventure.blow_up.description"
+      },
+      {
+        "translate": "advancements.tcc.minecraft.tooltip_spacer"
+      },
+      {
+        "translate": "pack.tcc",
+        "color": "#008725",
+        "italic": true
       }
+    ],
+    "show_toast": true,
+    "announce_to_chat": true,
+    "frame": "challenge",
+    "hidden": false
+  },
+  "rewards": {
+    "experience": 100
+  },
+  "parent": "minecraft:adventure/sleep_in_bed",
+  "criteria": {
+    "begin_quest": {
+      "trigger": "impossible"
     }
   }
+}

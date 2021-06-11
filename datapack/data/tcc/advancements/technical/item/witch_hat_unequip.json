@@ -4,18 +4,6 @@
     "pick_up_witch_hat": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "player": [
-          {
-            "condition": "minecraft:inverted",
-            "term": {
-              "condition": "minecraft:entity_properties",
-              "entity": "this",
-              "predicate": {
-                "nbt": "{Tags:[\"tcc.scheduled.witch_hat_equip\"]}"
-              }
-            }
-          }
-        ],
         "items": [
           {
             "items": [

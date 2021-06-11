@@ -10,7 +10,7 @@
           ]
         },
         "entity": {
-          "nbt": "{Tags:[\"tcc.snail\"]}"
+          "nbt": "{Tags:[\"tcc.snail\",\"tcc.not_fed_beetroot\"]}"
         }
       }
     }

@@ -1,6 +1,7 @@
 {
   "values": [
     "tcc:item/item_modification/ring/add_potion/materials/golden/check",
-    "tcc:item/item_modification/ring/add_potion/materials/iron/check"
+    "tcc:item/item_modification/ring/add_potion/materials/iron/check",
+    "tcc:item/item_modification/ring/add_potion/materials/netherite/check"
   ]
 }

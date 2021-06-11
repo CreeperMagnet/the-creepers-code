@@ -1,6 +1,7 @@
 {
   "values": [
     "tcc:item/soaked_rings/gold/mainhand_check",
-    "tcc:item/soaked_rings/iron/mainhand_check"
+    "tcc:item/soaked_rings/iron/mainhand_check",
+    "tcc:item/soaked_rings/netherite/mainhand_check"
   ]
 }

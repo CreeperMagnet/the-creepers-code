@@ -13,7 +13,7 @@ execute as @e[type=area_effect_cloud,tag=!global.ignore,tag=!tcc.aec.no_potion,t
 execute as @e[type=#tcc:needs_processing,tag=!global.ignore,tag=!tcc.modified_vanilla_entity] at @s run function tcc:entity/processing/main
 
 ## Villager Trade Edits
-execute as @e[type=villager,tag=tcc.modified_vanilla_entity,predicate=tcc:modify_villager] unless data entity @s Offers.Recipes run tag @s remove tcc.modified_vanilla_entity
+execute as @e[type=villager,tag=tcc.modified_vanilla_entity] unless data entity @s Offers.Recipes run tag @s remove tcc.modified_vanilla_entity
 
 ## Peculiar Berries
 execute as @e[type=chicken,tag=tcc.peculiar_chicken] at @s run function tcc:item/peculiar_berries/lay_test
@@ -25,8 +25,12 @@ execute as @a at @s run function tcc:entity/player/second_clock
 execute as @e[tag=tcc.entity] at @s run function tcc:entity/second_clock
 
 ## Witch trader check
-execute as @e[type=witch,tag=!global.ignore,tag=!global.ignore.kill] at @s run function tcc:entity/witch/second_clock
+execute as @e[type=witch,tag=!global.ignore,tag=!global.ignore.kill,predicate=!tcc:in_vehicle] at @s run function tcc:entity/witch/second_clock
 
+## Villager bed exploding
 execute as @e[type=villager,predicate=tcc:in_nether_or_end] if data entity @s SleepingX at @s run function tcc:entity/villager/blow_up
+
+## Ocean monument rework code
+execute as @e[type=marker,tag=tcc.monument] at @s positioned ~ 0 ~ run function tcc:worldgen/ocean_monument_edits/modify/check_chunkloading
 
 schedule function tcc:technical/second_clock 1s replace

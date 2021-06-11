@@ -44,6 +44,7 @@ scoreboard players set tcc.const.2 tcc.dummy 2
 scoreboard players set tcc.const.3 tcc.dummy 3
 scoreboard players set tcc.const.4 tcc.dummy 4
 scoreboard players set tcc.const.5 tcc.dummy 5
+scoreboard players set tcc.const.7 tcc.dummy 7
 scoreboard players set tcc.const.10 tcc.dummy 10
 scoreboard players set tcc.const.16 tcc.dummy 16
 scoreboard players set tcc.const.20 tcc.dummy 20

@@ -8,3 +8,4 @@ execute store success score tcc.temp_0 tcc.dummy run kill @e[tag=!global.ignore,
 execute if score tcc.temp_0 tcc.dummy matches 1.. run loot spawn ~ ~ ~ loot tcc:items/jewelry_table
 particle minecraft:item hopper{CustomModelData:330000} ~ ~ ~ 0.5 0.6 0.5 0.05 100 normal
 kill @s
+function tcc:block/hopper_updating/undo

@@ -530,6 +530,51 @@
     },
     {
       "type": "bitmap",
+      "file": "tcc:gui/compendium/recipes/amethyst_gemstone.png",
+      "ascent": 48,
+      "height": 100,
+      "chars": [
+        "\uc039"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "tcc:gui/compendium/recipes/glow_berry_muffin.png",
+      "ascent": 48,
+      "height": 100,
+      "chars": [
+        "\uc040"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "tcc:gui/compendium/recipes/netherite_ring.png",
+      "ascent": 48,
+      "height": 100,
+      "chars": [
+        "\uc041"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "tcc:gui/compendium/recipes/phantom_item_frame.png",
+      "ascent": 48,
+      "height": 100,
+      "chars": [
+        "\uc042"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "tcc:gui/compendium/recipes/photometer.png",
+      "ascent": 48,
+      "height": 100,
+      "chars": [
+        "\uc043"
+      ]
+    },
+    {
+      "type": "bitmap",
       "file": "tcc:gui/compendium/cover_page.png",
       "ascent": 32,
       "height": 81,
@@ -655,6 +700,15 @@
       "height": 16,
       "chars": [
         "\ud022"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "tcc:gui/compendium/faq.png",
+      "ascent": 32,
+      "height": 146,
+      "chars": [
+        "\ud023"
       ]
     },
     {
@@ -849,9 +903,9 @@
         "\uf067\uf068\uf069\uf070\uf071\uf072",
         "\uf073\uf074\uf075\uf076\uf077\uf078",
         "\uf079\uf080\uf081\uf082\uf083\uf084",
-        "\uf085\uf086    ",
-        "      ",
-        "      ",
+        "\uf085\uf086\uf089\uf090\uf091\uf092",
+        "\uf093\uf094\uf095\uf096\uf097\uf098",
+        "\uf099\uf100\uf101\uf102\uf103 ",
         "      "
       ]
     }

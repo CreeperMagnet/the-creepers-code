@@ -288,6 +288,90 @@
         "custom_model_data": 330047
       },
       "model": "tcc:item/amethyst_dust"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330048
+      },
+      "model": "tcc:entity/coral_drowned/arm/brain"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330049
+      },
+      "model": "tcc:entity/coral_drowned/head/brain"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330050
+      },
+      "model": "tcc:entity/coral_drowned/arm/bubble"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330051
+      },
+      "model": "tcc:entity/coral_drowned/head/bubble"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330052
+      },
+      "model": "tcc:entity/coral_drowned/arm/fire"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330053
+      },
+      "model": "tcc:entity/coral_drowned/head/fire"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330054
+      },
+      "model": "tcc:entity/coral_drowned/arm/horn"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330055
+      },
+      "model": "tcc:entity/coral_drowned/head/horn"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330056
+      },
+      "model": "tcc:entity/coral_drowned/arm/tube"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330057
+      },
+      "model": "tcc:entity/coral_drowned/head/tube"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330058
+      },
+      "model": "tcc:entity/lichen_zombie/arm"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330059
+      },
+      "model": "tcc:entity/lichen_zombie/head"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330060
+      },
+      "model": "tcc:entity/sponge_drowned/arm"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330061
+      },
+      "model": "tcc:entity/sponge_drowned/head"
     }
   ]
 }

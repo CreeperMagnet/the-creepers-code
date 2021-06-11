@@ -1,4 +1,4 @@
-#> RUN AS AN ENTITY
+#> tcc:worldgen/random RUN AS AN ENTITY
 ## tcc.in_0: max output value (0-100,000,000)
 #> tcc.out_0: generated number
 
