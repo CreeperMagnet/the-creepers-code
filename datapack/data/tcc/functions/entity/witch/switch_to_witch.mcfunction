@@ -11,6 +11,8 @@ data remove entity @s ArmorItems[1].tag.witch_data.Rotation
 data remove entity @s ArmorItems[1].tag.witch_data.HurtTime
 data remove entity @s ArmorItems[1].tag.witch_data.ArmorItems
 data remove entity @s ArmorItems[1].tag.witch_data.ArmorDropChances
+execute unless data entity @s {CustomName:'{"translate":"entity.minecraft.witch"}'} run data modify entity @s ArmorItems[1].tag.witch_data.CustomName set from entity @s CustomName
+execute if data entity @s {PersistenceRequired:1b} run data modify entity @s ArmorItems[1].tag.witch_data.PersistenceRequired set value 1b
 data modify entity @e[type=witch,tag=tcc.witch_trader,sort=nearest,limit=1] ArmorItems[1].tag.trader_data set from entity @s
 execute unless data entity @s {HurtTime:0s} run effect give @e[type=witch,tag=tcc.witch_trader,sort=nearest,limit=1] instant_damage 1 31 true
 data modify entity @e[type=witch,tag=tcc.witch_trader,sort=nearest,limit=1] {} merge from entity @s ArmorItems[1].tag.witch_data

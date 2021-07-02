@@ -4,6 +4,7 @@
 ############################################################
 
 data modify storage tcc:storage root.temp.item.tag.tcc.snail set from entity @s {}
+execute if entity @s[scores={tcc.dummy2=1..}] store result storage tcc:storage root.temp.item.tag.tcc.snail_boost_timer int 1 run scoreboard players get @s tcc.dummy2
 data remove storage tcc:storage root.temp.item.tag.tcc.snail.Pos
 data remove storage tcc:storage root.temp.item.tag.tcc.snail.Motion
 data remove storage tcc:storage root.temp.item.tag.tcc.snail.UUID

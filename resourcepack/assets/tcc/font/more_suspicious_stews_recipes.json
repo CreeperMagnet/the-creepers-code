@@ -1,0 +1,22 @@
+{
+  "providers": [
+    {
+      "type": "bitmap",
+      "file": "tcc:gui/compendium/recipes/chorus_flower_suspicious_stew.png",
+      "ascent": 48,
+      "height": 100,
+      "chars": [
+        "\uc000"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "tcc:gui/compendium/recipes/flowering_azalea_suspicious_stew.png",
+      "ascent": 48,
+      "height": 100,
+      "chars": [
+        "\uc001"
+      ]
+    }
+  ]
+}

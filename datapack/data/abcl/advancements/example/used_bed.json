@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "used_bed": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": {
+          "block": {
+            "tag": "minecraft:beds",
+            "state": {
+              "occupied": false
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "abcl:example/used_bed"
+  }
+}

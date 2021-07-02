@@ -1,5 +1,6 @@
 {
   "values": [
-    "tcc:technical/load"
+    "tcc:technical/load",
+    "abcl:load"
   ]
 }

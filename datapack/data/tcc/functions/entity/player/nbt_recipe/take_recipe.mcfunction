@@ -3,11 +3,13 @@
 # Creator: CreeperMagnet_
 ############################################################
 
+execute if entity @s[advancements={tcc:recipes/nbt/root=true}] unless entity @s[scores={tcc.crafted_item=1..}] run function tcc:entity/player/nbt_recipe/give_all_recipes_packs_are_evil
 advancement revoke @s through tcc:recipes/nbt/root
 recipe take @s tcc:nbt/amethyst_gemstone
 recipe take @s tcc:nbt/apple_pie
 recipe take @s tcc:nbt/boomerang
 recipe take @s tcc:nbt/chopper
+recipe take @s tcc:nbt/chorus_flower_suspicious_stew
 recipe take @s tcc:nbt/diamond_gemstone
 recipe take @s tcc:nbt/dyed_bundle/black
 recipe take @s tcc:nbt/dyed_bundle/blue
@@ -30,6 +32,7 @@ recipe take @s tcc:nbt/enchanted_golden_apple_pie
 recipe take @s tcc:nbt/enchanted_golden_carrot
 recipe take @s tcc:nbt/ender_pearl_gemstone
 recipe take @s tcc:nbt/excavator
+recipe take @s tcc:nbt/flowering_azalea_suspicious_stew
 recipe take @s tcc:nbt/glow_berry_muffin
 recipe take @s tcc:nbt/golden_apple_pie
 recipe take @s tcc:nbt/golden_chorus_fruit
@@ -38,7 +41,6 @@ recipe take @s tcc:nbt/harvester
 recipe take @s tcc:nbt/iron_ring
 recipe take @s tcc:nbt/jewelry_table
 recipe take @s tcc:nbt/lapis_lazuli_gemstone
-recipe take @s tcc:nbt/levitation_suspicious_stew
 recipe take @s tcc:nbt/nether_reactor_core
 recipe take @s tcc:nbt/netherite_ring
 recipe take @s tcc:nbt/obsidian_gemstone

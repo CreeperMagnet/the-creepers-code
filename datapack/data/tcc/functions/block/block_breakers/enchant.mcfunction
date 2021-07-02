@@ -1,7 +1,6 @@
 ############################################################
 # Description: Enchants a block breaker
-# Creator: CreeperMagnet_
-# Heavily modified by: Ellivers
+# Creator: Ellivers
 ############################################################
 
 scoreboard players reset @s tcc.dummy
@@ -31,7 +30,9 @@ execute if entity @s[scores={tcc.dummy=6..}] run scoreboard players set @s tcc.d
 execute if entity @s[scores={tcc.dummy=1..}] run data modify entity @s HandItems[0].tag.Enchantments append value {id:"minecraft:efficiency",lvl:1s}
 execute if entity @s[scores={tcc.dummy=1..}] store result entity @s HandItems[0].tag.Enchantments[{id:"minecraft:efficiency"}].lvl short 1 run scoreboard players get @s tcc.dummy
 
+# Check
 execute store success score @s tcc.dummy run data modify entity @s ArmorItems[3].tag.Enchantments set from entity @s HandItems[0].tag.Enchantments
 execute if entity @s[scores={tcc.dummy=1..}] run kill @e[type=item,predicate=tcc:block_breaker_enchanted_book,limit=1,dz=0,dx=0,dy=0,sort=nearest,tag=!global.ignore,tag=!global.ignore.kill]
 execute if entity @s[scores={tcc.dummy=1..}] run playsound tcc:block.block_breaker.enchant block @a[distance=..16] ~ ~ ~ 0.6 1
 execute if entity @s[scores={tcc.dummy=1..}] run tag @s add tcc.block_breaker.enchanted
+execute if entity @s[scores={tcc.dummy=1..}] run tag @s add tcc.tag

@@ -1,9 +1,9 @@
 {
   "type": "crafting_shaped",
   "pattern": [
-    "PPP",
-    "PDP",
-    "CCC"
+    "#D#",
+    "#C#",
+    "###"
   ],
   "key": {
     "C": {
@@ -12,14 +12,9 @@
     "D": {
       "item": "minecraft:dispenser"
     },
-    "P": [
-      {
-        "item": "minecraft:purpur_block"
-      },
-      {
-        "item": "minecraft:purpur_pillar"
-      }
-    ]
+    "#": {
+      "item": "minecraft:cobbled_deepslate"
+    }
   },
   "result": {
     "item": "minecraft:knowledge_book"

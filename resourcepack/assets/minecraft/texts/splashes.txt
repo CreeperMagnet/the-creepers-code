@@ -69,7 +69,7 @@ Herregud!
 Complex cellular automata!
 Yes, sir!
 Played by cowboys!
-OpenGL 2.1 (if supported)!
+Now on OpenGL 3.2 core profile!
 Thousands of colors!
 Try it!
 Age of Wonders is better!
@@ -163,7 +163,6 @@ Kick it root down!
 Regional resources!
 Woo, facepunch!
 Woo, somethingawful!
-Woo, /v/!
 Woo, tigsource!
 Woo, worldofminecraft!
 Woo, reddit!
@@ -302,7 +301,7 @@ Put that cookie down!
 Pretty scary!
 I have a suggestion.
 Now with extra hugs!
-Now Java 8!
+Now Java 16!
 Woah.
 HURNERJSGER?
 What's up, Doc?
@@ -415,6 +414,18 @@ Amplify and listen to BIPOC voices!
 Educate your friends on anti-racism!
 Support the BIPOC community and creators!
 Stand up for equality in your community!
+[this splash text has been delayed until part 2]
+Contains simulated goats!
+Home-made!
+There's <<a cat on ,my keyboard!~
+The cutest predator you'll ever meet!
+Now you are thinking with pistons!
+Get to the coppah!
+Board game version also available!
+Honey, I waxed the copper!
+Plant-based light sources!
+Made by "real" people!
+
 The underscore is all that matters
 Parrot dismounting is a joke
 NBT in custom crafting plz
@@ -437,6 +448,7 @@ V0.1 took too long
 V0.2 took too long
 V0.3 took too long
 V0.4 took... not too long, actually!
+V0.5 also didn't take too long!
 Don’t look directly at the bugs.
 Something about this seems strange...
 May contain nuts and a hint of lag
@@ -450,7 +462,7 @@ Obsidian shards take a painful amount of time to smelt
 Bukkit + TCC = A very sad error log
 Please do not mix with mods
 Are we there yet?
-V0.5: Coming a really long time from now but not as long as V0.4
+V0.6: Coming a really long time from now but not as long as V0.4
 L.O.L. = Lots of Lag
 Datapacks, not data packs
 Now contains 300+ more ring types!
@@ -458,11 +470,14 @@ Don't trust the hive mind
 Also play CVM!
 Also play Mechanization!
 Also play Dinos and Dodos!
-Also play Undermagic!
+Please don't play Undermagic.
 Also play Ordana's Inferno!
 Also play TTB!
 Also play Caelesti!
 Also play Incendium!
+Also play Marina!
+Also play Florcraft!
+Also play The Wastes!
 Big Pack Suffering!
 Don't Explode: Code!
 We do what Mojang's too scared to!
@@ -564,3 +579,31 @@ woakey vs. chromakey
 Works as intended!
 Also try Arcane Magic!
 Lock all the recipes!
+Snails in pails!
+Pain and suffering!
+V0.5 definitely wasn't rushed!
+Buff the illagers!
+PIF!
+CreeperMagnet_ has a basement obsession!
+Geode geezers!
+Bye bye shulker box, you won't be missed!
+Blame Dragon!
+Now with more trident locations!
+TCC: Below Zero
+Totally contains NBT crafting!
+Now even more based!
+where caves
+#008725
+#006e1e
+Font magic!
+:beta:
+Postgen!
+§l§n§6E
+§oMaybe compatible?
+"When will you update to the snapshots?"
+Now in Spanish!
+Now in French!
+Now (mostly) open source!
+R.I.P. The Scuttler
+Easter eggs included!
+Blend in with the witches...

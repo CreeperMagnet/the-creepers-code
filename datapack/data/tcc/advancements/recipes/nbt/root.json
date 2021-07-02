@@ -1,25 +1,5 @@
 {
   "criteria": {
-    "amethyst_gemstone": {
-      "trigger": "minecraft:recipe_unlocked",
-      "conditions": {
-        "player": [
-          {
-            "condition": "minecraft:inverted",
-            "term": {
-              "condition": "minecraft:entity_scores",
-              "entity": "this",
-              "scores": {
-                "tcc.crafted_item": {
-                  "min": 1
-                }
-              }
-            }
-          }
-        ],
-        "recipe": "tcc:nbt/amethyst_gemstone"
-      }
-    },
     "apple_pie": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
@@ -80,7 +60,7 @@
         "recipe": "tcc:nbt/chopper"
       }
     },
-    "diamond_gemstone": {
+    "chorus_flower_suspicious_stew": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
         "player": [
@@ -97,7 +77,7 @@
             }
           }
         ],
-        "recipe": "tcc:nbt/diamond_gemstone"
+        "recipe": "tcc:nbt/chorus_flower_suspicious_stew"
       }
     },
     "dyed_bundle_black": {
@@ -420,26 +400,6 @@
         "recipe": "tcc:nbt/dyed_bundle/yellow"
       }
     },
-    "emerald_gemstone": {
-      "trigger": "minecraft:recipe_unlocked",
-      "conditions": {
-        "player": [
-          {
-            "condition": "minecraft:inverted",
-            "term": {
-              "condition": "minecraft:entity_scores",
-              "entity": "this",
-              "scores": {
-                "tcc.crafted_item": {
-                  "min": 1
-                }
-              }
-            }
-          }
-        ],
-        "recipe": "tcc:nbt/emerald_gemstone"
-      }
-    },
     "enchanted_golden_apple_pie": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
@@ -480,26 +440,6 @@
         "recipe": "tcc:nbt/enchanted_golden_carrot"
       }
     },
-    "ender_pearl_gemstone": {
-      "trigger": "minecraft:recipe_unlocked",
-      "conditions": {
-        "player": [
-          {
-            "condition": "minecraft:inverted",
-            "term": {
-              "condition": "minecraft:entity_scores",
-              "entity": "this",
-              "scores": {
-                "tcc.crafted_item": {
-                  "min": 1
-                }
-              }
-            }
-          }
-        ],
-        "recipe": "tcc:nbt/ender_pearl_gemstone"
-      }
-    },
     "excavator": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
@@ -518,6 +458,26 @@
           }
         ],
         "recipe": "tcc:nbt/excavator"
+      }
+    },
+    "flowering_azalea_suspicious_stew": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "tcc.crafted_item": {
+                  "min": 1
+                }
+              }
+            }
+          }
+        ],
+        "recipe": "tcc:nbt/flowering_azalea_suspicious_stew"
       }
     },
     "glow_berry_muffin": {
@@ -660,46 +620,6 @@
         "recipe": "tcc:nbt/jewelry_table"
       }
     },
-    "lapis_lazuli_gemstone": {
-      "trigger": "minecraft:recipe_unlocked",
-      "conditions": {
-        "player": [
-          {
-            "condition": "minecraft:inverted",
-            "term": {
-              "condition": "minecraft:entity_scores",
-              "entity": "this",
-              "scores": {
-                "tcc.crafted_item": {
-                  "min": 1
-                }
-              }
-            }
-          }
-        ],
-        "recipe": "tcc:nbt/lapis_lazuli_gemstone"
-      }
-    },
-    "levitation_suspicious_stew": {
-      "trigger": "minecraft:recipe_unlocked",
-      "conditions": {
-        "player": [
-          {
-            "condition": "minecraft:inverted",
-            "term": {
-              "condition": "minecraft:entity_scores",
-              "entity": "this",
-              "scores": {
-                "tcc.crafted_item": {
-                  "min": 1
-                }
-              }
-            }
-          }
-        ],
-        "recipe": "tcc:nbt/levitation_suspicious_stew"
-      }
-    },
     "nether_reactor_core": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
@@ -738,26 +658,6 @@
           }
         ],
         "recipe": "tcc:nbt/netherite_ring"
-      }
-    },
-    "obsidian_gemstone": {
-      "trigger": "minecraft:recipe_unlocked",
-      "conditions": {
-        "player": [
-          {
-            "condition": "minecraft:inverted",
-            "term": {
-              "condition": "minecraft:entity_scores",
-              "entity": "this",
-              "scores": {
-                "tcc.crafted_item": {
-                  "min": 1
-                }
-              }
-            }
-          }
-        ],
-        "recipe": "tcc:nbt/obsidian_gemstone"
       }
     },
     "obsidian_mirror": {
@@ -898,46 +798,6 @@
           }
         ],
         "recipe": "tcc:nbt/positional_anchor"
-      }
-    },
-    "prismarine_crystal_gemstone": {
-      "trigger": "minecraft:recipe_unlocked",
-      "conditions": {
-        "player": [
-          {
-            "condition": "minecraft:inverted",
-            "term": {
-              "condition": "minecraft:entity_scores",
-              "entity": "this",
-              "scores": {
-                "tcc.crafted_item": {
-                  "min": 1
-                }
-              }
-            }
-          }
-        ],
-        "recipe": "tcc:nbt/prismarine_crystal_gemstone"
-      }
-    },
-    "quartz_gemstone": {
-      "trigger": "minecraft:recipe_unlocked",
-      "conditions": {
-        "player": [
-          {
-            "condition": "minecraft:inverted",
-            "term": {
-              "condition": "minecraft:entity_scores",
-              "entity": "this",
-              "scores": {
-                "tcc.crafted_item": {
-                  "min": 1
-                }
-              }
-            }
-          }
-        ],
-        "recipe": "tcc:nbt/quartz_gemstone"
       }
     },
     "sifter": {
@@ -1123,11 +983,10 @@
   },
   "requirements": [
     [
-      "amethyst_gemstone",
       "apple_pie",
       "boomerang",
       "chopper",
-      "diamond_gemstone",
+      "chorus_flower_suspicious_stew",
       "dyed_bundle_black",
       "dyed_bundle_blue",
       "dyed_bundle_brown",
@@ -1144,11 +1003,10 @@
       "dyed_bundle_red",
       "dyed_bundle_white",
       "dyed_bundle_yellow",
-      "emerald_gemstone",
       "enchanted_golden_apple_pie",
       "enchanted_golden_carrot",
-      "ender_pearl_gemstone",
       "excavator",
+      "flowering_azalea_suspicious_stew",
       "glow_berry_muffin",
       "golden_apple_pie",
       "golden_chorus_fruit",
@@ -1156,11 +1014,8 @@
       "harvester",
       "iron_ring",
       "jewelry_table",
-      "lapis_lazuli_gemstone",
-      "levitation_suspicious_stew",
       "nether_reactor_core",
       "netherite_ring",
-      "obsidian_gemstone",
       "obsidian_mirror",
       "obsidian_scythe",
       "paintbrush",
@@ -1168,8 +1023,6 @@
       "photometer",
       "player_head",
       "positional_anchor",
-      "prismarine_crystal_gemstone",
-      "quartz_gemstone",
       "sifter",
       "smoldering_seeker",
       "snipper",

@@ -3,7 +3,9 @@
 # Creator: CreeperMagnet_
 ############################################################
 
-scoreboard players set tcc.damage tcc.dummy 240
+execute store result score tcc.temp_0 tcc.dummy run difficulty
+scoreboard players set tcc.damage tcc.dummy 80
+scoreboard players operation tcc.damage tcc.dummy *= tcc.temp_0 tcc.dummy
 scoreboard players set tcc.ignore_armor tcc.dummy 0
 tag @s add tcc.damage.iceologer_ice
 function tcc:entity/player/damage/calculate

@@ -11,6 +11,7 @@ data remove entity @s ArmorItems[1].tag.trader_data.Motion
 data remove entity @s ArmorItems[1].tag.trader_data.Rotation
 data remove entity @s ArmorItems[1].tag.trader_data.HurtTime
 data remove entity @s ArmorItems[1].tag.trader_data.ArmorItems
+execute if data entity @s CustomName run data modify entity @s ArmorItems[1].tag.trader_data.CustomName set from entity @s CustomName
 data modify entity @e[type=wandering_trader,tag=tcc.witch_trader,sort=nearest,limit=1] {} merge from entity @s ArmorItems[1].tag.trader_data
 execute as @e[type=wandering_trader,tag=tcc.witch_trader,sort=nearest,limit=1] unless data entity @s Offers.Recipes[{}] run function tcc:entity/witch/set_initial_trades
 data modify entity @e[type=wandering_trader,tag=tcc.witch_trader,sort=nearest,limit=1] ArmorItems[1].tag.witch_data set from entity @s

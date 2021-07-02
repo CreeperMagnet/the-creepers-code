@@ -2,7 +2,7 @@
   "parent": "block/cube_bottom_top",
   "textures": {
     "side": "tcc:block/positional_anchor/side_filled",
-    "top": "tcc:block/positional_anchor/top_filled",
+    "top": "tcc:block/positional_anchor/top",
     "bottom": "tcc:block/positional_anchor/bottom"
   },
   "display": {
