@@ -236,7 +236,7 @@
       "predicate": {
         "custom_model_data": 330038
       },
-      "model": "tcc:item/snail_bucket"
+      "model": "tcc:item/snail_bucket/normal"
     },
     {
       "predicate": {
@@ -261,6 +261,42 @@
         "custom_model_data": 330042
       },
       "model": "tcc:item/photometer/highest_light"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330043
+      },
+      "model": "tcc:item/snail_bucket/black"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330044
+      },
+      "model": "tcc:item/snail_bucket/light_blue"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330045
+      },
+      "model": "tcc:item/snail_bucket/skull"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330046
+      },
+      "model": "tcc:item/snail_bucket/spiral"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330047
+      },
+      "model": "tcc:item/snail_bucket/yellow"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330048
+      },
+      "model": "tcc:item/snail_bucket/gary"
     },
     {
       "predicate": {

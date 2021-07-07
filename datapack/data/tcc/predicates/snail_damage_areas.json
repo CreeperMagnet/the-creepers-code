@@ -246,7 +246,25 @@
       "entity": "this",
       "predicate": {
         "location": {
-          "dimension": "minecraft:the_nether"
+          "biome": "minecraft:nether_wastes"
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "location": {
+          "biome": "minecraft:crimson_forest"
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "location": {
+          "biome": "minecraft:basalt_deltas"
         }
       }
     }

@@ -236,7 +236,7 @@
     },
     {
       "type": "bitmap",
-      "file": "tcc:gui/compendium/recipes/enchanted_golden_apple.png",
+      "file": "tcc:gui/compendium/recipes/enchanted_golden_apple_recipe.png",
       "ascent": 48,
       "height": 100,
       "chars": [
@@ -290,7 +290,7 @@
     },
     {
       "type": "bitmap",
-      "file": "tcc:gui/compendium/recipes/player_head.png",
+      "file": "tcc:gui/compendium/recipes/heads.png",
       "ascent": 48,
       "height": 100,
       "chars": [
@@ -326,7 +326,7 @@
     },
     {
       "type": "bitmap",
-      "file": "tcc:gui/compendium/recipes/nether_reactor_core.png",
+      "file": "tcc:gui/compendium/recipes/nether_reactor.png",
       "ascent": 48,
       "height": 100,
       "chars": [
@@ -479,7 +479,7 @@
     },
     {
       "type": "bitmap",
-      "file": "tcc:gui/compendium/recipes/teacup.png",
+      "file": "tcc:gui/compendium/recipes/tea.png",
       "ascent": 48,
       "height": 100,
       "chars": [
@@ -899,7 +899,7 @@
         "\uf079\uf080\uf081\uf082\uf083\uf084",
         "\uf085\uf086\uf089\uf090\uf091\uf092",
         "\uf093\uf094\uf095\uf096\uf097\uf098",
-        "\uf099\uf100\uf101\uf102\uf103 ",
+        "\uf099\uf100\uf101\uf102\uf103\uf104",
         "      "
       ]
     }

@@ -9,9 +9,25 @@
             "minecraft:beetroot"
           ]
         },
-        "entity": {
-          "nbt": "{Tags:[\"tcc.snail\",\"tcc.not_fed_beetroot\"]}"
-        }
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Tags:[\"tcc.snail\"]}"
+            }
+          },
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Tags:[\"tcc.fed_beetroot\"]}"
+              }
+            }
+          }
+        ]
       }
     }
   },

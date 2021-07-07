@@ -1,0 +1,114 @@
+{
+  "parent": "tcc:minecraft/husbandry/bucket_snail",
+  "display": {
+    "icon": {
+      "item": "minecraft:carrot_on_a_stick",
+      "nbt": "{CustomModelData:330044}"
+    },
+    "title": {
+      "translate": "advancements.tcc.minecraft.husbandry.bucket_all_snails.title"
+    },
+    "description": [
+      {
+        "translate": "advancements.tcc.minecraft.husbandry.bucket_all_snails.description"
+      },
+      {
+        "translate": "advancements.tcc.minecraft.tooltip_spacer"
+      },
+      {
+        "translate": "pack.tcc",
+        "color": "#008725",
+        "italic": true
+      }
+    ],
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "normal": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{tcc:{id:\"snail_bucket\"},CustomModelData:330038}"
+          }
+        ]
+      }
+    },
+    "black": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{tcc:{id:\"snail_bucket\"},CustomModelData:330043}"
+          }
+        ]
+      }
+    },
+    "light_blue": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{tcc:{id:\"snail_bucket\"},CustomModelData:330044}"
+          }
+        ]
+      }
+    },
+    "skull": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{tcc:{id:\"snail_bucket\"},CustomModelData:330045}"
+          }
+        ]
+      }
+    },
+    "spiral": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{tcc:{id:\"snail_bucket\"},CustomModelData:330046}"
+          }
+        ]
+      }
+    },
+    "yellow": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{tcc:{id:\"snail_bucket\"},CustomModelData:330047}"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "normal"
+    ],
+    [
+      "black"
+    ],
+    [
+      "light_blue"
+    ],
+    [
+      "skull"
+    ],
+    [
+      "spiral"
+    ],
+    [
+      "yellow"
+    ]
+  ],
+  "rewards": {
+    "experience": 100
+  }
+}

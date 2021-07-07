@@ -3,7 +3,8 @@
   "textures": {
     "layer0": "minecraft:item/leather_horse_armor"
   },
-  "overrides": [{
+  "overrides": [
+    {
       "predicate": {
         "custom_model_data": 330000
       },
@@ -104,6 +105,42 @@
         "custom_model_data": 330016
       },
       "model": "tcc:entity/snail/normal"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330017
+      },
+      "model": "tcc:entity/snail/black"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330018
+      },
+      "model": "tcc:entity/snail/light_blue"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330019
+      },
+      "model": "tcc:entity/snail/skull"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330020
+      },
+      "model": "tcc:entity/snail/spiral"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330021
+      },
+      "model": "tcc:entity/snail/yellow"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330022
+      },
+      "model": "tcc:entity/snail/gary"
     }
   ]
 }

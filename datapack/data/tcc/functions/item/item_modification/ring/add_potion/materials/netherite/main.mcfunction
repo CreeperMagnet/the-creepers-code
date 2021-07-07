@@ -10,4 +10,4 @@ execute if data storage tcc:storage root.temp.default_name run function tcc:item
 
 function tcc:item/item_modification/ring/add_potion/materials/netherite/modify_lore
 
-data modify storage tcc:storage root.temp.item.tag.tcc.potion.durability set value [30,30]
+data modify storage tcc:storage root.temp.item.tag.tcc.potion.durability set value [45,45]

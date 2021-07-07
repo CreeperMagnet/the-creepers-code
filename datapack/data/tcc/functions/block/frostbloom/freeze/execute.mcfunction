@@ -3,9 +3,9 @@
 # Creator: ChromaKey
 ############################################################
 
-execute if block ~ ~ ~ minecraft:water run setblock ~ ~ ~ minecraft:ice replace
 execute if block ~ ~ ~ minecraft:packed_ice run setblock ~ ~ ~ minecraft:blue_ice replace
 execute if block ~ ~ ~ minecraft:ice run setblock ~ ~ ~ minecraft:packed_ice replace
+execute if block ~ ~ ~ minecraft:water run setblock ~ ~ ~ minecraft:ice replace
 execute if block ~ ~ ~ minecraft:snow[layers=7] run setblock ~ ~ ~ minecraft:snow[layers=8] replace
 execute if block ~ ~ ~ minecraft:snow[layers=6] run setblock ~ ~ ~ minecraft:snow[layers=7] replace
 execute if block ~ ~ ~ minecraft:snow[layers=5] run setblock ~ ~ ~ minecraft:snow[layers=6] replace

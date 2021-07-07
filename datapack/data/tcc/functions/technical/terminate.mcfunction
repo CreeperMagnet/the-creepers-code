@@ -3,7 +3,7 @@
 # Creator: CreeperMagnet_
 ############################################################
 
-tellraw @s {"translate":"The Creeper's Code Resource Pack is not installed. Please go to https://thecreeperscode.com/download.","with":[{"translate":"commands.tcc.terminate","with":[{"translate":"pack.tcc","color":"#008725","underlined":true,"hoverEvent":{"action":"show_text","value":{"translate":"pack.tcc.hover_event"}},"clickEvent":{"action":"open_url","value":"https://thecreeperscode.com"}},{"translate":"pack.tcc.version","color":"blue","underlined":true,"hoverEvent":{"action":"show_text","value":{"translate":"pack.tcc.version.hover_event"}},"clickEvent":{"action":"open_url","value":"https://thecreeperscode.com/development/0-5-changelog"}},{"translate":"commands.tcc.terminate.more_steps","color":"aqua","underlined":true,"clickEvent":{"action":"open_url","value":"https://thecreeperscode.com/download"}}]}]}
+tellraw @s {"translate":"The Creeper's Code Resource Pack is not installed. Please go to https://thecreeperscode.com/download.","with":[{"translate":"commands.tcc.terminate","with":[{"translate":"pack.tcc","color":"#008725","underlined":true,"hoverEvent":{"action":"show_text","value":{"translate":"pack.tcc.hover_event"}},"clickEvent":{"action":"open_url","value":"https://thecreeperscode.com"}},{"translate":"pack.tcc.version","color":"blue","underlined":true,"hoverEvent":{"action":"show_text","value":{"translate":"pack.tcc.version.hover_event"}},"clickEvent":{"action":"open_url","value":"https://thecreeperscode.com/development/0-5-1-changelog"}},{"translate":"commands.tcc.terminate.more_steps","color":"aqua","underlined":true,"clickEvent":{"action":"open_url","value":"https://thecreeperscode.com/download"}}]}]}
 
 data remove storage tcc:storage root
 

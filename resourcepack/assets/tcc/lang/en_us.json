@@ -4,7 +4,7 @@
 
   "pack.tcc": "The Creeper's Code",
   "pack.tcc.hover_event": "Click here to go to the official website",
-  "pack.tcc.version": "Version 0.5.1 Beta 1",
+  "pack.tcc.version": "Version 0.5.1",
   "pack.tcc.version.hover_event": "Click here to see changelog notes",
   "TCC (MISSING RESOURCES)": "%s",
   "The Creeper's Code Resource Pack is not installed. Please go to https://thecreeperscode.com/download.": "%s",
@@ -56,7 +56,7 @@
   "item.tcc.compendium.faq_page.gamerules_command.hover_event": "/function tcc:commands/gamerules",
   "item.tcc.compendium.faq_page.text": "- Use /function tcc:commands/<press tab> for all commands. \n- %s can be run to open a gamerule menu.\n\n - Use /loot give @s loot tcc:items/<press tab> to get items from the pack.",
 
-  "item.tcc.compendium.cover_page": "\n\ud000\n\n\n  %s\n\n\ud020%s%s%s%s\n\n%s",
+  "item.tcc.compendium.cover_page": "\n\ud000\n\n\n      %s\n\n\ud020%s%s%s%s\n\n%s",
   "item.tcc.compendium.cover_page.content": "A comprehensive guide to all the content in The Creeper's Code.\n\nTo get another copy, run %s",
   "item.tcc.compendium.cover_page.give_command": "this command.",
   "item.tcc.compendium.cover_page.give_command.hover_event": "/trigger tcc.compendium",
@@ -503,7 +503,7 @@
   "item.tcc.compendium.entry.jewelry_table.icon": "\uf041",
   "item.tcc.compendium.entry.jewelry_table.contributors": "%1$s: Created",
   "item.tcc.compendium.entry.jewelry_table.more_info": "Ring Enchantments:\n - Mending\n - Unbreaking\n - Curse of Vanishing\n\nCan also be used to repair gemstone rings by re-adding the same type of gemstone",
-  "item.tcc.compendium.entry.jewelry_table.history": "%3$s: Implemented\n%4$s: Added ring repairing%5$s: Completely reworked pristine gemstones and removed some enchantments",
+  "item.tcc.compendium.entry.jewelry_table.history": "%3$s: Implemented\n%4$s: Added ring repairing\n%5$s: Completely reworked pristine gemstones and removed some enchantments",
   "item.tcc.compendium.entry.jewelry_table.recipe": "\n\n\n\n\n\n\uc014\n",
   "item.tcc.compendium.entry.jewelry_table.description": "Used to apply %s, and %s to %s. It requires %s in order to add these items. If you add more than 20 dust, it will make your ring pristine, doubling its stats. There is also a helpful guide on the left of its GUI.",
   "item.tcc.compendium.entry.jewelry_table.reference.0": "gemstones",
@@ -738,11 +738,12 @@
 
   "item.tcc.compendium.entry.snail.icon": "\uf099",
   "item.tcc.compendium.entry.snail.contributors": "%1$s: Created",
-  "item.tcc.compendium.entry.snail.more_info": "Snails take damage in deserts, mesas, savannahs, and the nether.",
+  "item.tcc.compendium.entry.snail.more_info": "Snails take damage in deserts, mesas, savannahs, and every nether biome. ...except soul sand valleys. Perhaps there's a resaon for that?",
   "item.tcc.compendium.entry.snail.history": "%5$s: Implemented",
   "item.tcc.compendium.entry.snail.recipe": "Snails spawn rarely in swamps",
-  "item.tcc.compendium.entry.snail.description": "Snails are an adorable, portable slime farm. You can pick them up with a bucket, and if you feed them beetroot, they will begin to create %s items for 20 minutes, after which you need to feed them again.\n",
-  "item.tcc.compendium.entry.snail.reference.0": "snail mucus",
+  "item.tcc.compendium.entry.snail.description": "Snails are an adorable, portable slime farm that can be picked up with buckets. When fed beetroot, they create %s for 20 minutes. They can be bred with beetroot soup to make %s. There are six variants of snails that naturally spawn.",
+  "item.tcc.compendium.entry.snail.reference.0": "mucus",
+  "item.tcc.compendium.entry.snail.reference.1": "nests",
 
   "item.tcc.compendium.entry.snail_mucus.icon": "\uf097",
   "item.tcc.compendium.entry.snail_mucus.contributors": "%1$s: Created",
@@ -752,6 +753,15 @@
   "item.tcc.compendium.entry.snail_mucus.description": "Snail mucus is the main product of the %s, and is created after feeding it beetroot. It can be used to lengthen the effects of %s, and also can be used as slime in recipes.\n\n\n",
   "item.tcc.compendium.entry.snail_mucus.reference.0": "snail",
   "item.tcc.compendium.entry.snail_mucus.reference.1": "tea",
+
+  "item.tcc.compendium.entry.snail_nest.icon": "\uf104",
+  "item.tcc.compendium.entry.snail_nest.contributors": "%1$s: Created",
+  "item.tcc.compendium.entry.snail_nest.more_info": "Since this block drops about 10 clay when finished hatching, and it is created with one clay block, it effectively makes clay renewable.",
+  "item.tcc.compendium.entry.snail_nest.history": "%5$s: Implemented",
+  "item.tcc.compendium.entry.snail_nest.recipe": "Made by breeding two snails on some clay",
+  "item.tcc.compendium.entry.snail_nest.description": "Snail nests are made by breeding two %s with beetroot soup and letting one place its eggs on clay beneath it. When the block is finished hatching after about 30 minutes, it drops lots of clay, plenty of %s, and 1-2 snails.",
+  "item.tcc.compendium.entry.snail_nest.reference.0": "snails",
+  "item.tcc.compendium.entry.snail_nest.reference.1": "snail mucus",
 
   "item.tcc.compendium.entry.soaked_rings.title": "Soaked Rings",
   "item.tcc.compendium.entry.soaked_rings.icon": "\uf067",
@@ -1080,7 +1090,6 @@
   "item.tcc.enchanter_spawn_egg": "Enchanter Spawn Egg",
   "item.tcc.iceologer_spawn_egg": "Iceologer Spawn Egg",
   "item.tcc.geomancer_spawn_egg": "Geomancer Spawn Egg",
-  "item.tcc.snail_spawn_egg": "Snail Spawn Egg",
 
   "item.tcc.riftjuice_bottle": "Riftjuice Bottle",
   "item.tcc.riftjuice_bottle.lore.name": "\"%s\"",
@@ -1452,6 +1461,7 @@
   "block.tcc.positional_anchor": "Positional Anchor",
   "block.tcc.positional_anchor.name": "\uF001\uF001\uF001\uF001\uF001",
   "block.tcc.gobblerift": "Gobblerift",
+  "block.tcc.snail_nest": "Snail Nest",
 
   "block.tcc.filled_composter": "Filled Composter",
   "block.tcc.moonlight_detector": "Moonlight Detector",
@@ -1706,8 +1716,6 @@
   "advancements.tcc.minecraft.end.breed_gobblerift.description": "Grow two gobblerifts to full size, place them next to eachother, and breed them using rabbit stew",
   "advancements.tcc.minecraft.end.drink_riftjuice.title": "Tasty Teleportation",
   "advancements.tcc.minecraft.end.drink_riftjuice.description": "Drink some riftjuice from a gobblerift using a glass bottle after feeding it plenty of meat and waiting for it to digest",
-  "advancements.tcc.minecraft.end.use_positional_anchor.title": "Painless Stasis",
-  "advancements.tcc.minecraft.end.use_positional_anchor.description": "Use an ender pearl on a positional anchor to be activated later with redstone",
 
   "advancements.tcc.minecraft.husbandry.creeper_spawn_egg.title": "Green Eggs...",
   "advancements.tcc.minecraft.husbandry.creeper_spawn_egg.description": "Obtain a creeper spawn egg",
@@ -1725,6 +1733,8 @@
   "advancements.tcc.minecraft.husbandry.eat_last_slice.description": "Eat the last piece of a pie",
   "advancements.tcc.minecraft.husbandry.bucket_snail.title": "Snail Snatcher",
   "advancements.tcc.minecraft.husbandry.bucket_snail.description": "Kidnap a snail from their swampy natural habitat using a bucket",
+  "advancements.tcc.minecraft.husbandry.bucket_all_snails.title": "Gotta Snatch 'Em All",
+  "advancements.tcc.minecraft.husbandry.bucket_all_snails.description": "Bucket all six naturally spawning types of snail",
 
   "advancements.tcc.minecraft.story.obsidian_shard.title": "Smelt Time: Forever",
   "advancements.tcc.minecraft.story.obsidian_shard.description": "Smelt down obsidian into a shard in a blast furnace",
@@ -1749,6 +1759,8 @@
   "advancements.tcc.minecraft.nether.teapot.description": "Take some brewed tea from a teapot using a teacup",
   "advancements.tcc.minecraft.nether.smoldering_seeker.title": "A Sizzling Shortcut",
   "advancements.tcc.minecraft.nether.smoldering_seeker.description": "Use a smoldering seeker in the nether to get the location of a fortress",
+  "advancements.tcc.minecraft.nether.use_positional_anchor.title": "Painless Stasis",
+  "advancements.tcc.minecraft.nether.use_positional_anchor.description": "Use an ender pearl on a positional anchor to be activated later with redstone",
 
   "subtitles.tcc.item.boomerang.swish": "Boomerang swishing",
   "subtitles.tcc.item.potion_soak": "Potion soaks item",

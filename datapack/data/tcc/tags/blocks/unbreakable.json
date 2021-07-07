@@ -2,12 +2,16 @@
   "replace": false,
   "values": [
     "minecraft:bedrock",
+    "minecraft:moving_piston",
+    "minecraft:nether_portal",
+    "minecraft:end_portal",
     "minecraft:end_portal_frame",
     "minecraft:command_block",
     "minecraft:repeating_command_block",
     "minecraft:chain_command_block",
     "minecraft:barrier",
-    "minecraft:structure_void",
+    "minecraft:light",
+    "minecraft:end_gateway",
     "minecraft:structure_block",
     "minecraft:jigsaw"
   ]

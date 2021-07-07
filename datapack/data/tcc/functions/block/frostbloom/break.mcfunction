@@ -8,4 +8,4 @@ execute unless score tcc.temp_0 tcc.dummy matches 1.. store success score tcc.te
 execute if score tcc.temp_0 tcc.dummy matches 1.. run loot spawn ~ ~ ~ loot tcc:items/frostbloom
 particle minecraft:item carrot_on_a_stick{CustomModelData:330030} ~ ~ ~ 0.3 0.3 0.3 0.05 50 normal
 kill @s
-execute if block ~ ~-1 ~ grass_block if block ~ ~ ~ #tcc:replaceable run setblock ~ ~ ~ snow
+execute if block ~ ~-1 ~ #tcc:opaque if block ~ ~ ~ #tcc:replaceable run setblock ~ ~ ~ snow

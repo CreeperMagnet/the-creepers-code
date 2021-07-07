@@ -26,3 +26,6 @@ execute if entity @s[type=item_frame,tag=tcc.frostbloom] unless block ~ ~ ~ spru
 
 ## Phantom Item Frame
 execute if entity @s[type=item_frame,tag=tcc.phantom_item_frame] run function tcc:block/phantom_item_frame/tick
+
+## Snail Nest
+execute if entity @s[type=armor_stand,tag=tcc.snail_nest] unless block ~ ~ ~ clay run function tcc:block/snail_nest/break

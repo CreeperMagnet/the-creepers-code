@@ -58,7 +58,7 @@ execute if score tcc.temp_0 tcc.dummy matches 1 positioned ~ ~16777216 ~ run fun
 
 
 
-execute store success score tcc.temp_0 tcc.dummy run scoreboard players add @s[scores={tcc.dummy=..-1}] tcc.dummy 1
+execute store success score tcc.temp_0 tcc.dummy run scoreboard players add @s[scores={tcc.dummy=-1}] tcc.dummy 1
 execute if score tcc.temp_0 tcc.dummy matches 1 positioned ~ ~-1 ~ run function tcc:item/riftjuice_bottle/iterate_y
 execute store success score tcc.temp_0 tcc.dummy run scoreboard players add @s[scores={tcc.dummy=-3..-2}] tcc.dummy 2
 execute if score tcc.temp_0 tcc.dummy matches 1 positioned ~ ~-2 ~ run function tcc:item/riftjuice_bottle/iterate_y

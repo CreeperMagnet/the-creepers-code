@@ -23,7 +23,7 @@
       "predicate": {
         "custom_model_data": 330003
       },
-      "model": "tcc:item/empty"
+      "model": "tcc:block/snail_nest"
     },
     {
       "predicate": {
@@ -155,7 +155,7 @@
       "predicate": {
         "custom_model_data": 330025
       },
-      "model": "tcc:block/frostbloom"
+      "model": "tcc:block/frostbloom/grass"
     },
     {
       "predicate": {
@@ -173,7 +173,7 @@
       "predicate": {
         "custom_model_data": 330028
       },
-      "model": "tcc:item/empty"
+      "model": "tcc:block/frostbloom/other"
     },
     {
       "predicate": {

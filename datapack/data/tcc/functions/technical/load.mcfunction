@@ -51,6 +51,7 @@ scoreboard players set tcc.const.20 tcc.dummy 20
 scoreboard players set tcc.const.25 tcc.dummy 25
 scoreboard players set tcc.const.60 tcc.dummy 60
 scoreboard players set tcc.const.100 tcc.dummy 100
+scoreboard players set tcc.const.180 tcc.dummy 180
 
 # World Data
 execute store result score tcc.world_seed tcc.dummy run seed

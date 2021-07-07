@@ -14,3 +14,6 @@ execute if entity @s[type=armor_stand,tag=tcc.positional_anchor] run function tc
 
 ## Jewelry Table
 execute if entity @s[type=armor_stand,tag=tcc.jewelry_table] run function tcc:block/hopper_updating
+
+## Snail Nest
+execute if entity @s[type=armor_stand,tag=tcc.snail_nest] run function tcc:block/snail_nest/ten_second_clock

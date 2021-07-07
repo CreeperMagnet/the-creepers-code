@@ -1,0 +1,7 @@
+############################################################
+# Description: Commands to run off a snail nest every ten seconds
+# Creator: CreeperMagnet_
+############################################################
+
+scoreboard players add @s[predicate=tcc:chance/one_half] tcc.dummy2 1
+execute if entity @s[scores={tcc.dummy2=90}] align xyz run function tcc:block/snail_nest/hatch

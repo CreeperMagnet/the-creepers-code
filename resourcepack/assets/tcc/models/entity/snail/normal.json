@@ -1,7 +1,6 @@
 {
 	"textures": {
-		"0": "tcc:entity/snail",
-		"particle": "tcc:entity/snail"
+		"0": "tcc:entity/snail/normal"
 	},
 	"elements": [
 		{
