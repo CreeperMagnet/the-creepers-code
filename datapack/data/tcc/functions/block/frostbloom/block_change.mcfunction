@@ -1,6 +1,5 @@
 ############################################################
-# Description: Tests for various block changes around the frostbloom
-# Creator: CreeperMagnet_
+# Tests for various block changes around the frostbloom
 ############################################################
 
 execute if block ~ ~ ~ spruce_sapling run function tcc:block/frostbloom/grow

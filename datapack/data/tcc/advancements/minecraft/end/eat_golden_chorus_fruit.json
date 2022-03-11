@@ -12,9 +12,7 @@
       {
         "translate": "advancements.tcc.minecraft.end.eat_golden_chorus_fruit.description"
       },
-      {
-        "translate": "advancements.tcc.minecraft.tooltip_spacer"
-      },
+      "\n\n",
       {
         "translate": "pack.tcc",
         "color": "#008725",

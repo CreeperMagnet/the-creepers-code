@@ -1,6 +1,5 @@
 ############################################################
-# Description: Gives you the tag for a tea
-# Creator: CreeperMagnet_
+# Gives you the tag for a tea
 ############################################################
 
 tag @s remove tcc.tea.antitoxin

@@ -1,0 +1,83 @@
+{
+  "parent": "tcc:technical/root",
+  "criteria": {
+    "bonemeal": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:bone_meal"
+          ]
+        },
+        "entity": {
+          "nbt": "{Tags:[\"tcc.gobblerift.bonemealable\"]}"
+        }
+      }
+    },
+    "feed": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:reference",
+            "name": "tcc:entity/holding/gobblerift_meat"
+          }
+        ],
+        "entity": {
+          "nbt": "{Tags:[\"tcc.gobblerift.hungry\"]}"
+        }
+      }
+    },
+    "juice": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:alternative",
+            "terms": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "equipment": {
+                    "mainhand": {
+                      "items": [
+                        "minecraft:glass_bottle"
+                      ],
+                      "count": 1
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:inverted",
+                "term": {
+                  "condition": "minecraft:reference",
+                  "name": "tcc:entity/full_inventory"
+                }
+              }
+            ]
+          }
+        ],
+        "item": {
+          "items": [
+            "minecraft:glass_bottle"
+          ]
+        },
+        "entity": {
+          "nbt": "{Tags:[\"tcc.gobblerift.juice_ready\"]}"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "bonemeal",
+      "feed",
+      "juice"
+    ]
+  ],
+  "rewards": {
+    "function": "tcc:block/gobblerift/interact/raycast_start"
+  }
+}

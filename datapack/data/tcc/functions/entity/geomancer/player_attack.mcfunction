@@ -1,6 +1,5 @@
 ############################################################
-# Description: Chooses a random attack to do on a player
-# Creator: CreeperMagnet_
+# Chooses a random attack to do on a player
 ############################################################
 
 tag @s[predicate=tcc:chance/one_third] add tcc.tag

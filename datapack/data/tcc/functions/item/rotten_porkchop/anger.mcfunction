@@ -1,6 +1,5 @@
 ############################################################
-# Description: Makes rotten porkchops give you nausea
-# Creator: CreeperMagnet_
+# Makes rotten porkchops give you nausea
 ############################################################
 
 data merge entity @s {AngerTime:800,AngryAt:[I; 0, 0, 0, 0]}

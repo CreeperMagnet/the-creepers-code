@@ -1,6 +1,5 @@
 ############################################################
-# Description: Finishes the spell for players
-# Creator: CreeperMagnet_
+# Finishes the spell for players
 ############################################################
 
 execute if data storage tcc:storage root.temp.strength align xyz run function tcc:entity/iceologer/ice/strength/make_all

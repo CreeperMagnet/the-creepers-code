@@ -7,10 +7,10 @@
   ],
   "key": {
     "O": {
-      "item": "minecraft:repeating_command_block"
+      "item": "minecraft:nether_brick"
     },
     "M": {
-      "item": "minecraft:magma_block"
+      "item": "minecraft:redstone"
     }
   },
   "result": {

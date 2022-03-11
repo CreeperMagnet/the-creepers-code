@@ -1,0 +1,21 @@
+{
+  "parent": "tcc:technical/root",
+  "criteria": {
+    "pick_up_cursed_crown": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:carrot_on_a_stick"
+            ],
+            "nbt": "{tcc:{id:\"cursed_crown\"}}"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "tcc:item/cursed_crown/unequip/main"
+  }
+}

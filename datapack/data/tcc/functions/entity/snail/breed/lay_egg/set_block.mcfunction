@@ -1,6 +1,5 @@
 ############################################################
-# Description: Places a snail nest
-# Creator: CreeperMagnet_
+# Places a snail nest
 ############################################################
 
 function tcc:block/snail_nest/place

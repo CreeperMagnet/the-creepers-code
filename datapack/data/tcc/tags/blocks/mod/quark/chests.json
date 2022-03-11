@@ -1,9 +1,0 @@
-{
-  "replace": false,
-  "values": [
-    {
-      "id": "quark:spruce_chest",
-      "required": false
-    }
-  ]
-}

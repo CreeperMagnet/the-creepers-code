@@ -1,6 +1,5 @@
 ############################################################
-# Description: Rotates a block
-# Creator: CreeperMagnet_
+# Rotates a block
 ############################################################
 
 execute if entity @s[scores={tcc.dummy=0}] store result score @s tcc.dummy if block ~ ~ ~ lectern[facing=north] run setblock ~ ~ ~ lectern[facing=east,has_book=true]

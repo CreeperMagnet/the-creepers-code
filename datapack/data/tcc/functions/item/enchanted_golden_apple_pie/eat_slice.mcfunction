@@ -1,9 +1,8 @@
 ############################################################
-# Description: Makes enchanted golden apple pie slices work
-# Creator: ChromaKey
+# Makes enchanted golden apple pie slices work
 ############################################################
 
-advancement revoke @s only tcc:technical/item/enchanted_golden_apple_pie_slice
+advancement revoke @s only tcc:technical/consume_item/enchanted_golden_apple_pie_slice
 effect give @s regeneration 10 1
 function tcc:entity/player/modify_absorption/add_8
 effect give @s absorption 300 3

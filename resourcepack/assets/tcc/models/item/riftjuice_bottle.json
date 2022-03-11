@@ -1,6 +1,7 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "tcc:item/riftjuice_bottle"
+    "layer0": "tcc:item/riftjuice_bottle_overlay",
+    "layer1": "tcc:item/riftjuice_bottle"
   }
 }

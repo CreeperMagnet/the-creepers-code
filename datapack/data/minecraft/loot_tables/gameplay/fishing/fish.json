@@ -1,115 +1,210 @@
 {
-  "pools": [{
-    "rolls": 1,
-    "entries": [{
-        "type": "minecraft:item",
-        "weight": 60,
-        "name": "minecraft:cod"
-      },
-      {
-        "type": "minecraft:item",
-        "weight": 100,
-        "name": "minecraft:salmon",
-        "conditions": [{
-          "condition": "minecraft:alternative",
-          "terms": [{
-              "condition": "minecraft:location_check",
-              "predicate": {
-                "biome": "minecraft:river"
-              }
-            },
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 60,
+          "name": "minecraft:cod"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 100,
+          "name": "minecraft:salmon",
+          "conditions": [
             {
-              "condition": "minecraft:location_check",
-              "predicate": {
-                "biome": "minecraft:frozen_river"
-              }
-            },
-            {
-              "condition": "minecraft:random_chance",
-              "chance": 0.25
+              "condition": "minecraft:alternative",
+              "terms": [
+                {
+                  "condition": "minecraft:location_check",
+                  "predicate": {
+                    "biome": "minecraft:river"
+                  }
+                },
+                {
+                  "condition": "minecraft:location_check",
+                  "predicate": {
+                    "biome": "minecraft:frozen_river"
+                  }
+                },
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.25
+                }
+              ]
             }
           ]
-        }]
-      },
-      {
-        "type": "minecraft:item",
-        "weight": 4,
-        "name": "minecraft:tropical_fish",
-        "conditions": [{
-          "condition": "minecraft:alternative",
-          "terms": [{
-              "condition": "minecraft:location_check",
-              "predicate": {
-                "biome": "minecraft:deep_warm_ocean"
-              }
-            },
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 4,
+          "name": "minecraft:tropical_fish",
+          "conditions": [
             {
-              "condition": "minecraft:location_check",
-              "predicate": {
-                "biome": "minecraft:warm_ocean"
-              }
-            },
-            {
-              "condition": "minecraft:location_check",
-              "predicate": {
-                "biome": "minecraft:deep_lukewarm_ocean"
-              }
-            },
-            {
-              "condition": "minecraft:location_check",
-              "predicate": {
-                "biome": "minecraft:lukewarm_ocean"
-              }
-            },
-            {
-              "condition": "minecraft:random_chance",
-              "chance": 0.5
+              "condition": "minecraft:alternative",
+              "terms": [
+                {
+                  "condition": "minecraft:location_check",
+                  "predicate": {
+                    "biome": "minecraft:deep_warm_ocean"
+                  }
+                },
+                {
+                  "condition": "minecraft:location_check",
+                  "predicate": {
+                    "biome": "minecraft:warm_ocean"
+                  }
+                },
+                {
+                  "condition": "minecraft:location_check",
+                  "predicate": {
+                    "biome": "minecraft:deep_lukewarm_ocean"
+                  }
+                },
+                {
+                  "condition": "minecraft:location_check",
+                  "predicate": {
+                    "biome": "minecraft:lukewarm_ocean"
+                  }
+                },
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.5
+                }
+              ]
             }
           ]
-        }]
-      },
-      {
-        "type": "minecraft:item",
-        "weight": 26,
-        "name": "minecraft:pufferfish",
-        "conditions": [{
-          "condition": "minecraft:alternative",
-          "terms": [{
-              "condition": "minecraft:location_check",
-              "predicate": {
-                "biome": "minecraft:deep_warm_ocean"
-              }
-            },
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 24,
+          "name": "minecraft:pufferfish",
+          "conditions": [
             {
-              "condition": "minecraft:location_check",
-              "predicate": {
-                "biome": "minecraft:warm_ocean"
-              }
-            },
-            {
-              "condition": "minecraft:location_check",
-              "predicate": {
-                "biome": "minecraft:deep_lukewarm_ocean"
-              }
-            },
-            {
-              "condition": "minecraft:location_check",
-              "predicate": {
-                "biome": "minecraft:lukewarm_ocean"
-              }
-            },
-            {
-              "condition": "minecraft:random_chance",
-              "chance": 0.5
+              "condition": "minecraft:alternative",
+              "terms": [
+                {
+                  "condition": "minecraft:location_check",
+                  "predicate": {
+                    "biome": "minecraft:deep_warm_ocean"
+                  }
+                },
+                {
+                  "condition": "minecraft:location_check",
+                  "predicate": {
+                    "biome": "minecraft:warm_ocean"
+                  }
+                },
+                {
+                  "condition": "minecraft:location_check",
+                  "predicate": {
+                    "biome": "minecraft:deep_lukewarm_ocean"
+                  }
+                },
+                {
+                  "condition": "minecraft:location_check",
+                  "predicate": {
+                    "biome": "minecraft:lukewarm_ocean"
+                  }
+                },
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.5
+                }
+              ]
             }
           ]
-        }]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 2,
+          "name": "tcc:items/swordfish",
+          "conditions": [
+            {
+              "condition": "minecraft:alternative",
+              "terms": [
+                {
+                  "condition": "minecraft:location_check",
+                  "predicate": {
+                    "biome": "minecraft:deep_frozen_ocean"
+                  }
+                },
+                {
+                  "condition": "minecraft:location_check",
+                  "predicate": {
+                    "biome": "minecraft:frozen_ocean"
+                  }
+                },
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.5
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "__smithed__": {
+    "rules": [
+      {
+        "type": "smithed:merge",
+        "target": "pools[0].entries[1].weight",
+        "source": {
+          "type": "smithed:reference",
+          "path": "pools[0].entries[1].weight"
+        }
       },
       {
-        "type": "minecraft:loot_table",
-        "weight": 1,
-        "name": "tcc:items/swordfish"
+        "type": "smithed:merge",
+        "target": "pools[0].entries[2].weight",
+        "source": {
+          "type": "smithed:reference",
+          "path": "pools[0].entries[2].weight"
+        }
+      },
+      {
+        "type": "smithed:merge",
+        "target": "pools[0].entries[3].weight",
+        "source": {
+          "type": "smithed:reference",
+          "path": "pools[0].entries[3].weight"
+        }
+      },
+      {
+        "type": "smithed:append",
+        "target": "pools[0].entries[1].conditions",
+        "source": {
+          "type": "smithed:reference",
+          "path": "pools[0].entries[1].conditions[0]"
+        }
+      },
+      {
+        "type": "smithed:append",
+        "target": "pools[0].entries[2].conditions",
+        "source": {
+          "type": "smithed:reference",
+          "path": "pools[0].entries[2].conditions[0]"
+        }
+      },
+      {
+        "type": "smithed:append",
+        "target": "pools[0].entries[3].conditions",
+        "source": {
+          "type": "smithed:reference",
+          "path": "pools[0].entries[3].conditions[0]"
+        }
+      },
+      {
+        "type": "smithed:append",
+        "target": "pools[0].entries",
+        "source": {
+          "type": "smithed:reference",
+          "path": "pools[0].entries[4]"
+        }
       }
     ]
-  }]
+  }
 }

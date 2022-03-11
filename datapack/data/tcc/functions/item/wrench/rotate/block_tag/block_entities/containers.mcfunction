@@ -1,6 +1,5 @@
 ############################################################
-# Description: Checks a block tag
-# Creator: CreeperMagnet_
+# Checks a block tag
 ############################################################
 
 execute if block ~ ~ ~ #minecraft:shulker_boxes run function tcc:item/wrench/rotate/block_tag/block_entities/shulker_boxes

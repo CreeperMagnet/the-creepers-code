@@ -1,5 +1,4 @@
 {
-  "replace": false,
   "values": [
     "minecraft:snow_golem",
     "#minecraft:freeze_hurts_extra_types"

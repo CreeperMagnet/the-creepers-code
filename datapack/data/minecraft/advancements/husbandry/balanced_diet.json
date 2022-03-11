@@ -410,6 +410,14 @@
           "nbt": "{tcc:{id:\"glow_berry_muffin\"}}"
         }
       }
+    },
+    "fungal_stew": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "nbt": "{tcc:{id:\"fungal_stew\"}}"
+        }
+      }
     }
   },
   "requirements": [
@@ -559,6 +567,9 @@
     ],
     [
       "glow_berry_muffin"
+    ],
+    [
+      "fungal_stew"
     ]
   ]
 }

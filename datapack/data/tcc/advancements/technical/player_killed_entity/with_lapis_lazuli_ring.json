@@ -1,0 +1,19 @@
+{
+  "criteria": {
+    "killed_entity": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:reference",
+            "name": "tcc:entity/holding/ring/lapis_lazuli"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "tcc:item/ring/lapis_lazuli"
+  },
+  "parent": "tcc:technical/root"
+}

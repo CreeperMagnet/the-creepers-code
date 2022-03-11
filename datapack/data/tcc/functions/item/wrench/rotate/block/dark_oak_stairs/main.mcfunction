@@ -1,6 +1,5 @@
 ############################################################
-# Description: Rotates a block
-# Creator: CreeperMagnet_
+# Rotates a block
 ############################################################
 
 execute if block ~ ~ ~ dark_oak_stairs[half=bottom,waterlogged=false] run function tcc:item/wrench/rotate/block/dark_oak_stairs/bottom

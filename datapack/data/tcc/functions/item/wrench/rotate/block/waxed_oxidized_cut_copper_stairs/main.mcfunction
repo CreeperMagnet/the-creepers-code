@@ -1,6 +1,5 @@
 ############################################################
-# Description: Rotates a block
-# Creator: CreeperMagnet_
+# Rotates a block
 ############################################################
 
 execute if block ~ ~ ~ waxed_oxidized_cut_copper_stairs[half=bottom,waterlogged=false] run function tcc:item/wrench/rotate/block/waxed_oxidized_cut_copper_stairs/bottom

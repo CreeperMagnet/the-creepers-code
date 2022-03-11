@@ -1,0 +1,148 @@
+{
+  "providers": [
+    {
+      "type": "bitmap",
+      "file": "tcc:gui/compendium/icons/recipe/tcc/dyed_bundle/black.png",
+      "ascent": 16,
+      "height": 17,
+      "chars": [
+        "\uf000"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "tcc:gui/compendium/icons/recipe/tcc/dyed_bundle/blue.png",
+      "ascent": 16,
+      "height": 17,
+      "chars": [
+        "\uf001"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "tcc:gui/compendium/icons/recipe/tcc/dyed_bundle/brown.png",
+      "ascent": 16,
+      "height": 17,
+      "chars": [
+        "\uf002"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "tcc:gui/compendium/icons/recipe/tcc/dyed_bundle/cyan.png",
+      "ascent": 16,
+      "height": 17,
+      "chars": [
+        "\uf003"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "tcc:gui/compendium/icons/recipe/tcc/dyed_bundle/gray.png",
+      "ascent": 16,
+      "height": 17,
+      "chars": [
+        "\uf004"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "tcc:gui/compendium/icons/recipe/tcc/dyed_bundle/green.png",
+      "ascent": 16,
+      "height": 17,
+      "chars": [
+        "\uf005"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "tcc:gui/compendium/icons/recipe/tcc/dyed_bundle/light_blue.png",
+      "ascent": 16,
+      "height": 17,
+      "chars": [
+        "\uf006"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "tcc:gui/compendium/icons/recipe/tcc/dyed_bundle/light_gray.png",
+      "ascent": 16,
+      "height": 17,
+      "chars": [
+        "\uf007"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "tcc:gui/compendium/icons/recipe/tcc/dyed_bundle/lime.png",
+      "ascent": 16,
+      "height": 17,
+      "chars": [
+        "\uf008"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "tcc:gui/compendium/icons/recipe/tcc/dyed_bundle/magenta.png",
+      "ascent": 16,
+      "height": 17,
+      "chars": [
+        "\uf009"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "tcc:gui/compendium/icons/recipe/tcc/dyed_bundle/orange.png",
+      "ascent": 16,
+      "height": 17,
+      "chars": [
+        "\uf010"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "tcc:gui/compendium/icons/recipe/tcc/dyed_bundle/pink.png",
+      "ascent": 16,
+      "height": 17,
+      "chars": [
+        "\uf011"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "tcc:gui/compendium/icons/recipe/tcc/dyed_bundle/purple.png",
+      "ascent": 16,
+      "height": 17,
+      "chars": [
+        "\uf012"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "tcc:gui/compendium/icons/recipe/tcc/dyed_bundle/red.png",
+      "ascent": 16,
+      "height": 17,
+      "chars": [
+        "\uf013"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "tcc:gui/compendium/icons/recipe/tcc/dyed_bundle/white.png",
+      "ascent": 16,
+      "height": 17,
+      "chars": [
+        "\uf014"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "tcc:gui/compendium/icons/recipe/tcc/dyed_bundle/yellow.png",
+      "ascent": 16,
+      "height": 17,
+      "chars": [
+        "\uf015"
+      ]
+    }
+  ]
+}

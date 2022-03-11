@@ -1,6 +1,5 @@
 ############################################################
-# Description: Opens the TCC gamerules menu
-# Creator: Ellivers
+# Opens the TCC gamerules menu
 ############################################################
 
 function tcc:entity/player/gamerule_tellraw/menu

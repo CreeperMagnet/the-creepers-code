@@ -1,0 +1,29 @@
+{
+  "parent": "tcc:technical/root",
+  "criteria": {
+    "remove_ring": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:reference",
+              "name": "tcc:entity/holding/ring/amethyst"
+            }
+          },
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Tags:[\"tcc.has_amethyst_ring\"]}"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "tcc:item/ring/amethyst/unequip"
+  }
+}

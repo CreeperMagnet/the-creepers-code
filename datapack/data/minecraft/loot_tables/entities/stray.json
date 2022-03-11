@@ -99,24 +99,6 @@
       "rolls": 1,
       "conditions": [
         {
-          "condition": "entity_properties",
-          "entity": "killer",
-          "predicate": {
-            "nbt": "{powered:1b}"
-          }
-        }
-      ],
-      "entries": [
-        {
-          "type": "loot_table",
-          "name": "tcc:items/stray_skull"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "conditions": [
-        {
           "condition": "random_chance_with_looting",
           "chance": 0.05,
           "looting_multiplier": 0.01
@@ -138,5 +120,17 @@
         }
       ]
     }
-  ]
+  ],
+  "__smithed__": {
+    "rules": [
+      {
+        "type":"smithed:append",
+        "target":"pools",
+        "source":{
+          "type":"smithed:reference",
+          "path":"pools[3]"
+        }
+      }
+    ]
+  }
 }

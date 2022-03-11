@@ -3,10 +3,12 @@
   "textures": {
     "layer0": "item/soul_campfire"
   },
-  "overrides": [{
-    "predicate": {
-      "custom_model_data": 330000
-    },
-    "model": "tcc:item/unlit_soul_campfire"
-  }]
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 330000
+      },
+      "model": "tcc:item/unlit_soul_campfire"
+    }
+  ]
 }

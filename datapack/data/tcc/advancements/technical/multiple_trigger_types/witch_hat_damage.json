@@ -1,0 +1,49 @@
+{
+  "criteria": {
+    "trade": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:reference",
+            "name": "tcc:entity/wearing/witch_hat"
+          }
+        ],
+        "villager": {
+          "nbt": "{Tags:[\"tcc.witch_trader\"]}"
+        }
+      }
+    },
+    "took_damage": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:reference",
+            "name": "tcc:entity/wearing/witch_hat"
+          }
+        ],
+        "damage": {
+          "type": {
+            "is_fire": false,
+            "is_magic": false,
+            "is_lightning": false,
+            "bypasses_armor": false,
+            "bypasses_invulnerability": false,
+            "bypasses_magic": false
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "trade",
+      "took_damage"
+    ]
+  ],
+  "rewards": {
+    "function": "tcc:item/witch_hat/damage"
+  },
+  "parent": "tcc:technical/root"
+}

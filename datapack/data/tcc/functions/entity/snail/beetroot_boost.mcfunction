@@ -1,6 +1,5 @@
 ############################################################
-# Description: Commands to run if a snail has a beetroot boost
-# Creator: CreeperMagnet_
+# Commands to run if a snail has a beetroot boost
 ############################################################
 
 scoreboard players remove @s tcc.dummy2 1

@@ -1,0 +1,31 @@
+{
+    "criteria": {
+        "hit_witch_trader": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": "wandering_trader",
+                    "nbt": "{Tags:[\"tcc.witch_trader\"]}"
+                },
+                "player": [
+                    {
+                        "condition": "minecraft:inverted",
+                        "term": {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "player": {
+                                    "gamemode": "creative"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "tcc:entity/witch/hit_trader/main"
+    },
+    "parent": "tcc:technical/root"
+}

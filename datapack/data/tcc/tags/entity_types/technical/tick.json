@@ -1,0 +1,10 @@
+{
+  "values": [
+    "minecraft:armor_stand",
+    "minecraft:item_frame",
+    "minecraft:falling_block",
+    "minecraft:wandering_trader",
+    "minecraft:marker",
+    "minecraft:villager"
+  ]
+}

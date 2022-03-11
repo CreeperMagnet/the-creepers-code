@@ -1,6 +1,5 @@
 ############################################################
-# Description: Rotates a block
-# Creator: CreeperMagnet_
+# Rotates a block
 ############################################################
 
 execute if block ~ ~ ~ purpur_stairs[half=bottom,waterlogged=false] run function tcc:item/wrench/rotate/block/purpur_stairs/bottom

@@ -1,32 +1,45 @@
 ############################################################
-# Description: Colors a paintbrush
-# Creator: CreeperMagnet_
+# Colors a paintbrush
 ############################################################
 
+execute if data storage tcc:storage root.temp.item{id:"minecraft:black_dye"} run clear @s[gamemode=!creative] minecraft:black_dye 1
+execute if data storage tcc:storage root.temp.item{id:"minecraft:black_dye"} run data modify storage tcc:storage root.temp.custom_model_data set value 330010
+execute if data storage tcc:storage root.temp.item{id:"minecraft:blue_dye"} run clear @s[gamemode=!creative] minecraft:blue_dye 1
+execute if data storage tcc:storage root.temp.item{id:"minecraft:blue_dye"} run data modify storage tcc:storage root.temp.custom_model_data set value 330011
+execute if data storage tcc:storage root.temp.item{id:"minecraft:brown_dye"} run clear @s[gamemode=!creative] minecraft:brown_dye 1
+execute if data storage tcc:storage root.temp.item{id:"minecraft:brown_dye"} run data modify storage tcc:storage root.temp.custom_model_data set value 330012
+execute if data storage tcc:storage root.temp.item{id:"minecraft:cyan_dye"} run clear @s[gamemode=!creative] minecraft:cyan_dye 1
+execute if data storage tcc:storage root.temp.item{id:"minecraft:cyan_dye"} run data modify storage tcc:storage root.temp.custom_model_data set value 330013
+execute if data storage tcc:storage root.temp.item{id:"minecraft:gray_dye"} run clear @s[gamemode=!creative] minecraft:gray_dye 1
+execute if data storage tcc:storage root.temp.item{id:"minecraft:gray_dye"} run data modify storage tcc:storage root.temp.custom_model_data set value 330014
+execute if data storage tcc:storage root.temp.item{id:"minecraft:green_dye"} run clear @s[gamemode=!creative] minecraft:green_dye 1
+execute if data storage tcc:storage root.temp.item{id:"minecraft:green_dye"} run data modify storage tcc:storage root.temp.custom_model_data set value 330015
+execute if data storage tcc:storage root.temp.item{id:"minecraft:light_blue_dye"} run clear @s[gamemode=!creative] minecraft:light_blue_dye 1
+execute if data storage tcc:storage root.temp.item{id:"minecraft:light_blue_dye"} run data modify storage tcc:storage root.temp.custom_model_data set value 330016
+execute if data storage tcc:storage root.temp.item{id:"minecraft:light_gray_dye"} run clear @s[gamemode=!creative] minecraft:light_gray_dye 1
+execute if data storage tcc:storage root.temp.item{id:"minecraft:light_gray_dye"} run data modify storage tcc:storage root.temp.custom_model_data set value 330017
+execute if data storage tcc:storage root.temp.item{id:"minecraft:lime_dye"} run clear @s[gamemode=!creative] minecraft:lime_dye 1
+execute if data storage tcc:storage root.temp.item{id:"minecraft:lime_dye"} run data modify storage tcc:storage root.temp.custom_model_data set value 330018
+execute if data storage tcc:storage root.temp.item{id:"minecraft:magenta_dye"} run clear @s[gamemode=!creative] minecraft:magenta_dye 1
+execute if data storage tcc:storage root.temp.item{id:"minecraft:magenta_dye"} run data modify storage tcc:storage root.temp.custom_model_data set value 330019
+execute if data storage tcc:storage root.temp.item{id:"minecraft:orange_dye"} run clear @s[gamemode=!creative] minecraft:orange_dye 1
+execute if data storage tcc:storage root.temp.item{id:"minecraft:orange_dye"} run data modify storage tcc:storage root.temp.custom_model_data set value 330020
+execute if data storage tcc:storage root.temp.item{id:"minecraft:pink_dye"} run clear @s[gamemode=!creative] minecraft:pink_dye 1
+execute if data storage tcc:storage root.temp.item{id:"minecraft:pink_dye"} run data modify storage tcc:storage root.temp.custom_model_data set value 330021
+execute if data storage tcc:storage root.temp.item{id:"minecraft:purple_dye"} run clear @s[gamemode=!creative] minecraft:purple_dye 1
+execute if data storage tcc:storage root.temp.item{id:"minecraft:purple_dye"} run data modify storage tcc:storage root.temp.custom_model_data set value 330022
+execute if data storage tcc:storage root.temp.item{id:"minecraft:red_dye"} run clear @s[gamemode=!creative] minecraft:red_dye 1
+execute if data storage tcc:storage root.temp.item{id:"minecraft:red_dye"} run data modify storage tcc:storage root.temp.custom_model_data set value 330023
+execute if data storage tcc:storage root.temp.item{id:"minecraft:white_dye"} run clear @s[gamemode=!creative] minecraft:white_dye 1
+execute if data storage tcc:storage root.temp.item{id:"minecraft:white_dye"} run data modify storage tcc:storage root.temp.custom_model_data set value 330024
+execute if data storage tcc:storage root.temp.item{id:"minecraft:yellow_dye"} run clear @s[gamemode=!creative] minecraft:yellow_dye 1
+execute if data storage tcc:storage root.temp.item{id:"minecraft:yellow_dye"} run data modify storage tcc:storage root.temp.custom_model_data set value 330025
 
-execute if score tcc.temp_2 tcc.dummy matches 1 run clear @s[gamemode=!creative,gamemode=!spectator] black_dye 1
-execute if score tcc.temp_2 tcc.dummy matches 2 run clear @s[gamemode=!creative,gamemode=!spectator] blue_dye 1
-execute if score tcc.temp_2 tcc.dummy matches 3 run clear @s[gamemode=!creative,gamemode=!spectator] brown_dye 1
-execute if score tcc.temp_2 tcc.dummy matches 4 run clear @s[gamemode=!creative,gamemode=!spectator] cyan_dye 1
-execute if score tcc.temp_2 tcc.dummy matches 5 run clear @s[gamemode=!creative,gamemode=!spectator] gray_dye 1
-execute if score tcc.temp_2 tcc.dummy matches 6 run clear @s[gamemode=!creative,gamemode=!spectator] green_dye 1
-execute if score tcc.temp_2 tcc.dummy matches 7 run clear @s[gamemode=!creative,gamemode=!spectator] light_blue_dye 1
-execute if score tcc.temp_2 tcc.dummy matches 8 run clear @s[gamemode=!creative,gamemode=!spectator] light_gray_dye 1
-execute if score tcc.temp_2 tcc.dummy matches 9 run clear @s[gamemode=!creative,gamemode=!spectator] lime_dye 1
-execute if score tcc.temp_2 tcc.dummy matches 10 run clear @s[gamemode=!creative,gamemode=!spectator] magenta_dye 1
-execute if score tcc.temp_2 tcc.dummy matches 11 run clear @s[gamemode=!creative,gamemode=!spectator] orange_dye 1
-execute if score tcc.temp_2 tcc.dummy matches 12 run clear @s[gamemode=!creative,gamemode=!spectator] pink_dye 1
-execute if score tcc.temp_2 tcc.dummy matches 13 run clear @s[gamemode=!creative,gamemode=!spectator] purple_dye 1
-execute if score tcc.temp_2 tcc.dummy matches 14 run clear @s[gamemode=!creative,gamemode=!spectator] red_dye 1
-execute if score tcc.temp_2 tcc.dummy matches 15 run clear @s[gamemode=!creative,gamemode=!spectator] white_dye 1
-execute if score tcc.temp_2 tcc.dummy matches 16 run clear @s[gamemode=!creative,gamemode=!spectator] yellow_dye 1
-
-data remove storage tcc:storage root.temp
+data remove storage tcc:storage root.temp.item
 execute if entity @s[nbt={SelectedItem:{tag:{tcc:{id:"paintbrush"}}}}] run data modify storage tcc:storage root.temp.item set from entity @s SelectedItem
-execute if entity @s[nbt=!{SelectedItem:{tag:{tcc:{id:"paintbrush"}}}},nbt={Inventory:[{tag:{tcc:{id:"paintbrush"}},Slot:-106b}]}] run data modify storage tcc:storage root.temp.item set from entity @s Inventory[{Slot:-106b}]
-execute store result storage tcc:storage root.temp.item.tag.CustomModelData int 1 run scoreboard players add tcc.temp_2 tcc.dummy 330010
+execute if entity @s[nbt=!{SelectedItem:{tag:{tcc:{id:"paintbrush"}}}}] run data modify storage tcc:storage root.temp.item set from entity @s Inventory[{Slot:-106b}]
+data modify storage tcc:storage root.temp.item.tag.CustomModelData set from storage tcc:storage root.temp.custom_model_data
 item modify entity @s[nbt={SelectedItem:{tag:{tcc:{id:"paintbrush"}}}}] weapon.mainhand tcc:copy_nbt
 item modify entity @s[nbt=!{SelectedItem:{tag:{tcc:{id:"paintbrush"}}}}] weapon.offhand tcc:copy_nbt
-scoreboard players reset tcc.temp_2
 
 playsound tcc:item.paintbrush.paint block @a[distance=..16]

@@ -6,7 +6,7 @@
       "weight": 1,
       "functions": [{
           "function": "minecraft:set_nbt",
-          "tag": "{BlockEntityTag:{id:\"minecraft:dropper\",Items:[{id:\"minecraft:barrier\",Count:1b,tag:{tcc:{placed_block:1b,block:\"positional_anchor\"}}}]},CustomModelData:330032,tcc:{id:\"positional_anchor\"}}"
+          "tag": "{BlockEntityTag:{id:\"minecraft:dropper\",Items:[{id:\"minecraft:barrier\",Count:1b,tag:{tcc:{placed_block:1b,block:\"positional_anchor\"}}}]},CustomModelData:330002,tcc:{id:\"positional_anchor\"}}"
         },
         {
           "function": "minecraft:set_name",

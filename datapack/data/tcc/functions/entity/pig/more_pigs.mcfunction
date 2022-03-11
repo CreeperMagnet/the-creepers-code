@@ -1,7 +1,5 @@
 ############################################################
-# Description: MORE PIGS! MORE MORE MORE!!!
-# Creator: CreeperMagnet_
+# MORE PIGS! MORE MORE MORE!!!
 ############################################################
 
-execute as @e[type=pig,nbt={Age:-24000},limit=1,tag=!global.ignore] at @s run summon pig ~ ~ ~ {Age:-23999}
-execute as @e[type=pig,nbt={Age:-24000},limit=1,tag=!global.ignore,predicate=tcc:chance/one_half] at @s run summon pig ~ ~ ~ {Age:-23999}
+execute as @e[type=pig,nbt={Age:-24000},limit=1,tag=!smithed.strict] at @s run function tcc:entity/pig/randomize_extras

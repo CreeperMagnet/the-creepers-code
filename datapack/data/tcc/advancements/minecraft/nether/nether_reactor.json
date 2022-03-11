@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:dropper",
+      "nbt": "{CustomModelData:330001}"
+    },
+    "title": {
+      "translate": "advancements.tcc.minecraft.nether.nether_reactor.title"
+    },
+    "description": [
+      {
+        "translate": "advancements.tcc.minecraft.nether.nether_reactor.description"
+      },
+      "\n\n",
+      {
+        "translate": "pack.tcc",
+        "color": "#008725",
+        "italic": true
+      }
+    ],
+    "frame": "goal"
+  },
+  "parent": "minecraft:nether/summon_wither",
+  "criteria": {
+    "activate_nether_reactor": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

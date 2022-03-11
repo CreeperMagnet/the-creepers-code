@@ -1,6 +1,5 @@
 ############################################################
-# Description: Rotates a block
-# Creator: CreeperMagnet_
+# Rotates a block
 ############################################################
 
 execute if block ~ ~ ~ repeater[delay=1] run function tcc:item/wrench/rotate/block/repeater/delay_1

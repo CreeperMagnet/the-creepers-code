@@ -1,6 +1,5 @@
 ############################################################
-# Description: Colors a block
-# Creator: CreeperMagnet_
+# Colors a block
 ############################################################
 execute if block ~ ~ ~ #tcc:paintbrush/light_blue run tag @s add tcc.tag
 

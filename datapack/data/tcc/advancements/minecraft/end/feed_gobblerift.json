@@ -2,17 +2,16 @@
   "display": {
     "icon": {
       "item": "minecraft:carrot_on_a_stick",
-      "nbt": "{CustomModelData:330037}"
+      "nbt": "{CustomModelData:330008}"
     },
     "title": {
       "translate": "advancements.tcc.minecraft.end.feed_gobblerift.title"
     },
-    "description": [{
+    "description": [
+      {
         "translate": "advancements.tcc.minecraft.end.feed_gobblerift.description"
       },
-      {
-        "translate": "advancements.tcc.minecraft.tooltip_spacer"
-      },
+      "\n\n",
       {
         "translate": "pack.tcc",
         "color": "#008725",

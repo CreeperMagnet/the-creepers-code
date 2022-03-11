@@ -1,6 +1,5 @@
 ############################################################
-# Description: Rotates a block
-# Creator: CreeperMagnet_
+# Rotates a block
 ############################################################
 
 execute if block ~ ~ ~ red_nether_brick_stairs[half=bottom,waterlogged=false] run function tcc:item/wrench/rotate/block/red_nether_brick_stairs/bottom

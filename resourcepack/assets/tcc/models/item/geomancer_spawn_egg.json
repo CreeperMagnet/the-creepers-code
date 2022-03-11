@@ -1,7 +1,0 @@
-{
-  "parent": "tcc:item/template_spawn_egg",
-  "textures": {
-    "0": "tcc:item/geomancer_spawn_egg",
-    "particle": "tcc:item/geomancer_spawn_egg"
-  }
-}

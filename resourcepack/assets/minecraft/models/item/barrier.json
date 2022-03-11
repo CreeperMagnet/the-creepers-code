@@ -3,10 +3,12 @@
   "textures": {
     "layer0": "item/barrier"
   },
-  "overrides": [{
-    "predicate": {
-      "custom_model_data": 330000
-    },
-    "model": "tcc:item/tcc_icon"
-  }]
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 330000
+      },
+      "model": "tcc:item/tcc_icon"
+    }
+  ]
 }

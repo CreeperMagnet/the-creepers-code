@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "minecraft:lapis_lazuli"
-  },
-  "result": "minecraft:knowledge_book",
-  "count": 1
-}

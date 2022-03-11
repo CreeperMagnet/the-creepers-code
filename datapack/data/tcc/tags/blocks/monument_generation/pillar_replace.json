@@ -1,0 +1,11 @@
+{
+  "values": [
+    "minecraft:air",
+    "minecraft:water",
+    "minecraft:seagrass",
+    "minecraft:kelp",
+    "minecraft:kelp_plant",
+    "minecraft:lava",
+    "#minecraft:corals"
+  ]
+}

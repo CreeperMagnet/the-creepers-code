@@ -1,17 +1,16 @@
 ############################################################
-# Description: Makes an explosive pillar at a random position near the player
-# Creator: CreeperMagnet_
+# Makes an explosive pillar at a random position near the player
 ############################################################
 
 scoreboard players add @s tcc.dummy 1
 
-execute store result score tcc.temp_0 tcc.dummy run loot spawn 0 0 0 loot tcc:technical/roll/min_1_max_3
-execute store result score tcc.temp_2 tcc.dummy run loot spawn 0 0 0 loot tcc:technical/roll/min_1_max_2
-execute if score tcc.temp_2 tcc.dummy matches 1 run scoreboard players operation tcc.temp_0 tcc.dummy *= tcc.const.-1 tcc.dummy
+execute store result score #temp_0 tcc.dummy run loot spawn 0 0 0 loot tcc:technical/roll/min_1_max_3
+execute store result score #temp_2 tcc.dummy run loot spawn 0 0 0 loot tcc:technical/roll/min_1_max_2
+execute if score #temp_2 tcc.dummy matches 1 run scoreboard players operation #temp_0 tcc.dummy *= #-1 tcc.dummy
 
-execute store result score tcc.temp_1 tcc.dummy run loot spawn 0 0 0 loot tcc:technical/roll/min_1_max_3
-execute store result score tcc.temp_2 tcc.dummy run loot spawn 0 0 0 loot tcc:technical/roll/min_1_max_2
-execute if score tcc.temp_2 tcc.dummy matches 1 run scoreboard players operation tcc.temp_1 tcc.dummy *= tcc.const.-1 tcc.dummy
+execute store result score #temp_1 tcc.dummy run loot spawn 0 0 0 loot tcc:technical/roll/min_1_max_3
+execute store result score #temp_2 tcc.dummy run loot spawn 0 0 0 loot tcc:technical/roll/min_1_max_2
+execute if score #temp_2 tcc.dummy matches 1 run scoreboard players operation #temp_1 tcc.dummy *= #-1 tcc.dummy
 
 function tcc:entity/geomancer/spawn_explosive/x
 

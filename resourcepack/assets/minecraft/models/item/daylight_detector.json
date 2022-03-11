@@ -1,9 +1,11 @@
 {
   "parent": "block/daylight_detector",
-  "overrides": [{
-    "predicate": {
-      "custom_model_data": 330000
-    },
-    "model": "minecraft:block/daylight_detector_inverted"
-  }]
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 330000
+      },
+      "model": "minecraft:block/daylight_detector_inverted"
+    }
+  ]
 }

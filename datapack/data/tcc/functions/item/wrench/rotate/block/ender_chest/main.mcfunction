@@ -1,6 +1,5 @@
 ############################################################
-# Description: Rotates a block
-# Creator: CreeperMagnet_
+# Rotates a block
 ############################################################
 
 execute if block ~ ~ ~ ender_chest[waterlogged=true] run function tcc:item/wrench/rotate/block/ender_chest/waterlogged

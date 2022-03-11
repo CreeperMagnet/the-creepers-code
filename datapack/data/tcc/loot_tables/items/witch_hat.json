@@ -1,31 +1,47 @@
 {
-  "pools": [{
-    "rolls": 1,
-    "entries": [{
-      "type": "minecraft:item",
-      "weight": 1,
-      "functions": [{
-          "function": "minecraft:set_nbt",
-          "tag": "{display:{color:0},AttributeModifiers:[],HideFlags:68,Unbreakable:1b,RepairCost:100,tcc:{id:\"witch_hat\"},CustomModelData:330000}"
-        },
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
         {
-          "function": "minecraft:set_name",
-          "name": {
-            "translate": "item.tcc.witch_hat",
-            "color": "yellow",
-            "italic": false
-          }
-        },
-        {
-          "function": "minecraft:set_lore",
-          "lore": [{
-            "translate": "pack.tcc",
-            "color": "#008725",
-            "italic": true
-          }]
+          "type": "minecraft:item",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{color:0},AttributeModifiers:[{Amount:1.0d,Slot:\"head\",AttributeName:\"minecraft:generic.armor\",Name:\"minecraft:generic.armor\",Operation:0,UUID:[I;2,0,3,3]}],HideFlags:68,Unbreakable:1b,RepairCost:100,tcc:{id:\"witch_hat\",durability:[100,100],repaired:1b},CustomModelData:330000}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.tcc.witch_hat",
+                "color": "yellow",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "item.durability",
+                  "color": "gray",
+                  "italic": false,
+                  "with": [
+                    100,
+                    100
+                  ]
+                },
+                {
+                  "translate": "pack.tcc",
+                  "color": "#008725",
+                  "italic": true
+                }
+              ]
+            }
+          ],
+          "name": "minecraft:leather_helmet"
         }
-      ],
-      "name": "minecraft:leather_helmet"
-    }]
-  }]
+      ]
+    }
+  ]
 }

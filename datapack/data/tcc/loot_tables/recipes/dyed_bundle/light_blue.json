@@ -1,0 +1,24 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "tcc:items/dyed_bundle/light_blue"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:entity_scores",
+          "entity": "this",
+          "scores": {
+            "tcc.crafted_item": {
+              "min": 1
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

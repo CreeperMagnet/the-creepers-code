@@ -1,65 +1,52 @@
 ############################################################
-# Description: Adds all scoreboards and sets up everything
-# Creator: CreeperMagnet_
+# Adds all scoreboards and sets up everything
 ############################################################
 
+# Use for single-tick operations
 scoreboard objectives add tcc.dummy dummy
-execute as @a unless entity @s[name=!CreeperMagnet_,name=!CreeperRepellant,name=!dragoncommands,name=!ChromaKey81,name=!Ragnorakkr_,name=!Ellivers] run tellraw @s [{"translate":"debug.prefix","color":"yellow","bold":true},{"translate":"commands.tcc.reload.success","color":"white","bold":false}]
-execute if score tcc.server_version tcc.dummy matches ..39 run tellraw @a {"translate":"commands.tcc.initiate.incompatible","color":"dark_red","bold":true}
-execute unless score tcc.server_version tcc.dummy matches 50 run function tcc:technical/initiate
 
-# Gamerules
+tellraw @a[predicate=tcc:entity/debug_player] [{"translate":"debug.prefix","color":"yellow","bold":true},{"translate":"commands.tcc.reload.success","color":"white","bold":false}]
+execute unless score #server_version tcc.dummy matches 100 run function tcc:technical/initiate
+
+## Gamerules
 gamerule doLimitedCrafting false
 gamerule logAdminCommands false
 gamerule commandBlockOutput false
-schedule function tcc:technical/second_clock 1s replace
-schedule function tcc:technical/ten_second_clock 10s replace
 
-# Scoreboards
+## Scoreboards
 scoreboard objectives add tcc.carrotstick minecraft.used:minecraft.carrot_on_a_stick
-
-scoreboard objectives add tcc.minewheat minecraft.mined:minecraft.wheat
-scoreboard objectives add tcc.minebeets minecraft.mined:minecraft.beetroots
-scoreboard objectives add tcc.minecarrots minecraft.mined:minecraft.carrots
-scoreboard objectives add tcc.minepotatoes minecraft.mined:minecraft.potatoes
-scoreboard objectives add tcc.minewarts minecraft.mined:minecraft.nether_wart
-
-scoreboard objectives add tcc.useelytra minecraft.custom:minecraft.aviate_one_cm
-scoreboard objectives add tcc.sneaktime minecraft.custom:minecraft.sneak_time
 scoreboard objectives add tcc.health health
-
 scoreboard objectives add tcc.crafted_item minecraft.crafted:minecraft.knowledge_book
 scoreboard objectives add tcc.drop minecraft.custom:minecraft.drop
-
 scoreboard objectives add tcc.current_xp xp
 scoreboard objectives add tcc.old_xp dummy
-
 scoreboard objectives add tcc.tea dummy
 scoreboard objectives add tcc.invul_timer dummy
 
+#Use for operations spanning multiple ticks
 scoreboard objectives add tcc.dummy2 dummy
 
-scoreboard players set tcc.const.-1 tcc.dummy -1
-scoreboard players set tcc.const.2 tcc.dummy 2
-scoreboard players set tcc.const.3 tcc.dummy 3
-scoreboard players set tcc.const.4 tcc.dummy 4
-scoreboard players set tcc.const.5 tcc.dummy 5
-scoreboard players set tcc.const.7 tcc.dummy 7
-scoreboard players set tcc.const.10 tcc.dummy 10
-scoreboard players set tcc.const.16 tcc.dummy 16
-scoreboard players set tcc.const.20 tcc.dummy 20
-scoreboard players set tcc.const.25 tcc.dummy 25
-scoreboard players set tcc.const.60 tcc.dummy 60
-scoreboard players set tcc.const.100 tcc.dummy 100
-scoreboard players set tcc.const.180 tcc.dummy 180
+## Scoreboard Constants
+scoreboard players set #-1 tcc.dummy -1
+scoreboard players set #2 tcc.dummy 2
+scoreboard players set #3 tcc.dummy 3
+scoreboard players set #4 tcc.dummy 4
+scoreboard players set #5 tcc.dummy 5
+scoreboard players set #6 tcc.dummy 6
+scoreboard players set #10 tcc.dummy 10
+scoreboard players set #16 tcc.dummy 16
+scoreboard players set #25 tcc.dummy 25
+scoreboard players set #60 tcc.dummy 60
+scoreboard players set #100 tcc.dummy 100
+scoreboard players set #180 tcc.dummy 180
 
-# World Data
-execute store result score tcc.world_seed tcc.dummy run seed
-execute store result score tcc.extended_world_height tcc.dummy unless block ~ -64 ~ dispenser{impossible:1b}
+## World Data
+execute store result score #world_seed tcc.dummy run seed
 
+## Triggered Objectives
 scoreboard objectives add tcc.emoji trigger
 scoreboard objectives add tcc.compendium trigger
 
-team add tcc.antivillager
+## Teams
 team add tcc.amethyst
 team modify tcc.amethyst color light_purple

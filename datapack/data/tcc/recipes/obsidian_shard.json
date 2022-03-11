@@ -1,9 +1,0 @@
-{
-  "type": "blasting",
-  "ingredient": {
-    "item": "minecraft:obsidian"
-  },
-  "result": "minecraft:repeating_command_block",
-  "experience": 0.15,
-  "cookingtime": 600
-}

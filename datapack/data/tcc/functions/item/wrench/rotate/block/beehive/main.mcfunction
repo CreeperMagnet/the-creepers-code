@@ -1,6 +1,5 @@
 ############################################################
-# Description: Rotates a block
-# Creator: CreeperMagnet_
+# Rotates a block
 ############################################################
 
 execute if block ~ ~ ~ beehive[honey_level=0] run function tcc:item/wrench/rotate/block/beehive/honey_level_0

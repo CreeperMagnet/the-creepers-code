@@ -2,7 +2,7 @@
   "display": {
     "icon": {
       "item": "minecraft:potion",
-      "nbt": "{CustomModelData:330012,CustomPotionColor:16777215}"
+      "nbt": "{CustomModelData:330000,CustomPotionColor:16777215}"
     },
     "title": {
       "translate": "advancements.tcc.minecraft.end.drink_riftjuice.title"
@@ -11,9 +11,7 @@
       {
         "translate": "advancements.tcc.minecraft.end.drink_riftjuice.description"
       },
-      {
-        "translate": "advancements.tcc.minecraft.tooltip_spacer"
-      },
+      "\n\n",
       {
         "translate": "pack.tcc",
         "color": "#008725",

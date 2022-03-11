@@ -1,6 +1,5 @@
 ############################################################
-# Description: Takes experience from the locket
-# Creator: ChromaKey
+# Takes experience from the locket
 ############################################################
 
 # decrements the score by 1, to later store back into the locket data

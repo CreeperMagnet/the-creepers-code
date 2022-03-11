@@ -1,6 +1,5 @@
 ############################################################
-# Description: Rotates a block
-# Creator: CreeperMagnet_
+# Rotates a block
 ############################################################
 
 execute if block ~ ~ ~ birch_sign[waterlogged=true] run function tcc:item/wrench/rotate/block/birch_sign/waterlogged

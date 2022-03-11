@@ -1,6 +1,0 @@
-{
-	"parent": "tcc:entity/snail/normal",
-	"textures": {
-		"0": "tcc:entity/snail/black"
-	}
-}

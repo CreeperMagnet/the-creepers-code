@@ -1,6 +1,5 @@
 ############################################################
-# Description: Rotates a block
-# Creator: CreeperMagnet_
+# Rotates a block
 ############################################################
 
 execute if block ~ ~ ~ crimson_stairs[half=bottom,waterlogged=false] run function tcc:item/wrench/rotate/block/crimson_stairs/bottom

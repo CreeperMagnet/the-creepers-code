@@ -87,7 +87,6 @@
         "minecraft:end_gateway",
         "minecraft:soul_fire",
         "minecraft:kelp",
-        "minecraft:kelp_plant",
-        {"id": "quark:root", "required": false}
+        "minecraft:kelp_plant"
     ]
 }

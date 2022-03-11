@@ -1,6 +1,5 @@
 ############################################################
-# Description: Rotates a block
-# Creator: CreeperMagnet_
+# Rotates a block
 ############################################################
 
 execute if block ~ ~ ~ andesite_stairs[half=bottom,waterlogged=false] run function tcc:item/wrench/rotate/block/andesite_stairs/bottom

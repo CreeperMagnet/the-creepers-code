@@ -1,6 +1,5 @@
 ############################################################
-# Description: Rotates a block
-# Creator: CreeperMagnet_
+# Rotates a block
 ############################################################
 
 execute if entity @s[scores={tcc.dummy=0}] store result score @s tcc.dummy if block ~ ~ ~ weathered_cut_copper_stairs[facing=north] run setblock ~ ~ ~ weathered_cut_copper_stairs[facing=east]

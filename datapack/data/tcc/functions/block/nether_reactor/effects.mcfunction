@@ -1,6 +1,5 @@
 ############################################################
-# Description: Commands for the effects a nether reactor gives out
-# Creator: CreeperMagnet_
+# Commands for the effects a nether reactor gives out
 ############################################################
 
 effect clear @s[nbt={ActiveEffects:[{Id:20b,Amplifier:0b}]}] minecraft:wither

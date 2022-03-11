@@ -1,0 +1,10 @@
+{
+  "values": [
+    "minecraft:drowned",
+    "minecraft:wandering_trader",
+    "minecraft:zombie",
+    "minecraft:zombie_villager",
+    "#tcc:technical/converted",
+    "#tcc:illagers"
+  ]
+}

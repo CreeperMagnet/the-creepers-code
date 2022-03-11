@@ -1,6 +1,5 @@
 ############################################################
-# Description: Freezes a random block in a 5x5 area with an iceier version
-# Creator: ChromaKey
+# Freezes a random block in a 5x5 area with an iceier version
 ############################################################
 
 execute if block ~ ~ ~ minecraft:packed_ice run setblock ~ ~ ~ minecraft:blue_ice replace
@@ -21,4 +20,4 @@ execute if block ~ ~ ~ minecraft:powder_snow_cauldron[level=2] run setblock ~ ~ 
 execute if block ~ ~ ~ minecraft:powder_snow_cauldron[level=1] run setblock ~ ~ ~ minecraft:powder_snow_cauldron[level=2] replace
 execute if block ~ ~ ~ minecraft:cauldron run setblock ~ ~ ~ minecraft:powder_snow_cauldron[level=1] replace
 
-scoreboard players reset tcc.temp_0
+scoreboard players reset #temp_0 tcc.dummy

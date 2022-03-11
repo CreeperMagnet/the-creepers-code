@@ -1,6 +1,5 @@
 ############################################################
-# Description: Getting which way the item frame is facing
-# Creator: Ellivers
+# Getting which way the item frame is facing
 ############################################################
 
 tag @s remove tcc.phantom_item_frame.place

@@ -1,6 +1,5 @@
 ############################################################
-# Description: Rotates a block
-# Creator: CreeperMagnet_
+# Rotates a block
 ############################################################
 
 execute if block ~ ~ ~ end_stone_brick_stairs[half=bottom,waterlogged=false] run function tcc:item/wrench/rotate/block/end_stone_brick_stairs/bottom

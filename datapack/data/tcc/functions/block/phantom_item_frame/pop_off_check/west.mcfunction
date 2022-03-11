@@ -1,6 +1,5 @@
 ############################################################
-# Description: Check if the item frame should pop off
-# Creator: Ellivers
+# Check if the item frame should pop off
 ############################################################
 
 execute if block ~ ~ ~ #tcc:phantom_item_frame_allowed/all_sides run scoreboard players reset @s tcc.dummy2

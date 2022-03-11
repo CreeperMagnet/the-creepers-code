@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "tcc:tundra_keep",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 155378599,
+    "spacing": 30,
+    "separation": 10,
+    "type": "minecraft:random_spread"
+  }
+}

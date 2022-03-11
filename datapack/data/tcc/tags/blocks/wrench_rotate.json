@@ -1,5 +1,4 @@
 {
-  "replace": false,
   "values": [
     "#minecraft:logs",
     "#tcc:glazed_terracotta",
@@ -32,6 +31,7 @@
     "minecraft:lectern",
     "minecraft:deepslate",
     "minecraft:lightning_rod",
-    "minecraft:infested_deepslate"
+    "minecraft:infested_deepslate",
+    "minecraft:chain"
   ]
 }

@@ -1,6 +1,5 @@
 ############################################################
-# Description: Spawns a snail
-# Creator: CreeperMagnet_
+# Spawns a snail
 ############################################################
 
 function tcc:entity/snail/summon/spawn

@@ -75,10 +75,6 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:loot_table",
-          "name": "tcc:items/pristine_amethyst_gemstone"
-        },
-        {
           "type": "minecraft:item",
           "name": "minecraft:stick"
         }

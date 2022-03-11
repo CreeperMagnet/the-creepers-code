@@ -1,6 +1,5 @@
 ############################################################
-# Description: Toggles the doChargedDiscs gamerule
-# Creator: Ellivers
+# Toggles the doChargedDiscs gamerule
 ############################################################
 
 execute store result score @s tcc.dummy run data get storage tcc:storage root.gamerules.doChargedDiscs

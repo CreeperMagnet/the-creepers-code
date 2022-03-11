@@ -1,6 +1,5 @@
 ############################################################
-# Description: Toggles the generateMonuments gamerule
-# Creator: CreeperMagnet_
+# Toggles the generateMonuments gamerule
 ############################################################
 
 execute store result score @s tcc.dummy run data get storage tcc:storage root.gamerules.generateMonuments

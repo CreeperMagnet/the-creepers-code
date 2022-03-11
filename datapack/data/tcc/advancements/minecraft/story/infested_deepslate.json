@@ -1,32 +1,32 @@
 {
-    "display": {
-      "icon": {
-        "item": "minecraft:infested_deepslate"
-      },
-      "title": {
-        "translate": "advancements.tcc.minecraft.story.infested_deepslate.title"
-      },
-      "description": {
-        "translate": "advancements.tcc.minecraft.story.infested_deepslate.description"
-      },
-      "frame": "challenge"
+  "display": {
+    "icon": {
+      "item": "minecraft:infested_deepslate"
     },
-    "parent": "minecraft:story/follow_ender_eye",
-    "criteria": {
-      "get_infested_deepslate": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": [
-                "minecraft:infested_deepslate"
-              ]
-            }
-          ]
-        }
+    "title": {
+      "translate": "advancements.tcc.minecraft.story.infested_deepslate.title"
+    },
+    "description": {
+      "translate": "advancements.tcc.minecraft.story.infested_deepslate.description"
+    },
+    "frame": "challenge"
+  },
+  "parent": "minecraft:story/follow_ender_eye",
+  "criteria": {
+    "get_infested_deepslate": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:infested_deepslate"
+            ]
+          }
+        ]
       }
-    },
-    "rewards": {
-      "experience": 100
     }
+  },
+  "rewards": {
+    "experience": 100
   }
+}

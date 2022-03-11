@@ -1,6 +1,5 @@
 ############################################################
-# Description: Sets the data of the pregnant snail
-# Creator: CreeperMagnet_
+# Sets the data of the pregnant snail
 ############################################################
 
 function tcc:entity/snail/breed/set_tags

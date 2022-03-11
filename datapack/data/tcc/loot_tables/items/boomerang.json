@@ -6,7 +6,7 @@
       "weight": 1,
       "functions": [{
           "function": "minecraft:set_nbt",
-          "tag": "{HideFlags:4,Unbreakable:1b,tcc:{id:\"boomerang\",durability:[300,300],repaired:1b},CustomModelData:330004}"
+          "tag": "{HideFlags:4,Unbreakable:1b,tcc:{id:\"boomerang\",durability:[300,300],repaired:1b},CustomModelData:330002}"
         },
         {
           "function": "minecraft:set_name",

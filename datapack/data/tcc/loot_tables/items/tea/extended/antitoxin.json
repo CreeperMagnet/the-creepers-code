@@ -1,44 +1,48 @@
 {
-  "pools": [{
-    "rolls": 1,
-    "entries": [{
-      "type": "minecraft:item",
-      "weight": 1,
-      "functions": [{
-          "function": "minecraft:set_nbt",
-          "tag": "{Potion:\"minecraft:mundane\",CustomPotionColor:16777215,HideFlags:36,tcc:{id:\"tea\",tea:\"antitoxin\",extended_tea:1b},CustomModelData:330001}"
-        },
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
         {
-          "function": "minecraft:set_name",
-          "name": {
-            "translate": "item.tcc.antitoxin_tea",
-            "italic": false
-          }
-        },
-        {
-          "function": "minecraft:set_lore",
-          "lore": [{
-              "translate": "potion.withDuration",
-              "color": "gold",
-              "italic": false,
-              "with": [{
-                  "translate": "item.tcc.antitoxin_tea.lore"
-                },
-                {
-                  "translate": "potion.tcc.duration",
-                  "with": [7, 3, 0]
-                }
-              ]
+          "type": "minecraft:loot_table",
+          "name": "tcc:items/tea/antitoxin",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{tcc:{tea:{extended:1b}}}"
             },
             {
-              "translate": "pack.tcc",
-              "color": "#008725",
-              "italic": true
+              "function": "minecraft:set_lore",
+              "replace": true,
+              "lore": [
+                {
+                  "translate": "potion.withDuration",
+                  "with": [
+                    {
+                      "translate": "item.tcc.antitoxin_tea.lore"
+                    },
+                    {
+                      "translate": "potion.tcc.duration",
+                      "with": [
+                        7,
+                        3,
+                        0
+                      ]
+                    }
+                  ],
+                  "color": "gold",
+                  "italic": false
+                },
+                {
+                  "translate": "pack.tcc",
+                  "color": "#008725",
+                  "italic": true
+                }
+              ]
             }
           ]
         }
-      ],
-      "name": "minecraft:potion"
-    }]
-  }]
+      ]
+    }
+  ]
 }

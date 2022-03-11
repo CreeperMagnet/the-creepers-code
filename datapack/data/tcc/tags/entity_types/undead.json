@@ -1,5 +1,4 @@
 {
-  "replace": false,
   "values": [
     "minecraft:zombie",
     "minecraft:husk",
@@ -12,7 +11,6 @@
     "minecraft:phantom",
     "minecraft:skeleton_horse",
     "minecraft:zombie_horse",
-    "minecraft:zoglin",
-    {"id": "quark:wrapped", "required": false}
+    "minecraft:zoglin"
   ]
 }

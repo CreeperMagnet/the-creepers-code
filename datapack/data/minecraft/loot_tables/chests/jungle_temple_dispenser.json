@@ -29,5 +29,25 @@
                 }
             ]
         }
-    ]
+    ],
+    "__smithed__":{
+        "rules": [
+            {
+                "type":"smithed:append",
+                "target":"pools[0].entries[0].functions",
+                "source": {
+                    "type":"smithed:reference",
+                    "path":"pools[0].entries[0].functions[1]"
+                }
+            },
+            {
+                "type":"smithed:merge",
+                "target":"pools[0].entries[0].name",
+                "source": {
+                    "type":"smithed:reference",
+                    "path":"pools[0].entries[0].name"
+                }
+            }
+        ]
+    }
 }

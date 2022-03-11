@@ -1,0 +1,26 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "destination": "tcc:weeping_eye_located",
+              "function": "minecraft:exploration_map",
+              "decoration": "target_point",
+              "zoom": 1,
+              "skip_existing_chunks": true
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:330001,tcc:{id:\"weeping_eye_map\"}}"
+            }
+          ],
+          "name": "minecraft:map"
+        }
+      ]
+    }
+  ]
+}

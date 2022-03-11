@@ -1,9 +1,8 @@
 ############################################################
-# Description: Adds 2 absorption hearts to the player's hearts
-# Creator: CreeperMagnet_
+# Adds 2 absorption hearts to the player's hearts
 ############################################################
 
-advancement revoke @s[advancements={tcc:technical/potions/absorption/add_2=true}] only tcc:technical/potions/absorption/add_2
+advancement revoke @s only tcc:technical/consume_item/golden_apple
 execute store result score @s tcc.dummy run data get entity @s AbsorptionAmount 100
 effect clear @s[scores={tcc.dummy=200..1900}] minecraft:absorption
 effect give @s[scores={tcc.dummy=400..799}] absorption 300 1

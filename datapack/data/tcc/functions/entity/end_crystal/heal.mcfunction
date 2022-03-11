@@ -1,6 +1,5 @@
 ############################################################
-# Description: Makes the end crystal heal players
-# Creator: CreeperMagnet_
+# Makes the end crystal heal players
 ############################################################
 
 effect give @s[nbt=!{ActiveEffects:[{Id:10b}]}] regeneration 10 0 true

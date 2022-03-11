@@ -444,11 +444,6 @@ https://thecreeperscode.com/secret
 Half of these splashes used to be about lag, then I optimized
 r/TheCreepersCode
 Join TCC's discord server!
-V0.1 took too long
-V0.2 took too long
-V0.3 took too long
-V0.4 took... not too long, actually!
-V0.5 also didn't take too long!
 Don’t look directly at the bugs.
 Something about this seems strange...
 May contain nuts and a hint of lag
@@ -457,12 +452,11 @@ Here I go again, breaking backwards compatibility!
 ‘mInEcRaFt iS dYiNg’
 Nothing to see here...
 May contain feature creep
-The peculiar berries taste rather odd.
-Obsidian shards take a painful amount of time to smelt
+Swordfish taste rather odd.
+RIP obsidian shards, peculiar berries, and every other removed feature that should never have been made in the first place.
 Bukkit + TCC = A very sad error log
 Please do not mix with mods
 Are we there yet?
-V0.6: Coming a really long time from now but not as long as V0.4
 L.O.L. = Lots of Lag
 Datapacks, not data packs
 Now contains 300+ more ring types!
@@ -477,6 +471,8 @@ Also play Caelesti!
 Also play Incendium!
 Also play Marina!
 Also play Florcraft!
+Also play Arcane Magic!
+Also play Ocean Additions!
 Also play The Wastes!
 Big Pack Suffering!
 Don't Explode: Code!
@@ -484,7 +480,7 @@ We do what Mojang's too scared to!
 Come on in, we've got a monkey!
 When in doubt, blame Mojang
 haha dragon lazy
-global.ignore gives me nightmares
+Smithed > MCD
 I am fueled by spite!
 Top on DPC!
 Why did it work before? I didn't change anything.
@@ -496,7 +492,7 @@ Monkey brain approved!
 Wait, what was the point of this again?
 Get back to work, Dragon
 Now with less optimizations and more lag!
-Now with seven devs!
+Now with too many devs!
 Wait, it's all armor stands?
 eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
 Now with more creepers and code!
@@ -577,11 +573,9 @@ The devs are here of their own free will
 :boqheart:
 woakey vs. chromakey
 Works as intended!
-Also try Arcane Magic!
 Lock all the recipes!
 Snails in pails!
 Pain and suffering!
-V0.5 definitely wasn't rushed!
 Buff the illagers!
 PIF!
 CreeperMagnet_ has a basement obsession!
@@ -607,3 +601,20 @@ Now (mostly) open source!
 R.I.P. The Scuttler
 Easter eggs included!
 Blend in with the witches...
+Villager companion sold separately
+Thanks, DanTDM!
+Federal law prohibits uninstalling this datapack
+Fun for the whole family!
+Soon to be a major religion
+Some splashes brought to you by Futurama!
+If you can read this, thank us!
+Made you look!
+No refunds
+Provides a full day's supply of Vitamins T, C, and C!
+Soon to be a hit television show
+Warning: Do Not Show To Horses
+Ask your doctor if TCC is right for you
+The one bright spot in your life!
+#1 most downloaded datapack among download-bots
+For external use only
+Known to cause insanity in laboratory mice

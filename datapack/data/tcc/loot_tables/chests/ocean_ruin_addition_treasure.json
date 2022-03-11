@@ -97,7 +97,7 @@
         },
         {
           "type": "minecraft:loot_table",
-          "name": "tcc:items/pristine_prismarine_crystal_gemstone"
+          "name": "tcc:items/swordfish"
         },
         {
           "type": "minecraft:item",

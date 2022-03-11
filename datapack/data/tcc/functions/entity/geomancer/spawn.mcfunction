@@ -1,6 +1,5 @@
 ############################################################
-# Description: Spawns a geomancer
-# Creator: CreeperMagnet_
+# Spawns a geomancer
 ############################################################
 
 execute store result score @s tcc.dummy if entity @e[tag=tcc.geomancer,type=minecraft:wandering_trader]

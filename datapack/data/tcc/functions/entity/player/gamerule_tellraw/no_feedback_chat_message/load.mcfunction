@@ -1,6 +1,5 @@
 ############################################################
-# Description: Removes the annoying "Executed X commands from function" message
-# Creator: Ellivers
+# Removes the annoying "Executed X commands from function" message
 ############################################################
 
 tellraw @s[tag=!tcc.no_space] ""

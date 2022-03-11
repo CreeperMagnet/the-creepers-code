@@ -1,66 +1,78 @@
 {
   "type": "minecraft:entity",
-  "pools": [{
+  "pools": [
+    {
       "rolls": 1,
-      "entries": [{
-        "type": "minecraft:item",
-        "functions": [{
-            "function": "minecraft:set_count",
-            "count": {
-              "min": 1.0,
-              "max": 5.0,
-              "type": "minecraft:uniform"
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 5,
+                "type": "minecraft:uniform"
+              }
+            },
+            {
+              "function": "minecraft:looting_enchant",
+              "count": {
+                "min": 0,
+                "max": 1
+              }
             }
-          },
-          {
-            "function": "minecraft:looting_enchant",
-            "count": {
-              "min": 0.0,
-              "max": 1.0
-            }
-          }
-        ],
-        "name": "minecraft:paper"
-      }]
+          ],
+          "name": "minecraft:paper"
+        }
+      ]
     },
     {
       "rolls": 1,
-      "entries": [{
-        "type": "minecraft:item",
-        "functions": [{
-            "function": "minecraft:set_count",
-            "count": {
-              "min": -1.0,
-              "max": 1.0,
-              "type": "minecraft:uniform"
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": -1,
+                "max": 1,
+                "type": "minecraft:uniform"
+              }
+            },
+            {
+              "function": "minecraft:looting_enchant",
+              "count": {
+                "min": 0,
+                "max": 1
+              }
             }
-          },
-          {
-            "function": "minecraft:looting_enchant",
-            "count": {
-              "min": 0.0,
-              "max": 1.0
-            }
-          }
-        ],
-        "name": "minecraft:experience_bottle"
-      }]
+          ],
+          "name": "minecraft:experience_bottle"
+        }
+      ]
     },
     {
       "rolls": 1,
-      "entries": [{
-        "type": "minecraft:item",
-        "name": "minecraft:book",
-        "functions": [{
-          "function": "minecraft:enchant_with_levels",
-          "levels": {
-            "min": 15,
-            "max": 30
-          },
-          "treasure": true
-        }]
-      }],
-      "conditions": [{
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:book",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 15,
+                "max": 30
+              },
+              "treasure": true
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
           "condition": "minecraft:killed_by_player"
         },
         {
@@ -72,15 +84,20 @@
     },
     {
       "rolls": 1,
-      "entries": [{
-        "type": "minecraft:loot_table",
-        "name": "tcc:items/locket_of_learning",
-        "functions": [{
-          "function": "minecraft:set_nbt",
-          "tag": "{CustomModelData:330032,tcc:{stored_points:5}}"
-        }]
-      }],
-      "conditions": [{
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "tcc:items/locket_of_learning",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:330032,tcc:{stored_points:5}}"
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
           "condition": "minecraft:killed_by_player"
         },
         {
@@ -92,17 +109,23 @@
     },
     {
       "rolls": 1,
-      "entries": [{
-        "type": "minecraft:item",
-        "name": "minecraft:structure_block",
-        "functions": [{
-          "function": "minecraft:set_nbt",
-          "tag": "{tcc:{id:\"death_item\",entity:\"enchanter\",clear:1b},CustomModelData:330000}"
-        }],
-        "conditions": [{
-          "condition": "minecraft:killed_by_player"
-        }]
-      }]
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:structure_block",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{tcc:{id:\"death_item\",entity:\"enchanter\",clear:1b},CustomModelData:330000}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:killed_by_player"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

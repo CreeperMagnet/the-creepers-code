@@ -1,0 +1,30 @@
+{
+  "condition": "minecraft:alternative",
+  "terms": [
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "equipment": {
+          "mainhand": {
+            "tag": "tcc:jewelry_table/minerals"
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "equipment": {
+          "mainhand": {
+            "count": {
+              "min": 1
+            },
+            "nbt": "{tcc:{jewelry_table_data:\"mineral\"}}"
+          }
+        }
+      }
+    }
+  ]
+}

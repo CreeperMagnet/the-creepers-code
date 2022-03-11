@@ -1,6 +1,5 @@
 ############################################################
-# Description: Rotates a block
-# Creator: CreeperMagnet_
+# Rotates a block
 ############################################################
 
 execute if block ~ ~ ~ warped_stairs[half=bottom,waterlogged=false] run function tcc:item/wrench/rotate/block/warped_stairs/bottom

@@ -1,19 +1,16 @@
 {
   "type": "crafting_shaped",
   "pattern": [
-    "CCC",
-    "QAQ",
-    " Q "
+    "AA",
+    "WW",
+    "WW"
   ],
   "key": {
-    "C": {
-      "tag": "minecraft:carpets"
+    "W": {
+      "tag": "minecraft:planks"
     },
     "A": {
       "item": "minecraft:amethyst_shard"
-    },
-    "Q": {
-      "item": "minecraft:quartz_block"
     }
   },
   "result": {

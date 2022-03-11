@@ -1,0 +1,11 @@
+{
+  "values": [
+    "minecraft:wolf",
+    "minecraft:zombified_piglin",
+    "minecraft:iron_golem",
+    "minecraft:bee",
+    "minecraft:polar_bear",
+    "minecraft:villager",
+    "#tcc:piglins"
+  ]
+}

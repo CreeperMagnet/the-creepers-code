@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "click_jewelry_table": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:barrel"
+            ],
+            "nbt": "{CustomName:'{\"color\":\"white\",\"font\":\"tcc:jewelry_table\",\"translate\":\"block.tcc.jewelry_table.gui\",\"with\":[{\"color\":\"#3F3F3F\",\"font\":\"minecraft:default\",\"translate\":\"block.tcc.jewelry_table\"}]}'}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "tcc:block/jewelry_table/enter_gui"
+  },
+  "parent": "tcc:technical/root"
+}

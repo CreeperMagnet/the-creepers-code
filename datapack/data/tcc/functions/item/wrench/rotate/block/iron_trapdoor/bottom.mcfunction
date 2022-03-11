@@ -1,6 +1,5 @@
 ############################################################
-# Description: Rotates a block
-# Creator: CreeperMagnet_
+# Rotates a block
 ############################################################
 
 execute if entity @s[scores={tcc.dummy=0}] store result score @s tcc.dummy if block ~ ~ ~ iron_trapdoor[facing=north,open=false] run setblock ~ ~ ~ iron_trapdoor[half=bottom,facing=north,open=true]

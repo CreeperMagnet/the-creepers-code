@@ -1,6 +1,5 @@
 ############################################################
-# Description: Takes the data from the snail's mate
-# Creator: CreeperMagnet_
+# Takes the data from the snail's mate
 ############################################################
 
 data modify storage tcc:storage root.temp.pos set from entity @s Pos

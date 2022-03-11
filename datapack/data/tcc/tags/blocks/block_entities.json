@@ -1,10 +1,8 @@
 {
   "values": [
     "#tcc:containers",
-    "#tcc:mod/quark/chests",
     "#minecraft:beehives",
     "#minecraft:standing_signs",
-    "minecraft:lectern",
-    {"id": "quark:chute", "required": false}
+    "minecraft:lectern"
   ]
 }

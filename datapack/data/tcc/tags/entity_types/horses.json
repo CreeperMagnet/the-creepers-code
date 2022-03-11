@@ -1,7 +1,8 @@
 {
-  "replace": false,
   "values": [
-    "#tcc:living_horses",
+    "minecraft:horse",
+    "minecraft:mule",
+    "minecraft:donkey",
     "minecraft:skeleton_horse",
     "minecraft:zombie_horse"
   ]

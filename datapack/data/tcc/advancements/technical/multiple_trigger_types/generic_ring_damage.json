@@ -1,0 +1,61 @@
+{
+  "criteria": {
+    "diamond": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:reference",
+            "name": "tcc:entity/holding/ring/diamond"
+          }
+        ]
+      }
+    },
+    "prismarine": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "damage": {
+          "type": {
+            "is_magic": false,
+            "is_projectile": false,
+            "blocked": false
+          }
+        },
+        "player": [
+          {
+            "condition": "minecraft:reference",
+            "name": "tcc:entity/holding/ring/diamond"
+          }
+        ]
+      }
+    },
+    "quartz": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "damage": {
+          "type": {
+            "is_magic": false,
+            "blocked": false
+          }
+        },
+        "player": [
+          {
+            "condition": "minecraft:reference",
+            "name": "tcc:entity/holding/ring/diamond"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "diamond",
+      "prismarine",
+      "quartz"
+    ]
+  ],
+  "rewards": {
+    "function": "tcc:item/ring/generic_damage"
+  },
+  "parent": "tcc:technical/root"
+}

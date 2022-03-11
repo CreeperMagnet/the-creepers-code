@@ -1,0 +1,40 @@
+[
+  {
+    "condition": "minecraft:alternative",
+    "terms": [
+      {
+        "condition": "minecraft:reference",
+        "name": "tcc:block/brewing_stand_force/amethyst_dust"
+      },
+      {
+        "condition": "minecraft:reference",
+        "name": "tcc:block/brewing_stand_force/custom_potion"
+      }
+    ]
+  },
+  {
+    "condition": "minecraft:inverted",
+    "term": {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "block": {
+          "blocks": [
+            "minecraft:brewing_stand"
+          ],
+          "nbt": "{Fuel:0b}"
+        }
+      }
+    }
+  },
+  {
+    "condition": "minecraft:location_check",
+    "predicate": {
+      "block": {
+        "blocks": [
+          "minecraft:brewing_stand"
+        ],
+        "nbt": "{BrewTime:0s}"
+      }
+    }
+  }
+]

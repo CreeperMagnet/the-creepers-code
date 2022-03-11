@@ -1,6 +1,5 @@
 ############################################################
-# Description: Modifies this entity's wander target to have new data from storage
-# Creator: CreeperMagnet_
+# Modifies this entity's wander target to have new data from storage
 ############################################################
 
 effect give @s speed 600 20 true

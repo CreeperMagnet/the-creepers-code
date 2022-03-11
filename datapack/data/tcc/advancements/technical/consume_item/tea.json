@@ -1,0 +1,210 @@
+{
+  "criteria": {
+    "antitoxin": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "nbt": "{tcc:{tea:{id:\"antitoxin\",extended:0b}}}"
+        }
+      }
+    },
+    "antitoxin_extended": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "nbt": "{tcc:{tea:{id:\"antitoxin\",extended:1b}}}"
+        }
+      }
+    },
+    "clearsight": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "nbt": "{tcc:{tea:{id:\"clearsight\",extended:0b}}}"
+        }
+      }
+    },
+    "clearsight_extended": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "nbt": "{tcc:{tea:{id:\"clearsight\",extended:1b}}}"
+        }
+      }
+    },
+    "obscurity": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "nbt": "{tcc:{tea:{id:\"obscurity\",extended:0b}}}"
+        }
+      }
+    },
+    "obscurity_extended": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "nbt": "{tcc:{tea:{id:\"obscurity\",extended:1b}}}"
+        }
+      }
+    },
+    "plenty": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "nbt": "{tcc:{tea:{id:\"plenty\",extended:0b}}}"
+        }
+      }
+    },
+    "plenty_extended": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "nbt": "{tcc:{tea:{id:\"plenty\",extended:1b}}}"
+        }
+      }
+    },
+    "purity": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "nbt": "{tcc:{tea:{id:\"purity\",extended:0b}}}"
+        }
+      }
+    },
+    "purity_extended": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "nbt": "{tcc:{tea:{id:\"purity\",extended:1b}}}"
+        }
+      }
+    },
+    "serendipity": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "nbt": "{tcc:{tea:{id:\"serendipity\",extended:0b}}}"
+        }
+      }
+    },
+    "serendipity_extended": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "nbt": "{tcc:{tea:{id:\"serendipity\",extended:1b}}}"
+        }
+      }
+    },
+    "stability": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "nbt": "{tcc:{tea:{id:\"stability\",extended:0b}}}"
+        }
+      }
+    },
+    "stability_extended": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "nbt": "{tcc:{tea:{id:\"stability\",extended:1b}}}"
+        }
+      }
+    },
+    "steadiness": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "nbt": "{tcc:{tea:{id:\"steadiness\",extended:0b}}}"
+        }
+      }
+    },
+    "steadiness_extended": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "nbt": "{tcc:{tea:{id:\"steadiness\",extended:1b}}}"
+        }
+      }
+    },
+    "vigor": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "nbt": "{tcc:{tea:{id:\"vigor\",extended:0b}}}"
+        }
+      }
+    },
+    "vigor_extended": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "nbt": "{tcc:{tea:{id:\"vigor\",extended:1b}}}"
+        }
+      }
+    },
+    "vitality": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "nbt": "{tcc:{tea:{id:\"vitality\",extended:0b}}}"
+        }
+      }
+    },
+    "vitality_extended": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "nbt": "{tcc:{tea:{id:\"vitality\",extended:1b}}}"
+        }
+      }
+    },
+    "vivacity": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "nbt": "{tcc:{tea:{id:\"vivacity\",extended:0b}}}"
+        }
+      }
+    },
+    "vivacity_extended": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "nbt": "{tcc:{tea:{id:\"vivacity\",extended:1b}}}"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "antitoxin",
+      "antitoxin_extended",
+      "clearsight",
+      "clearsight_extended",
+      "obscurity",
+      "obscurity_extended",
+      "plenty",
+      "plenty_extended",
+      "purity",
+      "purity_extended",
+      "serendipity",
+      "serendipity_extended",
+      "stability",
+      "stability_extended",
+      "steadiness",
+      "steadiness_extended",
+      "vigor",
+      "vigor_extended",
+      "vitality",
+      "vitality_extended",
+      "vivacity",
+      "vivacity_extended"
+    ]
+  ],
+  "rewards": {
+    "function": "tcc:item/tea/drink"
+  },
+  "parent": "tcc:technical/root"
+}

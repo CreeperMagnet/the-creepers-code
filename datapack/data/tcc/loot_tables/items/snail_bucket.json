@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{RepairCost:100,HideFlags:4,Unbreakable:1b,tcc:{id:\"snail_bucket\"},CustomModelData:330038}"
+              "tag": "{HideFlags:4,Unbreakable:1b,tcc:{id:\"snail_bucket\"},CustomModelData:330033}"
             },
             {
               "function": "minecraft:set_name",

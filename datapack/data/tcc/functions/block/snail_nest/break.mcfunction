@@ -1,12 +1,8 @@
 ############################################################
-# Description: Commands to break a snail nest
-# Creator: CreeperMagnet_
+# Commands to break a snail nest
 ############################################################
 
-loot spawn ~ ~ ~ loot tcc:blocks/snail_nest
-particle minecraft:item structure_block{CustomModelData:330003} ~ ~ ~ 0.2 0.2 0.2 0.05 20 normal
-particle minecraft:poof ~ ~1 ~ 0.2 0.5 0.2 0 20 normal
-summon experience_orb ~ ~ ~ {Value:2s}
-summon experience_orb ~ ~ ~ {Value:1s}
-playsound tcc:entity.snail.hurt neutral @a[distance=..16]
+execute store success score #temp_0 tcc.dummy run kill @e[tag=!smithed.entity,limit=1,type=item,distance=..2,nbt={PickupDelay:10s,Item:{id:"minecraft:clay",Count:1b}}]
+execute unless score #temp_0 tcc.dummy matches 1.. run function tcc:block/snail_nest/break_no_silk_touch
+execute if score #temp_0 tcc.dummy matches 1.. run loot spawn ~ ~ ~ loot tcc:items/snail_nest
 kill @s

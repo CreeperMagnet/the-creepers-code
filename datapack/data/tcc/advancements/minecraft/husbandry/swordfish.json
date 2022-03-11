@@ -11,9 +11,7 @@
       {
         "translate": "advancements.tcc.minecraft.husbandry.swordfish.description"
       },
-      {
-        "translate": "advancements.tcc.minecraft.tooltip_spacer"
-      },
+      "\n\n",
       {
         "translate": "pack.tcc",
         "color": "#008725",

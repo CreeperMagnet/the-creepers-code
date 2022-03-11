@@ -1,8 +1,7 @@
 ############################################################
-# Description: Stops the clicking sound
-# Creator: Nexus
+# Stops the clicking sound
 ############################################################
 
-advancement revoke @s only tcc:technical/block/click_positional_anchor
+advancement revoke @s only tcc:technical/item_used_on_block/click_positional_anchor
 
-stopsound @s * block.chest.locked
+stopsound @a[distance=..16] * block.chest.locked

@@ -1,0 +1,8 @@
+{
+  "function": "minecraft:set_count",
+  "count": {
+    "type": "minecraft:constant",
+    "value": -5
+  },
+  "add": true
+}

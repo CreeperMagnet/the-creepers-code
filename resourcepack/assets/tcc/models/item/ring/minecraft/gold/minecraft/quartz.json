@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "tcc:item/ring/metal/minecraft/gold",
+    "layer1": "tcc:item/ring/gemstone/minecraft/quartz"
+  }
+}

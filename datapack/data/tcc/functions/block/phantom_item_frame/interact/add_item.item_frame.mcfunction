@@ -1,6 +1,5 @@
 ############################################################
-# Description: Adds an item to a phantom item frame
-# Creator: CreeperMagnet_
+# Adds an item to a phantom item frame
 ############################################################
 
 tag @s remove tcc.phantom_item_frame.empty

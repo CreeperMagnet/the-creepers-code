@@ -1,13 +1,11 @@
 {
-    "replace": false,
-    "values": [
-        "minecraft:dandelion",
-        "minecraft:wither_rose",
-        "minecraft:glow_lichen",
-        "minecraft:ink_sac",
-        "minecraft:blaze_powder",
-        "minecraft:sweet_berries",
-        "minecraft:rabbit_foot",
-        "minecraft:honey_bottle"
-    ]
+  "values": [
+    "minecraft:dandelion",
+    "minecraft:wither_rose",
+    "minecraft:sea_pickle",
+    "minecraft:ink_sac",
+    "minecraft:sweet_berries",
+    "minecraft:rabbit_foot",
+    "minecraft:honey_bottle"
+  ]
 }

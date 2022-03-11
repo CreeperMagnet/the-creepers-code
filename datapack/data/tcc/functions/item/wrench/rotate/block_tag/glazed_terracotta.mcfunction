@@ -1,6 +1,5 @@
 ############################################################
-# Description: Checks a block tag
-# Creator: CreeperMagnet_
+# Checks a block tag
 ############################################################
 
 execute if block ~ ~ ~ black_glazed_terracotta run function tcc:item/wrench/rotate/block/black_glazed_terracotta

@@ -1,6 +1,7 @@
 {
   "parent": "minecraft:block/respawn_anchor_0",
-  "overrides": [{
+  "overrides": [
+    {
       "predicate": {
         "custom_model_data": 330000
       },

@@ -1,6 +1,5 @@
 ############################################################
-# Description: Plays death noises based on which mob it is
-# Creator: CreeperMagnet_
+# Plays death noises based on which mob it is
 ############################################################
 
 execute if entity @s[nbt={Item:{tag:{tcc:{entity:"enchanter"}}}}] run playsound tcc:entity.enchanter.death hostile @a[distance=..16]

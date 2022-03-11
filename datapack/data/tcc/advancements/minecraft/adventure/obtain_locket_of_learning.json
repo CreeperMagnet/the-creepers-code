@@ -3,17 +3,16 @@
   "display": {
     "icon": {
       "item": "minecraft:carrot_on_a_stick",
-      "nbt": "{CustomModelData:330036,Enchantments:[{}]}"
+      "nbt": "{CustomModelData:330031,Enchantments:[{}]}"
     },
     "title": {
       "translate": "advancements.tcc.minecraft.adventure.obtain_locket_of_learning.title"
     },
-    "description": [{
+    "description": [
+      {
         "translate": "advancements.tcc.minecraft.adventure.obtain_locket_of_learning.description"
       },
-      {
-        "translate": "advancements.tcc.minecraft.tooltip_spacer"
-      },
+      "\n\n",
       {
         "translate": "pack.tcc",
         "color": "#008725",

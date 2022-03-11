@@ -1,6 +1,5 @@
 ############################################################
-# Description: Pathfinds one snail to another
-# Creator: CreeperMagnet_
+# Pathfinds one snail to another
 ############################################################
 
 data remove entity @s WanderTarget

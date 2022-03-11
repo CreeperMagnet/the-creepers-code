@@ -481,5 +481,18 @@
         }
       ]
     }
-  ]
+  ],
+  "__smithed__":{
+    "rules":[
+      {
+        "type":"smithed:insert",
+        "index": 8,
+        "target":"pools[1].entries",
+        "source": {
+          "type":"smithed:reference",
+          "path":"pools[1].entries[8]"
+        }
+      }
+    ]
+  }
 }

@@ -190,6 +190,44 @@
           "name": "tcc:items/witch_hat"
         }
       ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "tcc:items/witch_hat"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "killer",
+          "predicate": {
+            "nbt": "{powered:1b}"
+          }
+        }
+      ]
     }
-  ]
+  ],
+  "__smithed__": {
+    "rules": [
+      {
+        "type":"smithed:append",
+        "target":"pools",
+        "source":{
+          "type":"smithed:reference",
+          "path":"pools[1]"
+        }
+      },
+      {
+        "type":"smithed:append",
+        "target":"pools",
+        "source":{
+          "type":"smithed:reference",
+          "path":"pools[2]"
+        }
+      }
+    ]
+  }
 }

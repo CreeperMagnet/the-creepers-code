@@ -1,6 +1,5 @@
 ############################################################
-# Description: Frost walker speed functions
-# Creator: CreeperMagnet_
+# Frost walker speed functions
 ############################################################
 
 tag @s remove tcc.frost_walker_speed

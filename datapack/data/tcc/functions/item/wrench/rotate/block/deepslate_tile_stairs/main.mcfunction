@@ -1,6 +1,5 @@
 ############################################################
-# Description: Rotates a block
-# Creator: CreeperMagnet_
+# Rotates a block
 ############################################################
 
 execute if block ~ ~ ~ deepslate_tile_stairs[half=bottom,waterlogged=false] run function tcc:item/wrench/rotate/block/deepslate_tile_stairs/bottom

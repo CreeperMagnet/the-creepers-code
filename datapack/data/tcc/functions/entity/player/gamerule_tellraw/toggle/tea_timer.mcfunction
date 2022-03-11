@@ -1,6 +1,5 @@
 ############################################################
-# Description: Toggles the alwaysShowTeaTimer gamerule
-# Creator: Ellivers
+# Toggles the alwaysShowTeaTimer gamerule
 ############################################################
 
 execute store result score @s tcc.dummy run data get storage tcc:storage root.gamerules.alwaysShowTeaTimer

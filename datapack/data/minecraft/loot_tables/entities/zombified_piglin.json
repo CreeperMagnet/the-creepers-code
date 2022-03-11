@@ -12,14 +12,7 @@
             {
               "function": "set_count",
               "count": {
-                "min": 0,
-                "max": 1
-              }
-            },
-            {
-              "function": "looting_enchant",
-              "count": {
-                "min": 0,
+                "min": -2,
                 "max": 1
               }
             }
@@ -75,5 +68,17 @@
         }
       ]
     }
-  ]
+  ],
+  "__smithed__": {
+    "rules": [
+      {
+        "type":"smithed:merge",
+        "target":"pools[0].entries[0]",
+        "source":{
+          "type":"smithed:reference",
+          "path":"pools[0].entries[0]"
+        }
+      }
+    ]
+  }
 }

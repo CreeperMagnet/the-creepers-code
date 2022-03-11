@@ -1,51 +1,42 @@
 ############################################################
-# Description: All commands to run involving carrots on sticks
-# Creator: CreeperMagnet_
+# All commands to run involving carrots on sticks
 ############################################################
 
 # Wrenches
-execute unless entity @s[nbt=!{SelectedItem:{tag:{tcc:{id:"wrench"}}}},nbt=!{Inventory:[{tag:{tcc:{id:"wrench"}},Slot:-106b}]}] run function tcc:item/wrench/item
+execute if entity @s[predicate=tcc:entity/holding/wrench] anchored eyes run function tcc:item/wrench/raycast
 
 # Paintbrushes
-execute unless entity @s[nbt=!{SelectedItem:{tag:{tcc:{id:"paintbrush"}}}},nbt=!{Inventory:[{tag:{tcc:{id:"paintbrush"}},Slot:-106b}]}] run function tcc:item/paintbrush/item
+execute unless entity @s[nbt=!{SelectedItem:{tag:{tcc:{id:"paintbrush"}}}},nbt=!{Inventory:[{tag:{tcc:{id:"paintbrush"}},Slot:-106b}]}] run function tcc:item/paintbrush/dye/check
 
 # Teapots
-execute unless entity @s[nbt=!{SelectedItem:{tag:{tcc:{id:"teapot"}}}},nbt=!{Inventory:[{tag:{tcc:{id:"teapot"}},Slot:-106b}]}] run function tcc:block/teapot/item
+execute if entity @s[predicate=tcc:entity/holding/teapot] anchored eyes run function tcc:block/teapot/raycast
 
 # Frostblooms
-execute unless entity @s[nbt=!{SelectedItem:{tag:{tcc:{id:"frostbloom"}}}},nbt=!{Inventory:[{tag:{tcc:{id:"frostbloom"}},Slot:-106b}]}] run function tcc:block/frostbloom/item
+execute if entity @s[predicate=tcc:entity/holding/frostbloom] anchored eyes run function tcc:block/frostbloom/raycast
 
 # Gobblerift
-execute unless entity @s[nbt=!{SelectedItem:{tag:{tcc:{id:"gobblerift"}}}},nbt=!{Inventory:[{tag:{tcc:{id:"gobblerift"}},Slot:-106b}]}] run function tcc:block/gobblerift/place/raycast_start
+execute if entity @s[predicate=tcc:entity/holding/gobblerift] anchored eyes run function tcc:block/gobblerift/place/raycast
 
+# Snail Bucket
+execute if entity @s[nbt={SelectedItem:{tag:{tcc:{id:"snail_bucket"}}}}] anchored eyes run function tcc:entity/snail/unbucket/raycast
 
-# Gobblerift
-execute if entity @s[nbt={SelectedItem:{tag:{tcc:{id:"snail_bucket"}}}}] run function tcc:entity/snail/unbucket/raycast_start
-
-# Soaked Rings
-execute if entity @s[nbt={Inventory:[{Slot:-106b,tag:{tcc:{id:"ring",potion:{}}}}]}] run function #tcc:dynamic_rings/material_checks/use_soaked_ring_offhand
-execute if entity @s[nbt={SelectedItem:{tag:{tcc:{id:"ring",potion:{}}}}}] run function #tcc:dynamic_rings/material_checks/use_soaked_ring_mainhand
-
-# Obsidian Mirror
-execute unless entity @s[nbt=!{SelectedItem:{tag:{tcc:{id:"obsidian_mirror"}}}},nbt=!{Inventory:[{Slot:-106b,tag:{tcc:{id:"obsidian_mirror"}}}]}] if data entity @s ActiveEffects run function tcc:item/obsidian_mirror/main
-
-# Peculiar Berries
-execute unless entity @s[nbt=!{SelectedItem:{tag:{tcc:{id:"peculiar_berries"}}}},nbt=!{Inventory:[{tag:{tcc:{id:"peculiar_berries"}},Slot:-106b}]}] run function tcc:item/peculiar_berries/item
-
-# Quest Books
-execute if entity @s[tag=!tcc.quest.healer,tag=!tcc.quest.mage,tag=!tcc.quest.warrior,tag=!tcc.quest.rogue] unless entity @s[nbt=!{SelectedItem:{tag:{tcc:{id:"quest_book"}}}},nbt=!{Inventory:[{tag:{tcc:{id:"quest_book"}},Slot:-106b}]}] run function tcc:item/quest_book/item
+# Molten Mirror
+execute unless entity @s[nbt=!{SelectedItem:{tag:{tcc:{id:"molten_mirror"}}}},nbt=!{Inventory:[{Slot:-106b,tag:{tcc:{id:"molten_mirror"}}}]}] if data entity @s ActiveEffects run function tcc:item/molten_mirror/main
 
 # Boomerangs
-execute if entity @s[x_rotation=-50..50,nbt=!{SelectedItem:{tag:{tcc:{durability:[1,300]}}}},nbt={SelectedItem:{tag:{tcc:{id:"boomerang"}}}}] anchored eyes if block ^ ^ ^1 #tcc:boomerang_ignore if block ^ ^ ^2 #tcc:boomerang_ignore if block ^ ^ ^3 #tcc:boomerang_ignore if block ^ ^ ^4 #tcc:boomerang_ignore if block ^ ^ ^5 #tcc:boomerang_ignore run function tcc:item/boomerang/throw
-
-# Spectral Boomerangs
-execute if entity @s[x_rotation=-50..50,nbt=!{SelectedItem:{tag:{tcc:{durability:[1,300]}}}},nbt={SelectedItem:{tag:{tcc:{id:"spectral_boomerang"}}}}] anchored eyes run function tcc:item/boomerang/throw
+execute if entity @s[x_rotation=-50..50,nbt=!{SelectedItem:{tag:{tcc:{durability:[1,300]}}}},nbt={SelectedItem:{tag:{tcc:{id:"boomerang"}}}}] anchored eyes positioned ^ ^ ^ positioned ~ ~-0.5 ~ rotated ~ 0 if block ^ ^ ^1 #tcc:boomerang/ignore if block ^ ^ ^2 #tcc:boomerang/ignore if block ^ ^ ^3 #tcc:boomerang/ignore if block ^ ^ ^4 #tcc:boomerang/ignore rotated as @s run function tcc:item/boomerang/throw
 
 # Locket of Learning
 execute unless entity @s[nbt=!{SelectedItem:{tag:{tcc:{id:"locket_of_learning"}}}},nbt=!{Inventory:[{tag:{tcc:{id:"locket_of_learning"}},Slot:-106b}]}] run function tcc:item/locket_of_learning/init
 
 # Smoldering Seekers
 execute if entity @s[nbt={SelectedItem:{tag:{tcc:{id:"unset_smoldering_seeker"}}}},nbt={Dimension:"minecraft:the_nether"}] run function tcc:item/smoldering_seeker
+
+# Weeping Eyes
+execute if entity @s[nbt={SelectedItem:{tag:{tcc:{id:"unset_weeping_eye"}}}},nbt={Dimension:"minecraft:the_end"}] run function tcc:item/weeping_eye
+
+# Diluted Potions
+execute if entity @s[predicate=tcc:entity/holding/diluted_potion/any] run function tcc:item/diluted_potion/used_item
 
 # Reset
 scoreboard players reset @s tcc.carrotstick

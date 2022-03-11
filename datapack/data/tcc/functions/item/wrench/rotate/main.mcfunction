@@ -1,6 +1,5 @@
 ############################################################
-# Description: Rotates the block you're looking at
-# Creator: CreeperMagnet_
+# Rotates the block you're looking at
 ############################################################
 scoreboard players set @s tcc.dummy 0
 
@@ -31,6 +30,8 @@ execute if block ~ ~ ~ minecraft:hay_block run function tcc:item/wrench/rotate/b
 execute if block ~ ~ ~ minecraft:bone_block run function tcc:item/wrench/rotate/block/bone_block
 
 execute if block ~ ~ ~ minecraft:end_rod run function tcc:item/wrench/rotate/block/end_rod
+
+execute if block ~ ~ ~ minecraft:chain run function tcc:item/wrench/rotate/block/chain/main
 
 execute if block ~ ~ ~ minecraft:lightning_rod run function tcc:item/wrench/rotate/block/lightning_rod/main
 
@@ -67,5 +68,3 @@ execute if block ~ ~ ~ minecraft:iron_trapdoor[powered=false] run function tcc:i
 execute if block ~ ~ ~ #minecraft:stairs run function tcc:item/wrench/rotate/block_tag/stairs
 
 playsound tcc:item.wrench.rotate_block block @a[distance=..16]
-execute if entity @s[gamemode=!creative,gamemode=!spectator,nbt=!{SelectedItem:{tag:{tcc:{id:"wrench"}}}},nbt={Inventory:[{Slot:-106b,tag:{tcc:{id:"wrench"}}}]}] run function tcc:item/item_modification/durability/damage/offhand
-execute if entity @s[gamemode=!creative,gamemode=!spectator,nbt={SelectedItem:{tag:{tcc:{id:"wrench"}}}}] run function tcc:item/item_modification/durability/damage/mainhand

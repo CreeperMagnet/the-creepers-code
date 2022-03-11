@@ -1,7 +1,0 @@
-{
-  "parent": "item/generated",
-  "textures": {
-    "layer0": "tcc:item/gemstone/amethyst",
-    "layer1": "tcc:item/gemstone/pristine_overlay"
-  }
-}

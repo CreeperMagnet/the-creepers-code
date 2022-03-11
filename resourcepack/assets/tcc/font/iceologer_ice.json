@@ -1,5 +1,6 @@
 {
-  "providers": [{
+  "providers": [
+    {
       "type": "bitmap",
       "file": "tcc:gui/iceologer_ice.png",
       "ascent": 256,

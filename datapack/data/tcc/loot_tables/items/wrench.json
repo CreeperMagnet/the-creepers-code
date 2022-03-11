@@ -1,37 +1,46 @@
 {
-  "pools": [{
-    "rolls": 1,
-    "entries": [{
-      "type": "minecraft:item",
-      "weight": 1,
-      "functions": [{
-          "function": "minecraft:set_nbt",
-          "tag": "{HideFlags:4,Unbreakable:1b,tcc:{id:\"wrench\",durability:[200,200],repaired:1b},CustomModelData:330009}"
-        },
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
         {
-          "function": "minecraft:set_name",
-          "name": {
-            "translate": "item.tcc.wrench",
-            "italic": false
-          }
-        },
-        {
-          "function": "minecraft:set_lore",
-          "lore": [{
-              "translate": "item.durability",
-              "color": "gray",
-              "italic": false,
-              "with": [200, 200]
+          "type": "minecraft:item",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{HideFlags:4,Unbreakable:1b,tcc:{id:\"wrench\",durability:[200,200],repaired:1b},CustomModelData:330004}"
             },
             {
-              "translate": "pack.tcc",
-              "color": "#008725",
-              "italic": true
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.tcc.wrench",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "item.durability",
+                  "color": "gray",
+                  "italic": false,
+                  "with": [
+                    200,
+                    200
+                  ]
+                },
+                {
+                  "translate": "pack.tcc",
+                  "color": "#008725",
+                  "italic": true
+                }
+              ]
             }
-          ]
+          ],
+          "name": "minecraft:carrot_on_a_stick"
         }
-      ],
-      "name": "minecraft:carrot_on_a_stick"
-    }]
-  }]
+      ]
+    }
+  ]
 }

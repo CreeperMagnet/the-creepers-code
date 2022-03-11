@@ -1,9 +1,9 @@
 {
-  "parent": "tcc:minecraft/adventure/kill_iceologer",
+  "parent": "tcc:minecraft/adventure/enter_tundra_keep",
   "display": {
     "icon": {
       "item": "minecraft:carrot_on_a_stick",
-      "nbt": "{CustomModelData:330030}"
+      "nbt": "{CustomModelData:330007}"
     },
     "title": {
       "translate": "advancements.tcc.minecraft.adventure.obtain_frostbloom.title"
@@ -12,9 +12,7 @@
       {
         "translate": "advancements.tcc.minecraft.adventure.obtain_frostbloom.description"
       },
-      {
-        "translate": "advancements.tcc.minecraft.tooltip_spacer"
-      },
+      "\n\n",
       {
         "translate": "pack.tcc",
         "color": "#008725",

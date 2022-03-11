@@ -1,7 +1,6 @@
 ############################################################
-# Description: Refreshes Invisibility and Age for teapos
-# Creator: CreeperMagnet_
+# Refreshes Invisibility and Age for teapos
 ############################################################
 
-data modify entity @s Age set value -32767s
+data remove entity @s Offers.Recipes
 effect give @s minecraft:invisibility 1000000 0 true

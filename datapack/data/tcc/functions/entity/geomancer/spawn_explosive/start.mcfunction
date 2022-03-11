@@ -1,6 +1,5 @@
 ############################################################
-# Description: Makes an explosive pillar at a random position near the player
-# Creator: CreeperMagnet_
+# Makes an explosive pillar at a random position near the player
 ############################################################
 
 tag @s remove tcc.tag

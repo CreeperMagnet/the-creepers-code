@@ -1,0 +1,14 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "equipment": {
+      "offhand": {
+        "count": {
+          "min": 1
+        },
+        "nbt": "{tcc:{id:\"ring\",ring:{metal:\"minecraft:netherite\"}}}"
+      }
+    }
+  }
+}

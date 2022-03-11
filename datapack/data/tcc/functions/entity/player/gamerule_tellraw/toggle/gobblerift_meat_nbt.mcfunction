@@ -1,6 +1,5 @@
 ############################################################
-# Description: Toggles the ignoreGobbleriftMeatNBT gamerule
-# Creator: Ellivers
+# Toggles the ignoreGobbleriftMeatNBT gamerule
 ############################################################
 
 execute store result score @s tcc.dummy run data get storage tcc:storage root.gamerules.ignoreGobbleriftMeatNBT

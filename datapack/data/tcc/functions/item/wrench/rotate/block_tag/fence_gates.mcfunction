@@ -1,6 +1,5 @@
 ############################################################
-# Description: Checks a block tag
-# Creator: CreeperMagnet_
+# Checks a block tag
 ############################################################
 
 execute if block ~ ~ ~ acacia_fence_gate run function tcc:item/wrench/rotate/block/acacia_fence_gate

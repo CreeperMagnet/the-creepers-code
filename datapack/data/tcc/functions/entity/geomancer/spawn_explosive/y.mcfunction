@@ -1,6 +1,5 @@
 ############################################################
-# Description: Summons a pillar if the conditions are right
-# Creator: CreeperMagnet_
+# Summons a pillar if the conditions are right
 ############################################################
 
 function tcc:entity/geomancer/spawn_explosive/check

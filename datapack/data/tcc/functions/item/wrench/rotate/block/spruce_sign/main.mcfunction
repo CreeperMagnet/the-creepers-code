@@ -1,6 +1,5 @@
 ############################################################
-# Description: Rotates a block
-# Creator: CreeperMagnet_
+# Rotates a block
 ############################################################
 
 execute if block ~ ~ ~ spruce_sign[waterlogged=true] run function tcc:item/wrench/rotate/block/spruce_sign/waterlogged

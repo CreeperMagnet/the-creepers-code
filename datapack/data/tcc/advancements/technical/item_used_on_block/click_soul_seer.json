@@ -1,0 +1,39 @@
+{
+  "criteria": {
+    "off": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:dropper"
+            ],
+            "nbt": "{Lock:\"§soul_seer_off\\\\uF001\"}"
+          }
+        }
+      }
+    },
+    "on": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:dropper"
+            ],
+            "nbt": "{Lock:\"§soul_seer_on\\\\uF001\"}"
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "on",
+      "off"
+    ]
+  ],
+  "rewards": {
+    "function": "tcc:block/soul_seer/stop_sound"
+  }
+}

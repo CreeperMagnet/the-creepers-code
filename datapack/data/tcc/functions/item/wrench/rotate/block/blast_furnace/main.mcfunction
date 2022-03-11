@@ -1,6 +1,5 @@
 ############################################################
-# Description: Rotates a block
-# Creator: CreeperMagnet_
+# Rotates a block
 ############################################################
 
 execute if block ~ ~ ~ blast_furnace[lit=true] run function tcc:item/wrench/rotate/block/blast_furnace/lit

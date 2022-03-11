@@ -1,9 +1,8 @@
 {
-    "replace": false,
-    "values": [
-        "minecraft:wolf",
-        "minecraft:cat",
-        "minecraft:llama",
-        "minecraft:trader_llama"
-    ]
+  "values": [
+    "minecraft:wolf",
+    "minecraft:cat",
+    "minecraft:llama",
+    "minecraft:trader_llama"
+  ]
 }

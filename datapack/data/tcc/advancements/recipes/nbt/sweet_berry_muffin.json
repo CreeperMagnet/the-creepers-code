@@ -2,23 +2,14 @@
   "parent": "tcc:recipes/nbt/root",
   "rewards": {
     "function": "tcc:entity/player/nbt_recipe/crafted_item",
-    "loot": ["tcc:recipes/sweet_berry_muffins"]
+    "loot": [
+      "tcc:recipes/sweet_berry_muffin"
+    ]
   },
   "criteria": {
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "player": [
-          {
-            "condition": "minecraft:entity_scores",
-            "entity": "this",
-            "scores": {
-              "tcc.crafted_item": {
-                "min": 1
-              }
-            }
-          }
-        ],
         "recipe": "tcc:nbt/sweet_berry_muffin"
       }
     }

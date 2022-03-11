@@ -1,0 +1,25 @@
+{
+  "criteria": {
+    "click_soul_seer": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:glowstone_dust"
+          ]
+        },
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:dropper"
+            ],
+            "nbt": "{Lock:\"§soul_seer_off\\\\uF001\"}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "tcc:block/soul_seer/activate"
+  }
+}

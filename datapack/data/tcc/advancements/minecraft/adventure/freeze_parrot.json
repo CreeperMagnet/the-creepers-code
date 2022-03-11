@@ -1,0 +1,41 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:cookie",
+      "nbt": "{CustomModelData:330000}"
+    },
+    "title": {
+      "translate": "advancements.tcc.minecraft.adventure.freeze_parrot.title"
+    },
+    "description": [
+      {
+        "translate": "advancements.tcc.minecraft.adventure.freeze_parrot.description"
+      },
+      "\n\n",
+      {
+        "translate": "pack.tcc",
+        "color": "#008725",
+        "italic": true
+      }
+    ],
+    "frame": "task",
+    "hidden": true
+  },
+  "parent": "tcc:minecraft/adventure/obtain_frostbloom",
+  "criteria": {
+    "feed_parrot": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:cookie"
+          ],
+          "nbt": "{tcc:{id:\"frostbloom_petals\"}}"
+        },
+        "entity": {
+          "type": "minecraft:parrot"
+        }
+      }
+    }
+  }
+}

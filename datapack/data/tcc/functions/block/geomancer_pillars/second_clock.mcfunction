@@ -1,6 +1,5 @@
 ############################################################
-# Description: Functions to run off geomancer pillars every second
-# Creator: CreeperMagnet_
+# Functions to run off geomancer pillars every second
 ############################################################
 
 execute if entity @s[tag=tcc.geomancer_pillar.normal] run function tcc:block/geomancer_pillars/normal/second_clock

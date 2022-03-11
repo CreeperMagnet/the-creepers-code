@@ -1,6 +1,5 @@
 ############################################################
-# Description: Check if the item frame should pop off
-# Creator: Ellivers
+# Check if the item frame should pop off
 ############################################################
 
 scoreboard players reset @s tcc.dummy2

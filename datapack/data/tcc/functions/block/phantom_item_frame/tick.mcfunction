@@ -1,6 +1,5 @@
 ############################################################
-# Description: Tickly commands for the phantom item frame, which is a really long name
-# Creator: Ellivers
+# Tickly commands for the phantom item frame, which is a really long name
 ############################################################
 
 execute store result score @s tcc.dummy if data entity @s Item

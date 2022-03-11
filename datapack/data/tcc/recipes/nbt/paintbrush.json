@@ -2,15 +2,12 @@
   "type": "crafting_shaped",
   "pattern": [
     "WWW",
-    "PPP",
+    "WWW",
     " S "
   ],
   "key": {
     "W": {
       "item": "minecraft:wheat"
-    },
-    "P": {
-      "tag": "minecraft:planks"
     },
     "S": {
       "item": "minecraft:stick"

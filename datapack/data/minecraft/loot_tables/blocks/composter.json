@@ -2,397 +2,26 @@
   "type": "minecraft:block",
   "pools": [
     {
-      "rolls": 1,
+      "rolls": 1.0,
+      "bonus_rolls": 0.0,
       "entries": [
         {
-          "type": "minecraft:alternatives",
-          "children": [
+          "type": "minecraft:item",
+          "functions": [
             {
-              "type": "minecraft:alternatives",
-              "children": [
-                {
-                  "type": "minecraft:item",
-                  "name": "minecraft:composter",
-                  "functions": [
-                    {
-                      "function": "minecraft:set_nbt",
-                      "tag": "{CustomModelData:330000}"
-                    },
-                    {
-                      "function": "minecraft:set_name",
-                      "name": {
-                        "translate": "block.tcc.filled_composter",
-                        "italic": false
-                      }
-                    },
-                    {
-                      "function": "minecraft:set_lore",
-                      "lore": [
-                        {
-                          "translate": "block.tcc.filled_composter.compost_level",
-                          "with": [
-                            1
-                          ],
-                          "italic": false,
-                          "color": "gray"
-                        }
-                      ]
-                    },
-                    {
-                      "function": "minecraft:copy_state",
-                      "block": "minecraft:composter",
-                      "properties": [
-                        "level"
-                      ]
-                    }
-                  ],
-                  "conditions": [
-                    {
-                      "condition": "minecraft:block_state_property",
-                      "block": "minecraft:composter",
-                      "properties": {
-                        "level": "1"
-                      }
-                    }
-                  ]
-                },
-                {
-                  "type": "minecraft:item",
-                  "name": "minecraft:composter",
-                  "functions": [
-                    {
-                      "function": "minecraft:set_nbt",
-                      "tag": "{CustomModelData:330001}"
-                    },
-                    {
-                      "function": "minecraft:set_name",
-                      "name": {
-                        "translate": "block.tcc.filled_composter",
-                        "italic": false
-                      }
-                    },
-                    {
-                      "function": "minecraft:set_lore",
-                      "lore": [
-                        {
-                          "translate": "block.tcc.filled_composter.compost_level",
-                          "with": [
-                            2
-                          ],
-                          "italic": false,
-                          "color": "gray"
-                        }
-                      ]
-                    },
-                    {
-                      "function": "minecraft:copy_state",
-                      "block": "minecraft:composter",
-                      "properties": [
-                        "level"
-                      ]
-                    }
-                  ],
-                  "conditions": [
-                    {
-                      "condition": "minecraft:block_state_property",
-                      "block": "minecraft:composter",
-                      "properties": {
-                        "level": "2"
-                      }
-                    }
-                  ]
-                },
-                {
-                  "type": "minecraft:item",
-                  "name": "minecraft:composter",
-                  "functions": [
-                    {
-                      "function": "minecraft:set_nbt",
-                      "tag": "{CustomModelData:330002}"
-                    },
-                    {
-                      "function": "minecraft:set_name",
-                      "name": {
-                        "translate": "block.tcc.filled_composter",
-                        "italic": false
-                      }
-                    },
-                    {
-                      "function": "minecraft:set_lore",
-                      "lore": [
-                        {
-                          "translate": "block.tcc.filled_composter.compost_level",
-                          "with": [
-                            3
-                          ],
-                          "italic": false,
-                          "color": "gray"
-                        }
-                      ]
-                    },
-                    {
-                      "function": "minecraft:copy_state",
-                      "block": "minecraft:composter",
-                      "properties": [
-                        "level"
-                      ]
-                    }
-                  ],
-                  "conditions": [
-                    {
-                      "condition": "minecraft:block_state_property",
-                      "block": "minecraft:composter",
-                      "properties": {
-                        "level": "3"
-                      }
-                    }
-                  ]
-                },
-                {
-                  "type": "minecraft:item",
-                  "name": "minecraft:composter",
-                  "functions": [
-                    {
-                      "function": "minecraft:set_nbt",
-                      "tag": "{CustomModelData:330003}"
-                    },
-                    {
-                      "function": "minecraft:set_name",
-                      "name": {
-                        "translate": "block.tcc.filled_composter",
-                        "italic": false
-                      }
-                    },
-                    {
-                      "function": "minecraft:set_lore",
-                      "lore": [
-                        {
-                          "translate": "block.tcc.filled_composter.compost_level",
-                          "with": [
-                            4
-                          ],
-                          "italic": false,
-                          "color": "gray"
-                        }
-                      ]
-                    },
-                    {
-                      "function": "minecraft:copy_state",
-                      "block": "minecraft:composter",
-                      "properties": [
-                        "level"
-                      ]
-                    }
-                  ],
-                  "conditions": [
-                    {
-                      "condition": "minecraft:block_state_property",
-                      "block": "minecraft:composter",
-                      "properties": {
-                        "level": "4"
-                      }
-                    }
-                  ]
-                },
-                {
-                  "type": "minecraft:item",
-                  "name": "minecraft:composter",
-                  "functions": [
-                    {
-                      "function": "minecraft:set_nbt",
-                      "tag": "{CustomModelData:330004}"
-                    },
-                    {
-                      "function": "minecraft:set_name",
-                      "name": {
-                        "translate": "block.tcc.filled_composter",
-                        "italic": false
-                      }
-                    },
-                    {
-                      "function": "minecraft:set_lore",
-                      "lore": [
-                        {
-                          "translate": "block.tcc.filled_composter.compost_level",
-                          "with": [
-                            5
-                          ],
-                          "italic": false,
-                          "color": "gray"
-                        }
-                      ]
-                    },
-                    {
-                      "function": "minecraft:copy_state",
-                      "block": "minecraft:composter",
-                      "properties": [
-                        "level"
-                      ]
-                    }
-                  ],
-                  "conditions": [
-                    {
-                      "condition": "minecraft:block_state_property",
-                      "block": "minecraft:composter",
-                      "properties": {
-                        "level": "5"
-                      }
-                    }
-                  ]
-                },
-                {
-                  "type": "minecraft:item",
-                  "name": "minecraft:composter",
-                  "functions": [
-                    {
-                      "function": "minecraft:set_nbt",
-                      "tag": "{CustomModelData:330005}"
-                    },
-                    {
-                      "function": "minecraft:set_name",
-                      "name": {
-                        "translate": "block.tcc.filled_composter",
-                        "italic": false
-                      }
-                    },
-                    {
-                      "function": "minecraft:set_lore",
-                      "lore": [
-                        {
-                          "translate": "block.tcc.filled_composter.compost_level",
-                          "with": [
-                            6
-                          ],
-                          "italic": false,
-                          "color": "gray"
-                        }
-                      ]
-                    },
-                    {
-                      "function": "minecraft:copy_state",
-                      "block": "minecraft:composter",
-                      "properties": [
-                        "level"
-                      ]
-                    }
-                  ],
-                  "conditions": [
-                    {
-                      "condition": "minecraft:block_state_property",
-                      "block": "minecraft:composter",
-                      "properties": {
-                        "level": "6"
-                      }
-                    }
-                  ]
-                },
-                {
-                  "type": "minecraft:item",
-                  "name": "minecraft:composter",
-                  "functions": [
-                    {
-                      "function": "minecraft:set_nbt",
-                      "tag": "{CustomModelData:330006}"
-                    },
-                    {
-                      "function": "minecraft:set_name",
-                      "name": {
-                        "translate": "block.tcc.filled_composter",
-                        "italic": false
-                      }
-                    },
-                    {
-                      "function": "minecraft:set_lore",
-                      "lore": [
-                        {
-                          "translate": "block.tcc.filled_composter.compost_level",
-                          "with": [
-                            7
-                          ],
-                          "italic": false,
-                          "color": "gray"
-                        }
-                      ]
-                    },
-                    {
-                      "function": "minecraft:copy_state",
-                      "block": "minecraft:composter",
-                      "properties": [
-                        "level"
-                      ]
-                    }
-                  ],
-                  "conditions": [
-                    {
-                      "condition": "minecraft:block_state_property",
-                      "block": "minecraft:composter",
-                      "properties": {
-                        "level": "7"
-                      }
-                    }
-                  ]
-                },
-                {
-                  "type": "minecraft:item",
-                  "name": "minecraft:composter",
-                  "functions": [
-                    {
-                      "function": "minecraft:set_nbt",
-                      "tag": "{CustomModelData:330007}"
-                    },
-                    {
-                      "function": "minecraft:set_name",
-                      "name": {
-                        "translate": "block.tcc.filled_composter",
-                        "italic": false
-                      }
-                    },
-                    {
-                      "function": "minecraft:copy_state",
-                      "block": "minecraft:composter",
-                      "properties": [
-                        "level"
-                      ]
-                    },
-                    {
-                      "function": "minecraft:set_lore",
-                      "lore": [
-                        {
-                          "translate": "block.tcc.filled_composter.compost_level",
-                          "with": [
-                            {
-                              "translate": "block.tcc.filled_composter.contents_ready"
-                            }
-                          ],
-                          "italic": false,
-                          "color": "gray"
-                        }
-                      ]
-                    }
-                  ],
-                  "conditions": [
-                    {
-                      "condition": "minecraft:block_state_property",
-                      "block": "minecraft:composter",
-                      "properties": {
-                        "level": "8"
-                      }
-                    }
-                  ]
-                }
-              ],
-              "conditions": [
-                {
-                  "condition": "minecraft:inverted",
-                  "term": {
-                    "condition": "minecraft:block_state_property",
-                    "block": "minecraft:composter",
-                    "properties": {
-                      "level": "0"
-                    }
-                  }
-                },
-                {
+              "function": "minecraft:explosion_decay"
+            }
+          ],
+          "name": "minecraft:composter"
+        }
+      ],
+      "conditions":[
+        {
+          "condition":"minecraft:alternative",
+          "terms": [
+            {
+              "condition": "minecraft:inverted",
+              "term": {
                   "condition": "minecraft:match_tool",
                   "predicate": {
                     "enchantments": [
@@ -401,16 +30,471 @@
                       }
                     ]
                   }
-                }
-              ]
+              }
             },
             {
-              "type": "minecraft:item",
-              "name": "minecraft:composter"
+              "condition": "minecraft:block_state_property",
+              "block": "minecraft:composter",
+              "properties": {
+                "level":"0"
+              }
             }
           ]
         }
       ]
+    },
+    {
+      "rolls": 1.0,
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bone_meal"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:block_state_property",
+          "block": "minecraft:composter",
+          "properties": {
+            "level": "8"
+          }
+        },
+        {
+          "condition": "minecraft:inverted",
+          "term": {
+              "condition": "minecraft:match_tool",
+              "predicate": {
+                "nbt":"{Enchantments:[{id:\"minecraft:silk_touch\"}]}"
+              }
+          }
+        }
+      ]
+    },
+    {
+      "rolls":1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:composter",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:330000}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "block.tcc.filled_composter",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "block.tcc.filled_composter.compost_level",
+                  "with": [
+                    1
+                  ],
+                  "italic": false,
+                  "color": "gray"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:copy_state",
+              "block": "minecraft:composter",
+              "properties": [
+                "level"
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:block_state_property",
+              "block": "minecraft:composter",
+              "properties": {
+                "level": "1"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:composter",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:330001}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "block.tcc.filled_composter",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "block.tcc.filled_composter.compost_level",
+                  "with": [
+                    2
+                  ],
+                  "italic": false,
+                  "color": "gray"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:copy_state",
+              "block": "minecraft:composter",
+              "properties": [
+                "level"
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:block_state_property",
+              "block": "minecraft:composter",
+              "properties": {
+                "level": "2"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:composter",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:330002}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "block.tcc.filled_composter",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "block.tcc.filled_composter.compost_level",
+                  "with": [
+                    3
+                  ],
+                  "italic": false,
+                  "color": "gray"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:copy_state",
+              "block": "minecraft:composter",
+              "properties": [
+                "level"
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:block_state_property",
+              "block": "minecraft:composter",
+              "properties": {
+                "level": "3"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:composter",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:330003}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "block.tcc.filled_composter",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "block.tcc.filled_composter.compost_level",
+                  "with": [
+                    4
+                  ],
+                  "italic": false,
+                  "color": "gray"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:copy_state",
+              "block": "minecraft:composter",
+              "properties": [
+                "level"
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:block_state_property",
+              "block": "minecraft:composter",
+              "properties": {
+                "level": "4"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:composter",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:330004}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "block.tcc.filled_composter",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "block.tcc.filled_composter.compost_level",
+                  "with": [
+                    5
+                  ],
+                  "italic": false,
+                  "color": "gray"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:copy_state",
+              "block": "minecraft:composter",
+              "properties": [
+                "level"
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:block_state_property",
+              "block": "minecraft:composter",
+              "properties": {
+                "level": "5"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:composter",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:330005}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "block.tcc.filled_composter",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "block.tcc.filled_composter.compost_level",
+                  "with": [
+                    6
+                  ],
+                  "italic": false,
+                  "color": "gray"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:copy_state",
+              "block": "minecraft:composter",
+              "properties": [
+                "level"
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:block_state_property",
+              "block": "minecraft:composter",
+              "properties": {
+                "level": "6"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:composter",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:330006}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "block.tcc.filled_composter",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "block.tcc.filled_composter.compost_level",
+                  "with": [
+                    7
+                  ],
+                  "italic": false,
+                  "color": "gray"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:copy_state",
+              "block": "minecraft:composter",
+              "properties": [
+                "level"
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:block_state_property",
+              "block": "minecraft:composter",
+              "properties": {
+                "level": "7"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:composter",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:330007}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "block.tcc.filled_composter",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:copy_state",
+              "block": "minecraft:composter",
+              "properties": [
+                "level"
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "block.tcc.filled_composter.compost_level",
+                  "with": [
+                    {
+                      "translate": "block.tcc.filled_composter.contents_ready"
+                    }
+                  ],
+                  "italic": false,
+                  "color": "gray"
+                }
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:block_state_property",
+              "block": "minecraft:composter",
+              "properties": {
+                "level": "8"
+              }
+            }
+          ]
+        }
+      ],
+      "conditions":[
+        {
+          "condition": "minecraft:inverted",
+          "term": {
+            "condition": "minecraft:block_state_property",
+            "block": "minecraft:composter",
+            "properties": {
+              "level": "0"
+            }
+          }
+        },
+        {
+          "condition": "minecraft:match_tool",
+          "predicate": {
+            "enchantments": [
+              {
+                "enchantment": "minecraft:silk_touch"
+              }
+            ]
+          }
+        }
+      ]
     }
-  ]
+  ],
+  "__smithed__": {
+    "rules":[
+      {
+        "type":"smithed:append",
+        "target":"pools[1].conditions",
+        "source":{
+          "type":"smithed:reference",
+          "path":"pools[1].conditions[1]"
+        }
+      },
+      {
+        "type":"smithed:append",
+        "target":"pools[0].conditions",
+        "source":{
+          "type":"smithed:reference",
+          "path":"pools[0].conditions[0]"
+        }
+      },
+      {
+        "type":"smithed:append",
+        "target":"pools",
+        "source":{
+          "type":"smithed:reference",
+          "path":"pools[2]"
+        }
+      }
+    ]
+  }
 }

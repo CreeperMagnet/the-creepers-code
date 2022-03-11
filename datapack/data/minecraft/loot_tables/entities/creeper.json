@@ -30,30 +30,37 @@
       ]
     },
     {
+      "rolls":1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "tcc:items/charged_music_disc"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "nbt": "{powered:1b}"
+          }
+        },
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "killer",
+          "predicate": {
+            "type": "#minecraft:skeletons"
+          }
+        }
+      ]
+    },
+    {
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:alternatives",
-          "children": [
-            {
-              "type": "minecraft:loot_table",
-              "name": "tcc:items/charged_music_disc",
-              "conditions": [
-                {
-                  "condition": "minecraft:entity_properties",
-                  "entity": "this",
-                  "predicate": {
-                    "nbt": "{powered:1b}"
-                  }
-                }
-              ]
-            },
-            {
-              "type": "minecraft:tag",
-              "name": "minecraft:creeper_drop_music_discs",
-              "expand": true
-            }
-          ]
+          "type": "minecraft:tag",
+          "name": "minecraft:creeper_drop_music_discs",
+          "expand": true
         }
       ],
       "conditions": [
@@ -62,6 +69,16 @@
           "entity": "killer",
           "predicate": {
             "type": "#minecraft:skeletons"
+          }
+        },
+        {
+          "condition": "minecraft:inverted",
+          "term": {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{powered:1b}"
+            }
           }
         }
       ]
@@ -106,6 +123,42 @@
       "rolls": 1,
       "entries": [
         {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:loot_table",
+              "name": "tcc:items/charged_music_disc_otherside",
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "nbt": "{powered:1b}"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:music_disc_otherside"
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "killer",
+          "predicate": {
+            "type": "minecraft:shulker"
+          }
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
           "type": "minecraft:item",
           "name": "minecraft:egg",
           "functions": [
@@ -130,5 +183,50 @@
         }
       ]
     }
-  ]
+  ],
+  "__smithed__": {
+    "rules": [
+      {
+        "type":"smithed:append",
+        "target":"pools[1].conditions",
+        "source": {
+          "type":"smithed:reference",
+          "path":"pools[2].conditions[1]"
+        }
+      },
+      {
+        "type":"smithed:insert",
+        "target":"pools",
+        "index":"1",
+        "source": {
+          "type":"smithed:reference",
+          "path":"pools[1]"
+        }
+      },
+      {
+        "type":"smithed:append",
+        "target":"pools",
+        "source": {
+          "type":"smithed:reference",
+          "path":"pools[2]"
+        }
+      },
+      {
+        "type":"smithed:append",
+        "target":"pools",
+        "source": {
+          "type":"smithed:reference",
+          "path":"pools[3]"
+        }
+      },
+      {
+        "type":"smithed:append",
+        "target":"pools",
+        "source": {
+          "type":"smithed:reference",
+          "path":"pools[4]"
+        }
+      }
+    ]
+  }
 }

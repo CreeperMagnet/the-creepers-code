@@ -1,6 +1,5 @@
 ############################################################
-# Description: Rotates a block
-# Creator: CreeperMagnet_
+# Rotates a block
 ############################################################
 
 execute if block ~ ~ ~ lectern[has_book=true,powered=true] run function tcc:item/wrench/rotate/block/lectern/powered_book

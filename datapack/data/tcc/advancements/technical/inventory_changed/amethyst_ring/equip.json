@@ -1,0 +1,24 @@
+{
+  "parent": "tcc:technical/root",
+  "criteria": {
+    "pick_up_ring": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:reference",
+            "name": "tcc:entity/holding/ring/amethyst"
+          }
+        ],
+        "items": [
+          {
+            "nbt": "{tcc:{id:\"ring\",ring:{gemstone:\"minecraft:amethyst\"}}}"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "tcc:item/ring/amethyst/equip"
+  }
+}

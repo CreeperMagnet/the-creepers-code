@@ -1,0 +1,24 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "tcc:gameplay/piglin_bartering/junk",
+          "weight": 30
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "tcc:gameplay/piglin_bartering/common",
+          "weight": 50
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "tcc:gameplay/piglin_bartering/rare",
+          "weight": 20
+        }
+      ]
+    }
+  ]
+}

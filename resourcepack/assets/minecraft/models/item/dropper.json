@@ -1,208 +1,47 @@
 {
-  "parent": "minecraft:block/dispenser",
-  "overrides": [{
+  "parent": "minecraft:block/dropper",
+  "overrides": [
+    {
       "predicate": {
         "custom_model_data": 330000
-      },
-      "model": "tcc:block/block_breaker/chopper/north"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 330001
-      },
-      "model": "tcc:block/block_breaker/chopper/south"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 330002
-      },
-      "model": "tcc:block/block_breaker/chopper/east"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 330003
-      },
-      "model": "tcc:block/block_breaker/chopper/west"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 330004
-      },
-      "model": "tcc:block/block_breaker/chopper/up"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 330005
-      },
-      "model": "tcc:block/block_breaker/chopper/down"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 330006
-      },
-      "model": "tcc:block/block_breaker/excavator/north"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 330007
-      },
-      "model": "tcc:block/block_breaker/excavator/south"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 330008
-      },
-      "model": "tcc:block/block_breaker/excavator/east"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 330009
-      },
-      "model": "tcc:block/block_breaker/excavator/west"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 330010
-      },
-      "model": "tcc:block/block_breaker/excavator/up"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 330011
-      },
-      "model": "tcc:block/block_breaker/excavator/down"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 330012
-      },
-      "model": "tcc:block/block_breaker/harvester/north"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 330013
-      },
-      "model": "tcc:block/block_breaker/harvester/south"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 330014
-      },
-      "model": "tcc:block/block_breaker/harvester/east"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 330015
-      },
-      "model": "tcc:block/block_breaker/harvester/west"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 330016
-      },
-      "model": "tcc:block/block_breaker/harvester/up"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 330017
-      },
-      "model": "tcc:block/block_breaker/harvester/down"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 330018
-      },
-      "model": "tcc:block/block_breaker/sifter/north"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 330019
-      },
-      "model": "tcc:block/block_breaker/sifter/south"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 330020
-      },
-      "model": "tcc:block/block_breaker/sifter/east"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 330021
-      },
-      "model": "tcc:block/block_breaker/sifter/west"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 330022
-      },
-      "model": "tcc:block/block_breaker/sifter/up"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 330023
-      },
-      "model": "tcc:block/block_breaker/sifter/down"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 330024
-      },
-      "model": "tcc:block/block_breaker/snipper/north"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 330025
-      },
-      "model": "tcc:block/block_breaker/snipper/south"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 330026
-      },
-      "model": "tcc:block/block_breaker/snipper/east"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 330027
-      },
-      "model": "tcc:block/block_breaker/snipper/west"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 330028
-      },
-      "model": "tcc:block/block_breaker/snipper/up"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 330029
-      },
-      "model": "tcc:block/block_breaker/snipper/down"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 330030
       },
       "model": "tcc:block/nether_reactor_core/off"
     },
     {
       "predicate": {
-        "custom_model_data": 330031
+        "custom_model_data": 330001
       },
       "model": "tcc:block/nether_reactor_core/on"
     },
     {
       "predicate": {
-        "custom_model_data": 330032
+        "custom_model_data": 330002
       },
       "model": "tcc:block/positional_anchor/empty"
     },
     {
       "predicate": {
-        "custom_model_data": 330033
+        "custom_model_data": 330003
       },
       "model": "tcc:block/positional_anchor/filled"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330004
+      },
+      "model": "tcc:block/soul_seer/off"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330005
+      },
+      "model": "tcc:block/soul_seer/on"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330006
+      },
+      "model": "tcc:block/snail_nest/full"
     }
   ]
 }

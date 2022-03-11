@@ -1,6 +1,5 @@
 ############################################################
-# Description: Buckets an axolotl
-# Creator: CreeperMagnet_
+# Buckets an axolotl
 ############################################################
 
 data modify storage tcc:storage root.temp.item set from entity @s SelectedItem

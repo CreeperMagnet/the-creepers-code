@@ -1,25 +1,18 @@
 ############################################################
-# Description: Commands to run if the player is holding an item in either of their hands.
-# Creator: CreeperMagnet_
+# Commands to run if the player is holding an item in either of their hands.
 ############################################################
 
 ## Carrot on stick commands
 execute if entity @s[scores={tcc.carrotstick=1..}] run function tcc:item/carrot_on_a_stick
 
 ## Mending Items
-execute if entity @s[predicate=tcc:holding/mending_item] run function tcc:item/item_modification/durability/mend_items/xp_orb_test
-
-## Obsidian Scythes
-execute if entity @s[predicate=tcc:holding/obsidian_scythe] run function tcc:item/obsidian_scythe/tick
-
-## Photometer
-execute if entity @s[predicate=tcc:holding/photometer] run function tcc:item/photometer
+execute if entity @s[predicate=tcc:entity/holding/mending_item/any] positioned ~ ~0.805 ~ run function tcc:item/durability/mending/xp_orb_test/main
 
 ## Totem of Undying and void bugfix
-effect give @s[predicate=tcc:totem_void_heal] instant_health 1 0
+effect give @s[predicate=tcc:item/totem_void_heal] instant_health 1 0
 
-## Ender Pearl Gemstones
-execute if entity @s[predicate=tcc:holding/ender_pearl_ring/any] run function tcc:item/ender_pearl_gemstone
+## Ender Pearl Rings
+execute if entity @s[predicate=tcc:entity/holding/ring/ender_pearl] run function tcc:item/ring/ender_pearl/main
 
-## Amethyst Gemstones
-execute if entity @s[predicate=tcc:holding/amethyst_ring/any,scores={tcc.drop=1..}] run function tcc:item/amethyst_ring/find_item
+## Amethyst Rings
+execute if entity @s[predicate=tcc:entity/holding/ring/amethyst,scores={tcc.drop=1..}] run function tcc:item/ring/amethyst/find_item

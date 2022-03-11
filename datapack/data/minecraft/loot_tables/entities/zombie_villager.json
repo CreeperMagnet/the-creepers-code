@@ -2,8 +2,8 @@
   "type": "minecraft:entity",
   "pools": [
     {
-      "rolls": 1,
-      "bonus_rolls": 0,
+      "rolls": 1.0,
+      "bonus_rolls": 0.0,
       "entries": [
         {
           "type": "minecraft:item",
@@ -12,8 +12,8 @@
               "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "min": 0,
-                "max": 2
+                "min": 0.0,
+                "max": 2.0
               },
               "add": false
             },
@@ -21,8 +21,8 @@
               "function": "minecraft:looting_enchant",
               "count": {
                 "type": "minecraft:uniform",
-                "min": 0,
-                "max": 1
+                "min": 0.0,
+                "max": 1.0
               }
             }
           ],
@@ -31,8 +31,8 @@
       ]
     },
     {
-      "rolls": 1,
-      "bonus_rolls": 0,
+      "rolls": 1.0,
+      "bonus_rolls": 0.0,
       "entries": [
         {
           "type": "minecraft:item",
@@ -44,7 +44,6 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:potato",
           "functions": [
             {
               "function": "minecraft:furnace_smelt",
@@ -60,7 +59,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "name": "minecraft:potato"
         }
       ],
       "conditions": [
@@ -73,6 +73,52 @@
           "looting_multiplier": 0.01
         }
       ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:iron_nugget",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 0,
+                "max": 1
+              }
+            },
+            {
+              "function": "looting_enchant",
+              "count": {
+                "min": 0,
+                "max": 1
+              }
+            }
+          ]
+        }
+      ]
     }
-  ]
+  ],
+  "__smithed__": {
+    "rules": [
+      {
+        "type":"smithed:append",
+        "target":"pools",
+        "source":{
+          "type":"smithed:reference",
+          "path":"pools[2]"
+        }
+      },
+      {
+        "type":"smithed:merge",
+        "target":"pools[1].entries[0].name",
+        "source": {
+          "type":"smithed:reference",
+          "path":"pools[1].entries[0].name"
+        }
+      }
+    ]
+  }
 }

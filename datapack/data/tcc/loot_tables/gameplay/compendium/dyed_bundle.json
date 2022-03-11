@@ -1,0 +1,73 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "tcc:items/dyed_bundle/black"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "tcc:items/dyed_bundle/blue"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "tcc:items/dyed_bundle/brown"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "tcc:items/dyed_bundle/cyan"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "tcc:items/dyed_bundle/gray"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "tcc:items/dyed_bundle/green"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "tcc:items/dyed_bundle/light_blue"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "tcc:items/dyed_bundle/light_gray"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "tcc:items/dyed_bundle/lime"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "tcc:items/dyed_bundle/magenta"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "tcc:items/dyed_bundle/orange"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "tcc:items/dyed_bundle/pink"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "tcc:items/dyed_bundle/purple"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "tcc:items/dyed_bundle/red"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "tcc:items/dyed_bundle/white"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "tcc:items/dyed_bundle/yellow"
+        }
+      ]
+    }
+  ]
+}

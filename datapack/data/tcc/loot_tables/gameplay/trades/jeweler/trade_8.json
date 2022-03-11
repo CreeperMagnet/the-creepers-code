@@ -1,0 +1,40 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:emerald",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 50,
+                "max": 60
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "tcc:technical/base_ring/iron",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"translate\":\"item.tcc.ring.minecraft.iron.minecraft.diamond\",\"italic\":false}'},tcc:{ring:{gemstone:\"minecraft:diamond\"}},CustomModelData:339101,AttributeModifiers:[{Amount:2.0d,Slot:\"offhand\",AttributeName:\"minecraft:generic.max_health\",Operation:0,UUID:[I; -2, 0, 3, 3],Name:\"generic.max_health\"}]}"
+            },
+            {
+              "function": "minecraft:enchant_randomly"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

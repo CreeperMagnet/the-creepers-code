@@ -1,6 +1,5 @@
 ############################################################
-# Description: Commands to run off a snail nest every ten seconds
-# Creator: CreeperMagnet_
+# Commands to run off a snail nest every ten seconds
 ############################################################
 
 scoreboard players add @s[predicate=tcc:chance/one_half] tcc.dummy2 1

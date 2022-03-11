@@ -271,5 +271,18 @@
         }
       ]
     }
-  ]
+  ],
+  "__smithed__": {
+    "rules":[
+      {
+        "type":"smithed:insert",
+        "index":5,
+        "target":"pools[0].entries",
+        "source": {
+          "type":"smithed:reference",
+          "path":"pools[0].entries[5]" 
+        }
+      }
+    ]
+  }
 }

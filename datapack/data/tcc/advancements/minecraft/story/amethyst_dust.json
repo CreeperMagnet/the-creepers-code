@@ -2,8 +2,8 @@
   "parent": "minecraft:story/iron_tools",
   "display": {
     "icon": {
-      "item": "minecraft:structure_block",
-      "nbt": "{CustomModelData:330047}"
+      "item": "minecraft:glistering_melon_slice",
+      "nbt": "{CustomModelData:330000}"
     },
     "title": {
       "translate": "advancements.tcc.minecraft.story.amethyst_dust.title"
@@ -12,9 +12,7 @@
       {
         "translate": "advancements.tcc.minecraft.story.amethyst_dust.description"
       },
-      {
-        "translate": "advancements.tcc.minecraft.tooltip_spacer"
-      },
+      "\n\n",
       {
         "translate": "pack.tcc",
         "color": "#008725",

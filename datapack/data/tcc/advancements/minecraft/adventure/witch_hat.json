@@ -7,12 +7,11 @@
     "title": {
       "translate": "advancements.tcc.minecraft.adventure.witch_hat.title"
     },
-    "description": [{
+    "description": [
+      {
         "translate": "advancements.tcc.minecraft.adventure.witch_hat.description"
       },
-      {
-        "translate": "advancements.tcc.minecraft.tooltip_spacer"
-      },
+      "\n\n",
       {
         "translate": "pack.tcc",
         "color": "#008725",

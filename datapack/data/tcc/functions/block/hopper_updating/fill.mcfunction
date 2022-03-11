@@ -1,6 +1,5 @@
 ############################################################
-# Description: Commands to fix hoppers surrounding a custom block
-# Creator: CreeperMagnet_
+# Commands to fix hoppers surrounding a custom block
 ############################################################
 
 execute if block ~1 ~ ~ hopper[facing=west] run data modify block ~1 ~ ~ TransferCooldown set value 2147483646

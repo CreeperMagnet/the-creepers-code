@@ -3,10 +3,12 @@
   "textures": {
     "layer0": "item/porkchop"
   },
-  "overrides": [{
-    "predicate": {
-      "custom_model_data": 330000
-    },
-    "model": "tcc:item/rotten_porkchop"
-  }]
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 330000
+      },
+      "model": "tcc:item/rotten_porkchop"
+    }
+  ]
 }

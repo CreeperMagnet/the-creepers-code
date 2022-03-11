@@ -1,8 +1,9 @@
 {
   "values": [
     "tcc:block/positional_anchor/placement_check",
-    "tcc:block/block_breakers/placement_check",
     "tcc:block/nether_reactor/placement_check",
-    "tcc:block/jewelry_table/placement_check"
+    "tcc:block/jewelry_table/place/check",
+    "tcc:block/soul_seer/placement_check",
+    "tcc:block/snail_nest/placement_check"
   ]
 }

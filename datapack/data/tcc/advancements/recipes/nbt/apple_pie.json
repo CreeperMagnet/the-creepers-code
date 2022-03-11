@@ -2,23 +2,14 @@
   "parent": "tcc:recipes/nbt/root",
   "rewards": {
     "function": "tcc:entity/player/nbt_recipe/crafted_item",
-    "loot": ["tcc:items/apple_pie"]
+    "loot": [
+      "tcc:recipes/apple_pie"
+    ]
   },
   "criteria": {
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "player": [
-          {
-            "condition": "minecraft:entity_scores",
-            "entity": "this",
-            "scores": {
-              "tcc.crafted_item": {
-                "min": 1
-              }
-            }
-          }
-        ],
         "recipe": "tcc:nbt/apple_pie"
       }
     }

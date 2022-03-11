@@ -1,6 +1,5 @@
 ############################################################
-# Description: Starts the iteration of y
-# Creator: CreeperMagnet_
+# Starts the iteration of y
 ############################################################
 
 execute store result score @s tcc.dummy run data get storage tcc:storage root.temp.riftjuice.pos[1]

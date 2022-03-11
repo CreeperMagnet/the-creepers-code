@@ -1,6 +1,5 @@
 ############################################################
-# Description: Grants all non-technical TCC advancements
-# Creator: ChromaKey
+# Grants all non-technical TCC advancements
 ############################################################
 
 advancement grant @s from minecraft:story/root

@@ -1,6 +1,5 @@
 ############################################################
-# Description: Rotates a block
-# Creator: CreeperMagnet_
+# Rotates a block
 ############################################################
 
 execute if block ~ ~ ~ smooth_sandstone_stairs[half=bottom,waterlogged=false] run function tcc:item/wrench/rotate/block/smooth_sandstone_stairs/bottom

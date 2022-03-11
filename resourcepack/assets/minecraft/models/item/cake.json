@@ -3,7 +3,8 @@
   "textures": {
     "layer0": "item/cake"
   },
-  "overrides": [{
+  "overrides": [
+    {
       "predicate": {
         "custom_model_data": 330000
       },

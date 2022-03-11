@@ -1,6 +1,5 @@
 ############################################################
-# Description: Rotates a block
-# Creator: CreeperMagnet_
+# Rotates a block
 ############################################################
 
 execute if block ~ ~ ~ trapped_chest[waterlogged=true] run function tcc:item/wrench/rotate/block/trapped_chest/waterlogged

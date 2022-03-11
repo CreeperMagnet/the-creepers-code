@@ -9,35 +9,11 @@
     "subtitle": "subtitles.tcc.item.boomerang.swish",
     "category": "master"
   },
-  "item.potion_soak": {
-    "sounds": [
-      "block/brewing_stand/brew1",
-      "block/brewing_stand/brew2"
-    ],
-    "subtitle": "subtitles.tcc.item.potion_soak"
-  },
-  "item.obsidian_mirror.use": {
+  "item.molten_mirror.use": {
     "sounds": [
       "block/enchantment_table/enchant1"
     ],
-    "subtitle": "subtitles.tcc.item.obsidian_mirror.use"
-  },
-  "item.quest_book.use": {
-    "sounds": [
-      {
-        "name": "item/book/open_flip1",
-        "volume": 2
-      },
-      {
-        "name": "item/book/open_flip2",
-        "volume": 2
-      },
-      {
-        "name": "item/book/open_flip3",
-        "volume": 2
-      }
-    ],
-    "subtitle": "subtitles.tcc.item.quest_book.use"
+    "subtitle": "subtitles.tcc.item.molten_mirror.use"
   },
   "item.armor.equip_witch_hat": {
     "sounds": [
@@ -59,6 +35,15 @@
     ],
     "subtitle": "subtitles.tcc.item.wrench.rotate_block"
   },
+  "item.wrench.pose_armor_stand": {
+    "sounds": [
+      "tcc:item/wrench1",
+      "tcc:item/wrench2",
+      "tcc:item/wrench3",
+      "tcc:item/wrench4"
+    ],
+    "subtitle": "subtitles.tcc.item.wrench.pose_armor_stand"
+  },
   "item.armor.equip_cursed_crown": {
     "sounds": [
       "item/armor/equip_gold1",
@@ -70,15 +55,6 @@
     ],
     "subtitle": "subtitles.tcc.item.armor.equip_cursed_crown"
   },
-  "item.teacup.fill": {
-    "sounds": [
-      "item/bottle/fill1",
-      "item/bottle/fill2",
-      "item/bottle/fill3",
-      "item/bottle/fill4"
-    ],
-    "subtitle": "subtitles.tcc.item.teacup.fill"
-  },
   "item.locket_of_learning.deposit": {
     "sounds": [
       "tcc:item/locket_deposit1",
@@ -87,23 +63,6 @@
       "tcc:item/locket_deposit4"
     ],
     "subtitle": "subtitles.tcc.item.locket_of_learning.deposit"
-  },
-  "item.elytra.close": {
-    "sounds": [
-      "tcc:item/elytra_close1",
-      "tcc:item/elytra_close2",
-      "tcc:item/elytra_close3",
-      "tcc:item/elytra_close4"
-    ],
-    "subtitle": "subtitles.tcc.item.elytra.close"
-  },
-  "item.peculiar_berries.feed": {
-    "sounds": [
-      "tcc:item/peculiar_berries_feed1",
-      "tcc:item/peculiar_berries_feed2",
-      "tcc:item/peculiar_berries_feed3"
-    ],
-    "subtitle": "subtitles.tcc.item.peculiar_berries.feed"
   },
   "item.paintbrush.paint": {
     "sounds": [
@@ -149,14 +108,6 @@
     ],
     "subtitle": "subtitles.tcc.block.nether_reactor.burn_out"
   },
-  "block.block_breaker.enchant": {
-    "sounds": [
-      "block/enchantment_table/enchant1",
-      "block/enchantment_table/enchant2",
-      "block/enchantment_table/enchant3"
-    ],
-    "subtitle": "subtitles.tcc.block.block_breaker.enchant"
-  },
   "block.explosive_geomancer_pillar.explode": {
     "sounds": [
       "random/explode1",
@@ -172,10 +123,23 @@
     ],
     "subtitle": "subtitles.tcc.block.explosive_geomancer_pillar.hiss"
   },
-  "block.teapot.brew": {
+  "block.soul_seer.emanate": {
+    "sounds": [
+      "tcc:block/soul_seer_emanate"
+    ],
+    "subtitle": "subtitles.tcc.block.soul_seer.emanate"
+  },
+  "block.teapot.insert_item": {
     "sounds": [
       "tcc:block/plop1",
       "tcc:block/plop2"
+    ],
+    "subtitle": "subtitles.tcc.block.teapot.insert_item"
+  },
+  "block.teapot.brew": {
+    "sounds": [
+      "block/brewing_stand/brew1",
+      "block/brewing_stand/brew2"
     ],
     "subtitle": "subtitles.tcc.block.teapot.brew"
   },
@@ -232,6 +196,12 @@
       "tcc:block/gobblerift/spitleport3"
     ],
     "subtitle": "subtitles.tcc.block.gobblerift.teleport_player"
+  },
+  "block.gobblerift.teleport_player_fail": {
+    "sounds": [
+      "tcc:block/gobblerift/spitleport_fail"
+    ],
+    "subtitle": "subtitles.tcc.block.gobblerift.teleport_player_fail"
   },
   "block.gobblerift.hurt": {
     "sounds": [
@@ -410,13 +380,5 @@
       "tcc:mob/snail/unbucket3"
     ],
     "subtitle": "subtitles.item.bucket.empty"
-  },
-  "entity.creeper.charged_ambient": {
-    "sounds": [
-      "tcc:mob/creeper/charged1",
-      "tcc:mob/creeper/charged2",
-      "tcc:mob/creeper/charged3"
-    ],
-    "subtitle": "subtitles.tcc.entity.creeper.charged_ambient"
   }
 }

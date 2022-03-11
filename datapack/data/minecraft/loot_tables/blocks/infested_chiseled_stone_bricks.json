@@ -19,11 +19,23 @@
                 "levels": {
                   "min": 1
                 }
-              }
+              } 
             ]
           }
         }
       ]
     }
-  ]
+  ],
+  "__smithed__":{
+    "rules":[
+      {
+        "type":"smithed:merge",
+        "target": "pools[0].entries[0].name",
+        "source": {
+          "type":"smithed:reference",
+          "path": "pools[0].entries[0].name"
+        }
+      }
+    ]
+  }
 }

@@ -43,5 +43,18 @@
         }
       ]
     }]
-  }]
+  }],
+  "__smithed__": {
+    "rules":[
+      {
+        "type":"smithed:insert",
+        "index": 1,
+        "target":"pools[0].entries[0].children",
+        "source":{
+          "type":"smithed:reference",
+          "path":"pools[0].entries[0].children[1]"
+        }
+      }
+    ]
+  }
 }

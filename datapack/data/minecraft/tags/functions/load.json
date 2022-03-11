@@ -1,6 +1,8 @@
 {
   "values": [
+    "#load:_private/load",
     "tcc:technical/load",
-    "abcl:load"
+    "tcc:technical/second_clock/main",
+    "tcc:technical/ten_second_clock"
   ]
 }

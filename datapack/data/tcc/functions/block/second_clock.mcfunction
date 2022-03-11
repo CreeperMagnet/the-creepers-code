@@ -1,6 +1,5 @@
 ############################################################
-# Description: Functions to run off of every tcc block every second
-# Creator: CreeperMagnet_
+# Functions to run off of every tcc block every second
 ############################################################
 
 ## Nether Reactor
@@ -12,8 +11,5 @@ execute if entity @s[type=item_frame,tag=tcc.frostbloom] run function tcc:block/
 ## Geomancer pillars
 execute if entity @s[type=armor_stand,tag=tcc.geomancer_pillar] run function tcc:block/geomancer_pillars/second_clock
 
-## Gobblerift Second Clock
-execute if entity @s[type=minecraft:wandering_trader,tag=tcc.gobblerift] run function tcc:block/gobblerift/second_clock
-
-## Jewelry table GUI updating
-execute if entity @s[type=armor_stand,tag=tcc.jewelry_table] unless entity @a[tag=tcc.inside_jewelry_table_gui,distance=..10] as @a[tag=tcc.inside_jewelry_table_gui,distance=10..] at @s unless entity @e[type=armor_stand,tag=tcc.jewelry_table,distance=..10] run tag @s remove tcc.inside_jewelry_table_gui
+## Teapot clock
+execute if entity @s[type=wandering_trader,tag=tcc.teapot,scores={tcc.dummy2=1..}] if block ~ ~ ~ #campfires[lit=true] positioned ~ ~1.2 ~ run function tcc:block/teapot/cook/second_clock

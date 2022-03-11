@@ -33,15 +33,28 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:soul_soil",
-          "conditions": [{
-            "condition": "minecraft:survives_explosion"
-          }],
           "functions": [{
             "function": "minecraft:set_count",
             "count": 1
+          }],
+          "conditions": [{
+            "condition": "minecraft:survives_explosion"
           }]
         }
       ]
     }]
-  }]
+  }],
+  "__smithed__": {
+    "rules":[
+      {
+        "type":"smithed:insert",
+        "index": 1,
+        "target":"pools[0].entries[0].children",
+        "source":{
+          "type":"smithed:reference",
+          "path":"pools[0].entries[0].children[1]"
+        }
+      }
+    ]
+  }
 }

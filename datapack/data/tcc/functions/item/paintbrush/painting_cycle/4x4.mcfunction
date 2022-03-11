@@ -1,6 +1,5 @@
 ############################################################
-# Description: Sets the status of a painting
-# Creator: CreeperMagnet_
+# Sets the status of a painting
 ############################################################
 
 scoreboard players set @s tcc.dummy 0

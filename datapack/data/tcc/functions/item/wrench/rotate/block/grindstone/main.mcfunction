@@ -1,6 +1,5 @@
 ############################################################
-# Description: Rotates a block
-# Creator: CreeperMagnet_
+# Rotates a block
 ############################################################
 
 execute if block ~ ~ ~ grindstone[face=floor] run function tcc:item/wrench/rotate/block/grindstone/floor

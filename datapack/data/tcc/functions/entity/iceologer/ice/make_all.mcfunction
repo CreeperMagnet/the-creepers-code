@@ -1,6 +1,5 @@
 ############################################################
-# Description: Spawns ice above the player
-# Creator: CreeperMagnet_
+# Spawns ice above the player
 ############################################################
 
 execute if block ~ ~1 ~ #tcc:air if block ~ ~2 ~ #tcc:air if block ~ ~3 ~ #tcc:air if block ~ ~4 ~ #tcc:air run tag @s add tcc.tag

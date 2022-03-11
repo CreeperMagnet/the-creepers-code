@@ -1,6 +1,5 @@
 ############################################################
-# Description: Sets the data of one snail
-# Creator: CreeperMagnet_
+# Sets the data of one snail
 ############################################################
 
 data modify storage tcc:storage root.temp.bred set value 1b

@@ -1,0 +1,74 @@
+[
+  {
+    "condition": "minecraft:alternative",
+    "terms": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "tag": "tcc:tea_ingredients"
+            }
+          }
+        }
+      },
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "count": {
+                "min": 1
+              },
+              "nbt": "{tcc:{id:\"ancient_acorn\"}}"
+            }
+          }
+        }
+      },
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "count": {
+                "min": 1
+              },
+              "nbt": "{tcc:{id:\"frostbloom_petals\"}}"
+            }
+          }
+        }
+      },
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "count": {
+                "min": 1
+              },
+              "nbt": "{tcc:{id:\"riftjuice_bottle\"}}"
+            }
+          }
+        }
+      },
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "count": {
+                "min": 1
+              },
+              "nbt": "{tcc:{id:\"sightless_eye\"}}"
+            }
+          }
+        }
+      }
+    ]
+  }
+]

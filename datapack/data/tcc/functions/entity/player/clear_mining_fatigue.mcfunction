@@ -1,7 +1,6 @@
 ############################################################
-# Description: Commands to clear elder guardian or geomancer mining fatigue
-# Creator: CreeperMagnet_
+# Commands to clear elder guardian or geomancer mining fatigue
 ############################################################
 
-execute unless entity @e[type=elder_guardian,distance=..65] run effect clear @a[distance=..65] minecraft:mining_fatigue
-advancement revoke @s only tcc:technical/entity/clear_mining_fatigue
+effect clear @s minecraft:mining_fatigue
+advancement revoke @s only tcc:technical/player_killed_entity/clear_mining_fatigue

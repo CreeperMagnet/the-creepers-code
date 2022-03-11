@@ -1,0 +1,7 @@
+{
+	"parent": "tcc:entity/iceologer/moving/normal",
+	"textures": {
+		"0": "tcc:entity/iceologer/main_hurt",
+		"1": "tcc:entity/iceologer/legs_hurt"
+	}
+}

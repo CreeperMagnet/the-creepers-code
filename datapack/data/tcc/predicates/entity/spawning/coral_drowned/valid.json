@@ -1,0 +1,38 @@
+[
+  {
+    "condition": "minecraft:alternative",
+    "terms": [
+      {
+        "condition": "minecraft:reference",
+        "name": "tcc:entity/spawning/coral_drowned/warm_ocean"
+      },
+      {
+        "condition": "minecraft:random_chance",
+        "chance": 0.1
+      }
+    ]
+  },
+  {
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "equipment": {
+        "mainhand": {
+          "items": [
+            "minecraft:air"
+          ]
+        },
+        "offhand": {
+          "items": [
+            "minecraft:air"
+          ]
+        },
+        "head": {
+          "items": [
+            "minecraft:air"
+          ]
+        }
+      }
+    }
+  }
+]

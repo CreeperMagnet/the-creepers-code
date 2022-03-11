@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "ate_fungal_stew": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "nbt": "{tcc:{id:\"fungal_stew\"}}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "tcc:item/fungal_stew"
+  },
+  "parent": "tcc:technical/root"
+}

@@ -1,30 +1,73 @@
 {
   "type": "minecraft:block",
-  "pools": [{
-    "rolls": 1,
-    "entries": [{
-      "type": "minecraft:loot_table",
-      "name": "tcc:items/gobblerift",
-      "functions": [{
-        "function": "minecraft:copy_nbt",
-        "source": "this",
-        "ops": [{
-            "source": "CustomName",
-            "target": "display.Name",
-            "op": "replace"
-          }
-        ],
-        "conditions": [{
-          "condition": "minecraft:inverted",
-          "term": {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "nbt": "{CustomName:'{\"translate\":\"block.tcc.gobblerift\"}'}"
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "tcc:items/gobblerift",
+          "functions": [
+            {
+              "function": "minecraft:copy_nbt",
+              "source": "this",
+              "ops": [
+                {
+                  "source": "CustomName",
+                  "target": "display.Name",
+                  "op": "replace"
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:inverted",
+                  "term": {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "nbt": "{CustomName:'{\"translate\":\"block.tcc.gobblerift\"}'}"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "function": "minecraft:copy_nbt",
+              "source": "this",
+              "ops": [
+                {
+                  "source": "ArmorItems[3].tag.tcc.id",
+                  "target": "tcc.gobblerift_id",
+                  "op": "replace"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "translate": "item.tcc.riftjuice_bottle.lore.id",
+                  "with": [
+                    {
+                      "nbt": "ArmorItems[3].tag.tcc.id",
+                      "entity": "@s"
+                    }
+                  ],
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "translate": "pack.tcc",
+                  "color": "#008725",
+                  "italic": true
+                }
+              ],
+              "replace": true
             }
-          }
-        }]
-      }]
-    }]
-  }]
+          ]
+        }
+      ]
+    }
+  ]
 }

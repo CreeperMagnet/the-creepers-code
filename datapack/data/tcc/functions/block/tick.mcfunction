@@ -1,25 +1,24 @@
 ############################################################
-# Description: Functions to run off of every tcc block every single tick
-# Creator: CreeperMagnet_
+# Functions to run off of every tcc block every single tick
 ############################################################
 
-## Block Breakers
-execute if entity @s[type=armor_stand,tag=tcc.block_breaker] run function tcc:block/block_breakers/tick
-
 ## Jewelry Table
-execute if entity @s[type=armor_stand,tag=tcc.jewelry_table] run function tcc:block/jewelry_table/tick
+execute if entity @s[type=armor_stand,tag=tcc.jewelry_table] run function tcc:block/jewelry_table/tick/main
 
 ## Teapot
-execute if entity @s[type=villager,tag=tcc.teapot,predicate=!tcc:teapot_valid] run function tcc:block/teapot/break
+execute if entity @s[type=wandering_trader,tag=tcc.teapot,predicate=!tcc:block/teapot_valid] run function tcc:block/teapot/break
 
 ## Gobblerift
-execute if entity @s[type=wandering_trader,tag=tcc.gobblerift] run function tcc:block/gobblerift/tick
+execute if entity @s[type=wandering_trader,tag=tcc.gobblerift,predicate=!tcc:block/gobblerift_valid] run function tcc:block/gobblerift/break
 
 ## Nether Reactor
 execute if entity @s[type=armor_stand,tag=tcc.nether_reactor_core] unless block ~ ~ ~ obsidian run function tcc:block/nether_reactor/break
 
 ## Positional Anchor
 execute if entity @s[type=armor_stand,tag=tcc.positional_anchor] run function tcc:block/positional_anchor/tick
+
+## Nether Reactor
+execute if entity @s[type=armor_stand,tag=tcc.soul_seer] run function tcc:block/soul_seer/tick
 
 ## Frostbloom
 execute if entity @s[type=item_frame,tag=tcc.frostbloom] unless block ~ ~ ~ spruce_sapling[stage=0] run function tcc:block/frostbloom/block_change

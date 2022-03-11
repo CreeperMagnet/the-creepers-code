@@ -11,367 +11,517 @@
       "predicate": {
         "custom_model_data": 330001
       },
-      "model": "tcc:gui/toasts/quests/item_complete"
+      "model": "tcc:item/boomerang_spinning"
     },
     {
       "predicate": {
         "custom_model_data": 330002
       },
-      "model": "tcc:gui/toasts/quests/complete"
+      "model": "tcc:block/snail_nest/overlay"
     },
     {
       "predicate": {
         "custom_model_data": 330003
       },
-      "model": "tcc:block/snail_nest"
+      "model": "tcc:block/frostbloom/grass"
     },
     {
       "predicate": {
         "custom_model_data": 330004
       },
-      "model": "tcc:item/boomerang_spinning"
+      "model": "tcc:block/frostbloom/other"
     },
     {
       "predicate": {
         "custom_model_data": 330005
       },
-      "model": "tcc:item/spectral_boomerang_spinning"
+      "model": "tcc:block/geomancer_pillar/normal"
     },
     {
       "predicate": {
         "custom_model_data": 330006
       },
-      "model": "tcc:item/gemstone/amethyst"
+      "model": "tcc:block/geomancer_pillar/explosive"
     },
     {
       "predicate": {
         "custom_model_data": 330007
       },
-      "model": "tcc:item/gemstone/pristine/amethyst"
+      "model": "tcc:block/phantom_item_frame"
     },
     {
       "predicate": {
         "custom_model_data": 330008
       },
-      "model": "tcc:item/gemstone/diamond"
+      "model": "tcc:entity/coral_drowned/arm/brain"
     },
     {
       "predicate": {
         "custom_model_data": 330009
       },
-      "model": "tcc:item/gemstone/pristine/diamond"
+      "model": "tcc:entity/coral_drowned/head/brain"
     },
     {
       "predicate": {
         "custom_model_data": 330010
       },
-      "model": "tcc:item/gemstone/emerald"
+      "model": "tcc:entity/coral_drowned/arm/bubble"
     },
     {
       "predicate": {
         "custom_model_data": 330011
       },
-      "model": "tcc:item/gemstone/pristine/emerald"
+      "model": "tcc:entity/coral_drowned/head/bubble"
     },
     {
       "predicate": {
         "custom_model_data": 330012
       },
-      "model": "tcc:item/gemstone/ender_pearl"
+      "model": "tcc:entity/coral_drowned/arm/fire"
     },
     {
       "predicate": {
         "custom_model_data": 330013
       },
-      "model": "tcc:item/gemstone/pristine/ender_pearl"
+      "model": "tcc:entity/coral_drowned/head/fire"
     },
     {
       "predicate": {
         "custom_model_data": 330014
       },
-      "model": "tcc:item/gemstone/lapis_lazuli"
+      "model": "tcc:entity/coral_drowned/arm/horn"
     },
     {
       "predicate": {
         "custom_model_data": 330015
       },
-      "model": "tcc:item/gemstone/pristine/lapis_lazuli"
+      "model": "tcc:entity/coral_drowned/head/horn"
     },
     {
       "predicate": {
         "custom_model_data": 330016
       },
-      "model": "tcc:item/gemstone/obsidian"
+      "model": "tcc:entity/coral_drowned/arm/tube"
     },
     {
       "predicate": {
         "custom_model_data": 330017
       },
-      "model": "tcc:item/gemstone/pristine/obsidian"
+      "model": "tcc:entity/coral_drowned/head/tube"
     },
     {
       "predicate": {
         "custom_model_data": 330018
       },
-      "model": "tcc:item/gemstone/prismarine_crystal"
+      "model": "tcc:entity/sponge_drowned/arm"
     },
     {
       "predicate": {
         "custom_model_data": 330019
       },
-      "model": "tcc:item/gemstone/pristine/prismarine_crystal"
+      "model": "tcc:entity/sponge_drowned/head"
     },
     {
       "predicate": {
         "custom_model_data": 330020
       },
-      "model": "tcc:item/gemstone/quartz"
+      "model": "tcc:entity/glow_lichen_zombie/arm"
     },
     {
       "predicate": {
         "custom_model_data": 330021
       },
-      "model": "tcc:item/gemstone/pristine/quartz"
+      "model": "tcc:entity/glow_lichen_zombie/head"
     },
     {
       "predicate": {
         "custom_model_data": 330022
       },
-      "model": "tcc:item/warped_wart"
+      "model": "tcc:block/gobblerift/stage_1"
     },
     {
       "predicate": {
         "custom_model_data": 330023
       },
-      "model": "tcc:block/teapot_empty"
+      "model": "tcc:block/gobblerift/hurt/stage_1"
     },
     {
       "predicate": {
         "custom_model_data": 330024
       },
-      "model": "tcc:item/teacup/empty"
+      "model": "tcc:block/gobblerift/stage_2"
     },
     {
       "predicate": {
         "custom_model_data": 330025
       },
-      "model": "tcc:block/frostbloom/grass"
+      "model": "tcc:block/gobblerift/hurt/stage_2"
     },
     {
       "predicate": {
         "custom_model_data": 330026
       },
-      "model": "tcc:block/geomancer_pillar/normal"
+      "model": "tcc:block/gobblerift/stage_3"
     },
     {
       "predicate": {
         "custom_model_data": 330027
       },
-      "model": "tcc:block/geomancer_pillar/explosive"
+      "model": "tcc:block/gobblerift/hurt/stage_3"
     },
     {
       "predicate": {
         "custom_model_data": 330028
       },
-      "model": "tcc:block/frostbloom/other"
+      "model": "tcc:block/gobblerift/stage_4"
     },
     {
       "predicate": {
         "custom_model_data": 330029
       },
-      "model": "tcc:item/empty"
+      "model": "tcc:block/gobblerift/hurt/stage_4"
     },
     {
       "predicate": {
         "custom_model_data": 330030
       },
-      "model": "tcc:block/gobblerift/stage_1"
+      "model": "tcc:block/gobblerift/stage_5"
     },
     {
       "predicate": {
         "custom_model_data": 330031
       },
-      "model": "tcc:block/gobblerift/hurt/stage_1"
+      "model": "tcc:block/gobblerift/hurt/stage_5"
     },
     {
       "predicate": {
         "custom_model_data": 330032
       },
-      "model": "tcc:block/gobblerift/stage_2"
+      "model": "tcc:block/gobblerift/stage_6_empty"
     },
     {
       "predicate": {
         "custom_model_data": 330033
       },
-      "model": "tcc:block/gobblerift/hurt/stage_2"
+      "model": "tcc:block/gobblerift/hurt/stage_6_empty"
     },
     {
       "predicate": {
         "custom_model_data": 330034
       },
-      "model": "tcc:block/gobblerift/stage_3"
+      "model": "tcc:block/gobblerift/stage_6_digesting"
     },
     {
       "predicate": {
         "custom_model_data": 330035
       },
-      "model": "tcc:block/gobblerift/hurt/stage_3"
+      "model": "tcc:block/gobblerift/hurt/stage_6_digesting"
     },
     {
       "predicate": {
         "custom_model_data": 330036
       },
-      "model": "tcc:block/gobblerift/stage_4"
+      "model": "tcc:block/gobblerift/stage_6_full"
     },
     {
       "predicate": {
         "custom_model_data": 330037
       },
-      "model": "tcc:block/gobblerift/hurt/stage_4"
+      "model": "tcc:block/gobblerift/hurt/stage_6_full"
     },
     {
       "predicate": {
         "custom_model_data": 330038
       },
-      "model": "tcc:block/gobblerift/stage_5"
+      "model": "tcc:entity/enchanter/head/normal"
     },
     {
       "predicate": {
         "custom_model_data": 330039
       },
-      "model": "tcc:block/gobblerift/hurt/stage_5"
+      "model": "tcc:entity/enchanter/head/hurt"
     },
     {
       "predicate": {
         "custom_model_data": 330040
       },
-      "model": "tcc:block/gobblerift/stage_6_empty"
+      "model": "tcc:entity/enchanter/idle/normal"
     },
     {
       "predicate": {
         "custom_model_data": 330041
       },
-      "model": "tcc:block/gobblerift/hurt/stage_6_empty"
+      "model": "tcc:entity/enchanter/idle/hurt"
     },
     {
       "predicate": {
         "custom_model_data": 330042
       },
-      "model": "tcc:block/gobblerift/stage_6_digesting"
+      "model": "tcc:entity/enchanter/moving/normal"
     },
     {
       "predicate": {
         "custom_model_data": 330043
       },
-      "model": "tcc:block/gobblerift/hurt/stage_6_digesting"
+      "model": "tcc:entity/enchanter/moving/hurt"
     },
     {
       "predicate": {
         "custom_model_data": 330044
       },
-      "model": "tcc:block/gobblerift/stage_6_full"
+      "model": "tcc:entity/enchanter/spellcasting/normal"
     },
     {
       "predicate": {
         "custom_model_data": 330045
       },
-      "model": "tcc:block/gobblerift/hurt/stage_6_full"
+      "model": "tcc:entity/enchanter/spellcasting/hurt"
     },
     {
       "predicate": {
         "custom_model_data": 330046
       },
-      "model": "tcc:block/phantom_item_frame"
+      "model": "tcc:entity/geomancer/head/normal"
     },
     {
       "predicate": {
         "custom_model_data": 330047
       },
-      "model": "tcc:item/amethyst_dust"
+      "model": "tcc:entity/geomancer/head/hurt"
     },
     {
       "predicate": {
         "custom_model_data": 330048
       },
-      "model": "tcc:entity/coral_drowned/arm/brain"
+      "model": "tcc:entity/geomancer/idle/normal"
     },
     {
       "predicate": {
         "custom_model_data": 330049
       },
-      "model": "tcc:entity/coral_drowned/head/brain"
+      "model": "tcc:entity/geomancer/idle/hurt"
     },
     {
       "predicate": {
         "custom_model_data": 330050
       },
-      "model": "tcc:entity/coral_drowned/arm/bubble"
+      "model": "tcc:entity/geomancer/moving/normal"
     },
     {
       "predicate": {
         "custom_model_data": 330051
       },
-      "model": "tcc:entity/coral_drowned/head/bubble"
+      "model": "tcc:entity/geomancer/moving/hurt"
     },
     {
       "predicate": {
         "custom_model_data": 330052
       },
-      "model": "tcc:entity/coral_drowned/arm/fire"
+      "model": "tcc:entity/geomancer/spellcasting/normal"
     },
     {
       "predicate": {
         "custom_model_data": 330053
       },
-      "model": "tcc:entity/coral_drowned/head/fire"
+      "model": "tcc:entity/geomancer/spellcasting/hurt"
     },
     {
       "predicate": {
         "custom_model_data": 330054
       },
-      "model": "tcc:entity/coral_drowned/arm/horn"
+      "model": "tcc:entity/iceologer/head/normal"
     },
     {
       "predicate": {
         "custom_model_data": 330055
       },
-      "model": "tcc:entity/coral_drowned/head/horn"
+      "model": "tcc:entity/iceologer/head/hurt"
     },
     {
       "predicate": {
         "custom_model_data": 330056
       },
-      "model": "tcc:entity/coral_drowned/arm/tube"
+      "model": "tcc:entity/iceologer/idle/normal"
     },
     {
       "predicate": {
         "custom_model_data": 330057
       },
-      "model": "tcc:entity/coral_drowned/head/tube"
+      "model": "tcc:entity/iceologer/idle/hurt"
     },
     {
       "predicate": {
         "custom_model_data": 330058
       },
-      "model": "tcc:entity/lichen_zombie/arm"
+      "model": "tcc:entity/iceologer/moving/normal"
     },
     {
       "predicate": {
         "custom_model_data": 330059
       },
-      "model": "tcc:entity/lichen_zombie/head"
+      "model": "tcc:entity/iceologer/moving/hurt"
     },
     {
       "predicate": {
         "custom_model_data": 330060
       },
-      "model": "tcc:entity/sponge_drowned/arm"
+      "model": "tcc:entity/iceologer/spellcasting/normal"
     },
     {
       "predicate": {
         "custom_model_data": 330061
       },
-      "model": "tcc:entity/sponge_drowned/head"
+      "model": "tcc:entity/iceologer/spellcasting/hurt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330062
+      },
+      "model": "tcc:entity/jeweler/head/normal"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330063
+      },
+      "model": "tcc:entity/jeweler/head/hurt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330064
+      },
+      "model": "tcc:entity/jeweler/body/normal"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330065
+      },
+      "model": "tcc:entity/jeweler/body/hurt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330066
+      },
+      "model": "tcc:entity/passive_witch/head/normal"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330067
+      },
+      "model": "tcc:entity/passive_witch/head/hurt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330068
+      },
+      "model": "tcc:entity/passive_witch/idle/normal"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330069
+      },
+      "model": "tcc:entity/passive_witch/idle/hurt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330070
+      },
+      "model": "tcc:entity/passive_witch/moving/normal"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330071
+      },
+      "model": "tcc:entity/passive_witch/moving/hurt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330072
+      },
+      "model": "tcc:entity/snail/black/normal"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330073
+      },
+      "model": "tcc:entity/snail/black/hurt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330074
+      },
+      "model": "tcc:entity/snail/brown/normal"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330075
+      },
+      "model": "tcc:entity/snail/brown/hurt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330076
+      },
+      "model": "tcc:entity/snail/gary/normal"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330077
+      },
+      "model": "tcc:entity/snail/gary/hurt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330078
+      },
+      "model": "tcc:entity/snail/light_blue/normal"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330079
+      },
+      "model": "tcc:entity/snail/light_blue/hurt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330080
+      },
+      "model": "tcc:entity/snail/skull/normal"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330081
+      },
+      "model": "tcc:entity/snail/skull/hurt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330082
+      },
+      "model": "tcc:entity/snail/spiral/normal"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330083
+      },
+      "model": "tcc:entity/snail/spiral/hurt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330084
+      },
+      "model": "tcc:entity/snail/yellow/normal"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330085
+      },
+      "model": "tcc:entity/snail/yellow/hurt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330086
+      },
+      "model": "tcc:block/teapot/empty"
     }
   ]
 }

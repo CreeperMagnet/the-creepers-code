@@ -1,6 +1,5 @@
 ############################################################
-# Description: Summons a pillar
-# Creator: CreeperMagnet_
+# Summons a pillar
 ############################################################
 
 function tcc:block/geomancer_pillars/explosive/place
