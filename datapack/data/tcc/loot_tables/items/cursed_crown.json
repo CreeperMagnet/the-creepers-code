@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{Enchantments:[{id:\"minecraft:binding_curse\",lvl:1s}],AttributeModifiers:[{Amount:2.0d,Slot:\"head\",AttributeName:\"minecraft:generic.armor\",Name:\"minecraft:generic.armor\",Operation:0,UUID:[I;2,0,3,3]}],Unbreakable:1b,HideFlags:68,tcc:{id:\"cursed_crown\",durability:[100,100],repaired:1b},CustomModelData:330001}"
+              "tag": "{Enchantments:[{id:\"minecraft:binding_curse\",lvl:1s}],AttributeModifiers:[{Amount:2.0d,Slot:\"head\",AttributeName:\"minecraft:generic.armor\",Name:\"minecraft:generic.armor\",Operation:0,UUID:[I;2,0,3,3]}],Unbreakable:1b,HideFlags:68,tcc:{id:\"cursed_crown\",durability:[200,200],repaired:1b},CustomModelData:330001}"
             },
             {
               "function": "minecraft:set_name",
@@ -27,8 +27,8 @@
                   "color": "gray",
                   "italic": false,
                   "with": [
-                    100,
-                    100
+                    200,
+                    200
                   ]
                 },
                 {

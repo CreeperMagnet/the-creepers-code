@@ -522,6 +522,12 @@
         "custom_model_data": 330086
       },
       "model": "tcc:block/teapot/empty"
+    },
+	{
+      "predicate": {
+        "custom_model_data": 330087
+      },
+      "model": "tcc:block/geomancer_pillar/explosive_lit"
     }
   ]
 }

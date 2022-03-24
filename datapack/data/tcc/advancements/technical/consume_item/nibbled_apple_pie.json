@@ -10,7 +10,7 @@
     }
   },
   "rewards": {
-    "function": "tcc:item/apple_pie/eat_nibbled"
+    "function": "tcc:item/apple_pie/nibbled/eat"
   },
   "parent": "tcc:technical/root"
 }

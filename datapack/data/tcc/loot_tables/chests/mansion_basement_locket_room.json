@@ -128,13 +128,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "tcc:items/locket_of_learning",
-          "functions": [
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:330028,tcc:{stored_points:13}}"
-            }
-          ]
+          "name": "tcc:items/locket_of_learning"
         }
       ]
     },

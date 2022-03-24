@@ -1,11 +1,18 @@
 {
   "values": [
     "#tcc:boomerang/break",
-    "#minecraft:sand",
+    "#tcc:pumpkin_stem",
+    "#tcc:melon_stem",
+    "#minecraft:cave_vines",
     "minecraft:wheat",
     "minecraft:potatoes",
     "minecraft:carrots",
     "minecraft:beetroots",
-    "minecraft:snow"
+	"minecraft:bamboo",
+	"minecraft:sugar_cane",
+    "minecraft:snow",
+    "minecraft:cocoa",
+    "minecraft:nether_wart",
+    "minecraft:sweet_berry_bush"
   ]
 }

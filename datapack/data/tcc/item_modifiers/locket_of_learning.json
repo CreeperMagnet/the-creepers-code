@@ -1,0 +1,44 @@
+[
+  {
+    "function": "minecraft:copy_nbt",
+    "source": {
+      "type": "minecraft:storage",
+      "source": "tcc:storage"
+    },
+    "ops": [
+      {
+        "source": "root.temp.item.tag",
+        "target": "{}",
+        "op": "merge"
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "translate": "item.tcc.locket_of_learning.lore",
+        "with": [
+          {
+            "score": {
+              "name": "@s",
+              "objective": "tcc.dummy"
+            }
+          },
+          {
+            "text": "1395"
+          }
+        ],
+        "color": "gray",
+        "italic": false
+      },
+      {
+        "translate": "pack.tcc",
+        "color": "#008725",
+        "italic": false
+      }
+    ],
+    "replace": true
+  }
+]

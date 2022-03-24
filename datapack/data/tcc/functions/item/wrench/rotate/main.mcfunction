@@ -68,3 +68,4 @@ execute if block ~ ~ ~ minecraft:iron_trapdoor[powered=false] run function tcc:i
 execute if block ~ ~ ~ #minecraft:stairs run function tcc:item/wrench/rotate/block_tag/stairs
 
 playsound tcc:item.wrench.rotate_block block @a[distance=..16]
+function tcc:item/wrench/damage

@@ -16,3 +16,5 @@ execute store result storage tcc:storage root.temp.item.tag.LodestonePos.Z int 1
 item modify entity @s[gamemode=!creative] weapon.mainhand tcc:copy_nbt
 loot give @s[gamemode=creative] loot tcc:technical/copy_nbt/compass
 loot replace entity @s[gamemode=creative] weapon.mainhand loot tcc:items/weeping_eye
+
+playsound tcc:item.weeping_eye.use player @a[distance=..16]

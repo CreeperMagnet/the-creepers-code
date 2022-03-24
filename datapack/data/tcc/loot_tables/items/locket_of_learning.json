@@ -23,6 +23,15 @@
               "function": "minecraft:set_lore",
               "lore": [
                 {
+                  "translate": "item.tcc.locket_of_learning.lore",
+                  "with": [
+                    0,
+                    1395
+                  ],
+                  "color": "gray",
+                  "italic": false
+                },
+                {
                   "translate": "pack.tcc",
                   "color": "#008725",
                   "italic": true

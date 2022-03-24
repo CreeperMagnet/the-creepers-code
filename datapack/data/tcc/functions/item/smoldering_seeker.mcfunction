@@ -17,3 +17,5 @@ item modify entity @s[gamemode=!creative] weapon.mainhand tcc:copy_nbt
 loot give @s[gamemode=creative] loot tcc:technical/copy_nbt/compass
 loot replace entity @s[gamemode=creative] weapon.mainhand loot tcc:items/smoldering_seeker
 advancement grant @s only tcc:minecraft/nether/smoldering_seeker
+
+playsound tcc:item.smoldering_seeker.use player @a[distance=..16]

@@ -10,7 +10,7 @@
     }
   },
   "rewards": {
-    "function": "tcc:item/golden_apple_pie/eat"
+    "function": "tcc:item/golden_apple_pie/whole/eat"
   },
   "parent": "tcc:technical/root"
 }

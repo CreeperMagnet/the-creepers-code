@@ -2,7 +2,7 @@
 # Flips effects and damages mirror
 ############################################################
 
-playsound tcc:item.molten_mirror.use player @s ~ ~ ~ 10000 0
+playsound tcc:item.molten_mirror.use player @a[distance=..16] ~ ~ ~
 scoreboard players set #item_durability_change tcc.dummy 0
 execute if data storage tcc:storage root.temp.effects[{Id:1b}] run effect clear @s speed
 execute if data storage tcc:storage root.temp.effects[{Id:2b}] run effect clear @s slowness

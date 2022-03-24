@@ -1,0 +1,19 @@
+  {
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:carrot_on_a_stick",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{Unbreakable:1b,CustomModelData:339301,tcc:{id:\"ring\",ring:{metal:\"minecraft:iron\",gemstone:\"minecraft:ender_pearl\"},repaired:1b,durability:[100,100]},HideFlags:4,display:{Lore:['{\"italic\":false,\"color\":\"gray\",\"translate\":\"item.durability\",\"with\":[\"100\",\"100\"]}','{\"italic\":true,\"color\":\"#008725\",\"translate\":\"pack.tcc\"}','\"\"','{\"italic\":false,\"color\":\"gray\",\"translate\":\"item.modifiers.offhand\"}','{\"italic\":false,\"color\":\"blue\",\"translate\":\"attribute.modifier.plus.0\",\"with\":[\"3\",{\"translate\":\"attribute.name.tcc.item_teleportation_range\"}]}'],Name:'{\"translate\":\"item.tcc.ring.minecraft.iron.minecraft.ender_pearl\",\"italic\":false}'},Damage:0}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

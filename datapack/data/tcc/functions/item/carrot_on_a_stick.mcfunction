@@ -24,7 +24,7 @@ execute if entity @s[nbt={SelectedItem:{tag:{tcc:{id:"snail_bucket"}}}}] anchore
 execute unless entity @s[nbt=!{SelectedItem:{tag:{tcc:{id:"molten_mirror"}}}},nbt=!{Inventory:[{Slot:-106b,tag:{tcc:{id:"molten_mirror"}}}]}] if data entity @s ActiveEffects run function tcc:item/molten_mirror/main
 
 # Boomerangs
-execute if entity @s[x_rotation=-50..50,nbt=!{SelectedItem:{tag:{tcc:{durability:[1,300]}}}},nbt={SelectedItem:{tag:{tcc:{id:"boomerang"}}}}] anchored eyes positioned ^ ^ ^ positioned ~ ~-0.5 ~ rotated ~ 0 if block ^ ^ ^1 #tcc:boomerang/ignore if block ^ ^ ^2 #tcc:boomerang/ignore if block ^ ^ ^3 #tcc:boomerang/ignore if block ^ ^ ^4 #tcc:boomerang/ignore rotated as @s run function tcc:item/boomerang/throw
+execute if entity @s[x_rotation=-50..50,nbt=!{SelectedItem:{tag:{tcc:{durability:[1,300]}}}},nbt={SelectedItem:{tag:{tcc:{id:"boomerang"}}}}] unless entity @s[scores={tcc.boomerang_cooldown=1..}] anchored eyes positioned ^ ^ ^ positioned ~ ~-0.5 ~ rotated ~ 0 if block ^ ^ ^1 #tcc:boomerang/ignore if block ^ ^ ^2 #tcc:boomerang/ignore if block ^ ^ ^3 #tcc:boomerang/ignore if block ^ ^ ^4 #tcc:boomerang/ignore rotated as @s run function tcc:item/boomerang/throw
 
 # Locket of Learning
 execute unless entity @s[nbt=!{SelectedItem:{tag:{tcc:{id:"locket_of_learning"}}}},nbt=!{Inventory:[{tag:{tcc:{id:"locket_of_learning"}},Slot:-106b}]}] run function tcc:item/locket_of_learning/init

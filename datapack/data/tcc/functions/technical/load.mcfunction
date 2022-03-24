@@ -8,6 +8,9 @@ scoreboard objectives add tcc.dummy dummy
 tellraw @a[predicate=tcc:entity/debug_player] [{"translate":"debug.prefix","color":"yellow","bold":true},{"translate":"commands.tcc.reload.success","color":"white","bold":false}]
 execute unless score #server_version tcc.dummy matches 100 run function tcc:technical/initiate
 
+# Refresh the compendium for all players that currently have one
+execute as @a[nbt={Inventory:[{tag:{tcc:{id:"compendium"}}}]}] run function tcc:item/compendium
+
 ## Gamerules
 gamerule doLimitedCrafting false
 gamerule logAdminCommands false
@@ -22,6 +25,7 @@ scoreboard objectives add tcc.current_xp xp
 scoreboard objectives add tcc.old_xp dummy
 scoreboard objectives add tcc.tea dummy
 scoreboard objectives add tcc.invul_timer dummy
+scoreboard objectives add tcc.boomerang_cooldown dummy
 
 #Use for operations spanning multiple ticks
 scoreboard objectives add tcc.dummy2 dummy
@@ -36,6 +40,7 @@ scoreboard players set #6 tcc.dummy 6
 scoreboard players set #10 tcc.dummy 10
 scoreboard players set #16 tcc.dummy 16
 scoreboard players set #25 tcc.dummy 25
+scoreboard players set #31 tcc.dummy 31
 scoreboard players set #60 tcc.dummy 60
 scoreboard players set #100 tcc.dummy 100
 scoreboard players set #180 tcc.dummy 180

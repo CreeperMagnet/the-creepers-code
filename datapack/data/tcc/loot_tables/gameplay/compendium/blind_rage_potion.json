@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{CustomPotionColor:3089152,CustomPotionEffects:[{Duration:300,Id:15b,Amplifier:0b},{Duration:300,Id:5b,Amplifier:2b}],Potion:\"minecraft:mundane\",tcc:{potion:{can_extend:1b,id:\"tcc:blind_rage\"},id:\"potion\"},display:{Lore:['{\"translate\":\"pack.tcc\",\"color\":\"#008725\"}'],Name:'{\"translate\":\"item.tcc.potion.effect.blind_rage\",\"italic\":false}'}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

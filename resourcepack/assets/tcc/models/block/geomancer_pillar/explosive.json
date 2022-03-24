@@ -1,7 +1,7 @@
 {
 	"textures": {
 		"0": "tcc:block/geomancer_pillar/explosive",
-		"particle": "tcc:block/geomancer_pillar/explosive"
+		"particle": "tcc:block/geomancer_pillar/explosive_particles"
 	},
 	"elements": [
 		{

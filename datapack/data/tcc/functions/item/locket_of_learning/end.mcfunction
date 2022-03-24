@@ -15,6 +15,9 @@ execute if score @s tcc.dummy matches 45 run data modify storage tcc:storage roo
 execute if score @s tcc.dummy matches 45 run data modify storage tcc:storage root.temp.item.tag.Enchantments set value [{id:"binding_curse",lvl:1s}]
 execute unless score @s tcc.dummy matches 45 run data modify storage tcc:storage root.temp.item.tag.Enchantments set value []
 
+# multiply by 31 for lore
+scoreboard players operation @s tcc.dummy *= #31 tcc.dummy
+
 # insert the modified locket into the player's inventory
-item modify entity @s[nbt=!{SelectedItem:{tag:{tcc:{id:"locket_of_learning"}}}},nbt={Inventory:[{tag:{tcc:{id:"locket_of_learning"}},Slot:-106b}]}] weapon.offhand tcc:copy_nbt
-item modify entity @s[nbt={SelectedItem:{tag:{tcc:{id:"locket_of_learning"}}}}] weapon.mainhand tcc:copy_nbt
+item modify entity @s[nbt=!{SelectedItem:{tag:{tcc:{id:"locket_of_learning"}}}},nbt={Inventory:[{tag:{tcc:{id:"locket_of_learning"}},Slot:-106b}]}] weapon.offhand tcc:locket_of_learning
+item modify entity @s[nbt={SelectedItem:{tag:{tcc:{id:"locket_of_learning"}}}}] weapon.mainhand tcc:locket_of_learning

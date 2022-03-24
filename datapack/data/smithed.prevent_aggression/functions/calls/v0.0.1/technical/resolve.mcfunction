@@ -1,2 +1,0 @@
-schedule clear smithed.prevent_aggression:impl/v0.0.1/technical/tick
-execute if score #smithed.prevent_aggression.major load.status matches 0 if score #smithed.prevent_aggression.minor load.status matches 0 if score #smithed.prevent_aggression.patch load.status matches 1 run function smithed.prevent_aggression:impl/v0.0.1/technical/load

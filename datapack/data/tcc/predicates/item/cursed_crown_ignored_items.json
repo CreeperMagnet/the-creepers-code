@@ -208,20 +208,6 @@
       "condition": "minecraft:entity_properties",
       "entity": "this",
       "predicate": {
-        "nbt": "{Item:{id:\"minecraft:nether_star\"}}"
-      }
-    },
-    {
-      "condition": "minecraft:entity_properties",
-      "entity": "this",
-      "predicate": {
-        "nbt": "{Item:{id:\"minecraft:beacon\"}}"
-      }
-    },
-    {
-      "condition": "minecraft:entity_properties",
-      "entity": "this",
-      "predicate": {
         "nbt": "{Item:{id:\"minecraft:gold_ore\"}}"
       }
     },
@@ -244,6 +230,20 @@
       "entity": "this",
       "predicate": {
         "nbt": "{Item:{id:\"minecraft:gold_block\"}}"
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{Item:{id:\"minecraft:raw_gold_block\"}}"
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{Item:{id:\"minecraft:raw_gold\"}}"
       }
     },
     {
@@ -300,6 +300,55 @@
       "entity": "this",
       "predicate": {
         "nbt": "{Item:{tag:{tcc:{id:\"ring\",ring:{metal:\"minecraft:gold\"}}}}}"
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{Item:{tag:{tcc:{id:\"ring\",ring:{metal:\"minecraft:netherite\"}}}}}"
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{Item:{tag:{tcc:{id:\"nether_reactor_core\"}}}}"
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{Item:{tag:{tcc:{id:\"golden_apple_pie\"}}}}"
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{Item:{tag:{tcc:{id:\"enchanted_golden_apple_pie\"}}}}"
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{Item:{tag:{tcc:{id:\"golden_chorus_fruit\"}}}}"
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{Item:{tag:{tcc:{id:\"soul_seer\"}}}}"
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{Item:{tag:{tcc:{id:\"enchanted_golden_carrot\"}}}}"
       }
     }
   ]

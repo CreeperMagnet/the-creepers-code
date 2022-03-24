@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:axolotl_bucket",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{CustomModelData:330005,Variant:2,Age:-24000s}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

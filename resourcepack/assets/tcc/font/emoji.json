@@ -333,6 +333,96 @@
         "\uc037"
       ]
     },
+	{
+      "type": "bitmap",
+      "file": "tcc:gui/emoji/manic/spook.png",
+      "ascent": 7,
+      "height": 16.5,
+      "chars": [
+        "\uc100"
+      ]
+    },
+	{
+      "type": "bitmap",
+      "file": "tcc:gui/emoji/manic/snotty.png",
+      "ascent": 7,
+      "height": 16.5,
+      "chars": [
+        "\uc101"
+      ]
+    },
+	{
+      "type": "bitmap",
+      "file": "tcc:gui/emoji/manic/revenant.png",
+      "ascent": 7,
+      "height": 16.5,
+      "chars": [
+        "\uc102"
+      ]
+    },
+	{
+      "type": "bitmap",
+      "file": "tcc:gui/emoji/manic/revenant_on.png",
+      "ascent": 7,
+      "height": 16.5,
+      "chars": [
+        "\uc103"
+      ]
+    },
+	{
+      "type": "bitmap",
+      "file": "tcc:gui/emoji/manic/eidolon.png",
+      "ascent": 7,
+      "height": 16.5,
+      "chars": [
+        "\uc104"
+      ]
+    },
+	{
+      "type": "bitmap",
+      "file": "tcc:gui/emoji/manic/keeper.png",
+      "ascent": 7,
+      "height": 16.5,
+      "chars": [
+        "\uc105"
+      ]
+    },
+	{
+      "type": "bitmap",
+      "file": "tcc:gui/emoji/manic/brain.png",
+      "ascent": 7,
+      "height": 16.5,
+      "chars": [
+        "\uc106"
+      ]
+    },
+	{
+      "type": "bitmap",
+      "file": "tcc:gui/emoji/manic/insane.png",
+      "ascent": 7,
+      "height": 16.5,
+      "chars": [
+        "\uc107"
+      ]
+    },
+	{
+      "type": "bitmap",
+      "file": "tcc:gui/emoji/manic/insomniac.png",
+      "ascent": 7,
+      "height": 16.5,
+      "chars": [
+        "\uc108"
+      ]
+    },
+	{
+      "type": "bitmap",
+      "file": "tcc:gui/emoji/manic/corpsepitcher.png",
+      "ascent": 7,
+      "height": 16.5,
+      "chars": [
+        "\uc109"
+      ]
+    },
     {
       "type": "bitmap",
       "file": "tcc:gui/emoji/default.png",
@@ -664,6 +754,96 @@
       "height": 7,
       "chars": [
         "\ue037"
+      ]
+    },
+	{
+      "type": "bitmap",
+      "file": "tcc:gui/emoji/manic/spook.png",
+      "ascent": 7,
+      "height": 7,
+      "chars": [
+        "\ue100"
+      ]
+    },
+	{
+      "type": "bitmap",
+      "file": "tcc:gui/emoji/manic/snotty.png",
+      "ascent": 7,
+      "height": 7,
+      "chars": [
+        "\ue101"
+      ]
+    },
+	{
+      "type": "bitmap",
+      "file": "tcc:gui/emoji/manic/revenant.png",
+      "ascent": 7,
+      "height": 7,
+      "chars": [
+        "\ue102"
+      ]
+    },
+	{
+      "type": "bitmap",
+      "file": "tcc:gui/emoji/manic/revenant_on.png",
+      "ascent": 7,
+      "height": 7,
+      "chars": [
+        "\ue103"
+      ]
+    },
+	{
+      "type": "bitmap",
+      "file": "tcc:gui/emoji/manic/eidolon.png",
+      "ascent": 7,
+      "height": 7,
+      "chars": [
+        "\ue104"
+      ]
+    },
+	{
+      "type": "bitmap",
+      "file": "tcc:gui/emoji/manic/keeper.png",
+      "ascent": 7,
+      "height": 7,
+      "chars": [
+        "\ue105"
+      ]
+    },
+	{
+      "type": "bitmap",
+      "file": "tcc:gui/emoji/manic/brain.png",
+      "ascent": 7,
+      "height": 7,
+      "chars": [
+        "\ue106"
+      ]
+    },
+	{
+      "type": "bitmap",
+      "file": "tcc:gui/emoji/manic/insane.png",
+      "ascent": 7,
+      "height": 7,
+      "chars": [
+        "\ue107"
+      ]
+    },
+	{
+      "type": "bitmap",
+      "file": "tcc:gui/emoji/manic/insomniac.png",
+      "ascent": 7,
+      "height": 7,
+      "chars": [
+        "\ue108"
+      ]
+    },
+	{
+      "type": "bitmap",
+      "file": "tcc:gui/emoji/manic/corpsepitcher.png",
+      "ascent": 7,
+      "height": 7,
+      "chars": [
+        "\ue109"
       ]
     }
   ]

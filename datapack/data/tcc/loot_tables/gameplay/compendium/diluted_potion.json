@@ -1,0 +1,19 @@
+  {
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:carrot_on_a_stick",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{RepairCost:100,Unbreakable:1b,CustomModelData:330119,tcc:{potion:{uses:[10,10],id:\"minecraft:leaping\"},id:\"diluted_potion\"},HideFlags:5,Enchantments:[{lvl:1s,id:\"minecraft:binding_curse\"}],display:{Lore:['{\"color\":\"blue\",\"italic\":false,\"translate\":\"potion.withDuration\",\"with\":[{\"translate\":\"effect.minecraft.jump_boost\"},{\"translate\":\"potion.tcc.duration\",\"with\":[0,1,8]}]}','{\"translate\":\"item.tcc.diluted_potion.uses\",\"color\":\"gray\",\"italic\":false,\"with\":[10,10]}','{\"translate\":\"pack.tcc\",\"color\":\"#008725\",\"italic\":true}'],Name:'{\"translate\":\"item.tcc.diluted_potion.effect.leaping\",\"italic\":false,\"color\":\"white\"}'},Damage:0}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

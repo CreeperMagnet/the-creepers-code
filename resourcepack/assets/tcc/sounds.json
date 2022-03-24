@@ -11,9 +11,21 @@
   },
   "item.molten_mirror.use": {
     "sounds": [
-      "block/enchantment_table/enchant1"
+      "tcc:item/molten_mirror"
     ],
     "subtitle": "subtitles.tcc.item.molten_mirror.use"
+  },
+  "item.smoldering_seeker.use": {
+    "sounds": [
+      "tcc:item/smoldering_seeker"
+    ],
+    "subtitle": "subtitles.tcc.item.smoldering_seeker.use"
+  },
+  "item.weeping_eye.use": {
+    "sounds": [
+      "tcc:item/weeping_eye"
+    ],
+    "subtitle": "subtitles.tcc.item.weeping_eye.use"
   },
   "item.armor.equip_witch_hat": {
     "sounds": [

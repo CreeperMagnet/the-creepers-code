@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_boots",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{Enchantments:[{id:\"minecraft:frost_walker\",lvl:2}],display:{Name:'{\"text\":\"nexus was here\"}'}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

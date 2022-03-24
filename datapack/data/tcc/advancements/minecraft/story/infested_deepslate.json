@@ -6,9 +6,17 @@
     "title": {
       "translate": "advancements.tcc.minecraft.story.infested_deepslate.title"
     },
-    "description": {
-      "translate": "advancements.tcc.minecraft.story.infested_deepslate.description"
-    },
+    "description": [
+      {
+        "translate": "advancements.tcc.minecraft.story.infested_deepslate.description"
+      },
+      "\n\n",
+      {
+        "translate": "pack.tcc",
+        "color": "#008725",
+        "italic": true
+      }
+    ],
     "frame": "challenge"
   },
   "parent": "minecraft:story/follow_ender_eye",
