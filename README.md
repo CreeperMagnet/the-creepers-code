@@ -1,6 +1,8 @@
-<p align="center" class="hideOnSmtihed">
+<!-- hide_on_smithed -->
+<p align="center">
   <img width='50%' src="https://github.com/TheNuclearNexus/smithed/blob/master/public/sponsored_project.png?raw=true">
 </p>
+<!-- end_hide_on_smithed -->
 
 The Creeper's Code is a vanilla+ datapack intends to add features that mesh seamlessly with the existing 'vanilla' Minecraft content.
 
@@ -73,29 +75,30 @@ All of the features follow strict guidelines in order to maintain compatibility 
   </p>
 </div>
 
-<p class="hideOnSmithed"><b>
+<!-- hide_on_smithed -->
+<b>
   DOWNLOAD STEPS. READ BEFORE INSTALLING.
   <p color="red">
     DO NOT USE WITH ANY DATAPACK AND/OR MOD THAT GIVES THE PLAYER ALL RECIPES. THIS WILL CAUSE THIS DATAPACK TO BREAK.
   </p>
-  
-  <details>
-    <summary>Download Steps</summary>
-    
+</b>
+<details>
+  <summary>Download Steps</summary>
+
 - Follow the download steps found at [https://thecreeperscode.com/download/](https://thecreeperscode.com/download/).
 - This above page also lists valid versions and alternatives.
 - Enjoy your experience with the datapack!
 
 FAQ:
- - Where's the resource pack?
-    
+- Where's the resource pack?
+
 It's bundled with the rest of the files in the download link. Please, read the download steps.
- - What version should I use?
-    
+- What version should I use?
+
 Whatever version the latest release page says. I'm not outright stating the version here, because then I'd have to update that text whenever I release a version, which is VERY often.
- - Can you disable certain features?
-    
+- Can you disable certain features?
+
 No, this pack is not modular. You cannot turn off and on specific content. This is how it will always be, due to the nature of this datapack.
-    </p>
-  </details>
-</b></p>
+  </p>
+</details>
+<!-- end_hide_on_smithed -->
