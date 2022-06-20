@@ -1,0 +1,58 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "tcc:items/amethyst_dust",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_ingot"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gold_ingot"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:lapis_lazuli"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:emerald"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:amethyst_shard"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:diamond"
+        }
+      ]
+    }
+  ]
+}

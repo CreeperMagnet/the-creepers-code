@@ -1,13 +1,12 @@
 {
   "providers": [
     {
-      "type": "bitmap",
-      "file": "tcc:gui/negative_space.png",
-      "ascent": -32768,
-      "height": -140,
-      "chars": [
-        "\uc000"
-      ]
+      "type": "space",
+      "advances": {
+        " ": 4,
+        "\uc000": -138,
+        "\uc003": -169
+      }
     },
     {
       "type": "bitmap",
@@ -25,15 +24,6 @@
       "height": 176,
       "chars": [
         "\uc002"
-      ]
-    },
-    {
-      "type": "bitmap",
-      "file": "tcc:gui/negative_space.png",
-      "ascent": -32768,
-      "height": -171,
-      "chars": [
-        "\uc003"
       ]
     }
   ]

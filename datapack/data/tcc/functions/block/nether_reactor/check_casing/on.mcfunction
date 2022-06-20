@@ -9,3 +9,4 @@ execute if entity @s[tag=!tcc.nether_reactor_core.on] run particle minecraft:lar
 data modify entity @s[tag=!tcc.nether_reactor_core.on] ArmorItems[3].tag.CustomModelData set value 330000
 execute if entity @s[tag=!tcc.nether_reactor_core.on] run fill ~1 ~1 ~1 ~-1 ~-1 ~-1 minecraft:cracked_polished_blackstone_bricks replace minecraft:polished_blackstone_bricks
 execute if entity @s[tag=tcc.nether_reactor_core.on] as @e[type=#tcc:nether_reactor_affected,tag=!smithed.entity,distance=..64] run function tcc:block/nether_reactor/effects
+execute if entity @s[tag=tcc.nether_reactor_core.on] if predicate manic:installed run schedule function manic:block/beacon/schedule 1t replace

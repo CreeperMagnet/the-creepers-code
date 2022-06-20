@@ -8,7 +8,7 @@
             "condition": "entity_properties",
             "entity": "this",
             "predicate": {
-              "nbt": "{AbsorptionAmount:0.0f,ActiveEffects:[{Id:22b}]}"
+              "nbt": "{AbsorptionAmount:0.0f,ActiveEffects:[{Id:22}]}"
             }
           }
         ]

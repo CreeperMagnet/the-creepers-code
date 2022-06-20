@@ -7,6 +7,7 @@ scoreboard players remove @s tcc.dummy2 1
 execute if data entity @s HandItems[0].tag.tcc.tea{id:"amenable"} run function tcc:block/teapot/cook/particles/amenable
 execute if data entity @s HandItems[0].tag.tcc.tea{id:"antitoxin"} run function tcc:block/teapot/cook/particles/antitoxin
 execute if data entity @s HandItems[0].tag.tcc.tea{id:"clearsight"} run function tcc:block/teapot/cook/particles/clearsight
+execute if data entity @s HandItems[0].tag.tcc.tea{id:"illumination"} run function tcc:block/teapot/cook/particles/illumination
 execute if data entity @s HandItems[0].tag.tcc.tea{id:"obscurity"} run function tcc:block/teapot/cook/particles/obscurity
 execute if data entity @s HandItems[0].tag.tcc.tea{id:"plenty"} run function tcc:block/teapot/cook/particles/plenty
 execute if data entity @s HandItems[0].tag.tcc.tea{id:"purity"} run function tcc:block/teapot/cook/particles/purity

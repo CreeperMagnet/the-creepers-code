@@ -21,6 +21,8 @@ execute if block ~ ~ ~ minecraft:quartz_pillar run function tcc:item/wrench/rota
 
 execute if block ~ ~ ~ minecraft:purpur_pillar run function tcc:item/wrench/rotate/block/purpur_pillar
 
+execute if block ~ ~ ~ minecraft:muddy_mangrove_roots run function tcc:item/wrench/rotate/block/muddy_mangrove_roots
+
 execute if block ~ ~ ~ minecraft:deepslate run function tcc:item/wrench/rotate/block/deepslate
 
 execute if block ~ ~ ~ minecraft:infested_deepslate run function tcc:item/wrench/rotate/block/infested_deepslate
@@ -66,6 +68,10 @@ execute if block ~ ~ ~ minecraft:comparator run function tcc:item/wrench/rotate/
 execute if block ~ ~ ~ minecraft:iron_trapdoor[powered=false] run function tcc:item/wrench/rotate/block/iron_trapdoor/main
 
 execute if block ~ ~ ~ #minecraft:stairs run function tcc:item/wrench/rotate/block_tag/stairs
+
+execute if block ~ ~ ~ #tcc:froglights run function tcc:item/wrench/rotate/block_tag/froglights
+
+execute if block ~ ~ ~ #tcc:wrench_rotatable/creative_only run function tcc:item/wrench/rotate/creative_only/main
 
 playsound tcc:item.wrench.rotate_block block @a[distance=..16]
 function tcc:item/wrench/damage

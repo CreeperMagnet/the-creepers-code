@@ -6,12 +6,6 @@
   "overrides": [
     {
       "predicate": {
-        "custom_model_data": 330000
-      },
-      "model": "tcc:item/ancient_acorn"
-    },
-    {
-      "predicate": {
         "custom_model_data": 330001
       },
       "model": "tcc:item/sweet_berry_muffin"

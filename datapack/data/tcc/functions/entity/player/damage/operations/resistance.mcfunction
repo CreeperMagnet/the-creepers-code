@@ -3,7 +3,7 @@
 ############################################################
 
 # Get the amplifier
-execute store result score #temp_0 tcc.dummy run data get entity @s ActiveEffects[{Id:11b}].Amplifier
+execute store result score #temp_0 tcc.dummy run data get entity @s ActiveEffects[{Id:11}].Amplifier
 scoreboard players add #temp_0 tcc.dummy 1
 
 

@@ -1,0 +1,95 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:budding_amethyst"
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 2,
+        "max": 3,
+        "type": "minecraft:uniform"
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 3,
+                "max": 10,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "minecraft:amethyst_shard"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 3,
+          "name": "tcc:items/amethyst_dust"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 3,
+                "max": 5,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "minecraft:amethyst_cluster"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_pickaxe",
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "enchantments": [
+                "minecraft:unbreaking"
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.5
+                }
+              ]
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "enchantments": [
+                "minecraft:silk_touch"
+              ]
+            },
+            {
+              "function": "minecraft:set_damage",
+              "damage": {
+                "type": "minecraft:uniform",
+                "min": 0.8,
+                "max": 0.9
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

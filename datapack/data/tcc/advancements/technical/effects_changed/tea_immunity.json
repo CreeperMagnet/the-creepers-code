@@ -22,6 +22,17 @@
         }
       }
     },
+    "illumination": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "player": {
+          "nbt": "{Tags:[\"tcc.tea.illumination\"]}"
+        },
+        "effects": {
+          "minecraft:darkness": {}
+        }
+      }
+    },
     "obscurity": {
       "trigger": "minecraft:effects_changed",
       "conditions": {
@@ -126,6 +137,7 @@
     [
       "antitoxin",
       "clearsight",
+      "illumination",
       "obscurity",
       "plenty",
       "purity",

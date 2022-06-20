@@ -160,6 +160,24 @@
       "entries": [
         {
           "type": "minecraft:item",
+          "name": "minecraft:disc_fragment_5"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "killer",
+          "predicate": {
+            "type": "minecraft:warden"
+          }
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
           "name": "minecraft:egg",
           "functions": [
             {
@@ -225,6 +243,14 @@
         "source": {
           "type":"smithed:reference",
           "path":"pools[4]"
+        }
+      },
+      {
+        "type":"smithed:append",
+        "target":"pools",
+        "source": {
+          "type":"smithed:reference",
+          "path":"pools[5]"
         }
       }
     ]

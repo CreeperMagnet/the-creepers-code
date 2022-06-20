@@ -37,6 +37,6 @@
     ]
   ],
   "rewards": {
-    "function": "tcc:entity/player/clear_mining_fatigue"
+    "function": "tcc:entity/player/mining_fatigue/clear"
   }
 }

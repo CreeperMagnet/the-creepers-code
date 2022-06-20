@@ -34,7 +34,7 @@
               "condition": "minecraft:entity_properties",
               "entity": "this",
               "predicate": {
-                "nbt": "{ActiveEffects:[{Id:25b,Amplifier:50b}]}"
+                "nbt": "{ActiveEffects:[{Id:25,Amplifier:50b}]}"
               }
             }
           }

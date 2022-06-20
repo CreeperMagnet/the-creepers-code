@@ -1,6 +1,6 @@
 {
   "condition": "minecraft:location_check",
   "predicate": {
-    "feature": "tcc:tundra_keep"
+    "structure": "tcc:tundra_keep"
   }
 }

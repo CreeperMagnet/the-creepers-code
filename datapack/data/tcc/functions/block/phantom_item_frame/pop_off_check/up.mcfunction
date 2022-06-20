@@ -10,6 +10,7 @@ execute if block ~ ~ ~ #tcc:rods[facing=up] run scoreboard players set @s tcc.du
 execute if block ~ ~ ~ minecraft:chain[axis=y] run scoreboard players set @s tcc.dummy2 1
 execute if block ~ ~ ~ minecraft:chorus_plant[down=true] run scoreboard players set @s tcc.dummy2 1
 execute if block ~ ~ ~ #minecraft:trapdoors unless block ~ ~ ~ #minecraft:trapdoors[half=top,open=false] run scoreboard players set @s tcc.dummy2 1
+execute if block ~ ~ ~ minecraft:grindstone unless block ~ ~ ~ minecraft:grindstone[face=wall] run scoreboard players set @s tcc.dummy2 1
 execute if block ~ ~ ~ #tcc:lanterns[hanging=false] run scoreboard players set @s tcc.dummy2 1
 execute if block ~ ~ ~ minecraft:pointed_dripstone[vertical_direction=up] run scoreboard players set @s tcc.dummy2 1
 execute if block ~ ~ ~ #tcc:non_full_amethyst_blocks[facing=up] run scoreboard players set @s tcc.dummy2 1

@@ -26,9 +26,17 @@
     "enter_tundra_keep": {
       "trigger": "minecraft:location",
       "conditions": {
-        "location": {
-          "feature": "tcc:tundra_keep"
-        }
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "tcc:tundra_keep"
+              }
+            }
+          }
+        ]
       }
     }
   }

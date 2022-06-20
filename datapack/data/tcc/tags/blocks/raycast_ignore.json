@@ -2,7 +2,7 @@
   "values": [
     "#minecraft:buttons",
     "#minecraft:pressure_plates",
-    "#minecraft:carpets",
+    "#minecraft:wool_carpets",
     "#minecraft:flower_pots",
     "#minecraft:candles",
     "#minecraft:wall_signs",
@@ -44,6 +44,8 @@
     "minecraft:wall_torch",
     "minecraft:soul_wall_torch",
     "minecraft:redstone_wall_torch",
-    "minecraft:scaffolding"
+    "minecraft:scaffolding",
+    "minecraft:frogspawn",
+    "minecraft:sculk_vein"
   ]
 }

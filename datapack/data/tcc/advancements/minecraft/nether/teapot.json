@@ -22,7 +22,7 @@
   },
   "parent": "minecraft:nether/brew_potion",
   "criteria": {
-    "antitoxin": {
+    "take_tea": {
       "trigger": "minecraft:player_interacted_with_entity",
       "conditions": {
         "item": {

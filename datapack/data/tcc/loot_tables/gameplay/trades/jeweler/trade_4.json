@@ -14,7 +14,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:tinted_glass",
+          "name": "minecraft:calcite",
           "functions": [
             {
               "function": "minecraft:set_count",

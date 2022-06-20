@@ -1,0 +1,70 @@
+{
+  "parent": "tcc:technical/root",
+  "criteria": {
+    "enter_monument_without_mining_fatigue_or_tea": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type_specific": {
+                  "type": "player",
+                  "gamemode": "creative"
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type_specific": {
+                  "type": "player",
+                  "gamemode": "spectator"
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{ActiveEffects:[{Id:4}]}"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Tags:[\"tcc.tea.vitality\"]}"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "minecraft:monument"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "tcc:entity/player/mining_fatigue/enter_monument"
+  }
+}

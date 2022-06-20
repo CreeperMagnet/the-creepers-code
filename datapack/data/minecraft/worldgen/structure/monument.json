@@ -1,0 +1,40 @@
+{
+  "use_expansion_hack": false,
+  "max_distance_from_center": 80,
+  "size": 7,
+  "start_height": {
+    "absolute": 30
+  },
+  "step": "fluid_springs",
+  "terrain_adaptation": "beard_box",
+  "start_pool": "tcc:ocean_monument/main",
+  "biomes": "#minecraft:has_structure/ocean_monument",
+  "spawn_overrides": {
+    "axolotls": {
+      "bounding_box": "full",
+      "spawns": []
+    },
+    "monster": {
+      "bounding_box": "full",
+      "spawns": [
+        {
+          "type": "minecraft:guardian",
+          "maxCount": 7,
+          "minCount": 7,
+          "weight": 1
+        },
+        {
+          "type": "minecraft:drowned",
+          "maxCount": 1,
+          "minCount": 1,
+          "weight": 2
+        }
+      ]
+    },
+    "underground_water_creature": {
+      "bounding_box": "full",
+      "spawns": []
+    }
+  },
+  "type": "minecraft:jigsaw"
+}

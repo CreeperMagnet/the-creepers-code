@@ -4,6 +4,7 @@
 
 tag @s remove tcc.tea.antitoxin
 tag @s remove tcc.tea.clearsight
+tag @s remove tcc.tea.illumination
 tag @s remove tcc.tea.obscurity
 tag @s remove tcc.tea.plenty
 tag @s remove tcc.tea.purity

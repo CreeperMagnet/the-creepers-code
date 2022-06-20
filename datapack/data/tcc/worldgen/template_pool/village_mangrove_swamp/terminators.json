@@ -1,0 +1,33 @@
+{
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "tcc:village_mangrove_swamp/terminators/hasta_la_vista_baby",
+        "processors": "tcc:village_mangrove_swamp/street",
+        "projection": "terrain_matching"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "tcc:village_mangrove_swamp/terminators/ill_be_back",
+        "processors": "tcc:village_mangrove_swamp/street",
+        "projection": "terrain_matching"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "tcc:village_mangrove_swamp/terminators/come_with_me_if_you_want_to_live",
+        "processors": "tcc:village_mangrove_swamp/street",
+        "projection": "terrain_matching"
+      },
+      "weight": 1
+    }
+  ],
+  "fallback": "minecraft:empty",
+  "name": "tcc:village_mangrove_swamp/terminators"
+}

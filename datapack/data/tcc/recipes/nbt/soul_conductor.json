@@ -1,0 +1,25 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "DDD",
+    "DPD",
+    "ESE"
+  ],
+  "key": {
+    "E": {
+      "item": "minecraft:echo_shard"
+    },
+    "D": {
+      "item": "minecraft:cobbled_deepslate"
+    },
+    "P": {
+      "item": "minecraft:ender_pearl"
+    },
+    "S": {
+      "item": "minecraft:sculk"
+    }
+  },
+  "result": {
+    "item": "minecraft:knowledge_book"
+  }
+}

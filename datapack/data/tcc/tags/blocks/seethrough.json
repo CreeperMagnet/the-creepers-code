@@ -3,7 +3,7 @@
     "#minecraft:banners",
     "#minecraft:beds",
     "#minecraft:buttons",
-    "#minecraft:carpets",
+    "#minecraft:wool_carpets",
     "#minecraft:corals",
     "#minecraft:wall_corals",
     "#minecraft:crops",
@@ -125,6 +125,9 @@
     "minecraft:lantern",
     "minecraft:soul_lantern",
     "minecraft:sweet_berry_bush",
-    "minecraft:chorus_plant"
+    "minecraft:chorus_plant",
+    "minecraft:sculk_vein",
+    "minecraft:mangrove_roots",
+    "minecraft:frogspawn"
   ]
 }

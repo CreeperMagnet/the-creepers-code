@@ -16,6 +16,7 @@ execute if block ~ ~ ~ minecraft:sweet_berry_bush[age=3] run function tcc:item/b
 execute if block ~ ~ ~ minecraft:cocoa[age=2] run function tcc:item/boomerang/block_interaction/seeds/cocoa
 execute if block ~ ~ ~ #minecraft:cave_vines[berries=true] run function tcc:item/boomerang/block_interaction/seeds/cave_vines
 
+execute if block ~ ~ ~ minecraft:mangrove_propagule[age=4] run setblock ~ ~ ~ minecraft:air destroy
 execute unless block ~ ~-0.3 ~ minecraft:snow if block ~ ~ ~ minecraft:snow[layers=1] run setblock ~ ~ ~ minecraft:air destroy
 execute unless block ~ ~-0.6 ~ minecraft:snow if block ~ ~ ~ minecraft:snow[layers=2] run setblock ~ ~ ~ minecraft:air destroy
 

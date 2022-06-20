@@ -9,7 +9,7 @@ tellraw @a[predicate=tcc:entity/debug_player] [{"translate":"debug.prefix","colo
 execute unless score #server_version tcc.dummy matches 100 run function tcc:technical/initiate
 
 # Refresh the compendium for all players that currently have one
-execute as @a[nbt={Inventory:[{tag:{tcc:{id:"compendium"}}}]}] run function tcc:item/compendium
+execute as @a[nbt={Inventory:[{tag:{tcc:{id:"compendium"}}}]},gamemode=!spectator] run function tcc:item/compendium
 
 ## Gamerules
 gamerule doLimitedCrafting false

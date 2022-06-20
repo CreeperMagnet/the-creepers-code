@@ -305,6 +305,21 @@
     "minecraft:cracked_deepslate_bricks",
 		"minecraft:raw_copper_block",
 		"minecraft:raw_gold_block",
-		"minecraft:raw_iron_block"
+		"minecraft:raw_iron_block",
+		"minecraft:pearlescent_froglight",
+		"minecraft:ochre_froglight",
+		"minecraft:verdant_froglight",
+		"minecraft:mangrove_log",
+		"minecraft:mangrove_planks",
+		"minecraft:stripped_mangrove_log",
+		"minecraft:mangrove_wood",
+		"minecraft:stripped_mangrove_wood",
+		"minecraft:mud",
+		"minecraft:mud_bricks",
+		"minecraft:muddy_mangrove_roots",
+		"minecraft:packed_mud",
+		"minecraft:reinforced_deepslate",
+		"minecraft:sculk",
+		"minecraft:sculk_catalyst"
 	]
 }

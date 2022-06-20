@@ -6,6 +6,10 @@
         {
           "type": "loot_table",
           "name": "tcc:items/tundra_explorer_map"
+        },
+        {
+          "type": "loot_table",
+          "name": "tcc:items/swampland_explorer_map"
         }
       ]
     }

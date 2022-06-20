@@ -9,7 +9,7 @@ scoreboard players set @s tcc.invul_timer 10
 
 execute unless score #temp_0 tcc.dummy matches 0 unless score #ignore_armor tcc.dummy matches 1 run function tcc:entity/player/damage/operations/armor
 execute unless score #temp_0 tcc.dummy matches 0 unless score #ignore_armor tcc.dummy matches 1 run function tcc:entity/player/damage/operations/protection
-execute if data entity @s ActiveEffects[{Id:11b}] if score #damage tcc.dummy matches 1.. run function tcc:entity/player/damage/operations/resistance
+execute if data entity @s ActiveEffects[{Id:11}] if score #damage tcc.dummy matches 1.. run function tcc:entity/player/damage/operations/resistance
 function tcc:entity/player/damage/calculate_attributes
 execute unless entity @s[tag=tcc.dead] run function tcc:entity/player/damage/apply_damage
 tag @s remove tcc.dead

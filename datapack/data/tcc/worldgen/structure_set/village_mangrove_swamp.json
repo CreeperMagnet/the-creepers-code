@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "tcc:village_mangrove_swamp",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 10912856,
+    "separation": 8,
+    "spacing": 20
+  }
+}

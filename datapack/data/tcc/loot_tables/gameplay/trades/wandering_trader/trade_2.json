@@ -28,15 +28,7 @@
         },
         {
           "type": "loot_table",
-          "name": "tcc:items/ancient_acorn"
-        },
-        {
-          "type": "loot_table",
           "name": "tcc:items/amethyst_dust"
-        },
-        {
-          "type": "loot_table",
-          "name": "tcc:items/snail_mucus"
         },
         {
           "type": "loot_table",

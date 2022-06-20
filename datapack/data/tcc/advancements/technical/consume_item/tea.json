@@ -32,6 +32,22 @@
         }
       }
     },
+    "illumination": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "nbt": "{tcc:{tea:{id:\"illumination\",extended:0b}}}"
+        }
+      }
+    },
+    "illumination_extended": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "nbt": "{tcc:{tea:{id:\"illumination\",extended:1b}}}"
+        }
+      }
+    },
     "obscurity": {
       "trigger": "minecraft:consume_item",
       "conditions": {
@@ -183,6 +199,8 @@
       "antitoxin_extended",
       "clearsight",
       "clearsight_extended",
+      "illumination",
+      "illumination_extended",
       "obscurity",
       "obscurity_extended",
       "plenty",

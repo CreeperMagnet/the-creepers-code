@@ -5,92 +5,16 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:cobbled_deepslate",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 2,
-                "max": 5
-              }
-            },
-            {
-              "function": "minecraft:looting_enchant",
-              "count": {
-                "min": 0,
-                "max": 1
-              }
-            },
-            {
-              "function": "minecraft:furnace_smelt",
-              "conditions": [
-                {
-                  "condition": "minecraft:entity_properties",
-                  "entity": "this",
-                  "predicate": {
-                    "flags": {
-                      "is_on_fire": true
-                    }
-                  }
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
           "type": "minecraft:loot_table",
           "name": "tcc:items/amethyst_dust",
           "functions": [
             {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1,
-                "max": 2
-              }
-            },
-            {
-              "function": "minecraft:looting_enchant",
-              "count": {
-                "min": 1,
-                "max": 2
-              },
-              "limit": 3
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "rolls": {
-        "min": 0,
-        "max": 1
-      },
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:amethyst_shard",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 1,
-                "max": 3
-              }
-            },
-            {
               "function": "minecraft:looting_enchant",
               "count": {
                 "min": 0,
                 "max": 1
-              }
+              },
+              "limit": 2
             }
           ]
         }
@@ -111,6 +35,25 @@
         {
           "condition": "minecraft:random_chance_with_looting",
           "chance": 0.1,
+          "looting_multiplier": 0.01
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:budding_amethyst"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:killed_by_player"
+        },
+        {
+          "condition": "minecraft:random_chance_with_looting",
+          "chance": 0.025,
           "looting_multiplier": 0.01
         }
       ]

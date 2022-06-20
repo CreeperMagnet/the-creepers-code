@@ -1,0 +1,15 @@
+{
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "tcc:geode_outpost/geomancer",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      },
+      "weight": 1
+    }
+  ],
+  "fallback": "minecraft:empty",
+  "name": "tcc:geode_outpost/geomancer"
+}

@@ -11,7 +11,7 @@
         ]
       }
     },
-    "prismarine": {
+    "prismarine_crystal": {
       "trigger": "minecraft:player_hurt_entity",
       "conditions": {
         "damage": {
@@ -24,7 +24,7 @@
         "player": [
           {
             "condition": "minecraft:reference",
-            "name": "tcc:entity/holding/ring/diamond"
+            "name": "tcc:entity/holding/ring/prismarine_crystal"
           }
         ]
       }
@@ -41,7 +41,7 @@
         "player": [
           {
             "condition": "minecraft:reference",
-            "name": "tcc:entity/holding/ring/diamond"
+            "name": "tcc:entity/holding/ring/quartz"
           }
         ]
       }
@@ -50,7 +50,7 @@
   "requirements": [
     [
       "diamond",
-      "prismarine",
+      "prismarine_crystal",
       "quartz"
     ]
   ],

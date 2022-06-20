@@ -2,6 +2,9 @@
 # Commands to break a jewelry table
 ############################################################
 
+# Close GUI
+function tcc:block/jewelry_table/tick/close
+
 # Delete Output
 data modify storage tcc:storage root.temp.output_item set from entity @s ArmorItems[3].tag.tcc.stored_barrel_data[1][{Slot:4b}]
 data remove storage tcc:storage root.temp.output_item.Slot

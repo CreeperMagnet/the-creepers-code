@@ -43,3 +43,4 @@ execute if block ~ ~ ~ waxed_cut_copper_stairs run function tcc:item/wrench/rota
 execute if block ~ ~ ~ waxed_exposed_cut_copper_stairs run function tcc:item/wrench/rotate/block/waxed_exposed_cut_copper_stairs/main
 execute if block ~ ~ ~ waxed_oxidized_cut_copper_stairs run function tcc:item/wrench/rotate/block/waxed_oxidized_cut_copper_stairs/main
 execute if block ~ ~ ~ waxed_weathered_cut_copper_stairs run function tcc:item/wrench/rotate/block/waxed_weathered_cut_copper_stairs/main
+execute if block ~ ~ ~ mud_brick_stairs run function tcc:item/wrench/rotate/block/mud_brick_stairs/main

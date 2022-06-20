@@ -11,8 +11,5 @@ execute if entity @s[type=piglin] unless data entity @s HandItems[{id:"minecraft
 ## All blocks
 execute if entity @s[tag=tcc.block] run function tcc:block/second_clock
 
-## Ocean monument edits code
-execute if entity @s[type=marker,tag=tcc.monument] positioned ~ 0 ~ run function tcc:postgen/ocean_monument_edits/modify/check_chunkloading
-
 ## Brewing Stuff
 execute if entity @s[type=marker,tag=tcc.brewing_stand] if block ~ ~ ~ minecraft:brewing_stand{Items:[{tag:{tcc:{}}}]} run function tcc:block/brewing_stand/brewing/second_clock

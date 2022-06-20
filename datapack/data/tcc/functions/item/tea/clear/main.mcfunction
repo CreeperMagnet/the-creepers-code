@@ -4,6 +4,7 @@
 
 effect clear @s[tag=tcc.tea.antitoxin] minecraft:poison
 effect clear @s[tag=tcc.tea.clearsight] minecraft:blindness
+effect clear @s[tag=tcc.tea.illumination] minecraft:darkness
 effect clear @s[tag=tcc.tea.obscurity] minecraft:glowing
 effect clear @s[tag=tcc.tea.plenty] minecraft:hunger
 effect clear @s[tag=tcc.tea.purity] minecraft:wither

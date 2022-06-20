@@ -1,0 +1,29 @@
+{
+  "criteria": {
+    "click_soul_conductor": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:reference",
+              "name": "tcc:entity/sneaking"
+            }
+          }
+        ],
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:dropper"
+            ],
+            "nbt": "{Lock:\"§soul_conductor\\\\uF001\"}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "tcc:block/soul_conductor/activate/advancement"
+  }
+}

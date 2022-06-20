@@ -392,5 +392,24 @@
       "tcc:mob/snail/unbucket3"
     ],
     "subtitle": "subtitles.item.bucket.empty"
+  },
+  "entity.snail.gary_meow": {
+    "sounds": [
+      "mob/cat/meow2",
+      "mob/cat/meow3"
+    ],
+    "subtitle": "subtitles.tcc.entity.snail.gary_meow"
+  },
+  "block.soul_conductor.transport_player": {
+    "sounds": [
+      "tcc:block/soul_conductor_use"
+    ],
+    "subtitle": "subtitles.tcc.block.soul_conductor.transport_player"
+  },
+  "block.soul_conductor.transport_player_fail": {
+    "sounds": [
+      "tcc:block/soul_conductor_fail"
+    ],
+    "subtitle": "subtitles.tcc.block.soul_conductor.transport_player_fail"
   }
 }

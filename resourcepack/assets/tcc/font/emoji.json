@@ -1,6 +1,12 @@
 {
   "providers": [
     {
+      "type": "space",
+      "advances": {
+        " ": 4
+      }
+    },
+    {
       "type": "bitmap",
       "file": "tcc:gui/emoji/default.png",
       "ascent": 7,

@@ -104,6 +104,7 @@
         "minecraft:melon",
         "minecraft:beacon",
         "minecraft:lodestone",
-        "minecraft:grindstone"
+        "minecraft:grindstone",
+        "minecraft:reinforced_deepslate"
     ]
 }

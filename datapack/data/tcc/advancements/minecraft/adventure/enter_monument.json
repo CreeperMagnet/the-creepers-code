@@ -23,9 +23,17 @@
     "enter_monument": {
       "trigger": "minecraft:location",
       "conditions": {
-        "location": {
-          "feature": "monument"
-        }
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "minecraft:monument"
+              }
+            }
+          }
+        ]
       }
     }
   }

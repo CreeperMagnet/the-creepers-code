@@ -1,0 +1,150 @@
+{
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "tcc:ocean_monument/large_rooms/large_room_1",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "tcc:ocean_monument/large_rooms/large_room_2",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "tcc:ocean_monument/large_rooms/large_room_3",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "tcc:ocean_monument/large_rooms/large_room_4",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "tcc:ocean_monument/large_rooms/large_room_5",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "tcc:ocean_monument/large_rooms/large_room_6",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "tcc:ocean_monument/large_rooms/large_room_7",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "tcc:ocean_monument/large_rooms/large_room_8",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "tcc:ocean_monument/large_rooms/large_room_9",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "tcc:ocean_monument/large_rooms/large_room_10",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "tcc:ocean_monument/large_rooms/large_room_11",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "tcc:ocean_monument/large_rooms/large_room_12",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "tcc:ocean_monument/large_rooms/large_room_13",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "tcc:ocean_monument/large_rooms/large_room_14",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "tcc:ocean_monument/large_rooms/large_room_15",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "tcc:ocean_monument/large_rooms/large_room_16",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      },
+      "weight": 1
+    }
+  ],
+  "fallback": "minecraft:empty",
+  "name": "tcc:ocean_monument/large_rooms"
+}

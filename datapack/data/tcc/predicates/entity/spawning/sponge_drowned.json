@@ -1,0 +1,90 @@
+[
+  {
+    "condition": "minecraft:alternative",
+    "terms": [
+      {
+        "condition": "minecraft:location_check",
+        "offsetX": 10,
+        "predicate": {
+          "structure": "minecraft:monument"
+        }
+      },
+      {
+        "condition": "minecraft:location_check",
+        "offsetX": -10,
+        "predicate": {
+          "structure": "minecraft:monument"
+        }
+      },
+      {
+        "condition": "minecraft:location_check",
+        "offsetZ": 10,
+        "predicate": {
+          "structure": "minecraft:monument"
+        }
+      },
+      {
+        "condition": "minecraft:location_check",
+        "offsetZ": -10,
+        "predicate": {
+          "structure": "minecraft:monument"
+        }
+      },
+      {
+        "condition": "minecraft:location_check",
+        "offsetX": 10,
+        "offsetZ": 10,
+        "predicate": {
+          "structure": "minecraft:monument"
+        }
+      },
+      {
+        "condition": "minecraft:location_check",
+        "offsetX": 10,
+        "offsetZ": -10,
+        "predicate": {
+          "structure": "minecraft:monument"
+        }
+      },
+      {
+        "condition": "minecraft:location_check",
+        "offsetX": -10,
+        "offsetZ": 10,
+        "predicate": {
+          "structure": "minecraft:monument"
+        }
+      },
+      {
+        "condition": "minecraft:location_check",
+        "offsetX": -10,
+        "offsetZ": -10,
+        "predicate": {
+          "structure": "minecraft:monument"
+        }
+      }
+    ]
+  },
+  {
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "equipment": {
+        "mainhand": {
+          "items": [
+            "minecraft:air"
+          ]
+        },
+        "offhand": {
+          "items": [
+            "minecraft:air"
+          ]
+        },
+        "head": {
+          "items": [
+            "minecraft:air"
+          ]
+        }
+      }
+    }
+  }
+]

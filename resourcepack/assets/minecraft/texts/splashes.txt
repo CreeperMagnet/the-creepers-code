@@ -279,7 +279,6 @@ Pumpa kungen!
 Helo Cymru!
 Cześć Polsko!
 你好中国！
-Привет Россия!
 Γεια σου Ελλάδα!
 My life for Aiur!
 Lennart lennart = new Lennart();
@@ -301,7 +300,7 @@ Put that cookie down!
 Pretty scary!
 I have a suggestion.
 Now with extra hugs!
-Now Java 16!
+Java 16 + 1 = 17!
 Woah.
 HURNERJSGER?
 What's up, Doc?
@@ -414,7 +413,7 @@ Amplify and listen to BIPOC voices!
 Educate your friends on anti-racism!
 Support the BIPOC community and creators!
 Stand up for equality in your community!
-[this splash text has been delayed until part 2]
+[this splash text is now available]
 Contains simulated goats!
 Home-made!
 There's <<a cat on ,my keyboard!~
@@ -425,6 +424,13 @@ Board game version also available!
 Honey, I waxed the copper!
 Plant-based light sources!
 Made by "real" people!
+Shriek like a Sculk Shrieker!
+Who let the frogs out?
+RIBBIT!
+Croak team!
+Nooooooooooooo!
+Flower forest TM perfume
+Hat Fridays!
 
 The underscore is all that matters
 Parrot dismounting is a joke

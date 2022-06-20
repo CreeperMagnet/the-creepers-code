@@ -87,6 +87,7 @@
         "minecraft:end_gateway",
         "minecraft:soul_fire",
         "minecraft:kelp",
-        "minecraft:kelp_plant"
+        "minecraft:kelp_plant",
+        "minecraft:sculk_vein"
     ]
 }

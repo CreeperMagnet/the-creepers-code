@@ -1,0 +1,42 @@
+{
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "tcc:geode_outpost/junction_1",
+        "processors": "tcc:crack_10_percent",
+        "projection": "rigid"
+      },
+      "weight": 8
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "tcc:geode_outpost/junction_2",
+        "processors": "tcc:crack_10_percent",
+        "projection": "rigid"
+      },
+      "weight": 8
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "tcc:geode_outpost/junction_3",
+        "processors": "tcc:crack_10_percent",
+        "projection": "rigid"
+      },
+      "weight": 8
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "tcc:geode_outpost/junction_4",
+        "processors": "tcc:crack_10_percent",
+        "projection": "rigid"
+      },
+      "weight": 8
+    }
+  ],
+  "fallback": "minecraft:empty",
+  "name": "tcc:geode_outpost/hallways"
+}

@@ -1,6 +1,12 @@
 {
   "providers": [
     {
+      "type": "space",
+      "advances": {
+        " ": 4
+      }
+    },
+    {
       "type": "bitmap",
       "file": "tcc:gui/compendium/pages/cover.png",
       "ascent": 32,

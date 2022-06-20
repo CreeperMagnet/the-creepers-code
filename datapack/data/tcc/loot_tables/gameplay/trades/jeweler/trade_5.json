@@ -14,14 +14,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:cobbled_deepslate",
+          "name": "minecraft:deepslate",
           "functions": [
             {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 5,
-                "max": 6
-              }
+              "function": "set_count",
+              "count": 4
             }
           ]
         }

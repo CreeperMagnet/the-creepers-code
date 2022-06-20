@@ -1,21 +1,18 @@
 {
   "providers": [
     {
+      "type": "space",
+      "advances": {
+        "c": -258
+      }
+    },
+    {
       "type": "bitmap",
       "file": "tcc:gui/iceologer_ice.png",
       "ascent": 256,
       "height": 256,
       "chars": [
         "i"
-      ]
-    },
-    {
-      "type": "bitmap",
-      "file": "tcc:gui/negative_space.png",
-      "ascent": -32768,
-      "height": -260,
-      "chars": [
-        "c"
       ]
     },
     {

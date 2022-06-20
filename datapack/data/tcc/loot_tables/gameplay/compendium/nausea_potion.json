@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{CustomPotionColor:9051524,CustomPotionEffects:[{Duration:600,Id:9b,Amplifier:0b}],Potion:\"minecraft:mundane\",tcc:{potion:{can_extend:1b,id:\"tcc:nausea\"},id:\"potion\"},display:{Lore:['{\"translate\":\"pack.tcc\",\"color\":\"#008725\"}'],Name:'{\"translate\":\"item.tcc.potion.effect.nausea\",\"italic\":false}'}}"
+              "tag": "{CustomPotionColor:9051524,CustomPotionEffects:[{Duration:600,Id:9,Amplifier:0b}],Potion:\"minecraft:mundane\",tcc:{potion:{can_extend:1b,id:\"tcc:nausea\"},id:\"potion\"},display:{Lore:['{\"translate\":\"pack.tcc\",\"color\":\"#008725\"}'],Name:'{\"translate\":\"item.tcc.potion.effect.nausea\",\"italic\":false}'}}"
             }
           ]
         }

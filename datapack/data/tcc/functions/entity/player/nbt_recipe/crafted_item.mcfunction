@@ -40,6 +40,8 @@ recipe take @s tcc:nbt/paintbrush
 recipe take @s tcc:nbt/phantom_item_frame
 recipe take @s tcc:nbt/positional_anchor
 recipe take @s tcc:nbt/smoldering_seeker
+recipe take @s tcc:nbt/soul_conductor
+recipe take @s tcc:nbt/soul_seer
 recipe take @s tcc:nbt/sweet_berry_muffin
 recipe take @s tcc:nbt/teapot
 recipe take @s tcc:nbt/warped_wart

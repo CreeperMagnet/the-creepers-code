@@ -19,7 +19,7 @@
     },
     {
       "type": "bitmap",
-      "file": "tcc:gui/tea/obscurity.png",
+      "file": "tcc:gui/tea/illumination.png",
       "ascent": 15,
       "height": 20,
       "chars": [
@@ -28,7 +28,7 @@
     },
     {
       "type": "bitmap",
-      "file": "tcc:gui/tea/plenty.png",
+      "file": "tcc:gui/tea/obscurity.png",
       "ascent": 15,
       "height": 20,
       "chars": [
@@ -37,7 +37,7 @@
     },
     {
       "type": "bitmap",
-      "file": "tcc:gui/tea/purity.png",
+      "file": "tcc:gui/tea/plenty.png",
       "ascent": 15,
       "height": 20,
       "chars": [
@@ -46,7 +46,7 @@
     },
     {
       "type": "bitmap",
-      "file": "tcc:gui/tea/serendipity.png",
+      "file": "tcc:gui/tea/purity.png",
       "ascent": 15,
       "height": 20,
       "chars": [
@@ -55,7 +55,7 @@
     },
     {
       "type": "bitmap",
-      "file": "tcc:gui/tea/stability.png",
+      "file": "tcc:gui/tea/serendipity.png",
       "ascent": 15,
       "height": 20,
       "chars": [
@@ -64,7 +64,7 @@
     },
     {
       "type": "bitmap",
-      "file": "tcc:gui/tea/steadiness.png",
+      "file": "tcc:gui/tea/stability.png",
       "ascent": 15,
       "height": 20,
       "chars": [
@@ -73,7 +73,7 @@
     },
     {
       "type": "bitmap",
-      "file": "tcc:gui/tea/vigor.png",
+      "file": "tcc:gui/tea/steadiness.png",
       "ascent": 15,
       "height": 20,
       "chars": [
@@ -82,11 +82,20 @@
     },
     {
       "type": "bitmap",
+      "file": "tcc:gui/tea/vigor.png",
+      "ascent": 15,
+      "height": 20,
+      "chars": [
+        "\uc00A"
+      ]
+    },
+    {
+      "type": "bitmap",
       "file": "tcc:gui/tea/vitality.png",
       "ascent": 15,
       "height": 20,
       "chars": [
-        "\uc010"
+        "\uc00B"
       ]
     },
     {
@@ -95,7 +104,7 @@
       "ascent": 15,
       "height": 20,
       "chars": [
-        "\uc011"
+        "\uc00C"
       ]
     }
   ]

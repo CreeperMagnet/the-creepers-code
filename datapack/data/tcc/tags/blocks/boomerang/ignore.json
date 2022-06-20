@@ -7,7 +7,7 @@
     "#minecraft:rails",
     "#minecraft:small_flowers",
     "#minecraft:tall_flowers",
-    "#minecraft:carpets",
+    "#minecraft:wool_carpets",
     "#minecraft:banners",
     "#minecraft:corals",
     "#minecraft:wall_corals",
@@ -73,6 +73,7 @@
     "minecraft:soul_fire",
     "minecraft:sea_pickle",
     "minecraft:big_dripleaf_stem",
-    "minecraft:chorus_plant"
+    "minecraft:chorus_plant",
+    "minecraft:cobweb"
   ]
 }

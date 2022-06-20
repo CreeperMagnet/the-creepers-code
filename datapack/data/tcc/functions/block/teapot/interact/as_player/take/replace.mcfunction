@@ -7,6 +7,7 @@ execute if data storage tcc:storage root.temp.tea{id:"water"} run item replace e
 
 execute if data storage tcc:storage root.temp.tea{id:"antitoxin",extended:0b} run loot replace entity @s weapon.mainhand loot tcc:items/tea/antitoxin
 execute if data storage tcc:storage root.temp.tea{id:"clearsight",extended:0b} run loot replace entity @s weapon.mainhand loot tcc:items/tea/clearsight
+execute if data storage tcc:storage root.temp.tea{id:"illumination",extended:0b} run loot replace entity @s weapon.mainhand loot tcc:items/tea/illumination
 execute if data storage tcc:storage root.temp.tea{id:"obscurity",extended:0b} run loot replace entity @s weapon.mainhand loot tcc:items/tea/obscurity
 execute if data storage tcc:storage root.temp.tea{id:"plenty",extended:0b} run loot replace entity @s weapon.mainhand loot tcc:items/tea/plenty
 execute if data storage tcc:storage root.temp.tea{id:"purity",extended:0b} run loot replace entity @s weapon.mainhand loot tcc:items/tea/purity
@@ -19,6 +20,7 @@ execute if data storage tcc:storage root.temp.tea{id:"vivacity",extended:0b} run
 
 execute if data storage tcc:storage root.temp.tea{id:"antitoxin",extended:1b} run loot replace entity @s weapon.mainhand loot tcc:items/tea/extended/antitoxin
 execute if data storage tcc:storage root.temp.tea{id:"clearsight",extended:1b} run loot replace entity @s weapon.mainhand loot tcc:items/tea/extended/clearsight
+execute if data storage tcc:storage root.temp.tea{id:"illumination",extended:1b} run loot replace entity @s weapon.mainhand loot tcc:items/tea/extended/illumination
 execute if data storage tcc:storage root.temp.tea{id:"obscurity",extended:1b} run loot replace entity @s weapon.mainhand loot tcc:items/tea/extended/obscurity
 execute if data storage tcc:storage root.temp.tea{id:"plenty",extended:1b} run loot replace entity @s weapon.mainhand loot tcc:items/tea/extended/plenty
 execute if data storage tcc:storage root.temp.tea{id:"purity",extended:1b} run loot replace entity @s weapon.mainhand loot tcc:items/tea/extended/purity

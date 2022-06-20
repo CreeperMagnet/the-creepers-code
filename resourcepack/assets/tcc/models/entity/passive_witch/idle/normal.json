@@ -18,25 +18,25 @@
 		},
 		{
 			"name": "robe_outside",
-			"from": [3.5, -0.5, 4.5],
+			"from": [3.5, -1.5, 4.5],
 			"to": [12.5, 18.5, 11.5],
 			"faces": {
-				"north": {"uv": [1.5, 5.5, 3.5, 7.75], "texture": "#0"},
-				"east": {"uv": [0, 5.5, 1.5, 7.75], "texture": "#0"},
-				"south": {"uv": [5, 5.5, 7, 7.75], "texture": "#0"},
-				"west": {"uv": [3.5, 5.5, 5, 7.75], "texture": "#0"},
+				"north": {"uv": [1.5, 5.5, 3.5, 8], "texture": "#0"},
+				"east": {"uv": [0, 5.5, 1.5, 8], "texture": "#0"},
+				"south": {"uv": [5, 5.5, 7, 8], "texture": "#0"},
+				"west": {"uv": [3.5, 5.5, 5, 8], "texture": "#0"},
 				"up": {"uv": [3.5, 5.5, 1.5, 4.75], "texture": "#0"}
 			}
 		},
 		{
 			"name": "robe_inside",
 			"from": [3.5, 18.5, 4.5],
-			"to": [12.5, -0.5, 11.5],
+			"to": [12.5, -1.5, 11.5],
 			"faces": {
-				"north": {"uv": [3.5, 5.5, 1.5, 7.75], "rotation": 180, "texture": "#0"},
-				"east": {"uv": [1.5, 5.5, 0, 7.75], "rotation": 180, "texture": "#0"},
-				"south": {"uv": [7, 5.5, 5, 7.75], "rotation": 180, "texture": "#0"},
-				"west": {"uv": [5, 5.5, 3.5, 7.75], "rotation": 180, "texture": "#0"},
+				"north": {"uv": [3.5, 5.5, 1.5, 8], "rotation": 180, "texture": "#0"},
+				"east": {"uv": [1.5, 5.5, 0, 8], "rotation": 180, "texture": "#0"},
+				"south": {"uv": [7, 5.5, 5, 8], "rotation": 180, "texture": "#0"},
+				"west": {"uv": [5, 5.5, 3.5, 8], "rotation": 180, "texture": "#0"},
 				"down": {"uv": [3.5, 4.75, 1.5, 5.5], "texture": "#0"}
 			}
 		},

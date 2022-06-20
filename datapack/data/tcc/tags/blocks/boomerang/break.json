@@ -31,6 +31,9 @@
     "minecraft:chorus_plant",
     "minecraft:chorus_flower",
     "minecraft:glow_lichen",
-    "minecraft:pointed_dripstone"
+    "minecraft:pointed_dripstone",
+    "minecraft:sculk_vein",
+    "minecraft:frogspawn",
+    "minecraft:cobweb"
   ]
 }

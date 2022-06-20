@@ -14,10 +14,13 @@ execute if entity @s[type=wandering_trader,tag=tcc.gobblerift,predicate=!tcc:blo
 ## Nether Reactor
 execute if entity @s[type=armor_stand,tag=tcc.nether_reactor_core] unless block ~ ~ ~ obsidian run function tcc:block/nether_reactor/break
 
+## Soul Conductor
+execute if entity @s[type=armor_stand,tag=tcc.soul_conductor] unless block ~ ~ ~ dropper run function tcc:block/soul_conductor/break
+
 ## Positional Anchor
 execute if entity @s[type=armor_stand,tag=tcc.positional_anchor] run function tcc:block/positional_anchor/tick
 
-## Nether Reactor
+## Soul Seer
 execute if entity @s[type=armor_stand,tag=tcc.soul_seer] run function tcc:block/soul_seer/tick
 
 ## Frostbloom

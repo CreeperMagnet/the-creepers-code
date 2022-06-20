@@ -1,9 +1,9 @@
 {
-    "values": [
-        "#minecraft:candle_cakes",
-        "minecraft:water",
-        "minecraft:bubble_column",
-        "minecraft:lava",
-        "minecraft:cake"
-    ]
+  "values": [
+    "#minecraft:candle_cakes",
+    "minecraft:water",
+    "minecraft:bubble_column",
+    "minecraft:lava",
+    "minecraft:cake"
+  ]
 }

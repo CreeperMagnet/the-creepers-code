@@ -8,11 +8,12 @@
     "minecraft:potatoes",
     "minecraft:carrots",
     "minecraft:beetroots",
-	"minecraft:bamboo",
-	"minecraft:sugar_cane",
+    "minecraft:bamboo",
+    "minecraft:sugar_cane",
     "minecraft:snow",
     "minecraft:cocoa",
     "minecraft:nether_wart",
-    "minecraft:sweet_berry_bush"
+    "minecraft:sweet_berry_bush",
+    "minecraft:mangrove_propagule"
   ]
 }

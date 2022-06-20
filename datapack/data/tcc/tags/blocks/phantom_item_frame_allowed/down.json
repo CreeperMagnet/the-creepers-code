@@ -1,6 +1,6 @@
 {
     "values": [
-        "#minecraft:carpets",
+        "#minecraft:wool_carpets",
         "#minecraft:campfires",
         "minecraft:moss_carpet",
         "minecraft:hopper",
@@ -31,6 +31,8 @@
         "minecraft:farmland",
         "minecraft:dirt_path",
         "minecraft:honey_block",
-        "minecraft:soul_sand"
+        "minecraft:soul_sand",
+        "minecraft:sculk_shrieker",
+        "minecraft:mud"
     ]
 }

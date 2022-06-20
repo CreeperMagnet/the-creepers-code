@@ -2,36 +2,10 @@
 # Sets the status of a painting
 ############################################################
 
-scoreboard players set @s tcc.dummy 0
 
-execute store success score @s tcc.dummy if entity @s[scores={tcc.dummy=0},nbt={Motive:"minecraft:wither",Facing:0b}] run summon minecraft:painting ~-1 ~ ~ {Motive:"minecraft:bust",Facing:0b}
-execute store success score @s tcc.dummy if entity @s[scores={tcc.dummy=0},nbt={Motive:"minecraft:wither",Facing:1b}] run summon minecraft:painting ~ ~ ~-1 {Motive:"minecraft:bust",Facing:1b}
-execute store success score @s tcc.dummy if entity @s[scores={tcc.dummy=0},nbt={Motive:"minecraft:wither",Facing:2b}] run summon minecraft:painting ~ ~ ~ {Motive:"minecraft:bust",Facing:2b}
-execute store success score @s tcc.dummy if entity @s[scores={tcc.dummy=0},nbt={Motive:"minecraft:wither",Facing:3b}] run summon minecraft:painting ~ ~ ~ {Motive:"minecraft:bust",Facing:3b}
-
-execute store success score @s tcc.dummy if entity @s[scores={tcc.dummy=0},nbt={Motive:"minecraft:void",Facing:0b}] run summon minecraft:painting ~-1 ~ ~ {Motive:"minecraft:wither",Facing:0b}
-execute store success score @s tcc.dummy if entity @s[scores={tcc.dummy=0},nbt={Motive:"minecraft:void",Facing:1b}] run summon minecraft:painting ~ ~ ~-1 {Motive:"minecraft:wither",Facing:1b}
-execute store success score @s tcc.dummy if entity @s[scores={tcc.dummy=0},nbt={Motive:"minecraft:void",Facing:2b}] run summon minecraft:painting ~ ~ ~ {Motive:"minecraft:wither",Facing:2b}
-execute store success score @s tcc.dummy if entity @s[scores={tcc.dummy=0},nbt={Motive:"minecraft:void",Facing:3b}] run summon minecraft:painting ~ ~ ~ {Motive:"minecraft:wither",Facing:3b}
-
-execute store success score @s tcc.dummy if entity @s[scores={tcc.dummy=0},nbt={Motive:"minecraft:stage",Facing:0b}] run summon minecraft:painting ~-1 ~ ~ {Motive:"minecraft:void",Facing:0b}
-execute store success score @s tcc.dummy if entity @s[scores={tcc.dummy=0},nbt={Motive:"minecraft:stage",Facing:1b}] run summon minecraft:painting ~ ~ ~-1 {Motive:"minecraft:void",Facing:1b}
-execute store success score @s tcc.dummy if entity @s[scores={tcc.dummy=0},nbt={Motive:"minecraft:stage",Facing:2b}] run summon minecraft:painting ~ ~ ~ {Motive:"minecraft:void",Facing:2b}
-execute store success score @s tcc.dummy if entity @s[scores={tcc.dummy=0},nbt={Motive:"minecraft:stage",Facing:3b}] run summon minecraft:painting ~ ~ ~ {Motive:"minecraft:void",Facing:3b}
-
-execute store success score @s tcc.dummy if entity @s[scores={tcc.dummy=0},nbt={Motive:"minecraft:skull_and_roses",Facing:0b}] run summon minecraft:painting ~-1 ~ ~ {Motive:"minecraft:stage",Facing:0b}
-execute store success score @s tcc.dummy if entity @s[scores={tcc.dummy=0},nbt={Motive:"minecraft:skull_and_roses",Facing:1b}] run summon minecraft:painting ~ ~ ~-1 {Motive:"minecraft:stage",Facing:1b}
-execute store success score @s tcc.dummy if entity @s[scores={tcc.dummy=0},nbt={Motive:"minecraft:skull_and_roses",Facing:2b}] run summon minecraft:painting ~ ~ ~ {Motive:"minecraft:stage",Facing:2b}
-execute store success score @s tcc.dummy if entity @s[scores={tcc.dummy=0},nbt={Motive:"minecraft:skull_and_roses",Facing:3b}] run summon minecraft:painting ~ ~ ~ {Motive:"minecraft:stage",Facing:3b}
-
-execute store success score @s tcc.dummy if entity @s[scores={tcc.dummy=0},nbt={Motive:"minecraft:match",Facing:0b}] run summon minecraft:painting ~-1 ~ ~ {Motive:"minecraft:skull_and_roses",Facing:0b}
-execute store success score @s tcc.dummy if entity @s[scores={tcc.dummy=0},nbt={Motive:"minecraft:match",Facing:1b}] run summon minecraft:painting ~ ~ ~-1 {Motive:"minecraft:skull_and_roses",Facing:1b}
-execute store success score @s tcc.dummy if entity @s[scores={tcc.dummy=0},nbt={Motive:"minecraft:match",Facing:2b}] run summon minecraft:painting ~ ~ ~ {Motive:"minecraft:skull_and_roses",Facing:2b}
-execute store success score @s tcc.dummy if entity @s[scores={tcc.dummy=0},nbt={Motive:"minecraft:match",Facing:3b}] run summon minecraft:painting ~ ~ ~ {Motive:"minecraft:skull_and_roses",Facing:3b}
-
-execute store success score @s tcc.dummy if entity @s[scores={tcc.dummy=0},nbt={Motive:"minecraft:bust",Facing:0b}] run summon minecraft:painting ~-1 ~ ~ {Motive:"minecraft:match",Facing:0b}
-execute store success score @s tcc.dummy if entity @s[scores={tcc.dummy=0},nbt={Motive:"minecraft:bust",Facing:1b}] run summon minecraft:painting ~ ~ ~-1 {Motive:"minecraft:match",Facing:1b}
-execute store success score @s tcc.dummy if entity @s[scores={tcc.dummy=0},nbt={Motive:"minecraft:bust",Facing:2b}] run summon minecraft:painting ~ ~ ~ {Motive:"minecraft:match",Facing:2b}
-execute store success score @s tcc.dummy if entity @s[scores={tcc.dummy=0},nbt={Motive:"minecraft:bust",Facing:3b}] run summon minecraft:painting ~ ~ ~ {Motive:"minecraft:match",Facing:3b}
-
-kill @s
+execute store success score @s[scores={tcc.dummy=0}] tcc.dummy run data modify entity @s[nbt={variant:"minecraft:wither"}] variant set value "minecraft:void"
+execute store success score @s[scores={tcc.dummy=0}] tcc.dummy run data modify entity @s[nbt={variant:"minecraft:void"}] variant set value "minecraft:stage"
+execute store success score @s[scores={tcc.dummy=0}] tcc.dummy run data modify entity @s[nbt={variant:"minecraft:stage"}] variant set value "minecraft:skull_and_roses"
+execute store success score @s[scores={tcc.dummy=0}] tcc.dummy run data modify entity @s[nbt={variant:"minecraft:skull_and_roses"}] variant set value "minecraft:match"
+execute store success score @s[scores={tcc.dummy=0}] tcc.dummy run data modify entity @s[nbt={variant:"minecraft:match"}] variant set value "minecraft:bust"
+execute store success score @s[scores={tcc.dummy=0}] tcc.dummy run data modify entity @s[nbt={variant:"minecraft:bust"}] variant set value "minecraft:wither"

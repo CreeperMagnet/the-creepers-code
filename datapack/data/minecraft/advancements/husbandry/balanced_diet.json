@@ -347,14 +347,6 @@
         }
       }
     },
-    "ancient_acorn": {
-      "trigger": "minecraft:consume_item",
-      "conditions": {
-        "item": {
-          "nbt": "{tcc:{id:\"ancient_acorn\"}}"
-        }
-      }
-    },
     "sweet_berry_muffin": {
       "trigger": "minecraft:consume_item",
       "conditions": {
@@ -543,9 +535,6 @@
     ],
     [
       "rotten_porkchop"
-    ],
-    [
-      "ancient_acorn"
     ],
     [
       "sweet_berry_muffin"

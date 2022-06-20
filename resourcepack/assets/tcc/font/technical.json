@@ -1,13 +1,10 @@
 {
   "providers": [
     {
-      "type": "bitmap",
-      "file": "tcc:gui/big_space.png",
-      "ascent": 256,
-      "height": 256,
-      "chars": [
-        "\uF001"
-      ]
+      "type": "space",
+      "advances": {
+        " ": 10000
+      }
     }
   ]
 }
