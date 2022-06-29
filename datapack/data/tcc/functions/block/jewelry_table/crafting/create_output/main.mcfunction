@@ -10,6 +10,7 @@ execute if data storage tcc:storage root.temp.barrel_data[1][{Slot:6b,id:"minecr
 execute if data storage tcc:storage root.temp.barrel_data[1][{Slot:6b,id:"minecraft:lapis_lazuli"}] run function tcc:block/jewelry_table/crafting/create_output/gemstones/lapis_lazuli
 execute if data storage tcc:storage root.temp.barrel_data[1][{Slot:6b,id:"minecraft:prismarine_crystals"}] run function tcc:block/jewelry_table/crafting/create_output/gemstones/prismarine_crystal
 execute if data storage tcc:storage root.temp.barrel_data[1][{Slot:6b,id:"minecraft:quartz"}] run function tcc:block/jewelry_table/crafting/create_output/gemstones/quartz
+execute if data storage tcc:storage root.temp.barrel_data[1][{Slot:6b,id:"minecraft:echo_shard"}] run function tcc:block/jewelry_table/crafting/create_output/gemstones/echo_shard
 function #tcc:dynamic_rings/add_gemstone
 execute store result storage tcc:storage root.temp.item.tag.CustomModelData int 1 run scoreboard players get @s tcc.dummy
 
@@ -20,6 +21,7 @@ execute if data storage tcc:storage root.temp.item.tag.tcc.ring{metal:"minecraft
 execute if data storage tcc:storage root.temp.item.tag.tcc.ring{metal:"minecraft:gold",gemstone:"minecraft:lapis_lazuli"} run data modify storage tcc:storage root.temp.item.tag.display.Name set value '{"translate":"item.tcc.ring.minecraft.gold.minecraft.lapis_lazuli","italic":false}'
 execute if data storage tcc:storage root.temp.item.tag.tcc.ring{metal:"minecraft:gold",gemstone:"minecraft:prismarine_crystal"} run data modify storage tcc:storage root.temp.item.tag.display.Name set value '{"translate":"item.tcc.ring.minecraft.gold.minecraft.prismarine_crystal","italic":false}'
 execute if data storage tcc:storage root.temp.item.tag.tcc.ring{metal:"minecraft:gold",gemstone:"minecraft:quartz"} run data modify storage tcc:storage root.temp.item.tag.display.Name set value '{"translate":"item.tcc.ring.minecraft.gold.minecraft.quartz","italic":false}'
+execute if data storage tcc:storage root.temp.item.tag.tcc.ring{metal:"minecraft:gold",gemstone:"minecraft:echo_shard"} run data modify storage tcc:storage root.temp.item.tag.display.Name set value '{"translate":"item.tcc.ring.minecraft.gold.minecraft.echo_shard","italic":false}'
 execute if data storage tcc:storage root.temp.item.tag.tcc.ring{metal:"minecraft:gold",gemstone:"dnd:amber"} run data modify storage tcc:storage root.temp.item.tag.display.Name set value '{"translate":"item.tcc.ring.minecraft.gold.dnd.amber","italic":false}'
 
 execute if data storage tcc:storage root.temp.item.tag.tcc.ring{metal:"minecraft:iron",gemstone:"minecraft:amethyst"} run data modify storage tcc:storage root.temp.item.tag.display.Name set value '{"translate":"item.tcc.ring.minecraft.iron.minecraft.amethyst","italic":false}'
@@ -29,6 +31,7 @@ execute if data storage tcc:storage root.temp.item.tag.tcc.ring{metal:"minecraft
 execute if data storage tcc:storage root.temp.item.tag.tcc.ring{metal:"minecraft:iron",gemstone:"minecraft:lapis_lazuli"} run data modify storage tcc:storage root.temp.item.tag.display.Name set value '{"translate":"item.tcc.ring.minecraft.iron.minecraft.lapis_lazuli","italic":false}'
 execute if data storage tcc:storage root.temp.item.tag.tcc.ring{metal:"minecraft:iron",gemstone:"minecraft:prismarine_crystal"} run data modify storage tcc:storage root.temp.item.tag.display.Name set value '{"translate":"item.tcc.ring.minecraft.iron.minecraft.prismarine_crystal","italic":false}'
 execute if data storage tcc:storage root.temp.item.tag.tcc.ring{metal:"minecraft:iron",gemstone:"minecraft:quartz"} run data modify storage tcc:storage root.temp.item.tag.display.Name set value '{"translate":"item.tcc.ring.minecraft.iron.minecraft.quartz","italic":false}'
+execute if data storage tcc:storage root.temp.item.tag.tcc.ring{metal:"minecraft:iron",gemstone:"minecraft:echo_shard"} run data modify storage tcc:storage root.temp.item.tag.display.Name set value '{"translate":"item.tcc.ring.minecraft.iron.minecraft.echo_shard","italic":false}'
 execute if data storage tcc:storage root.temp.item.tag.tcc.ring{metal:"minecraft:iron",gemstone:"dnd:amber"} run data modify storage tcc:storage root.temp.item.tag.display.Name set value '{"translate":"item.tcc.ring.minecraft.iron.dnd.amber","italic":false}'
 
 execute if data storage tcc:storage root.temp.item.tag.tcc.ring{metal:"minecraft:netherite",gemstone:"minecraft:amethyst"} run data modify storage tcc:storage root.temp.item.tag.display.Name set value '{"translate":"item.tcc.ring.minecraft.netherite.minecraft.amethyst","italic":false}'
@@ -38,6 +41,7 @@ execute if data storage tcc:storage root.temp.item.tag.tcc.ring{metal:"minecraft
 execute if data storage tcc:storage root.temp.item.tag.tcc.ring{metal:"minecraft:netherite",gemstone:"minecraft:lapis_lazuli"} run data modify storage tcc:storage root.temp.item.tag.display.Name set value '{"translate":"item.tcc.ring.minecraft.netherite.minecraft.lapis_lazuli","italic":false}'
 execute if data storage tcc:storage root.temp.item.tag.tcc.ring{metal:"minecraft:netherite",gemstone:"minecraft:prismarine_crystal"} run data modify storage tcc:storage root.temp.item.tag.display.Name set value '{"translate":"item.tcc.ring.minecraft.netherite.minecraft.prismarine_crystal","italic":false}'
 execute if data storage tcc:storage root.temp.item.tag.tcc.ring{metal:"minecraft:netherite",gemstone:"minecraft:quartz"} run data modify storage tcc:storage root.temp.item.tag.display.Name set value '{"translate":"item.tcc.ring.minecraft.netherite.minecraft.quartz","italic":false}'
+execute if data storage tcc:storage root.temp.item.tag.tcc.ring{metal:"minecraft:netherite",gemstone:"minecraft:echo_shard"} run data modify storage tcc:storage root.temp.item.tag.display.Name set value '{"translate":"item.tcc.ring.minecraft.netherite.minecraft.echo_shard","italic":false}'
 execute if data storage tcc:storage root.temp.item.tag.tcc.ring{metal:"minecraft:netherite",gemstone:"dnd:amber"} run data modify storage tcc:storage root.temp.item.tag.display.Name set value '{"translate":"item.tcc.ring.minecraft.netherite.dnd.amber","italic":false}'
 
 data modify block ~ ~ ~ Items[{Slot:4b}] set from storage tcc:storage root.temp.item

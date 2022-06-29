@@ -1572,6 +1572,24 @@
     },
     {
       "predicate": {
+        "custom_model_data": 339700
+      },
+      "model": "tcc:item/ring/minecraft/gold/minecraft/echo_shard"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 339701
+      },
+      "model": "tcc:item/ring/minecraft/iron/minecraft/echo_shard"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 339702
+      },
+      "model": "tcc:item/ring/minecraft/netherite/minecraft/echo_shard"
+    },
+    {
+      "predicate": {
         "custom_model_data": 409000
       },
       "model": "tcc:item/ring/minecraft/gold/dnd/amber"

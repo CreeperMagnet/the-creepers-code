@@ -411,5 +411,15 @@
       "tcc:block/soul_conductor_fail"
     ],
     "subtitle": "subtitles.tcc.block.soul_conductor.transport_player_fail"
+  },
+  "item.echo_shard_ring.use": {
+    "sounds": [
+      "block/sculk/spread1",
+      "block/sculk/spread2",
+      "block/sculk/spread3",
+      "block/sculk/spread4",
+      "block/sculk/spread5"
+    ],
+    "subtitle": "subtitles.tcc.item.echo_shard_ring.use"
   }
 }
