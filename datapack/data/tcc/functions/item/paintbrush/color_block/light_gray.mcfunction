@@ -3,6 +3,7 @@
 ############################################################
 execute if block ~ ~ ~ #tcc:paintbrush/light_gray run tag @s add tcc.tag
 
+execute if entity @s[tag=!tcc.tag] if block ~ ~ ~ #tcc:candle_cakes run setblock ~ ~ ~ light_gray_candle_cake
 execute if entity @s[tag=!tcc.tag] if block ~ ~ ~ #tcc:concrete run setblock ~ ~ ~ light_gray_concrete
 execute if entity @s[tag=!tcc.tag] if block ~ ~ ~ #minecraft:wool run setblock ~ ~ ~ light_gray_wool
 execute if entity @s[tag=!tcc.tag] if block ~ ~ ~ #minecraft:wool_carpets run setblock ~ ~ ~ light_gray_carpet
@@ -20,10 +21,14 @@ execute if entity @s[tag=!tcc.tag] if block ~ ~ ~ #minecraft:shulker_boxes run d
 execute if entity @s[tag=!tcc.tag] if block ~ ~ ~ #tcc:glazed_terracotta run setblock ~ ~ ~ light_gray_glazed_terracotta
 execute if entity @s[tag=!tcc.tag] if block ~ ~ ~ #tcc:concrete_powder run setblock ~ ~ ~ light_gray_concrete_powder
 execute if entity @s[tag=!tcc.tag] if block ~ ~ ~ #tcc:terracotta run setblock ~ ~ ~ light_gray_terracotta
-execute if entity @s[tag=!tcc.tag] if block ~ ~ ~ #minecraft:candles[candles=1] run setblock ~ ~ ~ minecraft:light_gray_candle[candles=1]
-execute if entity @s[tag=!tcc.tag] if block ~ ~ ~ #minecraft:candles[candles=2] run setblock ~ ~ ~ minecraft:light_gray_candle[candles=2]
-execute if entity @s[tag=!tcc.tag] if block ~ ~ ~ #minecraft:candles[candles=3] run setblock ~ ~ ~ minecraft:light_gray_candle[candles=3]
-execute if entity @s[tag=!tcc.tag] if block ~ ~ ~ #minecraft:candles[candles=4] run setblock ~ ~ ~ minecraft:light_gray_candle[candles=4]
+execute if entity @s[tag=!tcc.tag] if block ~ ~ ~ #minecraft:candles[candles=1,lit=true] run setblock ~ ~ ~ minecraft:light_gray_candle[candles=1,lit=true]
+execute if entity @s[tag=!tcc.tag] if block ~ ~ ~ #minecraft:candles[candles=1,lit=false] run setblock ~ ~ ~ minecraft:light_gray_candle[candles=1,lit=false]
+execute if entity @s[tag=!tcc.tag] if block ~ ~ ~ #minecraft:candles[candles=2,lit=true] run setblock ~ ~ ~ minecraft:light_gray_candle[candles=2,lit=true]
+execute if entity @s[tag=!tcc.tag] if block ~ ~ ~ #minecraft:candles[candles=2,lit=false] run setblock ~ ~ ~ minecraft:light_gray_candle[candles=2,lit=false]
+execute if entity @s[tag=!tcc.tag] if block ~ ~ ~ #minecraft:candles[candles=3,lit=true] run setblock ~ ~ ~ minecraft:light_gray_candle[candles=3,lit=true]
+execute if entity @s[tag=!tcc.tag] if block ~ ~ ~ #minecraft:candles[candles=3,lit=false] run setblock ~ ~ ~ minecraft:light_gray_candle[candles=3,lit=false]
+execute if entity @s[tag=!tcc.tag] if block ~ ~ ~ #minecraft:candles[candles=4,lit=true] run setblock ~ ~ ~ minecraft:light_gray_candle[candles=4,lit=true]
+execute if entity @s[tag=!tcc.tag] if block ~ ~ ~ #minecraft:candles[candles=4,lit=false] run setblock ~ ~ ~ minecraft:light_gray_candle[candles=4,lit=false]
 execute if entity @s[tag=!tcc.tag] run function tcc:item/paintbrush/color_brush
 
 tag @s remove tcc.tag

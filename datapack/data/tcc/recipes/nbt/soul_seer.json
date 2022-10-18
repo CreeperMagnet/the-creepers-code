@@ -2,21 +2,18 @@
   "type": "crafting_shaped",
   "pattern": [
     "DSD",
-    "GEG",
+    "SES",
     "DDD"
   ],
   "key": {
     "S": {
-      "item": "minecraft:echo_shard"
+      "item": "minecraft:sculk"
     },
     "D": {
       "item": "minecraft:cobbled_deepslate"
     },
     "E": {
       "item": "minecraft:ender_eye"
-    },
-    "G": {
-      "item": "minecraft:glowstone_dust"
     }
   },
   "result": {

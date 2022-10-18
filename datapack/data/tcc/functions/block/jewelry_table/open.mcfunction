@@ -4,6 +4,6 @@
 
 data remove storage tcc:storage root.temp
 data modify storage tcc:storage root.temp.block set from block ~ ~ ~
-setblock ~ ~ ~ air
+setblock ~ ~ ~ spruce_planks
 setblock ~ ~ ~ barrel
 data modify block ~ ~ ~ {} merge from storage tcc:storage root.temp.block

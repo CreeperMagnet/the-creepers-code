@@ -1,0 +1,20 @@
+{
+  "pools": [
+    {
+      "rolls": {
+        "type": "minecraft:score",
+        "target": {
+          "type": "minecraft:fixed",
+          "name": "#count"
+        },
+        "score": "tcc.dummy"
+      },
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "tcc:items/frostbloom"
+        }
+      ]
+    }
+  ]
+}

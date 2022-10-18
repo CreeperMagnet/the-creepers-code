@@ -1,24 +1,44 @@
 {
-  "pools": [{
+  "pools": [
+    {
       "rolls": 1,
-      "entries": [{
-        "type": "minecraft:item",
-        "name": "minecraft:ender_pearl",
-        "conditions": [{
-          "condition": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "nbt": "{Tags:[\"tcc.positional_anchor.filled\"]}"
-          }
-        }]
-      }]
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:ender_pearl",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Tags:[\"tcc.positional_anchor.filled\"]}"
+              }
+            }
+          ]
+        }
+      ]
     },
     {
       "rolls": 1,
-      "entries": [{
-        "type": "minecraft:loot_table",
-        "name": "tcc:items/positional_anchor"
-      }]
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "tcc:items/positional_anchor",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:score",
+                "target": {
+                  "type": "minecraft:fixed",
+                  "name": "#count"
+                },
+                "score": "tcc.dummy"
+              }
+            }
+          ]
+        }
+      ]
     }
   ]
 }

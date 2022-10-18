@@ -11,7 +11,7 @@
               "function": "minecraft:exploration_map",
               "decoration": "target_point",
               "zoom": 1,
-              "skip_existing_chunks": true
+              "skip_existing_chunks": false
             },
             {
               "function": "minecraft:set_nbt",

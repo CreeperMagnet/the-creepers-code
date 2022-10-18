@@ -11,7 +11,7 @@
               "function": "minecraft:set_count",
               "count": {
                 "min": 1,
-                "max": 5,
+                "max": 3,
                 "type": "minecraft:uniform"
               }
             },
@@ -96,8 +96,8 @@
         },
         {
           "condition": "minecraft:random_chance_with_looting",
-          "chance": 0.025,
-          "looting_multiplier": 0.01
+          "chance": 0.1,
+          "looting_multiplier": 0.025
         }
       ]
     },

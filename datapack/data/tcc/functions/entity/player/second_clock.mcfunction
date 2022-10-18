@@ -18,5 +18,8 @@ execute if entity @s[tag=tcc.frost_walker_speed] unless entity @s[predicate=tcc:
 # Tea tickdown
 execute if entity @s[scores={tcc.tea=1..}] run function tcc:item/tea/tickdown
 
+# Compendium maintaining after death
+execute if entity @s[tag=tcc.post_death_compendium,nbt=!{Health:0f}] run function tcc:item/compendium
+
 # Boomerang Throwing Cooldown
 scoreboard players remove @s[scores={tcc.boomerang_cooldown=1..}] tcc.boomerang_cooldown 1

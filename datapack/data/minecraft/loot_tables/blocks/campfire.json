@@ -1,58 +1,91 @@
 {
   "type": "minecraft:block",
-  "pools": [{
-    "rolls": 1,
-    "entries": [{
-      "type": "minecraft:alternatives",
-      "children": [{
-          "type": "minecraft:item",
-          "name": "minecraft:campfire",
-          "conditions": [{
-            "condition": "minecraft:match_tool",
-            "predicate": {
-              "enchantments": [{
-                "enchantment": "minecraft:silk_touch"
-              }]
-            }
-          }]
-        },
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:campfire",
-          "functions": [{
-            "function": "minecraft:set_nbt",
-            "tag": "{CustomModelData:330000,BlockStateTag:{lit:\"false\"}}"
-          }],
-          "conditions": [{
-            "condition": "minecraft:match_tool",
-            "predicate": {
-              "tag": "tcc:axes"
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:campfire",
+              "conditions": [
+                {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {
+                    "enchantments": [
+                      {
+                        "enchantment": "minecraft:silk_touch"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "condition": "block_state_property",
+                  "block": "campfire",
+                  "properties": {
+                    "lit": "true"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:campfire",
+              "functions": [
+                {
+                  "function": "minecraft:set_nbt",
+                  "tag": "{CustomModelData:330000,BlockStateTag:{lit:\"false\"}}"
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {
+                    "tag": "tcc:axes"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:charcoal",
+              "functions": [
+                {
+                  "function": "minecraft:set_count",
+                  "count": 2
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:survives_explosion"
+                }
+              ]
             }
-          }]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:charcoal",
-          "functions": [{
-            "function": "minecraft:set_count",
-            "count": 2
-          }],
-          "conditions": [{
-            "condition": "minecraft:survives_explosion"
-          }]
+          ]
         }
       ]
-    }]
-  }],
+    }
+  ],
   "__smithed__": {
-    "rules":[
+    "rules": [
       {
-        "type":"smithed:insert",
+        "type": "smithed:insert",
         "index": 1,
-        "target":"pools[0].entries[0].children",
-        "source":{
-          "type":"smithed:reference",
-          "path":"pools[0].entries[0].children[1]"
+        "target": "pools[0].entries[0].children",
+        "source": {
+          "type": "smithed:reference",
+          "path": "pools[0].entries[0].children[1]"
+        }
+      },
+      {
+        "type": "smithed:insert",
+        "index": 1,
+        "target": "pools[0].entries[0].children[0].conditions",
+        "source": {
+          "type": "smithed:reference",
+          "path": "pools[0].entries[0].children[0].conditions[1]"
         }
       }
     ]

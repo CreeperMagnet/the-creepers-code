@@ -3,4 +3,4 @@
 ############################################################
 
 execute if block ~ ~ ~ spruce_sapling run function tcc:block/frostbloom/grow
-execute unless block ~ ~ ~ spruce_sapling run function tcc:block/frostbloom/break
+execute unless block ~ ~ ~ spruce_sapling run function tcc:block/frostbloom/break/main

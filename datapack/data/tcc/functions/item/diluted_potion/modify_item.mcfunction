@@ -2,8 +2,6 @@
 # Modifies the item in storage
 ############################################################
 
-playsound entity.generic.drink player @a[distance=..16] ~ ~ ~ 1 1.3
-
 scoreboard players reset @s tcc.dummy
 execute store result score @s tcc.dummy run data get storage tcc:storage root.temp.item.tag.tcc.potion.uses[0]
 

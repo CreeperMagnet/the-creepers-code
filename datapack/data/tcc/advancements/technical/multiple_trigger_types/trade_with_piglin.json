@@ -27,7 +27,9 @@
       "trigger": "minecraft:thrown_item_picked_up_by_entity",
       "conditions": {
         "item": {
-          "tag": "minecraft:piglin_loved"
+          "items": [
+            "minecraft:gold_ingot"
+          ]
         },
         "entity": [
           {

@@ -15,6 +15,7 @@ execute as @a[nbt={Inventory:[{tag:{tcc:{id:"compendium"}}}]},gamemode=!spectato
 gamerule doLimitedCrafting false
 gamerule logAdminCommands false
 gamerule commandBlockOutput false
+gamerule maxCommandChainLength 2147483647
 
 ## Scoreboards
 scoreboard objectives add tcc.carrotstick minecraft.used:minecraft.carrot_on_a_stick

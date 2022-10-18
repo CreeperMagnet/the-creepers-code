@@ -2,9 +2,9 @@
 # Initiates things for the player
 ############################################################
 
-tellraw @s {"translate":"The Creeper's Code Resource Pack is not installed. Please go to https://thecreeperscode.com/download.","with":[{"translate":"commands.tcc.initiate","hoverEvent":{"action":"show_text","contents":{"translate":"commands.tcc.initiate.hover_event"}},"clickEvent":{"action":"open_url","value":"https://thecreeperscode.com/help"},"with":[{"translate":"pack.tcc","color":"#008725","underlined":true,"hoverEvent":{"action":"show_text","contents":{"translate":"pack.tcc.hover_event"}},"clickEvent":{"action":"open_url","value":"https://thecreeperscode.com"}},{"translate":"pack.tcc.version","color":"green","underlined":true,"hoverEvent":{"action":"show_text","contents":{"translate":"pack.tcc.version.hover_event"}},"clickEvent":{"action":"open_url","value":"https://thecreeperscode.com/development/1-1-beta-2-changelog"}}]}]}
+tellraw @s {"translate":"The Creeper's Code Resource Pack is not installed. Please go to https://thecreeperscode.com/download.","with":[{"translate":"commands.tcc.initiate","with":[{"translate":"pack.tcc","color":"#008725","underlined":true,"hoverEvent":{"action":"show_text","contents":{"translate":"pack.tcc.hover_event"}},"clickEvent":{"action":"open_url","value":"https://thecreeperscode.com"}},{"translate":"pack.tcc.version","color":"green","underlined":true,"hoverEvent":{"action":"show_text","contents":{"translate":"pack.tcc.version.hover_event"}},"clickEvent":{"action":"open_url","value":"https://thecreeperscode.com/development/1-1-beta-3-changelog"}}]}]}
 
-scoreboard players set @s tcc.dummy 3105
+scoreboard players set @s tcc.dummy 3120
 execute store result score @s tcc.dummy2 run data get entity @s DataVersion
 scoreboard players operation @s tcc.dummy2 -= @s tcc.dummy
 execute unless entity @s[scores={tcc.dummy2=0}] run tellraw @s {"translate":"commands.tcc.wrong_version: You are using TCC on the incorrect Minecraft version. Please check the download.","color":"red","bold":true}

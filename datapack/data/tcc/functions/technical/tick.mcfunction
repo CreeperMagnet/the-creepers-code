@@ -9,4 +9,4 @@ execute as @e[type=#tcc:technical/tick,tag=tcc.tick] at @s run function tcc:enti
 execute as @a at @s run function tcc:entity/player/tick/main
 
 ## Netherite Rings
-execute as @e[type=item,nbt={Item:{tag:{tcc:{ring:{metal:"minecraft:netherite"}}}}},tag=!smithed.entity] run data merge entity @s {Invulnerable:1b}
+execute as @e[type=item,tag=!tcc.modified_vanilla_entity] run function tcc:item/ring/netherite_processing

@@ -1,8 +1,28 @@
 {
   "providers": [
     {
+      "type": "bitmap",
+      "file": "tcc:gui/compendium/background/content.png",
+      "ascent": 36,
+      "height": 180,
+      "chars": [
+        "1"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "tcc:gui/compendium/background/edge.png",
+      "ascent": 36,
+      "height": 180,
+      "chars": [
+        "3"
+      ]
+    },
+    {
       "type": "space",
       "advances": {
+        "2": -147,
+        "4": -1,
         " ": 4
       }
     },

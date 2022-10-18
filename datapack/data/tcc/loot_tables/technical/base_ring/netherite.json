@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{tcc:{id:\"ring\",ring:{metal:\"minecraft:netherite\"},durability:[175,175],repaired:1b},CustomModelData:2,Unbreakable:1b,HideFlags:4}"
+              "tag": "{tcc:{id:\"ring\",ring:{metal:\"minecraft:netherite\"},durability:[550,550],repaired:1b},CustomModelData:2,Unbreakable:1b,HideFlags:4}"
             },
             {
               "function": "minecraft:set_name",
@@ -26,8 +26,8 @@
                   "color": "gray",
                   "italic": false,
                   "with": [
-                    175,
-                    175
+                    550,
+                    550
                   ]
                 },
                 {

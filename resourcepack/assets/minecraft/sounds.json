@@ -1,0 +1,7 @@
+{
+    "block.chest.locked": {
+        "replace": true,
+        "sounds": [],
+        "subititles": ""
+    }
+}

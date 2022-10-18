@@ -15,6 +15,15 @@
       "entity": "this",
       "predicate": {
         "vehicle": {
+          "type": "minecraft:chest_boat"
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "vehicle": {
           "type": "minecraft:minecart"
         }
       }

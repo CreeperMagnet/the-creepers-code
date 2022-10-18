@@ -5,7 +5,20 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "tcc:items/soul_seer"
+          "name": "tcc:items/soul_seer",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:score",
+                "target": {
+                  "type": "minecraft:fixed",
+                  "name": "#count"
+                },
+                "score": "tcc.dummy"
+              }
+            }
+          ]
         }
       ]
     }

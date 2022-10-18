@@ -14,5 +14,8 @@ execute if entity @s[tag=tcc.block] run function tcc:block/ten_second_clock
 ## Brewing stand marker
 execute if entity @s[type=minecraft:marker,tag=tcc.brewing_stand] unless block ~ ~ ~ minecraft:brewing_stand run kill @s
 
+## Mansion water cleanup
+execute if entity @s[type=minecraft:armor_stand,tag=tcc.mansion_cleanup] run function tcc:postgen/mansion_cleanup/main
+
 ## Zombified Jewelers
 execute if entity @s[type=minecraft:zombie_villager,tag=tcc.zombified_jeweler] run function tcc:entity/jeweler/zombie/ten_second_clock

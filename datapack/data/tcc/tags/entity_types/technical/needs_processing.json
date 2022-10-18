@@ -2,6 +2,7 @@
   "values": [
     "minecraft:drowned",
     "minecraft:wandering_trader",
+    "minecraft:trader_llama",
     "minecraft:zombie",
     "minecraft:zombie_villager",
     "#tcc:technical/converted",

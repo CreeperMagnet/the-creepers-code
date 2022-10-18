@@ -1,0 +1,15 @@
+{
+  "values": [
+    "#tcc:glass",
+    "#tcc:glass_panes",
+    "#tcc:ground_heads",
+    "#tcc:wall_heads",
+    "minecraft:redstone_lamp",
+    "minecraft:lever",
+    "minecraft:frosted_ice",
+    "minecraft:beacon",
+    "minecraft:tinted_glass",
+    "minecraft:sea_lantern",
+    "minecraft:glowstone"
+  ]
+}

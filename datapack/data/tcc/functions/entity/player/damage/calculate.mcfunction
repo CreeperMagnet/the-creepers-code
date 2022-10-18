@@ -19,5 +19,4 @@ tag @s remove tcc.damage.iceologer_ice
 tag @s remove tcc.damage.iceologer_freeze
 tag @s remove tcc.damage.swordfish
 tag @s remove tcc.damage.geomancer_explosive
-tag @s remove tcc.damage.channeling_lightning
 tag @s remove tcc.damage.diluted_harming_potion

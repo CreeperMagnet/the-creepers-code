@@ -14,7 +14,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:deepslate",
+          "name": "minecraft:cobbled_deepslate",
           "functions": [
             {
               "function": "set_count",

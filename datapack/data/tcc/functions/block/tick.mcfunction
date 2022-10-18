@@ -15,7 +15,7 @@ execute if entity @s[type=wandering_trader,tag=tcc.gobblerift,predicate=!tcc:blo
 execute if entity @s[type=armor_stand,tag=tcc.nether_reactor_core] unless block ~ ~ ~ obsidian run function tcc:block/nether_reactor/break
 
 ## Soul Conductor
-execute if entity @s[type=armor_stand,tag=tcc.soul_conductor] unless block ~ ~ ~ dropper run function tcc:block/soul_conductor/break
+execute if entity @s[type=armor_stand,tag=tcc.soul_conductor] unless block ~ ~ ~ dropper run function tcc:block/soul_conductor/break/main
 
 ## Positional Anchor
 execute if entity @s[type=armor_stand,tag=tcc.positional_anchor] run function tcc:block/positional_anchor/tick
@@ -24,7 +24,7 @@ execute if entity @s[type=armor_stand,tag=tcc.positional_anchor] run function tc
 execute if entity @s[type=armor_stand,tag=tcc.soul_seer] run function tcc:block/soul_seer/tick
 
 ## Frostbloom
-execute if entity @s[type=item_frame,tag=tcc.frostbloom] unless block ~ ~ ~ spruce_sapling[stage=0] run function tcc:block/frostbloom/block_change
+execute if entity @s[type=item_frame,tag=tcc.frostbloom] run function tcc:block/frostbloom/tick 
 
 ## Phantom Item Frame
 execute if entity @s[type=item_frame,tag=tcc.phantom_item_frame] run function tcc:block/phantom_item_frame/tick

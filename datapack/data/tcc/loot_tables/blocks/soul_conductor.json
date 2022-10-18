@@ -5,7 +5,20 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "tcc:items/soul_conductor"
+          "name": "tcc:items/soul_conductor",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:score",
+                "target": {
+                  "type": "minecraft:fixed",
+                  "name": "#count"
+                },
+                "score": "tcc.dummy"
+              }
+            }
+          ]
         }
       ]
     }
