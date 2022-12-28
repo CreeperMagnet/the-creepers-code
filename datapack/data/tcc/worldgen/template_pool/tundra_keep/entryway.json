@@ -1,5 +1,4 @@
 {
-  "name": "tcc:tundra_keep/entryway",
   "fallback": "minecraft:empty",
   "elements": [
     {

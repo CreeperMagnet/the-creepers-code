@@ -73,6 +73,5 @@
       "weight": 1
     }
   ],
-  "fallback": "minecraft:empty",
-  "name": "tcc:woodland_mansion/2x2_rooms"
+  "fallback": "minecraft:empty"
 }

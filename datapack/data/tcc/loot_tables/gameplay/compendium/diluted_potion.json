@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:carrot_on_a_stick",
+          "name": "minecraft:warped_fungus_on_a_stick",
           "functions": [
             {
               "function": "set_nbt",

@@ -307,6 +307,5 @@
       "weight": 1
     }
   ],
-  "fallback": "minecraft:empty",
-  "name": "tcc:ocean_monument/long_rooms"
+  "fallback": "minecraft:empty"
 }

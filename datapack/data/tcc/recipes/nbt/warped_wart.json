@@ -1,4 +1,6 @@
 {
+  "group": "nbt_recipe",
+  "category": "misc",
   "type": "crafting_shapeless",
   "ingredients": [{
       "item": "minecraft:nether_wart"

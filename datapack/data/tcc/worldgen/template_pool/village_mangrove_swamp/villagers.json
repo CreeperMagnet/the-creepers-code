@@ -28,6 +28,5 @@
       "weight": 10
     }
   ],
-  "fallback": "minecraft:empty",
-  "name": "tcc:village_mangrove_swamp/villagers"
+  "fallback": "minecraft:empty"
 }

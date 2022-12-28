@@ -1,0 +1,13 @@
+{
+  "sources": [
+    {
+      "type": "directory",
+      "source": "tcc_entity",
+      "prefix": "entity/"
+    },
+    {
+      "type": "single",
+      "resource": "entity/witch"
+    }
+  ]
+}

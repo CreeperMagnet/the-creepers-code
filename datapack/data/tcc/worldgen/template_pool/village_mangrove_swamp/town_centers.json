@@ -55,6 +55,5 @@
       "weight": 1
     }
   ],
-  "fallback": "minecraft:empty",
-  "name": "tcc:village_mangrove_swamp/town_centers"
+  "fallback": "minecraft:empty"
 }

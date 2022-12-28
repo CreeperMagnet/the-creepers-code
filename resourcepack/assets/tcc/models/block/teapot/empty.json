@@ -2,7 +2,8 @@
 	"parent": "block/block",
 	"textures": {
 		"log": "tcc:block/teapot/log",
-		"teapot": "tcc:block/teapot/pot"
+		"teapot": "tcc:block/teapot/pot",
+		"particle": "tcc:block/teapot/log"
 	},
 	"elements": [
 		{

@@ -9,4 +9,3 @@ tag @s[nbt={Inventory:[{Slot:-106b,tag:{tcc:{id:"golden_apple_pie"}}}]}] add tcc
 schedule function tcc:item/golden_apple_pie/whole/scheduled 1t
 effect give @s minecraft:regeneration 7 1
 effect give @s minecraft:absorption 160 0
-scoreboard players add @s manic.sanity 40

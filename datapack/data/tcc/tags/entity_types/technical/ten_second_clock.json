@@ -5,6 +5,8 @@
     "minecraft:trident",
     "minecraft:wandering_trader",
     "minecraft:marker",
-    "minecraft:zombie_villager"
+    "minecraft:zombie_villager",
+    "minecraft:trader_llama",
+    "minecraft:item"
   ]
 }

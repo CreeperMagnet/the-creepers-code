@@ -5,7 +5,6 @@
     "minecraft:item_frame",
     "minecraft:marker",
     "minecraft:wandering_trader",
-    "minecraft:piglin",
     "minecraft:villager"
   ]
 }

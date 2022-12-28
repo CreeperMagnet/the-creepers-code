@@ -1,5 +1,4 @@
 {
-  "name": "tcc:tundra_keep/base_building",
   "fallback": "minecraft:empty",
   "elements": [
     {

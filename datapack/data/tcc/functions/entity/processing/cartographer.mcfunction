@@ -9,6 +9,7 @@ loot replace entity @s weapon.mainhand 2 loot tcc:gameplay/trades/cartographer/t
 data modify entity @s Offers.Recipes[-1].buy set from entity @s HandItems[0]
 data modify entity @s Offers.Recipes[-1].buyB set from entity @s HandItems[1]
 loot replace entity @s weapon.mainhand 2 loot tcc:gameplay/trades/cartographer/trade_1/sell
+execute if entity @s[nbt={HandItems:[{id:"minecraft:map"}]}] run data modify entity @s HandItems[0] set value {id:"minecraft:map",Count:1b}
 data modify entity @s Offers.Recipes[-1].sell set from entity @s HandItems[0]
 
 

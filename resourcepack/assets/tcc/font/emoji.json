@@ -339,6 +339,15 @@
         "\uc037"
       ]
     },
+    {
+      "type": "bitmap",
+      "file": "tcc:gui/emoji/laughing.png",
+      "ascent": 7,
+      "height": 16.5,
+      "chars": [
+        "\uc038"
+      ]
+    },
 	{
       "type": "bitmap",
       "file": "tcc:gui/emoji/manic/spook.png",
@@ -760,6 +769,15 @@
       "height": 7,
       "chars": [
         "\ue037"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "tcc:gui/emoji/laughing.png",
+      "ascent": 7,
+      "height": 7,
+      "chars": [
+        "\ue038"
       ]
     },
 	{

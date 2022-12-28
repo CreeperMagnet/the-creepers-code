@@ -58,6 +58,10 @@ execute store success score @s[scores={tcc.dummy=0},nbt=!{ActiveEffects:[{Id:19}
 execute store success score @s[scores={tcc.dummy=0},nbt=!{ActiveEffects:[{Id:19}]}] tcc.dummy if data storage tcc:storage root.temp.item.tag.tcc.potion{id:"minecraft:long_poison"} run effect give @s minecraft:poison 9 0
 execute store success score @s[scores={tcc.dummy=0},nbt=!{ActiveEffects:[{Id:19,Amplifier:1b}]}] tcc.dummy if data storage tcc:storage root.temp.item.tag.tcc.potion{id:"minecraft:strong_poison"} run effect give @s minecraft:poison 2 1
 
+execute store success score @s[scores={tcc.dummy=0},nbt=!{ActiveEffects:[{Id:21}]}] tcc.dummy if data storage tcc:storage root.temp.item.tag.tcc.potion{id:"tcc:fortitude"} run effect give @s minecraft:health_boost 18 0
+execute store success score @s[scores={tcc.dummy=0},nbt=!{ActiveEffects:[{Id:21}]}] tcc.dummy if data storage tcc:storage root.temp.item.tag.tcc.potion{id:"tcc:long_fortitude"} run effect give @s minecraft:health_boost 48 0
+execute store success score @s[scores={tcc.dummy=0},nbt=!{ActiveEffects:[{Id:21,Amplifier:1b}]}] tcc.dummy if data storage tcc:storage root.temp.item.tag.tcc.potion{id:"tcc:strong_fortitude"} run effect give @s minecraft:health_boost 9 1
+
 execute store success score @s[scores={tcc.dummy=0},nbt=!{ActiveEffects:[{Id:26}]}] tcc.dummy if data storage tcc:storage root.temp.item.tag.tcc.potion{id:"minecraft:luck"} run effect give @s minecraft:luck 30 0
 
 execute store success score @s[scores={tcc.dummy=0},nbt=!{ActiveEffects:[{Id:28}]}] tcc.dummy if data storage tcc:storage root.temp.item.tag.tcc.potion{id:"minecraft:slow_falling"} run effect give @s minecraft:slow_falling 9 0

@@ -19,6 +19,5 @@
       "weight": 10
     }
   ],
-  "fallback": "minecraft:empty",
-  "name": "tcc:village_mangrove_swamp/zombie/villagers"
+  "fallback": "minecraft:empty"
 }

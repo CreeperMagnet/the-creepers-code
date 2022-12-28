@@ -210,15 +210,6 @@
     {
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "tcc:village_mangrove_swamp/zombie/houses/jeweler",
-        "processors": "tcc:village_mangrove_swamp/zombie",
-        "projection": "rigid"
-      },
-      "weight": 3
-    },
-    {
-      "element": {
-        "element_type": "minecraft:single_pool_element",
         "location": "tcc:village_mangrove_swamp/zombie/houses/farm_1",
         "processors": "tcc:village_mangrove_swamp/zombie",
         "projection": "rigid"
@@ -259,6 +250,5 @@
       "weight": 6
     }
   ],
-  "fallback": "tcc:village_mangrove_swamp/terminators",
-  "name": "tcc:village_mangrove_swamp/zombie/houses"
+  "fallback": "tcc:village_mangrove_swamp/terminators"
 }

@@ -100,9 +100,22 @@
             "minecraft:bucket"
           ]
         },
-        "entity": {
-          "nbt": "{Tags:[\"tcc.snail\"]}"
-        }
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Tags:[\"tcc.snail\"]}"
+            }
+          },
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:reference",
+              "name": "tcc:entity/in_vehicle"
+            }
+          }
+        ]
       }
     },
     "feed": {

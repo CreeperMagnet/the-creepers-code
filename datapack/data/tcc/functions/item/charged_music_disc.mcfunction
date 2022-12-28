@@ -2,7 +2,8 @@
 # Causes a different weather time depending on music disc
 ############################################################
 
-execute store result score @s tcc.dummy run data get storage tcc:storage root.gamerules.doChargedDiscs
+execute store result score @s tcc.dummy run gamerule doWeatherCycle
+execute if entity @s[scores={tcc.dummy=1..}] store result score @s tcc.dummy run data get storage tcc:storage root.gamerules.doChargedDiscs
 
 execute if entity @s[scores={tcc.dummy=1..},advancements={tcc:technical/item_used_on_block/charged_music_disc={music_disc_11=true}}] run weather thunder 71
 execute if entity @s[scores={tcc.dummy=1..},advancements={tcc:technical/item_used_on_block/charged_music_disc={music_disc_13=true}}] run weather thunder 178

@@ -7,7 +7,7 @@
         "items": [
           {
             "items": [
-              "minecraft:carrot_on_a_stick"
+              "minecraft:warped_fungus_on_a_stick"
             ],
             "nbt": "{tcc:{id:\"witch_hat\"}}"
           }

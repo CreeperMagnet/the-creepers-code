@@ -37,6 +37,22 @@
           ]
         }
       ]
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "conditions": [
+            {
+              "chance": 0.05,
+              "condition": "minecraft:random_chance"
+            }
+          ],
+          "name": "tcc:items/heartbeet"
+        }
+      ],
+      "rolls": 1.0
     }
   ]
 }

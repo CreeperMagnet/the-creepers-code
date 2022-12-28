@@ -375,63 +375,39 @@
     },
     {
       "predicate": {
-        "custom_model_data": 330062
-      },
-      "model": "tcc:entity/jeweler/head/normal"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 330063
-      },
-      "model": "tcc:entity/jeweler/head/hurt"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 330064
-      },
-      "model": "tcc:entity/jeweler/body/normal"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 330065
-      },
-      "model": "tcc:entity/jeweler/body/hurt"
-    },
-    {
-      "predicate": {
         "custom_model_data": 330066
       },
-      "model": "tcc:entity/passive_witch/head/normal"
+      "model": "tcc:entity/wandering_witch/head/normal"
     },
     {
       "predicate": {
         "custom_model_data": 330067
       },
-      "model": "tcc:entity/passive_witch/head/hurt"
+      "model": "tcc:entity/wandering_witch/head/hurt"
     },
     {
       "predicate": {
         "custom_model_data": 330068
       },
-      "model": "tcc:entity/passive_witch/idle/normal"
+      "model": "tcc:entity/wandering_witch/idle/normal"
     },
     {
       "predicate": {
         "custom_model_data": 330069
       },
-      "model": "tcc:entity/passive_witch/idle/hurt"
+      "model": "tcc:entity/wandering_witch/idle/hurt"
     },
     {
       "predicate": {
         "custom_model_data": 330070
       },
-      "model": "tcc:entity/passive_witch/moving/normal"
+      "model": "tcc:entity/wandering_witch/moving/normal"
     },
     {
       "predicate": {
         "custom_model_data": 330071
       },
-      "model": "tcc:entity/passive_witch/moving/hurt"
+      "model": "tcc:entity/wandering_witch/moving/hurt"
     },
     {
       "predicate": {

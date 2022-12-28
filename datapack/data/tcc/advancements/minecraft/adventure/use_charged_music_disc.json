@@ -1,0 +1,42 @@
+{
+  "parent": "minecraft:adventure/play_jukebox_in_meadows",
+  "display": {
+    "icon": {
+      "item": "minecraft:music_disc_far",
+      "nbt": "{Enchantments:[{}]}"
+    },
+    "title": {
+      "translate": "advancements.tcc.minecraft.adventure.use_charged_music_disc.title"
+    },
+    "description": [
+      {
+        "translate": "advancements.tcc.minecraft.adventure.use_charged_music_disc.description"
+      },
+      "\n\n",
+      {
+        "translate": "pack.tcc",
+        "color": "#008725",
+        "italic": true
+      }
+    ],
+    "frame": "challenge"
+  },
+  "criteria": {
+    "use_charged_music_disc": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:jukebox"
+            ],
+            "nbt": "{RecordItem:{tag:{tcc:{id:\"charged_music_disc\"}}}}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 100
+  }
+}

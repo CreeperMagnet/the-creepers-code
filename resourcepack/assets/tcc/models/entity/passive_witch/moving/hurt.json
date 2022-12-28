@@ -1,7 +1,0 @@
-{
-	"parent": "tcc:entity/passive_witch/moving/normal",
-	"textures": {
-		"0": "tcc:entity/passive_witch/main_hurt",
-		"1": "tcc:entity/passive_witch/legs_hurt"
-	}
-}

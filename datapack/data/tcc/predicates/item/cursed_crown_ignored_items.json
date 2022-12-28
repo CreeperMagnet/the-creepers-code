@@ -299,20 +299,6 @@
       "condition": "minecraft:entity_properties",
       "entity": "this",
       "predicate": {
-        "nbt": "{Item:{tag:{tcc:{id:\"ring\",ring:{metal:\"minecraft:gold\"}}}}}"
-      }
-    },
-    {
-      "condition": "minecraft:entity_properties",
-      "entity": "this",
-      "predicate": {
-        "nbt": "{Item:{tag:{tcc:{id:\"ring\",ring:{metal:\"minecraft:netherite\"}}}}}"
-      }
-    },
-    {
-      "condition": "minecraft:entity_properties",
-      "entity": "this",
-      "predicate": {
         "nbt": "{Item:{tag:{tcc:{id:\"nether_reactor_core\"}}}}"
       }
     },

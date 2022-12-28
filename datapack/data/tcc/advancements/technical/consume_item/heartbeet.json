@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "ate_heartbeet": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "nbt": "{tcc:{id:\"heartbeet\"}}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "tcc:item/heartbeet/eat"
+  },
+  "parent": "tcc:technical/root"
+}

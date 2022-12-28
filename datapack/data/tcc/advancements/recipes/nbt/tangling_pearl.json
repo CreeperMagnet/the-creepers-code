@@ -1,0 +1,17 @@
+{
+  "parent": "tcc:recipes/nbt/root",
+  "rewards": {
+    "function": "tcc:entity/player/nbt_recipe/crafted_item",
+    "loot": [
+      "tcc:recipes/tangling_pearl"
+    ]
+  },
+  "criteria": {
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "tcc:nbt/tangling_pearl"
+      }
+    }
+  }
+}

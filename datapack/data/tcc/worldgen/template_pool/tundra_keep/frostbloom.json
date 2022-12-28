@@ -1,13 +1,14 @@
 {
-  "name": "tcc:tundra_keep/frostbloom",
   "fallback": "minecraft:empty",
-  "elements": [{
-    "weight": 1,
-    "element": {
-      "location": "tcc:tundra_keep/frostbloom",
-      "processors": "minecraft:empty",
-      "projection": "rigid",
-      "element_type": "minecraft:single_pool_element"
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "tcc:tundra_keep/frostbloom",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
     }
-  }]
+  ]
 }

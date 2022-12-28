@@ -6,25 +6,46 @@
       "conditions": {
         "player": [
           {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "nbt": "{RootVehicle:{Entity:{OnGround:1b}}}"
-            }
-          },
-          {
-            "condition": "minecraft:inverted",
-            "term": {
-              "condition": "minecraft:reference",
-              "name": "tcc:entity/sneaking"
-            }
+            "condition": "minecraft:alternative",
+            "terms": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "nbt": "{RootVehicle:{Entity:{id:\"minecraft:horse\"}}}"
+                }
+              },
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "nbt": "{RootVehicle:{Entity:{id:\"minecraft:skeleton_horse\"}}}"
+                }
+              },
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "nbt": "{RootVehicle:{Entity:{id:\"minecraft:zombie_horse\"}}}"
+                }
+              },
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "nbt": "{RootVehicle:{Entity:{id:\"minecraft:mule\"}}}"
+                }
+              },
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "nbt": "{RootVehicle:{Entity:{id:\"minecraft:donkey\"}}}"
+                }
+              }
+            ]
           }
         ],
-        "item": {
-          "items": [
-            "minecraft:air"
-          ]
-        },
         "entity": {
           "type": "#tcc:horses"
         }

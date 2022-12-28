@@ -1,6 +1,0 @@
-{
-	"parent": "tcc:entity/passive_witch/idle/normal",
-	"textures": {
-		"0": "tcc:entity/passive_witch/main_hurt"
-	}
-}

@@ -16,12 +16,12 @@ execute if data storage tcc:storage root.temp.boomerang{slot:8} if data entity @
 
 execute if data storage tcc:storage root.temp.boomerang.spawn_item run function tcc:item/boomerang/entity_interaction/pickup/spawn_item/main
 
-execute if data storage tcc:storage root.temp.boomerang{slot:0} run loot replace entity @s hotbar.0 loot tcc:technical/copy_nbt/carrot_on_a_stick
-execute if data storage tcc:storage root.temp.boomerang{slot:1} run loot replace entity @s hotbar.1 loot tcc:technical/copy_nbt/carrot_on_a_stick
-execute if data storage tcc:storage root.temp.boomerang{slot:2} run loot replace entity @s hotbar.2 loot tcc:technical/copy_nbt/carrot_on_a_stick
-execute if data storage tcc:storage root.temp.boomerang{slot:3} run loot replace entity @s hotbar.3 loot tcc:technical/copy_nbt/carrot_on_a_stick
-execute if data storage tcc:storage root.temp.boomerang{slot:4} run loot replace entity @s hotbar.4 loot tcc:technical/copy_nbt/carrot_on_a_stick
-execute if data storage tcc:storage root.temp.boomerang{slot:5} run loot replace entity @s hotbar.5 loot tcc:technical/copy_nbt/carrot_on_a_stick
-execute if data storage tcc:storage root.temp.boomerang{slot:6} run loot replace entity @s hotbar.6 loot tcc:technical/copy_nbt/carrot_on_a_stick
-execute if data storage tcc:storage root.temp.boomerang{slot:7} run loot replace entity @s hotbar.7 loot tcc:technical/copy_nbt/carrot_on_a_stick
-execute if data storage tcc:storage root.temp.boomerang{slot:8} run loot replace entity @s hotbar.8 loot tcc:technical/copy_nbt/carrot_on_a_stick
+execute if data storage tcc:storage root.temp.boomerang{slot:0} run loot replace entity @s hotbar.0 loot tcc:technical/copy_nbt/warped_fungus_on_a_stick
+execute if data storage tcc:storage root.temp.boomerang{slot:1} run loot replace entity @s hotbar.1 loot tcc:technical/copy_nbt/warped_fungus_on_a_stick
+execute if data storage tcc:storage root.temp.boomerang{slot:2} run loot replace entity @s hotbar.2 loot tcc:technical/copy_nbt/warped_fungus_on_a_stick
+execute if data storage tcc:storage root.temp.boomerang{slot:3} run loot replace entity @s hotbar.3 loot tcc:technical/copy_nbt/warped_fungus_on_a_stick
+execute if data storage tcc:storage root.temp.boomerang{slot:4} run loot replace entity @s hotbar.4 loot tcc:technical/copy_nbt/warped_fungus_on_a_stick
+execute if data storage tcc:storage root.temp.boomerang{slot:5} run loot replace entity @s hotbar.5 loot tcc:technical/copy_nbt/warped_fungus_on_a_stick
+execute if data storage tcc:storage root.temp.boomerang{slot:6} run loot replace entity @s hotbar.6 loot tcc:technical/copy_nbt/warped_fungus_on_a_stick
+execute if data storage tcc:storage root.temp.boomerang{slot:7} run loot replace entity @s hotbar.7 loot tcc:technical/copy_nbt/warped_fungus_on_a_stick
+execute if data storage tcc:storage root.temp.boomerang{slot:8} run loot replace entity @s hotbar.8 loot tcc:technical/copy_nbt/warped_fungus_on_a_stick

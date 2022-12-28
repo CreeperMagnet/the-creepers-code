@@ -2,7 +2,7 @@
   "parent": "tcc:minecraft/husbandry/bucket_snail",
   "display": {
     "icon": {
-      "item": "minecraft:carrot_on_a_stick",
+      "item": "minecraft:warped_fungus_on_a_stick",
       "nbt": "{CustomModelData:330035}"
     },
     "title": {

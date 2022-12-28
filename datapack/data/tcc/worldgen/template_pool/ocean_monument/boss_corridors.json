@@ -181,6 +181,5 @@
       "weight": 1
     }
   ],
-  "fallback": "minecraft:empty",
-  "name": "tcc:ocean_monument/boss_corridors"
+  "fallback": "minecraft:empty"
 }

@@ -3,13 +3,9 @@
 ############################################################
 
 tag @s remove tcc.tag
-tag @s[predicate=tcc:chance/one_half] add tcc.tag
-scoreboard players set @s tcc.dummy 0
-execute store result score @s tcc.dummy run loot spawn 0 0 0 loot tcc:technical/roll/min_1_max_3
-execute if entity @s[tag=tcc.tag,scores={tcc.dummy=1}] run function tcc:entity/snail/summon/set_variant/black
-execute if entity @s[tag=tcc.tag,scores={tcc.dummy=2}] run function tcc:entity/snail/summon/set_variant/spiral
-execute if entity @s[tag=tcc.tag,scores={tcc.dummy=3}] run function tcc:entity/snail/summon/set_variant/yellow
-execute if entity @s[tag=tcc.tag,predicate=tcc:chance/one_third,predicate=tcc:location/in_soul_sand_valley] run function tcc:entity/snail/summon/set_variant/skull
-execute if entity @s[tag=tcc.tag,predicate=tcc:chance/five_hundredths] run function tcc:entity/snail/summon/set_variant/light_blue
-scoreboard players reset @s tcc.dummy
+tag @s[predicate=!tcc:chance/one_third] add tcc.tag
+execute if entity @s[tag=tcc.tag] if predicate tcc:chance/one_half run function tcc:entity/snail/summon/set_variant/black
+execute if entity @s[tag=!tcc.tag] run function tcc:entity/snail/summon/set_variant/special
+execute if biome ~ ~ ~ #tcc:spawns_skull_snails run function tcc:entity/snail/summon/set_variant/skull
+execute if predicate tcc:chance/one_twentieth run function tcc:entity/snail/summon/set_variant/light_blue
 tag @s remove tcc.tag

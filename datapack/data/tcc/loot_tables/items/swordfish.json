@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{HideFlags:2,tcc:{id:\"swordfish\"},CustomModelData:330000}"
+              "tag": "{HideFlags:2,tcc:{id:\"swordfish\"},manic:{sanity:\"very_bad\"},CustomModelData:330000}"
             },
             {
               "function": "minecraft:set_name",

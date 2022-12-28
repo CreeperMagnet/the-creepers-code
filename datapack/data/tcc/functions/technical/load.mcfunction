@@ -18,7 +18,7 @@ gamerule commandBlockOutput false
 gamerule maxCommandChainLength 2147483647
 
 ## Scoreboards
-scoreboard objectives add tcc.carrotstick minecraft.used:minecraft.carrot_on_a_stick
+scoreboard objectives add tcc.used_warped_fungus_on_a_stick minecraft.used:minecraft.warped_fungus_on_a_stick
 scoreboard objectives add tcc.health health
 scoreboard objectives add tcc.crafted_item minecraft.crafted:minecraft.knowledge_book
 scoreboard objectives add tcc.drop minecraft.custom:minecraft.drop
@@ -49,10 +49,13 @@ scoreboard players set #180 tcc.dummy 180
 ## World Data
 execute store result score #world_seed tcc.dummy run seed
 
+## Wandering Witch Timer
+execute unless score #wandering_witch_timer tcc.dummy matches -2147483648..2147483647 run scoreboard players set #wandering_witch_timer tcc.dummy 120
+
 ## Triggered Objectives
 scoreboard objectives add tcc.emoji trigger
 scoreboard objectives add tcc.compendium trigger
 
 ## Teams
-team add tcc.amethyst
-team modify tcc.amethyst color light_purple
+team add tcc.recovery_compass
+team modify tcc.recovery_compass color aqua

@@ -10,4 +10,3 @@ title @s title {"translate":"entity.tcc.iceologer.ice_overlay","font":"tcc:iceol
 effect give @s slowness 30 1 false
 effect give @s regeneration 8 1 false
 effect give @s saturation 1 0 true
-scoreboard players add @s manic.sanity 80

@@ -89,9 +89,18 @@
           ]
         },
         {
-          "type": "minecraft:loot_table",
-          "name": "tcc:items/swordfish",
-          "weight": 10
+          "type": "minecraft:item",
+          "name": "minecraft:kelp",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 5,
+                "max": 10
+              }
+            }
+          ]
         },
         {
           "type": "minecraft:item",

@@ -73,6 +73,5 @@
       "weight": 1
     }
   ],
-  "fallback": "minecraft:empty",
-  "name": "tcc:woodland_mansion/second_floors"
+  "fallback": "minecraft:empty"
 }

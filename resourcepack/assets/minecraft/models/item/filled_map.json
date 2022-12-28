@@ -16,6 +16,12 @@
         "custom_model_data": 330001
       },
       "model": "tcc:item/weeping_eye/unset"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330002
+      },
+      "model": "tcc:item/ancient_explorer_map"
     }
   ]
 }

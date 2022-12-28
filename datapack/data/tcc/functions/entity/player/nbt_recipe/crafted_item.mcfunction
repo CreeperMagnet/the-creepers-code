@@ -33,7 +33,6 @@ recipe take @s tcc:nbt/fungal_stew
 recipe take @s tcc:nbt/glow_berry_muffin
 recipe take @s tcc:nbt/golden_apple_pie
 recipe take @s tcc:nbt/golden_chorus_fruit
-recipe take @s tcc:nbt/jewelry_table
 recipe take @s tcc:nbt/molten_mirror
 recipe take @s tcc:nbt/nether_reactor_core
 recipe take @s tcc:nbt/paintbrush
@@ -43,6 +42,7 @@ recipe take @s tcc:nbt/smoldering_seeker
 recipe take @s tcc:nbt/soul_conductor
 recipe take @s tcc:nbt/soul_seer
 recipe take @s tcc:nbt/sweet_berry_muffin
+recipe take @s tcc:nbt/tangling_pearl
 recipe take @s tcc:nbt/teapot
 recipe take @s tcc:nbt/warped_wart
 recipe take @s tcc:nbt/weeping_eye

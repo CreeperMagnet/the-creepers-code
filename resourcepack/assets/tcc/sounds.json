@@ -86,13 +86,17 @@
     ],
     "subtitle": "subtitles.tcc.item.paintbrush.paint"
   },
-  "block.jewelry_table.use": {
+  "item.tangling_pearl.activate": {
     "sounds": [
-      "tcc:block/jewelry_table_use1",
-      "tcc:block/jewelry_table_use2",
-      "tcc:block/jewelry_table_use3"
+      "tcc:item/tangling_pearl_activate"
     ],
-    "subtitle": "subtitles.tcc.block.jewelry_table.use"
+    "subtitle": "subtitles.tcc.item.tangling_pearl.activate"
+  },
+  "item.tangling_pearl.deactivate": {
+    "sounds": [
+      "tcc:item/tangling_pearl_deactivate"
+    ],
+    "subtitle": "subtitles.tcc.item.tangling_pearl.deactivate"
   },
   "block.positional_anchor.fill": {
     "sounds": [
@@ -361,6 +365,12 @@
     ],
     "subtitle": "subtitles.tcc.entity.geomancer.cast_spell"
   },
+  "block.amethyst_cluster_corrupt": {
+    "sounds": [
+      "tcc:block/amethyst_cluster_corrupt"
+    ],
+    "subtitle": "subtitles.tcc.block.amethyst_cluster_corrupt"
+  },
   "entity.snail.hurt": {
     "sounds": [
       "tcc:mob/snail/hurt1",
@@ -412,14 +422,29 @@
     ],
     "subtitle": "subtitles.tcc.block.soul_conductor.transport_player_fail"
   },
-  "item.echo_shard_ring.use": {
+  "entity.wandering_witch.ambient": {
     "sounds": [
-      "block/sculk/spread1",
-      "block/sculk/spread2",
-      "block/sculk/spread3",
-      "block/sculk/spread4",
-      "block/sculk/spread5"
+      "tcc:mob/wandering_witch/idle1",
+      "tcc:mob/wandering_witch/idle2",
+      "tcc:mob/wandering_witch/idle3",
+      "tcc:mob/wandering_witch/idle4"
     ],
-    "subtitle": "subtitles.tcc.item.echo_shard_ring.use"
+    "subtitle": "subtitles.tcc.entity.wandering_witch.ambient"
+  },
+  "entity.wandering_witch.death": {
+    "sounds": [
+      "tcc:mob/wandering_witch/death1",
+      "tcc:mob/wandering_witch/death2",
+      "tcc:mob/wandering_witch/death3"
+    ],
+    "subtitle": "subtitles.tcc.entity.wandering_witch.death"
+  },
+  "entity.wandering_witch.hurt": {
+    "sounds": [
+      "tcc:mob/wandering_witch/hurt1",
+      "tcc:mob/wandering_witch/hurt2",
+      "tcc:mob/wandering_witch/hurt3"
+    ],
+    "subtitle": "subtitles.tcc.entity.wandering_witch.hurt"
   }
 }

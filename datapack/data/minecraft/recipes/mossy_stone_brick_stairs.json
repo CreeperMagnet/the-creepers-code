@@ -1,5 +1,6 @@
 {
   "type": "crafting_shaped",
+  "group": "mossy_stone_brick_stairs",
   "pattern": [
     "#  ",
     "## ",
@@ -13,5 +14,6 @@
   "result": {
     "item": "minecraft:mossy_stone_brick_stairs",
     "count": 6
-  }
+  },
+  "category": "building"
 }

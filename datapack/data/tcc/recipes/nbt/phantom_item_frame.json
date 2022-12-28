@@ -1,4 +1,6 @@
 {
+  "group": "nbt_recipe",
+  "category": "misc",
   "type": "minecraft:crafting_shaped",
   "pattern": [
     "###",

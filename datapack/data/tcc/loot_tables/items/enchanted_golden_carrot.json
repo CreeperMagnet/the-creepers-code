@@ -6,7 +6,7 @@
       "weight": 1,
       "functions": [{
           "function": "minecraft:set_nbt",
-          "tag": "{Enchantments:[{id:\"binding_curse\"}],HideFlags:1,tcc:{id:\"enchanted_golden_carrot\"}}"
+          "tag": "{Enchantments:[{id:\"binding_curse\"}],HideFlags:1,tcc:{id:\"enchanted_golden_carrot\"},manic:{sanity:\"very_good\"}}"
         },
         {
           "function": "minecraft:set_name",

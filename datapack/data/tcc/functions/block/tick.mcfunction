@@ -2,9 +2,6 @@
 # Functions to run off of every tcc block every single tick
 ############################################################
 
-## Jewelry Table
-execute if entity @s[type=armor_stand,tag=tcc.jewelry_table] run function tcc:block/jewelry_table/tick/main
-
 ## Teapot
 execute if entity @s[type=wandering_trader,tag=tcc.teapot,predicate=!tcc:block/teapot_valid] run function tcc:block/teapot/break
 

@@ -17,5 +17,8 @@ execute if entity @s[type=minecraft:marker,tag=tcc.brewing_stand] unless block ~
 ## Mansion water cleanup
 execute if entity @s[type=minecraft:armor_stand,tag=tcc.mansion_cleanup] run function tcc:postgen/mansion_cleanup/main
 
-## Zombified Jewelers
-execute if entity @s[type=minecraft:zombie_villager,tag=tcc.zombified_jeweler] run function tcc:entity/jeweler/zombie/ten_second_clock
+## Trader Llamas
+execute if entity @s[type=minecraft:trader_llama] run function tcc:entity/trader_llama/ten_second_clock
+
+## Glowing recovery compass items
+execute if entity @s[type=item,tag=tcc.recovery_compass_item] run data modify entity @s Age set value -32767s

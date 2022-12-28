@@ -1,19 +1,5 @@
 {
   "criteria": {
-    "trade": {
-      "trigger": "minecraft:villager_trade",
-      "conditions": {
-        "player": [
-          {
-            "condition": "minecraft:reference",
-            "name": "tcc:entity/wearing/witch_hat"
-          }
-        ],
-        "villager": {
-          "nbt": "{Tags:[\"tcc.witch_trader\"]}"
-        }
-      }
-    },
     "took_damage": {
       "trigger": "minecraft:entity_hurt_player",
       "conditions": {
@@ -36,12 +22,6 @@
       }
     }
   },
-  "requirements": [
-    [
-      "trade",
-      "took_damage"
-    ]
-  ],
   "rewards": {
     "function": "tcc:item/witch_hat/damage"
   },

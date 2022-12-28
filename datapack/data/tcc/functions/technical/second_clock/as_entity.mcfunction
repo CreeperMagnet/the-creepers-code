@@ -8,6 +8,3 @@ execute if entity @s[type=minecraft:villager,tag=!smithed.entity,tag=!tcc.modifi
 
 ## Entity second_clock
 execute if entity @s[tag=tcc.second_clock] run function tcc:entity/second_clock
-
-## Witch trader check
-execute if entity @s[type=witch,tag=!smithed.entity,predicate=!tcc:entity/in_vehicle] run function tcc:entity/witch/second_clock_witch

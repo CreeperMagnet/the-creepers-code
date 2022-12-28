@@ -118,6 +118,5 @@
       "weight": 2
     }
   ],
-  "fallback": "tcc:village_mangrove_swamp/terminators",
-  "name": "tcc:village_mangrove_swamp/zombie/streets"
+  "fallback": "tcc:village_mangrove_swamp/terminators"
 }

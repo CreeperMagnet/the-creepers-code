@@ -64,6 +64,5 @@
       "weight": 1
     }
   ],
-  "fallback": "minecraft:empty",
-  "name": "tcc:woodland_mansion/basement/junctions"
+  "fallback": "minecraft:empty"
 }

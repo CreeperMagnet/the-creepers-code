@@ -64,6 +64,5 @@
       "weight": 1
     }
   ],
-  "fallback": "minecraft:empty",
-  "name": "tcc:ocean_monument/junctions"
+  "fallback": "minecraft:empty"
 }

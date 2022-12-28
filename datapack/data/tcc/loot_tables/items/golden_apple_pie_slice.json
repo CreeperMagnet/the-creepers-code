@@ -6,7 +6,7 @@
       "weight": 1,
       "functions": [{
           "function": "minecraft:set_nbt",
-          "tag": "{HideFlags:2,tcc:{id:\"golden_apple_pie_slice\"},CustomModelData:330007}"
+          "tag": "{HideFlags:2,tcc:{id:\"golden_apple_pie_slice\"},manic:{sanity:\"neutral\"},CustomModelData:330007}"
         },
         {
           "function": "minecraft:set_name",

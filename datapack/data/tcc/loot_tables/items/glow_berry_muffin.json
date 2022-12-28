@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{tcc:{id:\"glow_berry_muffin\"},CustomModelData:330008}"
+              "tag": "{tcc:{id:\"glow_berry_muffin\"},manic:{sanity:\"good\"},CustomModelData:330008}"
             },
             {
               "function": "minecraft:set_name",
