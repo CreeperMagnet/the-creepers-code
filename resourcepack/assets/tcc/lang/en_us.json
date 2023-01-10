@@ -1,9 +1,6 @@
 {
   "item.minecraft.knowledge_book": "§fRecipe Output",
-  "pack.tcc": "The Creeper's Code",
   "pack.tcc.hover_event": "Click here to go to the official website",
-  "pack.tcc.version": "Version 1.1 Beta 4",
-  "pack.tcc.version.hover_event": "Click here to see changelog notes",
 
   "item.tcc.tundra_explorer_map": "Tundra Explorer Map",
   "item.tcc.swampland_explorer_map": "Swampland Explorer Map",
@@ -173,7 +170,7 @@
 
   "commands.tcc.reload.success": " Updated datapacks and TCC scoreboards",
   "commands.tcc.trigger.spectator": "This command cannot be used in spectator mode. Try again in another gamemode.",
-  "commands.tcc.initiate": "%s %s is enabled.",
+  "commands.tcc.initiate": "%s is enabled.",
   "commands.tcc.wrong_version: You are using TCC on the incorrect Minecraft version. Please check the download.": "\nYou are using TCC on the incorrect Minecraft version. Please check the download.",
   "commands.tcc.initiate.wrong_version.title": "WRONG VERSION",
   "commands.tcc.give_all_recipes_error: It seems that you have a mod/datapack installed that gives the player all recipes. Please disable it or performance may be drastically lowered. You can safely ignore this message if you are not worried about performance.": "It seems that you have a mod/datapack installed that gives the player all recipes. Please disable it or performance may be drastically lowered. You can safely ignore this message if you are not worried about performance.",
@@ -245,12 +242,6 @@
   "death.attack.tcc.iceologer_freeze": "%s experienced ice magic firsthand",
   "death.attack.tcc.geomancer_explosive": "%1$s was blown to bits by %2$s",
   "death.attack.tcc.swordfish": "%1$s impaled themselves from the inside out",
-
-  "attribute.name.tcc.saturation_boost": "Saturation Boost",
-  "attribute.name.tcc.mob_xp_bonus": "Kill Experience Bonus",
-  "attribute.name.tcc.item_teleportation_range": "Item Teleportation Range",
-  "attribute.name.tcc.item_preservation": "Item Preservation",
-  "attribute.name.tcc.soul_consumption": "Soul Consumption",
 
   "advancements.tcc.minecraft.adventure.witch_hat.title": "Burn The Witch!",
   "advancements.tcc.minecraft.adventure.witch_hat.description": "Wear a witch's hat",
@@ -363,6 +354,22 @@
   "subtitles.tcc.block.soul_conductor.transport_player_fail": "Soul Conductor fails to transport player",
   "subtitles.tcc.block.amethyst_cluster_corrupt": "Amethyst corrupted",
 
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+  "pack.tcc": "The Creeper's Code",
   "item.tcc.compendium.cover_page.website.hover_event": "Official Website Link",
   "item.tcc.compendium.cover_page.github.hover_event": "GitHub Link",
   "item.tcc.compendium.cover_page.reddit.hover_event": "Reddit Link",
@@ -736,7 +743,7 @@
   "item.tcc.compendium.last_index_page": "1234    %s\n\ud006\n\ud013%s%s%s%s%s%s\n\ud014%s%s%s%s%s%s\n\ud013%s%s%s%s%s%s\n\ud014%s%s%s%s%s%s\n\ud013%s%s%s%s%s%s\n\ud014%s%s%s%s%s%s\n\ud013%s%s%s%s%s%s\n\ud014%s%s%s%s%s%s\n\ud013%s%s%s%s%s%s\n\ud014%s%s%s%s%s%s\n\ud013%s%s%s%s%s%s\n\ud014%s%s%s%s%s%s\n\ud004%74$s\ud005%75$s\n\ud004%74$s\ud005%75$s",
   "item.tcc.compendium.index_page.empty_icon": "\uf000",
   "item.tcc.compendium.faq_page": "1234       %s\n\ud023\n%s",
-  "item.tcc.compendium.cover_page": "1234\n\ud000\n\n\n   %s\n\n\ud020%s%s%s%s\n\n%s",
+  "item.tcc.compendium.cover_page": "1234\n\n\ud000\n\n\n\ud020%s%s%s%s\n\n%s",
   "item.tcc.compendium.cover_page.website": "\ud016",
   "item.tcc.compendium.cover_page.github": "\ud017",
   "item.tcc.compendium.cover_page.reddit": "\ud018",

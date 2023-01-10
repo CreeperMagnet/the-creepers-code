@@ -147,9 +147,45 @@
         ]
       }
     },
+    "feed_heartbeet": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:golden_carrot"
+          ],
+          "nbt": "{tcc:{id:\"heartbeet\"}}"
+        },
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Tags:[\"tcc.snail\"]}"
+            }
+          },
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Tags:[\"tcc.fed_heartbeet\"]}"
+              }
+            }
+          }
+        ]
+      }
+    },
     "name": {
       "trigger": "minecraft:player_interacted_with_entity",
       "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "nbt": "{display:{Name:'{\"text\":\"Gary\"}'}}"
+        },
         "entity": [
           {
             "condition": "minecraft:entity_properties",
@@ -168,13 +204,7 @@
               }
             }
           }
-        ],
-        "item": {
-          "items": [
-            "minecraft:name_tag"
-          ],
-          "nbt": "{display:{Name:'{\"text\":\"Gary\"}'}}"
-        }
+        ]
       }
     }
   },
@@ -183,6 +213,7 @@
       "breed",
       "bucket",
       "feed",
+      "feed_heartbeet",
       "name"
     ]
   ],

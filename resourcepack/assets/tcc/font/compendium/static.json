@@ -1,6 +1,12 @@
 {
   "providers": [
     {
+      "type": "space",
+      "advances": {
+        "\ud020": 31
+      }
+    },
+    {
       "type": "bitmap",
       "file": "tcc:gui/compendium/background/content.png",
       "ascent": 36,
@@ -186,15 +192,6 @@
       "height": 12,
       "chars": [
         "\ud019"
-      ]
-    },
-    {
-      "type": "bitmap",
-      "file": "tcc:gui/compendium/spacers/cover_edge.png",
-      "ascent": 12,
-      "height": 16,
-      "chars": [
-        "\ud020"
       ]
     },
     {

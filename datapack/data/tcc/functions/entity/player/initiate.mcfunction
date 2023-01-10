@@ -2,7 +2,7 @@
 # Initiates things for the player
 ############################################################
 
-tellraw @s {"translate":"The Creeper's Code Resource Pack is not installed. Please go to https://thecreeperscode.com/download.","with":[{"translate":"commands.tcc.initiate","with":[{"translate":"pack.tcc","color":"#008725","underlined":true,"hoverEvent":{"action":"show_text","contents":{"translate":"pack.tcc.hover_event"}},"clickEvent":{"action":"open_url","value":"https://thecreeperscode.com"}},{"translate":"pack.tcc.version","color":"green","underlined":true,"hoverEvent":{"action":"show_text","contents":{"translate":"pack.tcc.version.hover_event"}},"clickEvent":{"action":"open_url","value":"https://thecreeperscode.com/development/1-1-beta-4-changelog"}}]}]}
+tellraw @s {"translate":"The Creeper's Code Resource Pack is not installed. Please go to https://thecreeperscode.com/download.","color":"red","with":[{"translate":"commands.tcc.initiate","color":"white","with":[{"translate":"pack.tcc","color":"#008725","underlined":true,"hoverEvent":{"action":"show_text","contents":{"translate":"pack.tcc.hover_event"}},"clickEvent":{"action":"open_url","value":"https://thecreeperscode.com"}}]}]}
 
 scoreboard players set @s tcc.dummy 3218
 execute store result score @s tcc.dummy2 run data get entity @s DataVersion
