@@ -10,9 +10,7 @@
     "offsetZ": 1,
     "predicate": {
       "block": {
-        "blocks": [
-          "minecraft:gold_block"
-        ]
+        "tag": "tcc:nether_reactor/gold_blocks"
       }
     }
   },
@@ -23,9 +21,7 @@
     "offsetZ": 1,
     "predicate": {
       "block": {
-        "blocks": [
-          "minecraft:gold_block"
-        ]
+        "tag": "tcc:nether_reactor/gold_blocks"
       }
     }
   },
@@ -36,9 +32,7 @@
     "offsetZ": -1,
     "predicate": {
       "block": {
-        "blocks": [
-          "minecraft:gold_block"
-        ]
+        "tag": "tcc:nether_reactor/gold_blocks"
       }
     }
   },
@@ -49,9 +43,7 @@
     "offsetZ": -1,
     "predicate": {
       "block": {
-        "blocks": [
-          "minecraft:gold_block"
-        ]
+        "tag": "tcc:nether_reactor/gold_blocks"
       }
     }
   }

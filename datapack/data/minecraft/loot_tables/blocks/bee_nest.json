@@ -1,0 +1,75 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:copy_nbt",
+              "source": "block_entity",
+              "ops": [
+                {
+                  "source": "Bees",
+                  "target": "BlockEntityTag.Bees",
+                  "op": "replace"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:copy_state",
+              "block": "minecraft:bee_nest",
+              "properties": [
+                "honey_level"
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:330000}",
+              "conditions": [
+                {
+                  "condition": "block_state_property",
+                  "block": "minecraft:bee_nest",
+                  "properties": {
+                    "honey_level": "5"
+                  }
+                }
+              ]
+            }
+          ],
+          "name": "minecraft:bee_nest"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:match_tool",
+          "predicate": {
+            "enchantments": [
+              {
+                "enchantment": "minecraft:silk_touch",
+                "levels": {
+                  "min": 1
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "__smithed__": {
+    "rules": [
+      {
+        "type": "smithed:append",
+        "target": "pools[0].entries[0].functions",
+        "source": {
+          "type": "smithed:reference",
+          "path": "pools[0].entries[0].functions[2]"
+        }
+      }
+    ]
+  }
+}

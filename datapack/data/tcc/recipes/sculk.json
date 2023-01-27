@@ -10,8 +10,7 @@
     }
   },
   "result": {
-    "item": "minecraft:sculk",
-    "count": 1
+    "item": "minecraft:sculk"
   },
   "category": "building"
 }

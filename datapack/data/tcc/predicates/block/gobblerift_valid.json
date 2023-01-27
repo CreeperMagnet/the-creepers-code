@@ -49,9 +49,7 @@
     "offsetZ": 0,
     "predicate": {
       "block": {
-        "blocks": [
-          "minecraft:end_stone"
-        ]
+        "tag": "tcc:gobblerift_plantable_on"
       }
     }
   }

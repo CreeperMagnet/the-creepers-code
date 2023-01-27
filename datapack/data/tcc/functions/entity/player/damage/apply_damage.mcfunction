@@ -19,7 +19,10 @@ scoreboard players remove @s[scores={tcc.dummy=2..}] tcc.dummy 2
 attribute @s[scores={tcc.dummy=1..}] minecraft:generic.max_health modifier add 2-0-3-3-0 "damage_1" -0.1 add
 scoreboard players remove @s[scores={tcc.dummy=1..}] tcc.dummy 1
 scoreboard players set @s tcc.dummy 0
+
+attribute @s minecraft:generic.max_health modifier add 2-0-3-3-8 "hurt_tint_buffer" 6 add
 effect give @s instant_health 1 24 true
+effect give @s instant_damage 1 0 true
+
 tag @s add tcc.scheduled.remove_attributes
 schedule function tcc:entity/player/damage/remove_attributes/scheduled 2t replace
-execute if score #damage tcc.dummy matches 1.. run playsound minecraft:entity.player.hurt player @a[distance=..16]

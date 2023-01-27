@@ -13,3 +13,6 @@ execute if entity @s[type=armor_stand,tag=tcc.geomancer_pillar] run function tcc
 
 ## Teapot clock
 execute if entity @s[type=wandering_trader,tag=tcc.teapot,scores={tcc.dummy2=1..}] if block ~ ~ ~ #campfires[lit=true] positioned ~ ~1.2 ~ run function tcc:block/teapot/cook/second_clock
+
+## Prevent Darkening
+execute if entity @s[type=armor_stand,tag=tcc.prevents_darkening] run function tcc:block/prevent_darkening/check

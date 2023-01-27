@@ -125,24 +125,6 @@
         "projection": "rigid"
       },
       "weight": 1
-    },
-    {
-      "element": {
-        "element_type": "minecraft:single_pool_element",
-        "location": "tcc:ocean_monument/large_rooms/large_room_15",
-        "processors": "minecraft:empty",
-        "projection": "rigid"
-      },
-      "weight": 1
-    },
-    {
-      "element": {
-        "element_type": "minecraft:single_pool_element",
-        "location": "tcc:ocean_monument/large_rooms/large_room_16",
-        "processors": "minecraft:empty",
-        "projection": "rigid"
-      },
-      "weight": 1
     }
   ],
   "fallback": "minecraft:empty"

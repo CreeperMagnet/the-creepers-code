@@ -1,0 +1,11 @@
+{
+  "parent": "minecraft:block/bee_nest",
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 330000
+      },
+      "model": "minecraft:block/bee_nest_honey"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "parent": "tcc:recipes/root",
+  "rewards": {
+    "recipes": [
+      "tcc:piglin_banner_pattern"
+    ]
+  },
+  "criteria": {
+    "has_banner_pattern": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:piglin_banner_pattern"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "tcc:piglin_banner_pattern"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_banner_pattern",
+      "has_the_recipe"
+    ]
+  ]
+}

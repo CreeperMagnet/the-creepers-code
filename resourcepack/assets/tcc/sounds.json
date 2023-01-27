@@ -9,6 +9,51 @@
     "subtitle": "subtitles.tcc.item.boomerang.swish",
     "category": "master"
   },
+  "item.boomerang.bounce": {
+    "sounds": [
+      {
+        "name": "minecraft:dig/wood1",
+        "pitch": 1.2
+      },
+      {
+        "name": "minecraft:dig/wood2",
+        "pitch": 1.2
+      },
+      {
+        "name": "minecraft:dig/wood3",
+        "pitch": 1.2
+      },
+      {
+        "name": "minecraft:dig/wood4",
+        "pitch": 1.2
+      }
+    ],
+    "subtitle": "subtitles.tcc.item.boomerang.bounce"
+  },
+  "item.boomerang.break": {
+    "sounds": [
+      {
+        "name": "entity/armorstand/break1",
+        "pitch": 1.2
+      }
+    ],
+    "subtitle": "subtitles.tcc.item.boomerang.break"
+  },
+  "item.boomerang.throw": {
+    "sounds": [
+      {
+        "name": "entity/witch/throw1",
+        "pitch": 1,
+        "volume": 0.5
+      },
+      {
+        "name": "entity/witch/throw2",
+        "pitch": 0.8,
+        "volume": 0.5
+      }
+    ],
+    "subtitle": "subtitles.tcc.item.boomerang.throw"
+  },
   "item.molten_mirror.use": {
     "sounds": [
       "tcc:item/molten_mirror"

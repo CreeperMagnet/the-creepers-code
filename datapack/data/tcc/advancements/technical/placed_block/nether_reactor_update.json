@@ -5,7 +5,7 @@
       "conditions": {
         "location": {
           "block": {
-            "tag": "tcc:nether_reactor_update"
+            "tag": "tcc:nether_reactor/update"
           }
         }
       }
