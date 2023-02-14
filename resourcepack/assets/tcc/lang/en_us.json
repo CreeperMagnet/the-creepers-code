@@ -146,6 +146,7 @@
 
   "item.tcc.riftjuice_bottle": "Riftjuice Bottle",
   "item.tcc.riftjuice_bottle.lore.id": "Id #%s%s",
+  "item.tcc.riftjuice_bottle.lore.name": ": \"%s\"",
 
   "block.tcc.nether_reactor_core": "Nether Reactor Core",
 
@@ -756,8 +757,6 @@
   "item.tcc.compendium.cover_page.reddit": "\ud018",
   "item.tcc.compendium.cover_page.discord": "\ud019",
 
-  "item.tcc.riftjuice_bottle.lore.name": ": \"%s\"",
-
   "item.tcc.antitoxin_tea.title": "\uc001",
   "item.tcc.clearsight_tea.title": "\uc002",
   "item.tcc.illumination_tea.title": "\uc003",
@@ -771,7 +770,7 @@
   "item.tcc.vitality_tea.title": "\uc00B",
   "item.tcc.vivacity_tea.title": "\uc00C",
 
-  "potion.tcc.duration": "%s:%s%s",
+  "potion.tcc.duration": "%s%s:%s%s",
 
   "block.tcc.positional_anchor.name": " ",
   "block.tcc.soul_seer.name": " ",
