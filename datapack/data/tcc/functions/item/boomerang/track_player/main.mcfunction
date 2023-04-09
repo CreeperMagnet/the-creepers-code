@@ -3,7 +3,7 @@
 ############################################################
 
 # Store the UUID for checking against the player
-data modify storage tcc:storage root.temp.boomerang.UUID set from entity @s ArmorItems[3].tag.tcc.UUID
+data modify storage tcc:storage root.temp.boomerang.UUID set from entity @s item.tag.tcc.UUID
 
 # Face towards the player that matches the proper UUID requirements
 execute as @a[gamemode=!spectator,distance=..55,nbt=!{Health:0.0f}] run function tcc:item/boomerang/track_player/uuid_check

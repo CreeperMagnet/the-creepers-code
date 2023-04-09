@@ -10,6 +10,6 @@
     }
   },
   "rewards": {
-    "function": "tcc:block/phantom_item_frame/player_place"
+    "function": "tcc:entity/phantom_item_frame/player_place"
   }
 }

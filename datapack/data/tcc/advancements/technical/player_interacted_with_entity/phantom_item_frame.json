@@ -41,6 +41,6 @@
     ]
   ],
   "rewards": {
-    "function": "tcc:block/phantom_item_frame/interact/check"
+    "function": "tcc:entity/phantom_item_frame/interact/check"
   }
 }

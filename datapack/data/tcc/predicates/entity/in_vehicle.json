@@ -1,32 +1,7 @@
 {
-  "condition": "minecraft:alternative",
-  "terms": [
-    {
-      "condition": "minecraft:entity_properties",
-      "entity": "this",
-      "predicate": {
-        "vehicle": {
-          "type": "minecraft:boat"
-        }
-      }
-    },
-    {
-      "condition": "minecraft:entity_properties",
-      "entity": "this",
-      "predicate": {
-        "vehicle": {
-          "type": "minecraft:chest_boat"
-        }
-      }
-    },
-    {
-      "condition": "minecraft:entity_properties",
-      "entity": "this",
-      "predicate": {
-        "vehicle": {
-          "type": "minecraft:minecart"
-        }
-      }
-    }
-  ]
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "vehicle": {}
+  }
 }

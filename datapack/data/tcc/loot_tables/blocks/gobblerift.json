@@ -36,7 +36,7 @@
               "source": "this",
               "ops": [
                 {
-                  "source": "ArmorItems[3].tag.tcc.id",
+                  "source": "item.tag.id",
                   "target": "tcc.gobblerift_id",
                   "op": "replace"
                 }
@@ -50,9 +50,10 @@
                   "translate": "item.tcc.riftjuice_bottle.lore.id",
                   "with": [
                     {
-                      "nbt": "ArmorItems[3].tag.tcc.id",
+                      "nbt": "item.tag.id",
                       "entity": "@s"
-                    }
+                    },
+                    ""
                   ],
                   "color": "gray",
                   "italic": false

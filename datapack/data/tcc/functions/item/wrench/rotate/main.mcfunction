@@ -73,5 +73,5 @@ execute if block ~ ~ ~ #tcc:froglights run function tcc:item/wrench/rotate/block
 
 execute if block ~ ~ ~ #tcc:wrench_rotatable/creative_only run function tcc:item/wrench/rotate/creative_only/main
 
-playsound tcc:item.wrench.rotate_block block @a[distance=..16]
+execute align xyz positioned ~0.5 ~0.5 ~0.5 run playsound tcc:item.wrench.rotate_block block @a[distance=..16]
 function tcc:item/wrench/damage

@@ -8,6 +8,45 @@
     {
       "type": "single",
       "resource": "entity/witch"
+    },
+    {
+      "type": "paletted_permutations",
+      "textures": [
+        "tcc:item/diluted_potion/0",
+        "tcc:item/diluted_potion/1",
+        "tcc:item/diluted_potion/2",
+        "tcc:item/diluted_potion/3",
+        "tcc:item/diluted_potion/4",
+        "tcc:item/diluted_potion/5",
+        "tcc:item/diluted_potion/6",
+        "tcc:item/diluted_potion/7",
+        "tcc:item/diluted_potion/8",
+        "tcc:item/diluted_potion/9"
+      ],
+      "palette_key": "tcc:item/diluted_potion/palettes/key",
+      "permutations": {
+        "blind_rage": "tcc:item/diluted_potion/palettes/blind_rage",
+        "fire_resistance": "tcc:item/diluted_potion/palettes/fire_resistance",
+        "fortitude": "tcc:item/diluted_potion/palettes/fortitude",
+        "harming": "tcc:item/diluted_potion/palettes/harming",
+        "healing": "tcc:item/diluted_potion/palettes/healing",
+        "invisibility": "tcc:item/diluted_potion/palettes/invisibility",
+        "leaping": "tcc:item/diluted_potion/palettes/leaping",
+        "luck": "tcc:item/diluted_potion/palettes/luck",
+        "nausea": "tcc:item/diluted_potion/palettes/nausea",
+        "night_vision": "tcc:item/diluted_potion/palettes/night_vision",
+        "poison": "tcc:item/diluted_potion/palettes/poison",
+        "regeneration": "tcc:item/diluted_potion/palettes/regeneration",
+        "slow_falling": "tcc:item/diluted_potion/palettes/slow_falling",
+        "slowness": "tcc:item/diluted_potion/palettes/slowness",
+        "strength": "tcc:item/diluted_potion/palettes/strength",
+        "swiftness": "tcc:item/diluted_potion/palettes/swiftness",
+        "turtle_master": "tcc:item/diluted_potion/palettes/turtle_master",
+        "uncraftable": "tcc:item/diluted_potion/palettes/uncraftable",
+        "water": "tcc:item/diluted_potion/palettes/water",
+        "water_breathing": "tcc:item/diluted_potion/palettes/water_breathing",
+        "weakness": "tcc:item/diluted_potion/palettes/weakness"
+      }
     }
   ]
 }

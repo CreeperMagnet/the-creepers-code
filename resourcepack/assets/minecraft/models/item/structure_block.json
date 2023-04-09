@@ -11,13 +11,13 @@
       "predicate": {
         "custom_model_data": 330001
       },
-      "model": "tcc:item/boomerang_spinning"
+      "model": "tcc:item/unused"
     },
     {
       "predicate": {
         "custom_model_data": 330002
       },
-      "model": "tcc:block/snail_nest/overlay"
+      "model": "tcc:item/unused"
     },
     {
       "predicate": {

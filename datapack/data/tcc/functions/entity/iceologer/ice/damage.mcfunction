@@ -2,10 +2,8 @@
 # Damages a player and applies slowness
 ############################################################
 
-execute store result score #temp_0 tcc.dummy run difficulty
-scoreboard players set #damage tcc.dummy 40
-scoreboard players operation #damage tcc.dummy *= #temp_0 tcc.dummy
-scoreboard players set #ignore_armor tcc.dummy 0
-tag @s add tcc.damage.iceologer_ice
-function tcc:entity/player/damage/calculate
-effect give @s slowness 5 0 false
+tag @s add tcc.iceologer_ice_damage_source
+data modify storage tcc:storage root.temp.UUID set from entity @s TileEntityData.UUID
+execute as @e[type=minecraft:wandering_trader,tag=tcc.iceologer,distance=..30] run function tcc:entity/illager/attack_uuid_matching
+execute as @e[dx=0,tag=!tcc.iceologer,tag=!smithed.strict] run function tcc:entity/iceologer/ice/damage_as_target
+tag @s remove tcc.iceologer_ice_damage_source

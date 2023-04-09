@@ -1,10 +1,10 @@
 {
   "values": [
     "#tcc:technical/needs_processing",
-    "minecraft:armor_stand",
-    "minecraft:item_frame",
     "minecraft:marker",
     "minecraft:wandering_trader",
-    "minecraft:villager"
+    "minecraft:villager",
+    "minecraft:item_display",
+    "minecraft:interaction"
   ]
 }

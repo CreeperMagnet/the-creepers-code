@@ -20,7 +20,7 @@ execute if block ^ ^ ^0.05 #tcc:boomerang/ignore run tp @s ^ ^ ^0.05
 execute if entity @s[scores={tcc.dummy2=50..}] at @s unless block ^ ^ ^0.05 #tcc:boomerang/ignore positioned ^ ^ ^-0.5 run function tcc:item/boomerang/break
 
 # Store boomerang data for pickup and damage UUID commands
-data modify storage tcc:storage root.temp.boomerang set from entity @s ArmorItems[3].tag.tcc
+data modify storage tcc:storage root.temp.boomerang set from entity @s item.tag.tcc
 
 # Pickup attempt nonsense
 execute if entity @s[scores={tcc.dummy2=3..}] positioned ~-0.5 ~-0.5 ~-0.5 if entity @a[dx=0,gamemode=!spectator] run function tcc:item/boomerang/entity_interaction/pickup/main

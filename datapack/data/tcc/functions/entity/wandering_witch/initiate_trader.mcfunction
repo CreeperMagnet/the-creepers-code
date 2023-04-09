@@ -2,10 +2,10 @@
 # Commands to give the witch trades
 ############################################################
 
+data merge entity @s {DespawnDelay:48000,CustomName:'{"translate":"entity.tcc.wandering_witch"}',Team:"smithed.prevent_aggression",DeathLootTable:"tcc:entities/wandering_witch",ArmorDropChances:[-10000.0f,-10000.0f,-10000.0f,-10000.0f],HandDropChances:[-10000.0f,-10000.0f],Offers:{Recipes:[]},ActiveEffects:[{Id:14,Duration:-1,Amplifier:0b,ShowParticles:0b}],Silent:1b,Tags:["tcc.tick","tcc.second_clock","tcc.ten_second_clock","tcc.wandering_witch","tcc.has_trades","tcc.trader_entity","smithed.entity"],ArmorItems:[{},{},{},{id:"minecraft:structure_block",Count:1b,tag:{CustomModelData:330066,tcc:{custom_model_data:{head:330066,idle:330068,moving:330070}}}}],HandItems:[{id:"minecraft:structure_block",Count:1b,tag:{CustomModelData:330068}}]}
 data remove storage tcc:storage root.temp
 data modify storage tcc:storage root.temp.UUID set from entity @s UUID
-summon trader_llama ~0.1 ~ ~ {DespawnDelay:47999,Tags:["tcc.wandering_witch_llama.newly_spawned","tcc.modified_vanilla_entity","tcc.wandering_witch_llama","tcc.ten_second_clock"],DecorItem:{id:"minecraft:black_carpet",Count:1b},Variant:3,Tame:1b,ChestedHorse:1b,Strength:5}
-execute as @e[type=trader_llama,limit=1,tag=tcc.wandering_witch_llama.newly_spawned] run function tcc:entity/wandering_witch/initiate_llama
+execute positioned ~0.1 ~ ~ summon trader_llama run function tcc:entity/wandering_witch/initiate_llama
 
 data remove entity @s Offers.Recipes
 
@@ -40,5 +40,3 @@ data modify entity @s Offers.Recipes[-1].maxUses set value 1b
 
 item replace entity @s weapon.mainhand with air
 item replace entity @s weapon.offhand with air
-
-tag @s remove tcc.wandering_witch.newly_spawned

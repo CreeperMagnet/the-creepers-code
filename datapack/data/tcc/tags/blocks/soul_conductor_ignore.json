@@ -5,11 +5,12 @@
     "#minecraft:wool_carpets",
     "#minecraft:wall_signs",
     "#minecraft:rails",
-    "#minecraft:signs",
+    "#minecraft:all_signs",
     "#minecraft:saplings",
     "#minecraft:banners",
     "#minecraft:rails",
     "#minecraft:cave_vines",
+    "#minecraft:trapdoors",
     "#tcc:air",
     "minecraft:vine",
     "minecraft:torch",
@@ -58,6 +59,7 @@
     "minecraft:tall_grass",
     "minecraft:cobweb",
     "minecraft:tripwire_hook",
-    "minecraft:bamboo_sapling"
+    "minecraft:bamboo_sapling",
+    "minecraft:moss_carpet"
   ]
 }

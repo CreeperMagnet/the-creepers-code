@@ -2,7 +2,7 @@
     "parent": "item/generated",
     "textures": {
       "layer0": "tcc:item/diluted_potion/glass",
-      "layer1": "tcc:item/diluted_potion/harming/8"
+      "layer1": "tcc:item/diluted_potion/8_harming"
     }
   }
   

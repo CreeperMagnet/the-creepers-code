@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{CustomPotionColor:3089152,CustomPotionEffects:[{Duration:300,Id:15,Amplifier:0b},{Duration:300,Id:5,Amplifier:2b}],Potion:\"minecraft:mundane\",tcc:{potion:{can_extend:1b,id:\"tcc:blind_rage\"},id:\"potion\"},display:{Lore:['{\"translate\":\"pack.tcc\",\"color\":\"#008725\"}'],Name:'{\"translate\":\"item.tcc.potion.effect.blind_rage\",\"italic\":false}'}}"
+              "tag": "{CustomPotionColor:8940032,CustomPotionEffects:[{Duration:300,Id:15,Amplifier:0b},{Duration:300,Id:5,Amplifier:2b}],Potion:\"minecraft:mundane\",tcc:{potion:{can_extend:1b,id:\"tcc:blind_rage\"},id:\"potion\"},display:{Lore:['{\"translate\":\"pack.tcc\",\"color\":\"#008725\"}'],Name:'{\"translate\":\"item.tcc.potion.effect.blind_rage\",\"italic\":false}'}}"
             }
           ]
         }

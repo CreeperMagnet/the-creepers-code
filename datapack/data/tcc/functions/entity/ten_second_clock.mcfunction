@@ -2,8 +2,8 @@
 # Functions to run off of every tcc entity every ten seconds
 ############################################################
 
-## Trader Entity Functions
-execute if entity @s[type=minecraft:wandering_trader,tag=tcc.trader_entity] run function tcc:entity/trader_entity/ten_second_clock
+## Wandering witch
+execute if entity @s[type=minecraft:wandering_trader,tag=tcc.wandering_witch] run function tcc:entity/wandering_witch/ten_second_clock
 
 ## Trident refreshing
 execute if entity @s[type=minecraft:trident,tag=tcc.trident] run data modify entity @s life set value -32767s
@@ -21,4 +21,4 @@ execute if entity @s[type=minecraft:armor_stand,tag=tcc.mansion_cleanup] run fun
 execute if entity @s[type=minecraft:trader_llama] run function tcc:entity/trader_llama/ten_second_clock
 
 ## Glowing recovery compass items
-execute if entity @s[type=item,tag=tcc.recovery_compass_item] run data modify entity @s Age set value -32767s
+execute if entity @s[type=minecraft:item,tag=tcc.recovery_compass_item] run data modify entity @s Age set value -32767s

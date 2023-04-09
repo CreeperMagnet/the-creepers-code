@@ -44,7 +44,8 @@
                       "nbt": "root.temp.id",
                       "storage": "tcc:storage",
                       "interpret": true
-                    }
+                    },
+                    ""
                   ],
                   "color": "gray",
                   "italic": false

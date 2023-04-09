@@ -5,7 +5,7 @@
 scoreboard players set @s tcc.dummy 0
 data modify storage tcc:storage root.temp.potion set from storage tcc:storage root.temp.item.tag.Potion
 execute if data storage tcc:storage root.temp.item.tag.tcc.potion.id run data modify storage tcc:storage root.temp.potion set from storage tcc:storage root.temp.item.tag.tcc.potion.id
-data modify storage tcc:storage root.temp.item set value {id:"minecraft:warped_fungus_on_a_stick",Count:1b,tag:{RepairCost:100,tcc:{id:"diluted_potion",potion:{uses:[10,10]}},Enchantments:[{id:"minecraft:binding_curse",lvl:1s}],CustomModelData:0,Unbreakable:1b,HideFlags:5}}
+data modify storage tcc:storage root.temp.item set value {id:"minecraft:warped_fungus_on_a_stick",Count:1b,tag:{RepairCost:100,tcc:{id:"diluted_potion",potion:{uses:[10,10]}},CustomModelData:0,Unbreakable:1b,HideFlags:5}}
 data modify storage tcc:storage root.temp.item.tag.display.Lore set value ['{"translate":"item.tcc.diluted_potion.uses","color":"gray","italic":false,"with":[10,10]}','{"translate":"pack.tcc","color":"#008725","italic":true}']
 data modify storage tcc:storage root.temp.item.tag.tcc.potion.id set from storage tcc:storage root.temp.potion
 

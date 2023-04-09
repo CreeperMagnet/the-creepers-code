@@ -1,177 +1,22 @@
 {
   "parent": "tcc:technical/root",
   "criteria": {
-    "add_water": {
+    "interact": {
       "trigger": "minecraft:player_interacted_with_entity",
       "conditions": {
-        "item": {
-          "items": [
-            "minecraft:potion"
-          ],
-          "nbt": "{Potion:\"minecraft:water\"}"
-        },
-        "entity": [
-          {
-            "condition": "minecraft:inverted",
-            "term": {
-              "condition": "minecraft:entity_properties",
-              "entity": "this",
-              "predicate": {
-                "nbt": "{Tags:[\"tcc.teapot.filled\"]}"
-              }
-            }
-          }
-        ]
-      }
-    },
-    "take": {
-      "trigger": "minecraft:player_interacted_with_entity",
-      "conditions": {
-        "player": [
-          {
-            "condition": "minecraft:alternative",
-            "terms": [
-              {
-                "condition": "minecraft:entity_properties",
-                "entity": "this",
-                "predicate": {
-                  "equipment": {
-                    "mainhand": {
-                      "items": [
-                        "minecraft:glass_bottle"
-                      ],
-                      "count": 1
-                    }
-                  }
-                }
-              },
-              {
-                "condition": "minecraft:inverted",
-                "term": {
-                  "condition": "minecraft:reference",
-                  "name": "tcc:entity/full_inventory"
-                }
-              }
-            ]
-          }
-        ],
-        "item": {
-          "items": [
-            "minecraft:glass_bottle"
-          ]
-        },
-        "entity": [
-          {
-            "condition": "minecraft:inverted",
-            "term": {
-              "condition": "minecraft:entity_scores",
-              "entity": "this",
-              "scores": {
-                "tcc.dummy2": {
-                  "min": 1
-                }
-              }
-            }
-          },
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "nbt": "{Tags:[\"tcc.teapot.filled\"]}"
-            }
-          }
-        ]
-      }
-    },
-    "add_warped_wart": {
-      "trigger": "minecraft:player_interacted_with_entity",
-      "conditions": {
-        "item": {
-          "nbt": "{tcc:{id:\"warped_wart\"}}"
-        },
         "entity": [
           {
             "condition": "minecraft:entity_properties",
             "entity": "this",
             "predicate": {
-              "nbt": "{Tags:[\"tcc.teapot.water\"]}"
-            }
-          }
-        ]
-      }
-    },
-    "add_ingredient": {
-      "trigger": "minecraft:player_interacted_with_entity",
-      "conditions": {
-        "player": [
-          {
-            "condition": "minecraft:reference",
-            "name": "tcc:entity/holding/tea_ingredient"
-          }
-        ],
-        "entity": [
-          {
-            "condition": "minecraft:inverted",
-            "term": {
-              "condition": "minecraft:entity_scores",
-              "entity": "this",
-              "scores": {
-                "tcc.dummy2": {
-                  "min": 1
-                }
-              }
-            }
-          },
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "nbt": "{Tags:[\"tcc.teapot.warped_wart\"]}"
-            }
-          }
-        ]
-      }
-    },
-    "add_snail_mucus": {
-      "trigger": "minecraft:player_interacted_with_entity",
-      "conditions": {
-        "item": {
-          "nbt": "{tcc:{id:\"snail_mucus\"}}"
-        },
-        "entity": [
-          {
-            "condition": "minecraft:inverted",
-            "term": {
-              "condition": "minecraft:entity_scores",
-              "entity": "this",
-              "scores": {
-                "tcc.dummy2": {
-                  "min": 1
-                }
-              }
-            }
-          },
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "nbt": "{Tags:[\"tcc.teapot.can_extend\"]}"
+              "nbt": "{Tags:[\"tcc.teapot\"]}"
             }
           }
         ]
       }
     }
   },
-  "requirements": [
-    [
-      "add_water",
-      "take",
-      "add_warped_wart",
-      "add_ingredient",
-      "add_snail_mucus"
-    ]
-  ],
   "rewards": {
-    "function": "tcc:block/teapot/interact/raycast_start"
+    "function": "tcc:block/teapot/interact/advancement"
   }
 }

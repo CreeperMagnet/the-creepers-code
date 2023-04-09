@@ -2,7 +2,7 @@
 # Starts the recipe process of a brewing recipe
 ############################################################
 
-data modify storage tcc:storage root.temp.item.tag.CustomPotionColor set value 3089152
+data modify storage tcc:storage root.temp.item.tag.CustomPotionColor set value 8940032
 data modify storage tcc:storage root.temp.item.tag.Potion set value "minecraft:mundane"
 data modify storage tcc:storage root.temp.item.tag.display.Lore set value ['{"translate":"pack.tcc","color":"#008725"}']
 data modify storage tcc:storage root.temp.item.tag.tcc set value {id:"potion",potion:{id:"tcc:blind_rage",can_extend:1b}}

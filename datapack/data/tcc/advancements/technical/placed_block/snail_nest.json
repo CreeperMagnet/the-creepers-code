@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "place": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "item": {
+          "nbt": "{BlockEntityTag:{Items:[{tag:{tcc:{placed_block:1b,block:\"snail_nest\"}}}]}}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "tcc:block/snail_nest/stop_sound"
+  }
+}

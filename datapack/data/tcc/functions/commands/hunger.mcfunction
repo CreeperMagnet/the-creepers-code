@@ -2,4 +2,4 @@
 # Makes you hungry. Very hungry.
 ############################################################
 
-effect give @s hunger 8 255
+effect give @s hunger 4 255

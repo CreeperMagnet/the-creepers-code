@@ -9,6 +9,7 @@ effect clear @s weakness
 effect clear @s unluck
 effect clear @s mining_fatigue
 effect clear @s hunger
+effect clear @s darkness
 
-effect give @s resistance 1000000 100 true
-effect give @s saturation 1000000 100 true
+effect give @s resistance infinite 100 true
+effect give @s saturation infinite 100 true

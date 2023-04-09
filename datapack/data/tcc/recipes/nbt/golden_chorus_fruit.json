@@ -1,21 +1,22 @@
 {
   "group": "nbt_recipe",
   "category": "misc",
-    "type": "crafting_shaped",
-    "pattern": [
-      "###",
-      "#F#",
-      "###"
-    ],
-    "key": {
-      "#": {
-        "item": "minecraft:gold_ingot"
-      },
-      "F":{
-          "item":"minecraft:chorus_fruit"
-      }
+  "type": "crafting_shaped",
+  "show_notification": false,
+  "pattern": [
+    "###",
+    "#F#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:gold_ingot"
     },
-    "result": {
-      "item": "minecraft:knowledge_book"
+    "F": {
+      "item": "minecraft:chorus_fruit"
     }
+  },
+  "result": {
+    "item": "minecraft:knowledge_book"
   }
+}

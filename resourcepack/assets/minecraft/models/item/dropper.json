@@ -41,7 +41,7 @@
       "predicate": {
         "custom_model_data": 330006
       },
-      "model": "tcc:block/snail_nest/full"
+      "model": "tcc:block/snail_nest"
     },
     {
       "predicate": {

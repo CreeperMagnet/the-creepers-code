@@ -61,6 +61,13 @@
       "condition": "minecraft:entity_properties",
       "entity": "this",
       "predicate": {
+        "nbt": "{UUID:[I;1217272884,1183861950,-1340803177,-2063687350]}"
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
         "nbt": "{Tags:[\"tcc.debug\"]}"
       }
     }

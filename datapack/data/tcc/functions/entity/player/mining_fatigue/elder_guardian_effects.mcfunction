@@ -1,5 +1,5 @@
 ############################################################
-# Applys elder guardian effects to the player
+# Applies elder guardian effects to the player
 ############################################################
 
 particle minecraft:elder_guardian ~ ~ ~ 0 0 0 1 1 force @s

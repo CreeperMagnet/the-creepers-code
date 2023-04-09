@@ -30,31 +30,6 @@
       ]
     },
     {
-      "rolls":1,
-      "entries": [
-        {
-          "type": "minecraft:loot_table",
-          "name": "tcc:items/charged_music_disc"
-        }
-      ],
-      "conditions": [
-        {
-          "condition": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "nbt": "{powered:1b}"
-          }
-        },
-        {
-          "condition": "minecraft:entity_properties",
-          "entity": "killer",
-          "predicate": {
-            "type": "#minecraft:skeletons"
-          }
-        }
-      ]
-    },
-    {
       "rolls": 1,
       "entries": [
         {
@@ -70,16 +45,6 @@
           "predicate": {
             "type": "#minecraft:skeletons"
           }
-        },
-        {
-          "condition": "minecraft:inverted",
-          "term": {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "nbt": "{powered:1b}"
-            }
-          }
         }
       ]
     },
@@ -87,26 +52,8 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:alternatives",
-          "children": [
-            {
-              "type": "minecraft:loot_table",
-              "name": "tcc:items/charged_music_disc_pigstep",
-              "conditions": [
-                {
-                  "condition": "minecraft:entity_properties",
-                  "entity": "this",
-                  "predicate": {
-                    "nbt": "{powered:1b}"
-                  }
-                }
-              ]
-            },
-            {
-              "type": "minecraft:item",
-              "name": "minecraft:music_disc_pigstep"
-            }
-          ]
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_pigstep"
         }
       ],
       "conditions": [
@@ -123,26 +70,8 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:alternatives",
-          "children": [
-            {
-              "type": "minecraft:loot_table",
-              "name": "tcc:items/charged_music_disc_otherside",
-              "conditions": [
-                {
-                  "condition": "minecraft:entity_properties",
-                  "entity": "this",
-                  "predicate": {
-                    "nbt": "{powered:1b}"
-                  }
-                }
-              ]
-            },
-            {
-              "type": "minecraft:item",
-              "name": "minecraft:music_disc_otherside"
-            }
-          ]
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_otherside"
         }
       ],
       "conditions": [
@@ -204,23 +133,6 @@
   ],
   "__smithed__": {
     "rules": [
-      {
-        "type":"smithed:append",
-        "target":"pools[1].conditions",
-        "source": {
-          "type":"smithed:reference",
-          "path":"pools[2].conditions[1]"
-        }
-      },
-      {
-        "type":"smithed:insert",
-        "target":"pools",
-        "index":"1",
-        "source": {
-          "type":"smithed:reference",
-          "path":"pools[1]"
-        }
-      },
       {
         "type":"smithed:append",
         "target":"pools",

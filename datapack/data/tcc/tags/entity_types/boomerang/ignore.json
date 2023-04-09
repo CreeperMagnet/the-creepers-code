@@ -33,6 +33,10 @@
     "minecraft:experience_orb",
     "minecraft:player",
     "minecraft:ender_dragon",
-    "minecraft:marker"
+    "minecraft:marker",
+    "minecraft:block_display",
+    "minecraft:item_display",
+    "minecraft:text_display",
+    "minecraft:interaction"
   ]
 }

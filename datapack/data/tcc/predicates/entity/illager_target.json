@@ -1,0 +1,16 @@
+{
+  "condition": "minecraft:alternative",
+  "terms": [
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{Tags:[\"tcc.illager_target\"]}"
+      }
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "tcc:entity/vanilla_illager_target"
+    }
+  ]
+}

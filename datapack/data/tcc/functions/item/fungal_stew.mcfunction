@@ -3,4 +3,4 @@
 ############################################################
 
 advancement revoke @s only tcc:technical/consume_item/fungal_stew
-effect give @s minecraft:fire_resistance 15
+effect give @s minecraft:fire_resistance 60

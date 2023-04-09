@@ -2,7 +2,7 @@
   "values": [
     "#tcc:containers",
     "#minecraft:beehives",
-    "#minecraft:standing_signs",
+    "#minecraft:all_signs",
     "minecraft:lectern"
   ]
 }

@@ -9,4 +9,4 @@ execute if entity @s[scores={tcc.used_warped_fungus_on_a_stick=1..}] run functio
 execute if entity @s[predicate=tcc:entity/holding/mending_item/any] positioned ~ ~0.805 ~ run function tcc:item/durability/mending/xp_orb_test/main
 
 ## Totem of Undying and void bugfix
-effect give @s[predicate=tcc:item/totem_void_heal] instant_health 1 0
+execute if score @s tcc.health matches 0..5 run effect give @s[predicate=tcc:item/totem_void_heal] instant_health 1 0

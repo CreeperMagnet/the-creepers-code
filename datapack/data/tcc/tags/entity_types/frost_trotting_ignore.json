@@ -3,6 +3,10 @@
     "minecraft:item",
     "#minecraft:arrows",
     "minecraft:experience_orb",
-    "minecraft:marker"
+    "minecraft:marker",
+    "minecraft:item_display",
+    "minecraft:block_display",
+    "minecraft:text_display",
+    "minecraft:interaction"
   ]
 }

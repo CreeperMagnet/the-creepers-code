@@ -25,7 +25,6 @@ scoreboard objectives add tcc.drop minecraft.custom:minecraft.drop
 scoreboard objectives add tcc.current_xp xp
 scoreboard objectives add tcc.old_xp dummy
 scoreboard objectives add tcc.tea dummy
-scoreboard objectives add tcc.invul_timer dummy
 scoreboard objectives add tcc.boomerang_cooldown dummy
 
 #Use for operations spanning multiple ticks
@@ -39,6 +38,7 @@ scoreboard players set #4 tcc.dummy 4
 scoreboard players set #5 tcc.dummy 5
 scoreboard players set #6 tcc.dummy 6
 scoreboard players set #10 tcc.dummy 10
+scoreboard players set #12 tcc.dummy 12
 scoreboard players set #16 tcc.dummy 16
 scoreboard players set #25 tcc.dummy 25
 scoreboard players set #31 tcc.dummy 31
@@ -50,7 +50,7 @@ scoreboard players set #180 tcc.dummy 180
 execute store result score #world_seed tcc.dummy run seed
 
 ## Wandering Witch Timer
-execute unless score #wandering_witch_timer tcc.dummy matches -2147483648..2147483647 run scoreboard players set #wandering_witch_timer tcc.dummy 120
+execute unless score #wandering_witch_timer tcc.dummy matches -2147483648..2147483647 run scoreboard players set #wandering_witch_timer tcc.dummy 180
 
 ## Triggered Objectives
 scoreboard objectives add tcc.emoji trigger

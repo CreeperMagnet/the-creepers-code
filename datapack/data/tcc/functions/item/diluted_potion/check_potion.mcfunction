@@ -17,7 +17,7 @@ execute store success score @s[scores={tcc.dummy=0},nbt=!{ActiveEffects:[{Id:5}]
 execute store success score @s[scores={tcc.dummy=0},nbt=!{ActiveEffects:[{Id:5}]}] tcc.dummy if data storage tcc:storage root.temp.item.tag.tcc.potion{id:"minecraft:long_strength"} run effect give @s minecraft:strength 48 0
 execute store success score @s[scores={tcc.dummy=0},nbt=!{ActiveEffects:[{Id:5,Amplifier:1b}]}] tcc.dummy if data storage tcc:storage root.temp.item.tag.tcc.potion{id:"minecraft:strong_strength"} run effect give @s minecraft:strength 9 1
 
-execute if entity @s[gamemode=!creative] if data storage tcc:storage root.temp.item.tag.tcc.potion{id:"minecraft:harming"} run function tcc:item/diluted_potion/apply_effect/harming
+execute if entity @s[gamemode=!creative,nbt={HurtTime:0s}] if data storage tcc:storage root.temp.item.tag.tcc.potion{id:"minecraft:harming"} run function tcc:item/diluted_potion/apply_effect/harming
 
 execute if entity @s[gamemode=!creative] if data storage tcc:storage root.temp.item.tag.tcc.potion{id:"minecraft:healing"} run function tcc:item/diluted_potion/apply_effect/healing
 

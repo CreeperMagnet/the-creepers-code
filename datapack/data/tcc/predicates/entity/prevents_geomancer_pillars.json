@@ -14,13 +14,6 @@
       "predicate": {
         "nbt": "{Tags:[\"tcc.illager\"]}"
       }
-    },
-    {
-      "condition": "minecraft:entity_properties",
-      "entity": "this",
-      "predicate": {
-        "nbt": "{Tags:[\"smithed.block\"]}"
-      }
     }
   ]
 }

@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{Potion:\"minecraft:mundane\",CustomPotionColor:7107114,HideFlags:32,tcc:{id:\"tea\",tea:{id:\"clearsight\",extended:0b}},CustomModelData:330001}"
+              "tag": "{Potion:\"minecraft:mundane\",CustomPotionColor:15233650,HideFlags:32,tcc:{id:\"tea\",tea:{id:\"clearsight\",extended:0b}},CustomModelData:330001}"
             },
             {
               "function": "minecraft:set_name",

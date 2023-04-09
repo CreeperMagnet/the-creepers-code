@@ -9,6 +9,7 @@ effect clear @s weakness
 effect clear @s unluck
 effect clear @s mining_fatigue
 effect clear @s hunger
+effect clear @s darkness
 
 effect give @s instant_health 1 100
 effect give @s saturation 1 100

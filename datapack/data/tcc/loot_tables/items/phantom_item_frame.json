@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{tcc:{id:\"phantom_item_frame\"},CustomModelData:330000,EntityTag:{Tags:[\"tcc.phantom_item_frame.place\",\"tcc.phantom_item_frame.empty\",\"tcc.phantom_item_frame\",\"tcc.tick\",\"tcc.block\"],Invisible:1b,Item:{id:\"minecraft:structure_block\",Count:1b,tag:{tcc:{id:\"phantom_item_frame_model\",clear:1b},CustomModelData:330007}}}}"
+              "tag": "{tcc:{id:\"phantom_item_frame\"},CustomModelData:330000,EntityTag:{Tags:[\"tcc.phantom_item_frame.place\",\"tcc.phantom_item_frame.empty\",\"tcc.phantom_item_frame\",\"tcc.tick\"],Invisible:1b,Item:{id:\"minecraft:structure_block\",Count:1b,tag:{tcc:{id:\"phantom_item_frame_model\",clear:1b},CustomModelData:330007}}}}"
             },
             {
               "function": "minecraft:set_name",
