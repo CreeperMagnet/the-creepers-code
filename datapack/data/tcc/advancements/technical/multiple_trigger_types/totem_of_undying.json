@@ -9,7 +9,12 @@
       "conditions": {
         "damage": {
           "type": {
-            "bypasses_invulnerability": true
+            "tags": [
+              {
+                "id": "tcc:totem_out_of_world",
+                "expected": true
+              }
+            ]
           }
         }
       }
