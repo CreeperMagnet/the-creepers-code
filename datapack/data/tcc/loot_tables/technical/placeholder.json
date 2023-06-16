@@ -1,20 +1,21 @@
 {
-    "type": "minecraft:command",
-    "pools": [
+  "type": "minecraft:command",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
         {
-            "rolls": 1,
-            "entries": [
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:structure_block",
-                    "functions": [
-                        {
-                            "function": "set_nbt",
-                            "tag": "{CustomModelData:330000,tcc:{id:\"placeholder\"}}"
-                        }
-                    ]
-                }
-            ]
+          "type": "minecraft:item",
+          "name": "minecraft:structure_block",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{CustomModelData:330000,tcc:{id:\"placeholder\"}}"
+            }
+          ]
         }
-    ]
+      ]
+    }
+  ],
+  "random_sequence": "tcc:technical/placeholder"
 }

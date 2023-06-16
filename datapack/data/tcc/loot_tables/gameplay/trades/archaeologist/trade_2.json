@@ -1,0 +1,44 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:emerald",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 7,
+                "max": 10
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:brush",
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "enchantments": [
+                "minecraft:unbreaking"
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{tcc:{zombified_villager_detection:1b}}"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "random_sequence": "tcc:gameplay/trades/archaeologist/trade_2"
+}

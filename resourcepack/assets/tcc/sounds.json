@@ -204,6 +204,27 @@
     ],
     "subtitle": "subtitles.tcc.block.teapot.brew"
   },
+  "block.teapot.hit": {
+    "sounds": [
+      {
+        "name": "entity/armorstand/hit1",
+        "pitch": 1.5
+      },
+      {
+        "name": "entity/armorstand/hit2",
+        "pitch": 1.5
+      },
+      {
+        "name": "entity/armorstand/hit3",
+        "pitch": 1.5
+      },
+      {
+        "name": "entity/armorstand/hit4",
+        "pitch": 1.5
+      }
+    ],
+    "subtitle": "subtitles.tcc.block.teapot.hit"
+  },
   "block.gobblerift.place": {
     "sounds": [
       "tcc:block/gobblerift/place1",

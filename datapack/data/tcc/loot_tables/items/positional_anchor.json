@@ -1,30 +1,38 @@
 {
-  "pools": [{
-    "rolls": 1,
-    "entries": [{
-      "type": "minecraft:item",
-      "weight": 1,
-      "functions": [{
-          "function": "minecraft:set_nbt",
-          "tag": "{BlockEntityTag:{id:\"minecraft:dropper\",Items:[{id:\"minecraft:barrier\",Count:1b,tag:{tcc:{placed_block:1b,block:\"positional_anchor\"}}}]},CustomModelData:330002,tcc:{id:\"positional_anchor\"}}"
-        },
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
         {
-          "function": "minecraft:set_name",
-          "name": {
-            "translate": "block.tcc.positional_anchor",
-            "italic": false
-          }
-        },
-        {
-          "function": "minecraft:set_lore",
-          "lore": [{
-            "translate": "pack.tcc",
-            "color": "#008725",
-            "italic": true
-          }]
+          "type": "minecraft:item",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{id:\"minecraft:dropper\",Items:[{id:\"minecraft:barrier\",Count:1b,tag:{tcc:{placed_block:1b,block:\"positional_anchor\"}}}]},CustomModelData:330002,tcc:{id:\"positional_anchor\"}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "block.tcc.positional_anchor",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "pack.tcc",
+                  "color": "#008725",
+                  "italic": true
+                }
+              ]
+            }
+          ],
+          "name": "minecraft:dropper"
         }
-      ],
-      "name": "minecraft:dropper"
-    }]
-  }]
+      ]
+    }
+  ],
+  "random_sequence": "tcc:items/positional_anchor"
 }

@@ -69,6 +69,7 @@
       ]
     }
   ],
+  "random_sequence": "minecraft:entities/zombified_piglin",
   "__smithed__": {
     "rules": [
       {

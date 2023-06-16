@@ -60,6 +60,7 @@
       ]
     }
   ],
+  "random_sequence": "minecraft:blocks/bee_nest",
   "__smithed__": {
     "rules": [
       {

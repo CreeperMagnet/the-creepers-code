@@ -7,8 +7,8 @@
     "absolute": 0
   },
   "step": "surface_structures",
-  "terrain_adaptation": "beard_thin",
-  "start_pool": "tcc:tundra_keep/base_building",
+  "terrain_adaptation": "beard_box",
+  "start_pool": "tcc:tundra_keep/connector",
   "biomes": "#tcc:has_structure/tundra_keep",
   "spawn_overrides": {
     "monster": {

@@ -34,6 +34,11 @@
     "minecraft:pointed_dripstone",
     "minecraft:sculk_vein",
     "minecraft:frogspawn",
-    "minecraft:cobweb"
+    "minecraft:cobweb",
+    "minecraft:pink_petals",
+    "minecraft:melon",
+    "minecraft:pumpkin",
+    "minecraft:carved_pumpkin",
+    "minecraft:jack_o_lantern"
   ]
 }

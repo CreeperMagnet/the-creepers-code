@@ -245,6 +245,15 @@
     },
     {
       "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "tcc:village_mangrove_swamp/houses/archaeologist",
+        "processors": "tcc:archaeologist_house",
+        "projection": "rigid"
+      },
+      "weight": 4
+    },
+    {
+      "element": {
         "element_type": "minecraft:empty_pool_element"
       },
       "weight": 6

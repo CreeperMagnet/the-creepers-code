@@ -146,7 +146,6 @@
   "commands.tcc.initiate": "%s jest aktywny.",
   "commands.tcc.wrong_version: You are using TCC on the incorrect Minecraft version. Please check the download.": "\nUżywasz TCC na niewłaściwej wersji Minecraft. Proszę sprawdź pobraną wersję.",
   "commands.tcc.initiate.wrong_version.title": "ZŁA WERSJA",
-  "commands.tcc.give_all_recipes_error: It seems that you have a mod/datapack installed that gives the player all recipes. Please disable it or performance may be drastically lowered. You can safely ignore this message if you are not worried about performance.": "Wygląda na to, że masz zainstalowany mod/datapack, który daje graczom wszystkie receptury. Proszę go wyłączyć lub wydajność może być drastycznie obniżona. Możesz bezpiecznie zignorować tę wiadomość, jeśli nie jesteś zaniepokojony wydajnością.",
   "chat.tcc.gamerules.title": "Zasady gry TCC",
   "chat.tcc.gamerules.false": "[Włączony]",
   "chat.tcc.gamerules.true": "[Wyłączony]",

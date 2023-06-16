@@ -25,5 +25,18 @@
         }
       ]
     }
-  ]
+  ],
+  "random_sequence": "minecraft:entities/armor_stand",
+  "__smithed__": {
+    "rules": [
+      {
+        "type": "smithed:append",
+        "target": "pools",
+        "source": {
+          "type": "smithed:reference",
+          "path": "pools[0]"
+        }
+      }
+    ]
+  }
 }

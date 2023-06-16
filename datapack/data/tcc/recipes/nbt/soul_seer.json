@@ -2,7 +2,6 @@
   "group": "nbt_recipe",
   "category": "misc",
   "type": "crafting_shaped",
-  "show_notification": false,
   "pattern": [
     "DSD",
     "SES",

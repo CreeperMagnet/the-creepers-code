@@ -1,0 +1,44 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:angler_pottery_sherd",
+      "nbt": "{CustomModelData:330001}"
+    },
+    "title": {
+      "translate": "advancements.tcc.minecraft.nether.enter_refuge_remains.title"
+    },
+    "description": [
+      {
+        "translate": "advancements.tcc.minecraft.nether.enter_refuge_remains.description"
+      },
+      "\n\n",
+      {
+        "translate": "pack.tcc",
+        "color": "#008725",
+        "italic": true
+      }
+    ],
+    "show_toast": true,
+    "announce_to_chat": true,
+    "frame": "task"
+  },
+  "parent": "minecraft:nether/root",
+  "criteria": {
+    "enter_refuge_remains": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "tcc:refuge_remains"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

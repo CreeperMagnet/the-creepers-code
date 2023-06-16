@@ -69,6 +69,7 @@
       ]
     }
   ],
+  "random_sequence": "minecraft:blocks/beehive",
   "__smithed__": {
     "rules": [
       {

@@ -4,6 +4,7 @@
     "minecraft:falling_block",
     "minecraft:wandering_trader",
     "minecraft:marker",
-    "minecraft:item_display"
+    "minecraft:item_display",
+    "minecraft:villager"
   ]
 }

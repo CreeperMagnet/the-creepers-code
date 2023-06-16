@@ -246,6 +246,21 @@
           "name": "tcc:items/enchanted_golden_carrot"
         }
       ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 9
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:vex_armor_trim_smithing_template",
+          "weight": 1
+        }
+      ]
     }
-  ]
+  ],
+  "random_sequence": "tcc:chests/woodland_mansion/common"
 }

@@ -13,18 +13,8 @@
             }
           ]
         }
-      ],
-      "conditions": [
-        {
-          "condition": "minecraft:entity_scores",
-          "entity": "this",
-          "scores": {
-            "tcc.crafted_item": {
-              "min": 1
-            }
-          }
-        }
       ]
     }
-  ]
+  ],
+  "random_sequence": "tcc:recipes/sweet_berry_muffin"
 }

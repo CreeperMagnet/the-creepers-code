@@ -12,7 +12,6 @@ execute unless score #server_version tcc.dummy matches 100 run function tcc:tech
 execute as @a[nbt={Inventory:[{tag:{tcc:{id:"compendium"}}}]},gamemode=!spectator] run function tcc:item/compendium
 
 ## Gamerules
-gamerule doLimitedCrafting false
 gamerule logAdminCommands false
 gamerule commandBlockOutput false
 gamerule maxCommandChainLength 2147483647
@@ -20,7 +19,6 @@ gamerule maxCommandChainLength 2147483647
 ## Scoreboards
 scoreboard objectives add tcc.used_warped_fungus_on_a_stick minecraft.used:minecraft.warped_fungus_on_a_stick
 scoreboard objectives add tcc.health health
-scoreboard objectives add tcc.crafted_item minecraft.crafted:minecraft.knowledge_book
 scoreboard objectives add tcc.drop minecraft.custom:minecraft.drop
 scoreboard objectives add tcc.current_xp xp
 scoreboard objectives add tcc.old_xp dummy
@@ -59,3 +57,5 @@ scoreboard objectives add tcc.compendium trigger
 ## Teams
 team add tcc.recovery_compass
 team modify tcc.recovery_compass color aqua
+team add smithed.prevent_aggression
+team modify smithed.prevent_aggression friendlyFire false

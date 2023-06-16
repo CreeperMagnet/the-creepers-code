@@ -12,14 +12,19 @@
             }
           }
         ],
-        "location": {
-          "block": {
-            "blocks": [
-              "minecraft:dropper"
-            ],
-            "nbt": "{Lock:\"§soul_conductor\\\\uF001\"}"
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:dropper"
+                ],
+                "nbt": "{Lock:\"§soul_conductor\\\\uF001\"}"
+              }
+            }
           }
-        }
+        ]
       }
     }
   },

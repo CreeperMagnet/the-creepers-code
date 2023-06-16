@@ -146,7 +146,6 @@
   "commands.tcc.initiate": "%s включен.",
   "commands.tcc.wrong_version: You are using TCC on the incorrect Minecraft version. Please check the download.": "\nВы используете The Creeper's Code в неправильной версии Minecraft. Пожалуйста, просмотрите страницу загрузки.",
   "commands.tcc.initiate.wrong_version.title": "НЕВЕРНАЯ ВЕРСИЯ",
-  "commands.tcc.give_all_recipes_error: It seems that you have a mod/datapack installed that gives the player all recipes. Please disable it or performance may be drastically lowered. You can safely ignore this message if you are not worried about performance.": "Похоже, у вас стоит пакет данных или мод, открывающий все рецепты создания. Просим убрать это или датапак не сможет стабильно работать. Вы можете спокойно проигнорировать это сообщение если Вам не важна стабильностью.",
   "chat.tcc.gamerules.title": "Игровые правила TCC",
   "chat.tcc.gamerules.false": "[Выкл]",
   "chat.tcc.gamerules.true": "[Вкл]",

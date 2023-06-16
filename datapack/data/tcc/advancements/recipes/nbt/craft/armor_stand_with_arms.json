@@ -1,0 +1,17 @@
+{
+  "parent": "tcc:recipes/nbt/craft/root",
+  "rewards": {
+    "function": "tcc:entity/player/nbt_recipe/crafted_item",
+    "loot": [
+      "tcc:items/armor_stand_with_arms"
+    ]
+  },
+  "criteria": {
+    "recipe_crafted": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "tcc:nbt/armor_stand_with_arms"
+      }
+    }
+  }
+}

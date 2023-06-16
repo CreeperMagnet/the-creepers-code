@@ -1,31 +1,39 @@
 {
-  "pools": [{
-    "rolls": 1,
-    "entries": [{
-      "type": "minecraft:item",
-      "weight": 1,
-      "functions": [{
-          "function": "minecraft:set_nbt",
-          "tag": "{HideFlags:4,RepairCost:100,tcc:{id:\"frostbloom\"},CustomModelData:330007,Unbreakable:1b}"
-        },
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
         {
-          "function": "minecraft:set_name",
-          "name": {
-            "translate": "block.tcc.frostbloom",
-            "color": "yellow",
-            "italic": false
-          }
-        },
-        {
-          "function": "minecraft:set_lore",
-          "lore": [{
-            "translate": "pack.tcc",
-            "color": "#008725",
-            "italic": true
-          }]
+          "type": "minecraft:item",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{HideFlags:4,RepairCost:100,tcc:{id:\"frostbloom\"},CustomModelData:330007,Unbreakable:1b}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "block.tcc.frostbloom",
+                "color": "yellow",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "pack.tcc",
+                  "color": "#008725",
+                  "italic": true
+                }
+              ]
+            }
+          ],
+          "name": "minecraft:warped_fungus_on_a_stick"
         }
-      ],
-      "name": "minecraft:warped_fungus_on_a_stick"
-    }]
-  }]
+      ]
+    }
+  ],
+  "random_sequence": "tcc:items/frostbloom"
 }

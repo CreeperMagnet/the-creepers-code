@@ -121,5 +121,6 @@
         }
       ]
     }
-  ]
+  ],
+  "random_sequence": "tcc:entities/enchanter"
 }

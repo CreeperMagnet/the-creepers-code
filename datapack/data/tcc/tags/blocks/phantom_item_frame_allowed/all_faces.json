@@ -88,6 +88,10 @@
         "minecraft:soul_fire",
         "minecraft:kelp",
         "minecraft:kelp_plant",
-        "minecraft:sculk_vein"
+        "minecraft:sculk_vein",
+        "#minecraft:ceiling_hanging_signs",
+        "minecraft:pink_petals",
+        "minecraft:torchflower",
+        "minecraft:torchflower_crop"
     ]
 }

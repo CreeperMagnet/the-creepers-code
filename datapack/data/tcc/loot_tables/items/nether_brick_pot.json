@@ -1,0 +1,39 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{HideFlags:32,tcc:{id:\"decorated_pot\",type:\"nether_brick\",raw_pot:1b,sherds:[{id:\"minecraft:nether_brick\",Count:1b},{id:\"minecraft:nether_brick\",Count:1b},{id:\"minecraft:nether_brick\",Count:1b},{id:\"minecraft:nether_brick\",Count:1b}]},CustomModelData:330000,BlockEntityTag:{sherds:[\"minecraft:stone\",\"minecraft:stone\",\"minecraft:stone\",\"minecraft:stone\"]}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "block.tcc.nether_brick_pot",
+                "color": "white",
+                "italic": false
+              }
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "translate": "pack.tcc",
+                  "color": "#008725",
+                  "italic": true
+                }
+              ]
+            }
+          ],
+          "name": "minecraft:decorated_pot"
+        }
+      ]
+    }
+  ],
+  "random_sequence": "tcc:items/nether_brick_pot"
+}

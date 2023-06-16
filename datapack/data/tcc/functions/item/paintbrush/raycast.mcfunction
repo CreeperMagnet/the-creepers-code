@@ -3,7 +3,7 @@
 ############################################################
 
 ## Color entities
-execute positioned ~-0.01 ~-0.99 ~-0.01 as @e[dx=0,type=#tcc:paintbrush_affected,tag=!smithed.entity] positioned ~-0.99 ~0.99 ~-0.99 if entity @s[dx=0] run function tcc:item/paintbrush/as_entity
+execute positioned ~-0.01 ~-0.99 ~-0.01 as @e[dx=0,type=#tcc:paintbrush_affected,tag=!smithed.entity,limit=1] positioned ~-0.99 ~0.99 ~-0.99 if entity @s[dx=0] run function tcc:item/paintbrush/as_entity
 
 ## Color blocks
 execute if entity @s[tag=!tcc.tag] positioned ^ ^ ^0.01 align xyz if block ~ ~ ~ #tcc:paintbrush/dyeable run function tcc:item/paintbrush/color_block

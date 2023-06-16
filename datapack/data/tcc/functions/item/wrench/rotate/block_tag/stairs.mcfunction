@@ -3,6 +3,7 @@
 ############################################################
 
 execute if block ~ ~ ~ #minecraft:wooden_stairs run function tcc:item/wrench/rotate/block_tag/wooden_stairs
+execute if block ~ ~ ~ bamboo_mosaic_stairs run function tcc:item/wrench/rotate/block/bamboo_mosaic_stairs/main
 execute if block ~ ~ ~ cobblestone_stairs run function tcc:item/wrench/rotate/block/cobblestone_stairs/main
 execute if block ~ ~ ~ sandstone_stairs run function tcc:item/wrench/rotate/block/sandstone_stairs/main
 execute if block ~ ~ ~ nether_brick_stairs run function tcc:item/wrench/rotate/block/nether_brick_stairs/main

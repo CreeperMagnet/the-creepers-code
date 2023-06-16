@@ -22,3 +22,6 @@ execute if entity @s[type=minecraft:trader_llama] run function tcc:entity/trader
 
 ## Glowing recovery compass items
 execute if entity @s[type=minecraft:item,tag=tcc.recovery_compass_item] run data modify entity @s Age set value -32767s
+
+## Zombified Archaeologists
+execute if entity @s[type=minecraft:zombie_villager,tag=tcc.zombified_archaeologist] run function tcc:entity/archaeologist/zombie/ten_second_clock

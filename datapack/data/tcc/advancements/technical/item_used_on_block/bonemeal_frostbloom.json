@@ -3,18 +3,26 @@
     "place": {
       "trigger": "minecraft:item_used_on_block",
       "conditions": {
-        "item": {
-          "items": [
-            "minecraft:bone_meal"
-          ]
-        },
-        "location": {
-          "block": {
-            "blocks": [
-              "minecraft:spruce_sapling"
-            ]
+        "location": [
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:bone_meal"
+              ]
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:spruce_sapling"
+                ]
+              }
+            }
           }
-        }
+        ]
       }
     }
   },

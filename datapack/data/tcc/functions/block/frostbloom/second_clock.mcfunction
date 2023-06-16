@@ -3,7 +3,7 @@
 ############################################################
 
 ## Particles
-particle minecraft:falling_dust minecraft:snow ~ ~4 ~ 1 0.4 1 0 32 normal
+execute if block ~ ~1 ~ minecraft:light run particle minecraft:falling_dust minecraft:snow ~ ~4 ~ 1 0.4 1 0 32 normal
 
 ## Mob effects
-execute if predicate tcc:chance/three_fifths as @e[type=#tcc:frostbloom_affected,distance=..3,tag=!smithed.strict] run function tcc:block/frostbloom/mob_effect
+execute positioned ~-2.5 ~-1 ~-2.5 as @e[type=#tcc:frostbloom_affected,dx=4,dy=4,dz=4,tag=!smithed.strict] at @s run function tcc:block/frostbloom/mob_effect

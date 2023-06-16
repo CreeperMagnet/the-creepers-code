@@ -22,7 +22,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:fire_coral",
-          "weight": 1,
+          "weight": 2,
           "functions": [
             {
               "function": "set_count",
@@ -33,7 +33,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:brain_coral",
-          "weight": 1,
+          "weight": 2,
           "functions": [
             {
               "function": "set_count",
@@ -44,7 +44,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:tube_coral",
-          "weight": 1,
+          "weight": 2,
           "functions": [
             {
               "function": "set_count",
@@ -55,7 +55,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:horn_coral",
-          "weight": 1,
+          "weight": 2,
           "functions": [
             {
               "function": "set_count",
@@ -66,7 +66,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:bubble_coral",
-          "weight": 1,
+          "weight": 2,
           "functions": [
             {
               "function": "set_count",
@@ -91,7 +91,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:kelp",
-          "weight": 10,
+          "weight": 5,
           "functions": [
             {
               "function": "set_count",
@@ -104,10 +104,16 @@
         },
         {
           "type": "minecraft:item",
+          "name": "minecraft:turtle_egg",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
           "name": "minecraft:nautilus_shell",
-          "weight": 25
+          "weight": 15
         }
       ]
     }
-  ]
+  ],
+  "random_sequence": "tcc:gameplay/trades/wandering_trader/ocean_items"
 }

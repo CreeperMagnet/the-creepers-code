@@ -33,5 +33,6 @@
         }
       ]
     }
-  ]
+  ],
+  "random_sequence": "tcc:items/phantom_item_frame"
 }

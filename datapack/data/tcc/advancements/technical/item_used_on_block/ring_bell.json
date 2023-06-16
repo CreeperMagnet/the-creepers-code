@@ -14,13 +14,18 @@
             }
           }
         ],
-        "location": {
-          "block": {
-            "blocks": [
-              "minecraft:bell"
-            ]
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:bell"
+                ]
+              }
+            }
           }
-        }
+        ]
       }
     }
   },

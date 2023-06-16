@@ -3,9 +3,14 @@
     "place": {
       "trigger": "minecraft:item_used_on_block",
       "conditions": {
-        "item": {
-          "nbt": "{tcc:{id:\"phantom_item_frame\"}}"
-        }
+        "location": [
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "nbt": "{tcc:{id:\"phantom_item_frame\"}}"
+            }
+          }
+        ]
       }
     }
   },

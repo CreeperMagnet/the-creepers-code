@@ -1,0 +1,21 @@
+{
+  "group": "nbt_recipe",
+  "category": "misc",
+  "type": "crafting_shaped",
+  "pattern": [
+    "BB",
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "tag": "minecraft:planks"
+    },
+    "B": {
+      "item": "minecraft:brick"
+    }
+  },
+  "result": {
+    "item": "minecraft:knowledge_book"
+  }
+}

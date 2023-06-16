@@ -3,7 +3,9 @@
 ############################################################
 
 execute if block ~ ~ ~ acacia_sign run function tcc:item/wrench/rotate/block/acacia_sign/main
+execute if block ~ ~ ~ bamboo_sign run function tcc:item/wrench/rotate/block/bamboo_sign/main
 execute if block ~ ~ ~ birch_sign run function tcc:item/wrench/rotate/block/birch_sign/main
+execute if block ~ ~ ~ cherry_sign run function tcc:item/wrench/rotate/block/cherry_sign/main
 execute if block ~ ~ ~ crimson_sign run function tcc:item/wrench/rotate/block/crimson_sign/main
 execute if block ~ ~ ~ dark_oak_sign run function tcc:item/wrench/rotate/block/dark_oak_sign/main
 execute if block ~ ~ ~ jungle_sign run function tcc:item/wrench/rotate/block/jungle_sign/main

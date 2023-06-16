@@ -1,30 +1,38 @@
 {
-  "pools": [{
-    "rolls": 1,
-    "entries": [{
-      "type": "minecraft:item",
-      "weight": 1,
-      "functions": [{
-          "function": "minecraft:set_nbt",
-          "tag": "{tcc:{id:\"frostbloom_petals\"},CustomModelData:330000}"
-        },
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
         {
-          "function": "minecraft:set_name",
-          "name": {
-            "translate": "item.tcc.frostbloom_petals",
-            "italic": false
-          }
-        },
-        {
-          "function": "minecraft:set_lore",
-          "lore": [{
-            "translate": "pack.tcc",
-            "color": "#008725",
-            "italic": true
-          }]
+          "type": "minecraft:item",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{tcc:{id:\"frostbloom_petals\"},CustomModelData:330000}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.tcc.frostbloom_petals",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "pack.tcc",
+                  "color": "#008725",
+                  "italic": true
+                }
+              ]
+            }
+          ],
+          "name": "minecraft:cookie"
         }
-      ],
-      "name": "minecraft:cookie"
-    }]
-  }]
+      ]
+    }
+  ],
+  "random_sequence": "tcc:items/frostbloom_petals"
 }

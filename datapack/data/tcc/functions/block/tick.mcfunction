@@ -3,13 +3,16 @@
 ############################################################
 
 ## Teapot
-execute if entity @s[tag=tcc.teapot] positioned ~ ~1 ~ unless predicate tcc:block/teapot_valid run function tcc:block/teapot/break/main
+execute if entity @s[tag=tcc.teapot] positioned ~ ~1 ~ unless predicate tcc:block/teapot_valid run function tcc:block/teapot/break
 
 ## Gobblerift
 execute if entity @s[tag=tcc.gobblerift] positioned ~ ~1 ~ run function tcc:block/gobblerift/tick
 
 ## Nether Reactor
 execute if entity @s[tag=tcc.nether_reactor_core] unless block ~ ~ ~ obsidian run function tcc:block/nether_reactor/break
+
+## Decorated Pot
+execute if entity @s[tag=tcc.decorated_pot] positioned ~ ~1 ~ unless block ~ ~ ~ decorated_pot run function tcc:block/decorated_pot/break/main
 
 ## Soul Conductor
 execute if entity @s[tag=tcc.soul_conductor] unless block ~ ~ ~ dropper run function tcc:block/soul_conductor/break/main
@@ -25,3 +28,6 @@ execute if entity @s[tag=tcc.frostbloom] run function tcc:block/frostbloom/tick
 
 ## Snail Nest
 execute if entity @s[tag=tcc.snail_nest] unless block ~ ~ ~ clay run function tcc:block/snail_nest/break
+
+## Pottery Table
+execute if entity @s[tag=tcc.pottery_table] run function tcc:block/pottery_table/tick/main

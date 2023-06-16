@@ -87,10 +87,15 @@
               }
             }
           ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:coast_armor_trim_smithing_template"
         }
       ]
     }
   ],
+  "random_sequence": "minecraft:gameplay/fishing/treasure",
   "__smithed__":{
     "rules":[
       {
@@ -100,6 +105,15 @@
         "source": {
           "type":"smithed:reference",
           "path":"pools[0].entries[6]"
+        }
+      },
+      {
+        "type":"smithed:insert",
+        "index": 7,
+        "target":"pools[0].entries",
+        "source": {
+          "type":"smithed:reference",
+          "path":"pools[0].entries[7]"
         }
       }
     ]

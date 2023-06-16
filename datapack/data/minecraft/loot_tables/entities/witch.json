@@ -210,6 +210,7 @@
       ]
     }
   ],
+  "random_sequence": "minecraft:entities/witch",
   "__smithed__": {
     "rules": [
       {

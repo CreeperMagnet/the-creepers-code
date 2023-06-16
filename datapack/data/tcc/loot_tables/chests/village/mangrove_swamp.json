@@ -123,5 +123,6 @@
         }
       ]
     }
-  ]
+  ],
+  "random_sequence": "tcc:chests/village/mangrove_swamp"
 }

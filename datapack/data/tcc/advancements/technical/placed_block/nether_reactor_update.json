@@ -3,11 +3,16 @@
     "place_block": {
       "trigger": "minecraft:placed_block",
       "conditions": {
-        "location": {
-          "block": {
-            "tag": "tcc:nether_reactor/update"
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "tag": "tcc:nether_reactor/update"
+              }
+            }
           }
-        }
+        ]
       }
     }
   },

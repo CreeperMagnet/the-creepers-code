@@ -2,6 +2,8 @@
 # Freezes a random block in a 5x5 area with an iceier version
 ############################################################
 
+execute if block ~ ~ ~ minecraft:fire run setblock ~ ~ ~ minecraft:air replace
+execute if block ~ ~ ~ minecraft:lava run setblock ~ ~ ~ minecraft:magma_block replace
 execute if block ~ ~ ~ minecraft:packed_ice run setblock ~ ~ ~ minecraft:blue_ice replace
 execute if block ~ ~ ~ minecraft:ice run setblock ~ ~ ~ minecraft:packed_ice replace
 execute if block ~ ~ ~ minecraft:water run setblock ~ ~ ~ minecraft:ice replace

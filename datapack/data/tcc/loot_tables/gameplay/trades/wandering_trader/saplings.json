@@ -45,8 +45,13 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:acacia_sapling"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cherry_sapling"
         }
       ]
     }
-  ]
+  ],
+  "random_sequence": "tcc:gameplay/trades/wandering_trader/saplings"
 }

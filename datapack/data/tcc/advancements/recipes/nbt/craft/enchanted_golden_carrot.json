@@ -1,0 +1,17 @@
+{
+  "parent": "tcc:recipes/nbt/craft/root",
+  "rewards": {
+    "function": "tcc:entity/player/nbt_recipe/crafted_item",
+    "loot": [
+      "tcc:items/enchanted_golden_carrot"
+    ]
+  },
+  "criteria": {
+    "recipe_crafted": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "tcc:nbt/enchanted_golden_carrot"
+      }
+    }
+  }
+}

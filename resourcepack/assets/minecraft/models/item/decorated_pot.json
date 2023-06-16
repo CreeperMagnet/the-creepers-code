@@ -1,0 +1,1577 @@
+{
+  "parent": "builtin/entity",
+  "gui_light": "front",
+  "textures": {
+    "particle": "entity/decorated_pot/decorated_pot_side"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 330000
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/0000"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330001
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/0001"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330002
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/0002"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330003
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/0003"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330004
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/0004"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330005
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/0005"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330006
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/0006"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330007
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/0007"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330008
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/0008"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330009
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/0009"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330010
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/0010"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330011
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/0011"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330012
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/0012"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330013
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/0013"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330014
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/0014"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330015
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/0015"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330100
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/0100"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330101
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/0101"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330102
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/0102"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330103
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/0103"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330104
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/0104"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330105
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/0105"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330106
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/0106"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330107
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/0107"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330108
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/0108"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330109
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/0109"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330110
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/0110"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330111
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/0111"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330112
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/0112"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330113
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/0113"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330114
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/0114"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330115
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/0115"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330200
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/0200"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330201
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/0201"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330202
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/0202"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330203
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/0203"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330204
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/0204"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330205
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/0205"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330206
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/0206"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330207
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/0207"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330208
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/0208"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330209
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/0209"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330210
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/0210"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330211
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/0211"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330212
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/0212"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330213
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/0213"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330214
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/0214"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330215
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/0215"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330300
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/0300"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330301
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/0301"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330302
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/0302"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330303
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/0303"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330304
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/0304"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330305
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/0305"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330306
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/0306"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330307
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/0307"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330308
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/0308"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330309
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/0309"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330310
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/0310"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330311
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/0311"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330312
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/0312"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330313
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/0313"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330314
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/0314"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330315
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/0315"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330400
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/0400"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330401
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/0401"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330402
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/0402"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330403
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/0403"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330404
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/0404"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330405
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/0405"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330406
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/0406"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330407
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/0407"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330408
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/0408"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330409
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/0409"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330410
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/0410"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330411
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/0411"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330412
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/0412"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330413
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/0413"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330414
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/0414"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330415
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/0415"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330500
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/0500"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330501
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/0501"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330502
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/0502"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330503
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/0503"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330504
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/0504"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330505
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/0505"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330506
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/0506"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330507
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/0507"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330508
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/0508"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330509
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/0509"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330510
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/0510"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330511
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/0511"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330512
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/0512"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330513
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/0513"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330514
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/0514"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330515
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/0515"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330600
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/0600"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330601
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/0601"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330602
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/0602"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330603
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/0603"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330604
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/0604"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330605
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/0605"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330606
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/0606"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330607
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/0607"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330608
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/0608"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330609
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/0609"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330610
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/0610"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330611
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/0611"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330612
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/0612"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330613
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/0613"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330614
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/0614"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330615
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/0615"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330700
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/0700"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330701
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/0701"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330702
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/0702"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330703
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/0703"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330704
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/0704"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330705
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/0705"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330706
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/0706"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330707
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/0707"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330708
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/0708"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330709
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/0709"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330710
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/0710"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330711
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/0711"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330712
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/0712"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330713
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/0713"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330714
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/0714"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330715
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/0715"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330800
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/0800"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330801
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/0801"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330802
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/0802"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330803
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/0803"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330804
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/0804"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330805
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/0805"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330806
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/0806"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330807
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/0807"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330808
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/0808"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330809
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/0809"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330810
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/0810"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330811
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/0811"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330812
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/0812"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330813
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/0813"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330814
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/0814"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330815
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/0815"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330900
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/0900"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330901
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/0901"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330902
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/0902"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330903
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/0903"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330904
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/0904"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330905
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/0905"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330906
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/0906"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330907
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/0907"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330908
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/0908"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330909
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/0909"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330910
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/0910"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330911
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/0911"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330912
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/0912"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330913
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/0913"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330914
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/0914"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330915
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/0915"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 331000
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/1000"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 331001
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/1001"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 331002
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/1002"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 331003
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/1003"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 331004
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/1004"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 331005
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/1005"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 331006
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/1006"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 331007
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/1007"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 331008
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/1008"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 331009
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/1009"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 331010
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/1010"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 331011
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/1011"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 331012
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/1012"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 331013
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/1013"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 331014
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/1014"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 331015
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/1015"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 331100
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/1100"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 331101
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/1101"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 331102
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/1102"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 331103
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/1103"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 331104
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/1104"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 331105
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/1105"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 331106
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/1106"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 331107
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/1107"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 331108
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/1108"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 331109
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/1109"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 331110
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/1110"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 331111
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/1111"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 331112
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/1112"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 331113
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/1113"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 331114
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/1114"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 331115
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/1115"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 331200
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/1200"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 331201
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/1201"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 331202
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/1202"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 331203
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/1203"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 331204
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/1204"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 331205
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/1205"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 331206
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/1206"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 331207
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/1207"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 331208
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/1208"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 331209
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/1209"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 331210
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/1210"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 331211
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/1211"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 331212
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/1212"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 331213
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/1213"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 331214
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/1214"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 331215
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/1215"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 331300
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/1300"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 331301
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/1301"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 331302
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/1302"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 331303
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/1303"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 331304
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/1304"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 331305
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/1305"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 331306
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/1306"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 331307
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/1307"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 331308
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/1308"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 331309
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/1309"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 331310
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/1310"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 331311
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/1311"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 331312
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/1312"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 331313
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/1313"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 331314
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/1314"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 331315
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/1315"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 331400
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/1400"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 331401
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/1401"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 331402
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/1402"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 331403
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/1403"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 331404
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/1404"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 331405
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/1405"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 331406
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/1406"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 331407
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/1407"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 331408
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/1408"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 331409
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/1409"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 331410
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/1410"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 331411
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/1411"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 331412
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/1412"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 331413
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/1413"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 331414
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/1414"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 331415
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/1415"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 331500
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/1500"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 331501
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/1501"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 331502
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/1502"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 331503
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/1503"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 331504
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/1504"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 331505
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/1505"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 331506
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/1506"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 331507
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/1507"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 331508
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/1508"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 331509
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/1509"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 331510
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/1510"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 331511
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/1511"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 331512
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/1512"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 331513
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/1513"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 331514
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/1514"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 331515
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/1515"
+    }
+  ],
+  "display": {
+    "thirdperson_righthand": {
+      "rotation": [ 0, 90, 0 ],
+      "translation": [ 0, 2, 0.5],
+      "scale":[ 0.375, 0.375, 0.375]
+    },
+    "firstperson_righthand": {
+      "rotation": [ 0, 90, 0 ],
+      "translation": [ 0, 0, 0],
+      "scale":[ 0.375, 0.375, 0.375]
+    },
+    "gui": {
+      "rotation": [ 30, 45, 0 ],
+      "translation": [ 0, 0, 0],
+      "scale":[ 0.60, 0.60, 0.60]
+    },
+    "ground": {
+      "rotation": [ 0, 0, 0 ],
+      "translation": [ 0, 1, 0],
+      "scale":[ 0.25, 0.25, 0.25]
+    },
+    "head": {
+      "rotation": [ 0, 180, 0 ],
+      "translation": [ 0, 16, 0],
+      "scale":[ 1.5, 1.5, 1.5 ]
+    },
+    "fixed": {
+      "rotation": [ 0, 180, 0 ],
+      "translation": [ 0, 0, 0],
+      "scale":[ 0.5, 0.5, 0.5]
+    }
+  }
+}

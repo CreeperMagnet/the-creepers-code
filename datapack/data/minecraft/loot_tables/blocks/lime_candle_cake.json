@@ -32,6 +32,7 @@
       ]
     }
   ],
+  "random_sequence": "minecraft:blocks/lime_candle_cake",
   "__smithed__": {
     "rules":[
       {

@@ -1,6 +1,6 @@
 {
   "pack": {
-    "pack_format": 12,
+    "pack_format": 15,
     "description": [
       {
         "text": "The Creeper's Code",
@@ -10,8 +10,16 @@
         "text": "\n"
       },
       {
-        "text": "Version 1.1.2",
+        "text": "Version 1.2",
         "color": "green"
+      }
+    ]
+  },
+  "filter": {
+    "block": [
+      {
+        "namespace": "minecraft",
+        "path": "recipes/decorated_pot.json"
       }
     ]
   }

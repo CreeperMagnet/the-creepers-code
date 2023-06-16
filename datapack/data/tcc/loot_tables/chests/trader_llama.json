@@ -51,5 +51,6 @@
         }
       ]
     }
-  ]
+  ],
+  "random_sequence": "tcc:chests/trader_llama"
 }

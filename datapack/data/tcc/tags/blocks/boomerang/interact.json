@@ -1,8 +1,6 @@
 {
   "values": [
     "#tcc:boomerang/break",
-    "#tcc:pumpkin_stem",
-    "#tcc:melon_stem",
     "#minecraft:cave_vines",
     "minecraft:wheat",
     "minecraft:potatoes",
@@ -14,6 +12,8 @@
     "minecraft:cocoa",
     "minecraft:nether_wart",
     "minecraft:sweet_berry_bush",
-    "minecraft:mangrove_propagule"
+    "minecraft:mangrove_propagule",
+    "minecraft:decorated_pot",
+    "minecraft:pitcher_crop"
   ]
 }

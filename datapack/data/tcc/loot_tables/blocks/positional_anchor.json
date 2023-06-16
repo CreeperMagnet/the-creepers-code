@@ -22,5 +22,6 @@
         }
       ]
     }
-  ]
+  ],
+  "random_sequence": "tcc:blocks/positional_anchor"
 }

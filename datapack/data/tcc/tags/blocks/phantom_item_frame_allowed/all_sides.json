@@ -22,6 +22,8 @@
         "#tcc:horizontally_connectable",
         "minecraft:cactus",
         "minecraft:honey_block",
-        "#minecraft:walls"
+        "#minecraft:walls",
+        "#minecraft:all_hanging_signs",
+        "minecraft:decorated_pot"
     ]
 }

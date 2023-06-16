@@ -43,7 +43,7 @@
                 {
                   "condition": "minecraft:match_tool",
                   "predicate": {
-                    "tag": "tcc:axes"
+                    "tag": "minecraft:axes"
                   }
                 }
               ]
@@ -68,6 +68,7 @@
       ]
     }
   ],
+  "random_sequence": "minecraft:blocks/soul_campfire",
   "__smithed__": {
     "rules": [
       {

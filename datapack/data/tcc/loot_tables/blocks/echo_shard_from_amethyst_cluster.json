@@ -9,5 +9,6 @@
         }
       ]
     }
-  ]
+  ],
+  "random_sequence": "tcc:blocks/echo_shard_from_amethyst_cluster"
 }

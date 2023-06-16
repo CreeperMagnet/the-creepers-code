@@ -110,6 +110,7 @@
       ]
     }
   ],
+  "random_sequence": "minecraft:blocks/respawn_anchor",
   "__smithed__": {
     "rules": [
       {

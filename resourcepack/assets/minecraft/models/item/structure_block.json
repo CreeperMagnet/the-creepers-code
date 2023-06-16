@@ -375,6 +375,30 @@
     },
     {
       "predicate": {
+        "custom_model_data": 330062
+      },
+      "model": "tcc:entity/archaeologist/head/normal"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330063
+      },
+      "model": "tcc:entity/archaeologist/head/hurt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330064
+      },
+      "model": "tcc:entity/archaeologist/body/normal"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330065
+      },
+      "model": "tcc:entity/archaeologist/body/hurt"
+    },
+    {
+      "predicate": {
         "custom_model_data": 330066
       },
       "model": "tcc:entity/wandering_witch/head/normal"

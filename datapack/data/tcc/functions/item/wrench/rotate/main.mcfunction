@@ -3,9 +3,13 @@
 ############################################################
 scoreboard players set @s tcc.dummy 0
 
+execute if block ~ ~ ~ #minecraft:all_hanging_signs run function tcc:item/wrench/rotate/block_tag/all_hanging_signs/main
+
 execute if block ~ ~ ~ #tcc:block_entities run function tcc:item/wrench/rotate/block_tag/block_entities/main
 
 execute if block ~ ~ ~ #minecraft:logs run function tcc:item/wrench/rotate/block_tag/logs/main
+
+execute if block ~ ~ ~ #minecraft:bamboo_blocks run function tcc:item/wrench/rotate/block_tag/bamboo_blocks
 
 execute if block ~ ~ ~ minecraft:basalt run function tcc:item/wrench/rotate/block/basalt
 
@@ -64,6 +68,8 @@ execute if block ~ ~ ~ minecraft:ender_chest run function tcc:item/wrench/rotate
 execute if block ~ ~ ~ minecraft:repeater[locked=false] run function tcc:item/wrench/rotate/block/repeater/main
 
 execute if block ~ ~ ~ minecraft:comparator run function tcc:item/wrench/rotate/block/comparator/main
+
+execute if block ~ ~ ~ minecraft:pink_petals run function tcc:item/wrench/rotate/block/pink_petals/main
 
 execute if block ~ ~ ~ minecraft:iron_trapdoor[powered=false] run function tcc:item/wrench/rotate/block/iron_trapdoor/main
 

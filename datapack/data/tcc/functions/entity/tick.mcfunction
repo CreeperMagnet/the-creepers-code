@@ -5,6 +5,9 @@
 ## Trader Entities
 execute if entity @s[type=minecraft:wandering_trader,tag=tcc.trader_entity] run function tcc:entity/trader_entity/tick
 
+## Archaeologist
+execute if entity @s[type=minecraft:villager,tag=tcc.archaeologist] run function tcc:entity/archaeologist/tick
+
 ## Boomerangs
 execute if entity @s[type=minecraft:item_display,tag=tcc.boomerang] run function tcc:item/boomerang/tick
 

@@ -3,19 +3,27 @@
     "click_positional_anchor": {
       "trigger": "minecraft:item_used_on_block",
       "conditions": {
-        "item": {
-          "items": [
-            "minecraft:ender_pearl"
-          ]
-        },
-        "location": {
-          "block": {
-            "blocks": [
-              "minecraft:dropper"
-            ],
-            "nbt": "{Lock:\"§positional_anchor\\\\uF001\"}"
+        "location": [
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:ender_pearl"
+              ]
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:dropper"
+                ],
+                "nbt": "{Lock:\"§positional_anchor\\\\uF001\"}"
+              }
+            }
           }
-        }
+        ]
       }
     }
   },

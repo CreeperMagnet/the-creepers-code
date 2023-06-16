@@ -107,6 +107,24 @@
       "entries": [
         {
           "type": "minecraft:item",
+          "name": "minecraft:music_disc_relic"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "killer",
+          "predicate": {
+            "nbt": "{Tags:[\"tcc.geomancer\"]}"
+          }
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
           "name": "minecraft:egg",
           "functions": [
             {
@@ -131,6 +149,7 @@
       ]
     }
   ],
+  "random_sequence": "minecraft:entities/creeper",
   "__smithed__": {
     "rules": [
       {
@@ -163,6 +182,14 @@
         "source": {
           "type":"smithed:reference",
           "path":"pools[5]"
+        }
+      },
+      {
+        "type":"smithed:append",
+        "target":"pools",
+        "source": {
+          "type":"smithed:reference",
+          "path":"pools[6]"
         }
       }
     ]

@@ -146,7 +146,6 @@
   "commands.tcc.initiate": ".pǝꞁqɐuǝ sᴉ %s",
   "commands.tcc.wrong_version: You are using TCC on the incorrect Minecraft version. Please check the download.": "\n˙pɐoꞁuʍop ǝɥʇ ʞɔǝɥɔ ǝsɐǝꞁԀ ˙uoᴉsɹǝʌ ʇɟɐɹɔǝuᴉw ʇɔǝɹɹoɔuᴉ ǝɥʇ uo ƆƆ⟘ ᵷuᴉsn ǝɹɐ no⅄",
   "commands.tcc.initiate.wrong_version.title": "NOISᴚƎɅ ⅁NOᴚM",
-  "commands.tcc.give_all_recipes_error: It seems that you have a mod/datapack installed that gives the player all recipes. Please disable it or performance may be drastically lowered. You can safely ignore this message if you are not worried about performance.": "˙ǝɔuɐɯɹoɟɹǝd ʇnoqɐ pǝᴉɹɹoʍ ʇou ǝɹɐ noʎ ɟᴉ ǝᵷɐssǝɯ sᴉɥʇ ǝɹouᵷᴉ ʎꞁǝɟɐs uɐɔ no⅄ ˙pǝɹǝʍoꞁ ʎꞁꞁɐɔᴉʇsɐɹp ǝq ʎɐɯ ǝɔuɐɯɹoɟɹǝd ɹo ʇᴉ ǝꞁqɐsᴉp ǝsɐǝꞁԀ ˙sǝdᴉɔǝɹ ꞁꞁɐ ɹǝʎɐꞁd ǝɥʇ sǝʌᴉᵷ ʇɐɥʇ pǝꞁꞁɐʇsuᴉ ʞɔɐdɐʇɐp\\poɯ ɐ ǝʌɐɥ noʎ ʇɐɥʇ sɯǝǝs ʇI",
   "chat.tcc.gamerules.title": "sǝꞁnɹǝɯɐ⅁ ƆƆ⟘",
   "chat.tcc.gamerules.false": "[ɟɟO]",
   "chat.tcc.gamerules.true": "[uO]",

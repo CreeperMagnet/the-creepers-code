@@ -1,0 +1,34 @@
+{
+  "parent": "tcc:recipes/root",
+  "rewards": {
+    "recipes": [
+      "tcc:nbt/dyed_bundle"
+    ]
+  },
+  "criteria": {
+    "has_rabbit_hide": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:rabbit_hide"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "tcc:nbt/dyed_bundle"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_rabbit_hide",
+      "has_the_recipe"
+    ]
+  ]
+}

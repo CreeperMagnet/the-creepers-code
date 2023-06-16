@@ -1,31 +1,39 @@
 {
-  "pools": [{
-    "rolls": 1,
-    "entries": [{
-      "type": "minecraft:item",
-      "weight": 1,
-      "functions": [{
-          "function": "minecraft:set_nbt",
-          "tag": "{BlockEntityTag:{id:\"minecraft:dropper\",Items:[{id:\"minecraft:barrier\",Count:1b,tag:{tcc:{placed_block:1b,block:\"nether_reactor_core\"}}}]},CustomModelData:330000,tcc:{id:\"nether_reactor_core\"}}"
-        },
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
         {
-          "function": "minecraft:set_name",
-          "name": {
-            "translate": "block.tcc.nether_reactor_core",
-            "color": "aqua",
-            "italic": false
-          }
-        },
-        {
-          "function": "minecraft:set_lore",
-          "lore": [{
-            "translate": "pack.tcc",
-            "color": "#008725",
-            "italic": true
-          }]
+          "type": "minecraft:item",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{id:\"minecraft:dropper\",Items:[{id:\"minecraft:barrier\",Count:1b,tag:{tcc:{placed_block:1b,block:\"nether_reactor_core\"}}}]},CustomModelData:330000,tcc:{id:\"nether_reactor_core\"}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "block.tcc.nether_reactor_core",
+                "color": "aqua",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "pack.tcc",
+                  "color": "#008725",
+                  "italic": true
+                }
+              ]
+            }
+          ],
+          "name": "minecraft:dropper"
         }
-      ],
-      "name": "minecraft:dropper"
-    }]
-  }]
+      ]
+    }
+  ],
+  "random_sequence": "tcc:items/nether_reactor_core"
 }

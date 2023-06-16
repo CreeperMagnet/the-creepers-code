@@ -3,6 +3,8 @@
     "#tcc:containers",
     "#minecraft:beehives",
     "#minecraft:all_signs",
-    "minecraft:lectern"
+    "minecraft:lectern",
+    "minecraft:chiseled_bookshelf",
+    "minecraft:decorated_pot"
   ]
 }

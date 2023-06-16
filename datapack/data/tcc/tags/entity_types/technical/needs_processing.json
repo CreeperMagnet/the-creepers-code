@@ -6,6 +6,7 @@
     "minecraft:zombie",
     "minecraft:zombie_villager",
     "#tcc:technical/converted",
-    "#tcc:illagers"
+    "#tcc:illagers",
+    "#tcc:prevent_aggression"
   ]
 }

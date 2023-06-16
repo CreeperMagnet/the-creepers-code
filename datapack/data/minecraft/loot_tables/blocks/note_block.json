@@ -9,7 +9,7 @@
           "name": "minecraft:note_block",
           "conditions":[
             {
-              "condition": "minecraft:alternative",
+              "condition": "minecraft:any_of",
               "terms": [
                 {
                   "condition": "minecraft:block_state_property",
@@ -881,6 +881,7 @@
       ]
     }
   ],
+  "random_sequence": "minecraft:blocks/note_block",
   "__smithed__": {
     "rules": [
       {

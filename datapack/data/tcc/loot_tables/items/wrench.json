@@ -42,5 +42,6 @@
         }
       ]
     }
-  ]
+  ],
+  "random_sequence": "tcc:items/wrench"
 }

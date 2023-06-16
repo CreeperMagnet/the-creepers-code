@@ -98,6 +98,7 @@
       ]
     }
   ],
+  "random_sequence": "minecraft:blocks/cake",
   "__smithed__": {
     "rules": [
       {

@@ -3,9 +3,14 @@
     "place": {
       "trigger": "minecraft:placed_block",
       "conditions": {
-        "item": {
-          "nbt": "{BlockEntityTag:{Items:[{tag:{tcc:{placed_block:1b}}}]}}"
-        }
+        "location": [
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "nbt": "{BlockEntityTag:{Items:[{tag:{tcc:{placed_block:1b}}}]}}"
+            }
+          }
+        ]
       }
     }
   },

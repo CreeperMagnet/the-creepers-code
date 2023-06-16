@@ -2,6 +2,7 @@
     "values": [
         "#minecraft:cauldrons",
         "#minecraft:slabs",
-        "minecraft:big_dripleaf"
+        "minecraft:big_dripleaf",
+        "#minecraft:all_hanging_signs"
     ]
 }

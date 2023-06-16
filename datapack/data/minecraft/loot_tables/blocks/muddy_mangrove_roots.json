@@ -13,7 +13,7 @@
               "name": "minecraft:muddy_mangrove_roots",
               "conditions": [
                 {
-                  "condition": "minecraft:alternative",
+                  "condition": "minecraft:any_of",
                   "terms": [
                     {
                       "condition": "minecraft:match_tool",
@@ -73,7 +73,7 @@
             {
               "condition": "minecraft:inverted",
               "term": {
-                "condition": "minecraft:alternative",
+                "condition": "minecraft:any_of",
                 "terms": [
                   {
                     "condition": "minecraft:match_tool",
@@ -108,5 +108,6 @@
         }
       ]
     }
-  ]
+  ],
+  "random_sequence": "minecraft:blocks/muddy_mangrove_roots"
 }

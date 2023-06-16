@@ -320,6 +320,17 @@
 		"minecraft:packed_mud",
 		"minecraft:reinforced_deepslate",
 		"minecraft:sculk",
-		"minecraft:sculk_catalyst"
+		"minecraft:sculk_catalyst",
+		"minecraft:bamboo_mosaic",
+		"minecraft:bamboo_planks",
+		"minecraft:bamboo_block",
+		"minecraft:stripped_bamboo_block",
+		"minecraft:cherry_log",
+		"minecraft:cherry_planks",
+		"minecraft:cherry_wood",
+		"minecraft:stripped_cherry_log",
+		"minecraft:stripped_cherry_wood",
+		"minecraft:chiseled_bookshelf",
+		"minecraft:suspicious_sand"
 	]
 }

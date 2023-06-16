@@ -121,6 +121,7 @@
       ]
     }
   ],
+  "random_sequence": "minecraft:entities/stray",
   "__smithed__": {
     "rules": [
       {

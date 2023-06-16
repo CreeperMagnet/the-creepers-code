@@ -8,6 +8,7 @@
     "minecraft:trader_llama",
     "minecraft:item",
     "minecraft:item_display",
-    "minecraft:interaction"
+    "minecraft:interaction",
+    "minecraft:zombie_villager"
   ]
 }

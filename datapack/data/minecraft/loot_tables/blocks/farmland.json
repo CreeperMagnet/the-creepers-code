@@ -51,6 +51,7 @@
       ]
     }
   ],
+  "random_sequence": "minecraft:blocks/farmland",
   "__smithed__": {
     "rules": [
       {

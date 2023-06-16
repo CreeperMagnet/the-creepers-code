@@ -146,7 +146,6 @@
   "commands.tcc.initiate": "%s 이(가) 활성화 되었습니다.",
   "commands.tcc.wrong_version: You are using TCC on the incorrect Minecraft version. Please check the download.": "\n잘못된 마인크래프트 버전에서 TCC를 사용하고 있습니다. 다운로드를 확인해주세요.",
   "commands.tcc.initiate.wrong_version.title": "잘못된 버전",
-  "commands.tcc.give_all_recipes_error: It seems that you have a mod/datapack installed that gives the player all recipes. Please disable it or performance may be drastically lowered. You can safely ignore this message if you are not worried about performance.": "설치된 데이터팩이나 모드 중 모든 조합법을 잠금해제 하는 것이 있나 보군요. 성능 저하의 위험이 있으므로 비활성화 해주세요. 성능 저하가 별 상관 없다면 해당 메시지를 무시해도 좋습니다.",
   "chat.tcc.gamerules.title": "TCC 게임규칙",
   "chat.tcc.gamerules.false": "[꺼짐]",
   "chat.tcc.gamerules.true": "[켜짐]",

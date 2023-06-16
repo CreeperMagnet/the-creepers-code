@@ -2,6 +2,7 @@
 # Commands to increment the break state of a gobblerift when hurt
 ############################################################
 
+playsound tcc:block.gobblerift.hurt neutral @a[distance=..16]
 execute if data storage tcc:storage root.temp.instamine run function tcc:block/gobblerift/break/main
 execute if entity @s[nbt={item:{tag:{break_state:2}}}] run function tcc:block/gobblerift/break/main
 execute if entity @s[nbt={item:{tag:{break_state:1}}}] run data modify entity @s item.tag.break_state set value 2

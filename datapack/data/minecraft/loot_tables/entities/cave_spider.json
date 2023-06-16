@@ -79,6 +79,7 @@
       ]
     }
   ],
+  "random_sequence": "minecraft:entities/cave_spider",
   "__smithed__": {
     "rules": [
       {

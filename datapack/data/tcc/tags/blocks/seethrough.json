@@ -52,7 +52,9 @@
     "minecraft:large_fern",
     "minecraft:lever",
     "minecraft:attached_melon_stem",
+    "minecraft:melon_stem",
     "minecraft:attached_pumpkin_stem",
+    "minecraft:pumpkin_stem",
     "minecraft:redstone_torch",
     "minecraft:redstone_wire",
     "minecraft:repeater",
@@ -105,6 +107,7 @@
     "minecraft:sweet_berry_bush",
     "minecraft:sculk_vein",
     "minecraft:mangrove_roots",
-    "minecraft:frogspawn"
+    "minecraft:frogspawn",
+    "minecraft:pink_petals"
   ]
 }

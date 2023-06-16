@@ -6,32 +6,6 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1,
-                "max": 3,
-                "type": "minecraft:uniform"
-              }
-            },
-            {
-              "function": "minecraft:looting_enchant",
-              "count": {
-                "min": 0,
-                "max": 1
-              }
-            }
-          ],
-          "name": "minecraft:spider_eye"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:item",
           "name": "minecraft:structure_block",
           "functions": [
             {
@@ -47,5 +21,6 @@
         }
       ]
     }
-  ]
+  ],
+  "random_sequence": "tcc:entities/wandering_witch"
 }

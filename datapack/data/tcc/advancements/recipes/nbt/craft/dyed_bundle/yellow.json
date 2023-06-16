@@ -1,0 +1,24 @@
+{
+  "parent": "tcc:recipes/nbt/craft/root",
+  "rewards": {
+    "function": "tcc:entity/player/nbt_recipe/crafted_item",
+    "loot": [
+      "tcc:items/dyed_bundle/yellow"
+    ]
+  },
+  "criteria": {
+    "recipe_crafted": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "tcc:nbt/dyed_bundle",
+        "ingredients": [
+          {
+            "items": [
+              "minecraft:yellow_dye"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

@@ -11,7 +11,7 @@
           "type": {
             "tags": [
               {
-                "id": "tcc:totem_out_of_world",
+                "id": "tcc:totem_out_of_bounds",
                 "expected": true
               }
             ]

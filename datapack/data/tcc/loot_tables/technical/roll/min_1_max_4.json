@@ -1,17 +1,24 @@
 {
   "type": "minecraft:empty",
-  "pools": [{
-    "rolls": {
-      "min": 1,
-      "max": 4
-    },
-    "entries": [{
-      "type": "minecraft:item",
-      "name": "stone",
-      "functions": [{
-        "function": "minecraft:set_count",
-        "count": 0
-      }]
-    }]
-  }]
+  "pools": [
+    {
+      "rolls": {
+        "min": 1,
+        "max": 4
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "stone",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 0
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "random_sequence": "tcc:technical/min_1_max_4"
 }

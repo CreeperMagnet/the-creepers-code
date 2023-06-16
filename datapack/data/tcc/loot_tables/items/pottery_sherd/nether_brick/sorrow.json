@@ -1,0 +1,39 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{tcc:{id:\"pottery_sherd\",type:\"nether_brick\",sherd:\"sorrow\"},CustomModelData:330014}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.tcc.pottery_sherd.nether_brick.sorrow",
+                "color": "white",
+                "italic": false
+              }
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "translate": "pack.tcc",
+                  "color": "#008725",
+                  "italic": true
+                }
+              ]
+            }
+          ],
+          "name": "minecraft:angler_pottery_sherd"
+        }
+      ]
+    }
+  ],
+  "random_sequence": "tcc:items/pottery_sherd/nether_brick/sorrow"
+}

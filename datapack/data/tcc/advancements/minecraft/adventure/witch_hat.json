@@ -20,7 +20,7 @@
     ],
     "frame": "task"
   },
-  "parent": "minecraft:adventure/kill_a_mob",
+  "parent": "tcc:minecraft/adventure/wandering_witch_trade",
   "criteria": {
     "wear_witch_hat": {
       "trigger": "minecraft:impossible"

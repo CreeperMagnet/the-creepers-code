@@ -26,5 +26,6 @@
         }
       ]
     }
-  ]
+  ],
+  "random_sequence": "tcc:technical/copy_nbt/snail_bucket"
 }

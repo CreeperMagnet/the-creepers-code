@@ -1,6 +1,7 @@
 {
   "values": [
     "#minecraft:logs",
+    "#minecraft:bamboo_blocks",
     "#tcc:glazed_terracotta",
     "#minecraft:stairs",
     "#tcc:furnaces",
@@ -8,6 +9,7 @@
     "minecraft:dropper",
     "minecraft:barrel",
     "#minecraft:shulker_boxes",
+    "minecraft:hopper",
     "#tcc:non_wall_banners",
     "#tcc:froglights",
     "#minecraft:rails",
@@ -34,6 +36,10 @@
     "minecraft:lightning_rod",
     "minecraft:infested_deepslate",
     "minecraft:chain",
-    "minecraft:muddy_mangrove_roots"
+    "minecraft:muddy_mangrove_roots",
+    "minecraft:pink_petals",
+    "minecraft:chiseled_bookshelf",
+    "minecraft:decorated_pot",
+    "#minecraft:all_hanging_signs"
   ]
 }

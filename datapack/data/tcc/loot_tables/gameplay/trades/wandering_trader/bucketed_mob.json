@@ -55,5 +55,6 @@
         }
       ]
     }
-  ]
+  ],
+  "random_sequence": "tcc:gameplay/trades/wandering_trader/bucketed_mob"
 }

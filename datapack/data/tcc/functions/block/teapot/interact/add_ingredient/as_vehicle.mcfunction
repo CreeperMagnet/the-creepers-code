@@ -4,7 +4,7 @@
 
 execute if data storage tcc:storage root.temp.item{id:"minecraft:dandelion"} run data modify entity @s item.tag.tea set value {id:"steadiness",color:16772175,extended:0b}
 execute if data storage tcc:storage root.temp.item{id:"minecraft:wither_rose"} run data modify entity @s item.tag.tea set value {id:"purity",color:4338990,extended:0b}
-execute if data storage tcc:storage root.temp.item{id:"minecraft:sea_pickle"} run data modify entity @s item.tag.tea set value {id:"clearsight",color:15233650,extended:0b}
+execute if data storage tcc:storage root.temp.item{id:"minecraft:torchflower"} run data modify entity @s item.tag.tea set value {id:"clearsight",color:15233650,extended:0b}
 execute if data storage tcc:storage root.temp.item{id:"minecraft:ink_sac"} run data modify entity @s item.tag.tea set value {id:"obscurity",color:6513542,extended:0b}
 execute if data storage tcc:storage root.temp.item{id:"minecraft:rabbit_foot"} run data modify entity @s item.tag.tea set value {id:"serendipity",color:8440710,extended:0b}
 execute if data storage tcc:storage root.temp.item{id:"minecraft:honey_bottle"} run data modify entity @s item.tag.tea set value {id:"antitoxin",color:16748822,extended:0b}

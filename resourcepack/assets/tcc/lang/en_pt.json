@@ -146,7 +146,6 @@
   "commands.tcc.initiate": "%s be enabled.",
   "commands.tcc.wrong_version: You are using TCC on the incorrect Minecraft version. Please check the download.": "\nYe be usin' TCC on the incorrect Minecraft version. Please check the download.",
   "commands.tcc.initiate.wrong_version.title": "MATEY, THIS BE THE WRONG VERSION",
-  "commands.tcc.give_all_recipes_error: It seems that you have a mod/datapack installed that gives the player all recipes. Please disable it or performance may be drastically lowered. You can safely ignore this message if you are not worried about performance.": "It seems ye have another modification er datapack that gives ye all the recipes. Ye should disable this modification, lest yer performance drop. Continue without heeding these words at thine own peril.",
   "chat.tcc.gamerules.title": "TCC Rules o' the Sea",
   "chat.tcc.gamerules.false": "[Nay]",
   "chat.tcc.gamerules.true": "[Aye]",

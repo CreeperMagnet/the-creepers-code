@@ -3,21 +3,31 @@
     "use_pig_spawn_egg": {
       "trigger": "minecraft:item_used_on_block",
       "conditions": {
-        "item": {
-          "items": [
-            "minecraft:pig_spawn_egg"
-          ]
-        }
+        "location": [
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:pig_spawn_egg"
+              ]
+            }
+          }
+        ]
       }
     },
     "use_witch_spawn_egg": {
       "trigger": "minecraft:item_used_on_block",
       "conditions": {
-        "item": {
-          "items": [
-            "minecraft:witch_spawn_egg"
-          ]
-        }
+        "location": [
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:witch_spawn_egg"
+              ]
+            }
+          }
+        ]
       }
     }
   },
