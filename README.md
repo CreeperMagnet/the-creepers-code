@@ -78,9 +78,6 @@ All of the features follow strict guidelines in order to maintain compatibility 
 <!-- hide_on_smithed -->
 <b>
   DOWNLOAD STEPS. READ BEFORE INSTALLING.
-  <p color="red">
-    DO NOT USE WITH ANY DATAPACK AND/OR MOD THAT GIVES THE PLAYER ALL RECIPES. THIS WILL CAUSE THIS DATAPACK TO BREAK.
-  </p>
 </b>
 <details>
   <summary>Download Steps</summary>
