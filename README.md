@@ -71,7 +71,7 @@ All of the features follow strict guidelines in order to maintain compatibility 
   <h1>And much much more...</h1>
   <img src="https://cdn.discordapp.com/attachments/883840237837619240/956416526846668800/spreadsheet.png">
   <p align="center">
-    And there's tons and tons more features! That wasn't even a fifth of the features in this pack. If you want to check out more, go to our website at [thecreeperscode.com](https://thecreeperscode.com)!
+    And there's tons and tons more features! That wasn't even a fifth of the features in this pack. If you want to check out more, go to our website at <a href="https://thecreeperscode.com"/>https://thecreeperscode.com</a>!
   </p>
 </div>
 
