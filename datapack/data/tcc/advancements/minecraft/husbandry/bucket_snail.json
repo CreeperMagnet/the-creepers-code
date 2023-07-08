@@ -28,34 +28,6 @@
     "bucket_snail": {
       "trigger": "minecraft:player_interacted_with_entity",
       "conditions": {
-        "player": [
-          {
-            "condition": "minecraft:any_of",
-            "terms": [
-              {
-                "condition": "minecraft:entity_properties",
-                "entity": "this",
-                "predicate": {
-                  "equipment": {
-                    "mainhand": {
-                      "items": [
-                        "minecraft:bucket"
-                      ],
-                      "count": 1
-                    }
-                  }
-                }
-              },
-              {
-                "condition": "minecraft:inverted",
-                "term": {
-                  "condition": "minecraft:reference",
-                  "name": "tcc:entity/full_inventory"
-                }
-              }
-            ]
-          }
-        ],
         "item": {
           "items": [
             "minecraft:bucket"

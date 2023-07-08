@@ -59,3 +59,5 @@ team add tcc.recovery_compass
 team modify tcc.recovery_compass color aqua
 team add smithed.prevent_aggression
 team modify smithed.prevent_aggression friendlyFire false
+team add tcc.no_nametag
+team modify tcc.no_nametag nametagVisibility never

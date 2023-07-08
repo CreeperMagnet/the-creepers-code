@@ -13,20 +13,21 @@ loot replace entity @s weapon.mainhand 2 loot tcc:gameplay/trades/wandering_witc
 function tcc:entity/wandering_witch/add_trade
 
 
-loot replace entity @s weapon.mainhand 2 loot tcc:gameplay/trades/wandering_witch/soil_blocks
-function tcc:entity/wandering_witch/add_trade
-
-
 loot replace entity @s weapon.mainhand 2 loot tcc:gameplay/trades/wandering_witch/rare_potion_ingredients
-function tcc:entity/wandering_witch/add_trade
-
-
-loot replace entity @s weapon.mainhand 2 loot tcc:gameplay/trades/wandering_witch/potion_dusts
 function tcc:entity/wandering_witch/add_trade
 
 
 loot replace entity @s weapon.mainhand 2 loot tcc:gameplay/trades/wandering_witch/ender_pearl
 function tcc:entity/wandering_witch/add_trade
+
+
+loot replace entity @s weapon.mainhand 2 loot tcc:gameplay/trades/wandering_witch/soil_blocks
+function tcc:entity/wandering_witch/add_trade
+
+
+loot replace entity @s weapon.mainhand 2 loot tcc:gameplay/trades/wandering_witch/crop_pottery_sherd
+function tcc:entity/wandering_witch/add_trade
+data modify entity @s Offers.Recipes[-1].maxUses set value 64
 
 
 loot replace entity @s weapon.mainhand 2 loot tcc:gameplay/trades/wandering_witch/ancient_explorer_map

@@ -1,0 +1,30 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:fermented_spider_eye",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "tcc:items/pottery_sherd/nether_brick/crop"
+        }
+      ]
+    }
+  ],
+  "random_sequence": "tcc:gameplay/trades/wandering_witch/crop_pottery_sherd"
+}

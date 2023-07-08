@@ -165,8 +165,6 @@
   "item.tcc.pottery_sherd.nether_brick.sorrow": "Sorrow Pottery Sherd",
   "item.tcc.pottery_sherd.nether_brick.star": "Star Pottery Sherd",
 
-  "item.tcc.sherd.replicated": "Replicated",
-
   "block.tcc.nether_reactor_core": "Nether Reactor Core",
  
   "block.tcc.frostbloom": "Frostbloom",
@@ -192,7 +190,6 @@
 
   "commands.tcc.reload.success": " Updated datapacks and TCC scoreboards",
   "commands.tcc.trigger.spectator": "This command cannot be used in spectator mode. Try again in another gamemode.",
-  "commands.tcc.initiate.version_check": "%s",
   "commands.tcc.initiate": "%s is enabled.",
   "commands.tcc.wrong_version": "\nYou are using The Creeper's Code on the incorrect Minecraft version. You should be using Minecraft 1.20.",
   "commands.tcc.initiate.wrong_version.title": "WRONG VERSION",
@@ -280,6 +277,8 @@
   "advancements.tcc.minecraft.adventure.enter_monument.description": "Dive down into the depths of an ocean monument",
   "advancements.tcc.minecraft.adventure.soul_conductor_fast_travel.title": "Thinking with Portals",
   "advancements.tcc.minecraft.adventure.soul_conductor_fast_travel.description": "Use a pair of soul conductors connected with sculk to travel 1000 blocks instantly",
+  "advancements.tcc.minecraft.adventure.obtain_suspicious_block.title": "Sus-stainability",
+  "advancements.tcc.minecraft.adventure.obtain_suspicious_block.description": "Obtain a suspicious block using renewable methods",
  
   "advancements.tcc.minecraft.end.eat_golden_chorus_fruit.title": "A Golden Escape",
   "advancements.tcc.minecraft.end.eat_golden_chorus_fruit.description": "Coat a chorus fruit in gold and take a bite. Who knows where you could end up!",
@@ -298,9 +297,6 @@
   "advancements.tcc.minecraft.husbandry.bucket_snail.description": "Kidnap a snail from their swampy natural habitat using a bucket",
   "advancements.tcc.minecraft.husbandry.bucket_all_snails.title": "Gotta Snatch 'Em All",
   "advancements.tcc.minecraft.husbandry.bucket_all_snails.description": "Bucket all six types of snail",
-
-  "advancements.tcc.minecraft.story.infested_deepslate.title": "Parasitology",
-  "advancements.tcc.minecraft.story.infested_deepslate.description": "Acquire infested deepslate",
 
   "advancements.tcc.minecraft.nether.cursed_crown.title": "Royal Riches",
   "advancements.tcc.minecraft.nether.cursed_crown.description": "Wear a strange crown received from the depths of the nether",
@@ -512,7 +508,7 @@
   "item.tcc.compendium.entry.enchanted_golden_carrot.page_0.description": "Enchanted golden carrots give you night vision for five minutes. They give the same amount of hunger as a normal golden carrot.\n\n\n\n\n",
   "item.tcc.compendium.entry.enchanted_golden_carrot.page_1.description": "Same recipe as normal golden carrots, but with gold ingots instead of gold nuggets.",
 
-  "item.tcc.compendium.entry.enchanter.page_0.description": "The enchanter is a powerful \"support\" illager that helps illagers and hostile mobs with magic buffs. They are the main inhabitants of the %s, and they rarely drop %s. They also spawn in raids.",
+  "item.tcc.compendium.entry.enchanter.page_0.description": "Enchanters are a \"support\" illager that help hostile mobs with magic buffs. They are the main inhabitants of the %s. They also spawn in raids and will drop %s when spawned in raids.\n",
   "item.tcc.compendium.entry.enchanter.page_0.reference_0": "woodland mansion basement",
   "item.tcc.compendium.entry.enchanter.page_0.reference_1": "lockets of learning",
   "item.tcc.compendium.entry.enchanter.page_1.description": "Enchanters care more about reading than you. They're entirely harmless aside from their support buffs.",
@@ -634,9 +630,9 @@
   "item.tcc.compendium.entry.pottery_sherd_renewability.page_0.description": "Pottery sherds are now renewable and mass-producible. You can change a sherd's pattern using the %s and obtain many sherds to change using a %s. The \"seed\" sherds are renewable, as seen on the next pages.",
   "item.tcc.compendium.entry.pottery_sherd_renewability.page_0.reference_0": "pottery table",
   "item.tcc.compendium.entry.pottery_sherd_renewability.page_0.reference_1": "archaeologist",
-  "item.tcc.compendium.entry.pottery_sherd_renewability.page_1.description": "Trail Ruin Sherds: Dropped by %s\n\nOcean Ruin Sherds: Drowned rarely spawn holding one\n\nDesert Sherds: Found in suspicious sand rarely dropped by husks",
+  "item.tcc.compendium.entry.pottery_sherd_renewability.page_1.description": "Trail Ruin Sherds: Dropped by %s\n\nOcean Ruin Sherds: Fished up rarely above ocean ruins\n\nDesert Sherds: Found in suspicious sand rarely dropped by husks",
   "item.tcc.compendium.entry.pottery_sherd_renewability.page_1.reference_0": "geomancers",
-  "item.tcc.compendium.entry.pottery_sherd_renewability.page_2.description": "%s: Found in suspicious gravel rarely bartered by piglins\n\n\n\n\n\n\n\n",
+  "item.tcc.compendium.entry.pottery_sherd_renewability.page_2.description": "%s: Found in suspicious gravel rarely bartered by piglins\n\nThe 'crop' nether brick pottery sherd is also sold by the wandering witch.\n\n\n",
   "item.tcc.compendium.entry.pottery_sherd_renewability.page_2.reference_0": "Nether Brick Sherds",
 
   "item.tcc.compendium.entry.pottery_table.page_0.description": "The pottery table is a new block that is required to decorate pots. You can no longer do it in the crafting table. It can also change the pattern of pottery sherds and is a %s for villagers.\n",
@@ -755,9 +751,9 @@
 
   "item.tcc.compendium.entry.wandering_trader_rework.title": "Wandering Trader Rework",
   "item.tcc.compendium.entry.wandering_trader_rework.page_0.description": "Wandering traders have now been completely reworked. They now have seven new trades.\n\n1. One emerald for one seed (potato, carrot, pumpkin seed, melon seed, beetroot seed, and sweet berries)",
-  "item.tcc.compendium.entry.wandering_trader_rework.page_1.description": "2. One emerald for one sapling of any type\n\n3. Two emeralds for cave items (Spore blossoms, moss, small dripleaf, pointed dripstone, glow berries, rooted dirt)\n\n",
-  "item.tcc.compendium.entry.wandering_trader_rework.page_2.description": "4. Two emeralds for desert items (cactus, dead bushes)\n\n5. Three emeralds for jungle items (Lily pads, vines, bamboo, cocoa beans)\n\n\n\n",
-  "item.tcc.compendium.entry.wandering_trader_rework.page_3.description": "6. Four emeralds for ocean items (Coral plants, sea pickles, kelp, nautilus shells, turtle eggs)\n\n7. Five emeralds for a bucketed mob (%s, axolotl, pufferfish, cod, salmon, tropical fish, tadpole)\n\n",
+  "item.tcc.compendium.entry.wandering_trader_rework.page_1.description": "2. One emerald for any flower except wither roses\n3. One emerald for one sapling of any type\n4. Two emeralds for cave items (Spore blossoms, moss, dripleaf, dripstone, glow berries, rooted dirt)\n\n",
+  "item.tcc.compendium.entry.wandering_trader_rework.page_2.description": "5. Two emeralds for desert items (cactus, dead bushes)\n\n6. Three emeralds for jungle items (Lily pads, vines, bamboo, cocoa beans)\n\n\n\n",
+  "item.tcc.compendium.entry.wandering_trader_rework.page_3.description": "7. Four emeralds for ocean items (Coral plants, sea pickles, kelp, nautilus shells, turtle eggs)\n\n8. Five emeralds for a bucketed mob (%s, axolotl, pufferfish, cod, salmon, tropical fish, tadpole)\n\n",
   "item.tcc.compendium.entry.wandering_trader_rework.page_3.reference_0": "snail",
   "item.tcc.compendium.entry.wandering_trader_rework.page_4.description": "Trader llamas also now spawn with chests containing some food and emeralds so you can buy things from the trader even if you don't have emeralds, and so you get a food reward from the trader even if you don't want to buy anything.",
 
@@ -839,6 +835,8 @@
   "block.tcc.soul_conductor.name": " ",
 
   "entity.tcc.iceologer.ice_overlay": "icyicyicy",
+
+  "commands.tcc.initiate.version_check": "%s",
 
   "chat.tcc.emoji_hover_event": "%s\n%s\n",
   "chat.tcc.emoji.angry.icon": "\ue002 ",

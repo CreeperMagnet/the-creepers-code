@@ -71,6 +71,7 @@
         {
           "name": "minecraft:book",
           "type": "minecraft:item",
+          "weight": 5,
           "functions": [
             {
               "function": "minecraft:enchant_randomly",
@@ -91,6 +92,28 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:coast_armor_trim_smithing_template"
+        },
+        {
+          "name": "tcc:gameplay/fishing_pottery_sherds/cold_ocean_ruin",
+          "type": "minecraft:loot_table",
+          "weight": 10,
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "tcc:location/above_cold_ocean_ruin"
+            }
+          ]
+        },
+        {
+          "name": "tcc:gameplay/fishing_pottery_sherds/warm_ocean_ruin",
+          "type": "minecraft:loot_table",
+          "weight": 10,
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "tcc:location/above_warm_ocean_ruin"
+            }
+          ]
         }
       ]
     }
@@ -114,6 +137,15 @@
         "source": {
           "type":"smithed:reference",
           "path":"pools[0].entries[7]"
+        }
+      },
+      {
+        "type":"smithed:insert",
+        "index": 8,
+        "target":"pools[0].entries",
+        "source": {
+          "type":"smithed:reference",
+          "path":"pools[0].entries[8]"
         }
       }
     ]

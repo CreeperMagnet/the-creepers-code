@@ -3,6 +3,7 @@
 ############################################################
 
 item modify entity @s[gamemode=!creative] weapon.mainhand tcc:reduce_count/1
-execute if data entity @s SelectedItem run function tcc:block/teapot/interact/take_liquid/give_item/give
+execute if data entity @s[predicate=!tcc:entity/full_inventory] SelectedItem run function tcc:block/teapot/interact/take_liquid/give_item/give
+execute if data entity @s[predicate=tcc:entity/full_inventory] SelectedItem run function tcc:block/teapot/interact/take_liquid/give_item/spawn
 execute unless data entity @s SelectedItem run function tcc:block/teapot/interact/take_liquid/give_item/replace
 playsound minecraft:item.bottle.fill player @a[distance=..16]

@@ -4,6 +4,7 @@
 
 tag @s remove tcc.archaeologist
 tag @s remove tcc.tick
+team leave @s
 item replace entity @s armor.head with air
 item replace entity @s weapon.mainhand with air
 data modify entity @s HandItems set value [{},{}]

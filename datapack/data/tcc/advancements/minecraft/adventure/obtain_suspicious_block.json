@@ -1,0 +1,57 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:suspicious_sand"
+    },
+    "title": {
+      "translate": "advancements.tcc.minecraft.adventure.obtain_suspicious_block.title"
+    },
+    "description": [
+      {
+        "translate": "advancements.tcc.minecraft.adventure.obtain_suspicious_block.description"
+      },
+      "\n\n",
+      {
+        "translate": "pack.tcc",
+        "color": "#008725",
+        "italic": true
+      }
+    ],
+    "show_toast": true,
+    "announce_to_chat": true,
+    "frame": "goal"
+  },
+  "parent": "minecraft:adventure/salvage_sherd",
+  "criteria": {
+    "suspicious_gravel": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:suspicious_gravel"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "suspicious_sand": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:suspicious_sand"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "suspicious_gravel",
+      "suspicious_sand"
+    ]
+  ]
+}

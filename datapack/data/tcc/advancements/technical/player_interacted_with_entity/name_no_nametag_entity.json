@@ -1,0 +1,28 @@
+{
+  "parent": "tcc:technical/root",
+  "criteria": {
+    "name_no_nametag_entity": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "nbt": "{display:{}}"
+        },
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "team": "tcc.no_nametag"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "tcc:entity/no_nametag/advancement"
+  }
+}
