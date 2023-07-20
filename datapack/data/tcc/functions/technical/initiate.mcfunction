@@ -2,6 +2,9 @@
 # Commands to only run once per install
 ############################################################
 
-data merge storage tcc:storage {root:{gamerules:{doChargedDiscs:1b,alwaysShowTeaTimer:0b,ignoreGobbleriftMeatNBT:0b,reducedGoldenChorusFruitSpread:0b}}}
+execute unless data storage tcc:storage root.gamerules run data merge storage tcc:storage {root:{gamerules:{alwaysShowTeaTimer:0b,reducedGoldenChorusFruitSpread:0b}}}
 
-scoreboard players set #server_version tcc.dummy 110
+# Soul Conductor Limit
+scoreboard players set #soul_conductor_limit tcc.dummy 2000
+
+scoreboard players set #server_version tcc.dummy 122

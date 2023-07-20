@@ -2,7 +2,7 @@
 # Initiates things for the player
 ############################################################
 
-tellraw @s {"clickEvent":{"action":"open_url","value":"https://api.smithed.dev/v2/download?pack=tcc@1.2.1&mode=resourcepack"},"fallback": "\nThe Creeper's Code required resource pack is not installed. Click here to download it.\n","translate":"commands.tcc.initiate.version_check","color":"red","with":[{"translate":"commands.tcc.initiate","color":"white","underlined":false,"clickEvent":{"action":"suggest_command","value":""},"with":[{"translate":"pack.tcc","color":"#008725","underlined":true,"hoverEvent":{"action":"show_text","contents":{"translate":"pack.tcc.hover_event"}},"clickEvent":{"action":"open_url","value":"https://thecreeperscode.com"}}]}]}
+tellraw @s {"clickEvent":{"action":"open_url","value":"https://api.smithed.dev/v2/download?pack=tcc@1.2.2&mode=resourcepack"},"fallback": "\nThe Creeper's Code required resource pack is not installed. Click here to download it.\n","translate":"commands.tcc.initiate.version_check","color":"red","with":[{"translate":"commands.tcc.initiate","color":"white","underlined":false,"clickEvent":{"action":"suggest_command","value":""},"with":[{"translate":"pack.tcc","color":"#008725","underlined":true,"hoverEvent":{"action":"show_text","contents":{"translate":"pack.tcc.hover_event"}},"clickEvent":{"action":"open_url","value":"https://thecreeperscode.com"}}]}]}
 
 scoreboard players set @s tcc.dummy 3465
 execute store result score @s tcc.dummy2 run data get entity @s DataVersion

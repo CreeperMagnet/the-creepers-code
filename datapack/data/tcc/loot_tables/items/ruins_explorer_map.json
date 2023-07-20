@@ -14,7 +14,7 @@
               "decoration": "target_point",
               "zoom": 1,
               "search_radius": 50,
-              "skip_existing_chunks": false
+              "skip_existing_chunks": true
             },
             {
               "function": "minecraft:set_name",

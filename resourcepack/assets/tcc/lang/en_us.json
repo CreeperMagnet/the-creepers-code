@@ -173,6 +173,7 @@
   "block.tcc.gobblerift": "Gobblerift",
   "block.tcc.snail_nest": "Snail Nest",
   "block.tcc.soul_conductor": "Soul Conductor",
+  "block.tcc.soul_conductor.exceeded_path_limit": "The soul conductor path limit is %s blocks",
   "block.tcc.pottery_table": "Pottery Table",
   "block.tcc.nether_brick_pot": "Decorated Nether Brick Pot",
 

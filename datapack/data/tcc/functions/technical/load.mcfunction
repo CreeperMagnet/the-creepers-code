@@ -6,7 +6,7 @@
 scoreboard objectives add tcc.dummy dummy
 
 tellraw @a[predicate=tcc:entity/debug_player] [{"translate":"debug.prefix","color":"yellow","bold":true},{"translate":"commands.tcc.reload.success","color":"white","bold":false}]
-execute unless score #server_version tcc.dummy matches 100 run function tcc:technical/initiate
+execute unless score #server_version tcc.dummy matches 122 run function tcc:technical/initiate
 
 # Refresh the compendium for all players that currently have one
 execute as @a[nbt={Inventory:[{tag:{tcc:{id:"compendium"}}}]},gamemode=!spectator] run function tcc:item/compendium
