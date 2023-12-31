@@ -15,7 +15,6 @@ execute if entity @s[tag=tcc.tag] if block ~ ~ ~ barrel{Items:[{Slot:13b}]} if b
 tag @s remove tcc.tag
 
 execute if block ~ ~ ~ barrel{Items:[{Slot:0b,id:"minecraft:decorated_pot"}]} unless data block ~ ~ ~ Items[{Slot:0b}].tag.BlockEntityTag.sherds unless block ~ ~ ~ barrel{Items:[{Slot:12b}]} run data modify block ~ ~ ~ Items[{Slot:0b}].Slot set value 12b
-execute if block ~ ~ ~ barrel{Items:[{Slot:0b,id:"minecraft:decorated_pot"}]} if data block ~ ~ ~ Items[{Slot:0b}].tag.BlockEntityTag.sherds run function tcc:block/pottery_table/crafting/manage_invalids/check_vanilla_pot
 execute if block ~ ~ ~ barrel{Items:[{Slot:0b,tag:{tcc:{id:"decorated_pot",raw_pot:1b}}}]} unless block ~ ~ ~ barrel{Items:[{Slot:12b}]} run data modify block ~ ~ ~ Items[{Slot:0b}].Slot set value 12b
 data modify entity @s item set from storage tcc:storage root.temp.stored_item
 

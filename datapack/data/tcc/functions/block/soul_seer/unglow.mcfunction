@@ -2,10 +2,18 @@
 # Commands to run when the glow block stops glowing
 ############################################################
 
+function tcc:block/soul_seer/remove_items/main
 scoreboard players reset @s tcc.dummy2
 data modify entity @s item.tag.CustomModelData set value 330004
-playsound tcc:block.soul_seer.emanate block @a[distance=..24] ~ ~ ~ 2 0.5 1
-data remove entity @s brightness
+execute unless block ~ ~1 ~ minecraft:tinted_glass run playsound tcc:block.soul_seer.emanate block @a[distance=..6] ~ ~ ~ 1 0.5 1
+execute if block ~ ~1 ~ minecraft:tinted_glass run playsound tcc:block.soul_seer.emanate block @a[distance=..6] ~ ~ ~ 0.2 0.5 1
+data modify entity @s item.tag.comparator set value 0
+
+tag @s remove tcc.tag
+execute if block ~ ~ ~ dropper[triggered=true] run tag @s add tcc.tag
+setblock ~ ~ ~ cobbled_deepslate
+execute if entity @s[tag=tcc.tag] run setblock ~ ~ ~ dropper[facing=down,triggered=true]{CustomName:'{"font":"tcc:technical","translate":"block.tcc.soul_seer.name"}',Lock:"§soul_seer\\uF001"}
+execute if entity @s[tag=!tcc.tag] run setblock ~ ~ ~ dropper[facing=down,triggered=false]{CustomName:'{"font":"tcc:technical","translate":"block.tcc.soul_seer.name"}',Lock:"§soul_seer\\uF001"}
+
+execute positioned ~ ~1 ~ run function tcc:block/update_light/main
 tag @s remove tcc.glow_in_the_dark
-setblock ~ ~ ~ deepslate_bricks
-setblock ~ ~ ~ dropper[facing=down,triggered=false]{CustomName:'{"font":"tcc:technical","translate":"block.tcc.soul_seer.name"}',Lock:"§soul_seer_off\\uF001"}

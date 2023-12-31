@@ -12,6 +12,18 @@
       "conditions": {
         "recipe_id": "tcc:nbt/boomerang"
       }
+    },
+    "recipe_alt_crafted": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "tcc:nbt/boomerang_upside_down"
+      }
     }
-  }
+  },
+  "requirements": [
+    [
+      "recipe_crafted",
+      "recipe_alt_crafted"
+    ]
+  ]
 }

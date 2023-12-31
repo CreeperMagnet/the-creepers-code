@@ -54,5 +54,10 @@
   },
   "rewards": {
     "function": "tcc:entity/horse_frost_trotting/add_tag"
-  }
+  },
+  "requirements": [
+    [
+      "click_horse"
+    ]
+  ]
 }

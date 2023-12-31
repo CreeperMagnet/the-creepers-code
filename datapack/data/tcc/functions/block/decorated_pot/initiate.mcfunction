@@ -3,6 +3,7 @@
 ############################################################
 
 data modify entity @s item.tag.item_tag set from storage tcc:storage root.temp.item_tag
+data modify storage tcc:storage root.temp.item_tag.tcc.sherds[{id:"minecraft:prismarine_shard"}].tag.CustomModelData set value 330016
 
 execute store result score #temp_0 tcc.dummy run data get storage tcc:storage root.temp.item_tag.tcc.sherds[0].tag.CustomModelData
 execute if score #temp_0 tcc.dummy matches 1.. run scoreboard players remove #temp_0 tcc.dummy 330000

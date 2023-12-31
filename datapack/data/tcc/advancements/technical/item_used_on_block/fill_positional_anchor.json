@@ -29,5 +29,10 @@
   },
   "rewards": {
     "function": "tcc:block/positional_anchor/fill/start"
-  }
+  },
+  "requirements": [
+    [
+      "click_positional_anchor"
+    ]
+  ]
 }

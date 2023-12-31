@@ -11,7 +11,7 @@
         "conditions": {
           "items": [
             {
-              "tag": "tcc:polished_stone_crafting_materials"
+              "tag": "tcc:raw_stone_crafting_materials"
             }
           ]
         }

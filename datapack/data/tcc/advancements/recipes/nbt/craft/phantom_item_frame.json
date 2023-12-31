@@ -13,5 +13,10 @@
         "recipe_id": "tcc:nbt/phantom_item_frame"
       }
     }
-  }
+  },
+  "requirements": [
+    [
+      "recipe_crafted"
+    ]
+  ]
 }

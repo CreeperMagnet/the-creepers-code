@@ -9,12 +9,17 @@ tellraw @a[predicate=tcc:entity/debug_player] [{"translate":"debug.prefix","colo
 execute unless score #server_version tcc.dummy matches 122 run function tcc:technical/initiate
 
 # Refresh the compendium for all players that currently have one
-execute as @a[nbt={Inventory:[{tag:{tcc:{id:"compendium"}}}]},gamemode=!spectator] run function tcc:item/compendium
+execute as @a run function tcc:item/compendium/refresh
 
 ## Gamerules
 gamerule logAdminCommands false
 gamerule commandBlockOutput false
-gamerule maxCommandChainLength 2147483647
+gamerule maxCommandChainLength 1073741824
+
+## Compendium Data
+execute unless data storage tcc:storage root.compendium.player_data run data modify storage tcc:storage root.compendium set value {player_data:[]}
+# The following line is updated when the generator is run
+data modify storage tcc:storage root.compendium.version set value {release:1,dev:0}
 
 ## Scoreboards
 scoreboard objectives add tcc.used_warped_fungus_on_a_stick minecraft.used:minecraft.warped_fungus_on_a_stick
@@ -24,12 +29,16 @@ scoreboard objectives add tcc.current_xp xp
 scoreboard objectives add tcc.old_xp dummy
 scoreboard objectives add tcc.tea dummy
 scoreboard objectives add tcc.boomerang_cooldown dummy
+scoreboard objectives add tcc.cursed_crown_cooldown dummy
+scoreboard objectives add tcc.soul_seer_cooldown dummy
+scoreboard objectives add tcc.sneaking minecraft.custom:sneak_time
 
 #Use for operations spanning multiple ticks
 scoreboard objectives add tcc.dummy2 dummy
 
 ## Scoreboard Constants
 scoreboard players set #-1 tcc.dummy -1
+scoreboard players set #0 tcc.dummy 0
 scoreboard players set #2 tcc.dummy 2
 scoreboard players set #3 tcc.dummy 3
 scoreboard players set #4 tcc.dummy 4
@@ -52,7 +61,7 @@ execute unless score #wandering_witch_timer tcc.dummy matches -2147483648..21474
 
 ## Triggered Objectives
 scoreboard objectives add tcc.emoji trigger
-scoreboard objectives add tcc.compendium trigger
+scoreboard objectives add tccc.internal_trigger trigger
 
 ## Teams
 team add tcc.recovery_compass

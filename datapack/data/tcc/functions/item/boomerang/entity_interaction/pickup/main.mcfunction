@@ -2,5 +2,5 @@
 # Commands for possibly picking up a boomerang
 ############################################################
 
-execute as @a[gamemode=!spectator,dx=0,nbt=!{Health:0.0f}] run function tcc:item/boomerang/entity_interaction/pickup/uuid_check
-execute if data storage tcc:storage root.temp.boomerang{UUID:"found"} run function tcc:item/boomerang/entity_interaction/pickup/kill_boomerang
+execute as @a[dx=0,gamemode=!spectator,sort=nearest] run function tcc:item/boomerang/entity_interaction/pickup/uuid_check with storage tcc:storage root.temp.boomerang.macro_input
+execute if data storage tcc:storage root.temp.boomerang.macro_input{UUID:"found"} run function tcc:item/boomerang/entity_interaction/pickup/kill_boomerang

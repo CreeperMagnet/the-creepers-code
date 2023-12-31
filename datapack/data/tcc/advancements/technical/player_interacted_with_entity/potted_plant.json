@@ -1,0 +1,28 @@
+{
+  "parent": "tcc:technical/root",
+  "criteria": {
+    "interact_with_potted_plant": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:interaction",
+              "nbt": "{Tags:[\"tcc.potted_plant\"]}"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "tcc:block/potted_plant/interact/main"
+  },
+  "requirements": [
+    [
+      "interact_with_potted_plant"
+    ]
+  ]
+}

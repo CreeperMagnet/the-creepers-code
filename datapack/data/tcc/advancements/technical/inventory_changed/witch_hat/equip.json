@@ -27,5 +27,10 @@
   },
   "rewards": {
     "function": "tcc:item/witch_hat/equip"
-  }
+  },
+  "requirements": [
+    [
+      "equip_witch_hat"
+    ]
+  ]
 }

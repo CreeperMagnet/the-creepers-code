@@ -25,5 +25,10 @@
   },
   "rewards": {
     "function": "tcc:entity/trader_entity/improper_glowing/schedule"
-  }
+  },
+  "requirements": [
+    [
+      "hurt_entity"
+    ]
+  ]
 }

@@ -1,6 +1,5 @@
 ############################################################
-# Remove an entry based on a dummy
-#> Input: #temp tcc.dummy
+# Removes an entry from the gobblerift data storage
 ############################################################
 
-function tcc:block/gobblerift/array_management/remove/0_1023
+$data remove storage tcc:storage root.gobblerift_data.array[{id:$(id)}]

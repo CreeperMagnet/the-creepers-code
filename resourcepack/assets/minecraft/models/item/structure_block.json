@@ -11,7 +11,7 @@
       "predicate": {
         "custom_model_data": 330001
       },
-      "model": "tcc:item/unused"
+      "model": "tcc:entity/overgrown/head"
     },
     {
       "predicate": {
@@ -523,11 +523,89 @@
       },
       "model": "tcc:block/teapot/empty"
     },
-	{
+	  {
       "predicate": {
         "custom_model_data": 330087
       },
       "model": "tcc:block/geomancer_pillar/explosive_lit"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330088
+      },
+      "model": "tcc:block/potted_plant/frostbloom"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330089
+      },
+      "model": "tcc:entity/overgrown/head_bamboo"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330090
+      },
+      "model": "tcc:block/potted_plant/sweet_berries"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330091
+      },
+      "model": "tcc:block/potted_plant/twisting_vines"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330092
+      },
+      "model": "tcc:block/potted_plant/sunflower"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330093
+      },
+      "model": "tcc:block/potted_plant/lilac"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330094
+      },
+      "model": "tcc:block/potted_plant/peony"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330095
+      },
+      "model": "tcc:block/potted_plant/rose_bush"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330096
+      },
+      "model": "tcc:block/potted_plant/pitcher_plant"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330097
+      },
+      "model": "tcc:block/potted_plant/gobblerift"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330098
+      },
+      "model": "tcc:block/potted_plant/chorus_flower"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330099
+      },
+      "model": "tcc:block/potted_plant/small_dripleaf"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330100
+      },
+      "model": "tcc:block/potted_plant/big_dripleaf"
     }
   ]
 }

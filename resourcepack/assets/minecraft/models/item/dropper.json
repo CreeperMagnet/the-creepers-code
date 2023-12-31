@@ -78,6 +78,42 @@
         "custom_model_data": 330012
       },
       "model": "tcc:block/soul_conductor/down"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330013
+      },
+      "model": "tcc:block/soul_conductor/north_disabled"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330014
+      },
+      "model": "tcc:block/soul_conductor/east_disabled"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330015
+      },
+      "model": "tcc:block/soul_conductor/south_disabled"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330016
+      },
+      "model": "tcc:block/soul_conductor/west_disabled"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330017
+      },
+      "model": "tcc:block/soul_conductor/up_disabled"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330018
+      },
+      "model": "tcc:block/soul_conductor/down_disabled"
     }
   ]
 }

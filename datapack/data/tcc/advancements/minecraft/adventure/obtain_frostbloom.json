@@ -35,5 +35,10 @@
         ]
       }
     }
-  }
+  },
+  "requirements": [
+    [
+      "frostbloom"
+    ]
+  ]
 }

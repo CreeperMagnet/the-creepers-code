@@ -20,5 +20,10 @@
   },
   "rewards": {
     "function": "tcc:block/hopper_updating/advancement"
-  }
+  },
+  "requirements": [
+    [
+      "place_hopper"
+    ]
+  ]
 }

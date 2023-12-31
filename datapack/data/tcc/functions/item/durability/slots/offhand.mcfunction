@@ -3,7 +3,6 @@
 ############################################################
 
 # Set storage stuff
-data remove storage tcc:storage root.temp
 data modify storage tcc:storage root.temp.item set from entity @s Inventory[{Slot:-106b}]
 
 # Sets the item's data in storage

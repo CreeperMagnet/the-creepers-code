@@ -39,5 +39,10 @@
         ]
       }
     }
-  }
+  },
+  "requirements": [
+    [
+      "enter_tundra_keep"
+    ]
+  ]
 }

@@ -13,5 +13,10 @@
         "recipe_id": "tcc:nbt/soul_conductor"
       }
     }
-  }
+  },
+  "requirements": [
+    [
+      "recipe_crafted"
+    ]
+  ]
 }

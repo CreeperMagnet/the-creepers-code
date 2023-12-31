@@ -73,50 +73,16 @@
           "looting_multiplier": 0.01
         }
       ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "item",
-          "weight": 1,
-          "name": "minecraft:iron_nugget",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 0,
-                "max": 1
-              }
-            },
-            {
-              "function": "looting_enchant",
-              "count": {
-                "min": 0,
-                "max": 1
-              }
-            }
-          ]
-        }
-      ]
     }
   ],
   "random_sequence": "minecraft:entities/zombie_villager",
   "__smithed__": {
     "rules": [
       {
-        "type":"smithed:append",
-        "target":"pools",
-        "source":{
-          "type":"smithed:reference",
-          "path":"pools[2]"
-        }
-      },
-      {
-        "type":"smithed:merge",
+        "type":"merge",
         "target":"pools[1].entries[0].name",
         "source": {
-          "type":"smithed:reference",
+          "type":"reference",
           "path":"pools[1].entries[0].name"
         }
       }

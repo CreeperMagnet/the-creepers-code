@@ -18,5 +18,10 @@
   },
   "rewards": {
     "function": "tcc:block/teapot/interact/advancement"
-  }
+  },
+  "requirements": [
+    [
+      "interact"
+    ]
+  ]
 }

@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "place": {
+    "place_phantom_item_frame": {
       "trigger": "minecraft:item_used_on_block",
       "conditions": {
         "location": [
@@ -15,6 +15,11 @@
     }
   },
   "rewards": {
-    "function": "tcc:entity/phantom_item_frame/player_place"
-  }
+    "function": "tcc:block/phantom_item_frame/place/advancement"
+  },
+  "requirements": [
+    [
+      "place_phantom_item_frame"
+    ]
+  ]
 }

@@ -1,14 +1,15 @@
 {
   "values": [
-    "minecraft:armor_stand",
     "minecraft:item_frame",
     "minecraft:trident",
     "minecraft:wandering_trader",
     "minecraft:marker",
-    "minecraft:trader_llama",
     "minecraft:item",
     "minecraft:item_display",
     "minecraft:interaction",
-    "minecraft:zombie_villager"
+    "minecraft:zombie_villager",
+    "minecraft:skeleton",
+    "minecraft:drowned",
+    "minecraft:zombie"
   ]
 }

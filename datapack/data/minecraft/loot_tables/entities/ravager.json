@@ -23,7 +23,7 @@
       "bonus_rolls": 0,
       "entries": [
         {
-          "weight": 2,
+          "weight": 9,
           "type": "minecraft:empty"
         },
         {
@@ -38,10 +38,10 @@
   "__smithed__": {
     "rules": [
       {
-        "type": "smithed:append",
+        "type": "append",
         "target": "pools",
         "source": {
-          "type": "smithed:reference",
+          "type": "reference",
           "path": "pools[1]"
         }
       }

@@ -1,0 +1,3363 @@
+{
+  "processors": [
+    {
+      "rules": [
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:prismarine_stairs",
+              "Properties": {
+                "facing": "north",
+                "half": "top",
+                "shape": "straight",
+                "waterlogged": "false"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:prismarine_stairs",
+            "Properties": {
+              "facing": "north",
+              "half": "top",
+              "shape": "straight",
+              "waterlogged": "true"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:prismarine_stairs",
+              "Properties": {
+                "facing": "north",
+                "half": "top",
+                "shape": "inner_left",
+                "waterlogged": "false"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:prismarine_stairs",
+            "Properties": {
+              "facing": "north",
+              "half": "top",
+              "shape": "inner_left",
+              "waterlogged": "true"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:prismarine_stairs",
+              "Properties": {
+                "facing": "north",
+                "half": "top",
+                "shape": "inner_right",
+                "waterlogged": "false"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:prismarine_stairs",
+            "Properties": {
+              "facing": "north",
+              "half": "top",
+              "shape": "inner_right",
+              "waterlogged": "true"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:prismarine_stairs",
+              "Properties": {
+                "facing": "north",
+                "half": "top",
+                "shape": "outer_left",
+                "waterlogged": "false"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:prismarine_stairs",
+            "Properties": {
+              "facing": "north",
+              "half": "top",
+              "shape": "outer_left",
+              "waterlogged": "true"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:prismarine_stairs",
+              "Properties": {
+                "facing": "north",
+                "half": "top",
+                "shape": "outer_right",
+                "waterlogged": "false"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:prismarine_stairs",
+            "Properties": {
+              "facing": "north",
+              "half": "top",
+              "shape": "outer_right",
+              "waterlogged": "true"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:prismarine_stairs",
+              "Properties": {
+                "facing": "north",
+                "half": "bottom",
+                "shape": "straight",
+                "waterlogged": "false"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:prismarine_stairs",
+            "Properties": {
+              "facing": "north",
+              "half": "bottom",
+              "shape": "straight",
+              "waterlogged": "true"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:prismarine_stairs",
+              "Properties": {
+                "facing": "north",
+                "half": "bottom",
+                "shape": "inner_left",
+                "waterlogged": "false"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:prismarine_stairs",
+            "Properties": {
+              "facing": "north",
+              "half": "bottom",
+              "shape": "inner_left",
+              "waterlogged": "true"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:prismarine_stairs",
+              "Properties": {
+                "facing": "north",
+                "half": "bottom",
+                "shape": "inner_right",
+                "waterlogged": "false"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:prismarine_stairs",
+            "Properties": {
+              "facing": "north",
+              "half": "bottom",
+              "shape": "inner_right",
+              "waterlogged": "true"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:prismarine_stairs",
+              "Properties": {
+                "facing": "north",
+                "half": "bottom",
+                "shape": "outer_left",
+                "waterlogged": "false"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:prismarine_stairs",
+            "Properties": {
+              "facing": "north",
+              "half": "bottom",
+              "shape": "outer_left",
+              "waterlogged": "true"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:prismarine_stairs",
+              "Properties": {
+                "facing": "north",
+                "half": "bottom",
+                "shape": "outer_right",
+                "waterlogged": "false"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:prismarine_stairs",
+            "Properties": {
+              "facing": "north",
+              "half": "bottom",
+              "shape": "outer_right",
+              "waterlogged": "true"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:prismarine_stairs",
+              "Properties": {
+                "facing": "south",
+                "half": "top",
+                "shape": "straight",
+                "waterlogged": "false"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:prismarine_stairs",
+            "Properties": {
+              "facing": "south",
+              "half": "top",
+              "shape": "straight",
+              "waterlogged": "true"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:prismarine_stairs",
+              "Properties": {
+                "facing": "south",
+                "half": "top",
+                "shape": "inner_left",
+                "waterlogged": "false"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:prismarine_stairs",
+            "Properties": {
+              "facing": "south",
+              "half": "top",
+              "shape": "inner_left",
+              "waterlogged": "true"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:prismarine_stairs",
+              "Properties": {
+                "facing": "south",
+                "half": "top",
+                "shape": "inner_right",
+                "waterlogged": "false"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:prismarine_stairs",
+            "Properties": {
+              "facing": "south",
+              "half": "top",
+              "shape": "inner_right",
+              "waterlogged": "true"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:prismarine_stairs",
+              "Properties": {
+                "facing": "south",
+                "half": "top",
+                "shape": "outer_left",
+                "waterlogged": "false"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:prismarine_stairs",
+            "Properties": {
+              "facing": "south",
+              "half": "top",
+              "shape": "outer_left",
+              "waterlogged": "true"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:prismarine_stairs",
+              "Properties": {
+                "facing": "south",
+                "half": "top",
+                "shape": "outer_right",
+                "waterlogged": "false"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:prismarine_stairs",
+            "Properties": {
+              "facing": "south",
+              "half": "top",
+              "shape": "outer_right",
+              "waterlogged": "true"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:prismarine_stairs",
+              "Properties": {
+                "facing": "south",
+                "half": "bottom",
+                "shape": "straight",
+                "waterlogged": "false"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:prismarine_stairs",
+            "Properties": {
+              "facing": "south",
+              "half": "bottom",
+              "shape": "straight",
+              "waterlogged": "true"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:prismarine_stairs",
+              "Properties": {
+                "facing": "south",
+                "half": "bottom",
+                "shape": "inner_left",
+                "waterlogged": "false"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:prismarine_stairs",
+            "Properties": {
+              "facing": "south",
+              "half": "bottom",
+              "shape": "inner_left",
+              "waterlogged": "true"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:prismarine_stairs",
+              "Properties": {
+                "facing": "south",
+                "half": "bottom",
+                "shape": "inner_right",
+                "waterlogged": "false"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:prismarine_stairs",
+            "Properties": {
+              "facing": "south",
+              "half": "bottom",
+              "shape": "inner_right",
+              "waterlogged": "true"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:prismarine_stairs",
+              "Properties": {
+                "facing": "south",
+                "half": "bottom",
+                "shape": "outer_left",
+                "waterlogged": "false"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:prismarine_stairs",
+            "Properties": {
+              "facing": "south",
+              "half": "bottom",
+              "shape": "outer_left",
+              "waterlogged": "true"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:prismarine_stairs",
+              "Properties": {
+                "facing": "south",
+                "half": "bottom",
+                "shape": "outer_right",
+                "waterlogged": "false"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:prismarine_stairs",
+            "Properties": {
+              "facing": "south",
+              "half": "bottom",
+              "shape": "outer_right",
+              "waterlogged": "true"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:prismarine_stairs",
+              "Properties": {
+                "facing": "west",
+                "half": "top",
+                "shape": "straight",
+                "waterlogged": "false"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:prismarine_stairs",
+            "Properties": {
+              "facing": "west",
+              "half": "top",
+              "shape": "straight",
+              "waterlogged": "true"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:prismarine_stairs",
+              "Properties": {
+                "facing": "west",
+                "half": "top",
+                "shape": "inner_left",
+                "waterlogged": "false"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:prismarine_stairs",
+            "Properties": {
+              "facing": "west",
+              "half": "top",
+              "shape": "inner_left",
+              "waterlogged": "true"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:prismarine_stairs",
+              "Properties": {
+                "facing": "west",
+                "half": "top",
+                "shape": "inner_right",
+                "waterlogged": "false"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:prismarine_stairs",
+            "Properties": {
+              "facing": "west",
+              "half": "top",
+              "shape": "inner_right",
+              "waterlogged": "true"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:prismarine_stairs",
+              "Properties": {
+                "facing": "west",
+                "half": "top",
+                "shape": "outer_left",
+                "waterlogged": "false"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:prismarine_stairs",
+            "Properties": {
+              "facing": "west",
+              "half": "top",
+              "shape": "outer_left",
+              "waterlogged": "true"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:prismarine_stairs",
+              "Properties": {
+                "facing": "west",
+                "half": "top",
+                "shape": "outer_right",
+                "waterlogged": "false"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:prismarine_stairs",
+            "Properties": {
+              "facing": "west",
+              "half": "top",
+              "shape": "outer_right",
+              "waterlogged": "true"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:prismarine_stairs",
+              "Properties": {
+                "facing": "west",
+                "half": "bottom",
+                "shape": "straight",
+                "waterlogged": "false"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:prismarine_stairs",
+            "Properties": {
+              "facing": "west",
+              "half": "bottom",
+              "shape": "straight",
+              "waterlogged": "true"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:prismarine_stairs",
+              "Properties": {
+                "facing": "west",
+                "half": "bottom",
+                "shape": "inner_left",
+                "waterlogged": "false"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:prismarine_stairs",
+            "Properties": {
+              "facing": "west",
+              "half": "bottom",
+              "shape": "inner_left",
+              "waterlogged": "true"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:prismarine_stairs",
+              "Properties": {
+                "facing": "west",
+                "half": "bottom",
+                "shape": "inner_right",
+                "waterlogged": "false"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:prismarine_stairs",
+            "Properties": {
+              "facing": "west",
+              "half": "bottom",
+              "shape": "inner_right",
+              "waterlogged": "true"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:prismarine_stairs",
+              "Properties": {
+                "facing": "west",
+                "half": "bottom",
+                "shape": "outer_left",
+                "waterlogged": "false"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:prismarine_stairs",
+            "Properties": {
+              "facing": "west",
+              "half": "bottom",
+              "shape": "outer_left",
+              "waterlogged": "true"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:prismarine_stairs",
+              "Properties": {
+                "facing": "west",
+                "half": "bottom",
+                "shape": "outer_right",
+                "waterlogged": "false"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:prismarine_stairs",
+            "Properties": {
+              "facing": "west",
+              "half": "bottom",
+              "shape": "outer_right",
+              "waterlogged": "true"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:prismarine_stairs",
+              "Properties": {
+                "facing": "east",
+                "half": "top",
+                "shape": "straight",
+                "waterlogged": "false"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:prismarine_stairs",
+            "Properties": {
+              "facing": "east",
+              "half": "top",
+              "shape": "straight",
+              "waterlogged": "true"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:prismarine_stairs",
+              "Properties": {
+                "facing": "east",
+                "half": "top",
+                "shape": "inner_left",
+                "waterlogged": "false"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:prismarine_stairs",
+            "Properties": {
+              "facing": "east",
+              "half": "top",
+              "shape": "inner_left",
+              "waterlogged": "true"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:prismarine_stairs",
+              "Properties": {
+                "facing": "east",
+                "half": "top",
+                "shape": "inner_right",
+                "waterlogged": "false"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:prismarine_stairs",
+            "Properties": {
+              "facing": "east",
+              "half": "top",
+              "shape": "inner_right",
+              "waterlogged": "true"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:prismarine_stairs",
+              "Properties": {
+                "facing": "east",
+                "half": "top",
+                "shape": "outer_left",
+                "waterlogged": "false"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:prismarine_stairs",
+            "Properties": {
+              "facing": "east",
+              "half": "top",
+              "shape": "outer_left",
+              "waterlogged": "true"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:prismarine_stairs",
+              "Properties": {
+                "facing": "east",
+                "half": "top",
+                "shape": "outer_right",
+                "waterlogged": "false"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:prismarine_stairs",
+            "Properties": {
+              "facing": "east",
+              "half": "top",
+              "shape": "outer_right",
+              "waterlogged": "true"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:prismarine_stairs",
+              "Properties": {
+                "facing": "east",
+                "half": "bottom",
+                "shape": "straight",
+                "waterlogged": "false"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:prismarine_stairs",
+            "Properties": {
+              "facing": "east",
+              "half": "bottom",
+              "shape": "straight",
+              "waterlogged": "true"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:prismarine_stairs",
+              "Properties": {
+                "facing": "east",
+                "half": "bottom",
+                "shape": "inner_left",
+                "waterlogged": "false"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:prismarine_stairs",
+            "Properties": {
+              "facing": "east",
+              "half": "bottom",
+              "shape": "inner_left",
+              "waterlogged": "true"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:prismarine_stairs",
+              "Properties": {
+                "facing": "east",
+                "half": "bottom",
+                "shape": "inner_right",
+                "waterlogged": "false"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:prismarine_stairs",
+            "Properties": {
+              "facing": "east",
+              "half": "bottom",
+              "shape": "inner_right",
+              "waterlogged": "true"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:prismarine_stairs",
+              "Properties": {
+                "facing": "east",
+                "half": "bottom",
+                "shape": "outer_left",
+                "waterlogged": "false"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:prismarine_stairs",
+            "Properties": {
+              "facing": "east",
+              "half": "bottom",
+              "shape": "outer_left",
+              "waterlogged": "true"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:prismarine_stairs",
+              "Properties": {
+                "facing": "east",
+                "half": "bottom",
+                "shape": "outer_right",
+                "waterlogged": "false"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:prismarine_stairs",
+            "Properties": {
+              "facing": "east",
+              "half": "bottom",
+              "shape": "outer_right",
+              "waterlogged": "true"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:prismarine_brick_stairs",
+              "Properties": {
+                "facing": "north",
+                "half": "top",
+                "shape": "straight",
+                "waterlogged": "false"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:prismarine_brick_stairs",
+            "Properties": {
+              "facing": "north",
+              "half": "top",
+              "shape": "straight",
+              "waterlogged": "true"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:prismarine_brick_stairs",
+              "Properties": {
+                "facing": "north",
+                "half": "top",
+                "shape": "inner_left",
+                "waterlogged": "false"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:prismarine_brick_stairs",
+            "Properties": {
+              "facing": "north",
+              "half": "top",
+              "shape": "inner_left",
+              "waterlogged": "true"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:prismarine_brick_stairs",
+              "Properties": {
+                "facing": "north",
+                "half": "top",
+                "shape": "inner_right",
+                "waterlogged": "false"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:prismarine_brick_stairs",
+            "Properties": {
+              "facing": "north",
+              "half": "top",
+              "shape": "inner_right",
+              "waterlogged": "true"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:prismarine_brick_stairs",
+              "Properties": {
+                "facing": "north",
+                "half": "top",
+                "shape": "outer_left",
+                "waterlogged": "false"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:prismarine_brick_stairs",
+            "Properties": {
+              "facing": "north",
+              "half": "top",
+              "shape": "outer_left",
+              "waterlogged": "true"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:prismarine_brick_stairs",
+              "Properties": {
+                "facing": "north",
+                "half": "top",
+                "shape": "outer_right",
+                "waterlogged": "false"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:prismarine_brick_stairs",
+            "Properties": {
+              "facing": "north",
+              "half": "top",
+              "shape": "outer_right",
+              "waterlogged": "true"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:prismarine_brick_stairs",
+              "Properties": {
+                "facing": "north",
+                "half": "bottom",
+                "shape": "straight",
+                "waterlogged": "false"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:prismarine_brick_stairs",
+            "Properties": {
+              "facing": "north",
+              "half": "bottom",
+              "shape": "straight",
+              "waterlogged": "true"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:prismarine_brick_stairs",
+              "Properties": {
+                "facing": "north",
+                "half": "bottom",
+                "shape": "inner_left",
+                "waterlogged": "false"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:prismarine_brick_stairs",
+            "Properties": {
+              "facing": "north",
+              "half": "bottom",
+              "shape": "inner_left",
+              "waterlogged": "true"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:prismarine_brick_stairs",
+              "Properties": {
+                "facing": "north",
+                "half": "bottom",
+                "shape": "inner_right",
+                "waterlogged": "false"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:prismarine_brick_stairs",
+            "Properties": {
+              "facing": "north",
+              "half": "bottom",
+              "shape": "inner_right",
+              "waterlogged": "true"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:prismarine_brick_stairs",
+              "Properties": {
+                "facing": "north",
+                "half": "bottom",
+                "shape": "outer_left",
+                "waterlogged": "false"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:prismarine_brick_stairs",
+            "Properties": {
+              "facing": "north",
+              "half": "bottom",
+              "shape": "outer_left",
+              "waterlogged": "true"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:prismarine_brick_stairs",
+              "Properties": {
+                "facing": "north",
+                "half": "bottom",
+                "shape": "outer_right",
+                "waterlogged": "false"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:prismarine_brick_stairs",
+            "Properties": {
+              "facing": "north",
+              "half": "bottom",
+              "shape": "outer_right",
+              "waterlogged": "true"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:prismarine_brick_stairs",
+              "Properties": {
+                "facing": "south",
+                "half": "top",
+                "shape": "straight",
+                "waterlogged": "false"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:prismarine_brick_stairs",
+            "Properties": {
+              "facing": "south",
+              "half": "top",
+              "shape": "straight",
+              "waterlogged": "true"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:prismarine_brick_stairs",
+              "Properties": {
+                "facing": "south",
+                "half": "top",
+                "shape": "inner_left",
+                "waterlogged": "false"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:prismarine_brick_stairs",
+            "Properties": {
+              "facing": "south",
+              "half": "top",
+              "shape": "inner_left",
+              "waterlogged": "true"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:prismarine_brick_stairs",
+              "Properties": {
+                "facing": "south",
+                "half": "top",
+                "shape": "inner_right",
+                "waterlogged": "false"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:prismarine_brick_stairs",
+            "Properties": {
+              "facing": "south",
+              "half": "top",
+              "shape": "inner_right",
+              "waterlogged": "true"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:prismarine_brick_stairs",
+              "Properties": {
+                "facing": "south",
+                "half": "top",
+                "shape": "outer_left",
+                "waterlogged": "false"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:prismarine_brick_stairs",
+            "Properties": {
+              "facing": "south",
+              "half": "top",
+              "shape": "outer_left",
+              "waterlogged": "true"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:prismarine_brick_stairs",
+              "Properties": {
+                "facing": "south",
+                "half": "top",
+                "shape": "outer_right",
+                "waterlogged": "false"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:prismarine_brick_stairs",
+            "Properties": {
+              "facing": "south",
+              "half": "top",
+              "shape": "outer_right",
+              "waterlogged": "true"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:prismarine_brick_stairs",
+              "Properties": {
+                "facing": "south",
+                "half": "bottom",
+                "shape": "straight",
+                "waterlogged": "false"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:prismarine_brick_stairs",
+            "Properties": {
+              "facing": "south",
+              "half": "bottom",
+              "shape": "straight",
+              "waterlogged": "true"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:prismarine_brick_stairs",
+              "Properties": {
+                "facing": "south",
+                "half": "bottom",
+                "shape": "inner_left",
+                "waterlogged": "false"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:prismarine_brick_stairs",
+            "Properties": {
+              "facing": "south",
+              "half": "bottom",
+              "shape": "inner_left",
+              "waterlogged": "true"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:prismarine_brick_stairs",
+              "Properties": {
+                "facing": "south",
+                "half": "bottom",
+                "shape": "inner_right",
+                "waterlogged": "false"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:prismarine_brick_stairs",
+            "Properties": {
+              "facing": "south",
+              "half": "bottom",
+              "shape": "inner_right",
+              "waterlogged": "true"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:prismarine_brick_stairs",
+              "Properties": {
+                "facing": "south",
+                "half": "bottom",
+                "shape": "outer_left",
+                "waterlogged": "false"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:prismarine_brick_stairs",
+            "Properties": {
+              "facing": "south",
+              "half": "bottom",
+              "shape": "outer_left",
+              "waterlogged": "true"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:prismarine_brick_stairs",
+              "Properties": {
+                "facing": "south",
+                "half": "bottom",
+                "shape": "outer_right",
+                "waterlogged": "false"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:prismarine_brick_stairs",
+            "Properties": {
+              "facing": "south",
+              "half": "bottom",
+              "shape": "outer_right",
+              "waterlogged": "true"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:prismarine_brick_stairs",
+              "Properties": {
+                "facing": "west",
+                "half": "top",
+                "shape": "straight",
+                "waterlogged": "false"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:prismarine_brick_stairs",
+            "Properties": {
+              "facing": "west",
+              "half": "top",
+              "shape": "straight",
+              "waterlogged": "true"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:prismarine_brick_stairs",
+              "Properties": {
+                "facing": "west",
+                "half": "top",
+                "shape": "inner_left",
+                "waterlogged": "false"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:prismarine_brick_stairs",
+            "Properties": {
+              "facing": "west",
+              "half": "top",
+              "shape": "inner_left",
+              "waterlogged": "true"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:prismarine_brick_stairs",
+              "Properties": {
+                "facing": "west",
+                "half": "top",
+                "shape": "inner_right",
+                "waterlogged": "false"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:prismarine_brick_stairs",
+            "Properties": {
+              "facing": "west",
+              "half": "top",
+              "shape": "inner_right",
+              "waterlogged": "true"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:prismarine_brick_stairs",
+              "Properties": {
+                "facing": "west",
+                "half": "top",
+                "shape": "outer_left",
+                "waterlogged": "false"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:prismarine_brick_stairs",
+            "Properties": {
+              "facing": "west",
+              "half": "top",
+              "shape": "outer_left",
+              "waterlogged": "true"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:prismarine_brick_stairs",
+              "Properties": {
+                "facing": "west",
+                "half": "top",
+                "shape": "outer_right",
+                "waterlogged": "false"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:prismarine_brick_stairs",
+            "Properties": {
+              "facing": "west",
+              "half": "top",
+              "shape": "outer_right",
+              "waterlogged": "true"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:prismarine_brick_stairs",
+              "Properties": {
+                "facing": "west",
+                "half": "bottom",
+                "shape": "straight",
+                "waterlogged": "false"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:prismarine_brick_stairs",
+            "Properties": {
+              "facing": "west",
+              "half": "bottom",
+              "shape": "straight",
+              "waterlogged": "true"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:prismarine_brick_stairs",
+              "Properties": {
+                "facing": "west",
+                "half": "bottom",
+                "shape": "inner_left",
+                "waterlogged": "false"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:prismarine_brick_stairs",
+            "Properties": {
+              "facing": "west",
+              "half": "bottom",
+              "shape": "inner_left",
+              "waterlogged": "true"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:prismarine_brick_stairs",
+              "Properties": {
+                "facing": "west",
+                "half": "bottom",
+                "shape": "inner_right",
+                "waterlogged": "false"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:prismarine_brick_stairs",
+            "Properties": {
+              "facing": "west",
+              "half": "bottom",
+              "shape": "inner_right",
+              "waterlogged": "true"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:prismarine_brick_stairs",
+              "Properties": {
+                "facing": "west",
+                "half": "bottom",
+                "shape": "outer_left",
+                "waterlogged": "false"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:prismarine_brick_stairs",
+            "Properties": {
+              "facing": "west",
+              "half": "bottom",
+              "shape": "outer_left",
+              "waterlogged": "true"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:prismarine_brick_stairs",
+              "Properties": {
+                "facing": "west",
+                "half": "bottom",
+                "shape": "outer_right",
+                "waterlogged": "false"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:prismarine_brick_stairs",
+            "Properties": {
+              "facing": "west",
+              "half": "bottom",
+              "shape": "outer_right",
+              "waterlogged": "true"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:prismarine_brick_stairs",
+              "Properties": {
+                "facing": "east",
+                "half": "top",
+                "shape": "straight",
+                "waterlogged": "false"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:prismarine_brick_stairs",
+            "Properties": {
+              "facing": "east",
+              "half": "top",
+              "shape": "straight",
+              "waterlogged": "true"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:prismarine_brick_stairs",
+              "Properties": {
+                "facing": "east",
+                "half": "top",
+                "shape": "inner_left",
+                "waterlogged": "false"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:prismarine_brick_stairs",
+            "Properties": {
+              "facing": "east",
+              "half": "top",
+              "shape": "inner_left",
+              "waterlogged": "true"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:prismarine_brick_stairs",
+              "Properties": {
+                "facing": "east",
+                "half": "top",
+                "shape": "inner_right",
+                "waterlogged": "false"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:prismarine_brick_stairs",
+            "Properties": {
+              "facing": "east",
+              "half": "top",
+              "shape": "inner_right",
+              "waterlogged": "true"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:prismarine_brick_stairs",
+              "Properties": {
+                "facing": "east",
+                "half": "top",
+                "shape": "outer_left",
+                "waterlogged": "false"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:prismarine_brick_stairs",
+            "Properties": {
+              "facing": "east",
+              "half": "top",
+              "shape": "outer_left",
+              "waterlogged": "true"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:prismarine_brick_stairs",
+              "Properties": {
+                "facing": "east",
+                "half": "top",
+                "shape": "outer_right",
+                "waterlogged": "false"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:prismarine_brick_stairs",
+            "Properties": {
+              "facing": "east",
+              "half": "top",
+              "shape": "outer_right",
+              "waterlogged": "true"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:prismarine_brick_stairs",
+              "Properties": {
+                "facing": "east",
+                "half": "bottom",
+                "shape": "straight",
+                "waterlogged": "false"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:prismarine_brick_stairs",
+            "Properties": {
+              "facing": "east",
+              "half": "bottom",
+              "shape": "straight",
+              "waterlogged": "true"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:prismarine_brick_stairs",
+              "Properties": {
+                "facing": "east",
+                "half": "bottom",
+                "shape": "inner_left",
+                "waterlogged": "false"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:prismarine_brick_stairs",
+            "Properties": {
+              "facing": "east",
+              "half": "bottom",
+              "shape": "inner_left",
+              "waterlogged": "true"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:prismarine_brick_stairs",
+              "Properties": {
+                "facing": "east",
+                "half": "bottom",
+                "shape": "inner_right",
+                "waterlogged": "false"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:prismarine_brick_stairs",
+            "Properties": {
+              "facing": "east",
+              "half": "bottom",
+              "shape": "inner_right",
+              "waterlogged": "true"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:prismarine_brick_stairs",
+              "Properties": {
+                "facing": "east",
+                "half": "bottom",
+                "shape": "outer_left",
+                "waterlogged": "false"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:prismarine_brick_stairs",
+            "Properties": {
+              "facing": "east",
+              "half": "bottom",
+              "shape": "outer_left",
+              "waterlogged": "true"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:prismarine_brick_stairs",
+              "Properties": {
+                "facing": "east",
+                "half": "bottom",
+                "shape": "outer_right",
+                "waterlogged": "false"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:prismarine_brick_stairs",
+            "Properties": {
+              "facing": "east",
+              "half": "bottom",
+              "shape": "outer_right",
+              "waterlogged": "true"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:dark_prismarine_stairs",
+              "Properties": {
+                "facing": "north",
+                "half": "top",
+                "shape": "straight",
+                "waterlogged": "false"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:dark_prismarine_stairs",
+            "Properties": {
+              "facing": "north",
+              "half": "top",
+              "shape": "straight",
+              "waterlogged": "true"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:dark_prismarine_stairs",
+              "Properties": {
+                "facing": "north",
+                "half": "top",
+                "shape": "inner_left",
+                "waterlogged": "false"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:dark_prismarine_stairs",
+            "Properties": {
+              "facing": "north",
+              "half": "top",
+              "shape": "inner_left",
+              "waterlogged": "true"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:dark_prismarine_stairs",
+              "Properties": {
+                "facing": "north",
+                "half": "top",
+                "shape": "inner_right",
+                "waterlogged": "false"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:dark_prismarine_stairs",
+            "Properties": {
+              "facing": "north",
+              "half": "top",
+              "shape": "inner_right",
+              "waterlogged": "true"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:dark_prismarine_stairs",
+              "Properties": {
+                "facing": "north",
+                "half": "top",
+                "shape": "outer_left",
+                "waterlogged": "false"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:dark_prismarine_stairs",
+            "Properties": {
+              "facing": "north",
+              "half": "top",
+              "shape": "outer_left",
+              "waterlogged": "true"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:dark_prismarine_stairs",
+              "Properties": {
+                "facing": "north",
+                "half": "top",
+                "shape": "outer_right",
+                "waterlogged": "false"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:dark_prismarine_stairs",
+            "Properties": {
+              "facing": "north",
+              "half": "top",
+              "shape": "outer_right",
+              "waterlogged": "true"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:dark_prismarine_stairs",
+              "Properties": {
+                "facing": "north",
+                "half": "bottom",
+                "shape": "straight",
+                "waterlogged": "false"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:dark_prismarine_stairs",
+            "Properties": {
+              "facing": "north",
+              "half": "bottom",
+              "shape": "straight",
+              "waterlogged": "true"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:dark_prismarine_stairs",
+              "Properties": {
+                "facing": "north",
+                "half": "bottom",
+                "shape": "inner_left",
+                "waterlogged": "false"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:dark_prismarine_stairs",
+            "Properties": {
+              "facing": "north",
+              "half": "bottom",
+              "shape": "inner_left",
+              "waterlogged": "true"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:dark_prismarine_stairs",
+              "Properties": {
+                "facing": "north",
+                "half": "bottom",
+                "shape": "inner_right",
+                "waterlogged": "false"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:dark_prismarine_stairs",
+            "Properties": {
+              "facing": "north",
+              "half": "bottom",
+              "shape": "inner_right",
+              "waterlogged": "true"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:dark_prismarine_stairs",
+              "Properties": {
+                "facing": "north",
+                "half": "bottom",
+                "shape": "outer_left",
+                "waterlogged": "false"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:dark_prismarine_stairs",
+            "Properties": {
+              "facing": "north",
+              "half": "bottom",
+              "shape": "outer_left",
+              "waterlogged": "true"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:dark_prismarine_stairs",
+              "Properties": {
+                "facing": "north",
+                "half": "bottom",
+                "shape": "outer_right",
+                "waterlogged": "false"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:dark_prismarine_stairs",
+            "Properties": {
+              "facing": "north",
+              "half": "bottom",
+              "shape": "outer_right",
+              "waterlogged": "true"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:dark_prismarine_stairs",
+              "Properties": {
+                "facing": "south",
+                "half": "top",
+                "shape": "straight",
+                "waterlogged": "false"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:dark_prismarine_stairs",
+            "Properties": {
+              "facing": "south",
+              "half": "top",
+              "shape": "straight",
+              "waterlogged": "true"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:dark_prismarine_stairs",
+              "Properties": {
+                "facing": "south",
+                "half": "top",
+                "shape": "inner_left",
+                "waterlogged": "false"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:dark_prismarine_stairs",
+            "Properties": {
+              "facing": "south",
+              "half": "top",
+              "shape": "inner_left",
+              "waterlogged": "true"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:dark_prismarine_stairs",
+              "Properties": {
+                "facing": "south",
+                "half": "top",
+                "shape": "inner_right",
+                "waterlogged": "false"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:dark_prismarine_stairs",
+            "Properties": {
+              "facing": "south",
+              "half": "top",
+              "shape": "inner_right",
+              "waterlogged": "true"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:dark_prismarine_stairs",
+              "Properties": {
+                "facing": "south",
+                "half": "top",
+                "shape": "outer_left",
+                "waterlogged": "false"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:dark_prismarine_stairs",
+            "Properties": {
+              "facing": "south",
+              "half": "top",
+              "shape": "outer_left",
+              "waterlogged": "true"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:dark_prismarine_stairs",
+              "Properties": {
+                "facing": "south",
+                "half": "top",
+                "shape": "outer_right",
+                "waterlogged": "false"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:dark_prismarine_stairs",
+            "Properties": {
+              "facing": "south",
+              "half": "top",
+              "shape": "outer_right",
+              "waterlogged": "true"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:dark_prismarine_stairs",
+              "Properties": {
+                "facing": "south",
+                "half": "bottom",
+                "shape": "straight",
+                "waterlogged": "false"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:dark_prismarine_stairs",
+            "Properties": {
+              "facing": "south",
+              "half": "bottom",
+              "shape": "straight",
+              "waterlogged": "true"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:dark_prismarine_stairs",
+              "Properties": {
+                "facing": "south",
+                "half": "bottom",
+                "shape": "inner_left",
+                "waterlogged": "false"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:dark_prismarine_stairs",
+            "Properties": {
+              "facing": "south",
+              "half": "bottom",
+              "shape": "inner_left",
+              "waterlogged": "true"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:dark_prismarine_stairs",
+              "Properties": {
+                "facing": "south",
+                "half": "bottom",
+                "shape": "inner_right",
+                "waterlogged": "false"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:dark_prismarine_stairs",
+            "Properties": {
+              "facing": "south",
+              "half": "bottom",
+              "shape": "inner_right",
+              "waterlogged": "true"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:dark_prismarine_stairs",
+              "Properties": {
+                "facing": "south",
+                "half": "bottom",
+                "shape": "outer_left",
+                "waterlogged": "false"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:dark_prismarine_stairs",
+            "Properties": {
+              "facing": "south",
+              "half": "bottom",
+              "shape": "outer_left",
+              "waterlogged": "true"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:dark_prismarine_stairs",
+              "Properties": {
+                "facing": "south",
+                "half": "bottom",
+                "shape": "outer_right",
+                "waterlogged": "false"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:dark_prismarine_stairs",
+            "Properties": {
+              "facing": "south",
+              "half": "bottom",
+              "shape": "outer_right",
+              "waterlogged": "true"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:dark_prismarine_stairs",
+              "Properties": {
+                "facing": "west",
+                "half": "top",
+                "shape": "straight",
+                "waterlogged": "false"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:dark_prismarine_stairs",
+            "Properties": {
+              "facing": "west",
+              "half": "top",
+              "shape": "straight",
+              "waterlogged": "true"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:dark_prismarine_stairs",
+              "Properties": {
+                "facing": "west",
+                "half": "top",
+                "shape": "inner_left",
+                "waterlogged": "false"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:dark_prismarine_stairs",
+            "Properties": {
+              "facing": "west",
+              "half": "top",
+              "shape": "inner_left",
+              "waterlogged": "true"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:dark_prismarine_stairs",
+              "Properties": {
+                "facing": "west",
+                "half": "top",
+                "shape": "inner_right",
+                "waterlogged": "false"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:dark_prismarine_stairs",
+            "Properties": {
+              "facing": "west",
+              "half": "top",
+              "shape": "inner_right",
+              "waterlogged": "true"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:dark_prismarine_stairs",
+              "Properties": {
+                "facing": "west",
+                "half": "top",
+                "shape": "outer_left",
+                "waterlogged": "false"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:dark_prismarine_stairs",
+            "Properties": {
+              "facing": "west",
+              "half": "top",
+              "shape": "outer_left",
+              "waterlogged": "true"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:dark_prismarine_stairs",
+              "Properties": {
+                "facing": "west",
+                "half": "top",
+                "shape": "outer_right",
+                "waterlogged": "false"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:dark_prismarine_stairs",
+            "Properties": {
+              "facing": "west",
+              "half": "top",
+              "shape": "outer_right",
+              "waterlogged": "true"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:dark_prismarine_stairs",
+              "Properties": {
+                "facing": "west",
+                "half": "bottom",
+                "shape": "straight",
+                "waterlogged": "false"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:dark_prismarine_stairs",
+            "Properties": {
+              "facing": "west",
+              "half": "bottom",
+              "shape": "straight",
+              "waterlogged": "true"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:dark_prismarine_stairs",
+              "Properties": {
+                "facing": "west",
+                "half": "bottom",
+                "shape": "inner_left",
+                "waterlogged": "false"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:dark_prismarine_stairs",
+            "Properties": {
+              "facing": "west",
+              "half": "bottom",
+              "shape": "inner_left",
+              "waterlogged": "true"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:dark_prismarine_stairs",
+              "Properties": {
+                "facing": "west",
+                "half": "bottom",
+                "shape": "inner_right",
+                "waterlogged": "false"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:dark_prismarine_stairs",
+            "Properties": {
+              "facing": "west",
+              "half": "bottom",
+              "shape": "inner_right",
+              "waterlogged": "true"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:dark_prismarine_stairs",
+              "Properties": {
+                "facing": "west",
+                "half": "bottom",
+                "shape": "outer_left",
+                "waterlogged": "false"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:dark_prismarine_stairs",
+            "Properties": {
+              "facing": "west",
+              "half": "bottom",
+              "shape": "outer_left",
+              "waterlogged": "true"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:dark_prismarine_stairs",
+              "Properties": {
+                "facing": "west",
+                "half": "bottom",
+                "shape": "outer_right",
+                "waterlogged": "false"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:dark_prismarine_stairs",
+            "Properties": {
+              "facing": "west",
+              "half": "bottom",
+              "shape": "outer_right",
+              "waterlogged": "true"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:dark_prismarine_stairs",
+              "Properties": {
+                "facing": "east",
+                "half": "top",
+                "shape": "straight",
+                "waterlogged": "false"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:dark_prismarine_stairs",
+            "Properties": {
+              "facing": "east",
+              "half": "top",
+              "shape": "straight",
+              "waterlogged": "true"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:dark_prismarine_stairs",
+              "Properties": {
+                "facing": "east",
+                "half": "top",
+                "shape": "inner_left",
+                "waterlogged": "false"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:dark_prismarine_stairs",
+            "Properties": {
+              "facing": "east",
+              "half": "top",
+              "shape": "inner_left",
+              "waterlogged": "true"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:dark_prismarine_stairs",
+              "Properties": {
+                "facing": "east",
+                "half": "top",
+                "shape": "inner_right",
+                "waterlogged": "false"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:dark_prismarine_stairs",
+            "Properties": {
+              "facing": "east",
+              "half": "top",
+              "shape": "inner_right",
+              "waterlogged": "true"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:dark_prismarine_stairs",
+              "Properties": {
+                "facing": "east",
+                "half": "top",
+                "shape": "outer_left",
+                "waterlogged": "false"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:dark_prismarine_stairs",
+            "Properties": {
+              "facing": "east",
+              "half": "top",
+              "shape": "outer_left",
+              "waterlogged": "true"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:dark_prismarine_stairs",
+              "Properties": {
+                "facing": "east",
+                "half": "top",
+                "shape": "outer_right",
+                "waterlogged": "false"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:dark_prismarine_stairs",
+            "Properties": {
+              "facing": "east",
+              "half": "top",
+              "shape": "outer_right",
+              "waterlogged": "true"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:dark_prismarine_stairs",
+              "Properties": {
+                "facing": "east",
+                "half": "bottom",
+                "shape": "straight",
+                "waterlogged": "false"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:dark_prismarine_stairs",
+            "Properties": {
+              "facing": "east",
+              "half": "bottom",
+              "shape": "straight",
+              "waterlogged": "true"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:dark_prismarine_stairs",
+              "Properties": {
+                "facing": "east",
+                "half": "bottom",
+                "shape": "inner_left",
+                "waterlogged": "false"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:dark_prismarine_stairs",
+            "Properties": {
+              "facing": "east",
+              "half": "bottom",
+              "shape": "inner_left",
+              "waterlogged": "true"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:dark_prismarine_stairs",
+              "Properties": {
+                "facing": "east",
+                "half": "bottom",
+                "shape": "inner_right",
+                "waterlogged": "false"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:dark_prismarine_stairs",
+            "Properties": {
+              "facing": "east",
+              "half": "bottom",
+              "shape": "inner_right",
+              "waterlogged": "true"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:dark_prismarine_stairs",
+              "Properties": {
+                "facing": "east",
+                "half": "bottom",
+                "shape": "outer_left",
+                "waterlogged": "false"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:dark_prismarine_stairs",
+            "Properties": {
+              "facing": "east",
+              "half": "bottom",
+              "shape": "outer_left",
+              "waterlogged": "true"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:dark_prismarine_stairs",
+              "Properties": {
+                "facing": "east",
+                "half": "bottom",
+                "shape": "outer_right",
+                "waterlogged": "false"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:dark_prismarine_stairs",
+            "Properties": {
+              "facing": "east",
+              "half": "bottom",
+              "shape": "outer_right",
+              "waterlogged": "true"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:prismarine_slab",
+              "Properties": {
+                "type": "top",
+                "waterlogged": "false"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:prismarine_slab",
+            "Properties": {
+              "type": "top",
+              "waterlogged": "true"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:prismarine_slab",
+              "Properties": {
+                "type": "bottom",
+                "waterlogged": "false"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:prismarine_slab",
+            "Properties": {
+              "type": "bottom",
+              "waterlogged": "true"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:prismarine_brick_slab",
+              "Properties": {
+                "type": "top",
+                "waterlogged": "false"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:prismarine_brick_slab",
+            "Properties": {
+              "type": "top",
+              "waterlogged": "true"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:prismarine_brick_slab",
+              "Properties": {
+                "type": "bottom",
+                "waterlogged": "false"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:prismarine_brick_slab",
+            "Properties": {
+              "type": "bottom",
+              "waterlogged": "true"
+            }
+          }
+        },
+        
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:dark_prismarine_slab",
+              "Properties": {
+                "type": "top",
+                "waterlogged": "false"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:dark_prismarine_slab",
+            "Properties": {
+              "type": "top",
+              "waterlogged": "true"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:dark_prismarine_slab",
+              "Properties": {
+                "type": "bottom",
+                "waterlogged": "false"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:dark_prismarine_slab",
+            "Properties": {
+              "type": "bottom",
+              "waterlogged": "true"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:prismarine_wall",
+              "Properties": {
+                "east": "low",
+                "north": "low",
+                "south": "low",
+                "up": "false",
+                "waterlogged": "false",
+                "west": "low"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:prismarine_wall",
+            "Properties": {
+              "east": "low",
+              "north": "low",
+              "south": "low",
+              "up": "false",
+              "waterlogged": "true",
+              "west": "low"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:air"
+          },
+          "output_state": {
+            "Name": "minecraft:water",
+            "Properties": {
+              "level": "0"
+            }
+          }
+        }
+      ],
+      "processor_type": "minecraft:rule"
+    },
+    {
+      "delegate": {
+        "processor_type": "minecraft:rule",
+        "rules": [
+          {
+            "block_entity_modifier": {
+              "type": "minecraft:append_loot",
+              "loot_table": "tcc:archaeology/ocean_monument/common"
+            },
+            "input_predicate": {
+              "block": "minecraft:gravel",
+              "predicate_type": "minecraft:block_match"
+            },
+            "location_predicate": {
+              "predicate_type": "minecraft:always_true"
+            },
+            "output_state": {
+              "Name": "minecraft:suspicious_gravel",
+              "Properties": {
+                "dusted": "0"
+              }
+            }
+          }
+        ]
+      },
+      "limit": 15,
+      "processor_type": "minecraft:capped"
+    },
+    {
+      "delegate": {
+        "processor_type": "minecraft:rule",
+        "rules": [
+          {
+            "block_entity_modifier": {
+              "type": "minecraft:append_loot",
+              "loot_table": "tcc:archaeology/ocean_monument/rare"
+            },
+            "input_predicate": {
+              "block": "minecraft:gravel",
+              "predicate_type": "minecraft:block_match"
+            },
+            "location_predicate": {
+              "predicate_type": "minecraft:always_true"
+            },
+            "output_state": {
+              "Name": "minecraft:suspicious_gravel",
+              "Properties": {
+                "dusted": "0"
+              }
+            }
+          }
+        ]
+      },
+      "limit": 25,
+      "processor_type": "minecraft:capped"
+    }
+  ]
+}

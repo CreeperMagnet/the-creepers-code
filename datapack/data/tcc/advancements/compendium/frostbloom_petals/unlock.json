@@ -1,0 +1,1 @@
+{"parent":"tcc:compendium/root","criteria":{"inventory_changed":{"trigger":"minecraft:inventory_changed","conditions":{"items":[{"nbt":"{tcc:{id:\"frostbloom_petals\"}}"}]}}},"rewards":{"function":"tcc:item/compendium/unlock/entries/frostbloom_petals/from_advancement"}}

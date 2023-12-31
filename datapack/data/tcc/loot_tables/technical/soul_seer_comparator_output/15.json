@@ -1,0 +1,20 @@
+{
+  "pools": [
+    {
+      "rolls": 9,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "tcc:technical/soul_seer_comparator_output/base",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 64
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "random_sequence": "tcc:technical/soul_seer_comparator_output/15"
+}

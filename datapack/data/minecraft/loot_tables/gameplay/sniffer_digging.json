@@ -109,26 +109,26 @@
   "__smithed__": {
     "rules": [
       {
-        "type": "smithed:append",
+        "type": "append",
         "target": "pools[0].entries[0].functions",
         "source": {
-          "type": "smithed:reference",
+          "type": "reference",
           "path": "pools[0].entries[0].functions[0]"
         }
       },
       {
-        "type": "smithed:append",
+        "type": "append",
         "target": "pools[0].entries[1].functions",
         "source": {
-          "type": "smithed:reference",
+          "type": "reference",
           "path": "pools[0].entries[1].functions[0]"
         }
       },
       {
-        "type": "smithed:append",
+        "type": "append",
         "target": "pools[0].entries",
         "source": {
-          "type": "smithed:reference",
+          "type": "reference",
           "path": "pools[0].entries[2]"
         }
       }

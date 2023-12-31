@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:warped_fungus_on_a_stick",
+      "nbt": "{CustomModelData:330001,Enchantments:[{}]}"
+    },
+    "title": {
+      "translate": "advancements.tcc.minecraft.adventure.cursed_crown.title"
+    },
+    "description": [
+      {
+        "translate": "advancements.tcc.minecraft.adventure.cursed_crown.description"
+      },
+      "\n\n",
+      {
+        "translate": "pack.tcc",
+        "color": "#008725",
+        "italic": true
+      }
+    ],
+    "frame": "challenge"
+  },
+  "parent": "minecraft:adventure/root",
+  "criteria": {
+    "wear_cursed_crown": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 100
+  },
+  "requirements": [
+    [
+      "wear_cursed_crown"
+    ]
+  ]
+}

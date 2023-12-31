@@ -1,0 +1,1 @@
+{"parent":"tcc:compendium/root","criteria":{"unlock":{"trigger":"minecraft:inventory_changed","conditions":{"items":[{"nbt":"{tcc:{id:\"potion\",potion:{id:\"tcc:blind_rage\"}}}"}]}}},"rewards":{"function":"tcc:item/compendium/unlock/entries/blind_rage_potion/from_advancement"}}

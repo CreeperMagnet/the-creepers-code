@@ -32,5 +32,10 @@
         ]
       }
     }
-  }
+  },
+  "requirements": [
+    [
+      "swordfish"
+    ]
+  ]
 }

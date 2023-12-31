@@ -1,0 +1,14 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "tcc:items/cherry_grove_village_map"
+        }
+      ]
+    }
+  ],
+  "random_sequence": "tcc:gameplay/trades/cartographer/trade_2/sell"
+}

@@ -20,5 +20,10 @@
   },
   "rewards": {
     "function": "tcc:block/brewing_stand/marker_spawning/raycast_start"
-  }
+  },
+  "requirements": [
+    [
+      "open_brewing_stand"
+    ]
+  ]
 }

@@ -73,10 +73,10 @@
   "__smithed__": {
     "rules": [
       {
-        "type": "smithed:append",
+        "type": "append",
         "target": "pools[0].entries[0].children[0].functions",
         "source": {
-          "type": "smithed:reference",
+          "type": "reference",
           "path": "pools[0].entries[0].children[0].functions[2]"
         }
       }

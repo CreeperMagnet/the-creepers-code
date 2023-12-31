@@ -47,9 +47,21 @@
             "predicate": {
               "nbt": "{Tags:[\"tcc.teapot.filled\"]}"
             }
+          },
+          {
+            "condition": "entity_scores",
+            "entity": "this",
+            "scores": {
+              "tcc.dummy2" : 0
+            }
           }
         ]
       }
     }
-  }
+  },
+  "requirements": [
+    [
+      "take_tea"
+    ]
+  ]
 }

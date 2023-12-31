@@ -1,0 +1,35 @@
+{
+  "pools": [
+    {
+      "rolls": 6,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "tcc:technical/soul_seer_comparator_output/base",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 64
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "tcc:technical/soul_seer_comparator_output/base",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 28
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "random_sequence": "tcc:technical/soul_seer_comparator_output/11"
+}

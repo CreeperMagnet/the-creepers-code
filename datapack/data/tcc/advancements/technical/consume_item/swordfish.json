@@ -27,5 +27,10 @@
   "rewards": {
     "function": "tcc:item/swordfish"
   },
-  "parent": "tcc:technical/root"
+  "parent": "tcc:technical/root",
+  "requirements": [
+    [
+      "ate_swordfish"
+    ]
+  ]
 }

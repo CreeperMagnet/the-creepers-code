@@ -27,5 +27,10 @@
   },
   "rewards": {
     "function": "tcc:item/cursed_crown/equip"
-  }
+  },
+  "requirements": [
+    [
+      "equip_cursed_crown"
+    ]
+  ]
 }

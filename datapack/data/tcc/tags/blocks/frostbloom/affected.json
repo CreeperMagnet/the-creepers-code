@@ -1,0 +1,13 @@
+{
+  "values": [
+    "minecraft:water",
+    "minecraft:ice",
+    "minecraft:snow",
+    "minecraft:snow_block",
+    "minecraft:cauldron",
+    "minecraft:powder_snow_cauldron",
+    "minecraft:fire",
+    "minecraft:lava",
+    "minecraft:packed_ice"
+  ]
+}

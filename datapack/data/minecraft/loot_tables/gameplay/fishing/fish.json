@@ -151,58 +151,58 @@
   "__smithed__": {
     "rules": [
       {
-        "type": "smithed:merge",
+        "type": "merge",
         "target": "pools[0].entries[1].weight",
         "source": {
-          "type": "smithed:reference",
+          "type": "reference",
           "path": "pools[0].entries[1].weight"
         }
       },
       {
-        "type": "smithed:merge",
+        "type": "merge",
         "target": "pools[0].entries[2].weight",
         "source": {
-          "type": "smithed:reference",
+          "type": "reference",
           "path": "pools[0].entries[2].weight"
         }
       },
       {
-        "type": "smithed:merge",
+        "type": "merge",
         "target": "pools[0].entries[3].weight",
         "source": {
-          "type": "smithed:reference",
+          "type": "reference",
           "path": "pools[0].entries[3].weight"
         }
       },
       {
-        "type": "smithed:append",
+        "type": "append",
         "target": "pools[0].entries[1].conditions",
         "source": {
-          "type": "smithed:reference",
+          "type": "reference",
           "path": "pools[0].entries[1].conditions[0]"
         }
       },
       {
-        "type": "smithed:append",
+        "type": "append",
         "target": "pools[0].entries[2].conditions",
         "source": {
-          "type": "smithed:reference",
+          "type": "reference",
           "path": "pools[0].entries[2].conditions[0]"
         }
       },
       {
-        "type": "smithed:append",
+        "type": "append",
         "target": "pools[0].entries[3].conditions",
         "source": {
-          "type": "smithed:reference",
+          "type": "reference",
           "path": "pools[0].entries[3].conditions[0]"
         }
       },
       {
-        "type": "smithed:append",
+        "type": "append",
         "target": "pools[0].entries",
         "source": {
-          "type": "smithed:reference",
+          "type": "reference",
           "path": "pools[0].entries[4]"
         }
       }

@@ -13,7 +13,7 @@
     "condition": "minecraft:location_check",
     "predicate": {
       "block": {
-        "tag": "tcc:wrench_rotatable/creative_only"
+        "tag": "tcc:wrench/creative_only"
       }
     }
   }

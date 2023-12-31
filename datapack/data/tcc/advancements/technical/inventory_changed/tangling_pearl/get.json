@@ -26,5 +26,10 @@
   },
   "rewards": {
     "function": "tcc:item/tangling_pearl/inventory_changed/get"
-  }
+  },
+  "requirements": [
+    [
+      "get_item"
+    ]
+  ]
 }

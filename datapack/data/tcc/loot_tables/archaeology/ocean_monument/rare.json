@@ -1,0 +1,65 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:tide_armor_trim_smithing_template",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "tcc:items/pottery_sherd/prismarine/artifact",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "tcc:items/pottery_sherd/prismarine/catch",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "tcc:items/pottery_sherd/prismarine/idol",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "tcc:items/pottery_sherd/prismarine/ink",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "tcc:items/pottery_sherd/prismarine/pickle",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "tcc:items/pottery_sherd/prismarine/protector",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "tcc:items/pottery_sherd/prismarine/reef",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "tcc:items/pottery_sherd/prismarine/shell",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "tcc:items/pottery_sherd/prismarine/turtle",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "tcc:items/pottery_sherd/prismarine/voyager",
+          "weight": 2
+        }
+      ]
+    }
+  ],
+  "random_sequence": "tcc:archaeology/ocean_monument/rare"
+}

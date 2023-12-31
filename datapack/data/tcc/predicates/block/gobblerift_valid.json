@@ -35,7 +35,7 @@
               "minecraft:snow"
             ],
             "state": {
-              "layers": 1
+              "layers": "1"
             }
           }
         }

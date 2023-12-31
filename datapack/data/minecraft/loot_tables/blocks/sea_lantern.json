@@ -67,18 +67,18 @@
   "__smithed__": {
     "rules": [
       {
-        "type":"smithed:merge",
+        "type":"merge",
         "target": "pools[0].entries[0].children[1].functions[0].count.max",
         "source": {
-          "type":"smithed:reference",
+          "type":"reference",
           "path": "pools[0].entries[0].children[1].functions[0].count.max"
         }
       },
       {
-        "type":"smithed:merge",
+        "type":"merge",
         "target": "pools[0].entries[0].children[1].functions[2].limit.max",
         "source": {
-          "type":"smithed:reference",
+          "type":"reference",
           "path": "pools[0].entries[0].children[1].functions[2].limit.max"
         }
       }

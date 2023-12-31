@@ -2,7 +2,8 @@
   "parent": "tcc:recipes/root",
   "rewards": {
     "recipes": [
-      "tcc:nbt/boomerang"
+      "tcc:nbt/boomerang",
+      "tcc:nbt/boomerang_upside_down"
     ]
   },
   "criteria": {

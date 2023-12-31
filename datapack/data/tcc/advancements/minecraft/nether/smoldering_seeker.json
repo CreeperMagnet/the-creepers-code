@@ -25,5 +25,10 @@
     "use_smoldering_seeker": {
       "trigger": "minecraft:impossible"
     }
-  }
+  },
+  "requirements": [
+    [
+      "use_smoldering_seeker"
+    ]
+  ]
 }

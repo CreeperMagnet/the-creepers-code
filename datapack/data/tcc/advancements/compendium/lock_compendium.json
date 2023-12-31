@@ -1,0 +1,36 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:air"
+        },
+        "title": [
+            {
+                "translate": "tccc.entry_unlocked_toast_background",
+                "font": "tcc.compendium:static"
+            },
+            {
+                "translate": "tccc.system_toast_decoration",
+                "font": "tcc.compendium:static"
+            },
+            {
+                "translate": "tccc.compendium_locked.spacer",
+                "font": "tcc.compendium:static"
+            },
+            {
+                "translate": "tccc.compendium_locked.text",
+                "font": "minecraft:default"
+            }
+        ],
+        "description": "",
+        "announce_to_chat": false
+    },
+    "criteria": {
+        "": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+
+    "rewards": {
+        "function": "tcc:item/compendium/toggle_unlockable/revoke_advancement"
+    }
+}

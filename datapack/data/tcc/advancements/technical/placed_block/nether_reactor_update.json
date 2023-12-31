@@ -18,5 +18,10 @@
   },
   "rewards": {
     "function": "tcc:block/nether_reactor/update"
-  }
+  },
+  "requirements": [
+    [
+      "place_block"
+    ]
+  ]
 }

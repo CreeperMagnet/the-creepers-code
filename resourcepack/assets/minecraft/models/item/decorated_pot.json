@@ -1540,6 +1540,756 @@
         "custom_model_data": 331515
       },
       "model": "tcc:block/decorated_pot/nether_brick/1515"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 331616
+      },
+      "model": "tcc:block/decorated_pot/prismarine/1616"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 331617
+      },
+      "model": "tcc:block/decorated_pot/prismarine/1617"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 331716
+      },
+      "model": "tcc:block/decorated_pot/prismarine/1716"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 331717
+      },
+      "model": "tcc:block/decorated_pot/prismarine/1717"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 331616
+      },
+      "model": "tcc:block/decorated_pot/prismarine/1616"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 331617
+      },
+      "model": "tcc:block/decorated_pot/prismarine/1617"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 331618
+      },
+      "model": "tcc:block/decorated_pot/prismarine/1618"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 331619
+      },
+      "model": "tcc:block/decorated_pot/prismarine/1619"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 331620
+      },
+      "model": "tcc:block/decorated_pot/prismarine/1620"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 331621
+      },
+      "model": "tcc:block/decorated_pot/prismarine/1621"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 331622
+      },
+      "model": "tcc:block/decorated_pot/prismarine/1622"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 331623
+      },
+      "model": "tcc:block/decorated_pot/prismarine/1623"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 331624
+      },
+      "model": "tcc:block/decorated_pot/prismarine/1624"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 331625
+      },
+      "model": "tcc:block/decorated_pot/prismarine/1625"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 331626
+      },
+      "model": "tcc:block/decorated_pot/prismarine/1626"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 331716
+      },
+      "model": "tcc:block/decorated_pot/prismarine/1716"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 331717
+      },
+      "model": "tcc:block/decorated_pot/prismarine/1717"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 331718
+      },
+      "model": "tcc:block/decorated_pot/prismarine/1718"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 331719
+      },
+      "model": "tcc:block/decorated_pot/prismarine/1719"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 331720
+      },
+      "model": "tcc:block/decorated_pot/prismarine/1720"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 331721
+      },
+      "model": "tcc:block/decorated_pot/prismarine/1721"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 331722
+      },
+      "model": "tcc:block/decorated_pot/prismarine/1722"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 331723
+      },
+      "model": "tcc:block/decorated_pot/prismarine/1723"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 331724
+      },
+      "model": "tcc:block/decorated_pot/prismarine/1724"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 331725
+      },
+      "model": "tcc:block/decorated_pot/prismarine/1725"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 331726
+      },
+      "model": "tcc:block/decorated_pot/prismarine/1726"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 331816
+      },
+      "model": "tcc:block/decorated_pot/prismarine/1816"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 331817
+      },
+      "model": "tcc:block/decorated_pot/prismarine/1817"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 331818
+      },
+      "model": "tcc:block/decorated_pot/prismarine/1818"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 331819
+      },
+      "model": "tcc:block/decorated_pot/prismarine/1819"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 331820
+      },
+      "model": "tcc:block/decorated_pot/prismarine/1820"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 331821
+      },
+      "model": "tcc:block/decorated_pot/prismarine/1821"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 331822
+      },
+      "model": "tcc:block/decorated_pot/prismarine/1822"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 331823
+      },
+      "model": "tcc:block/decorated_pot/prismarine/1823"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 331824
+      },
+      "model": "tcc:block/decorated_pot/prismarine/1824"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 331825
+      },
+      "model": "tcc:block/decorated_pot/prismarine/1825"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 331826
+      },
+      "model": "tcc:block/decorated_pot/prismarine/1826"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 331916
+      },
+      "model": "tcc:block/decorated_pot/prismarine/1916"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 331917
+      },
+      "model": "tcc:block/decorated_pot/prismarine/1917"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 331918
+      },
+      "model": "tcc:block/decorated_pot/prismarine/1918"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 331919
+      },
+      "model": "tcc:block/decorated_pot/prismarine/1919"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 331920
+      },
+      "model": "tcc:block/decorated_pot/prismarine/1920"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 331921
+      },
+      "model": "tcc:block/decorated_pot/prismarine/1921"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 331922
+      },
+      "model": "tcc:block/decorated_pot/prismarine/1922"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 331923
+      },
+      "model": "tcc:block/decorated_pot/prismarine/1923"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 331924
+      },
+      "model": "tcc:block/decorated_pot/prismarine/1924"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 331925
+      },
+      "model": "tcc:block/decorated_pot/prismarine/1925"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 331926
+      },
+      "model": "tcc:block/decorated_pot/prismarine/1926"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 332016
+      },
+      "model": "tcc:block/decorated_pot/prismarine/2016"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 332017
+      },
+      "model": "tcc:block/decorated_pot/prismarine/2017"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 332018
+      },
+      "model": "tcc:block/decorated_pot/prismarine/2018"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 332019
+      },
+      "model": "tcc:block/decorated_pot/prismarine/2019"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 332020
+      },
+      "model": "tcc:block/decorated_pot/prismarine/2020"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 332021
+      },
+      "model": "tcc:block/decorated_pot/prismarine/2021"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 332022
+      },
+      "model": "tcc:block/decorated_pot/prismarine/2022"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 332023
+      },
+      "model": "tcc:block/decorated_pot/prismarine/2023"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 332024
+      },
+      "model": "tcc:block/decorated_pot/prismarine/2024"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 332025
+      },
+      "model": "tcc:block/decorated_pot/prismarine/2025"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 332026
+      },
+      "model": "tcc:block/decorated_pot/prismarine/2026"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 332116
+      },
+      "model": "tcc:block/decorated_pot/prismarine/2116"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 332117
+      },
+      "model": "tcc:block/decorated_pot/prismarine/2117"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 332118
+      },
+      "model": "tcc:block/decorated_pot/prismarine/2118"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 332119
+      },
+      "model": "tcc:block/decorated_pot/prismarine/2119"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 332120
+      },
+      "model": "tcc:block/decorated_pot/prismarine/2120"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 332121
+      },
+      "model": "tcc:block/decorated_pot/prismarine/2121"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 332122
+      },
+      "model": "tcc:block/decorated_pot/prismarine/2122"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 332123
+      },
+      "model": "tcc:block/decorated_pot/prismarine/2123"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 332124
+      },
+      "model": "tcc:block/decorated_pot/prismarine/2124"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 332125
+      },
+      "model": "tcc:block/decorated_pot/prismarine/2125"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 332126
+      },
+      "model": "tcc:block/decorated_pot/prismarine/2126"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 332216
+      },
+      "model": "tcc:block/decorated_pot/prismarine/2216"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 332217
+      },
+      "model": "tcc:block/decorated_pot/prismarine/2217"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 332218
+      },
+      "model": "tcc:block/decorated_pot/prismarine/2218"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 332219
+      },
+      "model": "tcc:block/decorated_pot/prismarine/2219"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 332220
+      },
+      "model": "tcc:block/decorated_pot/prismarine/2220"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 332221
+      },
+      "model": "tcc:block/decorated_pot/prismarine/2221"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 332222
+      },
+      "model": "tcc:block/decorated_pot/prismarine/2222"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 332223
+      },
+      "model": "tcc:block/decorated_pot/prismarine/2223"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 332224
+      },
+      "model": "tcc:block/decorated_pot/prismarine/2224"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 332225
+      },
+      "model": "tcc:block/decorated_pot/prismarine/2225"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 332226
+      },
+      "model": "tcc:block/decorated_pot/prismarine/2226"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 332316
+      },
+      "model": "tcc:block/decorated_pot/prismarine/2316"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 332317
+      },
+      "model": "tcc:block/decorated_pot/prismarine/2317"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 332318
+      },
+      "model": "tcc:block/decorated_pot/prismarine/2318"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 332319
+      },
+      "model": "tcc:block/decorated_pot/prismarine/2319"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 332320
+      },
+      "model": "tcc:block/decorated_pot/prismarine/2320"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 332321
+      },
+      "model": "tcc:block/decorated_pot/prismarine/2321"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 332322
+      },
+      "model": "tcc:block/decorated_pot/prismarine/2322"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 332323
+      },
+      "model": "tcc:block/decorated_pot/prismarine/2323"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 332324
+      },
+      "model": "tcc:block/decorated_pot/prismarine/2324"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 332325
+      },
+      "model": "tcc:block/decorated_pot/prismarine/2325"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 332326
+      },
+      "model": "tcc:block/decorated_pot/prismarine/2326"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 332416
+      },
+      "model": "tcc:block/decorated_pot/prismarine/2416"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 332417
+      },
+      "model": "tcc:block/decorated_pot/prismarine/2417"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 332418
+      },
+      "model": "tcc:block/decorated_pot/prismarine/2418"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 332419
+      },
+      "model": "tcc:block/decorated_pot/prismarine/2419"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 332420
+      },
+      "model": "tcc:block/decorated_pot/prismarine/2420"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 332421
+      },
+      "model": "tcc:block/decorated_pot/prismarine/2421"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 332422
+      },
+      "model": "tcc:block/decorated_pot/prismarine/2422"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 332423
+      },
+      "model": "tcc:block/decorated_pot/prismarine/2423"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 332424
+      },
+      "model": "tcc:block/decorated_pot/prismarine/2424"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 332425
+      },
+      "model": "tcc:block/decorated_pot/prismarine/2425"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 332426
+      },
+      "model": "tcc:block/decorated_pot/prismarine/2426"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 332516
+      },
+      "model": "tcc:block/decorated_pot/prismarine/2516"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 332517
+      },
+      "model": "tcc:block/decorated_pot/prismarine/2517"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 332518
+      },
+      "model": "tcc:block/decorated_pot/prismarine/2518"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 332519
+      },
+      "model": "tcc:block/decorated_pot/prismarine/2519"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 332520
+      },
+      "model": "tcc:block/decorated_pot/prismarine/2520"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 332521
+      },
+      "model": "tcc:block/decorated_pot/prismarine/2521"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 332522
+      },
+      "model": "tcc:block/decorated_pot/prismarine/2522"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 332523
+      },
+      "model": "tcc:block/decorated_pot/prismarine/2523"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 332524
+      },
+      "model": "tcc:block/decorated_pot/prismarine/2524"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 332525
+      },
+      "model": "tcc:block/decorated_pot/prismarine/2525"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 332526
+      },
+      "model": "tcc:block/decorated_pot/prismarine/2526"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 332616
+      },
+      "model": "tcc:block/decorated_pot/prismarine/2616"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 332617
+      },
+      "model": "tcc:block/decorated_pot/prismarine/2617"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 332618
+      },
+      "model": "tcc:block/decorated_pot/prismarine/2618"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 332619
+      },
+      "model": "tcc:block/decorated_pot/prismarine/2619"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 332620
+      },
+      "model": "tcc:block/decorated_pot/prismarine/2620"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 332621
+      },
+      "model": "tcc:block/decorated_pot/prismarine/2621"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 332622
+      },
+      "model": "tcc:block/decorated_pot/prismarine/2622"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 332623
+      },
+      "model": "tcc:block/decorated_pot/prismarine/2623"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 332624
+      },
+      "model": "tcc:block/decorated_pot/prismarine/2624"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 332625
+      },
+      "model": "tcc:block/decorated_pot/prismarine/2625"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 332626
+      },
+      "model": "tcc:block/decorated_pot/prismarine/2626"
     }
   ],
   "display": {

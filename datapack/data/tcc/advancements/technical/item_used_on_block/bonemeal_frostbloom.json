@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "place": {
+    "bonemeal_frostbloom": {
       "trigger": "minecraft:item_used_on_block",
       "conditions": {
         "location": [
@@ -28,5 +28,10 @@
   },
   "rewards": {
     "function": "tcc:block/frostbloom/bonemeal"
-  }
+  },
+  "requirements": [
+    [
+      "bonemeal_frostbloom"
+    ]
+  ]
 }

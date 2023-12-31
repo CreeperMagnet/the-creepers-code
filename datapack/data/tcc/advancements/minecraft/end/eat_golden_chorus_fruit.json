@@ -33,5 +33,10 @@
         }
       }
     }
-  }
+  },
+  "requirements": [
+    [
+      "eat_golden_chorus_fruit"
+    ]
+  ]
 }

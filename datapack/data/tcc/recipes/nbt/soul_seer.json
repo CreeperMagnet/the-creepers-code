@@ -3,9 +3,9 @@
   "category": "misc",
   "type": "crafting_shaped",
   "pattern": [
-    "DSD",
-    "SES",
-    "DDD"
+    "SSS",
+    "DED",
+    "DGD"
   ],
   "key": {
     "S": {
@@ -16,6 +16,9 @@
     },
     "E": {
       "item": "minecraft:ender_eye"
+    },
+    "G": {
+      "item": "minecraft:glowstone_dust"
     }
   },
   "result": {

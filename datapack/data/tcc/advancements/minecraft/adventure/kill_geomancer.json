@@ -31,5 +31,10 @@
         }
       }
     }
-  }
+  },
+  "requirements": [
+    [
+      "kill_geomancer"
+    ]
+  ]
 }

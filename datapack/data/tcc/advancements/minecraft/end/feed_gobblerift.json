@@ -22,8 +22,13 @@
   },
   "parent": "minecraft:end/find_end_city",
   "criteria": {
-    "impossible": {
+    "feed_gobblerift": {
       "trigger": "minecraft:impossible"
     }
-  }
+  },
+  "requirements": [
+    [
+      "feed_gobblerift"
+    ]
+  ]
 }

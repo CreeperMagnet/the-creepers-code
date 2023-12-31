@@ -17,5 +17,10 @@
   },
   "rewards": {
     "function": "tcc:item/axolotl_bucket/main"
-  }
+  },
+  "requirements": [
+    [
+      "bucket_axolotl"
+    ]
+  ]
 }

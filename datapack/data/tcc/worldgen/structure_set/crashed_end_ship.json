@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "tcc:crashed_end_ship",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 198698916,
+    "spacing": 80,
+    "separation": 20,
+    "type": "minecraft:random_spread"
+  }
+}

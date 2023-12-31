@@ -83,13 +83,6 @@
               "tag": "{CustomModelData:330000}"
             },
             {
-              "function": "minecraft:set_name",
-              "name": {
-                "translate": "block.tcc.filled_composter",
-                "italic": false
-              }
-            },
-            {
               "function": "minecraft:set_lore",
               "lore": [
                 {
@@ -127,13 +120,6 @@
             {
               "function": "minecraft:set_nbt",
               "tag": "{CustomModelData:330001}"
-            },
-            {
-              "function": "minecraft:set_name",
-              "name": {
-                "translate": "block.tcc.filled_composter",
-                "italic": false
-              }
             },
             {
               "function": "minecraft:set_lore",
@@ -175,13 +161,6 @@
               "tag": "{CustomModelData:330002}"
             },
             {
-              "function": "minecraft:set_name",
-              "name": {
-                "translate": "block.tcc.filled_composter",
-                "italic": false
-              }
-            },
-            {
               "function": "minecraft:set_lore",
               "lore": [
                 {
@@ -219,13 +198,6 @@
             {
               "function": "minecraft:set_nbt",
               "tag": "{CustomModelData:330003}"
-            },
-            {
-              "function": "minecraft:set_name",
-              "name": {
-                "translate": "block.tcc.filled_composter",
-                "italic": false
-              }
             },
             {
               "function": "minecraft:set_lore",
@@ -267,13 +239,6 @@
               "tag": "{CustomModelData:330004}"
             },
             {
-              "function": "minecraft:set_name",
-              "name": {
-                "translate": "block.tcc.filled_composter",
-                "italic": false
-              }
-            },
-            {
               "function": "minecraft:set_lore",
               "lore": [
                 {
@@ -311,13 +276,6 @@
             {
               "function": "minecraft:set_nbt",
               "tag": "{CustomModelData:330005}"
-            },
-            {
-              "function": "minecraft:set_name",
-              "name": {
-                "translate": "block.tcc.filled_composter",
-                "italic": false
-              }
             },
             {
               "function": "minecraft:set_lore",
@@ -359,13 +317,6 @@
               "tag": "{CustomModelData:330006}"
             },
             {
-              "function": "minecraft:set_name",
-              "name": {
-                "translate": "block.tcc.filled_composter",
-                "italic": false
-              }
-            },
-            {
               "function": "minecraft:set_lore",
               "lore": [
                 {
@@ -403,13 +354,6 @@
             {
               "function": "minecraft:set_nbt",
               "tag": "{CustomModelData:330007}"
-            },
-            {
-              "function": "minecraft:set_name",
-              "name": {
-                "translate": "block.tcc.filled_composter",
-                "italic": false
-              }
             },
             {
               "function": "minecraft:copy_state",
@@ -473,26 +417,26 @@
   "__smithed__": {
     "rules":[
       {
-        "type":"smithed:append",
+        "type":"append",
         "target":"pools[1].conditions",
         "source":{
-          "type":"smithed:reference",
+          "type":"reference",
           "path":"pools[1].conditions[1]"
         }
       },
       {
-        "type":"smithed:append",
+        "type":"append",
         "target":"pools[0].conditions",
         "source":{
-          "type":"smithed:reference",
+          "type":"reference",
           "path":"pools[0].conditions[0]"
         }
       },
       {
-        "type":"smithed:append",
+        "type":"append",
         "target":"pools",
         "source":{
-          "type":"smithed:reference",
+          "type":"reference",
           "path":"pools[2]"
         }
       }

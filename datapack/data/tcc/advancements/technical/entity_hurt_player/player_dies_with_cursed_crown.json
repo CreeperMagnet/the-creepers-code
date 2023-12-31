@@ -1,0 +1,27 @@
+{
+  "parent": "tcc:technical/root",
+  "criteria": {
+    "die": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Health:0f,Inventory:[{Slot:103b,tag:{tcc:{id:\"cursed_crown\"}}}]}"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "tcc:item/cursed_crown/player_death_keep_inventory"
+  },
+  "requirements": [
+    [
+     "die" 
+    ]
+  ]
+}

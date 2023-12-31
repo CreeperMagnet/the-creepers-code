@@ -13,5 +13,10 @@
         "recipe_id": "tcc:nbt/golden_apple_pie"
       }
     }
-  }
+  },
+  "requirements": [
+    [
+      "recipe_crafted"
+    ]
+  ]
 }

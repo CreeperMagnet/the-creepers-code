@@ -13,5 +13,10 @@
         "recipe_id": "tcc:nbt/paintbrush"
       }
     }
-  }
+  },
+  "requirements": [
+    [
+      "recipe_crafted"
+    ]
+  ]
 }

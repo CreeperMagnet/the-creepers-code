@@ -18,5 +18,10 @@
   },
   "rewards": {
     "function": "tcc:item/tangling_pearl/inventory_changed/check_drop"
-  }
+  },
+  "requirements": [
+    [
+      "drop_item"
+    ]
+  ]
 }

@@ -51,5 +51,10 @@
         ]
       }
     }
-  }
+  },
+  "requirements": [
+    [
+      "bucket_snail"
+    ]
+  ]
 }

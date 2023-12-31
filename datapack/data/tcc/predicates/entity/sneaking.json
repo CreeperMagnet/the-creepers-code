@@ -1,10 +1,9 @@
 {
-  "condition": "minecraft:entity_properties",
+  "condition": "minecraft:entity_scores",
   "entity": "this",
-  "predicate": {
-    "type": "minecraft:player",
-    "flags": {
-      "is_sneaking": true
+  "scores": {
+    "tcc.sneaking": {
+      "min": 1
     }
   }
 }

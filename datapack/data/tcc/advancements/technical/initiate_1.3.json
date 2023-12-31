@@ -1,0 +1,19 @@
+{
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "rewards": {
+    "function": "tcc:entity/player/initiate",
+    "recipes": [
+      "tcc:nbt/compendium"
+    ]
+  },
+  "parent": "tcc:technical/root",
+  "requirements": [
+    [
+      "tick"
+    ]
+  ]
+}

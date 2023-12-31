@@ -18,5 +18,10 @@
   },
   "rewards": {
     "function": "tcc:item/frostbloom_petals/feed_parrot"
-  }
+  },
+  "requirements": [
+    [
+      "feed_parrot"
+    ]
+  ]
 }

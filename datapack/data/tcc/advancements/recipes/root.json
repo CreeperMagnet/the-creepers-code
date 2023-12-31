@@ -4,5 +4,10 @@
     "impossible": {
       "trigger": "minecraft:impossible"
     }
-  }
+  },
+  "requirements": [
+    [
+      "impossible"
+    ]
+  ]
 }

@@ -1,7 +1,8 @@
 ############################################################
-# Commands to run on soul seer click
+# Activates the soul seer
 ############################################################
 
-item modify entity @s[gamemode=!creative] weapon.mainhand tcc:reduce_count/1
-execute anchored eyes run function tcc:block/soul_seer/glow/raycast
-advancement revoke @s only tcc:technical/item_used_on_block/activate_soul_seer
+tag @s add tcc.soul_seer.selected
+execute unless entity @s[scores={tcc.dummy2=1..}] run function tcc:block/soul_seer/glow
+tag @s remove tcc.soul_seer.selected
+scoreboard players set @s tcc.soul_seer_cooldown 6

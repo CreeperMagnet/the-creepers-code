@@ -18,5 +18,10 @@
   },
   "rewards": {
     "function": "tcc:block/gobblerift/attack/advancement"
-  }
+  },
+  "requirements": [
+    [
+      "hurt_entity"
+    ]
+  ]
 }

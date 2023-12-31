@@ -1,0 +1,9 @@
+{
+	"parent": "tcc:block/decorated_pot/template",
+	"textures": {
+		"face_1": "tcc:block/decorated_pot/prismarine/side/reef",
+		"face_2": "tcc:block/decorated_pot/prismarine/side/reef",
+		"base": "tcc:block/decorated_pot/prismarine/base",
+		"particle": "block/prismarine_bricks"
+	}
+}

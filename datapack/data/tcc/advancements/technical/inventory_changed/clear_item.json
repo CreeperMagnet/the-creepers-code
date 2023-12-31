@@ -14,5 +14,10 @@
   },
   "rewards": {
     "function": "tcc:item/clear_item"
-  }
+  },
+  "requirements": [
+    [
+      "pick_up_clear_item"
+    ]
+  ]
 }

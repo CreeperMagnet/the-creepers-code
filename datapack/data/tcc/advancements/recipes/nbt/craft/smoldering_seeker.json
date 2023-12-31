@@ -13,5 +13,10 @@
         "recipe_id": "tcc:nbt/smoldering_seeker"
       }
     }
-  }
+  },
+  "requirements": [
+    [
+      "recipe_crafted"
+    ]
+  ]
 }

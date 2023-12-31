@@ -48,5 +48,10 @@
         ]
       }
     }
-  }
+  },
+  "requirements": [
+    [
+      "click_positional_anchor"
+    ]
+  ]
 }

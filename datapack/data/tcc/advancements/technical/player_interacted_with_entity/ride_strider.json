@@ -21,5 +21,10 @@
   },
   "rewards": {
     "function": "tcc:item/warped_fungus_on_a_stick/strider_fix/add_tag"
-  }
+  },
+  "requirements": [
+    [
+      "click_strider"
+    ]
+  ]
 }

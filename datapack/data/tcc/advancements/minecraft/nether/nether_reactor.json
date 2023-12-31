@@ -25,5 +25,10 @@
     "activate_nether_reactor": {
       "trigger": "minecraft:impossible"
     }
-  }
+  },
+  "requirements": [
+    [
+      "activate_nether_reactor"
+    ]
+  ]
 }

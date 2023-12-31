@@ -45,6 +45,16 @@
           "predicate": {
             "type": "#minecraft:skeletons"
           }
+        },
+        {
+          "condition": "minecraft:inverted",
+          "term": {
+            "condition": "minecraft:entity_properties",
+            "entity": "killer",
+            "predicate": {
+              "nbt": "{Tags:[\"tcc.overgrown\"]}"
+            }
+          }
         }
       ]
     },
@@ -62,24 +72,6 @@
           "entity": "killer",
           "predicate": {
             "type": "minecraft:piglin"
-          }
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:music_disc_otherside"
-        }
-      ],
-      "conditions": [
-        {
-          "condition": "minecraft:entity_properties",
-          "entity": "killer",
-          "predicate": {
-            "type": "minecraft:shulker"
           }
         }
       ]
@@ -115,7 +107,7 @@
           "condition": "minecraft:entity_properties",
           "entity": "killer",
           "predicate": {
-            "nbt": "{Tags:[\"tcc.geomancer\"]}"
+            "nbt": "{Tags:[\"tcc.overgrown\"]}"
           }
         }
       ]
@@ -153,43 +145,35 @@
   "__smithed__": {
     "rules": [
       {
-        "type":"smithed:append",
+        "type":"append",
         "target":"pools",
         "source": {
-          "type":"smithed:reference",
+          "type":"reference",
           "path":"pools[2]"
         }
       },
       {
-        "type":"smithed:append",
+        "type":"append",
         "target":"pools",
         "source": {
-          "type":"smithed:reference",
+          "type":"reference",
           "path":"pools[3]"
         }
       },
       {
-        "type":"smithed:append",
+        "type":"append",
         "target":"pools",
         "source": {
-          "type":"smithed:reference",
+          "type":"reference",
           "path":"pools[4]"
         }
       },
       {
-        "type":"smithed:append",
+        "type":"append",
         "target":"pools",
         "source": {
-          "type":"smithed:reference",
+          "type":"reference",
           "path":"pools[5]"
-        }
-      },
-      {
-        "type":"smithed:append",
-        "target":"pools",
-        "source": {
-          "type":"smithed:reference",
-          "path":"pools[6]"
         }
       }
     ]

@@ -2,7 +2,7 @@
 # Cleans up the mansion
 ############################################################
 
-fill ^ ^ ^ ^67 ^7 ^58 sponge replace air
+fill ^ ^ ^ ^67 ^7 ^58 sponge replace #tcc:sponge_can_replace
 fill ^ ^ ^ ^67 ^7 ^58 air replace #tcc:sponges
 fill ^ ^ ^ ^67 ^7 ^58 candle[lit=true,candles=1] replace candle[lit=false,candles=1]
 fill ^ ^ ^ ^67 ^7 ^58 candle[lit=true,candles=2] replace candle[lit=false,candles=2]

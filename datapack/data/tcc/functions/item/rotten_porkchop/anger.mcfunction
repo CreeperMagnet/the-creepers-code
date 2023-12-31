@@ -1,6 +1,5 @@
 ############################################################
-# Makes rotten porkchops give you nausea
+# Makes zombified piglins angry at you
 ############################################################
 
-data merge entity @s {AngerTime:800,AngryAt:[I; 0, 0, 0, 0]}
-data modify entity @s AngryAt set from storage tcc:storage root.temp.rotten_porkchop_anger
+$data merge entity @s {AngerTime:800,AngryAt:$(UUID)}

@@ -13,5 +13,10 @@
         "recipe_id": "tcc:nbt/apple_pie"
       }
     }
-  }
+  },
+  "requirements": [
+    [
+      "recipe_crafted"
+    ]
+  ]
 }

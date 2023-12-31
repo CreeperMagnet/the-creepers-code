@@ -34,7 +34,7 @@
               "condition": "minecraft:entity_properties",
               "entity": "this",
               "predicate": {
-                "nbt": "{ActiveEffects:[{Id:25,Amplifier:50b}]}"
+                "nbt": "{active_effects:[{id:\"minecraft:levitation\",amplifier:50b}]}"
               }
             }
           }

@@ -20,5 +20,10 @@
   },
   "rewards": {
     "function": "tcc:block/brewing_stand/marker_spawning/scan"
-  }
+  },
+  "requirements": [
+    [
+      "place_brewing_stand"
+    ]
+  ]
 }

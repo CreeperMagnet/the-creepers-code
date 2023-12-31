@@ -13,5 +13,10 @@
         "recipe_id": "tcc:nbt/flowering_azalea_suspicious_stew"
       }
     }
-  }
+  },
+  "requirements": [
+    [
+      "recipe_crafted"
+    ]
+  ]
 }

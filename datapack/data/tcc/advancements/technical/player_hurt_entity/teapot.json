@@ -18,5 +18,10 @@
   },
   "rewards": {
     "function": "tcc:block/teapot/attack/advancement"
-  }
+  },
+  "requirements": [
+    [
+      "hurt_entity"
+    ]
+  ]
 }

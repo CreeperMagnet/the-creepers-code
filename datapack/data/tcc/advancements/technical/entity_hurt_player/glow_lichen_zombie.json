@@ -27,5 +27,10 @@
   },
   "rewards": {
     "function": "tcc:entity/glow_lichen_zombie/apply_blindness"
-  }
+  },
+  "requirements": [
+    [
+      "hit"
+    ]
+  ]
 }

@@ -114,6 +114,19 @@
               "name": "tcc:location/above_warm_ocean_ruin"
             }
           ]
+        },
+        {
+          "name": "tcc:items/cursed_crown",
+          "type": "minecraft:loot_table",
+          "weight": 3,
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "structure": "minecraft:jungle_pyramid"
+              }
+            }
+          ]
         }
       ]
     }
@@ -122,30 +135,39 @@
   "__smithed__":{
     "rules":[
       {
-        "type":"smithed:insert",
+        "type":"insert",
         "index": 6,
         "target":"pools[0].entries",
         "source": {
-          "type":"smithed:reference",
+          "type":"reference",
           "path":"pools[0].entries[6]"
         }
       },
       {
-        "type":"smithed:insert",
+        "type":"insert",
         "index": 7,
         "target":"pools[0].entries",
         "source": {
-          "type":"smithed:reference",
+          "type":"reference",
           "path":"pools[0].entries[7]"
         }
       },
       {
-        "type":"smithed:insert",
+        "type":"insert",
         "index": 8,
         "target":"pools[0].entries",
         "source": {
-          "type":"smithed:reference",
+          "type":"reference",
           "path":"pools[0].entries[8]"
+        }
+      },
+      {
+        "type":"insert",
+        "index": 9,
+        "target":"pools[0].entries",
+        "source": {
+          "type":"reference",
+          "path":"pools[0].entries[9]"
         }
       }
     ]

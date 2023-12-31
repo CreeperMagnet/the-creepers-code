@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{BlockEntityTag:{id:\"minecraft:barrel\",Items:[{id:\"minecraft:barrier\",Count:1b,tag:{tcc:{placed_block:1b,block:\"pottery_table\"}}}]},CustomModelData:330000,tcc:{id:\"pottery_table\"}}"
+              "tag": "{BlockEntityTag:{id:\"minecraft:barrel\",Items:[{id:\"minecraft:structure_block\",Count:1b,tag:{CustomModelData:330000,tcc:{placed_block:1b,clear:1b,block:\"pottery_table\"}}}]},CustomModelData:330000,tcc:{id:\"pottery_table\"}}"
             },
             {
               "function": "minecraft:set_name",

@@ -3,3 +3,4 @@
 ############################################################
 
 execute if entity @s[tag=tcc.archaeologist,nbt=!{CustomName:'{"translate":"entity.tcc.archaeologist"}'}] run team leave @s
+execute if entity @s[tag=tcc.overgrown,nbt=!{CustomName:'{"translate":"entity.tcc.overgrown"}'}] run team leave @s

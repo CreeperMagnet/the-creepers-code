@@ -40,5 +40,10 @@
         ]
       }
     }
-  }
+  },
+  "requirements": [
+    [
+      "enter_refuge_remains"
+    ]
+  ]
 }

@@ -4,6 +4,9 @@
 
 data remove entity @s Offers.Recipes
 
+loot replace entity @s weapon.mainhand 2 loot tcc:gameplay/trades/wandering_trader/buy
+function tcc:entity/processing/wandering_trader/add_trade
+
 loot replace entity @s weapon.mainhand 2 loot tcc:gameplay/trades/wandering_trader/seeds
 function tcc:entity/processing/wandering_trader/add_trade
 

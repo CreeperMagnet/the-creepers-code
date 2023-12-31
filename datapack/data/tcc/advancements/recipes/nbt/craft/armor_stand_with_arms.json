@@ -13,5 +13,10 @@
         "recipe_id": "tcc:nbt/armor_stand_with_arms"
       }
     }
-  }
+  },
+  "requirements": [
+    [
+      "recipe_crafted"
+    ]
+  ]
 }

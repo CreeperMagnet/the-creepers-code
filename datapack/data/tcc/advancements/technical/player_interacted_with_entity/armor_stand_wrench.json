@@ -31,5 +31,10 @@
   },
   "rewards": {
     "function": "tcc:item/wrench/armor_stand_poses/advancement"
-  }
+  },
+  "requirements": [
+    [
+      "wrench_armor_stand"
+    ]
+  ]
 }

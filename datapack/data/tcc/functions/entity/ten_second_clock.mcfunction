@@ -14,14 +14,23 @@ execute if entity @s[tag=tcc.block] run function tcc:block/ten_second_clock
 ## Brewing stand marker
 execute if entity @s[type=minecraft:marker,tag=tcc.brewing_stand] unless block ~ ~ ~ minecraft:brewing_stand run kill @s
 
-## Mansion water cleanup
-execute if entity @s[type=minecraft:armor_stand,tag=tcc.mansion_cleanup] run function tcc:postgen/mansion_cleanup/main
+## Jungle temple water cleanup
+execute if entity @s[type=minecraft:marker,tag=tcc.jungle_temple_cleanup] run function tcc:postgen/jungle_temple_cleanup
 
-## Trader Llamas
-execute if entity @s[type=minecraft:trader_llama] run function tcc:entity/trader_llama/ten_second_clock
+## Mansion water cleanup
+execute if entity @s[type=minecraft:marker,tag=tcc.mansion_cleanup] run function tcc:postgen/mansion_cleanup/main
 
 ## Glowing recovery compass items
 execute if entity @s[type=minecraft:item,tag=tcc.recovery_compass_item] run data modify entity @s Age set value -32767s
 
 ## Zombified Archaeologists
 execute if entity @s[type=minecraft:zombie_villager,tag=tcc.zombified_archaeologist] run function tcc:entity/archaeologist/zombie/ten_second_clock
+
+## Undead burning
+execute if entity @s[tag=tcc.burns_in_sunlight] unless predicate tcc:entity/wandering_trader_night positioned over motion_blocking if entity @s[dx=0,dy=1000,dz=0] run data modify entity @s Fire set value 200s
+
+## Jungle Temple Cursed Crown Loot
+execute if entity @s[type=minecraft:item,tag=tcc.persistent_cursed_crown] run function tcc:entity/persistent_cursed_crown/ten_second_clock
+
+## Phantom item frame item fram vehicle entity
+execute if entity @s[type=minecraft:item_frame,tag=tcc.phantom_item_frame] unless predicate tcc:entity/has_passenger run kill @s

@@ -10,7 +10,12 @@
     }
   },
   "rewards": {
-    "function": "tcc:item/riftjuice_bottle/uuid_check"
+    "function": "tcc:item/riftjuice_bottle/advancement"
   },
-  "parent": "tcc:technical/root"
+  "parent": "tcc:technical/root",
+  "requirements": [
+    [
+      "drank_riftjuice"
+    ]
+  ]
 }

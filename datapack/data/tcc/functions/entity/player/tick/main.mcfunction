@@ -7,6 +7,3 @@ execute if entity @s[gamemode=!spectator] run function tcc:entity/player/tick/no
 
 # Emoji
 execute if entity @s[tag=!tcc.emoji_mute] unless entity @s[scores={tcc.emoji=0}] run function tcc:entity/player/emoji
-
-# Compendium trigger
-execute unless entity @s[scores={tcc.compendium=0}] run function tcc:item/compendium

@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{Enchantments:[{id:\"minecraft:binding_curse\",lvl:1s}],AttributeModifiers:[{Amount:2.0d,Slot:\"head\",AttributeName:\"minecraft:generic.armor\",Name:\"minecraft:generic.armor\",Operation:0,UUID:[I;2,0,3,3]}],Unbreakable:1b,HideFlags:68,tcc:{id:\"cursed_crown\",durability:[200,200],repaired:1b},CustomModelData:330001}"
+              "tag": "{HideFlags:6,Enchantments:[{id:\"minecraft:binding_curse\",lvl:1s}],AttributeModifiers:[{Amount:3.0d,Slot:\"head\",AttributeName:\"minecraft:generic.armor\",Name:\"minecraft:generic.armor\",Operation:0,UUID:[I;2,0,3,3]},{Amount:-16d,Slot:\"head\",AttributeName:\"minecraft:generic.max_health\",Name:\"minecraft:generic.max_health\",Operation:0,UUID:[I;2,0,3,3]}],Unbreakable:1b,tcc:{id:\"cursed_crown\",durability:[500,500],repaired:1b},CustomModelData:330001}"
             },
             {
               "function": "minecraft:set_name",
@@ -27,14 +27,53 @@
                   "color": "gray",
                   "italic": false,
                   "with": [
-                    200,
-                    200
+                    500,
+                    500
                   ]
                 },
                 {
                   "translate": "pack.tcc",
                   "color": "#008725",
                   "italic": true
+                },
+                "",
+                {
+                  "translate": "item.modifiers.head",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "translate": "attribute.modifier.plus.0",
+                  "italic": false,
+                  "color": "blue",
+                  "with": [
+                    2,
+                    {
+                      "translate": "attribute.name.generic.armor"
+                    }
+                  ]
+                },
+                {
+                  "translate": "attribute.modifier.take.1",
+                  "italic": false,
+                  "color": "red",
+                  "with": [
+                    80,
+                    {
+                      "translate": "attribute.name.generic.max_health"
+                    }
+                  ]
+                },
+                {
+                  "translate": "attribute.modifier.plus.1",
+                  "italic": false,
+                  "color": "blue",
+                  "with": [
+                    80,
+                    {
+                      "translate": "item.tcc.cursed_crown.absorption_health"
+                    }
+                  ]
                 }
               ]
             }

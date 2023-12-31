@@ -13,5 +13,10 @@
         "recipe_id": "tcc:nbt/pottery_table"
       }
     }
-  }
+  },
+  "requirements": [
+    [
+      "recipe_crafted"
+    ]
+  ]
 }

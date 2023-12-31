@@ -1,0 +1,20 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:structure_block",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{CustomModelData:330000,tcc:{clear:1b,id:\"soul_seer_comparator_output\"}}"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "random_sequence": "tcc:technical/soul_seer_comparator_output/base"
+}

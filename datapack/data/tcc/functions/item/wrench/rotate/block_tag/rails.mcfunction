@@ -2,7 +2,7 @@
 # Checks a block tag
 ############################################################
 
-execute if block ~ ~ ~ rail run function tcc:item/wrench/rotate/block/rail/main
-execute if block ~ ~ ~ powered_rail run function tcc:item/wrench/rotate/block/powered_rail/main
-execute if block ~ ~ ~ activator_rail run function tcc:item/wrench/rotate/block/activator_rail/main
-execute if block ~ ~ ~ detector_rail run function tcc:item/wrench/rotate/block/detector_rail/main
+execute if block ~ ~ ~ minecraft:activator_rail run function tcc:item/wrench/rotate/macro/rail {block:"minecraft:activator_rail"}
+execute if block ~ ~ ~ minecraft:detector_rail run function tcc:item/wrench/rotate/macro/rail {block:"minecraft:detector_rail"}
+execute if block ~ ~ ~ minecraft:powered_rail run function tcc:item/wrench/rotate/macro/rail {block:"minecraft:powered_rail"}
+execute if block ~ ~ ~ minecraft:rail run function tcc:item/wrench/rotate/macro/rail {block:"minecraft:rail"}

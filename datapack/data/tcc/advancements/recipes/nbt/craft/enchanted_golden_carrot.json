@@ -13,5 +13,10 @@
         "recipe_id": "tcc:nbt/enchanted_golden_carrot"
       }
     }
-  }
+  },
+  "requirements": [
+    [
+      "recipe_crafted"
+    ]
+  ]
 }

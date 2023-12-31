@@ -11,5 +11,10 @@
   },
   "rewards": {
     "function": "tcc:item/golden_chorus_fruit"
-  }
+  },
+  "requirements": [
+    [
+      "ate_golden_chorus_fruit"
+    ]
+  ]
 }

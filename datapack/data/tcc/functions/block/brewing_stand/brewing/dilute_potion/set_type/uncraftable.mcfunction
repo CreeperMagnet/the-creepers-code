@@ -2,8 +2,5 @@
 # Modifies the storage for a specific potion type
 ############################################################
 
-data modify storage tcc:storage root.temp.item.tag.display.Name set value '{"translate":"item.tcc.diluted_potion.effect.empty","italic":false,"color":"white"}'
-data modify storage tcc:storage root.temp.item.tag.display.Lore prepend value '{"color":"gray","italic":false,"translate":"effect.none"}'
+function tcc:block/brewing_stand/brewing/dilute_potion/set_no_effect_tags {translation:"empty"}
 data modify storage tcc:storage root.temp.item.tag.CustomModelData set value 330059
-data modify storage tcc:storage root.temp.item.tag.tcc.potion.no_effects set value 1b
-data remove storage tcc:storage root.temp.item.tag.Enchantments

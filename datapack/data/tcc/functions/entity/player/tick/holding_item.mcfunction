@@ -10,3 +10,7 @@ execute if entity @s[predicate=tcc:entity/holding/mending_item/any] positioned ~
 
 ## Totem of Undying and void bugfix
 execute if score @s tcc.health matches 0..5 run effect give @s[predicate=tcc:item/totem_void_heal] instant_health 1 0
+
+
+## Compendium
+execute if entity @s[tag=!tcc.compendium_ban,tag=!tcc.can_change_compendium_mode,predicate=tcc:entity/holding/compendium] run function tcc:item/compendium/toggle_unlockable/enable

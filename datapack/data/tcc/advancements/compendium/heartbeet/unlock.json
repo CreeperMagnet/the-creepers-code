@@ -1,0 +1,1 @@
+{"parent":"tcc:compendium/root","criteria":{"pick_up":{"trigger":"minecraft:inventory_changed","conditions":{"items":[{"items":["minecraft:beetroot","minecraft:beetroot_seeds"]}]}}},"rewards":{"function":"tcc:item/compendium/unlock/entries/heartbeet/from_advancement"}}

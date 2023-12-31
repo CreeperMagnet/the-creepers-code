@@ -16,5 +16,10 @@
   },
   "rewards": {
     "function": "tcc:block/decorated_pot/placement/scan"
-  }
+  },
+  "requirements": [
+    [
+      "place"
+    ]
+  ]
 }

@@ -18,5 +18,10 @@
   },
   "rewards": {
     "function": "tcc:block/gobblerift/interact/advancement"
-  }
+  },
+  "requirements": [
+    [
+      "interact"
+    ]
+  ]
 }

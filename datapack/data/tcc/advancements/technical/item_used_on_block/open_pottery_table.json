@@ -22,5 +22,10 @@
   "rewards": {
     "function": "tcc:block/pottery_table/enter_gui"
   },
-  "parent": "tcc:technical/root"
+  "parent": "tcc:technical/root",
+  "requirements": [
+    [
+      "click_pottery_table"
+    ]
+  ]
 }

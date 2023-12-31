@@ -12,13 +12,6 @@
               "name": "minecraft:respawn_anchor",
               "functions": [
                 {
-                  "function": "minecraft:set_name",
-                  "name": {
-                    "translate": "block.tcc.charged_respawn_anchor",
-                    "italic": false
-                  }
-                },
-                {
                   "function": "minecraft:copy_state",
                   "block": "minecraft:respawn_anchor",
                   "properties": [
@@ -117,7 +110,7 @@
         "type":"smithed:prepend",
         "target":"pools[0].entries",
         "source": {
-          "type":"smithed:reference",
+          "type":"reference",
           "path":"pools[0].entries[0]"
         }
       }

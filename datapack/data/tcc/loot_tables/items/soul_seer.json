@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{BlockEntityTag:{id:\"minecraft:dropper\",Items:[{id:\"minecraft:barrier\",Count:1b,tag:{tcc:{placed_block:1b,block:\"soul_seer\"}}}]},CustomModelData:330004,tcc:{id:\"soul_seer\"}}"
+              "tag": "{BlockEntityTag:{id:\"minecraft:dropper\",Items:[{id:\"minecraft:structure_block\",Count:1b,tag:{CustomModelData:330000,tcc:{placed_block:1b,clear:1b,block:\"soul_seer\"}}}]},CustomModelData:330004,tcc:{id:\"soul_seer\"}}"
             },
             {
               "function": "minecraft:set_name",

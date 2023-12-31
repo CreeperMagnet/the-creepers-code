@@ -1,0 +1,22 @@
+{
+  "parent": "tcc:recipes/nbt/craft/root",
+  "rewards": {
+    "function": "tcc:entity/player/nbt_recipe/crafted_item",
+    "loot": [
+      "tcc:items/compendium"
+    ]
+  },
+  "criteria": {
+    "recipe_crafted": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "tcc:nbt/compendium"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "recipe_crafted"
+    ]
+  ]
+}

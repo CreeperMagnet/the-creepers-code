@@ -12,5 +12,10 @@
   "rewards": {
     "function": "tcc:item/frostbloom_petals/eat"
   },
-  "parent": "tcc:technical/root"
+  "parent": "tcc:technical/root",
+  "requirements": [
+    [
+      "ate_frostbloom_petals"
+    ]
+  ]
 }

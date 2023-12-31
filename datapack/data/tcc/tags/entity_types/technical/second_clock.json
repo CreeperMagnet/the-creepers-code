@@ -5,6 +5,8 @@
     "minecraft:wandering_trader",
     "minecraft:villager",
     "minecraft:item_display",
-    "minecraft:interaction"
+    "minecraft:interaction",
+    "minecraft:fishing_bobber",
+    "minecraft:trident"
   ]
 }

@@ -72,20 +72,20 @@
   "__smithed__": {
     "rules": [
       {
-        "type": "smithed:insert",
+        "type": "insert",
         "index": 1,
         "target": "pools[0].entries[0].children",
         "source": {
-          "type": "smithed:reference",
+          "type": "reference",
           "path": "pools[0].entries[0].children[1]"
         }
       },
       {
-        "type": "smithed:insert",
+        "type": "insert",
         "index": 1,
         "target": "pools[0].entries[0].children[0].conditions",
         "source": {
-          "type": "smithed:reference",
+          "type": "reference",
           "path": "pools[0].entries[0].children[0].conditions[1]"
         }
       }

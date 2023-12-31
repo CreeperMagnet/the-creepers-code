@@ -102,10 +102,10 @@
   "__smithed__": {
     "rules": [
       {
-        "type": "smithed:merge",
+        "type": "merge",
         "target": "pools",
         "source": {
-          "type": "smithed:reference",
+          "type": "reference",
           "path": "pools"
         }
       }

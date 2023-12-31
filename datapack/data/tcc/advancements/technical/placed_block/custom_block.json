@@ -16,5 +16,10 @@
   },
   "rewards": {
     "function": "tcc:block/placement/scan"
-  }
+  },
+  "requirements": [
+    [
+      "place"
+    ]
+  ]
 }

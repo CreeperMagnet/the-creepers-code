@@ -1,0 +1,29 @@
+{
+  "criteria": {
+    "wax_note_block": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:note_block"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "tcc:block/note_block_waxing/interact/advancement"
+  },
+  "requirements": [
+    [
+      "wax_note_block"
+    ]
+  ]
+}

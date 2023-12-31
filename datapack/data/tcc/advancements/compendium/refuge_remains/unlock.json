@@ -1,0 +1,1 @@
+{"parent":"tcc:compendium/root","criteria":{"unlock":{"trigger":"minecraft:location","conditions":{"player":[{"condition":"minecraft:location_check","predicate":{"biome":"minecraft:soul_sand_valley"}}]}}},"rewards":{"function":"tcc:item/compendium/unlock/entries/refuge_remains/from_advancement"}}

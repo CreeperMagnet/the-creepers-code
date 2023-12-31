@@ -36,5 +36,10 @@
         ]
       }
     }
-  }
+  },
+  "requirements": [
+    [
+      "enter_monument"
+    ]
+  ]
 }

@@ -9,7 +9,7 @@
       "condition": "minecraft:location_check",
       "predicate": {
         "block": {
-          "tag": "tcc:wrench_rotatable/main"
+          "tag": "tcc:wrench/rotatable"
         }
       }
     },
@@ -34,7 +34,7 @@
             "minecraft:piston"
           ],
           "state": {
-            "extended": false
+            "extended": "false"
           }
         }
       }
@@ -47,7 +47,7 @@
             "minecraft:sticky_piston"
           ],
           "state": {
-            "extended": false
+            "extended": "false"
           }
         }
       }
@@ -60,7 +60,20 @@
             "minecraft:iron_trapdoor"
           ],
           "state": {
-            "powered": false
+            "powered": "false"
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "block": {
+          "blocks": [
+            "minecraft:iron_door"
+          ],
+          "state": {
+            "powered": "false"
           }
         }
       }
@@ -73,7 +86,7 @@
             "minecraft:repeater"
           ],
           "state": {
-            "locked": false
+            "locked": "false"
           }
         }
       }
@@ -84,8 +97,8 @@
         "block": {
           "tag": "minecraft:fence_gates",
           "state": {
-            "open": false,
-            "powered": false
+            "open": "false",
+            "powered": "false"
           }
         }
       }

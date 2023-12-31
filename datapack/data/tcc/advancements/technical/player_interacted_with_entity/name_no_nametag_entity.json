@@ -24,5 +24,10 @@
   },
   "rewards": {
     "function": "tcc:entity/no_nametag/advancement"
-  }
+  },
+  "requirements": [
+    [
+      "name_no_nametag_entity"
+    ]
+  ]
 }

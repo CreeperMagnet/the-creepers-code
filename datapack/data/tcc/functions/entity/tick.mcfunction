@@ -14,11 +14,11 @@ execute if entity @s[type=minecraft:item_display,tag=tcc.boomerang] run function
 ## Iceologer Ice
 execute if entity @s[type=minecraft:falling_block,tag=tcc.falling_ice] run function tcc:entity/iceologer/ice/tick
 
-## Phantom Item Frame
-execute if entity @s[type=minecraft:item_frame,tag=tcc.phantom_item_frame] run function tcc:entity/phantom_item_frame/tick
-
-## All Blocks
+## Blocks
 execute if entity @s[type=minecraft:item_display,tag=tcc.block] positioned ~ ~-1 ~ run function tcc:block/tick
+
+## Waxed Note Blocks
+execute if entity @s[type=minecraft:marker,tag=tcc.waxed_note_block] run function tcc:block/piston_push/check {on_broken:"kill"}
 
 ## Brewing Stuff
 execute if entity @s[type=minecraft:marker,tag=tcc.brewing_stand] run function tcc:block/brewing_stand/brewing/tick

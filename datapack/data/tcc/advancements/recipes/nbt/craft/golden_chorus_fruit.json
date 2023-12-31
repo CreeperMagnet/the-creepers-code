@@ -13,5 +13,10 @@
         "recipe_id": "tcc:nbt/golden_chorus_fruit"
       }
     }
-  }
+  },
+  "requirements": [
+    [
+      "recipe_crafted"
+    ]
+  ]
 }

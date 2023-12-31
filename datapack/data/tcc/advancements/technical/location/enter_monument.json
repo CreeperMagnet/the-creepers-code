@@ -37,7 +37,7 @@
               "condition": "minecraft:entity_properties",
               "entity": "this",
               "predicate": {
-                "nbt": "{ActiveEffects:[{Id:4}]}"
+                "nbt": "{active_effects:[{id:\"minecraft:mining_fatigue\"}]}"
               }
             }
           },
@@ -66,5 +66,10 @@
   },
   "rewards": {
     "function": "tcc:entity/player/mining_fatigue/enter_monument"
-  }
+  },
+  "requirements": [
+    [
+      "enter_monument_without_mining_fatigue_or_tea"
+    ]
+  ]
 }

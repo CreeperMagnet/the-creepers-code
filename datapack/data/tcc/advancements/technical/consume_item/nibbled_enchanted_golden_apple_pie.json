@@ -12,5 +12,10 @@
   "rewards": {
     "function": "tcc:item/enchanted_golden_apple_pie/nibbled/eat"
   },
-  "parent": "tcc:technical/root"
+  "parent": "tcc:technical/root",
+  "requirements": [
+    [
+      "ate_nibbled_enchanted_golden_apple_pie"
+    ]
+  ]
 }

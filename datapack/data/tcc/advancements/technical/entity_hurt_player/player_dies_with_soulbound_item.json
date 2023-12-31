@@ -18,5 +18,10 @@
   },
   "rewards": {
     "function": "tcc:item/soulbound_item/player_death"
-  }
+  },
+  "requirements": [
+    [
+      "die"
+    ]
+  ]
 }

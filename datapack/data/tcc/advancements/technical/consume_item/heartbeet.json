@@ -12,5 +12,10 @@
   "rewards": {
     "function": "tcc:item/heartbeet/eat"
   },
-  "parent": "tcc:technical/root"
+  "parent": "tcc:technical/root",
+  "requirements": [
+    [
+      "ate_heartbeet"
+    ]
+  ]
 }

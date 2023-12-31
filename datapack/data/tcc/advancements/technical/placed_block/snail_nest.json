@@ -16,5 +16,10 @@
   },
   "rewards": {
     "function": "tcc:block/snail_nest/stop_sound"
-  }
+  },
+  "requirements": [
+    [
+      "place"
+    ]
+  ]
 }

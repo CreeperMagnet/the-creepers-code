@@ -28,5 +28,10 @@
     "get_locket": {
       "trigger": "minecraft:impossible"
     }
-  }
+  },
+  "requirements": [
+    [
+      "get_locket"
+    ]
+  ]
 }

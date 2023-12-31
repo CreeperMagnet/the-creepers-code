@@ -93,6 +93,66 @@
         "custom_model_data": 330015
       },
       "model": "tcc:item/pottery_sherd/nether_brick/star"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330017
+      },
+      "model": "tcc:item/pottery_sherd/prismarine/artifact"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330018
+      },
+      "model": "tcc:item/pottery_sherd/prismarine/catch"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330019
+      },
+      "model": "tcc:item/pottery_sherd/prismarine/idol"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330020
+      },
+      "model": "tcc:item/pottery_sherd/prismarine/ink"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330021
+      },
+      "model": "tcc:item/pottery_sherd/prismarine/pickle"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330022
+      },
+      "model": "tcc:item/pottery_sherd/prismarine/protector"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330023
+      },
+      "model": "tcc:item/pottery_sherd/prismarine/reef"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330024
+      },
+      "model": "tcc:item/pottery_sherd/prismarine/shell"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330025
+      },
+      "model": "tcc:item/pottery_sherd/prismarine/turtle"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330026
+      },
+      "model": "tcc:item/pottery_sherd/prismarine/voyager"
     }
   ]
 }

@@ -1,0 +1,1 @@
+{"parent":"tcc:compendium/root","criteria":{"unlock":{"trigger":"minecraft:location","conditions":{"player":[{"condition":"minecraft:location_check","predicate":{"structure":"minecraft:end_city"}}]}}},"rewards":{"function":"tcc:item/compendium/unlock/entries/increased_shulker_drops/from_advancement"}}

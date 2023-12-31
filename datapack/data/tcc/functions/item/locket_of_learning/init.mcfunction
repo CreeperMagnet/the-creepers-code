@@ -14,8 +14,8 @@ execute store result score @s[nbt={XpLevel:3}] tcc.dummy2 run data get entity @s
 scoreboard players set @s[nbt=!{XpLevel:3}] tcc.dummy2 1000
 
 # run deposit/withdraw functions
-execute if entity @s[predicate=!tcc:entity/sneaking,nbt=!{XpLevel:0},nbt=!{XpLevel:1},nbt=!{XpLevel:2}] unless score @s tcc.dummy2 matches ..306 unless score @s tcc.dummy matches 45 run function tcc:item/locket_of_learning/deposit
-execute if entity @s[predicate=tcc:entity/sneaking] unless score @s tcc.dummy matches 0 run function tcc:item/locket_of_learning/withdraw
+execute unless score @s tcc.sneaking matches 1.. if entity @s[nbt=!{XpLevel:0},nbt=!{XpLevel:1},nbt=!{XpLevel:2}] unless score @s tcc.dummy2 matches ..306 unless score @s tcc.dummy matches 45 run function tcc:item/locket_of_learning/deposit
+execute if score @s tcc.sneaking matches 1.. unless score @s tcc.dummy matches 0 run function tcc:item/locket_of_learning/withdraw
 
 # reset scores and remove data after all is said and done
 scoreboard players reset @s tcc.dummy

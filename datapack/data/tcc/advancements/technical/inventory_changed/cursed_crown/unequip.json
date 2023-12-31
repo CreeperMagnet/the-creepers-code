@@ -11,11 +11,28 @@
             ],
             "nbt": "{tcc:{id:\"cursed_crown\"}}"
           }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Tags:[\"tcc.cursed_crown_ignore_inventory_change\"]}"
+              }
+            }
+          }
         ]
       }
     }
   },
   "rewards": {
     "function": "tcc:item/cursed_crown/unequip/main"
-  }
+  },
+  "requirements": [
+    [
+      "pick_up_cursed_crown"
+    ]
+  ]
 }

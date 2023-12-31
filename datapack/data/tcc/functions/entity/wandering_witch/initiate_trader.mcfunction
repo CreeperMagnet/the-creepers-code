@@ -2,11 +2,9 @@
 # Commands to give the witch trades
 ############################################################
 
-data merge entity @s {DespawnDelay:48000,CustomName:'{"translate":"entity.tcc.wandering_witch"}',Team:"smithed.prevent_aggression",DeathLootTable:"tcc:entities/wandering_witch",ArmorDropChances:[-10000.0f,-10000.0f,-10000.0f,-10000.0f],HandDropChances:[-10000.0f,-10000.0f],Offers:{Recipes:[]},ActiveEffects:[{Id:14,Duration:-1,Amplifier:0b,ShowParticles:0b}],Silent:1b,Tags:["tcc.tick","tcc.second_clock","tcc.ten_second_clock","tcc.wandering_witch","tcc.has_trades","tcc.trader_entity","smithed.entity"],ArmorItems:[{},{},{},{id:"minecraft:structure_block",Count:1b,tag:{CustomModelData:330066,tcc:{custom_model_data:{head:330066,idle:330068,moving:330070}}}}],HandItems:[{id:"minecraft:structure_block",Count:1b,tag:{CustomModelData:330068}}]}
+data merge entity @s {DespawnDelay:48000,CustomName:'{"translate":"entity.tcc.wandering_witch"}',Team:"smithed.prevent_aggression",DeathLootTable:"tcc:entities/wandering_witch",ArmorDropChances:[-10000.0f,-10000.0f,-10000.0f,-10000.0f],HandDropChances:[-10000.0f,-10000.0f],Offers:{Recipes:[]},active_effects:[{id:"minecraft:invisibility",duration:-1,amplifier:0b,show_particles:0b}],Silent:1b,Tags:["tcc.tick","tcc.second_clock","tcc.ten_second_clock","tcc.wandering_witch","tcc.has_trades","tcc.trader_entity","smithed.entity"],ArmorItems:[{},{},{},{id:"minecraft:structure_block",Count:1b,tag:{CustomModelData:330066,tcc:{custom_model_data:{head:330066,idle:330068,moving:330070}}}}],HandItems:[{id:"minecraft:structure_block",Count:1b,tag:{CustomModelData:330068}}]}
 data remove storage tcc:storage root.temp
 data modify storage tcc:storage root.temp.UUID set from entity @s UUID
-execute positioned ~0.1 ~ ~ summon trader_llama run function tcc:entity/wandering_witch/initiate_llama
-
 data remove entity @s Offers.Recipes
 
 loot replace entity @s weapon.mainhand 2 loot tcc:gameplay/trades/wandering_witch/slime_balls

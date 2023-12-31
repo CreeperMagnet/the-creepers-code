@@ -31,5 +31,10 @@
   },
   "rewards": {
     "experience": 100
-  }
+  },
+  "requirements": [
+    [
+      "use_conductor"
+    ]
+  ]
 }

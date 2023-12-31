@@ -25,5 +25,10 @@
     "wear_witch_hat": {
       "trigger": "minecraft:impossible"
     }
-  }
+  },
+  "requirements": [
+    [
+      "wear_witch_hat"
+    ]
+  ]
 }

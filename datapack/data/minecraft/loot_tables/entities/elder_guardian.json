@@ -162,10 +162,10 @@
   "__smithed__": {
     "rules": [
       {
-        "type":"smithed:merge",
+        "type":"merge",
         "target":"pools[2].entries[0]",
         "source": {
-          "type":"smithed:reference",
+          "type":"reference",
           "path":"pools[2].entries[0]"
         }
       }

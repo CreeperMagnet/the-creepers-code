@@ -3,6 +3,7 @@
 ############################################################
 
 advancement revoke @s only tcc:technical/inventory_changed/cursed_crown/unequip
+effect clear @s[predicate=!tcc:entity/wearing/cursed_crown] absorption
 
 data remove storage tcc:storage root.temp
 function tcc:item/cursed_crown/unequip/get_nbt

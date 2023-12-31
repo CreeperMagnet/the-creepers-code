@@ -31,3 +31,9 @@ execute if entity @s[tag=tcc.snail_nest] unless block ~ ~ ~ clay run function tc
 
 ## Pottery Table
 execute if entity @s[tag=tcc.pottery_table] run function tcc:block/pottery_table/tick/main
+
+## Potted Plant
+execute if entity @s[tag=tcc.potted_plant] positioned ~ ~1 ~ run function tcc:block/potted_plant/tick
+
+## Phantom Item Frame
+execute if entity @s[tag=tcc.phantom_item_frame] positioned ~ ~1 ~ run function tcc:block/phantom_item_frame/tick

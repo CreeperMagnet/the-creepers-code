@@ -12,5 +12,10 @@
   "rewards": {
     "function": "tcc:entity/pig/bred"
   },
-  "parent": "tcc:technical/root"
+  "parent": "tcc:technical/root",
+  "requirements": [
+    [
+      "bred_pigs"
+    ]
+  ]
 }

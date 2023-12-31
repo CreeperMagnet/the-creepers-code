@@ -28,5 +28,10 @@
   },
   "rewards": {
     "function": "tcc:entity/trader_entity/death/schedule"
-  }
+  },
+  "requirements": [
+    [
+      "kill_trader_entity"
+    ]
+  ]
 }
