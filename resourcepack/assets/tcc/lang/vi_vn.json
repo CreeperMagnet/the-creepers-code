@@ -159,7 +159,7 @@
   "commands.tcc.reload.success": " Gói dữ liệu được cập nhật và bảng điểm TCC",
   "commands.tcc.trigger.spectator": "Lệnh này không thể được sử dụng trong chế độ khán giả. Hãy thử lại trong chế độ khác.",
   "commands.tcc.initiate": "\"%s được kích hoạt.",
-  "commands.tcc.wrong_version": "\nBạn đang sử dụng The Creeper's Code trên phiên bản Minecraft không chính xác. Bạn nên sử dụng Minecraft 1.20.2.",
+  "commands.tcc.wrong_version": "\nBạn đang sử dụng The Creeper's Code trên phiên bản Minecraft không chính xác. Bạn nên sử dụng Minecraft 1.20.4.",
   "commands.tcc.initiate.wrong_version.title": "PHIÊN BẢN SAI",
   "chat.tcc.gamerules.title": "Luật trò chơi TCC",
   "chat.tcc.gamerules.false": "[Tắt]",

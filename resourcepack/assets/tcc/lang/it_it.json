@@ -159,7 +159,7 @@
   "commands.tcc.reload.success": " Datapack e Scoreboard di TCC Aggiornati",
   "commands.tcc.trigger.spectator": "Questo comando non può essere usato in modalità spettatore. Riprova in un'altra modalità di gioco.",
   "commands.tcc.initiate": "%s è abilitato.",
-  "commands.tcc.wrong_version": "\nStai usando il Codice del Creeper sulla versione di Minecraft errata. Dovresti usare Minecraft 1.20.2.",
+  "commands.tcc.wrong_version": "\nStai usando il Codice del Creeper sulla versione di Minecraft errata. Dovresti usare Minecraft 1.20.4.",
   "commands.tcc.initiate.wrong_version.title": "VERSIONE ERRATA",
   "chat.tcc.gamerules.title": "Regole di Gioco TCC",
   "chat.tcc.gamerules.false": "[Spento]",

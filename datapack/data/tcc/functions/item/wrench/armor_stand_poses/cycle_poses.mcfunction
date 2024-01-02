@@ -4,15 +4,15 @@
 
 playsound tcc:item.wrench.pose_armor_stand player @a[distance=..16]
 scoreboard players set @s tcc.dummy 0
-execute store success score @s[scores={tcc.dummy=0},tag=!tcc.posed_armor_stand] tcc.dummy run function tcc:item/wrench/armor_stand_poses/set_pose/assert_dominance
-execute store success score @s[scores={tcc.dummy=0},tag=tcc.posed_armor_stand.assert_dominance] tcc.dummy run function tcc:item/wrench/armor_stand_poses/set_pose/battle_ready
-execute store success score @s[scores={tcc.dummy=0},tag=tcc.posed_armor_stand.battle_ready] tcc.dummy run function tcc:item/wrench/armor_stand_poses/set_pose/bizarre
-execute store success score @s[scores={tcc.dummy=0},tag=tcc.posed_armor_stand.bizarre] tcc.dummy run function tcc:item/wrench/armor_stand_poses/set_pose/despair
-execute store success score @s[scores={tcc.dummy=0},tag=tcc.posed_armor_stand.despair] tcc.dummy run function tcc:item/wrench/armor_stand_poses/set_pose/outstretched
-execute store success score @s[scores={tcc.dummy=0},tag=tcc.posed_armor_stand.outstretched] tcc.dummy run function tcc:item/wrench/armor_stand_poses/set_pose/point
-execute store success score @s[scores={tcc.dummy=0},tag=tcc.posed_armor_stand.point] tcc.dummy run function tcc:item/wrench/armor_stand_poses/set_pose/praise
-execute store success score @s[scores={tcc.dummy=0},tag=tcc.posed_armor_stand.praise] tcc.dummy run function tcc:item/wrench/armor_stand_poses/set_pose/running
-execute store success score @s[scores={tcc.dummy=0},tag=tcc.posed_armor_stand.running] tcc.dummy run function tcc:item/wrench/armor_stand_poses/set_pose/shooting
-execute store success score @s[scores={tcc.dummy=0},tag=tcc.posed_armor_stand.shooting] tcc.dummy run function tcc:item/wrench/armor_stand_poses/set_pose/throwing
-execute store success score @s[scores={tcc.dummy=0},tag=tcc.posed_armor_stand.throwing] tcc.dummy run function tcc:item/wrench/armor_stand_poses/set_pose/yay
-execute store success score @s[scores={tcc.dummy=0},tag=tcc.posed_armor_stand.yay] tcc.dummy run function tcc:item/wrench/armor_stand_poses/set_pose/none
+execute if entity @s[tag=!tcc.posed_armor_stand] run return run function tcc:item/wrench/armor_stand_poses/set_pose/assert_dominance
+execute if entity @s[tag=tcc.posed_armor_stand.assert_dominance] run return run function tcc:item/wrench/armor_stand_poses/set_pose/battle_ready
+execute if entity @s[tag=tcc.posed_armor_stand.battle_ready] run return run function tcc:item/wrench/armor_stand_poses/set_pose/bizarre
+execute if entity @s[tag=tcc.posed_armor_stand.bizarre] run return run function tcc:item/wrench/armor_stand_poses/set_pose/despair
+execute if entity @s[tag=tcc.posed_armor_stand.despair] run return run function tcc:item/wrench/armor_stand_poses/set_pose/outstretched
+execute if entity @s[tag=tcc.posed_armor_stand.outstretched] run return run function tcc:item/wrench/armor_stand_poses/set_pose/point
+execute if entity @s[tag=tcc.posed_armor_stand.point] run return run function tcc:item/wrench/armor_stand_poses/set_pose/praise
+execute if entity @s[tag=tcc.posed_armor_stand.praise] run return run function tcc:item/wrench/armor_stand_poses/set_pose/running
+execute if entity @s[tag=tcc.posed_armor_stand.running] run return run function tcc:item/wrench/armor_stand_poses/set_pose/shooting
+execute if entity @s[tag=tcc.posed_armor_stand.shooting] run return run function tcc:item/wrench/armor_stand_poses/set_pose/throwing
+execute if entity @s[tag=tcc.posed_armor_stand.throwing] run return run function tcc:item/wrench/armor_stand_poses/set_pose/yay
+execute if entity @s[tag=tcc.posed_armor_stand.yay] run return run function tcc:item/wrench/armor_stand_poses/set_pose/none

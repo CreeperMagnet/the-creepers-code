@@ -156,7 +156,7 @@
   "commands.tcc.reload.success": " Набор данных и система счёта событий из TCC обновлены",
   "commands.tcc.trigger.spectator": "Эта команда не может быть использована в режиме наблюдателя. Попробуйте другой режим игры.",
   "commands.tcc.initiate": "%s включен.",
-  "commands.tcc.wrong_version": "Вы используете The Creeper's Code на неправильной версии Minecraft. Вы должны использовать версию Minecraft 1.20.2.",
+  "commands.tcc.wrong_version": "Вы используете The Creeper's Code на неправильной версии Minecraft. Вы должны использовать версию Minecraft 1.20.4.",
   "commands.tcc.initiate.wrong_version.title": "НЕВЕРНАЯ ВЕРСИЯ",
   "chat.tcc.gamerules.title": "Игровые правила TCC",
   "chat.tcc.gamerules.false": "[Выкл]",

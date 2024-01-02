@@ -159,7 +159,7 @@
   "commands.tcc.reload.success": " Datapacks y marcadores de TCC actualizados",
   "commands.tcc.trigger.spectator": "Éste comando no puede ser usado en modo espectador. Inténtalo de nuevo en otro modo de juego.",
   "commands.tcc.initiate": "%s está activado.",
-  "commands.tcc.wrong_version": "\nEstás usando The Creeper's Code en la versión equivocada de Minecraft. Deberías estar usando Minecraft 1.20.2.",
+  "commands.tcc.wrong_version": "\nEstás usando The Creeper's Code en la versión equivocada de Minecraft. Deberías estar usando Minecraft 1.20.4.",
   "commands.tcc.initiate.wrong_version.title": "VERSION INCORRECTA",
   "chat.tcc.gamerules.title": "Reglas del juego de TCC",
   "chat.tcc.gamerules.false": "[Desactivado]",

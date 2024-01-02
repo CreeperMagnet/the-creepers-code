@@ -15,7 +15,7 @@
   "tccc.entry.apple_pie.page_0.reference_0": "golden apple pie",
   "tccc.entry.apple_pie.page_1.description": "The above recipe is shapeless, meaning it can be put anywhere in the crafting space.\n",
   
-  "tccc.entry.archaeologist.hint": "This trader has a love for ancient artifacts.",
+  "tccc.entry.archaeologist.hint": "This new villager has a love for everything pottery.",
   "tccc.entry.archaeologist.page_0.description": "The archaeologist is a new villager that uses the %s as its workstation.\n\nIts trades are listed on the following pages.\n\n\n\n",
   "tccc.entry.archaeologist.page_0.reference_0": "pottery table",
   "tccc.entry.archaeologist.page_1.description": "Level 1: Emeralds -> sand, red sand, or gravel; Emeralds -> enchanted brush\n\nLevel 2: Clay balls -> emerald; Emeralds -> blank decorated pot\n\nLevel 3: Emerald -> concrete powder; Feathers -> emerald",
@@ -31,7 +31,7 @@
   "tccc.entry.armor_stand_with_arms.page_1.description": "Some of the poses you can give the armor stands. This is only three out of many different poses!",
   "tccc.entry.armor_stand_with_arms.page_2.description": "The above recipe is shapeless, meaning it can be made from any variation of an armor stand and two sticks.",
 
-  "tccc.entry.axolotl_bucket_variants.hint": "This item involves a cute, colorful sea critter.",
+  "tccc.entry.axolotl_bucket_variants.hint": "This item adds a new flair to your favorite bucketable lush cave critters.",
   "tccc.entry.axolotl_bucket_variants.title": "Axolotl Bucket Variants",
   "tccc.entry.axolotl_bucket_variants.page_0.description": "Axolotl buckets now have proper variants, so you can see what type of axolotl you have in your bucket. This also works with baby axolotls, which are insanely cute.\n\n\n\n",
   "tccc.entry.axolotl_bucket_variants.page_1.description": "LOOK AT THEM. CUTENESS OVERLOAD. TOO CUTE. CANNOT... WRITE... DESCRIPTION...\n",
@@ -51,7 +51,7 @@
   "tccc.entry.biome_based_fishing.page_0.description": "The rarities of fish now depend on the biome you're in. Salmon are four times as common in rivers, tropical fish and pufferfish are twice as common in warm oceans, and %s are twice as common in frozen oceans.\n",
   "tccc.entry.biome_based_fishing.page_0.reference_0": "swordfish",
 
-  "tccc.entry.blind_rage_potion.hint": "This potion is brewed from the eye of a creature found deep underground.",
+  "tccc.entry.blind_rage_potion.hint": "This potion is brewed from the eye of an undead creature found deep underground.",
   "tccc.entry.blind_rage_potion.page_0.description": "The blind rage potion is made by brewing a %s into an awkward potion. It gives Strength III and Blindness for 15s, which can be extended to 30s with redstone. It cannot be amplified with glowstone, it but can be %s with %s.",
   "tccc.entry.blind_rage_potion.page_0.reference_0": "sightless eye",
   "tccc.entry.blind_rage_potion.page_0.reference_1": "diluted",
@@ -93,12 +93,12 @@
   "tccc.entry.consistent_trapdoor_recipe_yield.page_0.description": "Trapdoor recipes now give 6, rather than 2, since door recipes give 3 and trapdoors are half doors.",
   "tccc.entry.consistent_trapdoor_recipe_yield.page_1.description": "The only exception is iron trapdoors, which give 4 due to taking less material than the other trapdoors.",
 
-  "tccc.entry.coral_recipes.hint": "These colorful blocks are found in warm oceans.",
+  "tccc.entry.coral_recipes.hint": "These colorful natural blocks are found in warm oceans.",
   "tccc.entry.coral_recipes.title": "Coral Recipes",
   "tccc.entry.coral_recipes.page_0.description": "Coral fans and normal coral can be crafted into coral blocks. This also applies to dead coral. An example recipe is given on the next page, and all the others are in the default recipe book.\n\nThis makes coral completely renewable!",
   "tccc.entry.coral_recipes.page_1.description": "This recipe can be used in the small crafting menu as well, as it is only 2x2.\n",
 
-  "tccc.entry.cracked_deepslate_tile_recipes.hint": "This stone block is found in the depths of the underground.",
+  "tccc.entry.cracked_deepslate_tile_recipes.hint": "This dark stone block is found in the depths of the underground.",
   "tccc.entry.cracked_deepslate_tile_recipes.title": "Cracked Deepslate Tile Recipes",
   "tccc.entry.cracked_deepslate_tile_recipes.page_0.description": "Cracked deepslate tiles can now be made from cracked bricks. This also works in the stonecutter.",
 
@@ -150,7 +150,7 @@
   "tccc.entry.enchanted_golden_carrot.page_0.description": "Enchanted golden carrots give you night vision for five minutes. They give the same amount of hunger as a normal golden carrot.\n\n\n\n\n",
   "tccc.entry.enchanted_golden_carrot.page_1.description": "Same recipe as normal golden carrots, but with gold ingots instead of gold nuggets.",
 
-  "tccc.entry.enchanter.hint": "This magical foe magically assists its illager friends.",
+  "tccc.entry.enchanter.hint": "This new foe assists its illager friends with magic buffs.",
   "tccc.entry.enchanter.page_0.description": "Enchanters are a \"support\" illager that help hostile mobs with magic buffs. They are the main inhabitants of the %s. They also spawn in raids and will drop %s when spawned in raids.\n",
   "tccc.entry.enchanter.page_0.reference_0": "woodland mansion basement",
   "tccc.entry.enchanter.page_0.reference_1": "lockets of learning",
@@ -239,7 +239,7 @@
   "tccc.entry.iceologer.page_0.reference_1": "tundra keep",
   "tccc.entry.iceologer.page_1.description": "Just look at that icy stare! Brrr...\n\n\n",
 
-  "tccc.entry.improved_prismarine_recipes.hint": "A block that makes up the forgotten temples of the sea.",
+  "tccc.entry.improved_prismarine_recipes.hint": "This shimmering rock makes up ocean monuments.",
   "tccc.entry.improved_prismarine_recipes.title": "Improved Prismarine Recipes",
   "tccc.entry.improved_prismarine_recipes.page_0.description": "The recipes for prismarine bricks, dark prismarine, and sea lanterns have been tweaked to be more consistent with other blocks.\n\nAdditionally, prismarine can now be %s into prismarine bricks.\n",
   "tccc.entry.improved_prismarine_recipes.page_0.reference_0": "stonecut",
@@ -255,13 +255,13 @@
   "tccc.entry.increased_shulker_drops.title": "Increased Shulker Drops",
   "tccc.entry.increased_shulker_drops.page_0.description": "Shulkers now drop 1-2 shulker shells, rather than 0-1. With looting III, they will always drop two shells.\n\n\n\n\n\n",
   
-  "tccc.entry.jungle_temple_rework.hint": "This ancient structure found in a dense forest has received an upgrade.",
+  "tccc.entry.jungle_temple_rework.hint": "This ancient jungle structure has received an upgrade.",
   "tccc.entry.jungle_temple_rework.title": "Jungle Temple Rework",
   "tccc.entry.jungle_temple_rework.page_0.description": "Jungle temples have been reworked with more rooms and a whole underground area. At the end, the %s awaits, giving you mining fatigue until it is collected. To get to the lower sections of the temple, you must solve a lever puzzle.",
   "tccc.entry.jungle_temple_rework.page_0.reference_0": "cursed crown",
   "tccc.entry.jungle_temple_rework.page_1.description": "The outside of the temple. Maybe those pillars could represent something...\n",
 
-  "tccc.entry.locket_of_learning.hint": "This magical locket is found in the home of the illagers.",
+  "tccc.entry.locket_of_learning.hint": "This magical locket is found in the woodland home of the illagers.",
   "tccc.entry.locket_of_learning.page_0.description": "The locket is a helpful enchanting tool. On right-click, it stores experience points, and when shift-right-\nclicked, it gives you points back. It is dropped by %s, and can be found in %s.\n",
   "tccc.entry.locket_of_learning.page_0.reference_0": "enchanters",
   "tccc.entry.locket_of_learning.page_0.reference_1": "woodland mansion basements",
@@ -302,7 +302,7 @@
   "tccc.entry.more_suspicious_stews.title": "More Suspicious Stews",
   "tccc.entry.more_suspicious_stews.page_0.description": "You can now make suspicious stew from chorus flowers to give yourself 10 seconds of levitation, with flowering azaleas to give yourself 20 seconds of water breathing, or with pink petals to give yourself regeneration for 10 seconds.",
 
-  "tccc.entry.nausea_potion.hint": "This stomach-turning drink is made using a strange blue fungi.",
+  "tccc.entry.nausea_potion.hint": "This stomach-turning drink is made using the blue cousin of nether wart.",
   "tccc.entry.nausea_potion.page_0.description": "The nausea potion is made by brewing %s into an awkward potion. It gives 30s of Nausea, which can be extended to 60s with redstone. It cannot be amplified with glowstone, but it can be %s with %s.\n",
   "tccc.entry.nausea_potion.page_0.reference_0": "warped wart",
   "tccc.entry.nausea_potion.page_0.reference_1": "diluted",
@@ -316,7 +316,7 @@
   "tccc.entry.nether_brick_pottery.page_1.description": "This is the recipe for the blank pot. To decorate it with sherds, use a %s!",
   "tccc.entry.nether_brick_pottery.page_1.reference_0": "pottery table",
 
-  "tccc.entry.nether_reactor.hint": "This expensive contraption gives you an easier time in the Nether.",
+  "tccc.entry.nether_reactor.hint": "This expensive netherite contraption gives you an easier time in the Nether.",
   "tccc.entry.nether_reactor.title": "Nether Reactor",
   "tccc.entry.nether_reactor.page_0.description": "The nether reactor gives friendly mobs (players, tamed mobs, villagers, etc.) fire resistance, gives striders Speed III, and clears Wither I in a 64 block radius. It is activated using a complex structure shown on the next page.",
   "tccc.entry.nether_reactor.page_1.description": "In order to form a full reactor, you make the above multiblock structure, building from layer 1 upwards.",
@@ -339,7 +339,7 @@
   "tccc.entry.paintbrush.page_0.description": "The paintbrush is a tool used to paint blocks with dye. It can be used on concrete, shulker boxes, etc. It can also cycle paintings' art and paint shulkers. It prioritizes dyes in your offhand, and also can be used from the offhand.",
   "tccc.entry.paintbrush.page_1.description": "Nice and cheap for a handy tool!\n\n\n",
 
-  "tccc.entry.phantom_item_frame.hint": "This decorative mount is made from the drop of an insomnia menace.",
+  "tccc.entry.phantom_item_frame.hint": "This decorative item is made from the drop of an insomnia menace.",
   "tccc.entry.phantom_item_frame.page_0.description": "The phantom item frame is an amazing tool for decoration, and another use for phantom membranes. When you place an item in it, the frame surrounding it will turn invisible, leaving only the item.\n\n",
   "tccc.entry.phantom_item_frame.page_1.description": "The different stages of placing an item in the phantom item frame, from left to right.\n",
   "tccc.entry.phantom_item_frame.page_2.description": "Just like the normal item frame recipe, but with phantom membrane instead of leather.\n",
@@ -395,7 +395,7 @@
   "tccc.entry.rotten_porkchop.hint": "A more edible drop from rotten Nether creatures.",
   "tccc.entry.rotten_porkchop.page_0.description": "This food item drops from zombified piglins and zoglins, and replaces their rotten flesh drop. Make sure you cook it before eating, otherwise it gives nausea for 30 seconds. It also angers zombie piglins... they don't like it when you eat their friends.",
 
-  "tccc.entry.sculk_recipe.hint": "A new option for gathering a spooky block found in the depths.",
+  "tccc.entry.sculk_recipe.hint": "A new option for gathering a spooky blue block found in the depths.",
   "tccc.entry.sculk_recipe.title": "Sculk Recipe",
   "tccc.entry.sculk_recipe.page_0.description": "Sculk can now be crafted from four sculk vein in a square shape. This recipe was added when I realized how much sculk was needed for %s and how useless sculk veins were.\n\n",
   "tccc.entry.sculk_recipe.page_0.reference_0": "soul conductors",
@@ -471,7 +471,7 @@
   "tccc.entry.swordfish.page_0.description": "The swordfish is a food... or is it a weapon? Who knows! It can be fished up about 1%% of the time, or 2%% when you're in a frozen ocean biome due to %s. Drowned also spawn with them 5%% of the time.\n",
   "tccc.entry.swordfish.page_0.reference_0": "biome-based fishing",
 
-  "tccc.entry.tangling_pearl.hint": "This useful utility is created using a tangling blue vine.",
+  "tccc.entry.tangling_pearl.hint": "This useful tool is created using a tangling blue vine.",
   "tccc.entry.tangling_pearl.page_0.description": "The tangling pearl is a simple item made from twisting vines and an ender pearl. When right-clicked, it turns on and will teleport nearby items and xp to you when in your inventory. It does not teleport items you drop. Right-click again to turn it off.",
   "tccc.entry.tangling_pearl.page_1.description": "The above recipe is shapeless and can be placed anywhere in the crafting menu.\n",
 
@@ -536,13 +536,13 @@
   "tccc.entry.wandering_witch.page_0.description": "The wandering witch is a new type of trader that spawns at night and sells rare items like the %s or an ancient city map for spider eyes.\n\nWandering traders struck by lightning will turn into wandering witches.",
   "tccc.entry.wandering_witch.page_0.reference_0": "witch hat",
   
-  "tccc.entry.warped_wart.hint": "This magical blue plant's cousin can be used in brewing.",
+  "tccc.entry.warped_wart.hint": "This plant has a close relative that grows within the halls of the Nether fortress.",
   "tccc.entry.warped_wart.page_0.description": "A key ingredient in making %s and %s. There's also a warped wart block recipe added, requiring 2 nether wart and 2 warped roots, which doesn't quite deserve its own entry.\n\n",
   "tccc.entry.warped_wart.page_0.reference_0": "tea",
   "tccc.entry.warped_wart.page_0.reference_1": "nausea potions",
   "tccc.entry.warped_wart.page_1.description": "This recipe is shapeless and can be placed anywhere in the crafting menu.\n",
   
-  "tccc.entry.waxed_note_blocks.hint": "Note blocks can now be locked using a certain bee byproduct.",
+  "tccc.entry.waxed_note_blocks.hint": "These redstone blocks can be used to play tunes.",
   "tccc.entry.waxed_note_blocks.title": "Waxed Note Blocks",
   "tccc.entry.waxed_note_blocks.page_0.description": "You can now right-click on note blocks with honeycomb to wax them and prevent further changes to the already set note. Helpful if you want to prevent accidental mis-clicks causing your songs to get out of tune.",
   

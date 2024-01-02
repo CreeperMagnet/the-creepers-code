@@ -8,6 +8,7 @@ execute if data storage tcc:storage root.temp.barrel_data[1][{Slot:13b,tag:{tcc:
 execute if data storage tcc:storage root.temp.barrel_data[1][{Slot:21b,tag:{tcc:{id:"pottery_sherd"}}}] run return 0
 
 item replace block ~ ~ ~ container.15 from block ~ ~ ~ container.12
+data modify block ~ ~ ~ Items[{Slot:15b}].Count set value 1b
 data modify storage tcc:storage root.temp.item set from block ~ ~ ~ Items[{Slot:15b}]
 execute unless data storage tcc:storage root.temp.item.tag.BlockEntityTag.sherds run data modify storage tcc:storage root.temp.item.tag.BlockEntityTag.sherds set value ["minecraft:brick","minecraft:brick","minecraft:brick","minecraft:brick"]
 execute if data storage tcc:storage root.temp.barrel_data[1][{Slot:3b}] run data modify storage tcc:storage root.temp.item.tag.BlockEntityTag.sherds[2] set from storage tcc:storage root.temp.barrel_data[1][{Slot:3b}].id

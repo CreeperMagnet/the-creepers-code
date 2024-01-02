@@ -42,10 +42,11 @@
                   "with": [
                     {
                       "nbt": "root.temp.id",
-                      "storage": "tcc:storage",
-                      "interpret": true
+                      "storage": "tcc:storage"
                     },
-                    ""
+                    {
+                      "text": ""
+                    }
                   ],
                   "color": "gray",
                   "italic": false

@@ -21,5 +21,6 @@ execute unless data entity @s warden_spawn_tracker{ticks_since_last_warning:0} r
 ## Extend turtle helmet water breathing
 execute anchored eyes positioned ^ ^ ^ if predicate tcc:entity/wearing/turtle_helmet_on_land run effect give @s water_breathing 31 0 true
 
-## Sneaking score
+## Reset scores
 scoreboard players reset @s tcc.sneaking
+scoreboard players reset @s tcc.used_warped_fungus_on_a_stick

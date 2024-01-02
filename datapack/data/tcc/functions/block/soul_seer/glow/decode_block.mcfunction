@@ -31,7 +31,7 @@ execute if block ~ ~-1 ~ carved_pumpkin run data modify storage tcc:storage root
 execute if block ~ ~-1 ~ purpur_block run data modify storage tcc:storage root.temp.macro_input.selector set value ",type=minecraft:shulker"
 execute if block ~ ~-1 ~ sandstone run data modify storage tcc:storage root.temp.macro_input.selector set value ",type=#tcc:soul_seer/sandstone"
 execute if block ~ ~-1 ~ #tcc:mushroom_blocks run data modify storage tcc:storage root.temp.macro_input.selector set value ",type=minecraft:mooshroom"
-execute if block ~ ~-1 ~ soul_sand run data modify storage tcc:storage root.temp.macro_input.selector set value ",type=#tcc:undead"
+execute if block ~ ~-1 ~ soul_sand run data modify storage tcc:storage root.temp.macro_input.selector set value ",type=#minecraft:undead"
 execute if block ~ ~-1 ~ soul_soil run data modify storage tcc:storage root.temp.macro_input.selector set value ",type=minecraft:ghast"
 execute if block ~ ~-1 ~ hay_block run data modify storage tcc:storage root.temp.macro_input.selector set value ",type=#tcc:soul_seer/hay_block"
 execute if block ~ ~-1 ~ snow_block run data modify storage tcc:storage root.temp.macro_input.selector set value ",type=#tcc:soul_seer/snow_block"
@@ -40,7 +40,7 @@ execute if block ~ ~-1 ~ #tcc:suspicious_blocks run data modify storage tcc:stor
 execute if block ~ ~-1 ~ jungle_log run data modify storage tcc:storage root.temp.macro_input.selector set value ",type=#tcc:soul_seer/jungle_log"
 execute if block ~ ~-1 ~ stone run data modify storage tcc:storage root.temp.macro_input.selector set value ",type=minecraft:bat"
 execute if block ~ ~-1 ~ stone_bricks run data modify storage tcc:storage root.temp.macro_input.selector set value ",type=minecraft:silverfish"
-execute if block ~ ~-1 ~ mossy_cobblestone run data modify storage tcc:storage root.temp.macro_input.selector set value ",type=#tcc:soul_seer/mossy_cobblestone"
+execute if block ~ ~-1 ~ mossy_cobblestone run data modify storage tcc:storage root.temp.macro_input.selector set value ",type=#minecraft:zombies"
 execute if block ~ ~-1 ~ glowstone run data modify storage tcc:storage root.temp.macro_input.selector set value ",type=minecraft:player"
 execute if block ~ ~-1 ~ nether_bricks run data modify storage tcc:storage root.temp.macro_input.selector set value ",type=#tcc:soul_seer/nether_bricks"
 

@@ -12,7 +12,7 @@ execute if entity @s[tag=tcc.gobblerift] positioned ~ ~1 ~ run function tcc:bloc
 execute if entity @s[tag=tcc.nether_reactor_core] unless block ~ ~ ~ obsidian run function tcc:block/nether_reactor/break
 
 ## Decorated Pot
-execute if entity @s[tag=tcc.decorated_pot] positioned ~ ~1 ~ unless block ~ ~ ~ decorated_pot run function tcc:block/decorated_pot/break/main
+execute if entity @s[tag=tcc.decorated_pot] positioned ~ ~1 ~ run function tcc:block/decorated_pot/tick
 
 ## Soul Conductor
 execute if entity @s[tag=tcc.soul_conductor] unless block ~ ~ ~ dropper run function tcc:block/soul_conductor/break/main

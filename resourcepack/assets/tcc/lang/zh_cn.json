@@ -159,7 +159,7 @@
   "commands.tcc.reload.success": " 更新了数据包和 TCC 记分板",
   "commands.tcc.trigger.spectator": "此命令不能在旁观者模式下使用. 在另一个游戏模式中再次尝试.",
   "commands.tcc.initiate": "%s 已启用",
-  "commands.tcc.wrong_version": "\n你正在使用The Creeper's Code在错误的Minecraft版本. 你应该使用Minecraft 1.20.2",
+  "commands.tcc.wrong_version": "\n你正在使用The Creeper's Code在错误的Minecraft版本. 你应该使用Minecraft 1.20.4",
   "commands.tcc.initiate.wrong_version.title": "错误版本",
   "chat.tcc.gamerules.title": "TCC 规则",
   "chat.tcc.gamerules.false": "[关闭]",

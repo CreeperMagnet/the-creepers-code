@@ -2,6 +2,10 @@
 # Special interactions with blocks
 ############################################################
 
+execute store result score #temp_1 tcc.dummy run gamerule projectilesCanBreakBlocks
+execute if score #temp_1 tcc.dummy matches 0 if block ~ ~ ~ #tcc:boomerang/interact_solid run function tcc:item/boomerang/block_interaction/forced_bounce
+execute if score #temp_1 tcc.dummy matches 0 run return 0
+
 execute if block ~ ~ ~ minecraft:wheat[age=7] run function tcc:item/boomerang/block_interaction/seeds/wheat
 execute if block ~ ~ ~ minecraft:potatoes[age=7] run function tcc:item/boomerang/block_interaction/seeds/potatoes
 execute if block ~ ~ ~ minecraft:carrots[age=7] run function tcc:item/boomerang/block_interaction/seeds/carrots

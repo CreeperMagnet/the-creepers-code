@@ -159,7 +159,7 @@
   "commands.tcc.reload.success": " Updated packs o' code and TCC tallys",
   "commands.tcc.trigger.spectator": "This 'ere command can't be used in ghostin' mode. Try again in another mode.",
   "commands.tcc.initiate": "%s be enabled.",
-  "commands.tcc.wrong_version": "\nYe can't hop on board The Creeper's Code wit' this version! It only be workin' in Minecraft 1.20.2.",
+  "commands.tcc.wrong_version": "\nYe can't hop on board The Creeper's Code wit' this version! It only be workin' in Minecraft 1.20.4.",
   "commands.tcc.initiate.wrong_version.title": "MATEY, THIS BE THE WRONG VERSION",
   "chat.tcc.gamerules.title": "TCC Rules o' the Sea",
   "chat.tcc.gamerules.false": "[Nay]",

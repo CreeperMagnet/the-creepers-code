@@ -6,7 +6,7 @@
 scoreboard players add @s tcc.dummy 1
 
 # Interactions with blocks
-execute if block ~ ~ ~ #tcc:boomerang/interact run function tcc:item/boomerang/block_interaction/main
+execute positioned ^ ^ ^0.05 if block ~ ~ ~ #tcc:boomerang/interact run function tcc:item/boomerang/block_interaction/main
 execute rotated 0 0 if block ~ ~-0.2 ~ #tcc:boomerang/interact_surface positioned ~ ~-0.3 ~ run function tcc:item/boomerang/block_interaction/surface
 
 # If boomerang is on the way away from the player and hits a block/shulker, it bounces

@@ -3,6 +3,7 @@
 ############################################################
 
 item replace block ~ ~ ~ container.15 from block ~ ~ ~ container.12
+data modify block ~ ~ ~ Items[{Slot:15b}].Count set value 1b
 data modify storage tcc:storage root.temp.item set from block ~ ~ ~ Items[{Slot:15b}]
 data modify storage tcc:storage root.temp.item.tag.tcc.raw_pot set value 0b
 execute if data storage tcc:storage root.temp.barrel_data[1][{Slot:3b}] run data modify storage tcc:storage root.temp.item.tag.tcc.sherds[2] set from storage tcc:storage root.temp.barrel_data[1][{Slot:3b}]

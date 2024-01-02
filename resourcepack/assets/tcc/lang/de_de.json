@@ -159,7 +159,7 @@
   "commands.tcc.reload.success": " Datapacks und TCC Scoreboards aktualisiert",
   "commands.tcc.trigger.spectator": "Dieser Befehl kann nicht im Zuschauermodus verwendet werden. Versuche es in einem anderen Spielmodus erneut.",
   "commands.tcc.initiate": "%s ist aktiviert.",
-  "commands.tcc.wrong_version": "\nDu verwendest The Creeper's Code in der falschen Minecraft-Version. Du solltest Minecraft 1.20.2 für diese Version verwenden.",
+  "commands.tcc.wrong_version": "\nDu verwendest The Creeper's Code in der falschen Minecraft-Version. Du solltest Minecraft 1.20.4 für diese Version verwenden.",
   "commands.tcc.initiate.wrong_version.title": "FALSCHE VERSION",
   "chat.tcc.gamerules.title": "TCC Grundeinstellungen",
   "chat.tcc.gamerules.false": "[Aus]",

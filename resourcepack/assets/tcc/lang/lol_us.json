@@ -159,7 +159,7 @@
   "commands.tcc.reload.success": " updatd data packz an TCC scoreboards",
   "commands.tcc.trigger.spectator": "dis comnd cannot b usd in spector moed. Try agin in anothr gamemoed.",
   "commands.tcc.initiate": "%s is on.",
-  "commands.tcc.wrong_version": "\nu r usin teh Creepers cod on teh incorrect Minecraft vershun. U shud be usin MINECRAFT 1.20.2.",
+  "commands.tcc.wrong_version": "\nu r usin teh Creepers cod on teh incorrect Minecraft vershun. U shud be usin MINECRAFT 1.20.4.",
   "commands.tcc.initiate.wrong_version.title": "RONG VERSHUN",
   "chat.tcc.gamerules.title": "TCC Gemrulz",
   "chat.tcc.gamerules.false": "[no.]",

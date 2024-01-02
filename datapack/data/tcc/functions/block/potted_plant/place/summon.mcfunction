@@ -1,5 +1,6 @@
 data remove storage tcc:storage root.temp
 data modify storage tcc:storage root.temp.item set from entity @s SelectedItem
+data modify storage tcc:storage root.temp.item.Count set value 1b
 item modify entity @s[gamemode=!creative] weapon.mainhand tcc:reduce_count/1
 
 execute if data storage tcc:storage root.temp.item.tag.tcc{id:"frostbloom"} run function tcc:block/potted_plant/place/variant/frostbloom

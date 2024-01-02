@@ -38,6 +38,6 @@
     ]
   ],
   "rewards": {
-    "function": "tcc:block/potted_plant/place/main"
+    "function": "tcc:block/potted_plant/place/advancement"
   }
 }

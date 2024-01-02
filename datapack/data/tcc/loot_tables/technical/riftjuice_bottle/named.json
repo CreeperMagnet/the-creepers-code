@@ -42,8 +42,7 @@
                   "with": [
                     {
                       "nbt": "root.temp.id",
-                      "storage": "tcc:storage",
-                      "interpret": true
+                      "storage": "tcc:storage"
                     },
                     {
                       "translate": "item.tcc.riftjuice_bottle.lore.name",

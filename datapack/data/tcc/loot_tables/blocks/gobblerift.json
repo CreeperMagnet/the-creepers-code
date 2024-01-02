@@ -17,18 +17,6 @@
                   "target": "display.Name",
                   "op": "replace"
                 }
-              ],
-              "conditions": [
-                {
-                  "condition": "minecraft:inverted",
-                  "term": {
-                    "condition": "minecraft:entity_properties",
-                    "entity": "this",
-                    "predicate": {
-                      "nbt": "{CustomName:'{\"translate\":\"block.tcc.gobblerift\"}'}"
-                    }
-                  }
-                }
               ]
             },
             {
@@ -53,7 +41,9 @@
                       "nbt": "item.tag.id",
                       "entity": "@s"
                     },
-                    ""
+                    {
+                      "text": ""
+                    }
                   ],
                   "color": "gray",
                   "italic": false

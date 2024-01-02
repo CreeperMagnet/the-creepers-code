@@ -159,7 +159,7 @@
   "commands.tcc.reload.success": " 데이터 팩과 TCC 스코어보드를 업데이트 하였습니다",
   "commands.tcc.trigger.spectator": "관전자 모드에서는 가이드북을 받을 수 없습니다. 다른 게임 모드에서 시도해보세요.",
   "commands.tcc.initiate": "%s 이(가) 활성화 되었습니다.",
-  "commands.tcc.wrong_version": "잘못된 마인크래프트 버전에서 The Creeper's Code를 실행중입니다. 마인크래프트 버전 1.20.2에서 실행해야 합니다",
+  "commands.tcc.wrong_version": "잘못된 마인크래프트 버전에서 The Creeper's Code를 실행중입니다. 마인크래프트 버전 1.20.4에서 실행해야 합니다",
   "commands.tcc.initiate.wrong_version.title": "잘못된 버전",
   "chat.tcc.gamerules.title": "TCC 게임규칙",
   "chat.tcc.gamerules.false": "[꺼짐]",

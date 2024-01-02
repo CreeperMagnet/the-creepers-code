@@ -18,7 +18,7 @@
     }
   },
   "rewards": {
-    "function": "tcc:block/potted_plant/interact/main"
+    "function": "tcc:block/potted_plant/interact/advancement"
   },
   "requirements": [
     [

@@ -2,9 +2,6 @@
 # All commands to run involving warped fungi on sticks
 ############################################################
 
-# Reset
-scoreboard players reset @s tcc.used_warped_fungus_on_a_stick
-
 # Boomerangs
 execute if entity @s[nbt=!{SelectedItem:{tag:{tcc:{durability:[1,300]}}}},nbt={SelectedItem:{tag:{tcc:{id:"boomerang"}}}}] unless entity @s[scores={tcc.boomerang_cooldown=1..}] anchored eyes positioned ^ ^ ^ run function tcc:item/boomerang/throw
 

@@ -135,7 +135,7 @@
           "condition": "minecraft:entity_properties",
           "entity": "this",
           "predicate": {
-            "nbt": "{CustomName:\"{\\\"text\\\":\\\"CreeperMagnet_\\\"}\"}"
+            "nbt": "{CustomName:'\"CreeperMagnet_\"'}"
           }
         }
       ]

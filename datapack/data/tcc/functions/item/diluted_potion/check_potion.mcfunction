@@ -12,12 +12,12 @@ execute if entity @s[gamemode=!creative,nbt={HurtTime:0s}] if data storage tcc:s
 
 execute if entity @s[gamemode=!creative] if data storage tcc:storage root.temp.item.tag.tcc.potion{id:"minecraft:healing"} run function tcc:item/diluted_potion/apply_effect/healing
 
-execute store success score @s[scores={tcc.dummy=0},nbt=!{active_effects:[{id:"minecraft:slowness",amplifier:3b},{id:"minecraft:resistance",amplifier:2b}]}] tcc.dummy if data storage tcc:storage root.temp.item.tag.tcc.potion{id:"minecraft:turtle_master"} run function tcc:item/diluted_potion/apply_effect/turtle_master
-execute store success score @s[scores={tcc.dummy=0},nbt=!{active_effects:[{id:"minecraft:slowness",amplifier:3b},{id:"minecraft:resistance",amplifier:2b}]}] tcc.dummy if data storage tcc:storage root.temp.item.tag.tcc.potion{id:"minecraft:long_turtle_master"} run function tcc:item/diluted_potion/apply_effect/long_turtle_master
-execute store success score @s[scores={tcc.dummy=0},nbt=!{active_effects:[{id:"minecraft:slowness",amplifier:5b},{id:"minecraft:resistance",amplifier:3b}]}] tcc.dummy if data storage tcc:storage root.temp.item.tag.tcc.potion{id:"minecraft:strong_turtle_master"} run function tcc:item/diluted_potion/apply_effect/strong_turtle_master
+execute if entity @s[nbt=!{active_effects:[{id:"minecraft:slowness",amplifier:3b},{id:"minecraft:resistance",amplifier:2b}]}] if data storage tcc:storage root.temp.item.tag.tcc.potion{id:"minecraft:turtle_master"} run return run function tcc:item/diluted_potion/apply_effect/turtle_master
+execute if entity @s[nbt=!{active_effects:[{id:"minecraft:slowness",amplifier:3b},{id:"minecraft:resistance",amplifier:2b}]}] if data storage tcc:storage root.temp.item.tag.tcc.potion{id:"minecraft:long_turtle_master"} run return run function tcc:item/diluted_potion/apply_effect/long_turtle_master
+execute if entity @s[nbt=!{active_effects:[{id:"minecraft:slowness",amplifier:5b},{id:"minecraft:resistance",amplifier:3b}]}] if data storage tcc:storage root.temp.item.tag.tcc.potion{id:"minecraft:strong_turtle_master"} run return run function tcc:item/diluted_potion/apply_effect/strong_turtle_master
 
-execute store success score @s[scores={tcc.dummy=0},nbt=!{active_effects:[{id:"minecraft:strength",amplifier:2b},{id:"minecraft:blindness"}]}] tcc.dummy if data storage tcc:storage root.temp.item.tag.tcc.potion{id:"tcc:blind_rage"} run function tcc:item/diluted_potion/apply_effect/blind_rage
-execute store success score @s[scores={tcc.dummy=0},nbt=!{active_effects:[{id:"minecraft:strength",amplifier:2b},{id:"minecraft:blindness"}]}] tcc.dummy if data storage tcc:storage root.temp.item.tag.tcc.potion{id:"tcc:long_blind_rage"} run function tcc:item/diluted_potion/apply_effect/long_blind_rage
+execute if entity @s[nbt=!{active_effects:[{id:"minecraft:strength",amplifier:2b},{id:"minecraft:blindness"}]}] if data storage tcc:storage root.temp.item.tag.tcc.potion{id:"tcc:blind_rage"} run return run function tcc:item/diluted_potion/apply_effect/blind_rage
+execute if entity @s[nbt=!{active_effects:[{id:"minecraft:strength",amplifier:2b},{id:"minecraft:blindness"}]}] if data storage tcc:storage root.temp.item.tag.tcc.potion{id:"tcc:long_blind_rage"} run return run function tcc:item/diluted_potion/apply_effect/long_blind_rage
 
 
 

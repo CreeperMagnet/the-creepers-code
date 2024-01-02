@@ -2,7 +2,7 @@
 # Initiates the gobblerift's tags
 ############################################################
 
-execute unless data storage tcc:storage root.temp{name:'{"italic":false,"color":"yellow","translate":"block.tcc.gobblerift"}'} run data modify entity @s CustomName set from storage tcc:storage root.temp.name
+execute unless data storage tcc:storage root.temp{name:'{"translate":"block.tcc.gobblerift","italic":false,"color":"yellow"}'} run data modify entity @s CustomName set from storage tcc:storage root.temp.name
 data modify entity @s item.tag.dimension set from storage tcc:storage root.temp.dimension
 
 execute if data storage tcc:storage root.gobblerift_data if data storage tcc:storage root.temp.id run function tcc:block/gobblerift/array_management/check_existing with storage tcc:storage root.temp
