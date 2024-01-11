@@ -1,6 +1,4 @@
-############################################################
 # Starts scanning an area for brewing stands
-############################################################
 
 advancement revoke @s only tcc:technical/placed_block/brewing_stand
 

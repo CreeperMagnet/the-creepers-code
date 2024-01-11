@@ -1,6 +1,4 @@
-############################################################
 # Loops through the injections to use
-############################################################
 
 # Start the injection process
 function tcc:item/compendium/unlock/inject/set_points with storage tcc:storage root.temp.page_injections[-1]

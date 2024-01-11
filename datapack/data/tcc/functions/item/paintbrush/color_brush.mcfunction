@@ -1,6 +1,4 @@
-############################################################
 # Colors a paintbrush
-############################################################
 
 $clear @s[gamemode=!creative] minecraft:$(color)_dye 1
 data remove storage tcc:storage root.temp.item

@@ -1,6 +1,4 @@
-############################################################
 # Runs commands off a potion in slot 1
-############################################################
 
 data remove storage tcc:storage root.temp
 data modify storage tcc:storage root.temp.item set from block ~ ~ ~ Items[{Slot:1b}]

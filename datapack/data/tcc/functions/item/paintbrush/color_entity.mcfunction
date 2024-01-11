@@ -1,6 +1,4 @@
-############################################################
 # Colors a shulker a specific color
-############################################################
 
 execute store result score @s tcc.dummy unless entity @s[nbt={Color:15b}] if data storage tcc:storage root.temp.item{id:"minecraft:black_dye"} run data modify entity @s Color set value 15b
 execute store result score @s tcc.dummy unless entity @s[nbt={Color:11b}] if data storage tcc:storage root.temp.item{id:"minecraft:blue_dye"} run data modify entity @s Color set value 11b

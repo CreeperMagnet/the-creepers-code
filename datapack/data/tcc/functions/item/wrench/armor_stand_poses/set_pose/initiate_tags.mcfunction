@@ -1,6 +1,4 @@
-############################################################
 # Removes mutually exclusive pose tags and adds posed tag
-############################################################
 
 tag @s add tcc.posed_armor_stand
 tag @s remove tcc.posed_armor_stand.assert_dominance

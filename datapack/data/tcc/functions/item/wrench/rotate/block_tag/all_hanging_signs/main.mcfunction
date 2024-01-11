@@ -1,6 +1,4 @@
-############################################################
 # Checks a block tag
-############################################################
 
 # The base cases
 execute if block ~ ~ ~ #minecraft:wall_hanging_signs run function tcc:item/wrench/rotate/block_tag/all_hanging_signs/wall_hanging_signs

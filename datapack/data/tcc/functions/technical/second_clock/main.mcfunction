@@ -1,6 +1,4 @@
-############################################################
 # Commands to run every second
-############################################################
 
 ## Gamerule check
 execute store result score #difficulty tcc.dummy run difficulty

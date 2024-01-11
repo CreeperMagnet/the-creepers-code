@@ -1,6 +1,4 @@
-############################################################
 # Checks a block tag
-############################################################
 
 execute if block ~ ~ ~ minecraft:shulker_box run function tcc:item/wrench/rotate/macro/facing_all {block:"minecraft:shulker_box"}
 execute if block ~ ~ ~ minecraft:black_shulker_box run function tcc:item/wrench/rotate/macro/facing_all {block:"minecraft:black_shulker_box"}

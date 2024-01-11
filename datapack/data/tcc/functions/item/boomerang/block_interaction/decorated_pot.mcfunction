@@ -1,11 +1,9 @@
-############################################################
 # Commands to break a decorated pot into shards
-############################################################
 
 data remove storage tcc:storage root.temp
 data modify storage tcc:storage root.temp.block set from block ~ ~ ~ {}
-execute if block ~ ~ ~ decorated_pot[waterlogged=true] run setblock ~ ~ ~ decorated_pot[waterlogged=true,cracked=true]
-execute if block ~ ~ ~ decorated_pot[waterlogged=false] run setblock ~ ~ ~ decorated_pot[waterlogged=false,cracked=true]
+execute if block ~ ~ ~ minecraft:decorated_pot[waterlogged=true] run setblock ~ ~ ~ minecraft:decorated_pot[waterlogged=true,cracked=true]
+execute if block ~ ~ ~ minecraft:decorated_pot[waterlogged=false] run setblock ~ ~ ~ minecraft:decorated_pot[waterlogged=false,cracked=true]
 data modify block ~ ~ ~ {} merge from storage tcc:storage root.temp.block
 loot spawn ~ ~ ~ mine ~ ~ ~ diamond_pickaxe
 
@@ -18,7 +16,7 @@ execute store result storage tcc:storage root.temp.macro_input.z double 0.01 run
 
 function tcc:technical/macros/spawn_item_motion with storage tcc:storage root.temp.macro_input
 
-execute if block ~ ~ ~ decorated_pot[waterlogged=true] run setblock ~ ~ ~ water
-execute if block ~ ~ ~ decorated_pot[waterlogged=false] run setblock ~ ~ ~ air
+execute if block ~ ~ ~ minecraft:decorated_pot[waterlogged=true] run setblock ~ ~ ~ minecraft:water
+execute if block ~ ~ ~ minecraft:decorated_pot[waterlogged=false] run setblock ~ ~ ~ minecraft:air
 particle minecraft:block minecraft:decorated_pot ~ ~ ~ 0.3 0.3 0.3 0.5 50
 playsound minecraft:block.decorated_pot.shatter block @a[distance=..16]

@@ -1,6 +1,4 @@
-############################################################
 # Ticks a living entity with a wandering trader base
-############################################################
 
 item replace entity @s weapon.mainhand with minecraft:structure_block
 data modify entity @s[tag=!tcc.trader_entity.no_head] ArmorItems[3].tag.CustomModelData set from entity @s ArmorItems[3].tag.tcc.custom_model_data.head

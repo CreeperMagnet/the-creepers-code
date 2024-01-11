@@ -1,6 +1,4 @@
-############################################################
 # Gives you the tag for a tea
-############################################################
 
 tag @s remove tcc.tea.antitoxin
 tag @s remove tcc.tea.clearsight

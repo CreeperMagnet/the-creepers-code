@@ -1,6 +1,4 @@
-############################################################
 # Spawns invalids in item form
-############################################################
 
 data remove storage tcc:storage root.temp.macro_input
 execute store result storage tcc:storage root.temp.macro_input.x_motion double 0.001 run random value -100..100

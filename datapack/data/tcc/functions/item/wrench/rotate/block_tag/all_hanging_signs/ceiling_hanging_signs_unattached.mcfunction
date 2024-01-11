@@ -1,6 +1,4 @@
-############################################################
 # Rotates an unattached hanging sign and all unattached signs beneath it
-############################################################
 
 scoreboard players set @s tcc.dummy 0
 

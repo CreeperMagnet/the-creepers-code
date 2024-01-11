@@ -1,6 +1,4 @@
-############################################################
 # Commands to edit an existing custom potion in the brewing stand
-############################################################
 
 data modify storage tcc:storage root.temp.item.id set value "minecraft:lingering_potion"
 data modify storage tcc:storage root.temp.item.tag.HideFlags set value 32

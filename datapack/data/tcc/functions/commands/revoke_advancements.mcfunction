@@ -1,6 +1,4 @@
-############################################################
 # Grants all non-technical TCC advancements
-############################################################
 
 advancement revoke @s from minecraft:story/root
 advancement revoke @s from minecraft:adventure/root

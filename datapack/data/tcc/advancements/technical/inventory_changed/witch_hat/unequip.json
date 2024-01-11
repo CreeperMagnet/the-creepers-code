@@ -16,7 +16,7 @@
     }
   },
   "rewards": {
-    "function": "tcc:item/witch_hat/unequip/main"
+    "function": "tcc:item/witch_hat/unequip"
   },
   "requirements": [
     [

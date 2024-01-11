@@ -1,6 +1,4 @@
-############################################################
 # Checks if the casing around the active reactor is valid
-############################################################
 
 tag @s remove tcc.nether_reactor_core.on
 execute positioned ~ ~-1 ~ if predicate tcc:block/nether_reactor/on run tag @s add tcc.nether_reactor_core.on

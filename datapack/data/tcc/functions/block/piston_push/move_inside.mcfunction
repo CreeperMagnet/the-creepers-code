@@ -1,6 +1,4 @@
-############################################################
 # Moves any block entities with the piston
-############################################################
 
 execute if score @s tcc.dummy matches 1.. run return 0
 

@@ -1,6 +1,4 @@
-############################################################
 # Tellraw menu for toggling TCC gamerules
-############################################################
 
 execute store result score #temp_0 tcc.dummy run data get storage tcc:storage root.gamerules.alwaysShowTeaTimer
 execute store result score #temp_1 tcc.dummy run data get storage tcc:storage root.gamerules.reducedGoldenChorusFruitSpread

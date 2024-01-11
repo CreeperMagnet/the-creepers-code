@@ -1,6 +1,4 @@
-############################################################
 # Commands to run every ten seconds
-############################################################
 
 ## As entities
 execute as @e[type=#tcc:technical/ten_second_clock,tag=tcc.ten_second_clock] at @s run function tcc:entity/ten_second_clock

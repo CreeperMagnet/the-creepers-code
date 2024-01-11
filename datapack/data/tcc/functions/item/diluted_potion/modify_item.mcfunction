@@ -1,6 +1,4 @@
-############################################################
 # Modifies the item in storage
-############################################################
 
 scoreboard players reset @s tcc.dummy
 execute store result score @s tcc.dummy run data get storage tcc:storage root.temp.item.tag.tcc.potion.uses[0]

@@ -1,6 +1,4 @@
-############################################################
 # Finishes the spell
-############################################################
 
 playsound tcc:entity.iceologer.cast_spell hostile @a[distance=..16]
 data remove storage tcc:storage root.temp

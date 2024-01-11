@@ -1,6 +1,4 @@
-############################################################
 # Sets the status of a painting
-############################################################
 
 
 execute if entity @s[nbt={variant:"minecraft:wither"}] run return run data modify entity @s variant set value "minecraft:void"

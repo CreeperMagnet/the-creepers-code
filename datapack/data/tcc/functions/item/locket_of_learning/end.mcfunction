@@ -1,6 +1,4 @@
-############################################################
 # Ends the locket process
-############################################################
 
 # store score back into locket data
 execute store result storage tcc:storage root.temp.item.tag.tcc.stored_points int 1 run scoreboard players get @s tcc.dummy

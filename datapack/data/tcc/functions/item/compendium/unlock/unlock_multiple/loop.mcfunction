@@ -1,6 +1,4 @@
-############################################################
 # Applies injections for multiple entries
-############################################################
 
 # Copy to a temporary path
 data modify storage tcc:storage root.temp.entry.name set from storage tcc:storage root.temp.entries_to_unlock[0]

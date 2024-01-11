@@ -1,6 +1,4 @@
-############################################################
 # Rotates a block with a beehive blockstate (honey_level)
-############################################################
 
 $execute if block ~ ~ ~ $(block)[honey_level=0] run function tcc:item/wrench/rotate/macro/facing_cardinal_extra_blockstate {block:"$(block)",blockstate:"honey_level=0"}
 $execute if block ~ ~ ~ $(block)[honey_level=1] run function tcc:item/wrench/rotate/macro/facing_cardinal_extra_blockstate {block:"$(block)",blockstate:"honey_level=1"}

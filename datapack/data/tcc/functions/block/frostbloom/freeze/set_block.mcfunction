@@ -1,6 +1,4 @@
-############################################################
 # Freezes a random block in a 5x5 area with an iceier version
-############################################################
 
 execute if block ~ ~ ~ minecraft:fire run setblock ~ ~ ~ minecraft:air replace
 execute if block ~ ~ ~ minecraft:lava run setblock ~ ~ ~ minecraft:magma_block replace

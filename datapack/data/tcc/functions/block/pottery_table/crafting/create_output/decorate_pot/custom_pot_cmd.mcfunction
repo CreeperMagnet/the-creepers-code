@@ -1,6 +1,4 @@
-############################################################
 # Common code for decorating a custom pot
-############################################################
 
 item replace block ~ ~ ~ container.15 from block ~ ~ ~ container.12
 data modify block ~ ~ ~ Items[{Slot:15b}].Count set value 1b

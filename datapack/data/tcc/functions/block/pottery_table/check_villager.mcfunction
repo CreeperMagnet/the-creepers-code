@@ -1,6 +1,4 @@
-############################################################
 # Commands to run off the villager
-############################################################
 
 execute store success score @s tcc.dummy run data modify block ~ ~ ~ x set from entity @s Brain.memories."minecraft:job_site".value.pos[0]
 execute store success score @s[scores={tcc.dummy=0}] tcc.dummy run data modify block ~ ~ ~ y set from entity @s Brain.memories."minecraft:job_site".value.pos[1]

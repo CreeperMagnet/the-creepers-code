@@ -1,6 +1,4 @@
-############################################################
 # Commands to check if a slot contains valid items
-############################################################
 
 data modify storage tcc:storage root.temp.stored_item set from entity @s item
 data modify entity @s item set from block ~ ~ ~ Items[{Slot:3b}]

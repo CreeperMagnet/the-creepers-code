@@ -1,6 +1,4 @@
-############################################################
 # Sets the tags for a snail you just bred
-############################################################
 
 tag @s add tcc.in_love
 particle minecraft:heart ~ ~ ~ 0.5 0.5 0.5 1 15 normal

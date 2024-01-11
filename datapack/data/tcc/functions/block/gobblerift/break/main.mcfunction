@@ -1,6 +1,4 @@
-############################################################
 # Breaks the gobblerift
-############################################################
 
 data remove storage tcc:storage root.temp.macro_input
 data modify storage tcc:storage root.temp.macro_input.id set from entity @s item.tag.id

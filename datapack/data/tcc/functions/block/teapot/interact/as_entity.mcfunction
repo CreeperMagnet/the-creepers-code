@@ -1,6 +1,4 @@
-############################################################
 # Updates states for a teapot
-############################################################
 
 execute if entity @s[tag=!tcc.teapot.filled] if data storage tcc:storage root.temp.item{id:"minecraft:potion",tag:{Potion:"minecraft:water"}} run function tcc:block/teapot/interact/add_water
 execute if entity @s[tag=!tcc.teapot.filled] if data storage tcc:storage root.temp.item.tag.tcc{id:"tea"} run function tcc:block/teapot/interact/add_tea/main

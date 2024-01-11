@@ -1,6 +1,4 @@
-############################################################
 # Commands to run as the gobblerift interacted with
-############################################################
 
 execute if entity @s[tag=tcc.gobblerift.bonemealable] unless data storage tcc:storage root.temp.creative if data storage tcc:storage root.temp.item{id:"minecraft:bone_meal"} run function tcc:block/gobblerift/interact/bone_meal/survival
 execute if entity @s[tag=tcc.gobblerift.bonemealable] if data storage tcc:storage root.temp{creative:1b,item:{id:"minecraft:bone_meal"}} run function tcc:block/gobblerift/interact/bone_meal/creative

@@ -1,6 +1,4 @@
-############################################################
 # Commands to run when the glow block stops glowing
-############################################################
 
 function tcc:block/soul_seer/remove_items/main
 scoreboard players reset @s tcc.dummy2
@@ -10,10 +8,10 @@ execute if block ~ ~1 ~ minecraft:tinted_glass run playsound tcc:block.soul_seer
 data modify entity @s item.tag.comparator set value 0
 
 tag @s remove tcc.tag
-execute if block ~ ~ ~ dropper[triggered=true] run tag @s add tcc.tag
-setblock ~ ~ ~ cobbled_deepslate
-execute if entity @s[tag=tcc.tag] run setblock ~ ~ ~ dropper[facing=down,triggered=true]{CustomName:'{"font":"tcc:technical","translate":"block.tcc.soul_seer.name"}',Lock:"§soul_seer\\uF001"}
-execute if entity @s[tag=!tcc.tag] run setblock ~ ~ ~ dropper[facing=down,triggered=false]{CustomName:'{"font":"tcc:technical","translate":"block.tcc.soul_seer.name"}',Lock:"§soul_seer\\uF001"}
+execute if block ~ ~ ~ minecraft:dropper[triggered=true] run tag @s add tcc.tag
+setblock ~ ~ ~ minecraft:cobbled_deepslate
+execute if entity @s[tag=tcc.tag] run setblock ~ ~ ~ minecraft:dropper[facing=down,triggered=true]{CustomName:'{"font":"tcc:technical","translate":"block.tcc.soul_seer.name"}',Lock:"§soul_seer\\uF001"}
+execute if entity @s[tag=!tcc.tag] run setblock ~ ~ ~ minecraft:dropper[facing=down,triggered=false]{CustomName:'{"font":"tcc:technical","translate":"block.tcc.soul_seer.name"}',Lock:"§soul_seer\\uF001"}
 
 execute positioned ~ ~1 ~ run function tcc:block/update_light/main
 tag @s remove tcc.glow_in_the_dark

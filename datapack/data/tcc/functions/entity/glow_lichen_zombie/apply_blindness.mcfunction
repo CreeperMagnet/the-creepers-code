@@ -1,6 +1,4 @@
-############################################################
 # Gives blindness
-############################################################
 
 advancement grant @s only tcc:compendium/sightless_eye/unlock
 

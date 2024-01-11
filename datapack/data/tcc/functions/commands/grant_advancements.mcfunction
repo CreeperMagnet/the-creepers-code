@@ -1,6 +1,4 @@
-############################################################
 # Grants all non-technical TCC advancements
-############################################################
 
 advancement grant @s from minecraft:story/root
 advancement grant @s from minecraft:adventure/root

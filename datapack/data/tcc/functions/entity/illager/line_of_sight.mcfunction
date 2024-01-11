@@ -1,6 +1,4 @@
-############################################################
 # Starts a line of sight raycast
-############################################################
 
 tag @s remove tcc.has_line_of_sight
 execute anchored eyes facing entity @e[predicate=tcc:entity/illager_target,limit=1,distance=..16,sort=nearest] eyes run function tcc:entity/illager/line_of_sight_raycast

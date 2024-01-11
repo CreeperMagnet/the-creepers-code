@@ -1,6 +1,4 @@
-############################################################
 # Goes through all possible brewing stand positions
-############################################################
 
 execute positioned ~-6 ~ ~-6 if block ~ ~ ~ minecraft:brewing_stand run function tcc:block/brewing_stand/marker_spawning/spawn
 execute positioned ~-6 ~ ~-5 if block ~ ~ ~ minecraft:brewing_stand run function tcc:block/brewing_stand/marker_spawning/spawn

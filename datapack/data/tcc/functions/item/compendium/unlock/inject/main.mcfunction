@@ -1,6 +1,4 @@
-############################################################
 # Add the entry and find all compendium items
-############################################################
 
 execute if entity @s[tag=tcc.tag] run return 0
 

@@ -1,6 +1,4 @@
-############################################################
 # Offset each entry after the modified entry on the same page
-############################################################
 
 # Offset the entry if an offset has been found
 scoreboard players set #temp_0 tcc.dummy 0

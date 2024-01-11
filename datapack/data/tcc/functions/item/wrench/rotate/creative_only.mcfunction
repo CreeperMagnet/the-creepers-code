@@ -1,6 +1,4 @@
-############################################################
 # Checks creative-only blocks
-############################################################
 
 execute if block ~ ~ ~ minecraft:jigsaw run function tcc:item/wrench/rotate/block/jigsaw
 execute if block ~ ~ ~ minecraft:command_block run function tcc:item/wrench/rotate/macro/command_block {block:"minecraft:command_block"}

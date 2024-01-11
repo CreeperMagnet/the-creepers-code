@@ -1,6 +1,4 @@
-############################################################
 # Join together the separated strings
-############################################################
 
 # Put the first half, the injection, and the second half together
 $data modify storage tcc:storage root.temp.item.tag.pages[$(page)] set value '$(1)$(injection)$(2)}'

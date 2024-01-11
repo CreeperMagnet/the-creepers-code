@@ -1,6 +1,4 @@
-############################################################
 # Reset all unlocked entry data
-############################################################
 
 # Revoke all entry unlock advancements
 execute if data storage tcc:storage root.temp.compendium run advancement revoke @s through tcc:compendium/root

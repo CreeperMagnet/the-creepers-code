@@ -1,6 +1,4 @@
-############################################################
 # Sets the initial tags of a cured archaeologist
-############################################################
 
 function tcc:entity/archaeologist/set_initial_tags
 data modify entity @s VillagerData set from storage tcc:storage root.temp.zombie_data.VillagerData

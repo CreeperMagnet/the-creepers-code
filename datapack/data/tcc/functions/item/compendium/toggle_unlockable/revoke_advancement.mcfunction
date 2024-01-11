@@ -1,6 +1,4 @@
-############################################################
 # Revokes toast advancements for toggling
-############################################################
 
 # I guess scheduling is necessary...
 

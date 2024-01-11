@@ -1,6 +1,4 @@
-############################################################
 # Finds the dyeable block/painting/shulker you are looking at
-############################################################
 
 ## Color entities
 execute positioned ~-0.01 ~-0.99 ~-0.01 as @e[dx=0,type=#tcc:paintbrush_affected,tag=!smithed.entity,limit=1] positioned ~-0.99 ~0.99 ~-0.99 if entity @s[dx=0] run function tcc:item/paintbrush/as_entity

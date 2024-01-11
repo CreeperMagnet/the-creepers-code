@@ -1,6 +1,4 @@
-############################################################
 # Rotates a block with an axis blockstate
-############################################################
 
 execute if block ~ ~ ~ #minecraft:logs run function tcc:item/wrench/rotate/block_tag/logs/main
 

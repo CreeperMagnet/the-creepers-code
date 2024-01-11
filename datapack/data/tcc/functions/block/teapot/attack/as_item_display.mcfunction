@@ -1,6 +1,4 @@
-############################################################
 # Commands to increment the break state of a gobblerift when hurt
-############################################################
 
 playsound tcc:block.teapot.hit block @a[distance=..16]
 particle minecraft:item minecraft:structure_block{CustomModelData:330086} ~ ~0.5 ~ 0.2 0.3 0.2 0 15 normal

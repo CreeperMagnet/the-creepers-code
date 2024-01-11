@@ -1,6 +1,4 @@
-############################################################
 # Levels up a villager if it hasn't been already
-############################################################
 
 execute if entity @s[nbt={VillagerData:{level:2}},tag=!tcc.archaeologist.level_2] run function tcc:entity/archaeologist/level_up/2
 execute if entity @s[nbt={VillagerData:{level:3}},tag=!tcc.archaeologist.level_3] run function tcc:entity/archaeologist/level_up/3

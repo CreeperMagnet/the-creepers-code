@@ -1,6 +1,4 @@
-############################################################
 # Get the chosen list entry
-############################################################
 
 $data modify storage tcc:storage root.temp.equipment.chosen set from storage tcc:storage root.temp.equipment.list[$(value)]
 $data remove storage tcc:storage root.temp.equipment.list[$(value)]

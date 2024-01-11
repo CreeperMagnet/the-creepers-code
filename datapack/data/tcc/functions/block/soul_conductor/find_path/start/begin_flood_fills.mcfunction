@@ -1,6 +1,4 @@
-############################################################
 # Starts the flood filling process
-############################################################
 
 scoreboard players operation #soul_conductor_limit_count tcc.dummy = #soul_conductor_limit tcc.dummy
 function tcc:block/soul_conductor/find_path/flood_fill/main

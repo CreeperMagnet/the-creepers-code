@@ -1,8 +1,6 @@
-############################################################
 # Finishes the soul conductor path as the player
-############################################################
 
-execute at @s run particle sculk_soul ~ ~0.5 ~ 0.3 0.5 0.3 0 10 force
+execute at @s run particle minecraft:sculk_soul ~ ~0.5 ~ 0.3 0.5 0.3 0 10 force
 execute at @s run playsound tcc:block.soul_conductor.transport_player block @a[distance=0.01..16] ~ ~ ~
 scoreboard players operation #temp_0 tcc.dummy = #soul_conductor_limit tcc.dummy
 scoreboard players operation #temp_0 tcc.dummy -= #soul_conductor_limit_count tcc.dummy

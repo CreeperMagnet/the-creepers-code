@@ -1,6 +1,4 @@
-############################################################
 # Commands for the boomerang hitting a solid interactable block and bouncing due to gamerule
-############################################################
 
 execute if score @s tcc.dummy2 matches 50.. run return run function tcc:item/boomerang/break with storage tcc:storage root.temp.boomerang.macro_input
 execute rotated ~ 0 run scoreboard players set #temp_0 tcc.dummy 100

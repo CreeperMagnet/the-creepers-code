@@ -1,6 +1,4 @@
-############################################################
 # Fills a teapot, setting tags and visuals
-############################################################
 
 execute on vehicle run data modify entity @s item.tag.tea.extended set value 1b
 tag @s remove tcc.teapot.can_extend

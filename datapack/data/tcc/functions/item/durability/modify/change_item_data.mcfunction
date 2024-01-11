@@ -1,6 +1,4 @@
-############################################################
 # Modifies the data of the item
-############################################################
 
 # Set the durability tag
 execute store result storage tcc:storage root.temp.item.tag.tcc.durability[0] int 1 run scoreboard players get @s tcc.dummy

@@ -1,6 +1,4 @@
-############################################################
 # Fills a teapot, setting tags and visuals
-############################################################
 
 execute on vehicle run data modify entity @s item set value {id:"minecraft:leather_horse_armor",Count:1b,tag:{tea:{id:"water",color:3760074,extended:0b},CustomModelData:330000,display:{color:3760074}}}
 tag @s add tcc.teapot.water

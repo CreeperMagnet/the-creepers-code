@@ -37,12 +37,28 @@
       ],
       "conditions": [
         {
-          "condition": "minecraft:killed_by_player"
+          "condition": "any_of",
+          "terms": [
+            {
+              "condition": "minecraft:random_chance_with_looting",
+              "chance": 0.1,
+              "looting_multiplier": 0.03
+            },
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "killer_player",
+              "predicate": {
+                "equipment": {
+                  "head": {
+                    "nbt": "{tcc:{id:\"witch_hat\"}}"
+                  }
+                }
+              }
+            }
+          ]
         },
         {
-          "condition": "minecraft:random_chance_with_looting",
-          "chance": 0.1,
-          "looting_multiplier": 0.01
+          "condition": "minecraft:killed_by_player"
         }
       ]
     }

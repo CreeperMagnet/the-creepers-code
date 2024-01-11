@@ -1,6 +1,4 @@
-############################################################
 # Commands for the boomerang hitting a block and bouncing
-############################################################
 
 execute rotated ~ 0 unless block ^ ^ ^0.05 #tcc:boomerang/ignore run scoreboard players set #temp_0 tcc.dummy 100
 execute rotated ~ 0 unless block ^ ^ ^0.05 #tcc:boomerang/ignore run scoreboard players operation #temp_0 tcc.dummy -= @s tcc.dummy2

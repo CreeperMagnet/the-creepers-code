@@ -1,6 +1,4 @@
-############################################################
 # Special interactions with blocks
-############################################################
 
 execute store result score #temp_1 tcc.dummy run gamerule projectilesCanBreakBlocks
 execute if score #temp_1 tcc.dummy matches 0 if block ~ ~ ~ #tcc:boomerang/interact_solid run function tcc:item/boomerang/block_interaction/forced_bounce
@@ -23,6 +21,8 @@ execute unless block ~ ~-0.3 ~ minecraft:snow if block ~ ~ ~ minecraft:snow[laye
 execute unless block ~ ~-0.6 ~ minecraft:snow if block ~ ~ ~ minecraft:snow[layers=2] run setblock ~ ~ ~ minecraft:air destroy
 
 execute if block ~ ~ ~ minecraft:decorated_pot align xyz positioned ~0.5 ~0.5 ~0.5 run function tcc:item/boomerang/block_interaction/decorated_pot
+execute if block ~ ~ ~ minecraft:cactus run function tcc:item/boomerang/block_interaction/cactus
+execute if block ~ ~ ~ minecraft:chorus_plant run function tcc:item/boomerang/block_interaction/chorus_plant
 execute if block ~ ~ ~ minecraft:pitcher_crop[age=4] run setblock ~ ~ ~ minecraft:air destroy
 
 execute if block ~ ~ ~ #tcc:boomerang/break run setblock ~ ~ ~ minecraft:air destroy

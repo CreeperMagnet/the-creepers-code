@@ -1,6 +1,4 @@
-############################################################
 # Checks if the player has a potion effect
-############################################################
 
 execute if data storage tcc:storage root.temp.item.tag.tcc.potion.no_effects run scoreboard players set @s tcc.dummy 1
 execute if data storage tcc:storage root.temp.item.tag.tcc.potion.no_effects run return 0

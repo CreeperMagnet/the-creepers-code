@@ -1,6 +1,4 @@
-############################################################
 # Rotates a block
-############################################################
 
 $execute if block ~ ~ ~ $(block)[waterlogged=false] run function tcc:item/wrench/rotate/macro/facing_all {block:"$(block)"}
 

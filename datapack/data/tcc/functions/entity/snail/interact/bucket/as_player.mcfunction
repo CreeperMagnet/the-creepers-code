@@ -1,6 +1,4 @@
-############################################################
 # Replaces items for bucketing snails properly
-############################################################
 
 advancement grant @s only tcc:compendium/snail_mucus/unlock
 advancement grant @s only tcc:compendium/snail/unlock

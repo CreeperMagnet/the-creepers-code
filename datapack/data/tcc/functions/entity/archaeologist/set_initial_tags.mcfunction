@@ -1,6 +1,4 @@
-############################################################
 # Sets the initial trades of a archaeologist
-############################################################
 
 tag @s add tcc.archaeologist
 tag @s add tcc.tick
@@ -26,4 +24,4 @@ data modify entity @s Offers.Recipes[1].buy set from entity @s HandItems[0]
 data modify entity @s Offers.Recipes[1].sell set from entity @s HandItems[1]
 
 item replace entity @s weapon.mainhand with minecraft:structure_block{CustomModelData:330064}
-item replace entity @s weapon.offhand with air
+item replace entity @s weapon.offhand with minecraft:air

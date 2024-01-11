@@ -1,6 +1,4 @@
-############################################################
 # Checks a block tag
-############################################################
 
 execute if block ~ ~ ~ minecraft:acacia_sign run function tcc:item/wrench/rotate/macro/rotation_waterloggable {block:"minecraft:acacia_sign"}
 execute if block ~ ~ ~ minecraft:bamboo_sign run function tcc:item/wrench/rotate/macro/rotation_waterloggable {block:"minecraft:bamboo_sign"}

@@ -1,6 +1,4 @@
-############################################################
 # Makes riftjuice work
-############################################################
 
 advancement revoke @s only tcc:technical/consume_item/riftjuice_bottle
 data remove storage tcc:storage root.temp

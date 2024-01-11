@@ -1,6 +1,4 @@
-############################################################
 # Makes nibbled apple pies work
-############################################################
 
 advancement revoke @s only tcc:technical/consume_item/nibbled_apple_pie
 tag @s add tcc.scheduled.nibbled_apple_pie

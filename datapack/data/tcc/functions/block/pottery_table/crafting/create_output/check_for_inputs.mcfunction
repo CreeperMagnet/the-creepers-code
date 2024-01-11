@@ -1,6 +1,4 @@
-############################################################
 # Checks recipes inputted into the pottery table
-############################################################
 
 tag @s remove tcc.tag
 execute if data storage tcc:storage root.temp.barrel_data[1][{Slot:3b}] run tag @s add tcc.tag

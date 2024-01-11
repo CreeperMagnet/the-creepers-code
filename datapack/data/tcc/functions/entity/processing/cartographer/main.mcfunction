@@ -1,6 +1,4 @@
-############################################################
 # Adds new trades to cartographers
-############################################################
 
 
 execute if data entity @s VillagerData{type:"minecraft:plains"} if predicate tcc:random_chance/0.5 run function tcc:entity/processing/cartographer/cherry_grove_map_trade
@@ -16,5 +14,5 @@ execute if entity @s[nbt={HandItems:[{id:"minecraft:map"}]}] run data modify ent
 data modify entity @s Offers.Recipes[-1].sell set from entity @s HandItems[0]
 
 
-item replace entity @s weapon.mainhand with air
-item replace entity @s weapon.offhand with air
+item replace entity @s weapon.mainhand with minecraft:air
+item replace entity @s weapon.offhand with minecraft:air

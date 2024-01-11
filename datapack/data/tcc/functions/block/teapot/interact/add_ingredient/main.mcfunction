@@ -1,6 +1,4 @@
-############################################################
 # Fills a teapot, setting tags and visuals
-############################################################
 
 execute on vehicle run function tcc:block/teapot/interact/add_ingredient/as_vehicle
 execute on target if entity @s[gamemode=!creative] run function tcc:block/teapot/interact/add_ingredient/as_player

@@ -1,0 +1,9 @@
+{
+  "values": [
+    "minecraft:lava",
+    "minecraft:water",
+    "#minecraft:wool_carpets",
+    "minecraft:moss_carpet",
+    "minecraft:daylight_detector"
+  ]
+}

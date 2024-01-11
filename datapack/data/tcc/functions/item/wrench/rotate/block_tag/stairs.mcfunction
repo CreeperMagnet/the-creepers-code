@@ -1,6 +1,4 @@
-############################################################
 # Checks a block tag
-############################################################
 
 execute if block ~ ~ ~ #minecraft:wooden_stairs run function tcc:item/wrench/rotate/block_tag/wooden_stairs
 execute if block ~ ~ ~ minecraft:bamboo_mosaic_stairs run function tcc:item/wrench/rotate/macro/stairs/main {block:"minecraft:bamboo_mosaic_stairs"}

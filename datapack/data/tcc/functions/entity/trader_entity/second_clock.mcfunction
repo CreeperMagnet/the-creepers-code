@@ -1,8 +1,6 @@
-############################################################
 # Second-clocks a living entity with a wandering trader base
-############################################################
 
-effect give @s invisibility infinite 0 true
+effect give @s minecraft:invisibility infinite 0 true
 execute if entity @s[tag=tcc.illager] run function tcc:entity/illager/second_clock
 execute if entity @s[tag=tcc.snail] run function tcc:entity/snail/second_clock
 data modify entity @s[tag=!tcc.wandering_witch] DespawnDelay set value 2147483647

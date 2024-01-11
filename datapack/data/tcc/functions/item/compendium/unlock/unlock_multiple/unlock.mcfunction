@@ -1,6 +1,4 @@
-############################################################
 # Applies injections for multiple entries
-############################################################
 
 # Adds a tag that prevents the entry unlock function from continuing after setting its data
 # This tag also prevents the called item_found function from applying changes to the item after finishing

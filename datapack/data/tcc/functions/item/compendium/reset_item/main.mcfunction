@@ -1,17 +1,15 @@
-############################################################
 # Reset all compendium items in the player's inventory
-############################################################
 
-function tcc:item/compendium/get_item_pos
+function tcc:item/get_item_pos
 
-execute if entity @s[tag=tcc.unlockable_compendium] run data modify storage tcc:storage root.temp.item_position.type set value "compendium_unlockable"
-execute if entity @s[tag=!tcc.unlockable_compendium] run data modify storage tcc:storage root.temp.item_position.type set value "compendium"
+execute if entity @s[tag=tcc.unlockable_compendium] run data modify storage tcc:storage root.temp.item_position.path set value "tcc:technical/copy_nbt/compendium_unlockable"
+execute if entity @s[tag=!tcc.unlockable_compendium] run data modify storage tcc:storage root.temp.item_position.path set value "tcc:technical/copy_nbt/compendium"
 execute store result score @s tcc.dummy run data get storage tcc:storage root.temp.item.Count
 
 # Tag so advancements won't trigger while modifying the item
 tag @s add tcc.modifying_item
 
-function tcc:item/compendium/reset_item/reset with storage tcc:storage root.temp.item_position
+function tcc:item/replace_slot/replace with storage tcc:storage root.temp.item_position
 
 tag @s remove tcc.modifying_item
 

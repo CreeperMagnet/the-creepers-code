@@ -1,0 +1,23 @@
+{
+  "parent": "tcc:technical/root",
+  "criteria": {
+    "inventory_changed": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{BlockEntityTag:{Lock:\"§soul_seer\\\\uF001\"}}"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "tcc:block/soul_seer/pick_block"
+  },
+  "requirements": [
+    [
+      "inventory_changed"
+    ]
+  ]
+}

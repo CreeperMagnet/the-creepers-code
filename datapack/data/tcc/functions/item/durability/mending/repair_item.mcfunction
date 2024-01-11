@@ -1,6 +1,4 @@
-############################################################
 # Repairs all items until no more can be repaired or found
-############################################################
 
 # Set proper values for the amount that the item should be repaired
 scoreboard players set #item_durability_change tcc.dummy 2

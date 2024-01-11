@@ -1,6 +1,4 @@
-############################################################
 # Advancements to run when players use a wrench on an armor stand
-############################################################
 
 data remove storage tcc:storage root.temp
 

@@ -1,6 +1,4 @@
-############################################################
 # Makes enchanted golden apple pies work
-############################################################
 
 advancement revoke @s only tcc:technical/consume_item/enchanted_golden_apple_pie
 tag @s add tcc.scheduled.enchanted_golden_apple_pie

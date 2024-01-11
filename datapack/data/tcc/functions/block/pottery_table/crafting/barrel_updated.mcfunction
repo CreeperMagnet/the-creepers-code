@@ -1,6 +1,4 @@
-############################################################
 # Commands for when the barrel's contents update
-############################################################
 
 ## Move the barrel data
 data remove storage tcc:storage root.temp

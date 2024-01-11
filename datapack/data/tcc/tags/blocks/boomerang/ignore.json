@@ -45,6 +45,8 @@
     "minecraft:bamboo_sapling",
     "minecraft:soul_fire",
     "minecraft:cobweb",
-    "minecraft:torchflower_crop"
+    "minecraft:torchflower_crop",
+    "minecraft:lava",
+    "minecraft:water"
   ]
 }

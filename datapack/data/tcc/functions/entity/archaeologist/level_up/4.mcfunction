@@ -1,6 +1,4 @@
-############################################################
 # Commands to run when the villager levels up
-############################################################
 
 tag @s add tcc.archaeologist.level_4
 
@@ -26,4 +24,4 @@ data modify entity @s Offers.Recipes[-1].sell set from entity @s HandItems[0]
 
 
 item replace entity @s weapon.mainhand with minecraft:structure_block{CustomModelData:330064}
-item replace entity @s weapon.offhand with air
+item replace entity @s weapon.offhand with minecraft:air

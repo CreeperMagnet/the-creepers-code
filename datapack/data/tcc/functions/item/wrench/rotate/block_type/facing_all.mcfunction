@@ -1,6 +1,4 @@
-############################################################
 # Rotates a block with an all facing blockstate
-############################################################
 
 execute if block ~ ~ ~ #minecraft:shulker_boxes run function tcc:item/wrench/rotate/block_tag/shulker_boxes
 

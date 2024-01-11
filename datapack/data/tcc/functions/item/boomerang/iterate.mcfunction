@@ -1,6 +1,4 @@
-############################################################
 # Moves the boomerang one block
-############################################################
 
 # Begin loop
 scoreboard players add @s tcc.dummy 1
@@ -10,8 +8,10 @@ execute positioned ^ ^ ^0.05 if block ~ ~ ~ #tcc:boomerang/interact run function
 execute rotated 0 0 if block ~ ~-0.2 ~ #tcc:boomerang/interact_surface positioned ~ ~-0.3 ~ run function tcc:item/boomerang/block_interaction/surface
 
 # If boomerang is on the way away from the player and hits a block/shulker, it bounces
+execute if block ^ ^ ^0.05 #tcc:boomerang/sets_fire if entity @s[tag=!tcc.boomerang.on_fire] run function tcc:item/boomerang/catch_fire
+execute if entity @s[scores={tcc.dummy2=..49}] if block ^ ^ ^0.05 #tcc:boomerang/skims_off_surface run tp @s ~ ~ ~ ~ 0
 execute if entity @s[scores={tcc.dummy2=..49}] unless block ^ ^ ^0.05 #tcc:boomerang/ignore run function tcc:item/boomerang/bounce
-execute if entity @s[scores={tcc.dummy2=..49}] positioned ^ ^ ^0.05 if entity @e[type=shulker,dx=0] run function tcc:item/boomerang/bounce
+execute if entity @s[scores={tcc.dummy2=..49}] positioned ^ ^ ^0.05 if entity @e[type=minecraft:shulker,dx=0] run function tcc:item/boomerang/bounce
 
 # If boomerang *doesn't* hit a block, it moves
 execute if block ^ ^ ^0.05 #tcc:boomerang/ignore run tp @s ^ ^ ^0.05

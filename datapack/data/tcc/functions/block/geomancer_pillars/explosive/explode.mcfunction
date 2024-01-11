@@ -1,6 +1,4 @@
-############################################################
 # Makes an explosive pillar explode
-############################################################
 
 particle minecraft:explosion ~ ~ ~ 3 2 3 0.5 20 normal
 playsound tcc:block.explosive_geomancer_pillar.explode master @a[distance=..16]

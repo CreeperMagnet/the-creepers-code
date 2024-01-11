@@ -1,6 +1,4 @@
-############################################################
 # Makes particles for whatever you feed the gobblerift
-############################################################
 
 execute if data storage tcc:storage root.temp.item{id:"minecraft:porkchop"} run particle minecraft:item minecraft:porkchop ~ ~1.35 ~ 0.1 0.1 0.1 0.05 2 normal
 execute if data storage tcc:storage root.temp.item{id:"minecraft:cooked_porkchop"} run particle minecraft:item minecraft:cooked_porkchop ~ ~1.35 ~ 0.1 0.1 0.1 0.05 2 normal

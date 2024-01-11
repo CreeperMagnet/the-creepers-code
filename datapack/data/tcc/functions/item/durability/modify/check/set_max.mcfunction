@@ -1,6 +1,4 @@
-############################################################
 # Prevents an overflow past the maximum durability value
-############################################################
 
 execute store result score #temp_0 tcc.dummy run data get storage tcc:storage root.temp.item.tag.tcc.durability[0] 1
 execute store result score #temp_1 tcc.dummy run data get storage tcc:storage root.temp.item.tag.tcc.durability[1] 1

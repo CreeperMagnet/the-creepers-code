@@ -1,6 +1,4 @@
-############################################################
 # Toggles the compendium mode
-############################################################
 
 # The two different modes
 execute if score @s tccc.internal_trigger matches 40 run function tcc:item/compendium/toggle_unlockable/on

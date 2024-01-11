@@ -1,6 +1,4 @@
-############################################################
 # Begins the raycast when you interact with the snail
-############################################################
 
 data remove storage tcc:storage root.temp
 data modify storage tcc:storage root.temp.item set from entity @s SelectedItem

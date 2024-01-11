@@ -1,6 +1,4 @@
-############################################################
 # Tests if your XP level was changed by an XP orb
-############################################################
 
 # Calculations for if your xp level changed or not
 scoreboard players operation @s tcc.old_xp -= @s tcc.current_xp

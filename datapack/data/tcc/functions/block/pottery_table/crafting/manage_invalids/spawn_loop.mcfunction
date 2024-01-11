@@ -1,6 +1,4 @@
-############################################################
 # Spawns invalids in item form
-############################################################
 
 data remove storage tcc:storage root.temp.macro_input
 data modify storage tcc:storage root.temp.macro_input.item set from storage tcc:storage root.temp.export_items[0]

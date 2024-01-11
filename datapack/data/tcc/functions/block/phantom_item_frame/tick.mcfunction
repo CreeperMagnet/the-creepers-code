@@ -1,6 +1,4 @@
-############################################################
 # Runs tickly for phantom item frames
-############################################################
 
 # If the item frame no longer exists (has been broken in some way), run break functionality
 execute unless predicate tcc:entity/in_vehicle run function tcc:block/phantom_item_frame/break/main

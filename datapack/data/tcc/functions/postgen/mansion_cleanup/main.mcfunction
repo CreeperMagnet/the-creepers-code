@@ -1,6 +1,4 @@
-############################################################
 # Cleans up the mansion
-############################################################
 
 execute positioned ^ ^ ^ run function tcc:postgen/mansion_cleanup/fill_portion
 execute positioned ^ ^8 ^ run function tcc:postgen/mansion_cleanup/fill_portion

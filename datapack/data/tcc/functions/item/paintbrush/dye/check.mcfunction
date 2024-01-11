@@ -1,6 +1,4 @@
-############################################################
 # Begins paintbrush raycast
-############################################################
 
 scoreboard players reset @s tcc.dummy
 data remove storage tcc:storage root.temp

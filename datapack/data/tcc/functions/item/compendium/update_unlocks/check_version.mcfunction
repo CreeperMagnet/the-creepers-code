@@ -1,6 +1,4 @@
-############################################################
 # Checks if the version needs to be updated
-############################################################
 
 execute store result score #temp_ver tcc.dummy run data get storage tcc:storage root.compendium.version.release
 execute store result score #temp_item_ver tcc.dummy run data get storage tcc:storage root.temp.item.tag.tcc.version.release

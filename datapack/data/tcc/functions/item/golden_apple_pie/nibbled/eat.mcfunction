@@ -1,6 +1,4 @@
-############################################################
 # Makes golden apple pie halves work
-############################################################
 
 advancement revoke @s only tcc:technical/consume_item/nibbled_golden_apple_pie
 tag @s add tcc.scheduled.nibbled_golden_apple_pie

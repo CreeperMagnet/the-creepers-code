@@ -1,8 +1,6 @@
-############################################################
 # Second-clocks an illager
-############################################################
 
-execute on attacker run tag @s[type=!player] add tcc.illager_target
+execute on attacker run tag @s[type=!minecraft:player] add tcc.illager_target
 execute if entity @s[tag=!tcc.spellcasting] unless entity @s[tag=!tcc.iceologer,tag=!tcc.geomancer] if entity @e[predicate=tcc:entity/illager_target,limit=1,distance=..16,sort=nearest] run function tcc:entity/illager/line_of_sight
 execute if entity @s[tag=tcc.iceologer,tag=tcc.spellcasting] run function tcc:entity/iceologer/spell_cast
 execute if entity @s[tag=tcc.geomancer,tag=tcc.spellcasting] run function tcc:entity/geomancer/spell_cast

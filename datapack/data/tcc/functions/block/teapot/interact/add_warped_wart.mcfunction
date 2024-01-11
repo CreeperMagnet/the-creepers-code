@@ -1,6 +1,4 @@
-############################################################
 # Fills a teapot, setting tags and visuals
-############################################################
 
 execute on vehicle run data modify entity @s item.tag.tea set value {id:"amenable",color:3126434,extended:0b}
 tag @s remove tcc.teapot.water

@@ -1,6 +1,4 @@
-############################################################
 # Makes an explosive pillar at a random position near the player
-############################################################
 
 tag @s remove tcc.tag
 scoreboard players set @s tcc.dummy 0

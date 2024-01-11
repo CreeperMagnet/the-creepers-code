@@ -1,6 +1,4 @@
-############################################################
 # Moves the boomerang one block
-############################################################
 
 scoreboard players set @s tcc.dummy 0
 function tcc:item/boomerang/iterate

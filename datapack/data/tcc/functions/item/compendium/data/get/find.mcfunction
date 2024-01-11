@@ -1,6 +1,4 @@
-############################################################
 # Get player compendium data
-############################################################
 
 # Remove the result path
 data remove storage tcc:storage root.temp.compendium

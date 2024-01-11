@@ -1,6 +1,4 @@
-############################################################
 # Makes the smoldering seeker function
-############################################################
 
 data remove storage tcc:storage root.temp
 
@@ -14,7 +12,7 @@ execute store result storage tcc:storage root.temp.item.tag.LodestonePos.X int 1
 execute store result storage tcc:storage root.temp.item.tag.LodestonePos.Z int 1.0 run data get storage tcc:storage root.temp.item2.tag.Decorations[0].z
 
 item modify entity @s[gamemode=!creative] weapon.mainhand tcc:copy_nbt
-loot give @s[gamemode=creative] loot tcc:technical/copy_nbt/compass
+execute if entity @s[gamemode=creative] run function tcc:technical/macros/give with storage tcc:storage root.temp.item
 loot replace entity @s[gamemode=creative] weapon.mainhand loot tcc:items/smoldering_seeker
 advancement grant @s only tcc:minecraft/nether/smoldering_seeker
 

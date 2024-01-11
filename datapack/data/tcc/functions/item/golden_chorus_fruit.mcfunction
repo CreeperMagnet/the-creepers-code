@@ -1,6 +1,4 @@
-############################################################
 # Golden chorus fruit commands
-############################################################
 
 advancement revoke @s only tcc:technical/consume_item/golden_chorus_fruit
 

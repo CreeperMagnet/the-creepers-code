@@ -1,6 +1,4 @@
-############################################################
 # Checks a block tag
-############################################################
 
 execute if block ~ ~ ~ minecraft:beehive run function tcc:item/wrench/rotate/macro/beehive {block:"minecraft:beehive"}
 

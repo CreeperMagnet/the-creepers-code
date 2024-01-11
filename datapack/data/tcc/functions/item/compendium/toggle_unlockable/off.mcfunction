@@ -1,6 +1,4 @@
-############################################################
 # Makes all of the player's compendiums fully unlocked
-############################################################
 
 # Show a message
 tellraw @s ["",{"translate":"tccc.compendium_unlocked.message_icon","font": "tcc.compendium:static"},{"translate":"tccc.compendium_unlocked.text"}]

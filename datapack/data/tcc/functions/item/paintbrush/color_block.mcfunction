@@ -1,6 +1,4 @@
-############################################################
 # Finds the proper dye in their inventory
-############################################################
 
 execute if data storage tcc:storage root.temp.item{id:"minecraft:black_dye"} run function tcc:item/paintbrush/color_block/main {color:"black",custom_model_data:330010}
 execute if data storage tcc:storage root.temp.item{id:"minecraft:blue_dye"} run function tcc:item/paintbrush/color_block/main {color:"blue",custom_model_data:330011}

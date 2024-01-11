@@ -1,6 +1,4 @@
-############################################################
 # Removes mutually exclusive tags
-############################################################
 
 tag @s remove tcc.snail.black
 tag @s remove tcc.snail.brown

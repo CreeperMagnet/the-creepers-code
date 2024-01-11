@@ -1,6 +1,4 @@
-############################################################
 # Takes experience from the locket
-############################################################
 
 # gives the player 31 points
 experience add @s 31 points

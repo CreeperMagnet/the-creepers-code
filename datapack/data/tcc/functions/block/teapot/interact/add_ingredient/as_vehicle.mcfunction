@@ -1,6 +1,4 @@
-############################################################
 # Fills a teapot, setting tags and visuals
-############################################################
 
 execute if data storage tcc:storage root.temp.item{id:"minecraft:dandelion"} run data modify entity @s item.tag.tea set value {id:"steadiness",color:16772175,extended:0b}
 execute if data storage tcc:storage root.temp.item{id:"minecraft:wither_rose"} run data modify entity @s item.tag.tea set value {id:"purity",color:4338990,extended:0b}

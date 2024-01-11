@@ -1,6 +1,4 @@
-############################################################
 # Functions to make items near a recovery compass glow and last forever
-############################################################
 
 tag @s add tcc.ten_second_clock
 data modify entity @s Age set value -32767s

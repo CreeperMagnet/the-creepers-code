@@ -1,6 +1,4 @@
-############################################################
 # Ticks down the tea timer for when it's processing
-############################################################
 
 scoreboard players remove @s tcc.dummy2 1
 

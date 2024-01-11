@@ -1,6 +1,4 @@
-############################################################
 # Creates a new entry
-############################################################
 
 data modify storage tcc:storage root.gobblerift_data.array append value {pos:[0,0,0],dimension:""}
 $data modify storage tcc:storage root.gobblerift_data.array[-1].id set value $(id)

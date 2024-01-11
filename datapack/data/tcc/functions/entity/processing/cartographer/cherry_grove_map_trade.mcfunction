@@ -1,6 +1,4 @@
-############################################################
 # Adds cherry grove map trade to plains cartographers
-############################################################
 
 loot replace entity @s weapon.mainhand 2 loot tcc:gameplay/trades/cartographer/trade_2/buy
 data modify entity @s Offers.Recipes[-1].buy set from entity @s HandItems[0]
@@ -10,5 +8,5 @@ execute if entity @s[nbt={HandItems:[{id:"minecraft:map"}]}] run data modify ent
 data modify entity @s Offers.Recipes[-1].sell set from entity @s HandItems[0]
 
 
-item replace entity @s weapon.mainhand with air
-item replace entity @s weapon.offhand with air
+item replace entity @s weapon.mainhand with minecraft:air
+item replace entity @s weapon.offhand with minecraft:air

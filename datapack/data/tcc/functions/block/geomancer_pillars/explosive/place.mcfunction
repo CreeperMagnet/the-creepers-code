@@ -1,7 +1,5 @@
-############################################################
 # Function to spawn a geomancer pillar
-############################################################
 
-fill ~ ~ ~ ~ ~2 ~ barrier
+fill ~ ~ ~ ~ ~2 ~ minecraft:barrier
 playsound minecraft:block.deepslate.place block @a[distance=..16]
-execute align xz positioned ~0.5 ~0.5 ~0.5 summon item_display run function tcc:block/geomancer_pillars/explosive/initiate
+execute align xz positioned ~0.5 ~0.5 ~0.5 summon minecraft:item_display run function tcc:block/geomancer_pillars/explosive/initiate

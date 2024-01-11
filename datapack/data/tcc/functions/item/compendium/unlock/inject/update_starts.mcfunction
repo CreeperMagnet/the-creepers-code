@@ -1,6 +1,4 @@
-############################################################
 # Update the injection positions (starts) for all injections after this one
-############################################################
 
 # Compares this injection's page with the last injection's page
 execute store result score #temp_0 tcc.dummy run data get storage tcc:storage root.temp.page_injections[-2].page

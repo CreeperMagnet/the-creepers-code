@@ -1,6 +1,4 @@
-############################################################
 # Enchants a random mob nearby
-############################################################
 
 scoreboard players reset @s tcc.dummy2
 tag @s remove tcc.spellcasting

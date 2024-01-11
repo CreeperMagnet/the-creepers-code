@@ -1,6 +1,4 @@
-############################################################
 # Set the character points to split the page at
-############################################################
 
 # Get the injection start value and the length of the string to replace
 function tcc:item/compendium/data/get/main

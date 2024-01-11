@@ -1,6 +1,4 @@
-############################################################
 # Edits a phantom item frame to display the base
-############################################################
 
 scoreboard players reset @s tcc.dummy
 

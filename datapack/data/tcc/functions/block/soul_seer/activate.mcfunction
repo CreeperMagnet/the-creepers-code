@@ -1,6 +1,4 @@
-############################################################
 # Activates the soul seer
-############################################################
 
 tag @s add tcc.soul_seer.selected
 execute unless entity @s[scores={tcc.dummy2=1..}] run function tcc:block/soul_seer/glow

@@ -1,6 +1,4 @@
-############################################################
 # Functions to modify the durability of a specific item in a slot
-############################################################
 
 # Set storage stuff
 data modify storage tcc:storage root.temp.item set from entity @s SelectedItem

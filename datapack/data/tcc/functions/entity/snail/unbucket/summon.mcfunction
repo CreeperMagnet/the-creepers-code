@@ -1,6 +1,4 @@
-############################################################
 # Summons a snail
-############################################################
 
 data remove storage tcc:storage root.temp
 data modify storage tcc:storage root.temp.snail_bucket set from entity @s SelectedItem

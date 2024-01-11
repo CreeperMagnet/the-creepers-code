@@ -1,6 +1,4 @@
-############################################################
 # Commands to increment the break state of a gobblerift when hurt
-############################################################
 
 playsound tcc:block.gobblerift.hurt neutral @a[distance=..16]
 execute if data storage tcc:storage root.temp.instamine run function tcc:block/gobblerift/break/main

@@ -1,6 +1,4 @@
-############################################################
 # Commands to place a decorated pot
-############################################################
 
 data modify entity @s item.tag.item_tag set from storage tcc:storage root.temp.item_tag
 data modify storage tcc:storage root.temp.item_tag.tcc.sherds[{id:"minecraft:prismarine_shard"}].tag.CustomModelData set value 330016

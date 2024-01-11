@@ -1,6 +1,4 @@
-############################################################
 # Rotates a block
-############################################################
 
 $execute if block ~ ~ ~ $(block)[rotation=0] run return run setblock ~ ~ ~ $(block)[attached=true,rotation=1]
 $execute if block ~ ~ ~ $(block)[rotation=1] run return run setblock ~ ~ ~ $(block)[attached=true,rotation=2]

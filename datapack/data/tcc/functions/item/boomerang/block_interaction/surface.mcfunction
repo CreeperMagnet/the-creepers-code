@@ -1,6 +1,4 @@
-############################################################
 # Special interactions with blocks
-############################################################
 
 execute if block ~ ~ ~ minecraft:water run particle minecraft:splash ~ ~ ~ 0.5 0.1 0.5 0.4 1 normal
 execute if block ~ ~ ~ minecraft:bubble_column run particle minecraft:splash ~ ~ ~ 0.5 0.1 0.5 0.4 1 normal

@@ -1,6 +1,4 @@
-############################################################
 # Rotates a block
-############################################################
 
 $execute if block ~ ~ ~ $(block)[facing=north] run return run setblock ~ ~ ~ $(block)[facing=east,half=top,waterlogged=true]
 $execute if block ~ ~ ~ $(block)[facing=east] run return run setblock ~ ~ ~ $(block)[facing=south,half=top,waterlogged=true]

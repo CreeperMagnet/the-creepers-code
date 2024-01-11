@@ -1,6 +1,4 @@
-############################################################
 # Heals the player based on a score provided
-############################################################
 
 execute store result score @s tcc.dummy run attribute @s minecraft:generic.max_health get 10
 execute store result score @s tcc.dummy2 run data get entity @s Health 10
@@ -24,7 +22,7 @@ scoreboard players remove @s[scores={tcc.dummy=2..}] tcc.dummy 2
 attribute @s[scores={tcc.dummy=1..}] minecraft:generic.max_health modifier add 2-0-3-3-0 "healing_1" -0.1 add
 scoreboard players remove @s[scores={tcc.dummy=1..}] tcc.dummy 1
 
-effect give @s instant_health 1 24 true
+effect give @s minecraft:instant_health 1 24 true
 
 tag @s add tcc.scheduled.remove_attributes
 schedule function tcc:entity/player/heal/remove_attributes/scheduled 2t replace

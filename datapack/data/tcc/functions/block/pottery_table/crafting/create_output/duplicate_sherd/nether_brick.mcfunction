@@ -1,6 +1,4 @@
-############################################################
 # Duplicates a nether brick sherd
-############################################################
 
 execute if data storage tcc:storage root.temp.barrel_data[1][{Slot:3b}] unless data storage tcc:storage root.temp.barrel_data[1][{Slot:3b,tag:{tcc:{id:"pottery_sherd",type:"nether_brick"}}}] run return 0
 execute if data storage tcc:storage root.temp.barrel_data[1][{Slot:11b}] unless data storage tcc:storage root.temp.barrel_data[1][{Slot:11b,tag:{tcc:{id:"pottery_sherd",type:"nether_brick"}}}] run return 0

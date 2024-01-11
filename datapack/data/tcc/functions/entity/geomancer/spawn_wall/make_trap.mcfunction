@@ -1,6 +1,4 @@
-############################################################
 # Traps a player using normal geomancer pillars
-############################################################
 
 execute align y positioned ~2 ~ ~ run function tcc:entity/geomancer/spawn_wall/trap_check
 execute align y positioned ~-2 ~ ~ run function tcc:entity/geomancer/spawn_wall/trap_check

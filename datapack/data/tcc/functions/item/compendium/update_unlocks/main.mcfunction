@@ -1,6 +1,4 @@
-############################################################
 # Updates unlocked entries for outdated books
-############################################################
 
 advancement revoke @s[tag=tcc.modifying_item] only tcc:technical/inventory_changed/compendium/unlockable
 # If this was called due to a modified item in this code, return

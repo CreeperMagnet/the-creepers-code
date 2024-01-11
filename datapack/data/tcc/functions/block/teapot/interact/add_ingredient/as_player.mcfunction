@@ -1,6 +1,4 @@
-############################################################
 # Sets inventory stuff for players clicking teapots
-############################################################
 
 item modify entity @s weapon.mainhand tcc:reduce_count/1
 execute if data storage tcc:storage root.temp.item.tag.tcc{id:"riftjuice_bottle"} run item replace entity @s weapon.mainhand with minecraft:glass_bottle 1

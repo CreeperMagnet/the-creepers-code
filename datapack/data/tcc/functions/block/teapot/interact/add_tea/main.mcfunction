@@ -1,6 +1,4 @@
-############################################################
 # Fills a teapot, setting tags and visuals
-############################################################
 
 execute on vehicle run function tcc:block/teapot/interact/add_tea/as_vehicle
 execute on target run item replace entity @s[gamemode=!creative] weapon.mainhand with minecraft:glass_bottle 1

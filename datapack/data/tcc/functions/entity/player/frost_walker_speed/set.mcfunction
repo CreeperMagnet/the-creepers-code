@@ -1,6 +1,4 @@
-############################################################
 # Frost walker speed functions
-############################################################
 
 scoreboard players set #temp_0 tcc.dummy 0
 execute on vehicle run scoreboard players set #temp_0 tcc.dummy 1

@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{color:0},AttributeModifiers:[{Amount:3.0d,Slot:\"head\",AttributeName:\"minecraft:generic.armor\",Name:\"minecraft:generic.armor\",Operation:0,UUID:[I;2,0,3,3]}],HideFlags:68,Unbreakable:1b,tcc:{id:\"witch_hat\",durability:[100,100],repaired:1b},CustomModelData:330000}"
+              "tag": "{display:{color:0},AttributeModifiers:[{Amount:3.0d,Slot:\"head\",AttributeName:\"minecraft:generic.armor\",Name:\"minecraft:generic.armor\",Operation:0,UUID:[I;2,0,3,3]}],HideFlags:68,Unbreakable:1b,tcc:{id:\"witch_hat\",durability:[200,200],repaired:1b},CustomModelData:330000}"
             },
             {
               "function": "minecraft:set_name",
@@ -27,8 +27,8 @@
                   "color": "gray",
                   "italic": false,
                   "with": [
-                    100,
-                    100
+                    "200",
+                    "200"
                   ]
                 },
                 {

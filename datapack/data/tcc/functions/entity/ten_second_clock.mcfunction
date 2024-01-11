@@ -1,6 +1,4 @@
-############################################################
 # Functions to run off of every tcc entity every ten seconds
-############################################################
 
 ## Wandering witch
 execute if entity @s[type=minecraft:wandering_trader,tag=tcc.wandering_witch] run function tcc:entity/wandering_witch/ten_second_clock
@@ -32,5 +30,8 @@ execute if entity @s[tag=tcc.burns_in_sunlight] unless predicate tcc:entity/wand
 ## Jungle Temple Cursed Crown Loot
 execute if entity @s[type=minecraft:item,tag=tcc.persistent_cursed_crown] run function tcc:entity/persistent_cursed_crown/ten_second_clock
 
-## Phantom item frame item fram vehicle entity
-execute if entity @s[type=minecraft:item_frame,tag=tcc.phantom_item_frame] unless predicate tcc:entity/has_passenger run kill @s
+## Phantom item frame item frame vehicle entity
+kill @s[type=minecraft:item_frame,tag=tcc.phantom_item_frame,predicate=!tcc:entity/has_passenger]
+
+## Kill passengers without vehicles
+kill @s[tag=tcc.passenger_entity,predicate=!tcc:entity/in_vehicle]

@@ -1,6 +1,4 @@
-############################################################
 # Sets the variant for the snail
-############################################################
 
 tag @s remove tcc.tag
 tag @s[predicate=!tcc:random_chance/0.33] add tcc.tag

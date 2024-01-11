@@ -1,6 +1,4 @@
-############################################################
 # Commands to run for each compendium in the inventory
-############################################################
 
 # If the book already has the specified entry unlocked, return
 $execute if data storage tcc:storage root.temp.item.tag.tcc{unlocked_entries:["$(entry_name)"]} run return 0
@@ -32,6 +30,6 @@ execute if entity @s[tag=tcc.success] run data modify storage tcc:storage root.t
 tag @s add tcc.success
 
 # Get the item position to modify
-function tcc:item/compendium/get_item_pos
+function tcc:item/get_item_pos
 # Apply the changes to the compendium item
 execute if entity @s[tag=!tcc.tag] run function tcc:item/compendium/unlock/inject/modify_item/main with storage tcc:storage root.temp.item_position

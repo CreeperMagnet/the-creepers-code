@@ -1,6 +1,4 @@
-############################################################
 # Updates an unlocked compendium
-############################################################
 
 advancement revoke @s[tag=tcc.modifying_item] only tcc:technical/inventory_changed/compendium/unlocked
 # If this was called due to a modified item in this code, return

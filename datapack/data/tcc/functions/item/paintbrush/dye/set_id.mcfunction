@@ -1,6 +1,4 @@
-############################################################
 # Finds the proper dye in their inventory
-############################################################
 
 scoreboard players set #temp_0 tcc.dummy 1000
 scoreboard players reset #temp_1 tcc.dummy

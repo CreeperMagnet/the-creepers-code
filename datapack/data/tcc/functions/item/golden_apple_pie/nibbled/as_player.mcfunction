@@ -1,6 +1,4 @@
-############################################################
 # Makes apple pies work
-############################################################
 
 execute if predicate tcc:entity/full_inventory run loot spawn ~ ~ ~ loot tcc:items/golden_apple_pie_slice
 

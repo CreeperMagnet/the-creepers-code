@@ -28,7 +28,7 @@
     }
   },
   "rewards": {
-    "function": "tcc:item/cursed_crown/unequip/main"
+    "function": "tcc:item/cursed_crown/unequip"
   },
   "requirements": [
     [

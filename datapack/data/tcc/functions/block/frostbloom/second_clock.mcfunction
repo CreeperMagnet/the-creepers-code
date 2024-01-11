@@ -1,6 +1,4 @@
-############################################################
 # Commands to run off frostblooms every second
-############################################################
 
 ## Particles
 execute if block ~ ~1 ~ minecraft:light run particle minecraft:falling_dust minecraft:snow ~ ~4 ~ 1 0.4 1 0 32 normal

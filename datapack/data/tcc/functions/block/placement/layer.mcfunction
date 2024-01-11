@@ -1,3 +1,5 @@
+# Scans a 13x13x13 area for placement blocks to replace
+
 execute positioned ~-6 ~ ~-6 if block ~ ~ ~ #tcc:block_placement{Items:[{tag:{tcc:{placed_block:1b}}}]} run function #tcc:block_placement_checks
 execute positioned ~-6 ~ ~-5 if block ~ ~ ~ #tcc:block_placement{Items:[{tag:{tcc:{placed_block:1b}}}]} run function #tcc:block_placement_checks
 execute positioned ~-6 ~ ~-4 if block ~ ~ ~ #tcc:block_placement{Items:[{tag:{tcc:{placed_block:1b}}}]} run function #tcc:block_placement_checks

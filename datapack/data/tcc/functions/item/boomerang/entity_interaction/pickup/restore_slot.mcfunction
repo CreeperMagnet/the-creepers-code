@@ -1,6 +1,4 @@
-############################################################
 # Restores the proper slot in which the boomerang came from
-############################################################
 
 data remove storage tcc:storage root.temp.boomerang.macro_input.item
 $execute if data entity @s Inventory[{Slot:$(slot)b}] run data modify storage tcc:storage root.temp.boomerang.macro_input.item set from entity @s Inventory[{Slot:$(slot)b}]

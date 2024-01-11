@@ -1,6 +1,4 @@
-############################################################
 # Exports invalid items from a slot that shouldn't have said items
-############################################################
 
 data modify storage tcc:storage root.temp.export_items set value [{}]
 scoreboard players set @s tcc.dummy 1

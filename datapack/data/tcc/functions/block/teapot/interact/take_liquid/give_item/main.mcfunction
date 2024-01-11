@@ -1,6 +1,4 @@
-############################################################
 # Commands to run as players who took from a teapot
-############################################################
 
 item modify entity @s[gamemode=!creative] weapon.mainhand tcc:reduce_count/1
 execute unless data storage tcc:storage root.temp.macro_input{extended:1b} run data modify storage tcc:storage root.temp.macro_input.path set value ""

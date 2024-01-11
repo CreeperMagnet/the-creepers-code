@@ -1,6 +1,4 @@
-############################################################
 # Makes animations and such for a spell-casting cycle
-############################################################
 
 scoreboard players reset @s tcc.dummy2
 tag @s remove tcc.spellcasting

@@ -1,6 +1,4 @@
-############################################################
 # Rotates a block
-############################################################
 
 $execute if block ~ ~ ~ $(block)[half=bottom,waterlogged=false] run function tcc:item/wrench/rotate/macro/facing_cardinal {block:"$(block)"}
 $execute if block ~ ~ ~ $(block)[half=bottom,waterlogged=true] run function tcc:item/wrench/rotate/macro/facing_cardinal_waterloggable {block:"$(block)"}

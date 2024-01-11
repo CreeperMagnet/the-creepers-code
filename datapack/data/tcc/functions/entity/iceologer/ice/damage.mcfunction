@@ -1,6 +1,4 @@
-############################################################
 # Damages a player and applies slowness
-############################################################
 
 tag @s add tcc.iceologer_ice_damage_source
 data remove storage tcc:storage root.temp.macro_input

@@ -1,6 +1,4 @@
-############################################################
 # Refreshes the player's compendium(s)
-############################################################
 
 execute if entity @s[gamemode=spectator] run return 0
 

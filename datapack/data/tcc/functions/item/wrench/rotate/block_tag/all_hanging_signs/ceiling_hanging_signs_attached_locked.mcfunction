@@ -1,6 +1,4 @@
-############################################################
 # Rotates an attached hanging sign
-############################################################
 
 execute if block ~ ~ ~ minecraft:acacia_hanging_sign run function tcc:item/wrench/rotate/macro/hanging_signs/locked_rotation/main {block:"minecraft:acacia_hanging_sign",attached:"true"}
 execute if block ~ ~ ~ minecraft:bamboo_hanging_sign run function tcc:item/wrench/rotate/macro/hanging_signs/locked_rotation/main {block:"minecraft:bamboo_hanging_sign",attached:"true"}

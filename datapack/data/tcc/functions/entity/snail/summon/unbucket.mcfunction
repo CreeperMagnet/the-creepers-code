@@ -1,6 +1,4 @@
-############################################################
 # Initiates the proper data for a newly spawned snail from a bucket
-############################################################
 
 data modify entity @s {} merge from storage tcc:storage root.temp.snail_bucket.tag.tcc.snail
 execute store result score @s tcc.dummy2 run data get storage tcc:storage root.temp.snail_bucket.tag.tcc.snail_boost_timer

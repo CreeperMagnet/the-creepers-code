@@ -1,6 +1,4 @@
-############################################################
 # Fills a teapot, setting tags and visuals
-############################################################
 
 data remove storage tcc:storage root.temp.macro_input
 execute on vehicle run data modify storage tcc:storage root.temp.macro_input set from entity @s item.tag.tea

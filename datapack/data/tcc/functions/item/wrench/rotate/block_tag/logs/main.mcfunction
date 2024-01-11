@@ -1,6 +1,4 @@
-############################################################
 # Checks a block tag
-############################################################
 
 execute if block ~ ~ ~ #minecraft:acacia_logs run function tcc:item/wrench/rotate/block_tag/logs/specific_logs {type:"acacia"}
 execute if block ~ ~ ~ #minecraft:birch_logs run function tcc:item/wrench/rotate/block_tag/logs/specific_logs {type:"birch"}

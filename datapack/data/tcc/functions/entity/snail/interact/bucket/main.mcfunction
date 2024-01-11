@@ -1,6 +1,4 @@
-############################################################
 # Commands to run for bucketing the snail
-############################################################
 
 data modify storage tcc:storage root.temp.item.tag.tcc.snail set from entity @s {}
 execute if entity @s[scores={tcc.dummy2=1..}] store result storage tcc:storage root.temp.item.tag.tcc.snail_boost_timer int 1 run scoreboard players get @s tcc.dummy2

@@ -1,6 +1,4 @@
-############################################################
 # Toggles the alwaysShowTeaTimer gamerule
-############################################################
 
 execute store result score @s tcc.dummy run data get storage tcc:storage root.gamerules.alwaysShowTeaTimer
 execute if entity @s[scores={tcc.dummy=..0}] run data modify storage tcc:storage root.gamerules.alwaysShowTeaTimer set value 1b

@@ -1,6 +1,4 @@
-############################################################
 # Rotates the block you're looking at
-############################################################
 
 execute align xyz positioned ~0.5 ~0.5 ~0.5 run playsound tcc:item.wrench.rotate_block block @a[distance=..16]
 function tcc:item/wrench/damage

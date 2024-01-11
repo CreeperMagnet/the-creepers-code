@@ -1,0 +1,74 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:loot_table",
+              "name": "tcc:items/snail_bucket",
+              "functions": [
+                {
+                  "function": "set_nbt",
+                  "tag": "{CustomModelData:330035,tcc:{variant:\"light_blue\"}}"
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "random_chance",
+                  "chance": 0.05
+                }
+              ]
+            },
+            {
+              "type": "minecraft:group",
+              "children": [
+                {
+                  "type": "minecraft:loot_table",
+                  "name": "tcc:items/snail_bucket",
+                  "weight": 2
+                },
+                {
+                  "type": "minecraft:loot_table",
+                  "name": "tcc:items/snail_bucket",
+                  "functions": [
+                    {
+                      "function": "set_nbt",
+                      "tag": "{CustomModelData:330032,tcc:{variant:\"black\"}}"
+                    }
+                  ],
+                  "weight": 2
+                },
+                {
+                  "type": "minecraft:loot_table",
+                  "name": "tcc:items/snail_bucket",
+                  "functions": [
+                    {
+                      "function": "set_nbt",
+                      "tag": "{CustomModelData:330038,tcc:{variant:\"yellow\"}}"
+                    }
+                  ],
+                  "weight": 1
+                },
+                {
+                  "type": "minecraft:loot_table",
+                  "name": "tcc:items/snail_bucket",
+                  "functions": [
+                    {
+                      "function": "set_nbt",
+                      "tag": "{CustomModelData:330037,tcc:{variant:\"spiral\"}}"
+                    }
+                  ],
+                  "weight": 1
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "random_sequence": "tcc:gameplay/trades/wandering_trader/bucketed_mob/snail_bucket"
+}

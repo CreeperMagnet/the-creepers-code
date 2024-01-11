@@ -1,6 +1,4 @@
-############################################################
 # Verifies the item for gobblerift feeding
-############################################################
 
 scoreboard players set @s tcc.dummy 0
 data remove storage tcc:storage root.temp.item.tag.RepairCost

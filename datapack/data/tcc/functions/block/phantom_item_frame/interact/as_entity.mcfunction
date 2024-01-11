@@ -1,6 +1,4 @@
-############################################################
 # Edits a phantom item frame to have an item inside
-############################################################
 
 playsound tcc:entity.phantom_item_frame.add_item block @a[distance=..16]
 # Set empty display invisible

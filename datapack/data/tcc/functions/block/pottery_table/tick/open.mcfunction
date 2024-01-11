@@ -1,6 +1,4 @@
-############################################################
 # Commands to run tickly for open pottery tables
-############################################################
 
 # Check if the contents of the barrel have changed at all
 data modify entity @s item.tag.stored_barrel_data[0] set from entity @s item.tag.stored_barrel_data[1]

@@ -1,6 +1,4 @@
-############################################################
 # Rotates a command-block type
-############################################################
 
 $execute if block ~ ~ ~ $(block)[conditional=false] run function tcc:item/wrench/rotate/macro/facing_all {block:"$(block)"}
 

@@ -1,6 +1,4 @@
-############################################################
 # Updates unlocked entries for outdated books
-############################################################
 
 scoreboard players set #temp_0 tcc.dummy 0
 
@@ -50,6 +48,6 @@ execute if score #temp_0 tcc.dummy matches 1 run function tcc:item/compendium/re
 function tcc:item/compendium/unlock/unlock_multiple/loop
 
 # Get the item position to modify
-function tcc:item/compendium/get_item_pos
+function tcc:item/get_item_pos
 # Apply the changes to the item
 function tcc:item/compendium/unlock/inject/modify_item/main with storage tcc:storage root.temp.item_position

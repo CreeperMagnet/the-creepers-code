@@ -1,6 +1,4 @@
-############################################################
 # Damages the cursed crown when you get hit (and resets your cooldown)
-############################################################
 
 tag @s add tcc.cursed_crown_ignore_inventory_change
 scoreboard players set @s tcc.cursed_crown_cooldown 10

@@ -1,3 +1,5 @@
+# Runs when a decorated pot is placed
+
 data remove storage tcc:storage root.temp
 execute if entity @s[y_rotation=-135..-45] run data modify storage tcc:storage root.temp.direction set value "east"
 execute if entity @s[y_rotation=-45..45] run data modify storage tcc:storage root.temp.direction set value "south"

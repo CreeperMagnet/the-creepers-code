@@ -1,6 +1,4 @@
-############################################################
 # Checks if the casing around the reactor is valid, then consumes the gold as fuel
-############################################################
 
 execute positioned ~ ~-1 ~ if predicate tcc:block/nether_reactor/off run tag @s add tcc.nether_reactor_core.on
 execute if entity @s[tag=tcc.nether_reactor_core.on] run fill ~1 ~-2 ~1 ~-1 ~-2 ~-1 minecraft:gilded_blackstone replace #tcc:nether_reactor/gold_blocks

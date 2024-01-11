@@ -1,6 +1,4 @@
-############################################################
 # Modifies the storage for a specific potion type
-############################################################
 
 data modify storage tcc:storage root.temp.item.tag.display.Name set value '{"translate":"item.tcc.diluted_potion.effect.harming","italic":false,"color":"white"}'
 data modify storage tcc:storage root.temp.item.tag.display.Lore prepend value '{"color":"red","italic":false,"translate":"effect.tcc.minor_instant_damage"}'

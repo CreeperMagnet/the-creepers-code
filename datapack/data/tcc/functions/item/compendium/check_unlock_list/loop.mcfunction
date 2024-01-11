@@ -1,6 +1,4 @@
-############################################################
 # Makes sure the player's list of unlocked entries doesn't contain non-existant ones
-############################################################
 
 $execute if data storage tcc:storage root.temp{all_entries:["$(entry)"]} run data modify storage tcc:storage root.temp.compendium.unlocked_entries prepend from storage tcc:storage root.temp.compendium.unlocked_entries[-1]
 data remove storage tcc:storage root.temp.compendium.unlocked_entries[-1]

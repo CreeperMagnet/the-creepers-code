@@ -1,6 +1,4 @@
-############################################################
 # Commands to run every second as the proper selected entity types
-############################################################
 
 ## Vanilla entity modification
 execute if entity @s[type=#tcc:technical/needs_processing,tag=!smithed.entity,tag=!tcc.modified_vanilla_entity] run function tcc:entity/processing/main

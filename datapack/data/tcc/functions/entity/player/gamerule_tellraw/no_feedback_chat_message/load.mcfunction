@@ -1,6 +1,4 @@
-############################################################
 # Removes the annoying "Executed X commands from function" message
-############################################################
 
 tellraw @s[tag=!tcc.no_space] ""
 tag @s remove tcc.no_space

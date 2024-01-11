@@ -1,6 +1,4 @@
-############################################################
 # Sets the scoreboards for the timer
-############################################################
 
 scoreboard players reset #temp_0 tcc.dummy
 scoreboard players reset #temp_1 tcc.dummy

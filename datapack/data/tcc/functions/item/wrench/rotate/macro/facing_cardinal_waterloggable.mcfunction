@@ -1,6 +1,4 @@
-############################################################
 # Rotates a block with an cardinal facing blockstate
-############################################################
 
 $execute if block ~ ~ ~ $(block)[waterlogged=false] run function tcc:item/wrench/rotate/macro/facing_cardinal {block:"$(block)"}
 $execute if block ~ ~ ~ $(block)[waterlogged=true,facing=north] run return run setblock ~ ~ ~ $(block)[facing=east,waterlogged=true]

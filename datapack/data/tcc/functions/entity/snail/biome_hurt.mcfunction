@@ -1,6 +1,4 @@
-############################################################
 # Commands to run if a snail is hurting in a specific biome
-############################################################
 
 data modify entity @s HurtTime set value 9s
 function tcc:entity/trader_entity/hurt/9s

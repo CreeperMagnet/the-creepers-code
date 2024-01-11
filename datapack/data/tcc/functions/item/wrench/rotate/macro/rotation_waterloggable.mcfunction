@@ -1,6 +1,4 @@
-############################################################
 # Rotates a block
-############################################################
 
 $execute if block ~ ~ ~ $(block)[waterlogged=false] run function tcc:item/wrench/rotate/macro/rotation {block:"$(block)"}
 $execute if block ~ ~ ~ $(block)[waterlogged=true,rotation=0] run return run setblock ~ ~ ~ $(block)[waterlogged=true,rotation=1]

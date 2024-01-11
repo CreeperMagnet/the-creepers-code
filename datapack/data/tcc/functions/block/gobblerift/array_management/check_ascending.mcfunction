@@ -1,6 +1,4 @@
-############################################################
 # Ensures that all gobblerift IDs are in ascending order
-############################################################
 
 execute store result score @s tcc.dummy run data get storage tcc:storage root.temp.id
 execute store result score #temp_1 tcc.dummy run data get storage tcc:storage root.gobblerift_data.next_id

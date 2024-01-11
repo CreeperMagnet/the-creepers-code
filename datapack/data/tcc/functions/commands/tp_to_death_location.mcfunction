@@ -1,6 +1,4 @@
-############################################################
 # Teleports you to your death location using riftjuice code
-############################################################
 
 data remove storage tcc:storage root.temp.macro_input
 data modify storage tcc:storage root.temp.macro_input.x set from entity @s LastDeathLocation.pos[0]

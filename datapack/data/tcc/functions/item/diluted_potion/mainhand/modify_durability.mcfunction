@@ -1,6 +1,4 @@
-############################################################
 # Mainhand for diluted potions
-############################################################
 
 data remove storage tcc:storage root.temp
 data modify storage tcc:storage root.temp.item set from entity @s SelectedItem

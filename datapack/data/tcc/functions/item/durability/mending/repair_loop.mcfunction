@@ -1,6 +1,4 @@
-############################################################
 # Repairs all items until no more can be repaired or found
-############################################################
 
 execute if score #mending_equipment_last_index tcc.dummy matches 1.. store result storage tcc:storage root.temp.random.max int 1 run scoreboard players get #mending_equipment_last_index tcc.dummy
 execute if score #mending_equipment_last_index tcc.dummy matches 1.. run function tcc:item/durability/mending/get_random/random with storage tcc:storage root.temp.random

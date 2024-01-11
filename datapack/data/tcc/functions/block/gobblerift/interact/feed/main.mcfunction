@@ -1,6 +1,4 @@
-############################################################
 # Commands to run as gobblerift being fed
-############################################################
 
 execute if entity @s[tag=!tcc.silent] run playsound tcc:block.gobblerift.swallow block @a[distance=..16]
 execute on target run advancement grant @s only tcc:minecraft/end/feed_gobblerift

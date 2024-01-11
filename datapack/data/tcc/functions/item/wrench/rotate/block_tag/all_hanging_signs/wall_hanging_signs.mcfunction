@@ -1,6 +1,4 @@
-############################################################
 # Rotates a wall hanging sign and any unattached signs beneath it
-############################################################
 
 
 execute if block ~ ~ ~ minecraft:acacia_wall_hanging_sign run function tcc:item/wrench/rotate/macro/facing_cardinal_waterloggable {block:"minecraft:acacia_wall_hanging_sign"}

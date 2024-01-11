@@ -1,6 +1,4 @@
-############################################################
 # Modifies the storage for a specific potion type
-############################################################
 
 function tcc:block/brewing_stand/brewing/dilute_potion/set_generic_tags {translation:"luck",color:"blue",effect:"luck",duration_0:3,duration_1:0,amplifier:0,custom_model_data:330209}
 data modify storage tcc:storage root.temp.item.tag.display.Lore append value '{"text":""}'

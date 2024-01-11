@@ -1,6 +1,4 @@
-############################################################
 # Modifies the item in storage
-############################################################
 
 data modify storage tcc:storage root.temp.ingredient set from block ~ ~ ~ Items[{Slot:3b}]
 execute if data storage tcc:storage root.temp.ingredient.tag.tcc{id:"sightless_eye"} if data storage tcc:storage root.temp.item{id:"minecraft:potion",tag:{Potion:"minecraft:water"}} run data modify storage tcc:storage root.temp.item.tag.Potion set value "minecraft:mundane"

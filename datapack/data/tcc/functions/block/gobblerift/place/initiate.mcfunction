@@ -1,6 +1,4 @@
-############################################################
 # Initiates the gobblerift's tags
-############################################################
 
 execute unless data storage tcc:storage root.temp{name:'{"translate":"block.tcc.gobblerift","italic":false,"color":"yellow"}'} run data modify entity @s CustomName set from storage tcc:storage root.temp.name
 data modify entity @s item.tag.dimension set from storage tcc:storage root.temp.dimension

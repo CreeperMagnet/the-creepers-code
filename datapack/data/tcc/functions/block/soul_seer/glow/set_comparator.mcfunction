@@ -1,6 +1,4 @@
-############################################################
 # Fills the dropper with items based on the comparator score
-############################################################
 
 scoreboard players reset @s tcc.soul_seer_cooldown
 execute store result score @s tcc.dummy run data get entity @s item.tag.comparator

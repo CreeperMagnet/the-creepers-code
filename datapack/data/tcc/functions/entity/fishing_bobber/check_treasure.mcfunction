@@ -1,6 +1,4 @@
-############################################################
 # Checks if the surrounding area can yield treasure
-############################################################
 
 scoreboard players reset #temp_0 tcc.dummy
 scoreboard players reset #temp_1 tcc.dummy

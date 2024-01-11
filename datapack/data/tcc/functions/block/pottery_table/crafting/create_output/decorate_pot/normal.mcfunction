@@ -1,6 +1,4 @@
-############################################################
 # Decorates a normal pot
-############################################################
 
 execute if data storage tcc:storage root.temp.barrel_data[1][{Slot:3b,tag:{tcc:{id:"pottery_sherd"}}}] run return 0
 execute if data storage tcc:storage root.temp.barrel_data[1][{Slot:11b,tag:{tcc:{id:"pottery_sherd"}}}] run return 0

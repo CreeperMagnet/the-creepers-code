@@ -1,6 +1,4 @@
-############################################################
 # Buckets an axolotl
-############################################################
 
 execute if data storage tcc:storage root.temp.item.tag{Variant:0,Age:0} run data modify storage tcc:storage root.temp.item.tag.CustomModelData set value 330000
 execute if data storage tcc:storage root.temp.item.tag{Variant:0} unless data storage tcc:storage root.temp.item.tag{Age:0} run data modify storage tcc:storage root.temp.item.tag.CustomModelData set value 330001

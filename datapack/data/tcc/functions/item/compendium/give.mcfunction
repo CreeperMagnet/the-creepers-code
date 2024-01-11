@@ -1,6 +1,4 @@
-############################################################
 # Gives you a compendium
-############################################################
 
 execute if entity @s[gamemode=spectator] run return 0
 

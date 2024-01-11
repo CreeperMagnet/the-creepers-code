@@ -1,6 +1,4 @@
-############################################################
 # Rotates a block with a cardinal facing blockstate
-############################################################
 
 execute if block ~ ~ ~ #minecraft:anvil run function tcc:item/wrench/rotate/block_tag/anvil
 

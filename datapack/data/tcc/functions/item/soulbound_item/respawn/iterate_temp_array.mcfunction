@@ -1,6 +1,4 @@
-############################################################
 # Functions to run when a player respawns after having died with a soulbound item
-############################################################
 
 data modify storage tcc:storage root.temp.dropped_soulbound_items_entry set from storage tcc:storage root.temp.dropped_soulbound_items[0]
 execute store success score @s tcc.dummy run data modify storage tcc:storage root.temp.dropped_soulbound_items_entry.UUID set from entity @s UUID

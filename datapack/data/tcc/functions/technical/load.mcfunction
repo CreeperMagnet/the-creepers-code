@@ -1,6 +1,4 @@
-############################################################
 # Adds all scoreboards and sets up everything
-############################################################
 
 # Use for single-tick operations
 scoreboard objectives add tcc.dummy dummy
@@ -19,7 +17,7 @@ gamerule maxCommandChainLength 1073741824
 ## Compendium Data
 execute unless data storage tcc:storage root.compendium.player_data run data modify storage tcc:storage root.compendium set value {player_data:[]}
 # The following line is updated when the generator is run
-data modify storage tcc:storage root.compendium.version set value {release:1,dev:0}
+data modify storage tcc:storage root.compendium.version set value {release:2,dev:0}
 
 ## Scoreboards
 scoreboard objectives add tcc.used_warped_fungus_on_a_stick minecraft.used:minecraft.warped_fungus_on_a_stick

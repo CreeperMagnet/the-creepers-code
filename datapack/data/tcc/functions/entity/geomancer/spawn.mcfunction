@@ -1,6 +1,4 @@
-############################################################
 # Spawns a geomancer
-############################################################
 
 execute store result score @s tcc.dummy if entity @e[tag=tcc.geomancer,type=minecraft:wandering_trader]
 execute if entity @e[tag=tcc.geomancer,type=minecraft:wandering_trader,distance=..20] run scoreboard players set @s tcc.dummy 100

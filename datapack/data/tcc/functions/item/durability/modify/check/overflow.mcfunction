@@ -1,6 +1,4 @@
-############################################################
 # Checks if the item's durability is either going to go over the maximum or under the minimum (break)
-############################################################
 
 # Prevent the added durability amount from overflowing the maximum value by setting it to the maximum repair value
 execute if score #item_durability_change tcc.dummy matches ..-1 run function tcc:item/durability/modify/check/set_max

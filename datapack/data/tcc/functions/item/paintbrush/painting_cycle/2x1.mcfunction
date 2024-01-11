@@ -1,6 +1,4 @@
-############################################################
 # Sets the status of a painting
-############################################################
 
 execute if entity @s[nbt={variant:"minecraft:pool"}] run return run data modify entity @s variant set value "minecraft:courbet"
 execute if entity @s[nbt={variant:"minecraft:courbet"}] run return run data modify entity @s variant set value "minecraft:sunset"

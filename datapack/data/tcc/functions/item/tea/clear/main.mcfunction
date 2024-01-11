@@ -1,6 +1,4 @@
-############################################################
 # Clears a negative effect from you when you get it if you have the proper tags
-############################################################
 
 effect clear @s[tag=tcc.tea.antitoxin] minecraft:poison
 effect clear @s[tag=tcc.tea.clearsight] minecraft:blindness

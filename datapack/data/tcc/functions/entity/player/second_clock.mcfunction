@@ -1,6 +1,4 @@
-############################################################
 # Functions to run off players every second
-############################################################
 
 # Reset for mending repair
 execute if entity @s[predicate=!tcc:entity/holding/mending_item/any] run tag @s remove tcc.saw_xp_orb

@@ -1,6 +1,4 @@
-############################################################
 # Commands for witch hat
-############################################################
 
 advancement revoke @s only tcc:technical/inventory_changed/witch_hat/equip
 stopsound @s master minecraft:item.armor.equip_leather

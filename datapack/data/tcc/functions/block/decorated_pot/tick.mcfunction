@@ -1,6 +1,4 @@
-############################################################
 # Ticking for decorated pots
-############################################################
 
 execute unless entity @s[scores={tcc.dummy2=1..}] unless block ~ ~ ~ decorated_pot run function tcc:block/decorated_pot/break/main
 

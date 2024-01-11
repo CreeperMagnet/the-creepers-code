@@ -1,6 +1,4 @@
-############################################################
 # Makes animations and such for a spell-casting cycle
-############################################################
 
 scoreboard players add @s tcc.dummy2 0
 execute if entity @s[scores={tcc.dummy2=0..}] run function tcc:entity/illager/line_of_sight

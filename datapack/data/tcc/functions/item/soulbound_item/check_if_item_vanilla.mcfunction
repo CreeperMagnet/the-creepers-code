@@ -1,6 +1,4 @@
-############################################################
 # Checks if an item is vanilla or not
-############################################################
 
 scoreboard players set @s tcc.dummy 0
 data remove storage tcc:storage root.temp

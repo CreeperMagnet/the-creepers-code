@@ -1,6 +1,4 @@
-############################################################
 # Gives the proper tea effect
-############################################################
 
 execute unless entity @s[advancements={tcc:technical/consume_item/tea={antitoxin=false,antitoxin_extended=false}}] unless entity @s[tag=tcc.tea.antitoxin,scores={tcc.tea=301..}] run function tcc:item/tea/drink/antitoxin
 execute unless entity @s[advancements={tcc:technical/consume_item/tea={clearsight=false,clearsight_extended=false}}] unless entity @s[tag=tcc.tea.clearsight,scores={tcc.tea=301..}] run function tcc:item/tea/drink/clearsight

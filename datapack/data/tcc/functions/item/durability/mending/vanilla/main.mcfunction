@@ -1,6 +1,4 @@
-############################################################
 # Function to modify the durability of a vanilla item
-############################################################
 
 execute store result score @s tcc.dummy run data get storage tcc:storage root.temp.item.tag.Damage
 scoreboard players operation #temp_0 tcc.dummy = @s tcc.dummy

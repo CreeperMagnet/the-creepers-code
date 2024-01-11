@@ -1,6 +1,4 @@
-############################################################
 # Offset each entry after the modified entry on the same page
-############################################################
 
 # Copy the list of start values on this page
 $data modify storage tcc:storage root.temp.starts set from storage tcc:storage root.temp.compendium.page_starts[{page:$(page)}].starts

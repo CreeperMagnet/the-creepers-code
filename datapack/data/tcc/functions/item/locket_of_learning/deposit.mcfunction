@@ -1,6 +1,4 @@
-############################################################
 # Stores experience into the locket
-############################################################
 
 # increments the score by 1, to later store back into the locket data
 scoreboard players add @s tcc.dummy 1

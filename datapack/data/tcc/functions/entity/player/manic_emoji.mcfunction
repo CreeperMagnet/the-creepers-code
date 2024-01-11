@@ -1,6 +1,4 @@
-############################################################
 # Only allows posting Manic emojis if Manic is installed
-############################################################
 
 execute if entity @s[scores={tcc.emoji=100}] run tellraw @a {"translate":"chat.type.text","with":[{"selector":"@s"},{"translate":"chat.manic.emoji.spook.chat","font":"tcc:emoji"}]}
 execute if entity @s[scores={tcc.emoji=101}] run tellraw @a {"translate":"chat.type.text","with":[{"selector":"@s"},{"translate":"chat.manic.emoji.snotty.chat","font":"tcc:emoji"}]}

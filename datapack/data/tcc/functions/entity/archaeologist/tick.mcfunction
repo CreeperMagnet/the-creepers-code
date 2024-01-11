@@ -1,6 +1,4 @@
-############################################################
 # Ticking for archaeologist
-############################################################
 
 item replace entity @s[nbt=!{HandItems:[{id:"minecraft:structure_block",tag:{CustomModelData:330064}}]}] weapon.mainhand with minecraft:structure_block{CustomModelData:330064}
 item replace entity @s[nbt={HurtTime:0s,ArmorItems:[{id:"minecraft:structure_block",tag:{CustomModelData:330063}}]}] armor.head with minecraft:structure_block{CustomModelData:330062}

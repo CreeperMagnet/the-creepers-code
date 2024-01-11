@@ -1,6 +1,4 @@
-############################################################
 # Adds vanilla items to the pool to repair
-############################################################
 
 execute if entity @s[predicate=tcc:entity/holding/mending_item/vanilla/mainhand] run data modify storage tcc:storage root.temp.equipment.list append value "vanilla_mainhand"
 execute if entity @s[predicate=tcc:entity/holding/mending_item/vanilla/offhand] run data modify storage tcc:storage root.temp.equipment.list append value "vanilla_offhand"

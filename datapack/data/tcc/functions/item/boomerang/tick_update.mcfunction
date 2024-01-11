@@ -1,6 +1,4 @@
-############################################################
 # Commands to update a boomerang once every tick
-############################################################
 
 scoreboard players operation #temp_0 tcc.dummy = @s tcc.dummy2
 scoreboard players operation #temp_0 tcc.dummy %= #3 tcc.dummy

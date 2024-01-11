@@ -1,6 +1,4 @@
-############################################################
 # Sets the faces of the decorated pot's passenger
-############################################################
 
 scoreboard players set @s tcc.dummy 330000
 scoreboard players operation @s tcc.dummy += #temp_6 tcc.dummy

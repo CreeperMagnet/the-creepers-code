@@ -1,6 +1,4 @@
-############################################################
 # Functions to run when a player respawns after having died with a soulbound item
-############################################################
 
 data remove storage tcc:storage root.temp
 data modify storage tcc:storage root.temp.dropped_soulbound_items set from storage tcc:storage root.dropped_soulbound_items

@@ -1,6 +1,4 @@
-############################################################
 # Starts the recipe process of a brewing recipe
-############################################################
 
 data modify storage tcc:storage root.temp.item.tag.CustomPotionColor set value 8940032
 data modify storage tcc:storage root.temp.item.tag.Potion set value "minecraft:mundane"

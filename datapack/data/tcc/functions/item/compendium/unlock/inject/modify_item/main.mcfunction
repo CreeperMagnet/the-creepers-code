@@ -1,6 +1,4 @@
-############################################################
 # Copies the modified NBT to a compendium
-############################################################
 
 # Tag so advancements won't trigger while modifying the item
 tag @s add tcc.modifying_item

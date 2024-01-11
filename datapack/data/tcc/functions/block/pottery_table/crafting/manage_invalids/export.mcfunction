@@ -1,6 +1,4 @@
-############################################################
 # Exports invalid items
-############################################################
 
 data modify storage tcc:storage root.temp.Items set value []
 

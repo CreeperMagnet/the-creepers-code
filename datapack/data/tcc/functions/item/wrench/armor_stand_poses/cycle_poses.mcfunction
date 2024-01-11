@@ -1,6 +1,4 @@
-############################################################
 # Cycles the poses of an armor stand
-############################################################
 
 playsound tcc:item.wrench.pose_armor_stand player @a[distance=..16]
 scoreboard players set @s tcc.dummy 0

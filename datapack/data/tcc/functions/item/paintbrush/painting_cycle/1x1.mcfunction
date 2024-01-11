@@ -1,6 +1,4 @@
-############################################################
 # Sets the status of a painting
-############################################################
 
 execute if entity @s[nbt={variant:"minecraft:plant"}] run return run data modify entity @s variant set value "minecraft:wasteland"
 execute if entity @s[nbt={variant:"minecraft:kebab"}] run return run data modify entity @s variant set value "minecraft:plant"

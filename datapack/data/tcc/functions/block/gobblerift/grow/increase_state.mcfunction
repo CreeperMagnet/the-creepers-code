@@ -1,6 +1,4 @@
-############################################################
 # Grow a gobblerift
-############################################################
 
 scoreboard players set @s tcc.dummy2 0
 execute if entity @s[tag=tcc.gobblerift.seedling_5] run function tcc:block/gobblerift/set_state/hungry

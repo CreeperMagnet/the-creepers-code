@@ -1,6 +1,4 @@
-############################################################
 # Modifies the storage for a generic potion type
-############################################################
 
 $data modify storage tcc:storage root.temp.item.tag.display.Name set value '{"translate":"item.tcc.diluted_potion.effect.$(translation)","italic":false,"color":"white"}'
 $execute if score #0 tcc.dummy matches $(amplifier) run data modify storage tcc:storage root.temp.item.tag.display.Lore prepend value '{"color":"$(color)","italic":false,"translate":"potion.withDuration","with":[{"translate":"effect.minecraft.$(effect)"},{"translate":"potion.tcc.duration","with":[0,0,$(duration_0),$(duration_1)]}]}'
