@@ -418,6 +418,8 @@
   "block.tcc.soul_seer.name": " ",
   "block.tcc.soul_conductor.name": " ",
 
+  "entity.tcc.hide_name": "\uc000",
+
   "commands.tcc.initiate.version_check": "%s",
 
   "chat.tcc.emoji_hover_event": "%s\n%s\n",

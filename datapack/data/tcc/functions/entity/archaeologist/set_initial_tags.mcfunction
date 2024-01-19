@@ -4,6 +4,8 @@ tag @s add tcc.archaeologist
 tag @s add tcc.tick
 
 item replace entity @s armor.head with minecraft:structure_block{CustomModelData:330062}
+execute if entity @s[nbt={CustomName:'{"translate":"entity.tcc.hide_name","font":"tcc:technical"}'}] run team join tcc.no_nametag
+execute if entity @s[nbt={CustomName:'{"translate":"entity.tcc.hide_name","font":"tcc:technical"}'}] run data modify entity @s CustomName set value '{"translate":"entity.tcc.archaeologist"}'
 execute unless data entity @s CustomName run team join tcc.no_nametag
 execute unless data entity @s CustomName run data modify entity @s CustomName set value '{"translate":"entity.tcc.archaeologist"}'
 data modify entity @s ArmorDropChances set value [-10000.0f,-10000.0f,-10000.0f,-10000.0f]

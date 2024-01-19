@@ -2,8 +2,6 @@
   "values": [
     "minecraft:fire",
     "minecraft:lava",
-    "minecraft:soul_fire",
-    "minecraft:campfire",
-    "minecraft:soul_campfire"
+    "minecraft:soul_fire"
   ]
 }

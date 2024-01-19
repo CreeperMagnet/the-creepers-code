@@ -8,7 +8,7 @@ execute if entity @s[tag=!tcc.compendium_ban,tag=tcc.can_change_compendium_mode,
 execute if entity @s[tag=!tcc.compendium_ban,tag=tcc.can_change_compendium_mode] unless score @s tccc.internal_trigger matches 0 run function tcc:item/compendium/toggle_unlockable/toggle
 
 ## Item teleportation
-execute if entity @s[tag=tcc.has_enabled_tangling_pearl] unless predicate tcc:entity/full_inventory as @e[type=#tcc:tangling_pearl_teleported,distance=..7,tag=!smithed.entity,tag=!tcc.recovery_compass_item] at @s unless data entity @s Thrower run function tcc:item/tangling_pearl/as_item
+execute if entity @s[tag=tcc.has_enabled_tangling_pearl] as @e[type=#tcc:tangling_pearl_teleported,distance=..7,tag=!smithed.entity,tag=!tcc.recovery_compass_item,tag=!tcc.tangling_pearl_item.teleported] at @s unless data entity @s Thrower run function tcc:item/tangling_pearl/as_item
 
 ## Horses with Frost Trotting
 execute if entity @s[tag=tcc.on_horse] run function tcc:entity/horse_frost_trotting/tick

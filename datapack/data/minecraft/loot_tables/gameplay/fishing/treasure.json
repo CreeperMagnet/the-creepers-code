@@ -91,7 +91,14 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:coast_armor_trim_smithing_template"
+          "name": "minecraft:coast_armor_trim_smithing_template",
+          "weight": 3,
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "tcc:location/above_shipwreck"
+            }
+          ]
         },
         {
           "name": "tcc:gameplay/fishing_pottery_sherds/cold_ocean_ruin",

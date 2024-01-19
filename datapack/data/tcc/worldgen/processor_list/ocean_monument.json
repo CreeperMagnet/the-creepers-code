@@ -3328,7 +3328,7 @@
           }
         ]
       },
-      "limit": 15,
+      "limit": 25,
       "processor_type": "minecraft:capped"
     },
     {
@@ -3356,7 +3356,7 @@
           }
         ]
       },
-      "limit": 25,
+      "limit": 10,
       "processor_type": "minecraft:capped"
     }
   ]

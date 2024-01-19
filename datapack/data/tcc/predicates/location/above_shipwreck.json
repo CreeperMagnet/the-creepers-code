@@ -1,0 +1,151 @@
+{
+  "condition": "minecraft:any_of",
+  "terms": [
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "structure": "minecraft:shipwreck"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetY": -1,
+      "predicate": {
+        "structure": "minecraft:shipwreck"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetY": -2,
+      "predicate": {
+        "structure": "minecraft:shipwreck"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetY": -3,
+      "predicate": {
+        "structure": "minecraft:shipwreck"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetY": -4,
+      "predicate": {
+        "structure": "minecraft:shipwreck"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetY": -5,
+      "predicate": {
+        "structure": "minecraft:shipwreck"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetY": -6,
+      "predicate": {
+        "structure": "minecraft:shipwreck"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetY": -7,
+      "predicate": {
+        "structure": "minecraft:shipwreck"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetY": -8,
+      "predicate": {
+        "structure": "minecraft:shipwreck"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetY": -9,
+      "predicate": {
+        "structure": "minecraft:shipwreck"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetY": -10,
+      "predicate": {
+        "structure": "minecraft:shipwreck"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetY": -11,
+      "predicate": {
+        "structure": "minecraft:shipwreck"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetY": -12,
+      "predicate": {
+        "structure": "minecraft:shipwreck"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetY": -13,
+      "predicate": {
+        "structure": "minecraft:shipwreck"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetY": -14,
+      "predicate": {
+        "structure": "minecraft:shipwreck"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetY": -15,
+      "predicate": {
+        "structure": "minecraft:shipwreck"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetY": -16,
+      "predicate": {
+        "structure": "minecraft:shipwreck"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetY": -17,
+      "predicate": {
+        "structure": "minecraft:shipwreck"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetY": -18,
+      "predicate": {
+        "structure": "minecraft:shipwreck"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetY": -19,
+      "predicate": {
+        "structure": "minecraft:shipwreck"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetY": -20,
+      "predicate": {
+        "structure": "minecraft:shipwreck"
+      }
+    }
+  ]
+}

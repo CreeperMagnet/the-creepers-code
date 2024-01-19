@@ -156,7 +156,7 @@
           "items": [
             "minecraft:name_tag"
           ],
-          "nbt": "{display:{Name:'{\"text\":\"Gary\"}'}}"
+          "nbt": "{display:{Name:'\"Gary\"'}}"
         },
         "entity": [
           {

@@ -91,6 +91,18 @@
               "block": "minecraft:cake",
               "properties": [
                 "bites"
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:inverted",
+                  "term": {
+                    "condition": "minecraft:block_state_property",
+                    "block": "minecraft:cake",
+                    "properties": {
+                      "bites": "0"
+                    }
+                  }
+                }
               ]
             }
           ]

@@ -1,4 +1,4 @@
-# Summons an iceologer
+# Summons a snail
 
 function tcc:entity/snail/summon/spawn
 
