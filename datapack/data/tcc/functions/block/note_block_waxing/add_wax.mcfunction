@@ -27,3 +27,4 @@ execute if block ~ ~ ~ minecraft:note_block[note=22] run summon minecraft:marker
 execute if block ~ ~ ~ minecraft:note_block[note=23] run summon minecraft:marker ~ ~ ~ {data:{note:22},Tags:["tcc.waxed_note_block","tcc.tick","smithed.strict","smithed.entity"]}
 execute if block ~ ~ ~ minecraft:note_block[note=24] run summon minecraft:marker ~ ~ ~ {data:{note:23},Tags:["tcc.waxed_note_block","tcc.tick","smithed.strict","smithed.entity"]}
 tag @s add tcc.tag
+function tcc:block/note_block_waxing/reset_note/main
