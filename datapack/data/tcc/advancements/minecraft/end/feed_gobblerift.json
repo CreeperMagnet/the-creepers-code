@@ -1,8 +1,10 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:warped_fungus_on_a_stick",
-      "nbt": "{CustomModelData:330008}"
+      "id": "minecraft:warped_fungus_on_a_stick",
+      "components": {
+        "minecraft:custom_model_data": 330008
+      }
     },
     "title": {
       "translate": "advancements.tcc.minecraft.end.feed_gobblerift.title"

@@ -13,7 +13,7 @@
   ],
   "result": {
     "count": 6,
-    "item": "minecraft:cherry_trapdoor"
+    "id": "minecraft:cherry_trapdoor"
   },
   "show_notification": true
 }

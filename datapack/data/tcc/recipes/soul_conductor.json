@@ -1,0 +1,62 @@
+{
+  "category": "redstone",
+  "type": "crafting_shaped",
+  "pattern": [
+    "DDD",
+    "DPD",
+    "ESE"
+  ],
+  "key": {
+    "E": {
+      "item": "minecraft:echo_shard"
+    },
+    "D": {
+      "item": "minecraft:cobbled_deepslate"
+    },
+    "P": {
+      "item": "minecraft:ender_pearl"
+    },
+    "S": {
+      "item": "minecraft:sculk"
+    }
+  },
+  "result": {
+    "id": "minecraft:dropper",
+    "count": 1,
+    "components": {
+      "minecraft:custom_model_data": 330011,
+      "minecraft:container": [
+        {
+          "slot": 0,
+          "item": {
+            "id": "minecraft:structure_block",
+            "count": 1,
+            "components": {
+              "minecraft:custom_data": {
+                "tcc": {
+                  "placed_block": true,
+                  "clear": true,
+                  "block": "soul_conductor"
+                }
+              },
+              "minecraft:custom_model_data": 330000
+            }
+          }
+        }
+      ],
+      "minecraft:block_entity_data": {
+        "id": "minecraft:dropper"
+      },
+      "minecraft:custom_data": {
+        "tcc": {
+          "id": "soul_conductor",
+          "custom_block": true
+        }
+      },
+      "minecraft:item_name": "{\"translate\":\"block.tcc.soul_conductor\"}",
+      "minecraft:lore": [
+        "{\"translate\":\"pack.tcc\",\"color\":\"#008725\",\"italic\":true}"
+      ]
+    }
+  }
+}

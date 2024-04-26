@@ -8,15 +8,25 @@
           "weight": 1,
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{tcc:{id:\"glow_berry_muffin\"},manic:{sanity:\"good\"},CustomModelData:330008}"
+              "function": "minecraft:set_custom_data",
+              "tag": "{tcc:{id:\"glow_berry_muffin\"}}"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_model_data": 330003,
+                "minecraft:food": {
+                  "nutrition": 7,
+                  "saturation": 10.0
+                }
+              }
             },
             {
               "function": "minecraft:set_name",
               "name": {
-                "translate": "item.tcc.glow_berry_muffin",
-                "italic": false
-              }
+                "translate": "item.tcc.glow_berry_muffin"
+              },
+              "target": "item_name"
             },
             {
               "function": "minecraft:set_lore",
@@ -26,10 +36,11 @@
                   "color": "#008725",
                   "italic": true
                 }
-              ]
+              ],
+              "mode": "replace_all"
             }
           ],
-          "name": "minecraft:bread"
+          "name": "minecraft:poisonous_potato"
         }
       ]
     }

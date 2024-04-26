@@ -8,15 +8,30 @@
           "weight": 1,
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{HideFlags:2,tcc:{id:\"swordfish\"},manic:{sanity:\"very_bad\"},CustomModelData:330000}"
+              "function": "minecraft:set_custom_data",
+              "tag": "{tcc:{id:\"swordfish\"}}"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_model_data": 330000,
+                "!minecraft:damage": {},
+                "!minecraft:max_damage": {},
+                "minecraft:unbreakable": {},
+                "minecraft:max_stack_size": 64,
+                "minecraft:food": {
+                  "nutrition": 1,
+                  "saturation": 0.0,
+                  "can_always_eat": true
+                }
+              }
             },
             {
               "function": "minecraft:set_name",
               "name": {
-                "translate": "item.tcc.swordfish",
-                "italic": false
-              }
+                "translate": "item.tcc.swordfish"
+              },
+              "target": "item_name"
             },
             {
               "function": "minecraft:set_lore",
@@ -25,68 +40,12 @@
                   "translate": "pack.tcc",
                   "color": "#008725",
                   "italic": true
-                },
-                "",
-                {
-                  "translate": "item.modifiers.mainhand",
-                  "color": "gray",
-                  "italic": false
-                },
-                [
-                  " ",
-                  {
-                    "translate": "attribute.modifier.equals.0",
-                    "italic": false,
-                    "color": "dark_green",
-                    "with": [
-                      4,
-                      {
-                        "translate": "attribute.name.generic.attack_damage"
-                      }
-                    ]
-                  }
-                ],
-                [
-                  " ",
-                  {
-                    "translate": "attribute.modifier.equals.0",
-                    "italic": false,
-                    "color": "dark_green",
-                    "with": [
-                      2,
-                      {
-                        "translate": "attribute.name.generic.attack_speed"
-                      }
-                    ]
-                  }
-                ]
-              ]
-            },
-            {
-              "function": "minecraft:set_attributes",
-              "modifiers": [
-                {
-                  "attribute": "generic.attack_damage",
-                  "name": "generic.attack_damage",
-                  "amount": 4,
-                  "operation": "addition",
-                  "slot": [
-                    "mainhand"
-                  ]
-                },
-                {
-                  "attribute": "generic.attack_speed",
-                  "name": "generic.attack_speed",
-                  "amount": -2,
-                  "operation": "addition",
-                  "slot": [
-                    "mainhand"
-                  ]
                 }
-              ]
+              ],
+              "mode": "replace_all"
             }
           ],
-          "name": "minecraft:tropical_fish"
+          "name": "minecraft:stone_sword"
         }
       ]
     }

@@ -36,8 +36,14 @@
               "function": "minecraft:set_damage"
             },
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{Enchantments:[{id:\"minecraft:respiration\",lvl:3s}]}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:respiration": 3
+                  }
+                }
+              }
             }
           ],
           "name": "minecraft:golden_helmet",
@@ -56,8 +62,14 @@
               "function": "minecraft:set_damage"
             },
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{Enchantments:[{id:\"minecraft:depth_strider\",lvl:3s}]}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:depth_strider": 3
+                  }
+                }
+              }
             }
           ],
           "name": "minecraft:golden_boots",
@@ -76,8 +88,14 @@
               "function": "minecraft:set_damage"
             },
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{Enchantments:[{id:\"minecraft:thorns\",lvl:3s}]}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:thorns": 3
+                  }
+                }
+              }
             }
           ],
           "name": "minecraft:golden_chestplate",
@@ -96,8 +114,14 @@
               "function": "minecraft:set_damage"
             },
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{Enchantments:[{id:\"minecraft:thorns\",lvl:3s}]}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:thorns": 3
+                  }
+                }
+              }
             }
           ],
           "name": "minecraft:golden_leggings",

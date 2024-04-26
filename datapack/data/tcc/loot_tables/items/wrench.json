@@ -8,34 +8,34 @@
           "weight": 1,
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{HideFlags:4,Unbreakable:1b,tcc:{id:\"wrench\",durability:[200,200],repaired:1b},CustomModelData:330004}"
+              "function": "minecraft:set_custom_data",
+              "tag": "{tcc:{id:\"wrench\"}}"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_model_data": 330004,
+                "minecraft:damage": 0,
+                "minecraft:max_damage": 200
+              }
             },
             {
               "function": "minecraft:set_name",
               "name": {
-                "translate": "item.tcc.wrench",
-                "italic": false
-              }
+                "translate": "item.tcc.wrench"
+              },
+              "target": "item_name"
             },
             {
               "function": "minecraft:set_lore",
               "lore": [
                 {
-                  "translate": "item.durability",
-                  "color": "gray",
-                  "italic": false,
-                  "with": [
-                    200,
-                    200
-                  ]
-                },
-                {
                   "translate": "pack.tcc",
                   "color": "#008725",
                   "italic": true
                 }
-              ]
+              ],
+              "mode": "replace_all"
             }
           ],
           "name": "minecraft:warped_fungus_on_a_stick"

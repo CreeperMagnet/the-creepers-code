@@ -8,7 +8,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "tcc:entities/snail"
+          "value": "tcc:entities/snail"
         }
       ]
     }

@@ -1,8 +1,10 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:angler_pottery_sherd",
-      "nbt": "{CustomModelData:330001}"
+      "id": "minecraft:angler_pottery_sherd",
+      "components": {
+        "minecraft:custom_model_data": 330001
+      }
     },
     "title": {
       "translate": "advancements.tcc.minecraft.nether.enter_refuge_remains.title"
@@ -33,7 +35,7 @@
             "entity": "this",
             "predicate": {
               "location": {
-                "structure": "tcc:refuge_remains"
+                "structures": "tcc:refuge_remains"
               }
             }
           }

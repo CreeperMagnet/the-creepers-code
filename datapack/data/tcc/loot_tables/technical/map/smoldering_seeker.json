@@ -9,13 +9,19 @@
             {
               "destination": "tcc:smoldering_seeker_located",
               "function": "minecraft:exploration_map",
-              "decoration": "target_point",
+              "decoration": "minecraft:target_point",
               "zoom": 1,
               "skip_existing_chunks": false
             },
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:330000,tcc:{id:\"smoldering_seeker_map\"}}"
+              "function": "minecraft:set_custom_data",
+              "tag": "{tcc:{id:\"smoldering_seeker_map\"}}"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_model_data": 330000
+              }
             }
           ],
           "name": "minecraft:map"

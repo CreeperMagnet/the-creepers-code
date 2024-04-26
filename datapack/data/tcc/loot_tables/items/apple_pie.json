@@ -8,15 +8,25 @@
           "weight": 1,
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{HideFlags:2,tcc:{id:\"apple_pie\"},manic:{sanity:\"neutral\"},CustomModelData:330002}"
+              "function": "minecraft:set_custom_data",
+              "tag": "{tcc:{id:\"apple_pie\"}}"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_model_data": 330000,
+                "minecraft:food": {
+                  "nutrition": 8,
+                  "saturation": 4.8
+                }
+              }
             },
             {
               "function": "minecraft:set_name",
               "name": {
-                "translate": "item.tcc.apple_pie",
-                "italic": false
-              }
+                "translate": "item.tcc.apple_pie"
+              },
+              "target": "item_name"
             },
             {
               "function": "minecraft:set_lore",
@@ -26,24 +36,11 @@
                   "color": "#008725",
                   "italic": true
                 }
-              ]
-            },
-            {
-              "function": "minecraft:set_attributes",
-              "modifiers": [
-                {
-                  "attribute": "generic.movement_speed",
-                  "name": "generic.movement_speed",
-                  "amount": 0,
-                  "operation": "multiply_base",
-                  "slot": [
-                    "head"
-                  ]
-                }
-              ]
+              ],
+              "mode": "replace_all"
             }
           ],
-          "name": "minecraft:bread"
+          "name": "minecraft:poisonous_potato"
         }
       ]
     }

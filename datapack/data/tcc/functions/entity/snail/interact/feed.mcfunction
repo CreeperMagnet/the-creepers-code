@@ -1,7 +1,9 @@
 # Commands to run for feeding a snail beetroot
 
-scoreboard players set @s tcc.dummy2 1200
-tag @s add tcc.fed_beetroot
-effect give @s minecraft:regeneration 10
-particle minecraft:happy_villager ~ ~ ~ 0.5 0.5 0.5 1 50 normal
+effect give @s[tag=!tcc.baby] minecraft:regeneration 10
+tag @s[tag=!tcc.baby] add tcc.fed_beetroot
+scoreboard players set @s[tag=!tcc.baby] tcc.dummy2 1200
+scoreboard players remove @s[tag=tcc.baby] tcc.dummy2 30
+execute if entity @s[tag=tcc.baby,scores={tcc.dummy2=..0}] run function tcc:entity/snail/baby/grow_up
+particle minecraft:happy_villager ~ ~ ~ 0.25 0.25 0.25 1 5 normal
 playsound tcc:entity.snail.feed neutral @a[distance=..16]

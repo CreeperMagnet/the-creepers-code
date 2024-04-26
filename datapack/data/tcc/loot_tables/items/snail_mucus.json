@@ -8,15 +8,21 @@
           "weight": 1,
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{tcc:{id:\"snail_mucus\"},CustomModelData:330000}"
+              "function": "minecraft:set_custom_data",
+              "tag": "{tcc:{id:\"snail_mucus\"}}"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_model_data": 330000
+              }
             },
             {
               "function": "minecraft:set_name",
               "name": {
-                "translate": "item.tcc.snail_mucus",
-                "italic": false
-              }
+                "translate": "item.tcc.snail_mucus"
+              },
+              "target": "item_name"
             },
             {
               "function": "minecraft:set_lore",
@@ -26,7 +32,8 @@
                   "color": "#008725",
                   "italic": true
                 }
-              ]
+              ],
+              "mode": "replace_all"
             }
           ],
           "name": "minecraft:slime_ball"

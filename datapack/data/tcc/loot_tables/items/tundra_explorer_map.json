@@ -11,7 +11,7 @@
             {
               "function": "minecraft:exploration_map",
               "destination": "tcc:tundra_explorer_map_located",
-              "decoration": "target_x",
+              "decoration": "minecraft:target_x",
               "zoom": 2,
               "search_radius": 50,
               "skip_existing_chunks": false
@@ -19,13 +19,19 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "translate": "item.tcc.tundra_explorer_map",
-                "italic": false
-              }
+                "translate": "item.tcc.tundra_explorer_map"
+              },
+              "target": "item_name"
             },
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{display:{MapColor:7642342},tcc:{id:\"tundra_explorer_map\"}}"
+              "function": "minecraft:set_custom_data",
+              "tag": "{tcc:{id:\"tundra_explorer_map\"}}"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:map_color": 7642342
+              }
             },
             {
               "function": "minecraft:set_lore",
@@ -35,7 +41,8 @@
                   "color": "#008725",
                   "italic": true
                 }
-              ]
+              ],
+              "mode": "replace_all"
             }
           ]
         }

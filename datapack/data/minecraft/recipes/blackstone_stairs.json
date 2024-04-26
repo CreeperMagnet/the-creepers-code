@@ -6,13 +6,15 @@
     "###"
   ],
   "key": {
-    "#": [{
-      "item": "minecraft:blackstone"
-    }]
+    "#": [
+      {
+        "item": "minecraft:blackstone"
+      }
+    ]
   },
   "result": {
-    "item": "minecraft:blackstone_stairs",
-    "count": 6
+    "count": 6,
+    "id": "minecraft:blackstone_stairs"
   },
   "category": "building"
 }

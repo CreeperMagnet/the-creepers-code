@@ -2,10 +2,10 @@
 
 function tcc:block/soul_seer/remove_items/main
 scoreboard players reset @s tcc.dummy2
-data modify entity @s item.tag.CustomModelData set value 330004
+data modify entity @s item.components."minecraft:custom_model_data" set value 330004
 execute unless block ~ ~1 ~ minecraft:tinted_glass run playsound tcc:block.soul_seer.emanate block @a[distance=..6] ~ ~ ~ 1 0.5 1
 execute if block ~ ~1 ~ minecraft:tinted_glass run playsound tcc:block.soul_seer.emanate block @a[distance=..6] ~ ~ ~ 0.2 0.5 1
-data modify entity @s item.tag.comparator set value 0
+data modify entity @s item.components."minecraft:custom_data".comparator set value 0
 
 tag @s remove tcc.tag
 execute if block ~ ~ ~ minecraft:dropper[triggered=true] run tag @s add tcc.tag

@@ -49,7 +49,7 @@
               }
             }
           ],
-          "name": "tcc:items/frostbloom_petals"
+          "value": "tcc:items/frostbloom_petals"
         }
       ]
     },
@@ -61,8 +61,14 @@
           "name": "minecraft:structure_block",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{tcc:{id:\"death_item\",entity:\"iceologer\",clear:1b},CustomModelData:330000}"
+              "function": "minecraft:set_custom_data",
+              "tag": "{tcc:{id:\"death_item\",entity:\"iceologer\",clear:1b}}"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_model_data": 330000
+              }
             }
           ],
           "conditions": [

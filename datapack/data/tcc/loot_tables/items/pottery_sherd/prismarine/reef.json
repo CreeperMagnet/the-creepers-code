@@ -8,16 +8,21 @@
           "weight": 1,
           "functions": [
             {
-              "function": "set_nbt",
-              "tag": "{tcc:{id:\"pottery_sherd\",type:\"prismarine\",sherd:\"reef\"},CustomModelData:330023}"
+              "function": "minecraft:set_custom_data",
+              "tag": "{tcc:{id:\"pottery_sherd\",type:\"prismarine\",sherd:\"reef\"}}"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_model_data": 330023
+              }
             },
             {
               "function": "minecraft:set_name",
               "name": {
-                "translate": "item.tcc.pottery_sherd.prismarine.reef",
-                "color": "white",
-                "italic": false
-              }
+                "translate": "item.tcc.pottery_sherd.prismarine.reef"
+              },
+              "target": "item_name"
             },
             {
               "function": "set_lore",
@@ -27,7 +32,8 @@
                   "color": "#008725",
                   "italic": true
                 }
-              ]
+              ],
+              "mode": "replace_all"
             }
           ],
           "name": "minecraft:angler_pottery_sherd"

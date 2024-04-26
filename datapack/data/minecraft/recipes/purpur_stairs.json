@@ -11,8 +11,8 @@
     }
   },
   "result": {
-    "item": "minecraft:purpur_stairs",
-    "count": 6
+    "count": 6,
+    "id": "minecraft:purpur_stairs"
   },
   "category": "building"
 }

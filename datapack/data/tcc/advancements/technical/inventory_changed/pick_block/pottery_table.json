@@ -6,7 +6,9 @@
       "conditions": {
         "items": [
           {
-            "nbt": "{BlockEntityTag:{CustomName:'{\"translate\":\"block.tcc.pottery_table.gui\",\"with\":[{\"translate\":\"block.tcc.pottery_table\",\"font\":\"minecraft:default\",\"color\":\"#3F3F3F\"}],\"font\":\"tcc:pottery_table\",\"color\":\"white\"}'}}"
+            "components": {
+              "minecraft:custom_name": "{\"color\":\"white\",\"font\":\"tcc:pottery_table\",\"translate\":\"block.tcc.pottery_table.gui\",\"with\":[{\"color\":\"#3F3F3F\",\"font\":\"minecraft:default\",\"translate\":\"block.tcc.pottery_table\"}]}"
+            }
           }
         ]
       }

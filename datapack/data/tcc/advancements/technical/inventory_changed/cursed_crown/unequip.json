@@ -9,7 +9,9 @@
             "items": [
               "minecraft:warped_fungus_on_a_stick"
             ],
-            "nbt": "{tcc:{id:\"cursed_crown\"}}"
+            "predicates": {
+              "minecraft:custom_data": "{tcc:{id:\"cursed_crown\"}}"
+            }
           }
         ],
         "player": [
@@ -19,7 +21,7 @@
               "condition": "minecraft:entity_properties",
               "entity": "this",
               "predicate": {
-                "nbt": "{Tags:[\"tcc.cursed_crown_ignore_inventory_change\"]}"
+                "nbt": "{Tags:[\"tcc.modifying_item\"]}"
               }
             }
           }
@@ -28,7 +30,7 @@
     }
   },
   "rewards": {
-    "function": "tcc:item/cursed_crown/unequip"
+    "function": "tcc:item/cursed_crown/unequip/main"
   },
   "requirements": [
     [

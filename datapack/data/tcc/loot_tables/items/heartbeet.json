@@ -8,15 +8,34 @@
           "weight": 1,
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{tcc:{id:\"heartbeet\"},CustomModelData:330000}"
+              "function": "minecraft:set_custom_data",
+              "tag": "{tcc:{id:\"heartbeet\"}}"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_model_data": 330003,
+                "minecraft:food": {
+                  "nutrition": 6,
+                  "saturation": 10.0,
+                  "can_always_eat": true,
+                  "effects": [
+                    {
+                      "effect": {
+                        "id": "minecraft:health_boost",
+                        "duration": 600
+                      }
+                    }
+                  ]
+                }
+              }
             },
             {
               "function": "minecraft:set_name",
               "name": {
-                "translate": "item.tcc.heartbeet",
-                "italic": false
-              }
+                "translate": "item.tcc.heartbeet"
+              },
+              "target": "item_name"
             },
             {
               "function": "minecraft:set_lore",
@@ -26,10 +45,11 @@
                   "color": "#008725",
                   "italic": true
                 }
-              ]
+              ],
+              "mode": "replace_all"
             }
           ],
-          "name": "minecraft:golden_carrot"
+          "name": "minecraft:glistering_melon_slice"
         }
       ]
     }

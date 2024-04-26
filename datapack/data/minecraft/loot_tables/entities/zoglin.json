@@ -25,7 +25,7 @@
               }
             }
           ],
-          "name": "tcc:items/rotten_porkchop"
+          "value": "tcc:items/rotten_porkchop"
         }
       ]
     }
@@ -34,11 +34,11 @@
   "__smithed__": {
     "rules": [
       {
-        "type":"merge",
-        "target":"pools[0].entries[0]",
-        "source":{
-          "type":"reference",
-          "path":"pools[0].entries[0]"
+        "type": "merge",
+        "target": "pools[0].entries[0]",
+        "source": {
+          "type": "reference",
+          "path": "pools[0].entries[0]"
         }
       }
     ]

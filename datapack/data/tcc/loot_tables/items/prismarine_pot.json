@@ -8,16 +8,28 @@
           "weight": 1,
           "functions": [
             {
-              "function": "set_nbt",
-              "tag": "{HideFlags:32,tcc:{id:\"decorated_pot\",type:\"prismarine\",raw_pot:1b,sherds:[{id:\"minecraft:prismarine_shard\",Count:1b},{id:\"minecraft:prismarine_shard\",Count:1b},{id:\"minecraft:prismarine_shard\",Count:1b},{id:\"minecraft:prismarine_shard\",Count:1b}]},CustomModelData:331616,BlockEntityTag:{sherds:[\"minecraft:stone\",\"minecraft:stone\",\"minecraft:stone\",\"minecraft:stone\"]}}"
+              "function": "minecraft:set_custom_data",
+              "tag": "{tcc:{id:\"decorated_pot\",type:\"prismarine\",raw_pot:1b,sherds:[{id:\"minecraft:prismarine_shard\"},{id:\"minecraft:prismarine_shard\"},{id:\"minecraft:prismarine_shard\"},{id:\"minecraft:prismarine_shard\"}]}}"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_model_data": 331616,
+                "minecraft:pot_decorations": [
+                  "minecraft:stone",
+                  "minecraft:stone",
+                  "minecraft:stone",
+                  "minecraft:stone"
+                ],
+                "minecraft:hide_additional_tooltip": {}
+              }
             },
             {
               "function": "minecraft:set_name",
               "name": {
-                "translate": "block.tcc.prismarine_pot",
-                "color": "white",
-                "italic": false
-              }
+                "translate": "block.tcc.prismarine_pot"
+              },
+              "target": "item_name"
             },
             {
               "function": "set_lore",
@@ -27,7 +39,8 @@
                   "color": "#008725",
                   "italic": true
                 }
-              ]
+              ],
+              "mode": "replace_all"
             }
           ],
           "name": "minecraft:decorated_pot"

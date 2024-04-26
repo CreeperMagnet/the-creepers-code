@@ -5,10 +5,9 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "tcc:items/tea/vigor",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
+              "function": "minecraft:set_custom_data",
               "tag": "{tcc:{tea:{extended:1b}}}"
             },
             {
@@ -39,9 +38,11 @@
                   "color": "#008725",
                   "italic": true
                 }
-              ]
+              ],
+              "mode": "replace_all"
             }
-          ]
+          ],
+          "value": "tcc:items/tea/vigor"
         }
       ]
     }

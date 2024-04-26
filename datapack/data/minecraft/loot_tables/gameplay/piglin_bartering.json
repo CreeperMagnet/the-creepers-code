@@ -262,8 +262,13 @@
               "function": "minecraft:set_count"
             },
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{BlockEntityTag:{LootTable:\"tcc:archaeology/piglin_bartering\"}}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:container_loot": {
+                  "loot_table": "tcc:archaeology/piglin_bartering",
+                  "seed": 0
+                }
+              }
             }
           ],
           "name": "minecraft:suspicious_gravel",

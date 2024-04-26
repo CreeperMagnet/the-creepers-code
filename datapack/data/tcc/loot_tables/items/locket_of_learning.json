@@ -8,16 +8,25 @@
           "weight": 1,
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{RepairCost:100,HideFlags:5,tcc:{id:\"locket_of_learning\",stored_points:0},CustomModelData:330026,Unbreakable:1b}"
+              "function": "minecraft:set_custom_data",
+              "tag": "{tcc:{id:\"locket_of_learning\",stored_points:0}}"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_model_data": 330026,
+                "!minecraft:enchantments": {},
+                "!minecraft:damage": {},
+                "!minecraft:max_damage": {},
+                "minecraft:rarity": "uncommon"
+              }
             },
             {
               "function": "minecraft:set_name",
               "name": {
-                "translate": "item.tcc.locket_of_learning",
-                "color": "yellow",
-                "italic": false
-              }
+                "translate": "item.tcc.locket_of_learning"
+              },
+              "target": "item_name"
             },
             {
               "function": "minecraft:set_lore",
@@ -36,7 +45,8 @@
                   "color": "#008725",
                   "italic": true
                 }
-              ]
+              ],
+              "mode": "replace_all"
             }
           ],
           "name": "minecraft:warped_fungus_on_a_stick"

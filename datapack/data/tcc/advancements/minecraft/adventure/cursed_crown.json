@@ -1,8 +1,11 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:warped_fungus_on_a_stick",
-      "nbt": "{CustomModelData:330001,Enchantments:[{}]}"
+      "id": "minecraft:warped_fungus_on_a_stick",
+      "components": {
+        "minecraft:custom_model_data": 330001,
+        "minecraft:enchantment_glint_override": true
+      }
     },
     "title": {
       "translate": "advancements.tcc.minecraft.adventure.cursed_crown.title"

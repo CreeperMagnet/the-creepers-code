@@ -129,7 +129,7 @@
               ]
             }
           ],
-          "name": "minecraft:gameplay/fishing/fish"
+          "value": "minecraft:gameplay/fishing/fish"
         }
       ],
       "conditions": [
@@ -162,11 +162,11 @@
   "__smithed__": {
     "rules": [
       {
-        "type":"merge",
-        "target":"pools[2].entries[0]",
+        "type": "merge",
+        "target": "pools[2].entries[0]",
         "source": {
-          "type":"reference",
-          "path":"pools[2].entries[0]"
+          "type": "reference",
+          "path": "pools[2].entries[0]"
         }
       }
     ]

@@ -8,15 +8,27 @@
           "weight": 1,
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{Potion:\"minecraft:mundane\",CustomPotionColor:6513542,HideFlags:32,tcc:{id:\"tea\",tea:{id:\"obscurity\",extended:0b}},CustomModelData:330001}"
+              "function": "minecraft:set_custom_data",
+              "tag": "{tcc:{id:\"tea\",tea:{id:\"obscurity\",extended:0b}}}"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_model_data": 330001,
+                "minecraft:potion_contents": {
+                  "custom_effects": [],
+                  "potion": "minecraft:mundane",
+                  "custom_color": 6513542
+                },
+                "minecraft:hide_additional_tooltip": {}
+              }
             },
             {
               "function": "minecraft:set_name",
               "name": {
-                "translate": "item.tcc.obscurity_tea",
-                "italic": false
-              }
+                "translate": "item.tcc.obscurity_tea"
+              },
+              "target": "item_name"
             },
             {
               "function": "minecraft:set_lore",
@@ -45,7 +57,8 @@
                   "color": "#008725",
                   "italic": true
                 }
-              ]
+              ],
+              "mode": "replace_all"
             }
           ],
           "name": "minecraft:potion"

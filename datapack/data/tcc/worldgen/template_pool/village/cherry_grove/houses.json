@@ -238,7 +238,7 @@
       "element": {
         "element_type": "minecraft:single_pool_element",
         "location": "tcc:village/cherry_grove/houses/archaeologist",
-        "processors": "tcc:archaeologist_house",
+        "processors": "minecraft:empty",
         "projection": "rigid"
       },
       "weight": 4

@@ -1,8 +1,10 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:warped_fungus_on_a_stick",
-      "nbt": "{CustomModelData:330039}"
+      "id": "minecraft:warped_fungus_on_a_stick",
+      "components": {
+        "minecraft:custom_model_data": 330039
+      }
     },
     "title": {
       "translate": "advancements.tcc.minecraft.nether.teapot.title"
@@ -52,7 +54,7 @@
             "condition": "entity_scores",
             "entity": "this",
             "scores": {
-              "tcc.dummy2" : 0
+              "tcc.dummy2": 0
             }
           }
         ]

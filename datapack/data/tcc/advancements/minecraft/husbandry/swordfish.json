@@ -1,8 +1,10 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:tropical_fish",
-      "nbt": "{CustomModelData:330000}"
+      "id": "minecraft:stone_sword",
+      "components": {
+        "minecraft:custom_model_data": 330000
+      }
     },
     "title": {
       "translate": "advancements.tcc.minecraft.husbandry.swordfish.title"
@@ -27,7 +29,9 @@
       "conditions": {
         "items": [
           {
-            "nbt": "{tcc:{id:\"swordfish\"}}"
+            "predicates": {
+              "minecraft:custom_data": "{tcc:{id:\"swordfish\"}}"
+            }
           }
         ]
       }

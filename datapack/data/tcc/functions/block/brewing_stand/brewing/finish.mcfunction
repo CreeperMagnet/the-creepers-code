@@ -7,5 +7,5 @@ execute if data block ~ ~ ~ Items[{Slot:2b}] unless data block ~ ~ ~ Items[{Slot
 
 data modify block ~ ~ ~ BrewTime set value 0s
 scoreboard players reset @s tcc.dummy2
-item modify block ~ ~ ~ container.3 tcc:reduce_count/1
+item modify block ~ ~ ~ container.3 tcc:reduce_count
 playsound minecraft:block.brewing_stand.brew block @a[distance=..16]

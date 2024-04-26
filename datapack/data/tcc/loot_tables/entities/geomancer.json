@@ -39,7 +39,6 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "tcc:items/amethyst_dust",
           "functions": [
             {
               "function": "minecraft:looting_enchant",
@@ -60,14 +59,17 @@
                   "predicate": {
                     "equipment": {
                       "head": {
-                        "nbt": "{tcc:{id:\"witch_hat\"}}"
+                        "predicates": {
+                          "minecraft:custom_data": "{tcc:{id:\"witch_hat\"}}"
+                        }
                       }
                     }
                   }
                 }
               ]
             }
-          ]
+          ],
+          "value": "tcc:items/amethyst_dust"
         }
       ]
     },
@@ -116,8 +118,14 @@
           "name": "minecraft:structure_block",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{tcc:{id:\"death_item\",entity:\"geomancer\",clear:1b},CustomModelData:330000}"
+              "function": "minecraft:set_custom_data",
+              "tag": "{tcc:{id:\"death_item\",entity:\"geomancer\",clear:1b}}"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_model_data": 330000
+              }
             }
           ],
           "conditions": [

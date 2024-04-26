@@ -13,27 +13,29 @@
         {
           "condition": "minecraft:match_tool",
           "predicate": {
-            "enchantments": [
-              {
-                "enchantment": "minecraft:silk_touch",
-                "levels": {
-                  "min": 1
+            "predicates": {
+              "minecraft:enchantments": [
+                {
+                  "enchantment": "minecraft:silk_touch",
+                  "levels": {
+                    "min": 1
+                  }
                 }
-              }
-            ]
+              ]
+            }
           }
         }
       ]
     }
   ],
   "random_sequence": "minecraft:blocks/infested_mossy_stone_bricks",
-  "__smithed__":{
-    "rules":[
+  "__smithed__": {
+    "rules": [
       {
-        "type":"merge",
+        "type": "merge",
         "target": "pools[0].entries[0].name",
         "source": {
-          "type":"reference",
+          "type": "reference",
           "path": "pools[0].entries[0].name"
         }
       }

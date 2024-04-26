@@ -2,8 +2,10 @@
   "parent": "minecraft:husbandry/tactical_fishing",
   "display": {
     "icon": {
-      "item": "minecraft:warped_fungus_on_a_stick",
-      "nbt": "{CustomModelData:330033}"
+      "id": "minecraft:warped_fungus_on_a_stick",
+      "components": {
+        "minecraft:custom_model_data": 330033
+      }
     },
     "title": {
       "translate": "advancements.tcc.minecraft.husbandry.bucket_snail.title"
@@ -45,7 +47,7 @@
             "condition": "minecraft:inverted",
             "term": {
               "condition": "minecraft:reference",
-              "name": "tcc:entity/in_vehicle"
+              "name": "tcc:entity_properties/in_vehicle"
             }
           }
         ]

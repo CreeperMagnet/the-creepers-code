@@ -17,7 +17,7 @@
     }
   },
   "result": {
-    "item": "minecraft:dispenser"
+    "id": "minecraft:dispenser"
   },
   "category": "redstone"
 }

@@ -1,7 +1,4 @@
 # Summons a snail
-
-function tcc:entity/snail/summon/spawn
-
-tellraw @s {"translate":"commands.summon.success","with": [{"translate":"entity.tcc.snail"}]}
-tag @s[type=minecraft:player] add tcc.no_space
-execute if entity @s[type=minecraft:player] run function tcc:entity/player/gamerule_tellraw/no_feedback_chat_message/load
+data remove storage tcc:temp root
+data modify storage tcc:temp root.snail_bucket.components."minecraft:custom_data".tcc.variant set value "brown"
+function tcc:commands/summon/snail/random

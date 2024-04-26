@@ -30,11 +30,13 @@
         "fortitude": "tcc:item/diluted_potion/palettes/fortitude",
         "harming": "tcc:item/diluted_potion/palettes/harming",
         "healing": "tcc:item/diluted_potion/palettes/healing",
+        "infested": "tcc:item/diluted_potion/palettes/infested",
         "invisibility": "tcc:item/diluted_potion/palettes/invisibility",
         "leaping": "tcc:item/diluted_potion/palettes/leaping",
         "luck": "tcc:item/diluted_potion/palettes/luck",
         "nausea": "tcc:item/diluted_potion/palettes/nausea",
         "night_vision": "tcc:item/diluted_potion/palettes/night_vision",
+        "oozing": "tcc:item/diluted_potion/palettes/oozing",
         "poison": "tcc:item/diluted_potion/palettes/poison",
         "regeneration": "tcc:item/diluted_potion/palettes/regeneration",
         "slow_falling": "tcc:item/diluted_potion/palettes/slow_falling",
@@ -45,7 +47,9 @@
         "uncraftable": "tcc:item/diluted_potion/palettes/uncraftable",
         "water": "tcc:item/diluted_potion/palettes/water",
         "water_breathing": "tcc:item/diluted_potion/palettes/water_breathing",
-        "weakness": "tcc:item/diluted_potion/palettes/weakness"
+        "weakness": "tcc:item/diluted_potion/palettes/weakness",
+        "weaving": "tcc:item/diluted_potion/palettes/weaving",
+        "wind_charged": "tcc:item/diluted_potion/palettes/wind_charged"
       }
     }
   ]

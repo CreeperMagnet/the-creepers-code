@@ -5,7 +5,7 @@ advancement revoke @s[tag=tcc.modifying_item] only tcc:technical/inventory_chang
 execute if entity @s[tag=tcc.modifying_item] run return 0
 
 # Important for multiplayer compat
-data modify storage tcc:storage root.temp.manage_data.uuid set from entity @s UUID
+data modify storage tcc:temp root.manage_data.uuid set from entity @s UUID
 
 # If the player isn't in unlockable compendium mode, turn their unlockable compendium into an unlocked one
 execute if entity @s[tag=!tcc.unlockable_compendium] run function tcc:item/compendium/find_item/from/reset_item {id:"unlockable_compendium"}
@@ -13,7 +13,7 @@ execute if entity @s[tag=!tcc.unlockable_compendium] run advancement revoke @s o
 execute if entity @s[tag=!tcc.unlockable_compendium] run return 0
 
 # Remove the temporary NBT for compendium data, which is used to easily update subsequent items
-data remove storage tcc:storage root.temp.compendium_tag
+data remove storage tcc:temp root.compendium_tag
 
 # Loop through all the player's compendiums
 function tcc:item/compendium/find_item/from/update_old

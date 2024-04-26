@@ -37,13 +37,13 @@
   ],
   "random_sequence": "minecraft:blocks/black_candle_cake",
   "__smithed__": {
-    "rules":[
+    "rules": [
       {
-        "type":"append",
-        "target":"pools",
-        "source":{
-          "type":"reference",
-          "path":"pools[1]"
+        "type": "append",
+        "target": "pools",
+        "source": {
+          "type": "reference",
+          "path": "pools[1]"
         }
       }
     ]

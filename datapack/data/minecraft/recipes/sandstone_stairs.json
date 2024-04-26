@@ -19,8 +19,8 @@
     ]
   },
   "result": {
-    "item": "minecraft:sandstone_stairs",
-    "count": 6
+    "count": 6,
+    "id": "minecraft:sandstone_stairs"
   },
   "category": "building"
 }

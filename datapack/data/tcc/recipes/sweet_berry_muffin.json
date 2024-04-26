@@ -1,0 +1,38 @@
+{
+  "category": "misc",
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:wheat"
+    },
+    {
+      "item": "minecraft:sweet_berries"
+    },
+    {
+      "item": "minecraft:egg"
+    },
+    {
+      "item": "minecraft:wheat"
+    }
+  ],
+  "result": {
+    "id": "minecraft:poisonous_potato",
+    "count": 1,
+    "components": {
+      "minecraft:custom_model_data": 330006,
+      "minecraft:custom_data": {
+        "tcc": {
+          "id": "sweet_berry_muffin"
+        }
+      },
+      "minecraft:food": {
+        "nutrition": 7,
+        "saturation": 10.0
+      },
+      "minecraft:item_name": "{\"translate\":\"item.tcc.sweet_berry_muffin\"}",
+      "minecraft:lore": [
+        "{\"translate\":\"pack.tcc\",\"color\":\"#008725\",\"italic\":true}"
+      ]
+    }
+  }
+}

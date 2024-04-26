@@ -1,0 +1,31 @@
+{
+  "criteria": {
+    "click_pottery_table": {
+      "trigger": "minecraft:default_block_use",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:barrel"
+                ],
+                "nbt": "{CustomName:'{\"translate\":\"block.tcc.pottery_table.gui\",\"with\":[{\"translate\":\"block.tcc.pottery_table\",\"font\":\"minecraft:default\",\"color\":\"#3F3F3F\"}],\"font\":\"tcc:pottery_table\",\"color\":\"white\"}'}"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "tcc:block/pottery_table/enter_gui/main"
+  },
+  "parent": "tcc:technical/root",
+  "requirements": [
+    [
+      "click_pottery_table"
+    ]
+  ]
+}

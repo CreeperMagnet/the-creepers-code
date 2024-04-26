@@ -8,16 +8,21 @@
           "weight": 1,
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{tcc:{id:\"warped_wart\"},CustomModelData:330001}"
+              "function": "minecraft:set_custom_data",
+              "tag": "{tcc:{id:\"warped_wart\"}}"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_model_data": 330001
+              }
             },
             {
               "function": "minecraft:set_name",
               "name": {
-                "translate": "item.tcc.warped_wart",
-                "color": "white",
-                "italic": false
-              }
+                "translate": "item.tcc.warped_wart"
+              },
+              "target": "item_name"
             },
             {
               "function": "minecraft:set_lore",
@@ -27,7 +32,8 @@
                   "color": "#008725",
                   "italic": true
                 }
-              ]
+              ],
+              "mode": "replace_all"
             }
           ],
           "name": "minecraft:glistering_melon_slice"

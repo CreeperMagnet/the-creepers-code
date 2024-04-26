@@ -8,8 +8,14 @@
           "name": "minecraft:structure_block",
           "functions": [
             {
-              "function": "set_nbt",
-              "tag": "{CustomModelData:330000,tcc:{clear:1b,id:\"soul_seer_comparator_output\"}}"
+              "function": "minecraft:set_custom_data",
+              "tag": "{tcc:{clear:1b,id:\"soul_seer_comparator_output\"}}"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_model_data": 330000
+              }
             }
           ]
         }

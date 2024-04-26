@@ -24,7 +24,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "tcc:items/locket_of_learning"
+          "value": "tcc:items/locket_of_learning"
         }
       ]
     },

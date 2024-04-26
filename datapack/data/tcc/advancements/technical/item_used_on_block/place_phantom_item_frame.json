@@ -7,7 +7,9 @@
           {
             "condition": "minecraft:match_tool",
             "predicate": {
-              "nbt": "{tcc:{id:\"phantom_item_frame\"}}"
+              "predicates": {
+                "minecraft:custom_data": "{tcc:{id:\"phantom_item_frame\"}}"
+              }
             }
           }
         ]

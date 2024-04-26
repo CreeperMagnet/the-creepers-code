@@ -11,8 +11,8 @@
     }
   },
   "result": {
-    "item": "minecraft:oxidized_cut_copper_stairs",
-    "count": 6
+    "count": 6,
+    "id": "minecraft:oxidized_cut_copper_stairs"
   },
   "category": "building"
 }

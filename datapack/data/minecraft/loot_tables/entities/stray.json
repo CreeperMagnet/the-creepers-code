@@ -82,8 +82,13 @@
               "limit": 1
             },
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{Potion:\"minecraft:slowness\"}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:potion_contents": {
+                  "custom_effects": [],
+                  "potion": "minecraft:slowness"
+                }
+              }
             }
           ],
           "name": "minecraft:tipped_arrow"
@@ -107,7 +112,6 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "tcc:items/frostbloom_petals",
           "functions": [
             {
               "function": "set_count",
@@ -116,7 +120,8 @@
                 "max": 3
               }
             }
-          ]
+          ],
+          "value": "tcc:items/frostbloom_petals"
         }
       ]
     }
@@ -125,11 +130,11 @@
   "__smithed__": {
     "rules": [
       {
-        "type":"append",
-        "target":"pools",
-        "source":{
-          "type":"reference",
-          "path":"pools[3]"
+        "type": "append",
+        "target": "pools",
+        "source": {
+          "type": "reference",
+          "path": "pools[3]"
         }
       }
     ]

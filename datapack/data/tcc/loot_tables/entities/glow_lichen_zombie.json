@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "minecraft:entities/zombie"
+          "value": "minecraft:entities/zombie"
         }
       ]
     },
@@ -32,7 +32,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "tcc:items/sightless_eye"
+          "value": "tcc:items/sightless_eye"
         }
       ],
       "conditions": [
@@ -50,7 +50,9 @@
               "predicate": {
                 "equipment": {
                   "head": {
-                    "nbt": "{tcc:{id:\"witch_hat\"}}"
+                    "predicates": {
+                      "minecraft:custom_data": "{tcc:{id:\"witch_hat\"}}"
+                    }
                   }
                 }
               }

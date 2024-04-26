@@ -8,16 +8,28 @@
           "weight": 1,
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{tcc:{id:\"golden_chorus_fruit\"},CustomModelData:330005}"
+              "function": "minecraft:set_custom_data",
+              "tag": "{tcc:{id:\"golden_chorus_fruit\"}}"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_model_data": 330005,
+                "minecraft:rarity": "rare",
+                "minecraft:food": {
+                  "nutrition": 8,
+                  "saturation": 12.0,
+                  "can_always_eat": true,
+                  "eat_seconds": 5.0
+                }
+              }
             },
             {
               "function": "minecraft:set_name",
               "name": {
-                "translate": "item.tcc.golden_chorus_fruit",
-                "color": "aqua",
-                "italic": false
-              }
+                "translate": "item.tcc.golden_chorus_fruit"
+              },
+              "target": "item_name"
             },
             {
               "function": "minecraft:set_lore",
@@ -27,10 +39,11 @@
                   "color": "#008725",
                   "italic": true
                 }
-              ]
+              ],
+              "mode": "replace_all"
             }
           ],
-          "name": "minecraft:chorus_fruit"
+          "name": "minecraft:poisonous_potato"
         }
       ]
     }

@@ -1515,6 +1515,288 @@
         "custom_model_data": 330251
       },
       "model": "tcc:item/diluted_potion/fortitude/9"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330252
+      },
+      "model": "tcc:item/snail_bucket/black_baby"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330253
+      },
+      "model": "tcc:item/snail_bucket/brown_baby"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330254
+      },
+      "model": "tcc:item/snail_bucket/gary_baby"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330255
+      },
+      "model": "tcc:item/snail_bucket/light_blue_baby"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330256
+      },
+      "model": "tcc:item/snail_bucket/skull_baby"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330257
+      },
+      "model": "tcc:item/snail_bucket/spiral_baby"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330258
+      },
+      "model": "tcc:item/snail_bucket/yellow_baby"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330259
+      },
+      "model": "tcc:item/diluted_potion/infested/0"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330260
+      },
+      "model": "tcc:item/diluted_potion/infested/1"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330261
+      },
+      "model": "tcc:item/diluted_potion/infested/2"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330262
+      },
+      "model": "tcc:item/diluted_potion/infested/3"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330263
+      },
+      "model": "tcc:item/diluted_potion/infested/4"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330264
+      },
+      "model": "tcc:item/diluted_potion/infested/5"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330265
+      },
+      "model": "tcc:item/diluted_potion/infested/6"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330266
+      },
+      "model": "tcc:item/diluted_potion/infested/7"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330267
+      },
+      "model": "tcc:item/diluted_potion/infested/8"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330268
+      },
+      "model": "tcc:item/diluted_potion/infested/9"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330269
+      },
+      "model": "tcc:item/diluted_potion/oozing/0"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330270
+      },
+      "model": "tcc:item/diluted_potion/oozing/1"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330271
+      },
+      "model": "tcc:item/diluted_potion/oozing/2"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330272
+      },
+      "model": "tcc:item/diluted_potion/oozing/3"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330273
+      },
+      "model": "tcc:item/diluted_potion/oozing/4"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330274
+      },
+      "model": "tcc:item/diluted_potion/oozing/5"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330275
+      },
+      "model": "tcc:item/diluted_potion/oozing/6"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330276
+      },
+      "model": "tcc:item/diluted_potion/oozing/7"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330277
+      },
+      "model": "tcc:item/diluted_potion/oozing/8"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330278
+      },
+      "model": "tcc:item/diluted_potion/oozing/9"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330279
+      },
+      "model": "tcc:item/diluted_potion/weaving/0"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330280
+      },
+      "model": "tcc:item/diluted_potion/weaving/1"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330281
+      },
+      "model": "tcc:item/diluted_potion/weaving/2"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330282
+      },
+      "model": "tcc:item/diluted_potion/weaving/3"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330283
+      },
+      "model": "tcc:item/diluted_potion/weaving/4"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330284
+      },
+      "model": "tcc:item/diluted_potion/weaving/5"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330285
+      },
+      "model": "tcc:item/diluted_potion/weaving/6"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330286
+      },
+      "model": "tcc:item/diluted_potion/weaving/7"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330287
+      },
+      "model": "tcc:item/diluted_potion/weaving/8"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330288
+      },
+      "model": "tcc:item/diluted_potion/weaving/9"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330289
+      },
+      "model": "tcc:item/diluted_potion/wind_charged/0"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330290
+      },
+      "model": "tcc:item/diluted_potion/wind_charged/1"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330291
+      },
+      "model": "tcc:item/diluted_potion/wind_charged/2"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330292
+      },
+      "model": "tcc:item/diluted_potion/wind_charged/3"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330293
+      },
+      "model": "tcc:item/diluted_potion/wind_charged/4"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330294
+      },
+      "model": "tcc:item/diluted_potion/wind_charged/5"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330295
+      },
+      "model": "tcc:item/diluted_potion/wind_charged/6"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330296
+      },
+      "model": "tcc:item/diluted_potion/wind_charged/7"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330297
+      },
+      "model": "tcc:item/diluted_potion/wind_charged/8"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330298
+      },
+      "model": "tcc:item/diluted_potion/wind_charged/9"
     }
   ]
 }

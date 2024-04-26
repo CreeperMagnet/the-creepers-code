@@ -7,7 +7,6 @@
         {
           "type": "loot_table",
           "weight": 1,
-          "name": "tcc:items/rotten_porkchop",
           "functions": [
             {
               "function": "set_count",
@@ -16,7 +15,8 @@
                 "max": 1
               }
             }
-          ]
+          ],
+          "value": "tcc:items/rotten_porkchop"
         }
       ]
     },
@@ -73,11 +73,11 @@
   "__smithed__": {
     "rules": [
       {
-        "type":"merge",
-        "target":"pools[0].entries[0]",
-        "source":{
-          "type":"reference",
-          "path":"pools[0].entries[0]"
+        "type": "merge",
+        "target": "pools[0].entries[0]",
+        "source": {
+          "type": "reference",
+          "path": "pools[0].entries[0]"
         }
       }
     ]

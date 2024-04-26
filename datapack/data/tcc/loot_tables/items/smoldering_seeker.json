@@ -8,15 +8,26 @@
           "weight": 1,
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{RepairCost:100,HideFlags:4,Unbreakable:1b,tcc:{id:\"unset_smoldering_seeker\"},CustomModelData:330005}"
+              "function": "minecraft:set_custom_data",
+              "tag": "{tcc:{id:\"smoldering_seeker\"}}"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_model_data": 330005,
+                "!minecraft:enchantments": {},
+                "!minecraft:damage": {},
+                "!minecraft:max_damage": {},
+                "minecraft:max_stack_size": 64,
+                "minecraft:enchantment_glint_override": false
+              }
             },
             {
               "function": "minecraft:set_name",
               "name": {
-                "translate": "item.tcc.smoldering_seeker",
-                "italic": false
-              }
+                "translate": "item.tcc.smoldering_seeker"
+              },
+              "target": "item_name"
             },
             {
               "function": "minecraft:set_lore",
@@ -26,7 +37,8 @@
                   "color": "#008725",
                   "italic": true
                 }
-              ]
+              ],
+              "mode": "replace_all"
             }
           ],
           "name": "minecraft:warped_fungus_on_a_stick"

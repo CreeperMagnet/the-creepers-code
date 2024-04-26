@@ -19,8 +19,8 @@
     ]
   },
   "result": {
-    "item": "minecraft:quartz_stairs",
-    "count": 6
+    "count": 6,
+    "id": "minecraft:quartz_stairs"
   },
   "category": "building"
 }

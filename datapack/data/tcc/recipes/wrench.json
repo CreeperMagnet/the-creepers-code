@@ -1,0 +1,32 @@
+{
+  "category": "equipment",
+  "type": "crafting_shaped",
+  "pattern": [
+    "I I",
+    " I ",
+    " I "
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:copper_ingot"
+    }
+  },
+  "result": {
+    "id": "minecraft:warped_fungus_on_a_stick",
+    "count": 1,
+    "components": {
+      "minecraft:custom_model_data": 330004,
+      "minecraft:damage": 0,
+      "minecraft:max_damage": 200,
+      "minecraft:custom_data": {
+        "tcc": {
+          "id": "wrench"
+        }
+      },
+      "minecraft:item_name": "{\"translate\": \"item.tcc.wrench\"}",
+      "minecraft:lore": [
+        "{\"translate\":\"pack.tcc\",\"color\":\"#008725\",\"italic\":true}"
+      ]
+    }
+  }
+}

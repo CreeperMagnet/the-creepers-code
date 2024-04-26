@@ -1,1 +1,1 @@
-{"parent":"tcc:compendium/root","criteria":{"unlock":{"trigger":"minecraft:inventory_changed","conditions":{"items":[{"tag":"minecraft:decorated_pot_sherds"}]}}},"rewards":{"function":"tcc:item/compendium/unlock/entries/pottery_sherd_renewability/from_advancement"}}
+{"parent":"tcc:compendium/root","criteria":{"unlock":{"trigger":"minecraft:inventory_changed","conditions":{"items":[{"items":"#minecraft:decorated_pot_sherds"}]}}},"rewards":{"function":"tcc:item/compendium/unlock/entries/pottery_sherd_renewability/from_advancement"}}

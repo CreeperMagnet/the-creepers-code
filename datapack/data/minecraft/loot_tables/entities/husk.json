@@ -89,8 +89,13 @@
           "name": "minecraft:suspicious_sand",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{BlockEntityTag:{LootTable:\"tcc:archaeology/husk_drop\"}}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:container_loot": {
+                  "loot_table": "tcc:archaeology/husk_drop",
+                  "seed": 0
+                }
+              }
             },
             {
               "function": "minecraft:set_count",

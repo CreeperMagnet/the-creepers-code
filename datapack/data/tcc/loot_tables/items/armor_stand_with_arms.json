@@ -8,8 +8,21 @@
           "weight": 1,
           "functions": [
             {
-              "function": "set_nbt",
-              "tag": "{EntityTag:{ShowArms:1b,Tags:[\"tcc.armor_stand_with_arms\"]},tcc:{id:\"armor_stand_with_arms\"},CustomModelData:330000}"
+              "function": "minecraft:set_custom_data",
+              "tag": "{tcc:{id:\"armor_stand_with_arms\"}}"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_model_data": 330000,
+                "minecraft:entity_data": {
+                  "ShowArms": 1,
+                  "Tags": [
+                    "tcc.armor_stand_with_arms"
+                  ],
+                  "id": "minecraft:armor_stand"
+                }
+              }
             },
             {
               "function": "set_lore",
@@ -19,7 +32,8 @@
                   "color": "#008725",
                   "italic": true
                 }
-              ]
+              ],
+              "mode": "replace_all"
             }
           ],
           "name": "minecraft:armor_stand"

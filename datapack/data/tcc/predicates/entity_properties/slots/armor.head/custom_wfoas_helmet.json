@@ -1,0 +1,37 @@
+{
+  "condition": "minecraft:any_of",
+  "terms": [
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "slots": {
+          "armor.head": {
+            "items": [
+              "minecraft:leather_helmet"
+            ],
+            "predicates": {
+              "minecraft:custom_data": "{tcc:{id:\"witch_hat\"}}"
+            }
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "slots": {
+          "armor.head": {
+            "items": [
+              "minecraft:golden_helmet"
+            ],
+            "predicates": {
+              "minecraft:custom_data": "{tcc:{id:\"cursed_crown\"}}"
+            }
+          }
+        }
+      }
+    }
+  ]
+}

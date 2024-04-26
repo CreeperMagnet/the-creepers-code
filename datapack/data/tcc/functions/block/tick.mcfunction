@@ -1,7 +1,7 @@
 # Functions to run off of every tcc block every single tick
 
 ## Teapot
-execute if entity @s[tag=tcc.teapot] positioned ~ ~1 ~ unless predicate tcc:block/teapot_valid run function tcc:block/teapot/break
+execute if entity @s[tag=tcc.teapot] positioned ~ ~1 ~ unless predicate tcc:location_check/teapot_valid run function tcc:block/teapot/break
 
 ## Gobblerift
 execute if entity @s[tag=tcc.gobblerift] positioned ~ ~1 ~ run function tcc:block/gobblerift/tick

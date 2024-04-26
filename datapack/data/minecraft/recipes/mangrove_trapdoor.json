@@ -11,8 +11,8 @@
     }
   },
   "result": {
-    "item": "minecraft:mangrove_trapdoor",
-    "count": 6
+    "count": 6,
+    "id": "minecraft:mangrove_trapdoor"
   },
   "category": "redstone"
 }

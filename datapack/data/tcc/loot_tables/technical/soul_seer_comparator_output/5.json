@@ -5,13 +5,13 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "tcc:technical/soul_seer_comparator_output/base",
           "functions": [
             {
               "function": "set_count",
               "count": 64
             }
-          ]
+          ],
+          "value": "tcc:technical/soul_seer_comparator_output/base"
         }
       ]
     },
@@ -20,13 +20,13 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "tcc:technical/soul_seer_comparator_output/base",
           "functions": [
             {
               "function": "set_count",
               "count": 37
             }
-          ]
+          ],
+          "value": "tcc:technical/soul_seer_comparator_output/base"
         }
       ]
     }

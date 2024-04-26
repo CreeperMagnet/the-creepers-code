@@ -2,7 +2,7 @@
 
 execute if entity @s[tag=!tcc.boomerang.on_fire] run return run setblock ~ ~ ~ air destroy
 
-particle minecraft:block minecraft:chorus_plant ~ ~1 ~ 0.1 0.1 0.1 0 15
+particle minecraft:block{block_state:"minecraft:chorus_plant"} ~ ~1 ~ 0.1 0.1 0.1 0 15
 playsound minecraft:block.wood.break block @a[distance=..16] ~ ~ ~ 1 0.8
 loot spawn ~ ~ ~ loot tcc:blocks/boomerang/chorus_plant_fire
 setblock ~ ~ ~ air

@@ -79,11 +79,11 @@
   "__smithed__": {
     "rules": [
       {
-        "type":"merge",
-        "target":"pools[1].entries[0].name",
+        "type": "merge",
+        "target": "pools[1].entries[0].name",
         "source": {
-          "type":"reference",
-          "path":"pools[1].entries[0].name"
+          "type": "reference",
+          "path": "pools[1].entries[0].name"
         }
       }
     ]

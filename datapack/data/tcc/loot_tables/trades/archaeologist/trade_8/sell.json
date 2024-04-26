@@ -1,0 +1,14 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "tcc:items/ruins_explorer_map"
+        }
+      ]
+    }
+  ],
+  "random_sequence": "tcc:trades/archaeologist/trade_8/sell"
+}

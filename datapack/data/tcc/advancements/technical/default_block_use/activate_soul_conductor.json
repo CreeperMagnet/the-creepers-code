@@ -1,0 +1,33 @@
+{
+  "criteria": {
+    "click_soul_conductor": {
+      "trigger": "minecraft:default_block_use",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:dropper"
+                ],
+                "state": {
+                  "triggered": "false"
+                },
+                "nbt": "{Lock:\"\u00a7soul_conductor\\\\uF001\"}"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "tcc:block/soul_conductor/activate/advancement"
+  },
+  "requirements": [
+    [
+      "click_soul_conductor"
+    ]
+  ]
+}

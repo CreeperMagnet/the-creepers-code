@@ -2,7 +2,7 @@
   "parent": "minecraft:adventure/kill_a_mob",
   "display": {
     "icon": {
-      "item": "minecraft:spider_eye"
+      "id": "minecraft:spider_eye"
     },
     "title": {
       "translate": "advancements.tcc.minecraft.adventure.wandering_witch_trade.title"

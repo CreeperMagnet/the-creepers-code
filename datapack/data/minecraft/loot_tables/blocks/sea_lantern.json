@@ -13,14 +13,16 @@
                 {
                   "condition": "minecraft:match_tool",
                   "predicate": {
-                    "enchantments": [
-                      {
-                        "enchantment": "minecraft:silk_touch",
-                        "levels": {
-                          "min": 1
+                    "predicates": {
+                      "minecraft:enchantments": [
+                        {
+                          "enchantment": "minecraft:silk_touch",
+                          "levels": {
+                            "min": 1
+                          }
                         }
-                      }
-                    ]
+                      ]
+                    }
                   }
                 }
               ],
@@ -67,18 +69,18 @@
   "__smithed__": {
     "rules": [
       {
-        "type":"merge",
+        "type": "merge",
         "target": "pools[0].entries[0].children[1].functions[0].count.max",
         "source": {
-          "type":"reference",
+          "type": "reference",
           "path": "pools[0].entries[0].children[1].functions[0].count.max"
         }
       },
       {
-        "type":"merge",
+        "type": "merge",
         "target": "pools[0].entries[0].children[1].functions[2].limit.max",
         "source": {
-          "type":"reference",
+          "type": "reference",
           "path": "pools[0].entries[0].children[1].functions[2].limit.max"
         }
       }

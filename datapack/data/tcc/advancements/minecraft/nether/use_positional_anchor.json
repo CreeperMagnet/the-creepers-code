@@ -1,8 +1,10 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:dropper",
-      "nbt": "{CustomModelData:330002}"
+      "id": "minecraft:dropper",
+      "components": {
+        "minecraft:custom_model_data": 330002
+      }
     },
     "title": {
       "translate": "advancements.tcc.minecraft.nether.use_positional_anchor.title"
@@ -33,7 +35,7 @@
                 "blocks": [
                   "minecraft:dropper"
                 ],
-                "nbt": "{Lock:\"§positional_anchor\\\\uF001\"}"
+                "nbt": "{Lock:\"\u00a7positional_anchor\\\\uF001\"}"
               }
             }
           },

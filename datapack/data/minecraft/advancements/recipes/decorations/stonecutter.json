@@ -1,32 +1,32 @@
 {
-    "parent": "minecraft:recipes/root",
-    "rewards": {
-      "recipes": [
-        "minecraft:stonecutter"
-      ]
-    },
-    "criteria": {
-      "has_stone": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "tag": "tcc:raw_stone_crafting_materials"
-            }
-          ]
-        }
-      },
-      "has_the_recipe": {
-        "trigger": "minecraft:recipe_unlocked",
-        "conditions": {
-          "recipe": "minecraft:stonecutter"
-        }
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "minecraft:stonecutter"
+    ]
+  },
+  "criteria": {
+    "has_stone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "#tcc:raw_stone_crafting_materials"
+          }
+        ]
       }
     },
-    "requirements": [
-      [
-        "has_stone",
-        "has_the_recipe"
-      ]
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "minecraft:stonecutter"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_stone",
+      "has_the_recipe"
     ]
-  }
+  ]
+}

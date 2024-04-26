@@ -8,15 +8,40 @@
           "weight": 1,
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{BlockEntityTag:{id:\"minecraft:barrel\",Items:[{id:\"minecraft:structure_block\",Count:1b,tag:{CustomModelData:330000,tcc:{placed_block:1b,clear:1b,block:\"pottery_table\"}}}]},CustomModelData:330000,tcc:{id:\"pottery_table\"}}"
+              "function": "minecraft:set_custom_data",
+              "tag": "{tcc:{id:\"pottery_table\",custom_block:1b}}"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_model_data": 330000,
+                "minecraft:container": [
+                  {
+                    "slot": 0,
+                    "item": {
+                      "id": "minecraft:structure_block",
+                      "count": 1,
+                      "components": {
+                        "minecraft:custom_data": {
+                          "tcc": {
+                            "placed_block": true,
+                            "clear": true,
+                            "block": "pottery_table"
+                          }
+                        },
+                        "minecraft:custom_model_data": 330000
+                      }
+                    }
+                  }
+                ]
+              }
             },
             {
               "function": "minecraft:set_name",
               "name": {
-                "translate": "block.tcc.pottery_table",
-                "italic": false
-              }
+                "translate": "block.tcc.pottery_table"
+              },
+              "target": "item_name"
             },
             {
               "function": "minecraft:set_lore",
@@ -26,7 +51,8 @@
                   "color": "#008725",
                   "italic": true
                 }
-              ]
+              ],
+              "mode": "replace_all"
             }
           ],
           "name": "minecraft:barrel"

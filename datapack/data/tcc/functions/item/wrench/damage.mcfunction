@@ -1,4 +1,4 @@
 # Damages the wrench
 
-execute if entity @s[gamemode=!creative,nbt=!{SelectedItem:{tag:{tcc:{id:"wrench"}}}},nbt={Inventory:[{Slot:-106b,tag:{tcc:{id:"wrench"}}}]}] run function tcc:item/durability/damage_generic_amount/offhand_1
-execute if entity @s[gamemode=!creative,nbt={SelectedItem:{tag:{tcc:{id:"wrench"}}}}] run function tcc:item/durability/damage_generic_amount/mainhand_1
+execute if predicate tcc:entity_properties/slots/weapon.mainhand/wrench run function tcc:technical/macros/damage_slot/main {slot:"weapon.mainhand",slot_raw:"SelectedItem",amount:"1"}
+execute unless predicate tcc:entity_properties/slots/weapon.mainhand/wrench run function tcc:technical/macros/damage_slot/main {slot:"weapon.offhand",slot_raw:"Inventory[{Slot:-106b}]",amount:"1"}

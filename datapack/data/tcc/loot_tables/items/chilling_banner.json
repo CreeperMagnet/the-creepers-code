@@ -1,0 +1,92 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{tcc:{id:\"chilling_banner\"}}"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:hide_additional_tooltip": {},
+                "minecraft:banner_patterns": [
+                  {
+                    "color": "magenta",
+                    "pattern": "minecraft:rhombus"
+                  },
+                  {
+                    "color": "red",
+                    "pattern": "minecraft:rhombus"
+                  },
+                  {
+                    "color": "light_gray",
+                    "pattern": "minecraft:stripe_bottom"
+                  },
+                  {
+                    "color": "gray",
+                    "pattern": "minecraft:stripe_center"
+                  },
+                  {
+                    "color": "blue",
+                    "pattern": "minecraft:skull"
+                  },
+                  {
+                    "color": "light_gray",
+                    "pattern": "minecraft:border"
+                  },
+                  {
+                    "color": "black",
+                    "pattern": "minecraft:stripe_middle"
+                  },
+                  {
+                    "color": "light_gray",
+                    "pattern": "minecraft:half_horizontal"
+                  },
+                  {
+                    "color": "light_gray",
+                    "pattern": "minecraft:circle"
+                  },
+                  {
+                    "color": "white",
+                    "pattern": "minecraft:border"
+                  },
+                  {
+                    "color": "blue",
+                    "pattern": "minecraft:border"
+                  }
+                ]
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.tcc.chilling_banner",
+                "color": "gold"
+              },
+              "target": "item_name"
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "translate": "pack.tcc",
+                  "color": "#008725",
+                  "italic": true
+                }
+              ],
+              "mode": "replace_all"
+            }
+          ],
+          "name": "minecraft:white_banner"
+        }
+      ]
+    }
+  ],
+  "random_sequence": "tcc:items/chilling_banner"
+}

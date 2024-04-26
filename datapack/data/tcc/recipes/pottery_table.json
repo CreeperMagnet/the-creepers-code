@@ -1,0 +1,53 @@
+{
+  "category": "misc",
+  "type": "crafting_shaped",
+  "pattern": [
+    "BB",
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "tag": "minecraft:planks"
+    },
+    "B": {
+      "item": "minecraft:brick"
+    }
+  },
+  "result": {
+    "id": "minecraft:barrel",
+    "count": 1,
+    "components": {
+      "minecraft:custom_model_data": 330000,
+      "minecraft:container": [
+        {
+          "slot": 0,
+          "item": {
+            "id": "minecraft:structure_block",
+            "count": 1,
+            "components": {
+              "minecraft:custom_data": {
+                "tcc": {
+                  "placed_block": true,
+                  "clear": true,
+                  "block": "pottery_table"
+                }
+              },
+              "minecraft:custom_model_data": 330000
+            }
+          }
+        }
+      ],
+      "minecraft:custom_data": {
+        "tcc": {
+          "id": "pottery_table",
+          "custom_block": true
+        }
+      },
+      "minecraft:item_name": "{\"translate\":\"block.tcc.pottery_table\"}",
+      "minecraft:lore": [
+        "{\"translate\":\"pack.tcc\",\"color\":\"#008725\",\"italic\":true}"
+      ]
+    }
+  }
+}

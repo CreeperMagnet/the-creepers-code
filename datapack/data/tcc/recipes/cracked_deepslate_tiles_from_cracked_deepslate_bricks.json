@@ -10,8 +10,8 @@
     }
   },
   "result": {
-    "item": "minecraft:cracked_deepslate_tiles",
-    "count": 4
+    "count": 4,
+    "id": "minecraft:cracked_deepslate_tiles"
   },
   "category": "building"
 }

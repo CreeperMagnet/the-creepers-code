@@ -2,7 +2,7 @@
   "parent": "minecraft:end/find_end_city",
   "display": {
     "icon": {
-      "item": "minecraft:shulker_shell"
+      "id": "minecraft:shulker_shell"
     },
     "title": {
       "translate": "advancements.end.levitate.title"

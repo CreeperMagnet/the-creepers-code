@@ -6,13 +6,15 @@
     "###"
   ],
   "key": {
-    "#": [{
-      "item": "minecraft:polished_blackstone"
-    }]
+    "#": [
+      {
+        "item": "minecraft:polished_blackstone"
+      }
+    ]
   },
   "result": {
-    "item": "minecraft:polished_blackstone_stairs",
-    "count": 6
+    "count": 6,
+    "id": "minecraft:polished_blackstone_stairs"
   },
   "category": "building"
 }

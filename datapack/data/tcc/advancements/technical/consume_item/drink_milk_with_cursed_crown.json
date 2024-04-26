@@ -7,7 +7,7 @@
         "player": [
           {
             "condition": "minecraft:reference",
-            "name": "tcc:entity/wearing/cursed_crown"
+            "name": "tcc:entity_properties/slots/armor.head/cursed_crown"
           }
         ],
         "item": {

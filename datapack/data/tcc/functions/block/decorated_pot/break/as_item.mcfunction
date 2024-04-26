@@ -1,4 +1,6 @@
 # Commands run off the dropped items
 
-execute unless entity @s[nbt=!{Age:0s},nbt=!{Age:1s}] run scoreboard players set #temp_0 tcc.dummy 1
-execute unless entity @s[nbt=!{Age:0s},nbt=!{Age:1s}] run data modify entity @s Item.tag set from storage tcc:storage root.temp.item_tag
+item modify entity @s contents tcc:reduce_count
+data modify storage tcc:temp root.item.count set value 1
+function tcc:technical/macros/loot/spawn with storage tcc:temp root.item
+scoreboard players set #temp_0 tcc.dummy 1

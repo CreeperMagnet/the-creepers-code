@@ -19,13 +19,7 @@
                 {
                   "condition": "minecraft:location_check",
                   "predicate": {
-                    "biome": "minecraft:river"
-                  }
-                },
-                {
-                  "condition": "minecraft:location_check",
-                  "predicate": {
-                    "biome": "minecraft:frozen_river"
+                    "biomes": "#minecraft:is_river"
                   }
                 },
                 {
@@ -47,25 +41,11 @@
                 {
                   "condition": "minecraft:location_check",
                   "predicate": {
-                    "biome": "minecraft:deep_warm_ocean"
-                  }
-                },
-                {
-                  "condition": "minecraft:location_check",
-                  "predicate": {
-                    "biome": "minecraft:warm_ocean"
-                  }
-                },
-                {
-                  "condition": "minecraft:location_check",
-                  "predicate": {
-                    "biome": "minecraft:deep_lukewarm_ocean"
-                  }
-                },
-                {
-                  "condition": "minecraft:location_check",
-                  "predicate": {
-                    "biome": "minecraft:lukewarm_ocean"
+                    "biomes": [
+                      "minecraft:warm_ocean",
+                      "minecraft:deep_lukewarm_ocean",
+                      "minecraft:lukewarm_ocean"
+                    ]
                   }
                 },
                 {
@@ -87,25 +67,11 @@
                 {
                   "condition": "minecraft:location_check",
                   "predicate": {
-                    "biome": "minecraft:deep_warm_ocean"
-                  }
-                },
-                {
-                  "condition": "minecraft:location_check",
-                  "predicate": {
-                    "biome": "minecraft:warm_ocean"
-                  }
-                },
-                {
-                  "condition": "minecraft:location_check",
-                  "predicate": {
-                    "biome": "minecraft:deep_lukewarm_ocean"
-                  }
-                },
-                {
-                  "condition": "minecraft:location_check",
-                  "predicate": {
-                    "biome": "minecraft:lukewarm_ocean"
+                    "biomes": [
+                      "minecraft:warm_ocean",
+                      "minecraft:deep_lukewarm_ocean",
+                      "minecraft:lukewarm_ocean"
+                    ]
                   }
                 },
                 {
@@ -119,7 +85,6 @@
         {
           "type": "minecraft:loot_table",
           "weight": 2,
-          "name": "tcc:items/swordfish",
           "conditions": [
             {
               "condition": "minecraft:any_of",
@@ -127,13 +92,10 @@
                 {
                   "condition": "minecraft:location_check",
                   "predicate": {
-                    "biome": "minecraft:deep_frozen_ocean"
-                  }
-                },
-                {
-                  "condition": "minecraft:location_check",
-                  "predicate": {
-                    "biome": "minecraft:frozen_ocean"
+                    "biomes": [
+                      "minecraft:deep_frozen_ocean",
+                      "minecraft:frozen_ocean"
+                    ]
                   }
                 },
                 {
@@ -142,7 +104,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "value": "tcc:items/swordfish"
         }
       ]
     }

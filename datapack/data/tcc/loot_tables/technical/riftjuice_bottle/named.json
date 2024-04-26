@@ -8,30 +8,42 @@
           "name": "minecraft:potion",
           "functions": [
             {
-              "function": "minecraft:copy_nbt",
+              "function": "minecraft:copy_custom_data",
               "source": {
                 "type": "minecraft:storage",
-                "source": "tcc:storage"
+                "source": "tcc:temp"
               },
               "ops": [
                 {
-                  "source": "root.temp.id",
+                  "source": "root.id",
                   "target": "tcc.riftjuice_id",
                   "op": "replace"
                 }
               ]
             },
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{CustomPotionColor:16777215,HideFlags:32,Potion:\"minecraft:mundane\",tcc:{id:\"riftjuice_bottle\"},CustomModelData:330000}"
+              "function": "minecraft:set_custom_data",
+              "tag": "{tcc:{id:\"riftjuice_bottle\"}}"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_model_data": 330000,
+                "minecraft:potion_contents": {
+                  "custom_effects": [],
+                  "potion": "minecraft:mundane",
+                  "custom_color": 16777215
+                },
+                "minecraft:hide_additional_tooltip": {},
+                "minecraft:rarity": "uncommon"
+              }
             },
             {
               "function": "minecraft:set_name",
               "name": {
-                "translate": "item.tcc.riftjuice_bottle",
-                "color": "yellow",
-                "italic": false
-              }
+                "translate": "item.tcc.riftjuice_bottle"
+              },
+              "target": "item_name"
             },
             {
               "function": "minecraft:set_lore",
@@ -41,15 +53,15 @@
                   "translate": "item.tcc.riftjuice_bottle.lore.id",
                   "with": [
                     {
-                      "nbt": "root.temp.id",
-                      "storage": "tcc:storage"
+                      "nbt": "root.id",
+                      "storage": "tcc:temp"
                     },
                     {
                       "translate": "item.tcc.riftjuice_bottle.lore.name",
                       "with": [
                         {
-                          "nbt": "root.temp.name",
-                          "storage":"tcc:storage",
+                          "nbt": "root.name",
+                          "storage": "tcc:temp",
                           "interpret": true
                         }
                       ]
@@ -63,7 +75,8 @@
                   "color": "#008725",
                   "italic": true
                 }
-              ]
+              ],
+              "mode": "replace_all"
             }
           ]
         }

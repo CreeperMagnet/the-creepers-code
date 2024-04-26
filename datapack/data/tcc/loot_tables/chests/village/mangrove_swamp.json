@@ -31,7 +31,7 @@
         },
         {
           "type": "minecraft:loot_table",
-          "name": "tcc:items/snail_bucket"
+          "value": "tcc:items/snail_bucket"
         },
         {
           "type": "minecraft:item",
@@ -119,7 +119,7 @@
               "add": false
             }
           ],
-          "name": "tcc:items/snail_mucus"
+          "value": "tcc:items/snail_mucus"
         }
       ]
     }

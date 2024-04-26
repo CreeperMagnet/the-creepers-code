@@ -2,6 +2,6 @@
 	"parent": "tcc:block/decorated_pot/template",
 	"textures": {
 		"face_1": "tcc:block/decorated_pot/nether_brick/side/mount",
-		"face_2": "tcc:block/decorated_pot/nether_brick/side/brute"
+		"face_2": "tcc:block/decorated_pot/nether_brick/side/spirit"
 	}
 }

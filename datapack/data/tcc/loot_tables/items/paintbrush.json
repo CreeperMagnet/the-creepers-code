@@ -8,15 +8,24 @@
           "weight": 1,
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{RepairCost:100,HideFlags:4,Unbreakable:1b,tcc:{id:\"paintbrush\"},CustomModelData:330009}"
+              "function": "minecraft:set_custom_data",
+              "tag": "{tcc:{id:\"paintbrush\"}}"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_model_data": 330009,
+                "!minecraft:enchantments": {},
+                "!minecraft:damage": {},
+                "!minecraft:max_damage": {}
+              }
             },
             {
               "function": "minecraft:set_name",
               "name": {
-                "translate": "item.tcc.paintbrush",
-                "italic": false
-              }
+                "translate": "item.tcc.paintbrush"
+              },
+              "target": "item_name"
             },
             {
               "function": "minecraft:set_lore",
@@ -26,7 +35,8 @@
                   "color": "#008725",
                   "italic": true
                 }
-              ]
+              ],
+              "mode": "replace_all"
             }
           ],
           "name": "minecraft:warped_fungus_on_a_stick"

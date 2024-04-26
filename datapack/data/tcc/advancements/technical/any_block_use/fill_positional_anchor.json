@@ -1,0 +1,38 @@
+{
+  "criteria": {
+    "click_positional_anchor": {
+      "trigger": "minecraft:any_block_use",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:ender_pearl"
+              ]
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:dropper"
+                ],
+                "nbt": "{Lock:\"\u00a7positional_anchor\\\\uF001\"}"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "tcc:block/positional_anchor/fill/advancement"
+  },
+  "requirements": [
+    [
+      "click_positional_anchor"
+    ]
+  ]
+}

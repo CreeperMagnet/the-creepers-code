@@ -35,7 +35,9 @@
                   "predicate": {
                     "equipment": {
                       "head": {
-                        "nbt": "{tcc:{id:\"witch_hat\"}}"
+                        "predicates": {
+                          "minecraft:custom_data": "{tcc:{id:\"witch_hat\"}}"
+                        }
                       }
                     }
                   }
@@ -109,6 +111,17 @@
           "predicate": {
             "type": "minecraft:warden"
           }
+        },
+        {
+          "condition": "minecraft:damage_source_properties",
+          "predicate": {
+            "tags": [
+              {
+                "id": "tcc:sonic_boom",
+                "expected": true
+              }
+            ]
+          }
         }
       ]
     },
@@ -143,7 +156,8 @@
                 {
                   "translate": "item.tcc.easter_egg.lore"
                 }
-              ]
+              ],
+              "mode": "replace_all"
             }
           ]
         }
@@ -171,35 +185,35 @@
         }
       },
       {
-        "type":"append",
-        "target":"pools",
+        "type": "append",
+        "target": "pools",
         "source": {
-          "type":"reference",
-          "path":"pools[2]"
+          "type": "reference",
+          "path": "pools[2]"
         }
       },
       {
-        "type":"append",
-        "target":"pools",
+        "type": "append",
+        "target": "pools",
         "source": {
-          "type":"reference",
-          "path":"pools[3]"
+          "type": "reference",
+          "path": "pools[3]"
         }
       },
       {
-        "type":"append",
-        "target":"pools",
+        "type": "append",
+        "target": "pools",
         "source": {
-          "type":"reference",
-          "path":"pools[4]"
+          "type": "reference",
+          "path": "pools[4]"
         }
       },
       {
-        "type":"append",
-        "target":"pools",
+        "type": "append",
+        "target": "pools",
         "source": {
-          "type":"reference",
-          "path":"pools[5]"
+          "type": "reference",
+          "path": "pools[5]"
         }
       }
     ]

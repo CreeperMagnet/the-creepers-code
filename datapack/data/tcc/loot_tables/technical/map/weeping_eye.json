@@ -9,13 +9,19 @@
             {
               "destination": "tcc:weeping_eye_located",
               "function": "minecraft:exploration_map",
-              "decoration": "target_point",
+              "decoration": "minecraft:target_point",
               "zoom": 1,
               "skip_existing_chunks": true
             },
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:330001,tcc:{id:\"weeping_eye_map\"}}"
+              "function": "minecraft:set_custom_data",
+              "tag": "{tcc:{id:\"weeping_eye_map\"}}"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_model_data": 330001
+              }
             }
           ],
           "name": "minecraft:map"

@@ -9,14 +9,28 @@
             "items": [
               "minecraft:warped_fungus_on_a_stick"
             ],
-            "nbt": "{tcc:{id:\"witch_hat\"}}"
+            "predicates": {
+              "minecraft:custom_data": "{tcc:{id:\"witch_hat\"}}"
+            }
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Tags:[\"tcc.modifying_item\"]}"
+              }
+            }
           }
         ]
       }
     }
   },
   "rewards": {
-    "function": "tcc:item/witch_hat/unequip"
+    "function": "tcc:item/witch_hat/unequip/main"
   },
   "requirements": [
     [

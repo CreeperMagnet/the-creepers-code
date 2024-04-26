@@ -11,8 +11,8 @@
     }
   },
   "result": {
-    "item": "minecraft:red_nether_brick_stairs",
-    "count": 6
+    "count": 6,
+    "id": "minecraft:red_nether_brick_stairs"
   },
   "category": "building"
 }

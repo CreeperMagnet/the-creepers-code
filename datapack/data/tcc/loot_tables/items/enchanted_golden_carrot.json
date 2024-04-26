@@ -8,16 +8,36 @@
           "weight": 1,
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{Enchantments:[{id:\"binding_curse\"}],HideFlags:1,tcc:{id:\"enchanted_golden_carrot\"},manic:{sanity:\"very_good\"}}"
+              "function": "minecraft:set_custom_data",
+              "tag": "{tcc:{id:\"enchanted_golden_carrot\"}}"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:enchantment_glint_override": true,
+                "minecraft:rarity": "rare",
+                "minecraft:custom_model_data": 330000,
+                "minecraft:food": {
+                  "nutrition": 6,
+                  "saturation": 14.4,
+                  "can_always_eat": true,
+                  "effects": [
+                    {
+                      "effect": {
+                        "id": "minecraft:night_vision",
+                        "duration": 18000
+                      }
+                    }
+                  ]
+                }
+              }
             },
             {
               "function": "minecraft:set_name",
               "name": {
-                "translate": "item.tcc.enchanted_golden_carrot",
-                "color": "aqua",
-                "italic": false
-              }
+                "translate": "item.tcc.enchanted_golden_carrot"
+              },
+              "target": "item_name"
             },
             {
               "function": "minecraft:set_lore",
@@ -27,7 +47,8 @@
                   "color": "#008725",
                   "italic": true
                 }
-              ]
+              ],
+              "mode": "replace_all"
             }
           ],
           "name": "minecraft:golden_carrot"

@@ -4,7 +4,7 @@
     "used_totem": {
       "trigger": "minecraft:used_totem"
     },
-    "void_damage": {
+    "took_void_damage_with_totem_and_no_levitation": {
       "trigger": "minecraft:entity_hurt_player",
       "conditions": {
         "damage": {
@@ -16,14 +16,39 @@
               }
             ]
           }
-        }
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "slots": {
+                "weapon.*": {
+                  "items": "minecraft:totem_of_undying"
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "effects": {
+                  "minecraft:levitation": {}
+                }
+              }
+            }
+          }
+        ]
       }
     }
   },
   "requirements": [
     [
       "used_totem",
-      "void_damage"
+      "took_void_damage_with_totem_and_no_levitation"
     ]
   ],
   "rewards": {

@@ -5,7 +5,6 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "tcc:items/positional_anchor",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -18,7 +17,8 @@
                 "score": "tcc.dummy"
               }
             }
-          ]
+          ],
+          "value": "tcc:items/positional_anchor"
         }
       ]
     }

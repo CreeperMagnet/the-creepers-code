@@ -6,7 +6,6 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "tcc:items/bat_wing",
           "functions": [
             {
               "function": "set_count",
@@ -15,7 +14,8 @@
                 "max": 2
               }
             }
-          ]
+          ],
+          "value": "tcc:items/bat_wing"
         }
       ]
     }
@@ -24,11 +24,11 @@
   "__smithed__": {
     "rules": [
       {
-        "type":"append",
-        "target":"pools",
-        "source":{
-          "type":"reference",
-          "path":"pools[0]"
+        "type": "append",
+        "target": "pools",
+        "source": {
+          "type": "reference",
+          "path": "pools[0]"
         }
       }
     ]

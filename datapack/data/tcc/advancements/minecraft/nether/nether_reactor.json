@@ -1,8 +1,10 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:dropper",
-      "nbt": "{CustomModelData:330001}"
+      "id": "minecraft:dropper",
+      "components": {
+        "minecraft:custom_model_data": 330001
+      }
     },
     "title": {
       "translate": "advancements.tcc.minecraft.nether.nether_reactor.title"

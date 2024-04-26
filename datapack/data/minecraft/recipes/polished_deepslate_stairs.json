@@ -11,8 +11,8 @@
     }
   },
   "result": {
-    "item": "minecraft:polished_deepslate_stairs",
-    "count": 6
+    "count": 6,
+    "id": "minecraft:polished_deepslate_stairs"
   },
   "category": "building"
 }

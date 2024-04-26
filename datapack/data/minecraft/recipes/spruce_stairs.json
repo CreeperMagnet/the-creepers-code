@@ -12,8 +12,8 @@
     }
   },
   "result": {
-    "item": "minecraft:spruce_stairs",
-    "count": 6
+    "count": 6,
+    "id": "minecraft:spruce_stairs"
   },
   "category": "building"
 }

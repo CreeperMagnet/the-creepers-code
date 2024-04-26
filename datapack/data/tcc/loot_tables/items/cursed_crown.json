@@ -8,29 +8,64 @@
           "weight": 1,
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{HideFlags:6,Enchantments:[{id:\"minecraft:binding_curse\",lvl:1s}],AttributeModifiers:[{Amount:3.0d,Slot:\"head\",AttributeName:\"minecraft:generic.armor\",Name:\"minecraft:generic.armor\",Operation:0,UUID:[I;2,0,3,3]},{Amount:-16d,Slot:\"head\",AttributeName:\"minecraft:generic.max_health\",Name:\"minecraft:generic.max_health\",Operation:0,UUID:[I;2,0,3,3]}],Unbreakable:1b,tcc:{id:\"cursed_crown\",durability:[500,500],repaired:1b},CustomModelData:330001}"
+              "function": "minecraft:set_custom_data",
+              "tag": "{tcc:{id:\"cursed_crown\"}}"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_model_data": 330001,
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "amount": 3.0,
+                      "slot": "head",
+                      "name": "minecraft:generic.armor",
+                      "operation": "add_value",
+                      "uuid": [
+                        2,
+                        0,
+                        3,
+                        3
+                      ],
+                      "type": "minecraft:generic.armor"
+                    },
+                    {
+                      "amount": -16.0,
+                      "slot": "head",
+                      "name": "minecraft:generic.max_health",
+                      "operation": "add_value",
+                      "uuid": [
+                        2,
+                        0,
+                        3,
+                        3
+                      ],
+                      "type": "minecraft:generic.max_health"
+                    }
+                  ],
+                  "show_in_tooltip": false
+                },
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:binding_curse": 1
+                  }
+                },
+                "minecraft:damage": 0,
+                "minecraft:rarity": "uncommon",
+                "minecraft:max_damage": 500
+              }
             },
             {
               "function": "minecraft:set_name",
               "name": {
-                "translate": "item.tcc.cursed_crown",
-                "color": "yellow",
-                "italic": false
-              }
+                "translate": "item.tcc.cursed_crown"
+              },
+              "target": "item_name"
             },
             {
               "function": "minecraft:set_lore",
               "lore": [
-                {
-                  "translate": "item.durability",
-                  "color": "gray",
-                  "italic": false,
-                  "with": [
-                    500,
-                    500
-                  ]
-                },
                 {
                   "translate": "pack.tcc",
                   "color": "#008725",
@@ -47,7 +82,7 @@
                   "italic": false,
                   "color": "blue",
                   "with": [
-                    2,
+                    3,
                     {
                       "translate": "attribute.name.generic.armor"
                     }
@@ -75,7 +110,8 @@
                     }
                   ]
                 }
-              ]
+              ],
+              "mode": "replace_all"
             }
           ],
           "name": "minecraft:golden_helmet"

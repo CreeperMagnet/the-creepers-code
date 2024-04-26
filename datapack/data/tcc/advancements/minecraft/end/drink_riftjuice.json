@@ -1,8 +1,14 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:potion",
-      "nbt": "{CustomModelData:330000,CustomPotionColor:16777215}"
+      "id": "minecraft:potion",
+      "components": {
+        "minecraft:custom_model_data": 330000,
+        "minecraft:potion_contents": {
+          "custom_effects": [],
+          "custom_color": 16777215
+        }
+      }
     },
     "title": {
       "translate": "advancements.tcc.minecraft.end.drink_riftjuice.title"
@@ -26,7 +32,9 @@
       "trigger": "minecraft:consume_item",
       "conditions": {
         "item": {
-          "nbt": "{tcc:{id:\"riftjuice_bottle\"}}"
+          "predicates": {
+            "minecraft:custom_data": "{tcc:{id:\"riftjuice_bottle\"}}"
+          }
         }
       }
     }

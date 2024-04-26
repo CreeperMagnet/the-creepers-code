@@ -18,7 +18,9 @@
         ],
         "items": [
           {
-            "nbt": "{tcc:{soulbound:1b}}"
+            "predicates": {
+              "minecraft:custom_data": "{tcc:{soulbound:1b}}"
+            }
           }
         ]
       }

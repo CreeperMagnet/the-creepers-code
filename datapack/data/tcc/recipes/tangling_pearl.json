@@ -1,0 +1,35 @@
+{
+  "category": "equipment",
+  "type": "crafting_shaped",
+  "pattern": [
+    " V ",
+    "VEV",
+    " V "
+  ],
+  "key": {
+    "V": {
+      "item": "minecraft:twisting_vines"
+    },
+    "E": {
+      "item": "minecraft:ender_pearl"
+    }
+  },
+  "result": {
+    "id": "minecraft:warped_fungus_on_a_stick",
+    "count": 1,
+    "components": {
+      "minecraft:custom_model_data": 330240,
+      "!minecraft:enchantments": {},
+      "minecraft:custom_data": {
+        "tcc": {
+          "id": "tangling_pearl",
+          "enabled": false
+        }
+      },
+      "minecraft:item_name": "{\"translate\":\"item.tcc.tangling_pearl\"}",
+      "minecraft:lore": [
+        "{\"translate\":\"pack.tcc\",\"color\":\"#008725\",\"italic\":true}"
+      ]
+    }
+  }
+}

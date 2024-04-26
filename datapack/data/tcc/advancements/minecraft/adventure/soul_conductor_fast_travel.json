@@ -2,8 +2,10 @@
   "parent": "minecraft:adventure/avoid_vibration",
   "display": {
     "icon": {
-      "item": "minecraft:dropper",
-      "nbt": "{CustomModelData:330011}"
+      "id": "minecraft:dropper",
+      "components": {
+        "minecraft:custom_model_data": 330011
+      }
     },
     "title": {
       "translate": "advancements.tcc.minecraft.adventure.soul_conductor_fast_travel.title"

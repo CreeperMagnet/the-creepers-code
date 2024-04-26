@@ -225,6 +225,15 @@
     ],
     "subtitle": "subtitles.tcc.block.teapot.hit"
   },
+  "block.teapot.break": {
+    "sounds": [
+      "entity/armorstand/break1",
+      "entity/armorstand/break2",
+      "entity/armorstand/break3",
+      "entity/armorstand/break4"
+    ],
+    "subtitle": "subtitles.block.generic.break"
+  },
   "block.gobblerift.place": {
     "sounds": [
       "tcc:block/gobblerift/place1",

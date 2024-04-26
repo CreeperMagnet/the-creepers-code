@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:ice"
+      "id": "minecraft:ice"
     },
     "title": {
       "translate": "advancements.tcc.minecraft.adventure.enter_tundra_keep.title"
@@ -32,7 +32,7 @@
             "entity": "this",
             "predicate": {
               "location": {
-                "structure": "tcc:tundra_keep"
+                "structures": "tcc:tundra_keep"
               }
             }
           }

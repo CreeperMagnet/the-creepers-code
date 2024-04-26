@@ -12,8 +12,8 @@
     }
   },
   "result": {
-    "item": "minecraft:jungle_stairs",
-    "count": 6
+    "count": 6,
+    "id": "minecraft:jungle_stairs"
   },
   "category": "building"
 }

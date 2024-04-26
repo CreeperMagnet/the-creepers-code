@@ -6,8 +6,17 @@
       "conditions": {
         "player": [
           {
-            "condition": "minecraft:reference",
-            "name": "tcc:entity/wearing/witch_hat"
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "head": {
+                  "predicates": {
+                    "minecraft:custom_data": "{tcc:{id:\"witch_hat\"}}"
+                  }
+                }
+              }
+            }
           }
         ],
         "damage": {

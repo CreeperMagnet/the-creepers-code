@@ -1,0 +1,38 @@
+{
+  "group": "dyed_bundle",
+  "category": "equipment",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "-#-",
+    "#D#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:rabbit_hide"
+    },
+    "-": {
+      "item": "minecraft:string"
+    },
+    "D": {
+      "item": "minecraft:cyan_dye"
+    }
+  },
+  "result": {
+    "id": "minecraft:bundle",
+    "count": 1,
+    "components": {
+      "minecraft:custom_model_data": 330003,
+      "minecraft:custom_data": {
+        "tcc": {
+          "id": "dyed_bundle",
+          "color": "cyan"
+        }
+      },
+      "minecraft:item_name": "{\"translate\":\"item.tcc.dyed_bundle.cyan\"}",
+      "minecraft:lore": [
+        "{\"translate\":\"pack.tcc\",\"color\":\"#008725\",\"italic\":true}"
+      ]
+    }
+  }
+}

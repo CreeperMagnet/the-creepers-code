@@ -1,11 +1,11 @@
 # Triggers the glowing behavior of soul seer
 
-data modify entity @s item.tag.CustomModelData set value 330005
+data modify entity @s item.components."minecraft:custom_model_data" set value 330005
 execute unless block ~ ~1 ~ minecraft:tinted_glass run scoreboard players set @s tcc.dummy2 200
 execute if block ~ ~1 ~ minecraft:tinted_glass run scoreboard players set @s tcc.dummy2 20
-data modify entity @s item.tag.comparator set value 0
-data remove storage tcc:storage root.temp
-execute if block ~ ~1 ~ minecraft:tinted_glass run data modify storage tcc:storage root.temp.soul_seer_blocked set value 1b
+data modify entity @s item.components."minecraft:custom_data".comparator set value 0
+data remove storage tcc:temp root
+execute if block ~ ~1 ~ minecraft:tinted_glass run data modify storage tcc:temp root.soul_seer_blocked set value 1b
 function tcc:block/soul_seer/glow/decode_block
 data merge entity @s {brightness:{sky:15,block:7}}
 tag @s add tcc.glow_in_the_dark

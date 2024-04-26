@@ -13,7 +13,7 @@
     }
   },
   "result": {
-    "item": "minecraft:warped_wart_block"
+    "id": "minecraft:warped_wart_block"
   },
   "category": "building"
 }

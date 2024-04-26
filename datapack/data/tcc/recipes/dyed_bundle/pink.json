@@ -1,0 +1,38 @@
+{
+  "group": "dyed_bundle",
+  "category": "equipment",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "-#-",
+    "#D#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:rabbit_hide"
+    },
+    "-": {
+      "item": "minecraft:string"
+    },
+    "D": {
+      "item": "minecraft:pink_dye"
+    }
+  },
+  "result": {
+    "id": "minecraft:bundle",
+    "count": 1,
+    "components": {
+      "minecraft:custom_model_data": 330011,
+      "minecraft:custom_data": {
+        "tcc": {
+          "id": "dyed_bundle",
+          "color": "pink"
+        }
+      },
+      "minecraft:item_name": "{\"translate\":\"item.tcc.dyed_bundle.pink\"}",
+      "minecraft:lore": [
+        "{\"translate\":\"pack.tcc\",\"color\":\"#008725\",\"italic\":true}"
+      ]
+    }
+  }
+}

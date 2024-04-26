@@ -12,8 +12,8 @@
     }
   },
   "result": {
-    "item": "minecraft:dark_oak_stairs",
-    "count": 6
+    "count": 6,
+    "id": "minecraft:dark_oak_stairs"
   },
   "category": "building"
 }

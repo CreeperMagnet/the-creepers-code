@@ -1,0 +1,35 @@
+{
+  "category": "misc",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:bowl"
+    },
+    {
+      "item": "minecraft:warped_fungus"
+    },
+    {
+      "item": "minecraft:crimson_fungus"
+    }
+  ],
+  "result": {
+    "id": "minecraft:mushroom_stew",
+    "count": 1,
+    "components": {
+      "minecraft:custom_model_data": 330000,
+      "minecraft:custom_data": {
+        "tcc": {
+          "id": "fungal_stew"
+        }
+      },
+      "minecraft:food": {
+        "nutrition": 7,
+        "saturation": 9.0
+      },
+      "minecraft:item_name": "{\"translate\":\"item.tcc.fungal_stew\"}",
+      "minecraft:lore": [
+        "{\"translate\":\"pack.tcc\",\"color\":\"#008725\",\"italic\":true}"
+      ]
+    }
+  }
+}

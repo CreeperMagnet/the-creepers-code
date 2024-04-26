@@ -10,8 +10,8 @@
     }
   },
   "result": {
-    "item": "minecraft:iron_trapdoor",
-    "count": 4
+    "count": 4,
+    "id": "minecraft:iron_trapdoor"
   },
   "category": "redstone"
 }

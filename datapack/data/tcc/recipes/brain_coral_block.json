@@ -8,16 +8,16 @@
   "key": {
     "#": [
       {
-         "item": "minecraft:brain_coral"
+        "item": "minecraft:brain_coral"
       },
       {
-         "item": "minecraft:brain_coral_fan"
+        "item": "minecraft:brain_coral_fan"
       }
     ]
   },
   "result": {
-    "item": "minecraft:brain_coral_block",
-    "count": 1
+    "count": 1,
+    "id": "minecraft:brain_coral_block"
   },
   "category": "building"
 }

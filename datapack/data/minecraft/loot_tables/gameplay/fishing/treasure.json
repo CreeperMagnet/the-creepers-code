@@ -84,7 +84,7 @@
             {
               "condition": "minecraft:location_check",
               "predicate": {
-                "biome": "minecraft:deep_dark"
+                "biomes": "minecraft:deep_dark"
               }
             }
           ]
@@ -96,85 +96,85 @@
           "conditions": [
             {
               "condition": "minecraft:reference",
-              "name": "tcc:location/above_shipwreck"
+              "name": "tcc:location_check/above_shipwreck"
             }
           ]
         },
         {
-          "name": "tcc:gameplay/fishing_pottery_sherds/cold_ocean_ruin",
           "type": "minecraft:loot_table",
           "weight": 10,
           "conditions": [
             {
               "condition": "minecraft:reference",
-              "name": "tcc:location/above_cold_ocean_ruin"
+              "name": "tcc:location_check/above_cold_ocean_ruin"
             }
-          ]
+          ],
+          "value": "tcc:gameplay/fishing_pottery_sherds/cold_ocean_ruin"
         },
         {
-          "name": "tcc:gameplay/fishing_pottery_sherds/warm_ocean_ruin",
           "type": "minecraft:loot_table",
           "weight": 10,
           "conditions": [
             {
               "condition": "minecraft:reference",
-              "name": "tcc:location/above_warm_ocean_ruin"
+              "name": "tcc:location_check/above_warm_ocean_ruin"
             }
-          ]
+          ],
+          "value": "tcc:gameplay/fishing_pottery_sherds/warm_ocean_ruin"
         },
         {
-          "name": "tcc:items/cursed_crown",
           "type": "minecraft:loot_table",
           "weight": 3,
           "conditions": [
             {
               "condition": "minecraft:location_check",
               "predicate": {
-                "structure": "minecraft:jungle_pyramid"
+                "structures": "minecraft:jungle_pyramid"
               }
             }
-          ]
+          ],
+          "value": "tcc:items/cursed_crown"
         }
       ]
     }
   ],
   "random_sequence": "minecraft:gameplay/fishing/treasure",
-  "__smithed__":{
-    "rules":[
+  "__smithed__": {
+    "rules": [
       {
-        "type":"insert",
+        "type": "insert",
         "index": 6,
-        "target":"pools[0].entries",
+        "target": "pools[0].entries",
         "source": {
-          "type":"reference",
-          "path":"pools[0].entries[6]"
+          "type": "reference",
+          "path": "pools[0].entries[6]"
         }
       },
       {
-        "type":"insert",
+        "type": "insert",
         "index": 7,
-        "target":"pools[0].entries",
+        "target": "pools[0].entries",
         "source": {
-          "type":"reference",
-          "path":"pools[0].entries[7]"
+          "type": "reference",
+          "path": "pools[0].entries[7]"
         }
       },
       {
-        "type":"insert",
+        "type": "insert",
         "index": 8,
-        "target":"pools[0].entries",
+        "target": "pools[0].entries",
         "source": {
-          "type":"reference",
-          "path":"pools[0].entries[8]"
+          "type": "reference",
+          "path": "pools[0].entries[8]"
         }
       },
       {
-        "type":"insert",
+        "type": "insert",
         "index": 9,
-        "target":"pools[0].entries",
+        "target": "pools[0].entries",
         "source": {
-          "type":"reference",
-          "path":"pools[0].entries[9]"
+          "type": "reference",
+          "path": "pools[0].entries[9]"
         }
       }
     ]

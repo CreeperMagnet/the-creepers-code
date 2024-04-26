@@ -103,11 +103,11 @@
   "__smithed__": {
     "rules": [
       {
-        "type":"append",
-        "target":"pools",
-        "source":{
-          "type":"reference",
-          "path":"pools[2]"
+        "type": "append",
+        "target": "pools",
+        "source": {
+          "type": "reference",
+          "path": "pools[2]"
         }
       }
     ]

@@ -8,16 +8,16 @@
   "key": {
     "#": [
       {
-         "item": "minecraft:dead_brain_coral"
+        "item": "minecraft:dead_brain_coral"
       },
       {
-         "item": "minecraft:dead_brain_coral_fan"
+        "item": "minecraft:dead_brain_coral_fan"
       }
     ]
   },
   "result": {
-    "item": "minecraft:dead_brain_coral_block",
-    "count": 1
+    "count": 1,
+    "id": "minecraft:dead_brain_coral_block"
   },
   "category": "building"
 }

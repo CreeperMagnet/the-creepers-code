@@ -10,7 +10,9 @@
               "items": [
                 "minecraft:leather_helmet"
               ],
-              "nbt": "{tcc:{id:\"witch_hat\"}}"
+              "predicates": {
+                "minecraft:custom_data": "{tcc:{id:\"witch_hat\"}}"
+              }
             }
           }
         },
@@ -19,7 +21,9 @@
             "items": [
               "minecraft:leather_helmet"
             ],
-            "nbt": "{tcc:{id:\"witch_hat\"}}"
+            "predicates": {
+              "minecraft:custom_data": "{tcc:{id:\"witch_hat\"}}"
+            }
           }
         ]
       }

@@ -10,7 +10,7 @@
     }
   },
   "result": {
-    "item": "minecraft:sculk"
+    "id": "minecraft:sculk"
   },
   "category": "building"
 }

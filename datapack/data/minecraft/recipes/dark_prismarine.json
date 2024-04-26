@@ -14,8 +14,8 @@
     }
   },
   "result": {
-    "item": "minecraft:dark_prismarine",
-    "count": 8
+    "count": 8,
+    "id": "minecraft:dark_prismarine"
   },
   "category": "building"
 }

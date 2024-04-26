@@ -4,7 +4,9 @@
       "trigger": "minecraft:consume_item",
       "conditions": {
         "item": {
-          "nbt": "{tcc:{id:\"golden_chorus_fruit\"}}"
+          "predicates": {
+            "minecraft:custom_data": "{tcc:{id:\"golden_chorus_fruit\"}}"
+          }
         }
       }
     }

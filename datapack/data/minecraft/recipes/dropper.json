@@ -14,7 +14,7 @@
     }
   },
   "result": {
-    "item": "minecraft:dropper"
+    "id": "minecraft:dropper"
   },
   "category": "redstone"
 }

@@ -7,7 +7,9 @@
           {
             "condition": "minecraft:match_tool",
             "predicate": {
-              "nbt": "{BlockEntityTag:{Items:[{tag:{tcc:{placed_block:1b}}}]}}"
+              "predicates": {
+                "minecraft:custom_data": "{tcc:{custom_block:1b}}"
+              }
             }
           }
         ]
@@ -15,7 +17,7 @@
     }
   },
   "rewards": {
-    "function": "tcc:block/placement/scan"
+    "function": "tcc:block/placement/advancement"
   },
   "requirements": [
     [

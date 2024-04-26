@@ -8,15 +8,43 @@
           "weight": 1,
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{BlockEntityTag:{id:\"minecraft:dropper\",Items:[{id:\"minecraft:structure_block\",Count:1b,tag:{CustomModelData:330000,tcc:{placed_block:1b,clear:1b,block:\"soul_seer\"}}}]},CustomModelData:330004,tcc:{id:\"soul_seer\"}}"
+              "function": "minecraft:set_custom_data",
+              "tag": "{tcc:{id:\"soul_seer\",custom_block:1b}}"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_model_data": 330004,
+                "minecraft:container": [
+                  {
+                    "slot": 0,
+                    "item": {
+                      "id": "minecraft:structure_block",
+                      "count": 1,
+                      "components": {
+                        "minecraft:custom_data": {
+                          "tcc": {
+                            "placed_block": true,
+                            "clear": true,
+                            "block": "soul_seer"
+                          }
+                        },
+                        "minecraft:custom_model_data": 330000
+                      }
+                    }
+                  }
+                ],
+                "minecraft:block_entity_data": {
+                  "id": "minecraft:dropper"
+                }
+              }
             },
             {
               "function": "minecraft:set_name",
               "name": {
-                "translate": "block.tcc.soul_seer",
-                "italic": false
-              }
+                "translate": "block.tcc.soul_seer"
+              },
+              "target": "item_name"
             },
             {
               "function": "minecraft:set_lore",
@@ -26,7 +54,8 @@
                   "color": "#008725",
                   "italic": true
                 }
-              ]
+              ],
+              "mode": "replace_all"
             }
           ],
           "name": "minecraft:dropper"

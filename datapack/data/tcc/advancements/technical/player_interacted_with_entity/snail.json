@@ -60,6 +60,16 @@
                 "nbt": "{Tags:[\"tcc.breeding_cooldown\"]}"
               }
             }
+          },
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Tags:[\"tcc.baby\"]}"
+              }
+            }
           }
         ]
       }
@@ -84,7 +94,7 @@
             "condition": "minecraft:inverted",
             "term": {
               "condition": "minecraft:reference",
-              "name": "tcc:entity/in_vehicle"
+              "name": "tcc:entity_properties/in_vehicle"
             }
           }
         ]
@@ -126,7 +136,9 @@
           "items": [
             "minecraft:golden_carrot"
           ],
-          "nbt": "{tcc:{id:\"heartbeet\"}}"
+          "predicates": {
+            "minecraft:custom_data": "{tcc:{id:\"heartbeet\"}}"
+          }
         },
         "entity": [
           {
@@ -156,7 +168,9 @@
           "items": [
             "minecraft:name_tag"
           ],
-          "nbt": "{display:{Name:'\"Gary\"'}}"
+          "components": {
+            "minecraft:custom_name": "\"Gary\""
+          }
         },
         "entity": [
           {

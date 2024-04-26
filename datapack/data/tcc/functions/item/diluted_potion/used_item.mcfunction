@@ -1,5 +1,5 @@
 # Makes diluted potions function
 
-scoreboard players set @s tcc.dummy 0
-execute if entity @s[predicate=tcc:entity/holding/diluted_potion/mainhand] run function tcc:item/diluted_potion/mainhand/check_potion
-execute if entity @s[predicate=!tcc:entity/holding/diluted_potion/mainhand,predicate=tcc:entity/holding/diluted_potion/offhand] run function tcc:item/diluted_potion/offhand/check_potion
+data remove storage tcc:temp root
+execute if entity @s[predicate=tcc:entity_properties/slots/weapon.mainhand/diluted_potion] run return run function tcc:item/diluted_potion/main_macro {"slot":"weapon.mainhand","slot_raw":"SelectedItem"}
+function tcc:item/diluted_potion/main_macro {"slot":"weapon.offhand","slot_raw":"Inventory[{Slot:-106b}]"}

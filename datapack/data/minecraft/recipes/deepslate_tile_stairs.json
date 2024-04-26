@@ -11,8 +11,8 @@
     }
   },
   "result": {
-    "item": "minecraft:deepslate_tile_stairs",
-    "count": 6
+    "count": 6,
+    "id": "minecraft:deepslate_tile_stairs"
   },
   "category": "building"
 }

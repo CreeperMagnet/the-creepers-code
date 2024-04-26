@@ -1,0 +1,11 @@
+{
+  "condition": "minecraft:location_check",
+  "predicate": {
+    "position": {
+      "y": {
+        "max": 55
+      }
+    },
+    "structures": "minecraft:jungle_pyramid"
+  }
+}

@@ -27,7 +27,7 @@
     }
   },
   "rewards": {
-    "function": "tcc:block/frostbloom/bonemeal"
+    "function": "tcc:block/frostbloom/bonemeal/main"
   },
   "requirements": [
     [

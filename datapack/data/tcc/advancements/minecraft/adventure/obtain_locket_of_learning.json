@@ -2,8 +2,11 @@
   "parent": "minecraft:adventure/kill_a_mob",
   "display": {
     "icon": {
-      "item": "minecraft:warped_fungus_on_a_stick",
-      "nbt": "{CustomModelData:330031,Enchantments:[{}]}"
+      "id": "minecraft:warped_fungus_on_a_stick",
+      "components": {
+        "minecraft:custom_model_data": 330031,
+        "minecraft:enchantment_glint_override": true
+      }
     },
     "title": {
       "translate": "advancements.tcc.minecraft.adventure.obtain_locket_of_learning.title"

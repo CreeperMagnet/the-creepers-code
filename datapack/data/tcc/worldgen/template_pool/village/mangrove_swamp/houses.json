@@ -247,7 +247,7 @@
       "element": {
         "element_type": "minecraft:single_pool_element",
         "location": "tcc:village/mangrove_swamp/houses/archaeologist",
-        "processors": "tcc:archaeologist_house",
+        "processors": "tcc:village/mangrove_swamp/street",
         "projection": "rigid"
       },
       "weight": 4

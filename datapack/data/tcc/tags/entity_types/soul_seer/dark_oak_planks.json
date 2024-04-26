@@ -1,6 +1,8 @@
 {
   "values": [
-    "#tcc:illagers",
+    "#minecraft:illager",
+    "minecraft:vex",
+    "minecraft:ravager",
     "minecraft:witch"
   ]
 }

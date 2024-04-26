@@ -8,7 +8,9 @@
             "items": [
               "minecraft:decorated_pot"
             ],
-            "nbt": "{tcc:{trigger_advancement:1b}}"
+            "predicates": {
+              "minecraft:custom_data": "{tcc:{trigger_advancement:1b}}"
+            }
           }
         ]
       },
@@ -23,8 +25,15 @@
     "frame": "task",
     "hidden": false,
     "icon": {
-      "item": "minecraft:decorated_pot",
-      "nbt": "{BlockEntityTag:{id:\"minecraft:decorated_pot\",sherds:[\"minecraft:brick\",\"minecraft:heart_pottery_sherd\",\"minecraft:brick\",\"minecraft:explorer_pottery_sherd\"]}}"
+      "id": "minecraft:decorated_pot",
+      "components": {
+        "minecraft:pot_decorations": [
+          "minecraft:brick",
+          "minecraft:heart_pottery_sherd",
+          "minecraft:brick",
+          "minecraft:explorer_pottery_sherd"
+        ]
+      }
     },
     "show_toast": true,
     "title": {

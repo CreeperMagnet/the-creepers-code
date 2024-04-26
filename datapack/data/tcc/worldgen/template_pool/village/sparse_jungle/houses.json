@@ -247,7 +247,7 @@
       "element": {
         "element_type": "minecraft:single_pool_element",
         "location": "tcc:village/sparse_jungle/houses/archaeologist",
-        "processors": "tcc:archaeologist_house",
+        "processors": "tcc:village/sparse_jungle/mossify",
         "projection": "rigid"
       },
       "weight": 4

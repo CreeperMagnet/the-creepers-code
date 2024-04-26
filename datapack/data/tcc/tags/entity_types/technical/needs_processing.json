@@ -7,7 +7,7 @@
     "minecraft:skeleton",
     "minecraft:item",
     "#tcc:technical/converted",
-    "#tcc:illagers",
+    "#minecraft:illager",
     "#tcc:prevent_aggression"
   ]
 }

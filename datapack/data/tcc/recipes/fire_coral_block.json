@@ -8,16 +8,16 @@
   "key": {
     "#": [
       {
-         "item": "minecraft:fire_coral"
+        "item": "minecraft:fire_coral"
       },
       {
-         "item": "minecraft:fire_coral_fan"
+        "item": "minecraft:fire_coral_fan"
       }
     ]
   },
   "result": {
-    "item": "minecraft:fire_coral_block",
-    "count": 1
+    "count": 1,
+    "id": "minecraft:fire_coral_block"
   },
   "category": "building"
 }

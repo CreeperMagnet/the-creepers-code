@@ -114,7 +114,7 @@
               "function": "minecraft:furnace_smelt"
             }
           ],
-          "name": "minecraft:gameplay/fishing/fish"
+          "value": "minecraft:gameplay/fishing/fish"
         }
       ],
       "rolls": 1
@@ -131,43 +131,43 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "tcc:items/pottery_sherd/prismarine/artifact"
+          "value": "tcc:items/pottery_sherd/prismarine/artifact"
         },
         {
           "type": "minecraft:loot_table",
-          "name": "tcc:items/pottery_sherd/prismarine/catch"
+          "value": "tcc:items/pottery_sherd/prismarine/catch"
         },
         {
           "type": "minecraft:loot_table",
-          "name": "tcc:items/pottery_sherd/prismarine/idol"
+          "value": "tcc:items/pottery_sherd/prismarine/idol"
         },
         {
           "type": "minecraft:loot_table",
-          "name": "tcc:items/pottery_sherd/prismarine/ink"
+          "value": "tcc:items/pottery_sherd/prismarine/ink"
         },
         {
           "type": "minecraft:loot_table",
-          "name": "tcc:items/pottery_sherd/prismarine/pickle"
+          "value": "tcc:items/pottery_sherd/prismarine/pickle"
         },
         {
           "type": "minecraft:loot_table",
-          "name": "tcc:items/pottery_sherd/prismarine/protector"
+          "value": "tcc:items/pottery_sherd/prismarine/protector"
         },
         {
           "type": "minecraft:loot_table",
-          "name": "tcc:items/pottery_sherd/prismarine/reef"
+          "value": "tcc:items/pottery_sherd/prismarine/reef"
         },
         {
           "type": "minecraft:loot_table",
-          "name": "tcc:items/pottery_sherd/prismarine/shell"
+          "value": "tcc:items/pottery_sherd/prismarine/shell"
         },
         {
           "type": "minecraft:loot_table",
-          "name": "tcc:items/pottery_sherd/prismarine/turtle"
+          "value": "tcc:items/pottery_sherd/prismarine/turtle"
         },
         {
           "type": "minecraft:loot_table",
-          "name": "tcc:items/pottery_sherd/prismarine/voyager"
+          "value": "tcc:items/pottery_sherd/prismarine/voyager"
         }
       ]
     }

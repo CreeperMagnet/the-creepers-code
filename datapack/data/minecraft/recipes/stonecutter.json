@@ -13,7 +13,7 @@
     }
   },
   "result": {
-    "item": "minecraft:stonecutter"
+    "id": "minecraft:stonecutter"
   },
   "category": "misc"
 }

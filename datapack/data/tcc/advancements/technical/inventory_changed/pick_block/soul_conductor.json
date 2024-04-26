@@ -6,7 +6,9 @@
       "conditions": {
         "items": [
           {
-            "nbt": "{BlockEntityTag:{Lock:\"§soul_conductor\\\\uF001\"}}"
+            "components": {
+              "minecraft:lock": "\u00a7soul_conductor\\uF001"
+            }
           }
         ]
       }

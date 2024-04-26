@@ -54,7 +54,7 @@
         {
           "condition": "minecraft:location_check",
           "predicate": {
-            "structure": "minecraft:mansion"
+            "structures": "minecraft:mansion"
           }
         }
       ],

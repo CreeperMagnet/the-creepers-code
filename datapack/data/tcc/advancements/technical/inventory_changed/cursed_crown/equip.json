@@ -10,7 +10,9 @@
               "items": [
                 "minecraft:golden_helmet"
               ],
-              "nbt": "{tcc:{id:\"cursed_crown\"}}"
+              "predicates": {
+                "minecraft:custom_data": "{tcc:{id:\"cursed_crown\"}}"
+              }
             }
           }
         },
@@ -19,7 +21,9 @@
             "items": [
               "minecraft:golden_helmet"
             ],
-            "nbt": "{tcc:{id:\"cursed_crown\"}}"
+            "predicates": {
+              "minecraft:custom_data": "{tcc:{id:\"cursed_crown\"}}"
+            }
           }
         ]
       }

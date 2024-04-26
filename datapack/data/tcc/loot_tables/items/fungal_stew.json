@@ -8,16 +8,25 @@
           "weight": 1,
           "functions": [
             {
-              "function": "set_nbt",
-              "tag": "{tcc:{id:\"fungal_stew\"},manic:{sanity:\"good\"},CustomModelData:330000}"
+              "function": "minecraft:set_custom_data",
+              "tag": "{tcc:{id:\"fungal_stew\"}}"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_model_data": 330000,
+                "minecraft:food": {
+                  "nutrition": 7,
+                  "saturation": 9.0
+                }
+              }
             },
             {
               "function": "minecraft:set_name",
               "name": {
-                "translate": "item.tcc.fungal_stew",
-                "color": "white",
-                "italic": false
-              }
+                "translate": "item.tcc.fungal_stew"
+              },
+              "target": "item_name"
             },
             {
               "function": "set_lore",
@@ -27,7 +36,8 @@
                   "color": "#008725",
                   "italic": true
                 }
-              ]
+              ],
+              "mode": "replace_all"
             }
           ],
           "name": "minecraft:mushroom_stew"

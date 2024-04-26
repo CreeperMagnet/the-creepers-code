@@ -1,8 +1,10 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:warped_fungus_on_a_stick",
-      "nbt": "{CustomModelData:330000}"
+      "id": "minecraft:warped_fungus_on_a_stick",
+      "components": {
+        "minecraft:custom_model_data": 330000
+      }
     },
     "title": {
       "translate": "advancements.tcc.minecraft.adventure.witch_hat.title"

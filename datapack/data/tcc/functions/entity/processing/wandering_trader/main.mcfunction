@@ -1,37 +1,37 @@
 # Adds new trades to wandering traders
 
-data remove entity @s Offers.Recipes
+data modify entity @s Offers.Recipes set value []
 
-loot replace entity @s weapon.mainhand 2 loot tcc:gameplay/trades/wandering_trader/buy
+loot replace entity @s weapon.mainhand 2 loot tcc:trades/wandering_trader/buy
 function tcc:entity/processing/wandering_trader/add_trade
 
-loot replace entity @s weapon.mainhand 2 loot tcc:gameplay/trades/wandering_trader/seeds
+loot replace entity @s weapon.mainhand 2 loot tcc:trades/wandering_trader/seeds
 function tcc:entity/processing/wandering_trader/add_trade
 
-loot replace entity @s weapon.mainhand 2 loot tcc:gameplay/trades/wandering_trader/flowers
+loot replace entity @s weapon.mainhand 2 loot tcc:trades/wandering_trader/flowers
 function tcc:entity/processing/wandering_trader/add_trade
 
-loot replace entity @s weapon.mainhand 2 loot tcc:gameplay/trades/wandering_trader/saplings
-function tcc:entity/processing/wandering_trader/add_trade
-
-
-loot replace entity @s weapon.mainhand 2 loot tcc:gameplay/trades/wandering_trader/cave_items
+loot replace entity @s weapon.mainhand 2 loot tcc:trades/wandering_trader/saplings
 function tcc:entity/processing/wandering_trader/add_trade
 
 
-loot replace entity @s weapon.mainhand 2 loot tcc:gameplay/trades/wandering_trader/desert_items
+loot replace entity @s weapon.mainhand 2 loot tcc:trades/wandering_trader/cave_items
 function tcc:entity/processing/wandering_trader/add_trade
 
 
-loot replace entity @s weapon.mainhand 2 loot tcc:gameplay/trades/wandering_trader/jungle_items
+loot replace entity @s weapon.mainhand 2 loot tcc:trades/wandering_trader/desert_items
 function tcc:entity/processing/wandering_trader/add_trade
 
 
-loot replace entity @s weapon.mainhand 2 loot tcc:gameplay/trades/wandering_trader/ocean_items
+loot replace entity @s weapon.mainhand 2 loot tcc:trades/wandering_trader/jungle_items
 function tcc:entity/processing/wandering_trader/add_trade
 
 
-loot replace entity @s weapon.mainhand 2 loot tcc:gameplay/trades/wandering_trader/bucketed_mob/main
+loot replace entity @s weapon.mainhand 2 loot tcc:trades/wandering_trader/ocean_items
+function tcc:entity/processing/wandering_trader/add_trade
+
+
+loot replace entity @s weapon.mainhand 2 loot tcc:trades/wandering_trader/bucketed_mob/main
 function tcc:entity/processing/wandering_trader/add_trade
 
 item replace entity @s weapon.mainhand with minecraft:air

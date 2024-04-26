@@ -8,15 +8,21 @@
           "weight": 1,
           "functions": [
             {
-              "function": "set_nbt",
-              "tag": "{tcc:{id:\"dyed_bundle\",color:\"purple\"},CustomModelData:330012}"
+              "function": "minecraft:set_custom_data",
+              "tag": "{tcc:{id:\"dyed_bundle\",color:\"purple\"}}"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_model_data": 330012
+              }
             },
             {
               "function": "minecraft:set_name",
               "name": {
-                "translate": "item.tcc.dyed_bundle.purple",
-                "italic": false
-              }
+                "translate": "item.tcc.dyed_bundle.purple"
+              },
+              "target": "item_name"
             },
             {
               "function": "set_lore",
@@ -26,7 +32,8 @@
                   "color": "#008725",
                   "italic": true
                 }
-              ]
+              ],
+              "mode": "replace_all"
             }
           ],
           "name": "minecraft:bundle"

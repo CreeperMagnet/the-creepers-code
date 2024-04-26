@@ -7,4 +7,4 @@ execute if entity @s[type=minecraft:wandering_trader,tag=tcc.trader_entity] run 
 execute if entity @s[tag=tcc.block] run function tcc:block/second_clock
 
 ## Brewing Stuff
-execute if entity @s[type=minecraft:marker,tag=tcc.brewing_stand] if block ~ ~ ~ minecraft:brewing_stand{Items:[{tag:{tcc:{}}}]} run function tcc:block/brewing_stand/brewing/second_clock
+execute if entity @s[type=minecraft:marker,tag=tcc.brewing_stand] if block ~ ~ ~ minecraft:brewing_stand{Items:[{components:{"minecraft:custom_data":{tcc:{}}}}]} run function tcc:block/brewing_stand/brewing/second_clock

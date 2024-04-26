@@ -11,8 +11,8 @@
     }
   },
   "result": {
-    "item": "minecraft:smooth_quartz_stairs",
-    "count": 6
+    "count": 6,
+    "id": "minecraft:smooth_quartz_stairs"
   },
   "category": "building"
 }

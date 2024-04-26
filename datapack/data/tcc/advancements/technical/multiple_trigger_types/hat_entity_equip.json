@@ -11,7 +11,9 @@
           "items": [
             "minecraft:leather_helmet"
           ],
-          "nbt": "{tcc:{id:\"witch_hat\"}}"
+          "predicates": {
+            "minecraft:custom_data": "{tcc:{id:\"witch_hat\"}}"
+          }
         }
       }
     },
@@ -22,7 +24,9 @@
           "items": [
             "minecraft:leather_helmet"
           ],
-          "nbt": "{tcc:{id:\"witch_hat\"}}"
+          "predicates": {
+            "minecraft:custom_data": "{tcc:{id:\"witch_hat\"}}"
+          }
         },
         "entity": {
           "type": "minecraft:armor_stand"
@@ -39,7 +43,9 @@
           "items": [
             "minecraft:golden_helmet"
           ],
-          "nbt": "{tcc:{id:\"cursed_crown\"}}"
+          "predicates": {
+            "minecraft:custom_data": "{tcc:{id:\"cursed_crown\"}}"
+          }
         }
       }
     },
@@ -50,7 +56,9 @@
           "items": [
             "minecraft:golden_helmet"
           ],
-          "nbt": "{tcc:{id:\"cursed_crown\"}}"
+          "predicates": {
+            "minecraft:custom_data": "{tcc:{id:\"cursed_crown\"}}"
+          }
         },
         "entity": {
           "type": "minecraft:armor_stand"

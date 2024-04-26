@@ -21,6 +21,12 @@
         "custom_model_data": 330002
       },
       "model": "tcc:item/sightless_eye"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330003
+      },
+      "model": "tcc:item/heartbeet"
     }
   ]
 }

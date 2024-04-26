@@ -1,0 +1,54 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:spider_eye",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 8
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:rabbit_foot"
+        },
+        {
+          "type": "item",
+          "name": "minecraft:phantom_membrane"
+        },
+        {
+          "type": "item",
+          "name": "minecraft:ghast_tear"
+        },
+        {
+          "type": "item",
+          "name": "minecraft:golden_carrot"
+        },
+        {
+          "type": "item",
+          "name": "minecraft:magma_cream"
+        },
+        {
+          "type": "loot_table",
+          "value": "tcc:items/sightless_eye"
+        },
+        {
+          "type": "loot_table",
+          "value": "tcc:items/heartbeet"
+        }
+      ]
+    }
+  ],
+  "random_sequence": "tcc:trades/wandering_witch/potion_ingredients"
+}

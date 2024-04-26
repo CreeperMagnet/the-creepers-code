@@ -2,7 +2,7 @@
   "parent": "minecraft:adventure/root",
   "display": {
     "icon": {
-      "item": "minecraft:prismarine_bricks"
+      "id": "minecraft:prismarine_bricks"
     },
     "title": {
       "translate": "advancements.tcc.minecraft.adventure.enter_monument.title"
@@ -29,7 +29,7 @@
             "entity": "this",
             "predicate": {
               "location": {
-                "structure": "minecraft:monument"
+                "structures": "minecraft:monument"
               }
             }
           }

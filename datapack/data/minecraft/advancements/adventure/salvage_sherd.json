@@ -17,7 +17,7 @@
       "conditions": {
         "items": [
           {
-            "tag": "minecraft:decorated_pot_sherds"
+            "items": "#minecraft:decorated_pot_sherds"
           }
         ]
       },
@@ -59,12 +59,6 @@
       },
       "trigger": "minecraft:player_generates_container_loot"
     },
-    "tcc:archaeologist_house": {
-      "conditions": {
-        "loot_table": "tcc:archaeology/archaeologist_house"
-      },
-      "trigger": "minecraft:player_generates_container_loot"
-    },
     "tcc:husk_drop": {
       "conditions": {
         "loot_table": "tcc:archaeology/husk_drop"
@@ -86,8 +80,7 @@
     "frame": "task",
     "hidden": false,
     "icon": {
-      "item": "minecraft:brush",
-      "nbt": "{Damage:0}"
+      "id": "minecraft:brush"
     },
     "show_toast": true,
     "title": {
@@ -104,7 +97,6 @@
       "trail_ruins_common",
       "tcc:refuge_remains_common",
       "tcc:refuge_remains_rare",
-      "tcc:archaeologist_house",
       "tcc:husk_drop",
       "tcc:piglin_bartering"
     ],

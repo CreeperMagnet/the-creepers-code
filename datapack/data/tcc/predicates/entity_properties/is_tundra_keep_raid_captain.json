@@ -1,0 +1,13 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "type_specific": {
+      "type": "minecraft:raider",
+      "is_captain": true
+    },
+    "location": {
+      "structure": "tcc:tundra_keep"
+    }
+  }
+}

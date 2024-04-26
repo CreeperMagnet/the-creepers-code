@@ -19,8 +19,10 @@
                   ]
                 },
                 {
-                  "function": "minecraft:set_nbt",
-                  "tag": "{CustomModelData:330000}",
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:custom_model_data": 330000
+                  },
                   "conditions": [
                     {
                       "condition": "minecraft:block_state_property",
@@ -32,8 +34,10 @@
                   ]
                 },
                 {
-                  "function": "minecraft:set_nbt",
-                  "tag": "{CustomModelData:330001}",
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:custom_model_data": 330001
+                  },
                   "conditions": [
                     {
                       "condition": "minecraft:block_state_property",
@@ -45,8 +49,10 @@
                   ]
                 },
                 {
-                  "function": "minecraft:set_nbt",
-                  "tag": "{CustomModelData:330002}",
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:custom_model_data": 330002
+                  },
                   "conditions": [
                     {
                       "condition": "minecraft:block_state_property",
@@ -58,8 +64,10 @@
                   ]
                 },
                 {
-                  "function": "minecraft:set_nbt",
-                  "tag": "{CustomModelData:330003}",
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:custom_model_data": 330003
+                  },
                   "conditions": [
                     {
                       "condition": "minecraft:block_state_property",
@@ -85,11 +93,16 @@
                 {
                   "condition": "minecraft:match_tool",
                   "predicate": {
-                    "enchantments": [
-                      {
-                        "enchantment": "minecraft:silk_touch"
-                      }
-                    ]
+                    "predicates": {
+                      "minecraft:enchantments": [
+                        {
+                          "enchantment": "minecraft:silk_touch",
+                          "levels": {
+                            "min": 1
+                          }
+                        }
+                      ]
+                    }
                   }
                 }
               ]
@@ -107,11 +120,11 @@
   "__smithed__": {
     "rules": [
       {
-        "type":"smithed:prepend",
-        "target":"pools[0].entries",
+        "type": "smithed:prepend",
+        "target": "pools[0].entries",
         "source": {
-          "type":"reference",
-          "path":"pools[0].entries[0]"
+          "type": "reference",
+          "path": "pools[0].entries[0]"
         }
       }
     ]

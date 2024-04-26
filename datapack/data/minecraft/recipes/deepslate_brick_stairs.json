@@ -11,8 +11,8 @@
     }
   },
   "result": {
-    "item": "minecraft:deepslate_brick_stairs",
-    "count": 6
+    "count": 6,
+    "id": "minecraft:deepslate_brick_stairs"
   },
   "category": "building"
 }

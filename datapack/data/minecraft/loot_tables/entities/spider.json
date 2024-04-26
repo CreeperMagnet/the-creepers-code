@@ -63,7 +63,9 @@
                   "predicate": {
                     "equipment": {
                       "head": {
-                        "nbt": "{tcc:{id:\"witch_hat\"}}"
+                        "predicates": {
+                          "minecraft:custom_data": "{tcc:{id:\"witch_hat\"}}"
+                        }
                       }
                     }
                   }

@@ -37,63 +37,63 @@
         },
         {
           "type": "minecraft:loot_table",
-          "name": "tcc:items/pottery_sherd/nether_brick/armor"
+          "value": "tcc:items/pottery_sherd/nether_brick/armor"
         },
         {
           "type": "minecraft:loot_table",
-          "name": "tcc:items/pottery_sherd/nether_brick/beast"
+          "value": "tcc:items/pottery_sherd/nether_brick/beast"
         },
         {
           "type": "minecraft:loot_table",
-          "name": "tcc:items/pottery_sherd/nether_brick/brute"
+          "value": "tcc:items/pottery_sherd/nether_brick/spirit"
         },
         {
           "type": "minecraft:loot_table",
-          "name": "tcc:items/pottery_sherd/nether_brick/crop"
+          "value": "tcc:items/pottery_sherd/nether_brick/crop"
         },
         {
           "type": "minecraft:loot_table",
-          "name": "tcc:items/pottery_sherd/nether_brick/detection"
+          "value": "tcc:items/pottery_sherd/nether_brick/detection"
         },
         {
           "type": "minecraft:loot_table",
-          "name": "tcc:items/pottery_sherd/nether_brick/escape"
+          "value": "tcc:items/pottery_sherd/nether_brick/escape"
         },
         {
           "type": "minecraft:loot_table",
-          "name": "tcc:items/pottery_sherd/nether_brick/flame"
+          "value": "tcc:items/pottery_sherd/nether_brick/flame"
         },
         {
           "type": "minecraft:loot_table",
-          "name": "tcc:items/pottery_sherd/nether_brick/horror"
+          "value": "tcc:items/pottery_sherd/nether_brick/horror"
         },
         {
           "type": "minecraft:loot_table",
-          "name": "tcc:items/pottery_sherd/nether_brick/hunter"
+          "value": "tcc:items/pottery_sherd/nether_brick/hunter"
         },
         {
           "type": "minecraft:loot_table",
-          "name": "tcc:items/pottery_sherd/nether_brick/mount"
+          "value": "tcc:items/pottery_sherd/nether_brick/mount"
         },
         {
           "type": "minecraft:loot_table",
-          "name": "tcc:items/pottery_sherd/nether_brick/portal"
+          "value": "tcc:items/pottery_sherd/nether_brick/portal"
         },
         {
           "type": "minecraft:loot_table",
-          "name": "tcc:items/pottery_sherd/nether_brick/ranger"
+          "value": "tcc:items/pottery_sherd/nether_brick/ranger"
         },
         {
           "type": "minecraft:loot_table",
-          "name": "tcc:items/pottery_sherd/nether_brick/riches"
+          "value": "tcc:items/pottery_sherd/nether_brick/riches"
         },
         {
           "type": "minecraft:loot_table",
-          "name": "tcc:items/pottery_sherd/nether_brick/sorrow"
+          "value": "tcc:items/pottery_sherd/nether_brick/sorrow"
         },
         {
           "type": "minecraft:loot_table",
-          "name": "tcc:items/pottery_sherd/nether_brick/star"
+          "value": "tcc:items/pottery_sherd/nether_brick/star"
         }
       ]
     }

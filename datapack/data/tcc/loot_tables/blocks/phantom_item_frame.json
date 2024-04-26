@@ -12,7 +12,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "tcc:items/phantom_item_frame"
+          "value": "tcc:items/phantom_item_frame"
         }
       ]
     }

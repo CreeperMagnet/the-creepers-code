@@ -1,3 +1,3 @@
 # Makes you hungry. Very hungry.
 
-effect give @s minecraft:hunger 4 255
+effect give @s minecraft:hunger 4 127

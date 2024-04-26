@@ -4,7 +4,9 @@
       "trigger": "minecraft:consume_item",
       "conditions": {
         "item": {
-          "nbt": "{tcc:{tea:{id:\"antitoxin\",extended:0b}}}"
+          "predicates": {
+            "minecraft:custom_data": "{tcc:{tea:{id:\"antitoxin\",extended:0b}}}"
+          }
         }
       }
     },
@@ -12,7 +14,9 @@
       "trigger": "minecraft:consume_item",
       "conditions": {
         "item": {
-          "nbt": "{tcc:{tea:{id:\"antitoxin\",extended:1b}}}"
+          "predicates": {
+            "minecraft:custom_data": "{tcc:{tea:{id:\"antitoxin\",extended:1b}}}"
+          }
         }
       }
     },
@@ -20,7 +24,9 @@
       "trigger": "minecraft:consume_item",
       "conditions": {
         "item": {
-          "nbt": "{tcc:{tea:{id:\"clearsight\",extended:0b}}}"
+          "predicates": {
+            "minecraft:custom_data": "{tcc:{tea:{id:\"clearsight\",extended:0b}}}"
+          }
         }
       }
     },
@@ -28,7 +34,9 @@
       "trigger": "minecraft:consume_item",
       "conditions": {
         "item": {
-          "nbt": "{tcc:{tea:{id:\"clearsight\",extended:1b}}}"
+          "predicates": {
+            "minecraft:custom_data": "{tcc:{tea:{id:\"clearsight\",extended:1b}}}"
+          }
         }
       }
     },
@@ -36,7 +44,9 @@
       "trigger": "minecraft:consume_item",
       "conditions": {
         "item": {
-          "nbt": "{tcc:{tea:{id:\"illumination\",extended:0b}}}"
+          "predicates": {
+            "minecraft:custom_data": "{tcc:{tea:{id:\"illumination\",extended:0b}}}"
+          }
         }
       }
     },
@@ -44,7 +54,9 @@
       "trigger": "minecraft:consume_item",
       "conditions": {
         "item": {
-          "nbt": "{tcc:{tea:{id:\"illumination\",extended:1b}}}"
+          "predicates": {
+            "minecraft:custom_data": "{tcc:{tea:{id:\"illumination\",extended:1b}}}"
+          }
         }
       }
     },
@@ -52,7 +64,9 @@
       "trigger": "minecraft:consume_item",
       "conditions": {
         "item": {
-          "nbt": "{tcc:{tea:{id:\"obscurity\",extended:0b}}}"
+          "predicates": {
+            "minecraft:custom_data": "{tcc:{tea:{id:\"obscurity\",extended:0b}}}"
+          }
         }
       }
     },
@@ -60,7 +74,9 @@
       "trigger": "minecraft:consume_item",
       "conditions": {
         "item": {
-          "nbt": "{tcc:{tea:{id:\"obscurity\",extended:1b}}}"
+          "predicates": {
+            "minecraft:custom_data": "{tcc:{tea:{id:\"obscurity\",extended:1b}}}"
+          }
         }
       }
     },
@@ -68,7 +84,9 @@
       "trigger": "minecraft:consume_item",
       "conditions": {
         "item": {
-          "nbt": "{tcc:{tea:{id:\"plenty\",extended:0b}}}"
+          "predicates": {
+            "minecraft:custom_data": "{tcc:{tea:{id:\"plenty\",extended:0b}}}"
+          }
         }
       }
     },
@@ -76,7 +94,9 @@
       "trigger": "minecraft:consume_item",
       "conditions": {
         "item": {
-          "nbt": "{tcc:{tea:{id:\"plenty\",extended:1b}}}"
+          "predicates": {
+            "minecraft:custom_data": "{tcc:{tea:{id:\"plenty\",extended:1b}}}"
+          }
         }
       }
     },
@@ -84,7 +104,9 @@
       "trigger": "minecraft:consume_item",
       "conditions": {
         "item": {
-          "nbt": "{tcc:{tea:{id:\"purity\",extended:0b}}}"
+          "predicates": {
+            "minecraft:custom_data": "{tcc:{tea:{id:\"purity\",extended:0b}}}"
+          }
         }
       }
     },
@@ -92,7 +114,9 @@
       "trigger": "minecraft:consume_item",
       "conditions": {
         "item": {
-          "nbt": "{tcc:{tea:{id:\"purity\",extended:1b}}}"
+          "predicates": {
+            "minecraft:custom_data": "{tcc:{tea:{id:\"purity\",extended:1b}}}"
+          }
         }
       }
     },
@@ -100,7 +124,9 @@
       "trigger": "minecraft:consume_item",
       "conditions": {
         "item": {
-          "nbt": "{tcc:{tea:{id:\"serendipity\",extended:0b}}}"
+          "predicates": {
+            "minecraft:custom_data": "{tcc:{tea:{id:\"serendipity\",extended:0b}}}"
+          }
         }
       }
     },
@@ -108,7 +134,9 @@
       "trigger": "minecraft:consume_item",
       "conditions": {
         "item": {
-          "nbt": "{tcc:{tea:{id:\"serendipity\",extended:1b}}}"
+          "predicates": {
+            "minecraft:custom_data": "{tcc:{tea:{id:\"serendipity\",extended:1b}}}"
+          }
         }
       }
     },
@@ -116,7 +144,9 @@
       "trigger": "minecraft:consume_item",
       "conditions": {
         "item": {
-          "nbt": "{tcc:{tea:{id:\"stability\",extended:0b}}}"
+          "predicates": {
+            "minecraft:custom_data": "{tcc:{tea:{id:\"stability\",extended:0b}}}"
+          }
         }
       }
     },
@@ -124,7 +154,9 @@
       "trigger": "minecraft:consume_item",
       "conditions": {
         "item": {
-          "nbt": "{tcc:{tea:{id:\"stability\",extended:1b}}}"
+          "predicates": {
+            "minecraft:custom_data": "{tcc:{tea:{id:\"stability\",extended:1b}}}"
+          }
         }
       }
     },
@@ -132,7 +164,9 @@
       "trigger": "minecraft:consume_item",
       "conditions": {
         "item": {
-          "nbt": "{tcc:{tea:{id:\"steadiness\",extended:0b}}}"
+          "predicates": {
+            "minecraft:custom_data": "{tcc:{tea:{id:\"steadiness\",extended:0b}}}"
+          }
         }
       }
     },
@@ -140,7 +174,9 @@
       "trigger": "minecraft:consume_item",
       "conditions": {
         "item": {
-          "nbt": "{tcc:{tea:{id:\"steadiness\",extended:1b}}}"
+          "predicates": {
+            "minecraft:custom_data": "{tcc:{tea:{id:\"steadiness\",extended:1b}}}"
+          }
         }
       }
     },
@@ -148,7 +184,9 @@
       "trigger": "minecraft:consume_item",
       "conditions": {
         "item": {
-          "nbt": "{tcc:{tea:{id:\"vigor\",extended:0b}}}"
+          "predicates": {
+            "minecraft:custom_data": "{tcc:{tea:{id:\"vigor\",extended:0b}}}"
+          }
         }
       }
     },
@@ -156,7 +194,9 @@
       "trigger": "minecraft:consume_item",
       "conditions": {
         "item": {
-          "nbt": "{tcc:{tea:{id:\"vigor\",extended:1b}}}"
+          "predicates": {
+            "minecraft:custom_data": "{tcc:{tea:{id:\"vigor\",extended:1b}}}"
+          }
         }
       }
     },
@@ -164,7 +204,9 @@
       "trigger": "minecraft:consume_item",
       "conditions": {
         "item": {
-          "nbt": "{tcc:{tea:{id:\"vitality\",extended:0b}}}"
+          "predicates": {
+            "minecraft:custom_data": "{tcc:{tea:{id:\"vitality\",extended:0b}}}"
+          }
         }
       }
     },
@@ -172,7 +214,9 @@
       "trigger": "minecraft:consume_item",
       "conditions": {
         "item": {
-          "nbt": "{tcc:{tea:{id:\"vitality\",extended:1b}}}"
+          "predicates": {
+            "minecraft:custom_data": "{tcc:{tea:{id:\"vitality\",extended:1b}}}"
+          }
         }
       }
     },
@@ -180,7 +224,9 @@
       "trigger": "minecraft:consume_item",
       "conditions": {
         "item": {
-          "nbt": "{tcc:{tea:{id:\"vivacity\",extended:0b}}}"
+          "predicates": {
+            "minecraft:custom_data": "{tcc:{tea:{id:\"vivacity\",extended:0b}}}"
+          }
         }
       }
     },
@@ -188,7 +234,9 @@
       "trigger": "minecraft:consume_item",
       "conditions": {
         "item": {
-          "nbt": "{tcc:{tea:{id:\"vivacity\",extended:1b}}}"
+          "predicates": {
+            "minecraft:custom_data": "{tcc:{tea:{id:\"vivacity\",extended:1b}}}"
+          }
         }
       }
     }

@@ -2,8 +2,10 @@
   "parent": "tcc:minecraft/husbandry/bucket_snail",
   "display": {
     "icon": {
-      "item": "minecraft:warped_fungus_on_a_stick",
-      "nbt": "{CustomModelData:330035}"
+      "id": "minecraft:warped_fungus_on_a_stick",
+      "components": {
+        "minecraft:custom_model_data": 330035
+      }
     },
     "title": {
       "translate": "advancements.tcc.minecraft.husbandry.bucket_all_snails.title"
@@ -30,7 +32,12 @@
       "conditions": {
         "items": [
           {
-            "nbt": "{tcc:{id:\"snail_bucket\"},CustomModelData:330032}"
+            "predicates": {
+              "minecraft:custom_data": "{tcc:{id:\"snail_bucket\"}}"
+            },
+            "components": {
+              "minecraft:custom_model_data": 330032
+            }
           }
         ]
       }
@@ -40,7 +47,12 @@
       "conditions": {
         "items": [
           {
-            "nbt": "{tcc:{id:\"snail_bucket\"},CustomModelData:330033}"
+            "predicates": {
+              "minecraft:custom_data": "{tcc:{id:\"snail_bucket\"}}"
+            },
+            "components": {
+              "minecraft:custom_model_data": 330033
+            }
           }
         ]
       }
@@ -50,7 +62,12 @@
       "conditions": {
         "items": [
           {
-            "nbt": "{tcc:{id:\"snail_bucket\"},CustomModelData:330035}"
+            "predicates": {
+              "minecraft:custom_data": "{tcc:{id:\"snail_bucket\"}}"
+            },
+            "components": {
+              "minecraft:custom_model_data": 330035
+            }
           }
         ]
       }
@@ -60,7 +77,12 @@
       "conditions": {
         "items": [
           {
-            "nbt": "{tcc:{id:\"snail_bucket\"},CustomModelData:330036}"
+            "predicates": {
+              "minecraft:custom_data": "{tcc:{id:\"snail_bucket\"}}"
+            },
+            "components": {
+              "minecraft:custom_model_data": 330036
+            }
           }
         ]
       }
@@ -70,7 +92,12 @@
       "conditions": {
         "items": [
           {
-            "nbt": "{tcc:{id:\"snail_bucket\"},CustomModelData:330037}"
+            "predicates": {
+              "minecraft:custom_data": "{tcc:{id:\"snail_bucket\"}}"
+            },
+            "components": {
+              "minecraft:custom_model_data": 330037
+            }
           }
         ]
       }
@@ -80,7 +107,12 @@
       "conditions": {
         "items": [
           {
-            "nbt": "{tcc:{id:\"snail_bucket\"},CustomModelData:330038}"
+            "predicates": {
+              "minecraft:custom_data": "{tcc:{id:\"snail_bucket\"}}"
+            },
+            "components": {
+              "minecraft:custom_model_data": 330038
+            }
           }
         ]
       }

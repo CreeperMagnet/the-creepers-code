@@ -15,14 +15,16 @@
                 {
                   "condition": "minecraft:match_tool",
                   "predicate": {
-                    "enchantments": [
-                      {
-                        "enchantment": "minecraft:silk_touch",
-                        "levels": {
-                          "min": 1
+                    "predicates": {
+                      "minecraft:enchantments": [
+                        {
+                          "enchantment": "minecraft:silk_touch",
+                          "levels": {
+                            "min": 1
+                          }
                         }
-                      }
-                    ]
+                      ]
+                    }
                   }
                 }
               ]
@@ -32,13 +34,13 @@
               "children": [
                 {
                   "type": "minecraft:loot_table",
-                  "name": "tcc:items/amethyst_dust",
                   "conditions": [
                     {
                       "condition": "minecraft:random_chance",
-                      "chance": 0.10
+                      "chance": 0.1
                     }
-                  ]
+                  ],
+                  "value": "tcc:items/amethyst_dust"
                 },
                 {
                   "type": "minecraft:item",
@@ -59,7 +61,7 @@
                     {
                       "condition": "minecraft:match_tool",
                       "predicate": {
-                        "tag": "minecraft:cluster_max_harvestables"
+                        "items": "#minecraft:cluster_max_harvestables"
                       }
                     }
                   ]
@@ -87,13 +89,13 @@
   ],
   "random_sequence": "minecraft:blocks/amethyst_cluster",
   "__smithed__": {
-    "rules":[
+    "rules": [
       {
-        "type":"append",
-        "target":"pools[0].entries[0].children[1].children",
-        "source":{
-          "type":"reference",
-          "path":"pools[0].entries[0].children[1].children[1]"
+        "type": "append",
+        "target": "pools[0].entries[0].children[1].children",
+        "source": {
+          "type": "reference",
+          "path": "pools[0].entries[0].children[1].children[1]"
         }
       }
     ]

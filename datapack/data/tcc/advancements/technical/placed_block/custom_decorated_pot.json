@@ -7,7 +7,9 @@
           {
             "condition": "minecraft:match_tool",
             "predicate": {
-              "nbt": "{BlockEntityTag:{sherds:[\"minecraft:stone\",\"minecraft:stone\",\"minecraft:stone\",\"minecraft:stone\"]}}"
+              "predicates": {
+                "minecraft:custom_data": "{tcc:{id:\"decorated_pot\"}}"
+              }
             }
           }
         ]
@@ -15,7 +17,7 @@
     }
   },
   "rewards": {
-    "function": "tcc:block/decorated_pot/placement/scan"
+    "function": "tcc:block/decorated_pot/placement/advancement"
   },
   "requirements": [
     [

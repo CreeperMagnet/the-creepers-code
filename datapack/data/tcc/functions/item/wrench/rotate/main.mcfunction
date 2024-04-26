@@ -3,9 +3,7 @@
 execute align xyz positioned ~0.5 ~0.5 ~0.5 run playsound tcc:item.wrench.rotate_block block @a[distance=..16]
 function tcc:item/wrench/damage
 
-scoreboard players set @s tcc.dummy 0
-
-execute if block ~ ~ ~ #tcc:block_entities run data modify storage tcc:storage root.temp.wrench_block_data set from block ~ ~ ~ {}
+execute if block ~ ~ ~ #tcc:block_entities run data modify storage tcc:temp root.wrench_block_data set from block ~ ~ ~ {}
 
 execute if block ~ ~ ~ #tcc:wrench/block_type/axis run function tcc:item/wrench/rotate/block_type/axis
 
@@ -68,5 +66,5 @@ execute if block ~ ~ ~ minecraft:iron_trapdoor[powered=false] run function tcc:i
 execute if block ~ ~ ~ minecraft:iron_door[powered=false] run function tcc:item/wrench/rotate/block/iron_door/main
 
 # Restore any block data that was taken away
-execute if block ~ ~ ~ #tcc:block_entities run data modify block ~ ~ ~ {} merge from storage tcc:storage root.temp.wrench_block_data
+execute if block ~ ~ ~ #tcc:block_entities run data modify block ~ ~ ~ {} merge from storage tcc:temp root.wrench_block_data
 

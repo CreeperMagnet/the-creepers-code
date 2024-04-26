@@ -6,7 +6,9 @@
       "conditions": {
         "items": [
           {
-            "nbt": "{tcc:{clear:1b}}"
+            "predicates": {
+              "minecraft:custom_data": "{tcc:{clear:1b}}"
+            }
           }
         ]
       }

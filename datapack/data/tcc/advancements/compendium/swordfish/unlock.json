@@ -1,1 +1,1 @@
-{"parent":"tcc:compendium/root","criteria":{"unlock":{"trigger":"minecraft:inventory_changed","conditions":{"items":[{"nbt":"{tcc:{id:\"swordfish\"}}"}]}}},"rewards":{"function":"tcc:item/compendium/unlock/entries/swordfish/from_advancement"}}
+{"parent":"tcc:compendium/root","criteria":{"unlock":{"trigger":"minecraft:inventory_changed","conditions":{"items":[{"predicates":{"minecraft:custom_data":"{tcc:{id:\"swordfish\"}}"}}]}}},"rewards":{"function":"tcc:item/compendium/unlock/entries/swordfish/from_advancement"}}

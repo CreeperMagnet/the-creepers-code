@@ -3,7 +3,7 @@
 # Use for single-tick operations
 scoreboard objectives add tcc.dummy dummy
 
-tellraw @a[predicate=tcc:entity/debug_player] [{"translate":"debug.prefix","color":"yellow","bold":true},{"translate":"commands.tcc.reload.success","color":"white","bold":false}]
+tellraw @a[predicate=tcc:entity_properties/is_developer] [{"translate":"debug.prefix","color":"yellow","bold":true},{"translate":"commands.tcc.reload.success","color":"white","bold":false}]
 execute unless score #server_version tcc.dummy matches 122 run function tcc:technical/initiate
 
 # Refresh the compendium for all players that currently have one
@@ -15,16 +15,13 @@ gamerule commandBlockOutput false
 gamerule maxCommandChainLength 1073741824
 
 ## Compendium Data
-execute unless data storage tcc:storage root.compendium.player_data run data modify storage tcc:storage root.compendium set value {player_data:[]}
+execute unless data storage tcc:compendium player_data run data merge storage tcc:compendium {player_data:[]}
 # The following line is updated when the generator is run
-data modify storage tcc:storage root.compendium.version set value {release:3,dev:0}
+data modify storage tcc:compendium version set value {release:3,dev:0}
 
 ## Scoreboards
 scoreboard objectives add tcc.used_warped_fungus_on_a_stick minecraft.used:minecraft.warped_fungus_on_a_stick
 scoreboard objectives add tcc.health health
-scoreboard objectives add tcc.drop minecraft.custom:minecraft.drop
-scoreboard objectives add tcc.current_xp xp
-scoreboard objectives add tcc.old_xp dummy
 scoreboard objectives add tcc.tea dummy
 scoreboard objectives add tcc.boomerang_cooldown dummy
 scoreboard objectives add tcc.cursed_crown_cooldown dummy
@@ -50,9 +47,6 @@ scoreboard players set #31 tcc.dummy 31
 scoreboard players set #60 tcc.dummy 60
 scoreboard players set #100 tcc.dummy 100
 scoreboard players set #180 tcc.dummy 180
-
-## World Data
-execute store result score #world_seed tcc.dummy run seed
 
 ## Wandering Witch Timer
 execute unless score #wandering_witch_timer tcc.dummy matches -2147483648..2147483647 run scoreboard players set #wandering_witch_timer tcc.dummy 180

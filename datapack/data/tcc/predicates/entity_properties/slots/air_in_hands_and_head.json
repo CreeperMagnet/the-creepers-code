@@ -1,0 +1,17 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "slots": {
+      "weapon.mainhand": {
+        "items": "minecraft:air"
+      },
+      "weapon.offhand": {
+        "items": "minecraft:air"
+      },
+      "armor.head": {
+        "items": "minecraft:air"
+      }
+    }
+  }
+}

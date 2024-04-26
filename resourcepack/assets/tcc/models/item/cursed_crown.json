@@ -72,7 +72,7 @@
     },
     "ground": {
       "translation": [0, 5, 0],
-      "scale": [0.7, 0.7, 0.7]
+      "scale": [0.5, 0.5, 0.5]
     },
     "gui": {
       "rotation": [30, 225, 0],

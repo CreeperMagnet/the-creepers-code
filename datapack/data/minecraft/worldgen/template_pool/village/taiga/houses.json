@@ -249,7 +249,7 @@
       "weight": 3,
       "element": {
         "location": "tcc:archaeologist_house/taiga",
-        "processors": "tcc:archaeologist_house",
+        "processors": "minecraft:mossify_10_percent",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
       }

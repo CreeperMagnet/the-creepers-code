@@ -15,7 +15,7 @@
     "##"
   ],
   "result": {
-    "item": "minecraft:loom"
+    "id": "minecraft:loom"
   },
   "show_notification": true
 }

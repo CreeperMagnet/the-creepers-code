@@ -2,8 +2,10 @@
   "parent": "tcc:minecraft/adventure/enter_tundra_keep",
   "display": {
     "icon": {
-      "item": "minecraft:warped_fungus_on_a_stick",
-      "nbt": "{CustomModelData:330007}"
+      "id": "minecraft:warped_fungus_on_a_stick",
+      "components": {
+        "minecraft:custom_model_data": 330007
+      }
     },
     "title": {
       "translate": "advancements.tcc.minecraft.adventure.obtain_frostbloom.title"
@@ -30,7 +32,9 @@
       "conditions": {
         "items": [
           {
-            "nbt": "{tcc:{id:\"frostbloom\"}}"
+            "predicates": {
+              "minecraft:custom_data": "{tcc:{id:\"frostbloom\"}}"
+            }
           }
         ]
       }

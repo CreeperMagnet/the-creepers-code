@@ -8,16 +8,44 @@
           "weight": 1,
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{HideFlags:3,tcc:{id:\"enchanted_golden_apple_pie\"},manic:{sanity:\"good\"},Enchantments:[{id:\"binding_curse\",lvl:1s}],CustomModelData:330005}"
+              "function": "minecraft:set_custom_data",
+              "tag": "{tcc:{id:\"enchanted_golden_apple_pie\"}}"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_model_data": 330001,
+                "minecraft:enchantment_glint_override": true,
+                "rarity": "epic",
+                "minecraft:food": {
+                  "nutrition": 8,
+                  "saturation": 4.8,
+                  "effects": [
+                    {
+                      "effect": {
+                        "id": "minecraft:haste",
+                        "duration": 18000,
+                        "amplifier": 1
+                      }
+                    },
+                    {
+                      "effect": {
+                        "id": "minecraft:speed",
+                        "duration": 6000,
+                        "amplifier": 1
+                      }
+                    }
+                  ],
+                  "can_always_eat": true
+                }
+              }
             },
             {
               "function": "minecraft:set_name",
               "name": {
-                "translate": "item.tcc.enchanted_golden_apple_pie",
-                "color": "light_purple",
-                "italic": false
-              }
+                "translate": "item.tcc.enchanted_golden_apple_pie"
+              },
+              "target": "item_name"
             },
             {
               "function": "minecraft:set_lore",
@@ -27,24 +55,11 @@
                   "color": "#008725",
                   "italic": true
                 }
-              ]
-            },
-            {
-              "function": "minecraft:set_attributes",
-              "modifiers": [
-                {
-                  "attribute": "generic.movement_speed",
-                  "name": "generic.movement_speed",
-                  "amount": 0,
-                  "operation": "multiply_base",
-                  "slot": [
-                    "head"
-                  ]
-                }
-              ]
+              ],
+              "mode": "replace_all"
             }
           ],
-          "name": "minecraft:bread"
+          "name": "minecraft:poisonous_potato"
         }
       ]
     }

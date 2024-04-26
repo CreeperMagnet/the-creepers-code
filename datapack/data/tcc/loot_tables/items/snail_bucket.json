@@ -8,15 +8,23 @@
           "weight": 1,
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{HideFlags:4,Unbreakable:1b,tcc:{id:\"snail_bucket\"},CustomModelData:330033}"
+              "function": "minecraft:set_custom_data",
+              "tag": "{tcc:{id:\"snail_bucket\"}}"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_model_data": 330033,
+                "!minecraft:damage": {},
+                "!minecraft:max_damage": {}
+              }
             },
             {
               "function": "minecraft:set_name",
               "name": {
-                "translate": "item.tcc.snail_bucket",
-                "italic": false
-              }
+                "translate": "item.tcc.snail_bucket"
+              },
+              "target": "item_name"
             },
             {
               "function": "minecraft:set_lore",
@@ -26,7 +34,8 @@
                   "color": "#008725",
                   "italic": true
                 }
-              ]
+              ],
+              "mode": "replace_all"
             }
           ],
           "name": "minecraft:warped_fungus_on_a_stick"

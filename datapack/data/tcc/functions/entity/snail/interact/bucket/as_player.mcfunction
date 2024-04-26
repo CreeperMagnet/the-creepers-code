@@ -3,6 +3,6 @@
 advancement grant @s only tcc:compendium/snail_mucus/unlock
 advancement grant @s only tcc:compendium/snail/unlock
 
-execute if data entity @s[predicate=!tcc:entity/full_inventory] SelectedItem run loot give @s loot tcc:technical/copy_nbt/snail_bucket
-execute if data entity @s[predicate=tcc:entity/full_inventory] SelectedItem run loot spawn ~ ~ ~ loot tcc:technical/copy_nbt/snail_bucket
-execute unless data entity @s SelectedItem run loot replace entity @s weapon.mainhand loot tcc:technical/copy_nbt/snail_bucket
+execute if data entity @s[predicate=!tcc:entity_properties/full_inventory] SelectedItem run function tcc:entity/snail/interact/bucket/loot_macros/give with storage tcc:temp root.item
+execute if data entity @s[predicate=tcc:entity_properties/full_inventory] SelectedItem run function tcc:entity/snail/interact/bucket/loot_macros/spawn with storage tcc:temp root.item
+execute unless data entity @s SelectedItem run function tcc:entity/snail/interact/bucket/loot_macros/weapon.mainhand with storage tcc:temp root.item

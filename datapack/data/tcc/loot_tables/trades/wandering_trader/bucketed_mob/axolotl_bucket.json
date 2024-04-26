@@ -1,0 +1,94 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:axolotl_bucket",
+              "functions": [
+                {
+                  "function": "minecraft:set_custom_data",
+                  "tag": "{Variant:4}"
+                },
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:custom_model_data": 330008
+                  }
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "random_chance",
+                  "chance": 0.00083333333
+                }
+              ]
+            },
+            {
+              "type": "minecraft:group",
+              "children": [
+                {
+                  "type": "minecraft:item",
+                  "name": "minecraft:axolotl_bucket",
+                  "functions": [
+                    {
+                      "function": "minecraft:set_custom_data",
+                      "tag": "{Variant:1}"
+                    },
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "minecraft:custom_model_data": 330002
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "minecraft:axolotl_bucket",
+                  "functions": [
+                    {
+                      "function": "minecraft:set_custom_data",
+                      "tag": "{Variant:2}"
+                    },
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "minecraft:custom_model_data": 330004
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "minecraft:axolotl_bucket",
+                  "functions": [
+                    {
+                      "function": "minecraft:set_custom_data",
+                      "tag": "{Variant:3}"
+                    },
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "minecraft:custom_model_data": 330006
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "minecraft:axolotl_bucket"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "random_sequence": "tcc:trades/wandering_trader/bucketed_mob/axolotl_bucket"
+}

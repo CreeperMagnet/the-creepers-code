@@ -25,13 +25,13 @@ execute if entity @s[type=minecraft:item,tag=tcc.recovery_compass_item] run data
 execute if entity @s[type=minecraft:zombie_villager,tag=tcc.zombified_archaeologist] run function tcc:entity/archaeologist/zombie/ten_second_clock
 
 ## Undead burning
-execute if entity @s[tag=tcc.burns_in_sunlight] unless predicate tcc:entity/wandering_trader_night positioned over motion_blocking if entity @s[dx=0,dy=1000,dz=0] run data modify entity @s Fire set value 200s
+execute if entity @s[tag=tcc.burns_in_sunlight] unless predicate tcc:time_check/night positioned over motion_blocking if entity @s[dx=0,dy=1000,dz=0] run data modify entity @s Fire set value 200s
 
 ## Jungle Temple Cursed Crown Loot
 execute if entity @s[type=minecraft:item,tag=tcc.persistent_cursed_crown] run function tcc:entity/persistent_cursed_crown/ten_second_clock
 
 ## Phantom item frame item frame vehicle entity
-kill @s[type=minecraft:item_frame,tag=tcc.phantom_item_frame,predicate=!tcc:entity/has_passenger]
+kill @s[type=minecraft:item_frame,tag=tcc.phantom_item_frame,predicate=!tcc:entity_properties/has_passenger]
 
 ## Kill passengers without vehicles
-kill @s[tag=tcc.passenger_entity,predicate=!tcc:entity/in_vehicle]
+kill @s[tag=tcc.passenger_entity,predicate=!tcc:entity_properties/in_vehicle]

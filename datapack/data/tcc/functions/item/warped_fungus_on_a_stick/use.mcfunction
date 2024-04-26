@@ -1,40 +1,40 @@
 # All commands to run involving warped fungi on sticks
 
 # Boomerangs
-execute if entity @s[nbt=!{SelectedItem:{tag:{tcc:{durability:[1,300]}}}},nbt={SelectedItem:{tag:{tcc:{id:"boomerang"}}}}] unless entity @s[scores={tcc.boomerang_cooldown=1..}] anchored eyes positioned ^ ^ ^ run function tcc:item/boomerang/throw
+execute if entity @s[predicate=tcc:entity_properties/slots/weapon.mainhand/boomerang] unless entity @s[scores={tcc.boomerang_cooldown=1..}] anchored eyes positioned ^ ^ ^ run function tcc:item/boomerang/throw
 
 # Locket of Learning
-execute unless entity @s[nbt=!{SelectedItem:{tag:{tcc:{id:"locket_of_learning"}}}},nbt=!{Inventory:[{tag:{tcc:{id:"locket_of_learning"}},Slot:-106b}]}] run function tcc:item/locket_of_learning/init
+execute if entity @s[predicate=tcc:entity_properties/slots/weapon/locket_of_learning] run function tcc:item/locket_of_learning/use_item
 
 # Smoldering Seekers
-execute if entity @s[nbt={SelectedItem:{tag:{tcc:{id:"unset_smoldering_seeker"}}}}] if dimension minecraft:the_nether run function tcc:item/smoldering_seeker
+execute if entity @s[predicate=tcc:entity_properties/slots/weapon/smoldering_seeker] if dimension minecraft:the_nether run function tcc:item/smoldering_seeker/use_item
 
 # Weeping Eyes
-execute if entity @s[nbt={SelectedItem:{tag:{tcc:{id:"unset_weeping_eye"}}}}] if dimension minecraft:the_end run function tcc:item/weeping_eye
+execute if entity @s[predicate=tcc:entity_properties/slots/weapon/weeping_eye] if dimension minecraft:the_end run function tcc:item/weeping_eye/use_item
 
 # Diluted Potions
-execute if entity @s[predicate=tcc:entity/holding/diluted_potion/any] run function tcc:item/diluted_potion/used_item
+execute if entity @s[predicate=tcc:entity_properties/slots/weapon/diluted_potion] run function tcc:item/diluted_potion/used_item
 
 # Dinglebop
-execute if entity @s[predicate=tcc:entity/holding/tangling_pearl] run function tcc:item/tangling_pearl/toggle/main
+execute if entity @s[predicate=tcc:entity_properties/slots/weapon/tangling_pearl] run function tcc:item/tangling_pearl/use_item
 
 # Things that aren't allowed in adventure mode
 execute if entity @s[gamemode=adventure] run return 0
 
 # Wrenches
-execute if entity @s[predicate=tcc:entity/holding/wrench] anchored eyes run function tcc:item/wrench/raycast
+execute if entity @s[predicate=tcc:entity_properties/slots/weapon/wrench] run function tcc:item/wrench/raycast_start
 
 # Paintbrushes
-execute unless entity @s[nbt=!{SelectedItem:{tag:{tcc:{id:"paintbrush"}}}},nbt=!{Inventory:[{tag:{tcc:{id:"paintbrush"}},Slot:-106b}]}] run function tcc:item/paintbrush/dye/check
+execute if entity @s[predicate=tcc:entity_properties/slots/weapon/paintbrush] run function tcc:item/paintbrush/dye/check
 
 # Teapots
-execute if entity @s[predicate=tcc:entity/holding/teapot] anchored eyes run function tcc:block/teapot/raycast
+execute if entity @s[predicate=tcc:entity_properties/slots/weapon/teapot] anchored eyes run function tcc:block/teapot/raycast_start
 
 # Frostblooms
-execute if entity @s[predicate=tcc:entity/holding/frostbloom] anchored eyes run function tcc:block/frostbloom/raycast
+execute if entity @s[predicate=tcc:entity_properties/slots/weapon/frostbloom] anchored eyes run function tcc:block/frostbloom/raycast_start
 
 # Gobblerift
-execute if entity @s[predicate=tcc:entity/holding/gobblerift] anchored eyes run function tcc:block/gobblerift/place/raycast
+execute if entity @s[predicate=tcc:entity_properties/slots/weapon/gobblerift] anchored eyes run function tcc:block/gobblerift/place/raycast_start
 
 # Snail Bucket
-execute if entity @s[nbt={SelectedItem:{tag:{tcc:{id:"snail_bucket"}}}}] anchored eyes run function tcc:entity/snail/unbucket/raycast
+execute if entity @s[predicate=tcc:entity_properties/slots/weapon/snail_bucket] run function tcc:entity/snail/unbucket/raycast_start

@@ -14,11 +14,16 @@
                 {
                   "condition": "minecraft:match_tool",
                   "predicate": {
-                    "enchantments": [
-                      {
-                        "enchantment": "minecraft:silk_touch"
-                      }
-                    ]
+                    "predicates": {
+                      "minecraft:enchantments": [
+                        {
+                          "enchantment": "minecraft:silk_touch",
+                          "levels": {
+                            "min": 1
+                          }
+                        }
+                      ]
+                    }
                   }
                 },
                 {
@@ -35,15 +40,20 @@
               "name": "minecraft:campfire",
               "functions": [
                 {
-                  "function": "minecraft:set_nbt",
-                  "tag": "{CustomModelData:330000,BlockStateTag:{lit:\"false\"}}"
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:custom_model_data": 330000,
+                    "minecraft:block_state": {
+                      "lit": "false"
+                    }
+                  }
                 }
               ],
               "conditions": [
                 {
                   "condition": "minecraft:match_tool",
                   "predicate": {
-                    "tag": "minecraft:axes"
+                    "items": "#minecraft:axes"
                   }
                 }
               ]

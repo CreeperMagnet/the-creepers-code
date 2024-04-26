@@ -9,15 +9,11 @@
           "type": "minecraft:item",
           "functions": [
             {
-              "function": "minecraft:copy_nbt",
-              "source": "block_entity",
-              "ops": [
-                {
-                  "source": "Bees",
-                  "target": "BlockEntityTag.Bees",
-                  "op": "replace"
-                }
-              ]
+              "function": "minecraft:copy_components",
+              "include": [
+                "minecraft:bees"
+              ],
+              "source": "block_entity"
             },
             {
               "function": "minecraft:copy_state",
@@ -27,8 +23,10 @@
               ]
             },
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:330000}",
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_model_data": 330000
+              },
               "conditions": [
                 {
                   "condition": "block_state_property",
@@ -47,14 +45,16 @@
         {
           "condition": "minecraft:match_tool",
           "predicate": {
-            "enchantments": [
-              {
-                "enchantment": "minecraft:silk_touch",
-                "levels": {
-                  "min": 1
+            "predicates": {
+              "minecraft:enchantments": [
+                {
+                  "enchantment": "minecraft:silk_touch",
+                  "levels": {
+                    "min": 1
+                  }
                 }
-              }
-            ]
+              ]
+            }
           }
         }
       ]

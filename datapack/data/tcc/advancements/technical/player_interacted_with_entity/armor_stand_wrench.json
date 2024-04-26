@@ -9,12 +9,14 @@
             "condition": "minecraft:inverted",
             "term": {
               "condition": "minecraft:reference",
-              "name": "tcc:entity/sneaking"
+              "name": "tcc:entity_properties/sneaking"
             }
           }
         ],
         "item": {
-          "nbt": "{tcc:{id:\"wrench\"}}"
+          "predicates": {
+            "minecraft:custom_data": "{tcc:{id:\"wrench\"}}"
+          }
         },
         "entity": [
           {

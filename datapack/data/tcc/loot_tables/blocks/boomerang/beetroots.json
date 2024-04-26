@@ -49,7 +49,7 @@
               "condition": "minecraft:random_chance"
             }
           ],
-          "name": "tcc:items/heartbeet"
+          "value": "tcc:items/heartbeet"
         }
       ],
       "rolls": 1.0

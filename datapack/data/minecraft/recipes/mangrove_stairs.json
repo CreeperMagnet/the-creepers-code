@@ -12,8 +12,8 @@
     }
   },
   "result": {
-    "item": "minecraft:mangrove_stairs",
-    "count": 6
+    "count": 6,
+    "id": "minecraft:mangrove_stairs"
   },
   "category": "building"
 }

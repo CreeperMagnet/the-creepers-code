@@ -6,12 +6,12 @@
         {
           "type": "minecraft:loot_table",
           "weight": 1,
-          "name": "tcc:items/flowering_azalea_suspicious_stew"
+          "value": "tcc:items/flowering_azalea_suspicious_stew"
         },
         {
           "type": "minecraft:loot_table",
           "weight": 1,
-          "name": "tcc:items/chorus_flower_suspicious_stew"
+          "value": "tcc:items/chorus_flower_suspicious_stew"
         }
       ]
     }

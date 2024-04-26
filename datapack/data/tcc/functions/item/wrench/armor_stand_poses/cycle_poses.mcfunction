@@ -1,7 +1,6 @@
 # Cycles the poses of an armor stand
 
 playsound tcc:item.wrench.pose_armor_stand player @a[distance=..16]
-scoreboard players set @s tcc.dummy 0
 execute if entity @s[tag=!tcc.posed_armor_stand] run return run function tcc:item/wrench/armor_stand_poses/set_pose/assert_dominance
 execute if entity @s[tag=tcc.posed_armor_stand.assert_dominance] run return run function tcc:item/wrench/armor_stand_poses/set_pose/battle_ready
 execute if entity @s[tag=tcc.posed_armor_stand.battle_ready] run return run function tcc:item/wrench/armor_stand_poses/set_pose/bizarre

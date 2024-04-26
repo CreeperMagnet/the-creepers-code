@@ -1,7 +1,5 @@
 # Rotates an unattached hanging sign and all unattached signs beneath it
 
-scoreboard players set @s tcc.dummy 0
-
 execute if block ~ ~ ~ minecraft:acacia_hanging_sign run function tcc:item/wrench/rotate/macro/hanging_signs/locked_rotation/main {block:"minecraft:acacia_hanging_sign",attached:"false"}
 execute if block ~ ~ ~ minecraft:bamboo_hanging_sign run function tcc:item/wrench/rotate/macro/hanging_signs/locked_rotation/main {block:"minecraft:bamboo_hanging_sign",attached:"false"}
 execute if block ~ ~ ~ minecraft:birch_hanging_sign run function tcc:item/wrench/rotate/macro/hanging_signs/locked_rotation/main {block:"minecraft:birch_hanging_sign",attached:"false"}

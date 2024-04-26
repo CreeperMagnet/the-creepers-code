@@ -1,0 +1,31 @@
+{
+  "category": "misc",
+  "type": "crafting_shapeless",
+  "group": "suspicious_stew",
+  "ingredients": [
+    {
+      "item": "minecraft:pink_petals"
+    },
+    {
+      "item": "minecraft:bowl"
+    },
+    {
+      "item": "minecraft:red_mushroom"
+    },
+    {
+      "item": "minecraft:brown_mushroom"
+    }
+  ],
+  "result": {
+    "id": "minecraft:suspicious_stew",
+    "count": 1,
+    "components": {
+      "minecraft:suspicious_stew_effects": [
+        {
+          "id": "minecraft:regeneration",
+          "duration": 200
+        }
+      ]
+    }
+  }
+}

@@ -8,16 +8,41 @@
           "weight": 1,
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{BlockEntityTag:{id:\"minecraft:dropper\",Items:[{id:\"minecraft:structure_block\",Count:1b,tag:{CustomModelData:330000,tcc:{placed_block:1b,clear:1b,block:\"nether_reactor_core\"}}}]},CustomModelData:330000,tcc:{id:\"nether_reactor_core\"}}"
+              "function": "minecraft:set_custom_data",
+              "tag": "{tcc:{id:\"nether_reactor_core\",custom_block:1b}}"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_model_data": 330000,
+                "minecraft:container": [
+                  {
+                    "slot": 0,
+                    "item": {
+                      "id": "minecraft:structure_block",
+                      "count": 1,
+                      "components": {
+                        "minecraft:custom_data": {
+                          "tcc": {
+                            "placed_block": true,
+                            "clear": true,
+                            "block": "nether_reactor_core"
+                          }
+                        },
+                        "minecraft:custom_model_data": 330000
+                      }
+                    }
+                  }
+                ],
+                "minecraft:rarity": "rare"
+              }
             },
             {
               "function": "minecraft:set_name",
               "name": {
-                "translate": "block.tcc.nether_reactor_core",
-                "color": "aqua",
-                "italic": false
-              }
+                "translate": "block.tcc.nether_reactor_core"
+              },
+              "target": "item_name"
             },
             {
               "function": "minecraft:set_lore",
@@ -27,7 +52,8 @@
                   "color": "#008725",
                   "italic": true
                 }
-              ]
+              ],
+              "mode": "replace_all"
             }
           ],
           "name": "minecraft:dropper"

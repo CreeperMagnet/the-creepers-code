@@ -1,0 +1,53 @@
+{
+  "category": "building",
+  "type": "crafting_shaped",
+  "pattern": [
+    " B ",
+    "B B",
+    " B "
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:prismarine_shard"
+    }
+  },
+  "result": {
+    "id": "minecraft:decorated_pot",
+    "count": 1,
+    "components": {
+      "minecraft:custom_model_data": 331616,
+      "minecraft:custom_data": {
+        "tcc": {
+          "id": "decorated_pot",
+          "type": "prismarine",
+          "raw_pot": true,
+          "sherds": [
+            {
+              "id": "minecraft:prismarine_shard"
+            },
+            {
+              "id": "minecraft:prismarine_shard"
+            },
+            {
+              "id": "minecraft:prismarine_shard"
+            },
+            {
+              "id": "minecraft:prismarine_shard"
+            }
+          ]
+        }
+      },
+      "minecraft:item_name": "{\"translate\":\"block.tcc.prismarine_pot\"}",
+      "minecraft:pot_decorations": [
+        "minecraft:stone",
+        "minecraft:stone",
+        "minecraft:stone",
+        "minecraft:stone"
+      ],
+      "minecraft:lore": [
+        "{\"translate\":\"pack.tcc\",\"color\":\"#008725\",\"italic\":true}"
+      ],
+      "minecraft:hide_additional_tooltip": {}
+    }
+  }
+}

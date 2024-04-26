@@ -1,8 +1,10 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:compass",
-      "nbt": "{CustomModelData:330000}"
+      "id": "minecraft:compass",
+      "components": {
+        "minecraft:custom_model_data": 330000
+      }
     },
     "title": {
       "translate": "advancements.tcc.minecraft.nether.smoldering_seeker.title"

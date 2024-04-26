@@ -26,7 +26,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "tcc:items/jungle_explorer_map"
+          "value": "tcc:items/jungle_explorer_map"
         }
       ]
     }

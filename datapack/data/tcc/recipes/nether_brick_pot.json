@@ -1,0 +1,53 @@
+{
+  "category": "building",
+  "type": "crafting_shaped",
+  "pattern": [
+    " B ",
+    "B B",
+    " B "
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:nether_brick"
+    }
+  },
+  "result": {
+    "id": "minecraft:decorated_pot",
+    "count": 1,
+    "components": {
+      "minecraft:custom_model_data": 330000,
+      "minecraft:custom_data": {
+        "tcc": {
+          "id": "decorated_pot",
+          "type": "nether_brick",
+          "raw_pot": true,
+          "sherds": [
+            {
+              "id": "minecraft:nether_brick"
+            },
+            {
+              "id": "minecraft:nether_brick"
+            },
+            {
+              "id": "minecraft:nether_brick"
+            },
+            {
+              "id": "minecraft:nether_brick"
+            }
+          ]
+        }
+      },
+      "minecraft:item_name": "{\"translate\":\"block.tcc.nether_brick_pot\"}",
+      "minecraft:pot_decorations": [
+        "minecraft:stone",
+        "minecraft:stone",
+        "minecraft:stone",
+        "minecraft:stone"
+      ],
+      "minecraft:lore": [
+        "{\"translate\":\"pack.tcc\",\"color\":\"#008725\",\"italic\":true}"
+      ],
+      "minecraft:hide_additional_tooltip": {}
+    }
+  }
+}

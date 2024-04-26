@@ -7,7 +7,7 @@
   "rewards": {
     "function": "tcc:entity/player/initiate",
     "recipes": [
-      "tcc:nbt/compendium"
+      "tcc:compendium"
     ]
   },
   "parent": "tcc:technical/root",

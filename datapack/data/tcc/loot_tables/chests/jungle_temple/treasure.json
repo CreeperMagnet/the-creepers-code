@@ -37,8 +37,15 @@
           "weight": 3,
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{Items:[{id:\"minecraft:sand\",Count:22b}]}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:bundle_contents": [
+                  {
+                    "id": "minecraft:sand",
+                    "count": 22
+                  }
+                ]
+              }
             }
           ],
           "name": "minecraft:bundle"

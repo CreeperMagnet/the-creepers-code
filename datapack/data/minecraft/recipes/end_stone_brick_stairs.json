@@ -11,8 +11,8 @@
     }
   },
   "result": {
-    "item": "minecraft:end_stone_brick_stairs",
-    "count": 6
+    "count": 6,
+    "id": "minecraft:end_stone_brick_stairs"
   },
   "category": "building"
 }

@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "tcc:entities/overgrown/default"
+          "value": "tcc:entities/overgrown/default"
         }
       ]
     },

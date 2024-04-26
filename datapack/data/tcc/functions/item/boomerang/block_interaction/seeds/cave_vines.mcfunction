@@ -1,6 +1,6 @@
 # Drops the proper amount of harvested crops from this block
 
-particle minecraft:block minecraft:cave_vines[berries=true] ~ ~1 ~ 0.1 0.1 0.1 0 15
+particle minecraft:block{block_state:{Name:"minecraft:cave_vines",Properties:{berries:"true"}}} ~ ~1 ~ 0.1 0.1 0.1 0 15
 playsound minecraft:block.cave_vines.break block @a[distance=..16]
 loot spawn ~ ~ ~ loot tcc:blocks/boomerang/glow_berries
 

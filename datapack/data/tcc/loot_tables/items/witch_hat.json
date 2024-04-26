@@ -8,35 +8,56 @@
           "weight": 1,
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{display:{color:0},AttributeModifiers:[{Amount:3.0d,Slot:\"head\",AttributeName:\"minecraft:generic.armor\",Name:\"minecraft:generic.armor\",Operation:0,UUID:[I;2,0,3,3]}],HideFlags:68,Unbreakable:1b,tcc:{id:\"witch_hat\",durability:[200,200],repaired:1b},CustomModelData:330000}"
+              "function": "minecraft:set_custom_data",
+              "tag": "{tcc:{id:\"witch_hat\"}}"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_model_data": 330000,
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "amount": 3.0,
+                      "slot": "head",
+                      "name": "minecraft:generic.armor",
+                      "operation": "add_value",
+                      "uuid": [
+                        2,
+                        0,
+                        3,
+                        3
+                      ],
+                      "type": "minecraft:generic.armor"
+                    }
+                  ]
+                },
+                "minecraft:dyed_color": {
+                  "rgb": 0,
+                  "show_in_tooltip": false
+                },
+                "minecraft:rarity": "uncommon",
+                "minecraft:damage": 0,
+                "minecraft:max_damage": 200
+              }
             },
             {
               "function": "minecraft:set_name",
               "name": {
-                "translate": "item.tcc.witch_hat",
-                "color": "yellow",
-                "italic": false
-              }
+                "translate": "item.tcc.witch_hat"
+              },
+              "target": "item_name"
             },
             {
               "function": "minecraft:set_lore",
               "lore": [
                 {
-                  "translate": "item.durability",
-                  "color": "gray",
-                  "italic": false,
-                  "with": [
-                    "200",
-                    "200"
-                  ]
-                },
-                {
                   "translate": "pack.tcc",
                   "color": "#008725",
                   "italic": true
                 }
-              ]
+              ],
+              "mode": "replace_all"
             }
           ],
           "name": "minecraft:leather_helmet"

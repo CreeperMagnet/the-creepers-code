@@ -1,0 +1,28 @@
+{
+  "category": "misc",
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:nether_wart"
+    },
+    {
+      "item": "minecraft:warped_roots"
+    }
+  ],
+  "result": {
+    "id": "minecraft:glistering_melon_slice",
+    "count": 2,
+    "components": {
+      "minecraft:custom_model_data": 330001,
+      "minecraft:custom_data": {
+        "tcc": {
+          "id": "warped_wart"
+        }
+      },
+      "minecraft:item_name": "{\"translate\": \"item.tcc.warped_wart\"}",
+      "minecraft:lore": [
+        "{\"translate\":\"pack.tcc\",\"color\":\"#008725\",\"italic\":true}"
+      ]
+    }
+  }
+}

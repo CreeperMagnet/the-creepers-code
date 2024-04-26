@@ -1,36 +1,33 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:air"
-        },
-        "title": [
-            {
-                "translate": "tccc.entry_unlocked_toast_background",
-                "font": "tcc.compendium:static"
-            },
-            {
-                "translate": "tccc.system_toast_decoration",
-                "font": "tcc.compendium:static"
-            },
-            {
-                "translate": "tccc.compendium_unlocked.spacer",
-                "font": "tcc.compendium:static"
-            },
-            {
-                "translate": "tccc.compendium_unlocked.text",
-                "font": "minecraft:default"
-            }
-        ],
-        "description": "",
-        "announce_to_chat": false
-    },
-    "criteria": {
-        "": {
-            "trigger": "minecraft:impossible"
-        }
-    },
-
-    "rewards": {
-        "function": "tcc:item/compendium/toggle_unlockable/revoke_advancement"
+  "display": {
+    "icon": {"id":"minecraft:structure_block","components":{"minecraft:custom_model_data":330000}},
+    "title": [
+      {
+        "translate": "tccc.entry_unlocked_toast_background",
+        "font": "tcc.compendium:static"
+      },
+      {
+        "translate": "tccc.system_toast_decoration",
+        "font": "tcc.compendium:static"
+      },
+      {
+        "translate": "tccc.compendium_unlocked.spacer",
+        "font": "tcc.compendium:static"
+      },
+      {
+        "translate": "tccc.compendium_unlocked.text",
+        "font": "minecraft:default"
+      }
+    ],
+    "description": "",
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "": {
+      "trigger": "minecraft:impossible"
     }
+  },
+  "rewards": {
+    "function": "tcc:item/compendium/toggle_unlockable/revoke_advancement"
+  }
 }

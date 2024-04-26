@@ -7,7 +7,9 @@
           {
             "condition": "minecraft:match_tool",
             "predicate": {
-              "nbt": "{BlockEntityTag:{Items:[{tag:{tcc:{placed_block:1b,block:\"snail_nest\"}}}]}}"
+              "predicates": {
+                "minecraft:custom_data": "{tcc:{id:\"snail_nest\"}}"
+              }
             }
           }
         ]

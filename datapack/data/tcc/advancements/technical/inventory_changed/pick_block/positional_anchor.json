@@ -6,7 +6,9 @@
       "conditions": {
         "items": [
           {
-            "nbt": "{BlockEntityTag:{Lock:\"§positional_anchor\\\\uF001\"}}"
+            "components": {
+              "minecraft:lock": "\u00a7positional_anchor\\uF001"
+            }
           }
         ]
       }
