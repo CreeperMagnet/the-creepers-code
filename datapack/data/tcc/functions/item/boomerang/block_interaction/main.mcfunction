@@ -25,4 +25,5 @@ execute if block ~ ~ ~ minecraft:cactus run function tcc:item/boomerang/block_in
 execute if block ~ ~ ~ minecraft:chorus_plant run function tcc:item/boomerang/block_interaction/chorus_plant
 execute if block ~ ~ ~ minecraft:pitcher_crop[age=4] run setblock ~ ~ ~ minecraft:air destroy
 
-execute if block ~ ~ ~ #tcc:boomerang/break run setblock ~ ~ ~ minecraft:air destroy
+execute if block ~ ~ ~ #tcc:boomerang/break if predicate tcc:location_check/in_water run setblock ~ ~ ~ minecraft:water destroy
+execute if block ~ ~ ~ #tcc:boomerang/break unless predicate tcc:location_check/in_water run setblock ~ ~ ~ minecraft:air destroy

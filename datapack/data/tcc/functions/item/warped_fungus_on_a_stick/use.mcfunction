@@ -1,7 +1,7 @@
 # All commands to run involving warped fungi on sticks
 
 # Boomerangs
-execute if entity @s[predicate=tcc:entity_properties/slots/weapon.mainhand/boomerang] unless entity @s[scores={tcc.boomerang_cooldown=1..}] anchored eyes positioned ^ ^ ^ run function tcc:item/boomerang/throw
+execute if entity @s[predicate=tcc:entity_properties/slots/weapon.mainhand/boomerang] unless entity @s[scores={tcc.boomerang_cooldown=1..}] anchored eyes positioned ^ ^ ^ if block ^ ^ ^1 #tcc:boomerang/ignore if block ^ ^ ^2 #tcc:boomerang/ignore run function tcc:item/boomerang/throw
 
 # Locket of Learning
 execute if entity @s[predicate=tcc:entity_properties/slots/weapon/locket_of_learning] run function tcc:item/locket_of_learning/use_item

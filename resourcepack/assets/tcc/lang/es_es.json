@@ -170,7 +170,7 @@
   "entity.tcc.overgrown": "Asilvestrado",
   "commands.tcc.reload.success": " Datapacks y marcadores de TCC actualizados",
   "commands.tcc.initiate": "%s está activado.",
-  "commands.tcc.wrong_version": "\nEstás utilizando The Creeper's Code en la versión incorrecta de Minecraft, deberías usar la versión 1.20.5.",
+  "commands.tcc.wrong_version": "\nEstás utilizando The Creeper's Code en la versión incorrecta de Minecraft, deberías usar la versión 1.20.6.",
   "commands.tcc.initiate.wrong_version.title": "VERSIÓN INCORRECTA",
   "chat.tcc.gamerules.title": "Normas de Juego de TCC",
   "chat.tcc.gamerules.false": "[Descativado]",

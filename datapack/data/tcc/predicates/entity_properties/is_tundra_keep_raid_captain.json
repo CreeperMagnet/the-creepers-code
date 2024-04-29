@@ -7,7 +7,7 @@
       "is_captain": true
     },
     "location": {
-      "structure": "tcc:tundra_keep"
+      "structures": "tcc:tundra_keep"
     }
   }
 }

@@ -202,7 +202,7 @@
 
   "commands.tcc.reload.success": " Updated datapacks and TCC scoreboards",
   "commands.tcc.initiate": "%s is enabled.",
-  "commands.tcc.wrong_version": "\nYou are using The Creeper's Code on the incorrect Minecraft version. You should be using Minecraft 1.20.5.",
+  "commands.tcc.wrong_version": "\nYou are using The Creeper's Code on the incorrect Minecraft version. You should be using Minecraft 1.20.6.",
   "commands.tcc.initiate.wrong_version.title": "WRONG VERSION",
 
   "chat.tcc.gamerules.title": "TCC Gamerules",

@@ -13,3 +13,6 @@ execute if score #temp_1 tcc.dummy matches 0 run data merge entity @s {start_int
 execute if score #temp_1 tcc.dummy matches 3 run data merge entity @s {start_interpolation:0,transformation:{right_rotation:{axis:[0.0f,0.0f,1.0f],angle:1.57079632679f}}}
 execute if score #temp_1 tcc.dummy matches 6 run data merge entity @s {start_interpolation:0,transformation:{right_rotation:{axis:[0.0f,0.0f,1.0f],angle:3.141f}}}
 execute if score #temp_1 tcc.dummy matches 9 run data merge entity @s {start_interpolation:0,transformation:{right_rotation:{axis:[0.0f,0.0f,1.0f],angle:4.71238898038f}}}
+
+# Play water particles
+execute if predicate tcc:location_check/in_water run particle minecraft:bubble ~ ~ ~ 0.4 0.1 0.4 0 1

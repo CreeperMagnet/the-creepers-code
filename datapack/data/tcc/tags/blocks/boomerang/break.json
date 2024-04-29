@@ -39,6 +39,10 @@
     "minecraft:pumpkin",
     "minecraft:carved_pumpkin",
     "minecraft:jack_o_lantern",
-    "minecraft:scaffolding"
+    "minecraft:scaffolding",
+    "minecraft:kelp",
+    "minecraft:kelp_plant",
+    "minecraft:seagrass",
+    "minecraft:tall_seagrass"
   ]
 }

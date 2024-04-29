@@ -1,4 +1,4 @@
 # Boomerang tracking algorithm
 
-tp @s ^ ^-0.5 ^ ~ ~
+tp @s ^ ^ ^ ~ ~
 tag @s add tcc.boomerang.turned

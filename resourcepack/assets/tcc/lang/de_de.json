@@ -170,7 +170,7 @@
   "entity.tcc.overgrown": "Überwucherung",
   "commands.tcc.reload.success": " Datapacks und TCC Scoreboards aktualisiert",
   "commands.tcc.initiate": "%s ist aktiviert.",
-  "commands.tcc.wrong_version": "\nDu nutzt The Creeper's Code in der falschen Minecraft-Version. Du solltest Minecraft 1.20.5 verwenden.",
+  "commands.tcc.wrong_version": "\nDu nutzt The Creeper's Code in der falschen Minecraft-Version. Du solltest Minecraft 1.20.6 verwenden.",
   "commands.tcc.initiate.wrong_version.title": "FALSCHE VERSION",
   "chat.tcc.gamerules.title": "TCC Grundeinstellungen",
   "chat.tcc.gamerules.false": "[Aus]",
