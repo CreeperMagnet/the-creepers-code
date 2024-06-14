@@ -1,0 +1,63 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{tcc:{id:\"witch_hat\"}}"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_model_data": 330000,
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "amount": 3.0,
+                      "slot": "head",
+                      "id": "tcc:witch_hat_armor",
+                      "operation": "add_value",
+                      "type": "minecraft:generic.armor"
+                    }
+                  ]
+                },
+                "minecraft:dyed_color": {
+                  "rgb": 0,
+                  "show_in_tooltip": false
+                },
+                "minecraft:rarity": "uncommon",
+                "minecraft:damage": 0,
+                "minecraft:max_damage": 200
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.tcc.witch_hat"
+              },
+              "target": "item_name"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "pack.tcc",
+                  "color": "#008725",
+                  "italic": true
+                }
+              ],
+              "mode": "replace_all"
+            }
+          ],
+          "name": "minecraft:leather_helmet"
+        }
+      ]
+    }
+  ],
+  "random_sequence": "tcc:items/witch_hat"
+}

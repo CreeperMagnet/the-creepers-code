@@ -146,6 +146,18 @@
   "item.tcc.vivacity_tea": "Tea of Vivacity",
   "item.tcc.vivacity_tea.lore": "Slowness Immunity",
 
+  "item.tcc.salubrity_tea": "Tea of Salubrity",
+  "item.tcc.salubrity_tea.lore": "Infested Immunity",
+  
+  "item.tcc.sealing_tea": "Tea of Sealing",
+  "item.tcc.sealing_tea.lore": "Oozing Immunity",
+  
+  "item.tcc.stillness_tea": "Tea of Stillness",
+  "item.tcc.stillness_tea.lore": "Wind Charged Immunity",
+
+  "item.tcc.untangling_tea": "Tea of Untangling",
+  "item.tcc.untangling_tea.lore": "Weaving Immunity",
+
   "item.tcc.riftjuice_bottle": "Riftjuice Bottle",
   "item.tcc.riftjuice_bottle.lore.id": "Id #%s%s",
   "item.tcc.riftjuice_bottle.lore.name": ": \"%s\"",
@@ -202,7 +214,7 @@
 
   "commands.tcc.reload.success": " Updated datapacks and TCC scoreboards",
   "commands.tcc.initiate": "%s is enabled.",
-  "commands.tcc.wrong_version": "\nYou are using The Creeper's Code on the incorrect Minecraft version. You should be using Minecraft 1.20.6.",
+  "commands.tcc.wrong_version": "\nYou are using The Creeper's Code on the incorrect Minecraft version. You should be using Minecraft 1.21.",
   "commands.tcc.initiate.wrong_version.title": "WRONG VERSION",
 
   "chat.tcc.gamerules.title": "TCC Gamerules",
@@ -404,6 +416,10 @@
   "item.tcc.vigor_tea.title": "\uc00A",
   "item.tcc.vitality_tea.title": "\uc00B",
   "item.tcc.vivacity_tea.title": "\uc00C",
+  "item.tcc.salubrity_tea.title": "\uc00D",
+  "item.tcc.sealing_tea.title": "\uc00E",
+  "item.tcc.stillness_tea.title": "\uc00F",
+  "item.tcc.untangling_tea.title": "\uc010",
 
   "potion.tcc.duration": "%s%s:%s%s",
 

@@ -1,0 +1,126 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 1.0,
+                "min": 0.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 1.0,
+                "min": 0.0
+              },
+              "enchantment": "minecraft:looting",
+              "function": "minecraft:enchanted_count_increase"
+            },
+            {
+              "add": true,
+              "count": 2,
+              "function": "minecraft:set_count",
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "attacking_player",
+                  "predicate": {
+                    "equipment": {
+                      "head": {
+                        "predicates": {
+                          "minecraft:custom_data": "{tcc:{id:\"witch_hat\"}}"
+                        }
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          ],
+          "name": "minecraft:ghast_tear"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 2.0,
+                "min": 0.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 1.0,
+                "min": 0.0
+              },
+              "enchantment": "minecraft:looting",
+              "function": "minecraft:enchanted_count_increase"
+            },
+            {
+              "add": true,
+              "count": 2,
+              "function": "minecraft:set_count",
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "attacking_player",
+                  "predicate": {
+                    "equipment": {
+                      "head": {
+                        "predicates": {
+                          "minecraft:custom_data": "{tcc:{id:\"witch_hat\"}}"
+                        }
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          ],
+          "name": "minecraft:gunpowder"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "minecraft:entities/ghast",
+  "__smithed__": {
+    "rules": [
+      {
+        "type": "append",
+        "target": "pools[0].entries[0].functions",
+        "source": {
+          "type": "reference",
+          "path": "pools[0].entries[0].functions[2]"
+        }
+      },
+      {
+        "type": "append",
+        "target": "pools[1].entries[0].functions",
+        "source": {
+          "type": "reference",
+          "path": "pools[1].entries[0].functions[2]"
+        }
+      }
+    ]
+  }
+}

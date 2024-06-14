@@ -293,7 +293,7 @@
 
   "tccc.entry.more_sniffer_loot.hint": "These lost seeds can be found by a prehistoric giant.",
   "tccc.entry.more_sniffer_loot.title": "More Sniffer Loot",
-  "tccc.entry.more_sniffer_loot.page_0.description": "Sniffers now dig up 5-10 ancient seeds at a time, rather than just one at a time. They can also dig up %s when in cold biomes.\n\n\n\n\n",
+  "tccc.entry.more_sniffer_loot.page_0.description": "Sniffers now dig up 1-3 ancient seeds at a time, rather than just one at a time. They can also dig up %s when in cold biomes.\n\n\n\n\n",
   "tccc.entry.more_sniffer_loot.page_0.reference_0": "frostblooms",
 
   "tccc.entry.more_cat_morning_gifts.hint": "These feline friends now bring you more in the morning.",
@@ -436,7 +436,7 @@
   "tccc.entry.smithing_template_renewability.page_4.reference_0": "overgrown",
 
   "tccc.entry.smoldering_seeker.hint": "This compass variant can be crafted with nether bricks.",
-  "tccc.entry.smoldering_seeker.page_0.description": "Smoldering seekers are special compasses crafted with nether bricks that point to nether fortresses when clicked in the nether. No more searching for eons! They can also be bound to lodestones and found in ruined portal loot.",
+  "tccc.entry.smoldering_seeker.page_0.description": "Smoldering seekers are special compasses crafted with nether bricks that point to nether fortresses when clicked in the nether. No more searching for eons! They can also be bound to lodestones for a cooler base compass.",
   "tccc.entry.smoldering_seeker.page_1.description": "A simple recipe... the real challenge is following the compass through the treacherous nether.",
 
   "tccc.entry.snail.hint": "This slimy shell-dweller can be found in swampy biomes.",
@@ -502,8 +502,9 @@
   "tccc.entry.tea.page_3.reference_2": "Riftjuice",
   "tccc.entry.tea.page_4.description": "Rabbit's Foot: Bad Luck\n\nEcho Shard: Darkness\n\nDarkness immunity tea works especially well with the %s mechanic.\n\n\n\n\n",
   "tccc.entry.tea.page_4.reference_0": "echo shard renewability",
-  "tccc.entry.tea.page_5.description": "The teapot must be placed on a lit campfire to make tea inside it.\n",
-  "tccc.entry.tea.page_6.description": "The recipe for the teapot.\n\n\n",
+  "tccc.entry.tea.page_5.description": "Pitcher Plant: Infested\n\nArmadillo Scute: Weaving\n\nTurtle Scute: Wind Charged\n\nTadpole Bucket: Oozing\n\n\n\n",
+  "tccc.entry.tea.page_6.description": "The teapot must be placed on a lit campfire to make tea inside it.\n",
+  "tccc.entry.tea.page_7.description": "The recipe for the teapot.\n\n\n",
 
   "tccc.entry.totem_improvements.hint": "Improvements to a undying golden idol.",
   "tccc.entry.totem_improvements.title": "Totem Improvements",

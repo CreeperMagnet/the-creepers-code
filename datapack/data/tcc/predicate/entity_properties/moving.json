@@ -1,0 +1,11 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "movement": {
+      "horizontal_speed": {
+        "min": 9.999999747378752E-6
+      }
+    }
+  }
+}

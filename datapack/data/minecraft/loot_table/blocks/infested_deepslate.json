@@ -1,0 +1,44 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:infested_deepslate"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:match_tool",
+          "predicate": {
+            "predicates": {
+              "minecraft:enchantments": [
+                {
+                  "enchantments": "minecraft:silk_touch",
+                  "levels": {
+                    "min": 1
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "random_sequence": "minecraft:blocks/infested_deepslate",
+  "__smithed__": {
+    "rules": [
+      {
+        "type": "merge",
+        "target": "pools[0].entries[0].name",
+        "source": {
+          "type": "reference",
+          "path": "pools[0].entries[0].name"
+        }
+      }
+    ]
+  }
+}

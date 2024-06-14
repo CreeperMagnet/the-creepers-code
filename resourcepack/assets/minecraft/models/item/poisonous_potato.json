@@ -45,6 +45,12 @@
         "custom_model_data": 330006
       },
       "model": "tcc:item/sweet_berry_muffin"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330007
+      },
+      "model": "tcc:item/fungal_stew"
     }
   ]
 }

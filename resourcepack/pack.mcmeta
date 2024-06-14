@@ -1,6 +1,6 @@
 {
   "pack": {
-    "pack_format": 32,
+    "pack_format": 34,
     "description": [
       {
         "text": "The Creeper's Code",
@@ -10,7 +10,7 @@
         "text": "\n"
       },
       {
-        "text": "Version 1.3.5",
+        "text": "Version 1.3.6",
         "color": "green"
       }
     ]

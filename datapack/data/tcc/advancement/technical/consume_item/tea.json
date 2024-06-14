@@ -1,0 +1,199 @@
+{
+  "criteria": {
+    "antitoxin": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": "{tcc:{tea:{id:\"antitoxin\"}}}"
+          }
+        }
+      }
+    },
+    "clearsight": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": "{tcc:{tea:{id:\"clearsight\"}}}"
+          }
+        }
+      }
+    },
+    "illumination": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": "{tcc:{tea:{id:\"illumination\"}}}"
+          }
+        }
+      }
+    },
+    "obscurity": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": "{tcc:{tea:{id:\"obscurity\"}}}"
+          }
+        }
+      }
+    },
+    "plenty": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": "{tcc:{tea:{id:\"plenty\"}}}"
+          }
+        }
+      }
+    },
+    "purity": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": "{tcc:{tea:{id:\"purity\"}}}"
+          }
+        }
+      }
+    },
+    "serendipity": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": "{tcc:{tea:{id:\"serendipity\"}}}"
+          }
+        }
+      }
+    },
+    "stability": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": "{tcc:{tea:{id:\"stability\"}}}"
+          }
+        }
+      }
+    },
+    "steadiness": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": "{tcc:{tea:{id:\"steadiness\"}}}"
+          }
+        }
+      }
+    },
+    "vigor": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": "{tcc:{tea:{id:\"vigor\"}}}"
+          }
+        }
+      }
+    },
+    "vitality": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": "{tcc:{tea:{id:\"vitality\"}}}"
+          }
+        }
+      }
+    },
+    "vivacity": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": "{tcc:{tea:{id:\"vivacity\"}}}"
+          }
+        }
+      }
+    },
+    "salubrity": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": "{tcc:{tea:{id:\"salubrity\"}}}"
+          }
+        }
+      }
+    },
+    "sealing": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": "{tcc:{tea:{id:\"sealing\"}}}"
+          }
+        }
+      }
+    },
+    "stillness": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": "{tcc:{tea:{id:\"stillness\"}}}"
+          }
+        }
+      }
+    },
+    "untangling": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": "{tcc:{tea:{id:\"untangling\"}}}"
+          }
+        }
+      }
+    },
+    "extended": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": "{tcc:{tea:{extended:1b}}}"
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "antitoxin",
+      "clearsight",
+      "illumination",
+      "obscurity",
+      "plenty",
+      "purity",
+      "serendipity",
+      "stability",
+      "steadiness",
+      "vigor",
+      "vitality",
+      "vivacity",
+      "salubrity",
+      "sealing",
+      "stillness",
+      "untangling",
+      "extended"
+    ]
+  ],
+  "rewards": {
+    "function": "tcc:item/tea/drink"
+  },
+  "parent": "tcc:technical/root"
+}

@@ -170,7 +170,7 @@
   "entity.tcc.overgrown": "Ovurgroan",
   "commands.tcc.reload.success": " updatd data packz an TCC scoreboards",
   "commands.tcc.initiate": "%s is on.",
-  "commands.tcc.wrong_version": "\nu r usin teh Creepers cod on teh incorrect Minecraft vershun. U shud be usin MINECRAFT 1.20.6.",
+  "commands.tcc.wrong_version": "\nu r usin teh Creepers cod on teh incorrect Minecraft vershun. U shud be usin MINECRAFT 1.21.",
   "commands.tcc.initiate.wrong_version.title": "RONG VERSHUN",
   "chat.tcc.gamerules.title": "TCC Gemrulz",
   "chat.tcc.gamerules.false": "[no.]",

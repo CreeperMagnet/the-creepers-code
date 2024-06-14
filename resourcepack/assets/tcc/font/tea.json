@@ -106,6 +106,42 @@
       "chars": [
         "\uc00C"
       ]
+    },
+    {
+      "type": "bitmap",
+      "file": "tcc:gui/tea/salubrity.png",
+      "ascent": 15,
+      "height": 20,
+      "chars": [
+        "\uc00D"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "tcc:gui/tea/sealing.png",
+      "ascent": 15,
+      "height": 20,
+      "chars": [
+        "\uc00E"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "tcc:gui/tea/stillness.png",
+      "ascent": 15,
+      "height": 20,
+      "chars": [
+        "\uc00F"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "tcc:gui/tea/untangling.png",
+      "ascent": 15,
+      "height": 20,
+      "chars": [
+        "\uc010"
+      ]
     }
   ]
 }

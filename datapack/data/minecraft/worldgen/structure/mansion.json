@@ -17,5 +17,6 @@
     }
   },
   "terrain_adaptation": "beard_box",
-  "step": "surface_structures"
+  "step": "surface_structures",
+  "liquid_settings": "ignore_waterlogging"
 }
