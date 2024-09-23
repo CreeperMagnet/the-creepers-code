@@ -1,0 +1,36 @@
+{
+  "sources": [
+    {
+      "type": "paletted_permutations",
+      "textures": [
+        "tcc:trims/models/armor/barren",
+        "tcc:trims/models/armor/barren_leggings",
+        "tcc:trims/models/armor/aurora",
+        "tcc:trims/models/armor/aurora_leggings",
+        "tcc:trims/models/armor/crystalline",
+        "tcc:trims/models/armor/crystalline_leggings",
+        "tcc:trims/models/armor/remnant",
+        "tcc:trims/models/armor/remnant_leggings",
+        "tcc:trims/models/armor/interloper",
+        "tcc:trims/models/armor/interloper_leggings"
+      ],
+      "palette_key": "trims/color_palettes/trim_palette",
+      "permutations": {
+        "quartz": "trims/color_palettes/quartz",
+        "iron": "trims/color_palettes/iron",
+        "gold": "trims/color_palettes/gold",
+        "diamond": "trims/color_palettes/diamond",
+        "netherite": "trims/color_palettes/netherite",
+        "redstone": "trims/color_palettes/redstone",
+        "copper": "trims/color_palettes/copper",
+        "emerald": "trims/color_palettes/emerald",
+        "lapis": "trims/color_palettes/lapis",
+        "amethyst": "trims/color_palettes/amethyst",
+        "iron_darker": "trims/color_palettes/iron_darker",
+        "gold_darker": "trims/color_palettes/gold_darker",
+        "diamond_darker": "trims/color_palettes/diamond_darker",
+        "netherite_darker": "trims/color_palettes/netherite_darker"
+      }
+    }
+  ]
+}

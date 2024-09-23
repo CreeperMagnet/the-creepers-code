@@ -5,44 +5,6 @@
       "entries": [
         {
           "type": "item",
-          "name": "minecraft:redstone",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 10
-            }
-          ]
-        },
-        {
-          "type": "item",
-          "name": "minecraft:glowstone_dust",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 10
-            }
-          ]
-        },
-        {
-          "type": "item",
-          "name": "minecraft:gunpowder",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 10
-            }
-          ]
-        },
-        {
-          "type": "loot_table",
-          "weight": 1,
-          "value": "tcc:items/amethyst_dust"
-        },
-        {
-          "type": "item",
           "name": "minecraft:glass_bottle",
           "weight": 1,
           "functions": [
@@ -51,6 +13,25 @@
               "count": 12
             }
           ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:nether_wart",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 6
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:brewing_stand"
+        },
+        {
+          "type": "item",
+          "name": "minecraft:ominous_bottle"
         }
       ]
     },

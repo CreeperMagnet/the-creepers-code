@@ -113,17 +113,8 @@
               "unenchanted_chance": 0.1
             },
             {
-              "condition": "minecraft:entity_properties",
-              "entity": "attacking_player",
-              "predicate": {
-                "equipment": {
-                  "head": {
-                    "predicates": {
-                      "minecraft:custom_data": "{tcc:{id:\"witch_hat\"}}"
-                    }
-                  }
-                }
-              }
+              "condition": "minecraft:reference",
+              "name": "tcc:entity_properties/slots/armor.head/witch_hat_attacker"
             }
           ]
         }

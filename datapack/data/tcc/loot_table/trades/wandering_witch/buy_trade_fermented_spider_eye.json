@@ -5,19 +5,39 @@
       "entries": [
         {
           "type": "item",
-          "name": "minecraft:brewing_stand",
-          "weight": 1
+          "name": "minecraft:rabbit_foot"
         },
         {
           "type": "item",
-          "name": "minecraft:nether_wart",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 10
-            }
-          ]
+          "name": "minecraft:phantom_membrane"
+        },
+        {
+          "type": "item",
+          "name": "minecraft:ghast_tear"
+        },
+        {
+          "type": "item",
+          "name": "minecraft:golden_carrot"
+        },
+        {
+          "type": "item",
+          "name": "minecraft:glistering_melon_slice"
+        },
+        {
+          "type": "item",
+          "name": "minecraft:magma_cream"
+        },
+        {
+          "type": "item",
+          "name": "minecraft:pufferfish"
+        },
+        {
+          "type": "loot_table",
+          "value": "tcc:items/sightless_eye"
+        },
+        {
+          "type": "loot_table",
+          "value": "tcc:items/heartbeet"
         }
       ]
     },

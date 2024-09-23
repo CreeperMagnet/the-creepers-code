@@ -16,5 +16,5 @@ effect clear @s[tag=tcc.tea.salubrity] minecraft:infested
 effect clear @s[tag=tcc.tea.sealing] minecraft:oozing
 effect clear @s[tag=tcc.tea.stillness] minecraft:wind_charged
 effect clear @s[tag=tcc.tea.untangling] minecraft:weaving
-function tcc:item/tea/clear/set_timer_scores
+function tcc:item/tea/clear/display_timer
 advancement revoke @s only tcc:technical/effects_changed/tea_immunity

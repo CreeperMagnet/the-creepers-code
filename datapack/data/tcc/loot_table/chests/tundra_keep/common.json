@@ -141,7 +141,6 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:potion_contents": {
-                  "custom_effects": [],
                   "potion": "minecraft:slowness"
                 }
               }
@@ -185,20 +184,6 @@
               }
             }
           ]
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:empty",
-          "weight": 5
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 1,
-          "name": "minecraft:sentry_armor_trim_smithing_template"
         }
       ]
     }

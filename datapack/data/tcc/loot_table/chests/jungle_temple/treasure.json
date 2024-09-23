@@ -2,88 +2,69 @@
   "type": "minecraft:chest",
   "pools": [
     {
-      "rolls": 10,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:gold_ingot"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:gold_nugget"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": 2
-            }
-          ],
-          "name": "minecraft:wild_armor_trim_smithing_template"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "weight": 3,
-          "functions": [
-            {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:bundle_contents": [
-                  {
-                    "id": "minecraft:sand",
-                    "count": 22
-                  }
-                ]
-              }
-            }
-          ],
-          "name": "minecraft:bundle"
-        }
-      ]
-    },
-    {
       "rolls": 2,
       "entries": [
         {
           "type": "minecraft:item",
-          "weight": 3,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 2,
-                "max": 3,
-                "type": "minecraft:uniform"
-              }
-            }
-          ],
-          "name": "minecraft:emerald"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 3,
+          "weight": 2,
+          "name": "minecraft:emerald",
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
                 "min": 3,
-                "max": 5,
-                "type": "minecraft:uniform"
+                "max": 5
               }
             }
-          ],
-          "name": "minecraft:iron_ingot"
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:diamond",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 5,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:bamboo"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "minecraft:string"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "minecraft:bone",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 3,
+                "max": 5
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:name_tag"
         }
       ]
     }

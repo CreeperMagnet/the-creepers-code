@@ -41,8 +41,8 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:music_disc_cat",
-          "weight": 2
+          "name": "minecraft:rabbit",
+          "weight": 10
         },
         {
           "type": "minecraft:loot_table",

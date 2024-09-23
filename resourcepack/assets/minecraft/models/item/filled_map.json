@@ -21,7 +21,7 @@
       "predicate": {
         "custom_model_data": 330002
       },
-      "model": "tcc:item/ancient_explorer_map"
+      "model": "tcc:item/reactive_seeker/unset"
     }
   ]
 }

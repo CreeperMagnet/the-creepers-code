@@ -11,7 +11,7 @@ execute if data storage tcc:temp root.item{id:"minecraft:echo_shard"} run data m
 execute if data storage tcc:temp root.item{id:"minecraft:wet_sponge"} run data modify entity @s item.components."minecraft:custom_data".tea set value {id:"vitality",color:9818055,extended:0b}
 execute if data storage tcc:temp root.item{id:"minecraft:pitcher_plant"} run data modify entity @s item.components."minecraft:custom_data".tea set value {id:"salubrity",color:12492031,extended:0b}
 execute if data storage tcc:temp root.item{id:"minecraft:tadpole_bucket"} run data modify entity @s item.components."minecraft:custom_data".tea set value {id:"sealing",color:8342819,extended:0b}
-execute if data storage tcc:temp root.item{id:"minecraft:turtle_scute"} run data modify entity @s item.components."minecraft:custom_data".tea set value {id:"stillness",color:4170818,extended:0b}
+execute if data storage tcc:temp root.item{id:"minecraft:breeze_rod"} run data modify entity @s item.components."minecraft:custom_data".tea set value {id:"stillness",color:9607935,extended:0b}
 execute if data storage tcc:temp root.item{id:"minecraft:armadillo_scute"} run data modify entity @s item.components."minecraft:custom_data".tea set value {id:"untangling",color:11959158,extended:0b}
 execute if data storage tcc:temp root.item.components."minecraft:custom_data".tcc{id:"frostbloom_petals"} run data modify entity @s item.components."minecraft:custom_data".tea set value {id:"vivacity",color:9286646,extended:0b}
 execute if data storage tcc:temp root.item.components."minecraft:custom_data".tcc{id:"riftjuice_bottle"} run data modify entity @s item.components."minecraft:custom_data".tea set value {id:"stability",color:12414171,extended:0b}

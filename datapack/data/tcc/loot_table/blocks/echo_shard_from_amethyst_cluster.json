@@ -4,8 +4,23 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:echo_shard"
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:echo_shard",
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.25
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:amethyst_shard"
+            }
+          ]
         }
       ]
     }

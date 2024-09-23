@@ -17,12 +17,11 @@
 §2Don’t look directly at the bugs.
 §2May contain nuts and a hint of lag
 §2If you can’t see this message, download Minecraft.
-§2Here I go again, breaking backwards compatibility!
+§2Here I go breaking backwards compatibility again!
 §2May contain feature creep
 §2RIP obsidian shards, peculiar berries, and every other removed feature that should never have been made in the first place.
 §2Bukkit + TCC = A very sad error log
 §2Please do not mix with mods
-§2L.O.L. = Lots of Lag
 §2Datapacks, not data packs
 §2Datapacks, not data-packs
 §2Data packs, not datapacks
@@ -42,8 +41,6 @@
 §2Also play Florcraft!
 §2Also play Ocean Additions!
 §2Also play The Wastes!
-§2Also play Manic!
-§2Also play Sanguine!
 §2Also play(?) Worldtool!
 §2Play something else! Variety!
 §2Big Pack Suffering!
@@ -54,26 +51,18 @@
 §2Proudly sponsored by Smithed
 §2I am fueled by spite!
 §2RIP DPC
-§2Why did it work before? I didn't change anything.
 §2MAXIMUM MONKE ENGAGED
 §2Once again, Creeper does all the work
 §2The real CreeperMagnet_ is the friends we made along the way
 §2Monkey brain approved!
-§2Wait, what was the point of this again?
 §2We don't talk about the scuttler.
-§2We don't talk about TTB.
 §2Now with less optimizations and more lag!
 §2Wait, it's all wandering traders?
 §2eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
 §2Now with more creepers and code!
 §2Powered by Infinite Monkey Theorem
 §2Weird foods!
-§2Creeper has an illager addiction
-§2Creeper has a basement obsession
 §2What's with all the monkeys?
-§2Check out the Block by Block Project!
-§2Dedicated to all the brain cells lost while developing it
-§2May contain acorns
 §2This tea is preTEA good :)
 §2Alliteration!
 §2Boom!
@@ -128,16 +117,14 @@
 §2Works as intended!
 §2Snails in pails!
 §2Pain and suffering!
-§2Buff the illagers!
 §2PIF!
 §2Geode geezers!
-§2Now even more based!
 §2#008725
 §2#006e1e
 §2Contains unhealthy amounts of green!
 §2Font magic!
 §2:beta:
-§2Postgen!
+§2No more postgen!
 §l§n§6E
 §2§oMaybe compatible?
 §2"When will you update to the snapshots?"
@@ -157,7 +144,6 @@
 §2No refunds
 §2Provides a full day's supply of Vitamins T, C, and C!
 §2Soon to be a hit television show
-§2Warning: Do Not Show To Horses
 §2Ask your doctor if TCC is right for you
 §2The one bright spot in your life!
 §2#1 most downloaded datapack among download-bots
@@ -167,17 +153,18 @@
 §2Making waves!
 §2How many reworks of a rework can there be?
 §2So many villages! So many villagers!
-§2What a bamboo-head!
 §2Unlock until you can unlock no more!
 §2The #1 Ocean Monument Pack!
 §2Imagine the pottabilities!
 §2Featuring conductable souls!
 §2Seer of souls
 §2Armed and Armored!
-§2Hay, do you hear that?
 §2May contain worldbuilding.
 §2Bet you've never seen green splashes before!
 §2How much compendium code could there possibly be?
 §2The most note-able spot for rewaxation!
 §2In the jungle, the mighty jungle!
-§2[insert 1.4 joke here]
+§2Armor trims sold separately
+§2Sniffer 2: Electric Boogaloo
+§2The sponge has been exterminated
+§2[insert 1.5 joke here]

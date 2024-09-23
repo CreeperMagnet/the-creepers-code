@@ -7,7 +7,7 @@ scoreboard players set @s[tag=!tcc.pottery_table.open] tcc.dummy 1
 execute if entity @s[scores={tcc.dummy=1..}] if data block ~ ~ ~ Items run function tcc:block/pottery_table/crafting/barrel_updated
 
 # Fix hopper minecarts being evil little garbage machines
-execute positioned ~ ~-2 ~ as @e[type=minecraft:hopper_minecart,dy=2,tag=!smithed.entity] at @s run function tcc:block/pottery_table/tick/hopper_minecart 
+execute positioned ~ ~-2 ~ as @e[type=minecraft:hopper_minecart,dy=2,tag=!smithed.entity] at @s run function tcc:block/pottery_table/tick/hopper_minecart
 
 # Add tag
 tag @s add tcc.pottery_table.open

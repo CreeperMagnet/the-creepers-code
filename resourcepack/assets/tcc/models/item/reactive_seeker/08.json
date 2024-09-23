@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "tcc:item/reactive_seeker/base",
+    "layer1": "tcc:item/reactive_seeker/08"
+  }
+}

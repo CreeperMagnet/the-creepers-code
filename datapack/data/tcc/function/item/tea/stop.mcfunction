@@ -1,6 +1,5 @@
 # Ends the tea effect
 
-advancement revoke @s only tcc:technical/multiple_trigger_types/clear_tea_effect
 scoreboard players reset @s tcc.tea
 execute if entity @s[tag=tcc.tea.antitoxin] run title @s actionbar {"translate":"potion.withDuration","color":"red","with":[{"translate":"item.tcc.antitoxin_tea.title","color":"white","font":"tcc:tea"},{"translate":"potion.tcc.duration","with":["0","0","0","0"]}]}
 execute if entity @s[tag=tcc.tea.clearsight] run title @s actionbar {"translate":"potion.withDuration","color":"red","with":[{"translate":"item.tcc.clearsight_tea.title","color":"white","font":"tcc:tea"},{"translate":"potion.tcc.duration","with":["0","0","0","0"]}]}

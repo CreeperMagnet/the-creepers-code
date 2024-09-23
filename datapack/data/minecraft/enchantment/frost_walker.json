@@ -1,0 +1,215 @@
+{
+  "anvil_cost": 4,
+  "description": {
+    "translate": "enchantment.minecraft.frost_walker"
+  },
+  "effects": {
+    "minecraft:damage_immunity": [
+      {
+        "effect": {},
+        "requirements": {
+          "condition": "minecraft:damage_source_properties",
+          "predicate": {
+            "tags": [
+              {
+                "expected": true,
+                "id": "minecraft:burn_from_stepping"
+              },
+              {
+                "expected": false,
+                "id": "minecraft:bypasses_invulnerability"
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "minecraft:location_changed": [
+      {
+        "effect": {
+          "type": "minecraft:replace_disk",
+          "block_state": {
+            "type": "minecraft:simple_state_provider",
+            "state": {
+              "Name": "minecraft:frosted_ice",
+              "Properties": {
+                "age": "0"
+              }
+            }
+          },
+          "height": 1,
+          "offset": [
+            0,
+            -1,
+            0
+          ],
+          "predicate": {
+            "type": "minecraft:all_of",
+            "predicates": [
+              {
+                "type": "minecraft:matching_block_tag",
+                "offset": [
+                  0,
+                  1,
+                  0
+                ],
+                "tag": "minecraft:air"
+              },
+              {
+                "type": "minecraft:matching_blocks",
+                "blocks": "minecraft:water"
+              },
+              {
+                "type": "minecraft:matching_fluids",
+                "fluids": "minecraft:water"
+              },
+              {
+                "type": "minecraft:unobstructed"
+              }
+            ]
+          },
+          "radius": {
+            "type": "minecraft:clamped",
+            "max": 16,
+            "min": 0,
+            "value": {
+              "type": "minecraft:linear",
+              "base": 3,
+              "per_level_above_first": 1
+            }
+          },
+          "trigger_game_event": "minecraft:block_place"
+        },
+        "requirements": {
+          "condition": "minecraft:any_of",
+          "terms": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "flags": {
+                  "is_on_ground": true
+                }
+              }
+            },
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "vehicle": {
+                  "type": "#tcc:short_mounts",
+                  "flags": {
+                    "is_on_ground": true
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "effect": {
+          "type": "minecraft:replace_disk",
+          "block_state": {
+            "type": "minecraft:simple_state_provider",
+            "state": {
+              "Name": "minecraft:frosted_ice",
+              "Properties": {
+                "age": "0"
+              }
+            }
+          },
+          "height": 1,
+          "offset": [
+            0,
+            -2,
+            0
+          ],
+          "predicate": {
+            "type": "minecraft:all_of",
+            "predicates": [
+              {
+                "type": "minecraft:matching_block_tag",
+                "offset": [
+                  0,
+                  1,
+                  0
+                ],
+                "tag": "minecraft:air"
+              },
+              {
+                "type": "minecraft:matching_blocks",
+                "blocks": "minecraft:water"
+              },
+              {
+                "type": "minecraft:matching_fluids",
+                "fluids": "minecraft:water"
+              },
+              {
+                "type": "minecraft:unobstructed"
+              }
+            ]
+          },
+          "radius": {
+            "type": "minecraft:clamped",
+            "max": 16,
+            "min": 0,
+            "value": {
+              "type": "minecraft:linear",
+              "base": 3,
+              "per_level_above_first": 1
+            }
+          },
+          "trigger_game_event": "minecraft:block_place"
+        },
+        "requirements": {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "vehicle": {
+              "type": "#tcc:tall_mounts",
+              "flags": {
+                "is_on_ground": true
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "exclusive_set": "#minecraft:exclusive_set/boots",
+  "max_cost": {
+    "base": 25,
+    "per_level_above_first": 10
+  },
+  "max_level": 2,
+  "min_cost": {
+    "base": 10,
+    "per_level_above_first": 10
+  },
+  "slots": [
+    "feet"
+  ],
+  "supported_items": "#minecraft:enchantable/foot_armor",
+  "weight": 2,
+  "__smithed__": {
+    "rules": [
+      {
+        "type": "append",
+        "target": "effects.minecraft:location_changed",
+        "source": {
+          "type": "reference",
+          "path": "minecraft:location_changed[1]"
+        }
+      },
+      {
+        "type": "merge",
+        "target": "effects.minecraft:location_changed[0].requirements",
+        "source": {
+          "type": "reference",
+          "path": "effects.minecraft:location_changed[0].requirements"
+        }
+      }
+    ]
+  }
+}

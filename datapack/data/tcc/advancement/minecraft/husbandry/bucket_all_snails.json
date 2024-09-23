@@ -42,6 +42,21 @@
         ]
       }
     },
+    "black_baby": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:custom_data": "{tcc:{id:\"snail_bucket\"}}"
+            },
+            "components": {
+              "minecraft:custom_model_data": 330252
+            }
+          }
+        ]
+      }
+    },
     "brown": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
@@ -52,6 +67,21 @@
             },
             "components": {
               "minecraft:custom_model_data": 330033
+            }
+          }
+        ]
+      }
+    },
+    "brown_baby": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:custom_data": "{tcc:{id:\"snail_bucket\"}}"
+            },
+            "components": {
+              "minecraft:custom_model_data": 330253
             }
           }
         ]
@@ -72,6 +102,21 @@
         ]
       }
     },
+    "light_blue_baby": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:custom_data": "{tcc:{id:\"snail_bucket\"}}"
+            },
+            "components": {
+              "minecraft:custom_model_data": 330255
+            }
+          }
+        ]
+      }
+    },
     "skull": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
@@ -82,6 +127,21 @@
             },
             "components": {
               "minecraft:custom_model_data": 330036
+            }
+          }
+        ]
+      }
+    },
+    "skull_baby": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:custom_data": "{tcc:{id:\"snail_bucket\"}}"
+            },
+            "components": {
+              "minecraft:custom_model_data": 330256
             }
           }
         ]
@@ -102,6 +162,21 @@
         ]
       }
     },
+    "spiral_baby": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:custom_data": "{tcc:{id:\"snail_bucket\"}}"
+            },
+            "components": {
+              "minecraft:custom_model_data": 330257
+            }
+          }
+        ]
+      }
+    },
     "yellow": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
@@ -116,26 +191,47 @@
           }
         ]
       }
+    },
+    "yellow_baby": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:custom_data": "{tcc:{id:\"snail_bucket\"}}"
+            },
+            "components": {
+              "minecraft:custom_model_data": 330258
+            }
+          }
+        ]
+      }
     }
   },
   "requirements": [
     [
-      "black"
+      "black",
+      "black_baby"
     ],
     [
-      "brown"
+      "brown",
+      "brown_baby"
     ],
     [
-      "light_blue"
+      "light_blue",
+      "light_blue_baby"
     ],
     [
-      "skull"
+      "skull",
+      "skull_baby"
     ],
     [
-      "spiral"
+      "spiral",
+      "spiral_baby"
     ],
     [
-      "yellow"
+      "yellow",
+      "yellow_baby"
     ]
   ],
   "rewards": {

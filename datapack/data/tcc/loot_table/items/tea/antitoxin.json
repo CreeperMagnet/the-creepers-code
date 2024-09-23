@@ -16,7 +16,6 @@
               "components": {
                 "minecraft:custom_model_data": 330001,
                 "minecraft:potion_contents": {
-                  "custom_effects": [],
                   "potion": "minecraft:mundane",
                   "custom_color": 16748822
                 },

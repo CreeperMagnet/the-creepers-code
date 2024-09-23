@@ -438,231 +438,252 @@
         "angle": 0,
         "custom_model_data": 330001
       },
-      "model": "tcc:item/weeping_eye/16"
-    },
-    {
-      "predicate": {
-        "angle": 0.015625,
-        "custom_model_data": 330001
-      },
-      "model": "tcc:item/weeping_eye/17"
-    },
-    {
-      "predicate": {
-        "angle": 0.046875,
-        "custom_model_data": 330001
-      },
-      "model": "tcc:item/weeping_eye/18"
-    },
-    {
-      "predicate": {
-        "angle": 0.078125,
-        "custom_model_data": 330001
-      },
-      "model": "tcc:item/weeping_eye/19"
-    },
-    {
-      "predicate": {
-        "angle": 0.109375,
-        "custom_model_data": 330001
-      },
-      "model": "tcc:item/weeping_eye/20"
-    },
-    {
-      "predicate": {
-        "angle": 0.140625,
-        "custom_model_data": 330001
-      },
-      "model": "tcc:item/weeping_eye/21"
-    },
-    {
-      "predicate": {
-        "angle": 0.171875,
-        "custom_model_data": 330001
-      },
-      "model": "tcc:item/weeping_eye/22"
-    },
-    {
-      "predicate": {
-        "angle": 0.203125,
-        "custom_model_data": 330001
-      },
-      "model": "tcc:item/weeping_eye/23"
-    },
-    {
-      "predicate": {
-        "angle": 0.234375,
-        "custom_model_data": 330001
-      },
-      "model": "tcc:item/weeping_eye/24"
-    },
-    {
-      "predicate": {
-        "angle": 0.265625,
-        "custom_model_data": 330001
-      },
-      "model": "tcc:item/weeping_eye/25"
-    },
-    {
-      "predicate": {
-        "angle": 0.296875,
-        "custom_model_data": 330001
-      },
-      "model": "tcc:item/weeping_eye/26"
-    },
-    {
-      "predicate": {
-        "angle": 0.328125,
-        "custom_model_data": 330001
-      },
-      "model": "tcc:item/weeping_eye/27"
-    },
-    {
-      "predicate": {
-        "angle": 0.359375,
-        "custom_model_data": 330001
-      },
-      "model": "tcc:item/weeping_eye/28"
-    },
-    {
-      "predicate": {
-        "angle": 0.390625,
-        "custom_model_data": 330001
-      },
-      "model": "tcc:item/weeping_eye/29"
-    },
-    {
-      "predicate": {
-        "angle": 0.421875,
-        "custom_model_data": 330001
-      },
-      "model": "tcc:item/weeping_eye/30"
-    },
-    {
-      "predicate": {
-        "angle": 0.453125,
-        "custom_model_data": 330001
-      },
-      "model": "tcc:item/weeping_eye/31"
-    },
-    {
-      "predicate": {
-        "angle": 0.484375,
-        "custom_model_data": 330001
-      },
-      "model": "tcc:item/weeping_eye/00"
-    },
-    {
-      "predicate": {
-        "angle": 0.515625,
-        "custom_model_data": 330001
-      },
-      "model": "tcc:item/weeping_eye/01"
-    },
-    {
-      "predicate": {
-        "angle": 0.546875,
-        "custom_model_data": 330001
-      },
-      "model": "tcc:item/weeping_eye/02"
-    },
-    {
-      "predicate": {
-        "angle": 0.578125,
-        "custom_model_data": 330001
-      },
-      "model": "tcc:item/weeping_eye/03"
-    },
-    {
-      "predicate": {
-        "angle": 0.609375,
-        "custom_model_data": 330001
-      },
-      "model": "tcc:item/weeping_eye/04"
-    },
-    {
-      "predicate": {
-        "angle": 0.640625,
-        "custom_model_data": 330001
-      },
-      "model": "tcc:item/weeping_eye/05"
-    },
-    {
-      "predicate": {
-        "angle": 0.671875,
-        "custom_model_data": 330001
-      },
-      "model": "tcc:item/weeping_eye/06"
-    },
-    {
-      "predicate": {
-        "angle": 0.703125,
-        "custom_model_data": 330001
-      },
-      "model": "tcc:item/weeping_eye/07"
-    },
-    {
-      "predicate": {
-        "angle": 0.734375,
-        "custom_model_data": 330001
-      },
       "model": "tcc:item/weeping_eye/08"
     },
     {
       "predicate": {
-        "angle": 0.765625,
+        "angle": 0.03125,
         "custom_model_data": 330001
       },
       "model": "tcc:item/weeping_eye/09"
     },
     {
       "predicate": {
-        "angle": 0.796875,
+        "angle": 0.09375,
         "custom_model_data": 330001
       },
       "model": "tcc:item/weeping_eye/10"
     },
     {
       "predicate": {
-        "angle": 0.828125,
+        "angle": 0.15625,
         "custom_model_data": 330001
       },
       "model": "tcc:item/weeping_eye/11"
     },
     {
       "predicate": {
-        "angle": 0.859375,
+        "angle": 0.21875,
         "custom_model_data": 330001
       },
       "model": "tcc:item/weeping_eye/12"
     },
     {
       "predicate": {
-        "angle": 0.890625,
+        "angle": 0.28125,
         "custom_model_data": 330001
       },
       "model": "tcc:item/weeping_eye/13"
     },
     {
       "predicate": {
-        "angle": 0.921875,
+        "angle": 0.34375,
         "custom_model_data": 330001
       },
       "model": "tcc:item/weeping_eye/14"
     },
     {
       "predicate": {
-        "angle": 0.953125,
+        "angle": 0.40625,
         "custom_model_data": 330001
       },
       "model": "tcc:item/weeping_eye/15"
     },
     {
       "predicate": {
-        "angle": 0.984375,
+        "angle": 0.46875,
         "custom_model_data": 330001
       },
-      "model": "tcc:item/weeping_eye/16"
+      "model": "tcc:item/weeping_eye/00"
+    },
+    {
+      "predicate": {
+        "angle": 0.53125,
+        "custom_model_data": 330001
+      },
+      "model": "tcc:item/weeping_eye/01"
+    },
+    {
+      "predicate": {
+        "angle": 0.59375,
+        "custom_model_data": 330001
+      },
+      "model": "tcc:item/weeping_eye/02"
+    },
+    {
+      "predicate": {
+        "angle": 0.65625,
+        "custom_model_data": 330001
+      },
+      "model": "tcc:item/weeping_eye/03"
+    },
+    {
+      "predicate": {
+        "angle": 0.71875,
+        "custom_model_data": 330001
+      },
+      "model": "tcc:item/weeping_eye/04"
+    },
+    {
+      "predicate": {
+        "angle": 0.78125,
+        "custom_model_data": 330001
+      },
+      "model": "tcc:item/weeping_eye/05"
+    },
+    {
+      "predicate": {
+        "angle": 0.84375,
+        "custom_model_data": 330001
+      },
+      "model": "tcc:item/weeping_eye/06"
+    },
+    {
+      "predicate": {
+        "angle": 0.90625,
+        "custom_model_data": 330001
+      },
+      "model": "tcc:item/weeping_eye/07"
+    },
+    {
+      "predicate": {
+        "angle": 0.96875,
+        "custom_model_data": 330001
+      },
+      "model": "tcc:item/weeping_eye/08"
+    },
+    {
+      "predicate": {
+        "angle": 0,
+        "custom_model_data": 330002
+      },
+      "model": "tcc:item/reactive_seeker/10"
+    },
+    {
+      "predicate": {
+        "angle": 0.0425,
+        "custom_model_data": 330002
+      },
+      "model": "tcc:item/reactive_seeker/09"
+    },
+    {
+      "predicate": {
+        "angle": 0.065,
+        "custom_model_data": 330002
+      },
+      "model": "tcc:item/reactive_seeker/08"
+    },
+    {
+      "predicate": {
+        "angle": 0.0875,
+        "custom_model_data": 330002
+      },
+      "model": "tcc:item/reactive_seeker/07"
+    },
+    {
+      "predicate": {
+        "angle": 0.11,
+        "custom_model_data": 330002
+      },
+      "model": "tcc:item/reactive_seeker/06"
+    },
+    {
+      "predicate": {
+        "angle": 0.1325,
+        "custom_model_data": 330002
+      },
+      "model": "tcc:item/reactive_seeker/05"
+    },
+    {
+      "predicate": {
+        "angle": 0.155,
+        "custom_model_data": 330002
+      },
+      "model": "tcc:item/reactive_seeker/04"
+    },
+    {
+      "predicate": {
+        "angle": 0.1775,
+        "custom_model_data": 330002
+      },
+      "model": "tcc:item/reactive_seeker/03"
+    },
+    {
+      "predicate": {
+        "angle": 0.2,
+        "custom_model_data": 330002
+      },
+      "model": "tcc:item/reactive_seeker/02"
+    },
+    {
+      "predicate": {
+        "angle": 0.2225,
+        "custom_model_data": 330002
+      },
+      "model": "tcc:item/reactive_seeker/01"
+    },
+    {
+      "predicate": {
+        "angle": 0.7775,
+        "custom_model_data": 330002
+      },
+      "model": "tcc:item/reactive_seeker/02"
+    },
+    {
+      "predicate": {
+        "angle": 0.8,
+        "custom_model_data": 330002
+      },
+      "model": "tcc:item/reactive_seeker/03"
+    },
+    {
+      "predicate": {
+        "angle": 0.8225,
+        "custom_model_data": 330002
+      },
+      "model": "tcc:item/reactive_seeker/04"
+    },
+    {
+      "predicate": {
+        "angle": 0.845,
+        "custom_model_data": 330002
+      },
+      "model": "tcc:item/reactive_seeker/05"
+    },
+    {
+      "predicate": {
+        "angle": 0.8675,
+        "custom_model_data": 330002
+      },
+      "model": "tcc:item/reactive_seeker/06"
+    },
+    {
+      "predicate": {
+        "angle": 0.89,
+        "custom_model_data": 330002
+      },
+      "model": "tcc:item/reactive_seeker/07"
+    },
+    {
+      "predicate": {
+        "angle": 0.9125,
+        "custom_model_data": 330002
+      },
+      "model": "tcc:item/reactive_seeker/08"
+    },
+    {
+      "predicate": {
+        "angle": 0.935,
+        "custom_model_data": 330002
+      },
+      "model": "tcc:item/reactive_seeker/09"
+    },
+    {
+      "predicate": {
+        "angle": 0.9575,
+        "custom_model_data": 330002
+      },
+      "model": "tcc:item/reactive_seeker/10"
     }
   ]
 }

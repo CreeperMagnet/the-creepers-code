@@ -5,7 +5,6 @@
       "components": {
         "minecraft:custom_model_data": 330000,
         "minecraft:potion_contents": {
-          "custom_effects": [],
           "custom_color": 16777215
         }
       }

@@ -10,7 +10,7 @@
         "text": "\n"
       },
       {
-        "text": "Version 1.3.6",
+        "text": "Version 1.4",
         "color": "green"
       }
     ]
@@ -26,8 +26,15 @@
   "overlays": {
     "entries": [
       {
-        "formats": 48,
-        "directory": "versioning"
+        "formats": [45,47],
+        "directory": "invalid_version"
+      },
+      {
+        "formats": {
+          "min_inclusive": 49,
+          "max_inclusive": 2147483647
+        },
+        "directory": "invalid_version"
       }
     ]
   }

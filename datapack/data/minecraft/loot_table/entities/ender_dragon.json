@@ -18,19 +18,6 @@
           ]
         }
       ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:empty",
-          "weight": 2
-        },
-        {
-          "type": "item",
-          "name": "minecraft:eye_armor_trim_smithing_template"
-        }
-      ]
     }
   ],
   "random_sequence": "minecraft:entities/ender_dragon",
@@ -42,14 +29,6 @@
         "source": {
           "type": "reference",
           "path": "pools[0]"
-        }
-      },
-      {
-        "type": "append",
-        "target": "pools",
-        "source": {
-          "type": "reference",
-          "path": "pools[1]"
         }
       }
     ]

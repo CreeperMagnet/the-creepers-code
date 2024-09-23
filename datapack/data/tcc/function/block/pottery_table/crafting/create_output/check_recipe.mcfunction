@@ -7,4 +7,4 @@ execute unless data storage tcc:temp root.barrel_data[1][{Slot:3b}] unless data 
 execute if data storage tcc:temp root.barrel_data[1][{Slot:12b,id:"minecraft:decorated_pot"}] run return run function tcc:block/pottery_table/crafting/create_output/decorate_pot/main
 
 # Otherwise, it's sherd duplication
-function tcc:block/pottery_table/crafting/create_output/duplicate_sherd/main
+function tcc:block/pottery_table/crafting/create_output/duplicate_sherd

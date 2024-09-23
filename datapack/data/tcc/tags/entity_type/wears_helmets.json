@@ -11,6 +11,7 @@
     "minecraft:zombie_villager",
     "minecraft:villager",
     "minecraft:zombified_piglin",
-    "minecraft:armor_stand"
+    "minecraft:armor_stand",
+    "minecraft:bogged"
   ]
 }

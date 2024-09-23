@@ -1,0 +1,9 @@
+{
+  "values": [
+    "minecraft:lava",
+    "minecraft:air",
+    "minecraft:cave_air",
+    "minecraft:glowstone",
+    "minecraft:ancient_debris"
+  ]
+}

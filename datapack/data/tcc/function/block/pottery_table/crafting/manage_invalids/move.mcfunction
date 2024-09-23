@@ -1,6 +1,7 @@
 # Moves items if they are put into invalid slots
 
 # Move the item slots around
+execute if items block ~ ~ ~ container.0 #tcc:pot_materials unless block ~ ~ ~ minecraft:barrel{Items:[{Slot:12b}]} run data modify block ~ ~ ~ Items[{Slot:0b}].Slot set value 12b
 execute if items block ~ ~ ~ container.0 #minecraft:decorated_pot_sherds run function tcc:block/pottery_table/crafting/manage_invalids/move_sherds
 execute if block ~ ~ ~ minecraft:barrel{Items:[{Slot:0b,components:{"minecraft:custom_data":{tcc:{id:"pottery_sherd"}}}}]} run function tcc:block/pottery_table/crafting/manage_invalids/move_sherds
 

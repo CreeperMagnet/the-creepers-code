@@ -1,5 +1,5 @@
 {
-  "parent": "block/structure_block",
+  "parent": "tcc:item/custom_trim_base/structure_block",
   "overrides": [
     {
       "predicate": {
@@ -11,7 +11,7 @@
       "predicate": {
         "custom_model_data": 330001
       },
-      "model": "tcc:entity/overgrown/head"
+      "model": "tcc:item/empty"
     },
     {
       "predicate": {
@@ -539,7 +539,7 @@
       "predicate": {
         "custom_model_data": 330089
       },
-      "model": "tcc:entity/overgrown/head_bamboo"
+      "model": "tcc:item/empty"
     },
     {
       "predicate": {
@@ -606,6 +606,264 @@
         "custom_model_data": 330100
       },
       "model": "tcc:block/potted_plant/big_dripleaf"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330101
+      },
+      "model": "tcc:block/echoing_hourglass/sand/powder/input/1"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330102
+      },
+      "model": "tcc:block/echoing_hourglass/sand/powder/input/2"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330103
+      },
+      "model": "tcc:block/echoing_hourglass/sand/powder/input/3"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330104
+      },
+      "model": "tcc:block/echoing_hourglass/sand/powder/input/4"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330105
+      },
+      "model": "tcc:block/echoing_hourglass/sand/powder/output/1"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330106
+      },
+      "model": "tcc:block/echoing_hourglass/sand/powder/output/2"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330107
+      },
+      "model": "tcc:block/echoing_hourglass/sand/powder/output/3"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330108
+      },
+      "model": "tcc:block/echoing_hourglass/sand/powder/output/4"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330109
+      },
+      "model": "tcc:block/echoing_hourglass/gravel/powder/input/1"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330110
+      },
+      "model": "tcc:block/echoing_hourglass/gravel/powder/input/2"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330111
+      },
+      "model": "tcc:block/echoing_hourglass/gravel/powder/input/3"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330112
+      },
+      "model": "tcc:block/echoing_hourglass/gravel/powder/input/4"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330113
+      },
+      "model": "tcc:block/echoing_hourglass/gravel/powder/output/1"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330114
+      },
+      "model": "tcc:block/echoing_hourglass/gravel/powder/output/2"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330115
+      },
+      "model": "tcc:block/echoing_hourglass/gravel/powder/output/3"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330116
+      },
+      "model": "tcc:block/echoing_hourglass/gravel/powder/output/4"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330117
+      },
+      "model": "tcc:entity/sprouter/head/adult/normal"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330118
+      },
+      "model": "tcc:entity/sprouter/head/adult/hurt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330119
+      },
+      "model": "tcc:entity/sprouter/head/baby/normal"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330120
+      },
+      "model": "tcc:entity/sprouter/head/baby/hurt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330121
+      },
+      "model": "tcc:entity/sprouter/body/stage_0/idle"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330122
+      },
+      "model": "tcc:entity/sprouter/body/stage_0/idle_hurt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330123
+      },
+      "model": "tcc:entity/sprouter/body/stage_0/moving"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330124
+      },
+      "model": "tcc:entity/sprouter/body/stage_0/moving_hurt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330125
+      },
+      "model": "tcc:entity/sprouter/body/stage_1/idle"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330126
+      },
+      "model": "tcc:entity/sprouter/body/stage_1/idle_hurt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330127
+      },
+      "model": "tcc:entity/sprouter/body/stage_1/moving"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330128
+      },
+      "model": "tcc:entity/sprouter/body/stage_1/moving_hurt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330129
+      },
+      "model": "tcc:entity/sprouter/body/stage_2/idle"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330130
+      },
+      "model": "tcc:entity/sprouter/body/stage_2/idle_hurt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330131
+      },
+      "model": "tcc:entity/sprouter/body/stage_2/moving"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330132
+      },
+      "model": "tcc:entity/sprouter/body/stage_2/moving_hurt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330133
+      },
+      "model": "tcc:entity/sprouter/body/stage_3/idle"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330134
+      },
+      "model": "tcc:entity/sprouter/body/stage_3/idle_hurt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330135
+      },
+      "model": "tcc:entity/sprouter/body/stage_3/moving"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330136
+      },
+      "model": "tcc:entity/sprouter/body/stage_3/moving_hurt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330137
+      },
+      "model": "tcc:block/sprouter_egg/stage_0"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330138
+      },
+      "model": "tcc:block/sprouter_egg/stage_1"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330139
+      },
+      "model": "tcc:block/sprouter_egg/stage_2"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330140
+      },
+      "model": "tcc:item/barren_armor_trim_smithing_template"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330141
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/armor"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330142
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/core"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330143
+      },
+      "model": "tcc:block/decorated_pot/nether_brick/molten"
     }
   ]
 }

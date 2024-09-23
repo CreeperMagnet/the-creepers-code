@@ -1,0 +1,11 @@
+{
+  "parent": "tcc:item/custom_trim_base/jigsaw",
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 330000
+      },
+      "model": "tcc:item/aurora_armor_trim_smithing_template"
+    }
+  ]
+}

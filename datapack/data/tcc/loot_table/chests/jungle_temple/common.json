@@ -30,17 +30,32 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 1,
-          "name": "minecraft:name_tag"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 1,
-          "name": "minecraft:bone"
+          "weight": 2,
+          "name": "minecraft:music_disc_chirp"
         },
         {
           "type": "minecraft:item",
           "weight": 2,
+          "name": "minecraft:name_tag"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:bone",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 5
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
           "name": "minecraft:string",
           "functions": [
             {
@@ -55,7 +70,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 2,
+          "weight": 1,
           "name": "minecraft:rotten_flesh",
           "functions": [
             {
@@ -73,8 +88,8 @@
     {
       "rolls": {
         "type": "minecraft:uniform",
-        "min": 1,
-        "max": 2
+        "min": 2,
+        "max": 3
       },
       "entries": [
         {
@@ -86,7 +101,6 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:potion_contents": {
-                  "custom_effects": [],
                   "potion": "minecraft:poison"
                 }
               }
@@ -119,7 +133,7 @@
         {
           "type": "minecraft:item",
           "weight": 2,
-          "name": "minecraft:gold_ingot",
+          "name": "minecraft:emerald",
           "functions": [
             {
               "function": "minecraft:set_count",

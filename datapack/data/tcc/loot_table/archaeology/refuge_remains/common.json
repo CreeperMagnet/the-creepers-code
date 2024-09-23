@@ -5,13 +5,13 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:chain",
-          "weight": 10
+          "name": "minecraft:nether_brick",
+          "weight": 14
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:soul_lantern",
-          "weight": 6
+          "name": "minecraft:chain",
+          "weight": 10
         },
         {
           "type": "minecraft:item",
@@ -20,8 +20,18 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:gunpowder",
+          "name": "minecraft:coal",
           "weight": 8
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:quartz",
+          "weight": 7
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:soul_lantern",
+          "weight": 6
         },
         {
           "type": "minecraft:item",
@@ -30,13 +40,28 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:nether_brick",
-          "weight": 14
+          "name": "minecraft:gold_ingot",
+          "weight": 4
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:quartz",
-          "weight": 7
+          "name": "minecraft:iron_ingot",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:ender_pearl",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:saddle",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:warped_fungus_on_a_stick",
+          "weight": 2
         },
         {
           "type": "minecraft:item",
@@ -65,18 +90,13 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:coal",
-          "weight": 8
+          "name": "minecraft:ghast_tear",
+          "weight": 1
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:saddle",
-          "weight": 2
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:warped_fungus_on_a_stick",
-          "weight": 2
+          "name": "minecraft:skeleton_skull",
+          "weight": 1
         }
       ]
     }

@@ -22,13 +22,22 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:red_sand"
+          "name": "minecraft:red_sand",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{VillagerData:{type:\"minecraft:savanna\"}}"
+              }
+            }
+          ]
         }
       ],
       "functions": [
         {
           "function": "minecraft:set_count",
-          "count": 4
+          "count": 8
         }
       ]
     }

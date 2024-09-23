@@ -16,6 +16,18 @@
         "custom_model_data": 330001
       },
       "model": "tcc:item/teacup"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330002
+      },
+      "model": "tcc:item/serum_of_sprouting"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330003
+      },
+      "model": "tcc:item/serum_of_shrinking"
     }
   ]
 }

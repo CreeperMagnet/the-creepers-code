@@ -87,20 +87,6 @@
           ]
         }
       ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:empty",
-          "weight": 3
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 1,
-          "name": "minecraft:sentry_armor_trim_smithing_template"
-        }
-      ]
     }
   ],
   "random_sequence": "tcc:chests/tundra_keep/rare"

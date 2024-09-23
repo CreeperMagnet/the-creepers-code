@@ -1,0 +1,14 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "location": {
+      "structures": "minecraft:trial_chambers"
+    },
+    "slots": {
+      "weapon.mainhand": {
+        "items": "minecraft:mace"
+      }
+    }
+  }
+}

@@ -34,7 +34,8 @@
                     }
                   }
                 ],
-                "minecraft:rarity": "rare"
+                "minecraft:rarity": "rare",
+                "minecraft:fire_resistant": {}
               }
             },
             {

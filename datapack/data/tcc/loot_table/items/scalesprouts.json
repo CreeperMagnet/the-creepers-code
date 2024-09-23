@@ -1,0 +1,45 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{tcc:{id:\"scalesprouts\"}}"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_model_data": 330004
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.tcc.scalesprouts"
+              },
+              "target": "item_name"
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "translate": "pack.tcc",
+                  "color": "#008725",
+                  "italic": true
+                }
+              ],
+              "mode": "replace_all"
+            }
+          ],
+          "name": "minecraft:glistering_melon_slice"
+        }
+      ]
+    }
+  ],
+  "random_sequence": "tcc:items/scalesprouts"
+}

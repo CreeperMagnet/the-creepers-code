@@ -1,0 +1,1 @@
+{"parent":"tcc:compendium/root","criteria":{"unlock":{"trigger":"minecraft:location","conditions":{"player":[{"condition":"minecraft:location_check","predicate":{"structures":"tcc:quarry_remnant"}}]}}},"rewards":{"function":"tcc:item/compendium/unlock/entries/quarry_remnant/from_advancement"}}

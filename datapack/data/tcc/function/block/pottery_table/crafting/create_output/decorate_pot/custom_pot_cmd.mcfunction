@@ -1,7 +1,7 @@
 # Common code for decorating a custom pot
 
 item replace block ~ ~ ~ container.15 from block ~ ~ ~ container.12
-data modify block ~ ~ ~ Items[{Slot:15b}].count set value 1b
+data modify block ~ ~ ~ Items[{Slot:15b}].count set value 1
 data modify storage tcc:temp root.item set from block ~ ~ ~ Items[{Slot:15b}]
 data modify storage tcc:temp root.item.components."minecraft:custom_data".tcc.raw_pot set value 0b
 execute if data storage tcc:temp root.barrel_data[1][{Slot:3b}] run data modify storage tcc:temp root.item.components."minecraft:custom_data".tcc.sherds[2] set from storage tcc:temp root.barrel_data[1][{Slot:3b}]

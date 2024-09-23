@@ -5,33 +5,15 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:music_disc_relic",
-          "weight": 1
+          "name": "minecraft:angler_pottery_sherd"
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:wild_armor_trim_smithing_template",
-          "weight": 1
+          "name": "minecraft:snort_pottery_sherd"
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:danger_pottery_sherd",
-          "weight": 2
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:skull_pottery_sherd",
-          "weight": 2
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:plenty_pottery_sherd",
-          "weight": 2
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:arms_up_pottery_sherd",
-          "weight": 2
+          "name": "minecraft:shelter_pottery_sherd"
         }
       ]
     }

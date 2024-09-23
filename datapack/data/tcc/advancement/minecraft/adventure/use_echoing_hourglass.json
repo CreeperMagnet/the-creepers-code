@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:warped_fungus_on_a_stick",
+      "components": {
+        "minecraft:custom_model_data": 330003
+      }
+    },
+    "title": {
+      "translate": "advancements.tcc.minecraft.adventure.use_echoing_hourglass.title"
+    },
+    "description": [
+      {
+        "translate": "advancements.tcc.minecraft.adventure.use_echoing_hourglass.description"
+      },
+      "\n\n",
+      {
+        "translate": "pack.tcc",
+        "color": "#008725",
+        "italic": true
+      }
+    ],
+    "show_toast": true,
+    "announce_to_chat": true,
+    "frame": "goal"
+  },
+  "parent": "minecraft:adventure/salvage_sherd",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "impossible"
+    ]
+  ]
+}

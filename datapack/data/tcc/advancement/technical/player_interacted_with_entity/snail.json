@@ -70,6 +70,13 @@
                 "nbt": "{Tags:[\"tcc.baby\"]}"
               }
             }
+          },
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Tags:[\"tcc.snail\"]}"
+            }
           }
         ]
       }
@@ -189,6 +196,23 @@
           }
         ]
       }
+    },
+    "leash": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": "minecraft:lead"
+        },
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Tags:[\"tcc.snail\"]}"
+            }
+          }
+        ]
+      }
     }
   },
   "requirements": [
@@ -197,7 +221,8 @@
       "bucket",
       "feed",
       "feed_heartbeet",
-      "name"
+      "name",
+      "leash"
     ]
   ],
   "rewards": {

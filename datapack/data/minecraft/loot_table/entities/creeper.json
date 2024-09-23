@@ -31,17 +31,8 @@
               "function": "minecraft:set_count",
               "conditions": [
                 {
-                  "condition": "minecraft:entity_properties",
-                  "entity": "attacking_player",
-                  "predicate": {
-                    "equipment": {
-                      "head": {
-                        "predicates": {
-                          "minecraft:custom_data": "{tcc:{id:\"witch_hat\"}}"
-                        }
-                      }
-                    }
-                  }
+                  "condition": "minecraft:reference",
+                  "name": "tcc:entity_properties/slots/armor.head/witch_hat_attacker"
                 }
               ]
             }
@@ -66,16 +57,6 @@
           "entity": "attacker",
           "predicate": {
             "type": "#minecraft:skeletons"
-          }
-        },
-        {
-          "condition": "minecraft:inverted",
-          "term": {
-            "condition": "minecraft:entity_properties",
-            "entity": "attacker",
-            "predicate": {
-              "nbt": "{Tags:[\"tcc.overgrown\"]}"
-            }
           }
         }
       ]
@@ -132,24 +113,6 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:music_disc_relic"
-        }
-      ],
-      "conditions": [
-        {
-          "condition": "minecraft:entity_properties",
-          "entity": "attacker",
-          "predicate": {
-            "nbt": "{Tags:[\"tcc.overgrown\"]}"
-          }
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:item",
           "name": "minecraft:egg",
           "functions": [
             {
@@ -170,6 +133,32 @@
           "entity": "this",
           "predicate": {
             "nbt": "{CustomName:'\"CreeperMagnet_\"'}"
+          }
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_creator"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_creator_music_box"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_precipice"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "attacker",
+          "predicate": {
+            "type": "minecraft:breeze"
           }
         }
       ]
@@ -208,14 +197,6 @@
         "source": {
           "type": "reference",
           "path": "pools[4]"
-        }
-      },
-      {
-        "type": "append",
-        "target": "pools",
-        "source": {
-          "type": "reference",
-          "path": "pools[5]"
         }
       }
     ]

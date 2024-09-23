@@ -1,0 +1,67 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{tcc:{id:\"serum_of_shrinking\"}}"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_model_data": 330003,
+                "minecraft:potion_contents": {
+                  "potion": "minecraft:mundane",
+                  "custom_color": 16777215
+                },
+                "minecraft:hide_additional_tooltip": {},
+                "minecraft:max_stack_size": 16
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.tcc.serum_of_shrinking"
+              },
+              "target": "item_name"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                
+                {
+                  "color": "dark_purple",
+                  "italic": false,
+                  "translate": "potion.whenDrank"
+                },
+                {
+                  "color": "blue",
+                  "italic": false,
+                  "translate": "attribute.modifier.take.1",
+                  "with": [
+                    "17",
+                    {
+                      "translate": "attribute.name.generic.scale"
+                    }
+                  ]
+                },
+                {
+                  "translate": "pack.tcc",
+                  "color": "#008725"
+                }
+              ],
+              "mode": "replace_all"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "random_sequence": "tcc:items/serum_of_shrinking"
+}

@@ -1,0 +1,55 @@
+{
+  "parent": "minecraft:husbandry/plant_seed",
+  "display": {
+    "icon": {
+      "id": "minecraft:glistering_melon_slice",
+      "components": {
+        "minecraft:custom_model_data": 330003
+      }
+    },
+    "title": {
+      "translate": "advancements.tcc.minecraft.husbandry.give_away_heartbeet.title"
+    },
+    "description": [
+      {
+        "translate": "advancements.tcc.minecraft.husbandry.give_away_heartbeet.description"
+      },
+      "\n\n",
+      {
+        "translate": "pack.tcc",
+        "color": "#008725",
+        "italic": true
+      }
+    ],
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "entity_picks_up_heartbeet": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "#minecraft:undead"
+            }
+          }
+        ],
+        "item": {
+          "components": {
+            "minecraft:custom_data": "{tcc:{id:\"heartbeet\"}}"
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "entity_picks_up_heartbeet"
+    ]
+  ]
+}

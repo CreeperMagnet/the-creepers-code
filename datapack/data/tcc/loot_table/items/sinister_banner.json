@@ -1,0 +1,92 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{tcc:{id:\"sinister_banner\"}}"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:hide_additional_tooltip": {},
+                "minecraft:banner_patterns": [
+                  {
+                    "color": "green",
+                    "pattern": "minecraft:rhombus"
+                  },
+                  {
+                    "color": "light_gray",
+                    "pattern": "minecraft:stripe_bottom"
+                  },
+                  {
+                    "color": "gray",
+                    "pattern": "minecraft:stripe_center"
+                  },
+                  {
+                    "color": "light_gray",
+                    "pattern": "minecraft:circle"
+                  },
+                  {
+                    "color": "red",
+                    "pattern": "minecraft:stripe_middle"
+                  },
+                  {
+                    "color": "red",
+                    "pattern": "minecraft:half_horizontal"
+                  },
+                  {
+                    "color": "light_blue",
+                    "pattern": "minecraft:triangle_top"
+                  },
+                  {
+                    "color": "red",
+                    "pattern": "minecraft:stripe_top"
+                  },
+                  {
+                    "color": "red",
+                    "pattern": "minecraft:stripe_top"
+                  },
+                  {
+                    "color": "black",
+                    "pattern": "minecraft:border"
+                  },
+                  {
+                    "color": "green",
+                    "pattern": "minecraft:border"
+                  }
+                ]
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.tcc.sinister_banner",
+                "color": "gold"
+              },
+              "target": "item_name"
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "translate": "pack.tcc",
+                  "color": "#008725",
+                  "italic": true
+                }
+              ],
+              "mode": "replace_all"
+            }
+          ],
+          "name": "minecraft:white_banner"
+        }
+      ]
+    }
+  ],
+  "random_sequence": "tcc:items/sinister_banner"
+}

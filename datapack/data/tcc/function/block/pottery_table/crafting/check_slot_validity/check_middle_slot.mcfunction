@@ -1,9 +1,7 @@
 # Commands to check if a slot contains valid items
 
-# If custom sherd, don't export
-execute if block ~ ~ ~ minecraft:barrel{Items:[{Slot:12b,components:{"minecraft:custom_data":{tcc:{id:"pottery_sherd"}}}}]} run return 0
-# If vanilla sherd, don't export
-execute if items block ~ ~ ~ container.12 #minecraft:decorated_pot_sherds run return 0
+# If sherd material, don't export
+execute if items block ~ ~ ~ container.12 #tcc:pot_materials run return 0
 # If vanilla pot, don't export
 execute if block ~ ~ ~ minecraft:barrel{Items:[{Slot:12b,id:"minecraft:decorated_pot"}]} unless data block ~ ~ ~ Items[{Slot:12b}].components."minecraft:pot_decorations" run return 0
 # If raw custom pot, don't export

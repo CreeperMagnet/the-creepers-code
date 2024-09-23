@@ -5,11 +5,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:gold_nugget"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:gold_ingot"
+          "name": "minecraft:iron_ingot"
         },
         {
           "type": "minecraft:item",
@@ -22,7 +18,6 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:potion_contents": {
-                  "custom_effects": [],
                   "potion": "minecraft:poison"
                 }
               }
@@ -36,19 +31,15 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:slime_ball"
-        },
-        {
-          "type": "minecraft:item",
           "name": "minecraft:gunpowder"
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:emerald"
+          "name": "minecraft:string"
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:diamond"
+          "name": "minecraft:emerald"
         }
       ]
     }

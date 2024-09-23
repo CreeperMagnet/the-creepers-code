@@ -3302,62 +3302,6 @@
         }
       ],
       "processor_type": "minecraft:rule"
-    },
-    {
-      "delegate": {
-        "processor_type": "minecraft:rule",
-        "rules": [
-          {
-            "block_entity_modifier": {
-              "type": "minecraft:append_loot",
-              "loot_table": "tcc:archaeology/ocean_monument/common"
-            },
-            "input_predicate": {
-              "block": "minecraft:gravel",
-              "predicate_type": "minecraft:block_match"
-            },
-            "location_predicate": {
-              "predicate_type": "minecraft:always_true"
-            },
-            "output_state": {
-              "Name": "minecraft:suspicious_gravel",
-              "Properties": {
-                "dusted": "0"
-              }
-            }
-          }
-        ]
-      },
-      "limit": 25,
-      "processor_type": "minecraft:capped"
-    },
-    {
-      "delegate": {
-        "processor_type": "minecraft:rule",
-        "rules": [
-          {
-            "block_entity_modifier": {
-              "type": "minecraft:append_loot",
-              "loot_table": "tcc:archaeology/ocean_monument/rare"
-            },
-            "input_predicate": {
-              "block": "minecraft:gravel",
-              "predicate_type": "minecraft:block_match"
-            },
-            "location_predicate": {
-              "predicate_type": "minecraft:always_true"
-            },
-            "output_state": {
-              "Name": "minecraft:suspicious_gravel",
-              "Properties": {
-                "dusted": "0"
-              }
-            }
-          }
-        ]
-      },
-      "limit": 10,
-      "processor_type": "minecraft:capped"
     }
   ]
 }

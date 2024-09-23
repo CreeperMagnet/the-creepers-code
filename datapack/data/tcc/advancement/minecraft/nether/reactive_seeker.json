@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:warped_fungus_on_a_stick",
+      "components": {
+        "minecraft:custom_model_data": 330300
+      }
+    },
+    "title": {
+      "translate": "advancements.tcc.minecraft.nether.reactive_seeker.title"
+    },
+    "description": [
+      {
+        "translate": "advancements.tcc.minecraft.nether.reactive_seeker.description"
+      },
+      "\n\n",
+      {
+        "translate": "pack.tcc",
+        "color": "#008725",
+        "italic": true
+      }
+    ],
+    "frame": "task"
+  },
+  "parent": "minecraft:nether/root",
+  "criteria": {
+    "use_reactive_seeker": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "use_reactive_seeker"
+    ]
+  ]
+}

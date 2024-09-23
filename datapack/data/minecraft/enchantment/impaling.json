@@ -1,0 +1,82 @@
+{
+  "anvil_cost": 4,
+  "description": {
+    "translate": "enchantment.minecraft.impaling"
+  },
+  "effects": {
+    "minecraft:damage": [
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:linear",
+            "base": 2.5,
+            "per_level_above_first": 2.5
+          }
+        },
+        "requirements": {
+          "condition": "minecraft:any_of",
+          "terms": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type": "#minecraft:sensitive_to_impaling"
+              }
+            },
+            {
+              "condition": "minecraft:all_of",
+              "terms": [
+                {
+                  "condition": "minecraft:weather_check",
+                  "raining": true
+                },
+                {
+                  "condition": "minecraft:location_check",
+                  "predicate": {
+                    "can_see_sky": true
+                  }
+                }
+              ]
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "fluid": {
+                  "fluids": "#minecraft:water"
+                }
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "exclusive_set": "#minecraft:exclusive_set/damage",
+  "max_cost": {
+    "base": 21,
+    "per_level_above_first": 8
+  },
+  "max_level": 5,
+  "min_cost": {
+    "base": 1,
+    "per_level_above_first": 8
+  },
+  "slots": [
+    "mainhand"
+  ],
+  "supported_items": "#minecraft:enchantable/trident",
+  "weight": 2,
+  "__smithed__": {
+    "rules": [
+      {
+        "type": "merge",
+        "target": "effects.minecraft:damage[0].requirements",
+        "source": {
+          "type": "reference",
+          "path": "effects.minecraft:damage[0].requirements"
+        }
+      }
+    ]
+  }
+}

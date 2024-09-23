@@ -5,12 +5,9 @@
   "terrain_adaptation": "bury",
   "start_jigsaw_name": "tcc:anchor",
   "start_height": {
-    "type": "minecraft:uniform",
-    "max_inclusive": {
-      "below_top": 64
-    },
-    "min_inclusive": {
-      "absolute": 64
+    "type": "minecraft:constant",
+    "value": {
+      "absolute": 25
     }
   },
   "step": "underground_decoration",

@@ -26,7 +26,7 @@
       "predicate": {
         "custom_model_data": 330003
       },
-      "model": "tcc:item/unused"
+      "model": "tcc:item/echoing_hourglass"
     },
     {
       "predicate": {
@@ -1797,6 +1797,18 @@
         "custom_model_data": 330298
       },
       "model": "tcc:item/diluted_potion/wind_charged/9"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330299
+      },
+      "model": "tcc:item/sprouter_egg"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330300
+      },
+      "model": "tcc:item/reactive_seeker/unset"
     }
   ]
 }

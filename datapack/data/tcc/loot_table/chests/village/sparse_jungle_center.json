@@ -2,7 +2,7 @@
   "type": "minecraft:chest",
   "pools": [
     {
-      "rolls": 1,
+      "rolls": 3,
       "entries": [
         {
           "type": "minecraft:item",
@@ -18,15 +18,21 @@
             }
           ],
           "name": "minecraft:emerald"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
+        },
         {
-          "type": "minecraft:loot_table",
-          "value": "tcc:items/jungle_explorer_map"
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 5
+              },
+              "add": false
+            }
+          ],
+          "name": "minecraft:gold_ingot"
         }
       ]
     }

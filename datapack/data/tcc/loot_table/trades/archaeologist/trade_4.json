@@ -5,16 +5,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:emerald",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 5,
-                "max": 7
-              }
-            }
-          ]
+          "name": "minecraft:emerald"
         }
       ]
     },

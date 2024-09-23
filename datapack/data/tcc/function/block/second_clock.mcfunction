@@ -18,6 +18,9 @@ execute if entity @s[type=minecraft:item_display,tag=tcc.soul_conductor] positio
 ## Teapot clock
 execute if entity @s[type=minecraft:interaction,tag=tcc.teapot,scores={tcc.dummy2=1..}] if block ~ ~ ~ #campfires[lit=true] positioned ~ ~0.75 ~ run function tcc:block/teapot/cook/second_clock
 
+## Echoing hourglass
+execute if entity @s[type=minecraft:item_display,tag=tcc.echoing_hourglass] run function tcc:block/echoing_hourglass/second_clock
+
 ## Gobblerift
 execute if entity @s[type=minecraft:interaction,tag=tcc.gobblerift] run function tcc:block/gobblerift/second_clock
 

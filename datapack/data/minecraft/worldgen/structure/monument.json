@@ -15,19 +15,19 @@
       "spawns": []
     },
     "monster": {
-      "bounding_box": "full",
+      "bounding_box": "piece",
       "spawns": [
         {
           "type": "minecraft:guardian",
-          "maxCount": 7,
-          "minCount": 7,
-          "weight": 1
+          "maxCount": 1,
+          "minCount": 1,
+          "weight": 3
         },
         {
           "type": "minecraft:drowned",
           "maxCount": 1,
           "minCount": 1,
-          "weight": 2
+          "weight": 1
         }
       ]
     },

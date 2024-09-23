@@ -2,7 +2,6 @@
   "values": [
     "tcc:technical/load",
     "tcc:technical/second_clock/main",
-    "tcc:technical/ten_second_clock",
-    {"id": "smithed.prevent_aggression:impl/v0.1.0/technical/load", "required": false}
+    "tcc:technical/ten_second_clock"
   ]
 }

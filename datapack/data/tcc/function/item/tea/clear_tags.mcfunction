@@ -1,4 +1,4 @@
-# Gives you the tag for a tea
+# Clears all tea-related tags
 
 tag @s remove tcc.tea.antitoxin
 tag @s remove tcc.tea.clearsight

@@ -4,46 +4,6 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:ghast_tear"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:skeleton_skull"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:ancient_debris"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:diamond"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:rib_armor_trim_smithing_template"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:gold_ingot"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:iron_ingot"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:ender_pearl"
-        },
-        {
-          "type": "minecraft:loot_table",
-          "value": "tcc:items/pottery_sherd/nether_brick/armor"
-        },
-        {
-          "type": "minecraft:loot_table",
-          "value": "tcc:items/pottery_sherd/nether_brick/beast"
-        },
-        {
           "type": "minecraft:loot_table",
           "value": "tcc:items/pottery_sherd/nether_brick/spirit"
         },
@@ -65,14 +25,6 @@
         },
         {
           "type": "minecraft:loot_table",
-          "value": "tcc:items/pottery_sherd/nether_brick/horror"
-        },
-        {
-          "type": "minecraft:loot_table",
-          "value": "tcc:items/pottery_sherd/nether_brick/hunter"
-        },
-        {
-          "type": "minecraft:loot_table",
           "value": "tcc:items/pottery_sherd/nether_brick/mount"
         },
         {
@@ -81,19 +33,11 @@
         },
         {
           "type": "minecraft:loot_table",
-          "value": "tcc:items/pottery_sherd/nether_brick/ranger"
-        },
-        {
-          "type": "minecraft:loot_table",
-          "value": "tcc:items/pottery_sherd/nether_brick/riches"
-        },
-        {
-          "type": "minecraft:loot_table",
           "value": "tcc:items/pottery_sherd/nether_brick/sorrow"
         },
         {
           "type": "minecraft:loot_table",
-          "value": "tcc:items/pottery_sherd/nether_brick/star"
+          "value": "tcc:items/pottery_sherd/nether_brick/swirl"
         }
       ]
     }

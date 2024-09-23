@@ -6,7 +6,7 @@ execute if data storage tcc:temp root.barrel_data[1][{Slot:13b,components:{"mine
 execute if data storage tcc:temp root.barrel_data[1][{Slot:21b,components:{"minecraft:custom_data":{tcc:{id:"pottery_sherd"}}}}] run return 0
 
 item replace block ~ ~ ~ container.15 from block ~ ~ ~ container.12
-data modify block ~ ~ ~ Items[{Slot:15b}].count set value 1b
+data modify block ~ ~ ~ Items[{Slot:15b}].count set value 1
 data modify storage tcc:temp root.item set from block ~ ~ ~ Items[{Slot:15b}]
 execute unless data storage tcc:temp root.item.components."minecraft:pot_decorations" run data modify storage tcc:temp root.item.components."minecraft:pot_decorations" set value ["minecraft:brick","minecraft:brick","minecraft:brick","minecraft:brick"]
 execute if data storage tcc:temp root.barrel_data[1][{Slot:3b}] run data modify storage tcc:temp root.item.components."minecraft:pot_decorations"[2] set from storage tcc:temp root.barrel_data[1][{Slot:3b}].id

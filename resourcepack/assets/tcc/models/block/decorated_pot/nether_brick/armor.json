@@ -1,0 +1,6 @@
+{
+	"parent": "tcc:block/decorated_pot/worldgen_template",
+	"textures": {
+		"sherd": "tcc:block/decorated_pot/nether_brick/side/armor"
+	}
+}

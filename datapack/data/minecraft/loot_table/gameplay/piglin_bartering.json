@@ -2,7 +2,7 @@
   "type": "minecraft:barter",
   "pools": [
     {
-      "bonus_rolls": 0.0,
+      "bonus_rolls": 0,
       "entries": [
         {
           "type": "minecraft:item",
@@ -66,8 +66,8 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 36.0,
-                "min": 10.0
+                "max": 36,
+                "min": 10
               },
               "function": "minecraft:set_count"
             }
@@ -82,8 +82,8 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 4.0,
-                "min": 2.0
+                "max": 4,
+                "min": 2
               },
               "function": "minecraft:set_count"
             }
@@ -98,8 +98,8 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 9.0,
-                "min": 3.0
+                "max": 9,
+                "min": 3
               },
               "function": "minecraft:set_count"
             }
@@ -114,8 +114,8 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 12.0,
-                "min": 5.0
+                "max": 12,
+                "min": 5
               },
               "function": "minecraft:set_count"
             }
@@ -135,8 +135,8 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 3.0,
-                "min": 1.0
+                "max": 3,
+                "min": 1
               },
               "function": "minecraft:set_count"
             }
@@ -156,8 +156,8 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 4.0,
-                "min": 2.0
+                "max": 4,
+                "min": 2
               },
               "function": "minecraft:set_count"
             }
@@ -172,8 +172,8 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 8.0,
-                "min": 2.0
+                "max": 8,
+                "min": 2
               },
               "function": "minecraft:set_count"
             }
@@ -188,8 +188,8 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 8.0,
-                "min": 2.0
+                "max": 8,
+                "min": 2
               },
               "function": "minecraft:set_count"
             }
@@ -204,8 +204,8 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 12.0,
-                "min": 6.0
+                "max": 12,
+                "min": 6
               },
               "function": "minecraft:set_count"
             }
@@ -220,8 +220,8 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 16.0,
-                "min": 8.0
+                "max": 16,
+                "min": 8
               },
               "function": "minecraft:set_count"
             }
@@ -236,8 +236,8 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 16.0,
-                "min": 8.0
+                "max": 16,
+                "min": 8
               },
               "function": "minecraft:set_count"
             }
@@ -260,11 +260,22 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:container_loot": {
-                  "loot_table": "tcc:archaeology/piglin_bartering",
-                  "seed": 0
+                "minecraft:block_entity_data": {
+                  "LootTable": "tcc:archaeology/piglin_bartering/main",
+                  "id": "minecraft:brushable_block"
                 }
               }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "item.tcc.suspicious_block.lore.piglin_bartering",
+                  "color": "gray",
+                  "italic": false
+                }
+              ],
+              "mode": "replace_all"
             }
           ],
           "name": "minecraft:suspicious_gravel",

@@ -7,3 +7,4 @@ execute if block ~ ~-1 ~ #tcc:snowy_dirts run summon minecraft:item_display ~ ~ 
 setblock ~ ~ ~ minecraft:spruce_sapling
 scoreboard players reset @s tcc.dummy
 playsound minecraft:block.grass.place block @a[distance=..16]
+advancement grant @s only tcc:minecraft/adventure/plant_frostbloom

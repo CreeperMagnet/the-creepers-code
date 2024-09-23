@@ -15,6 +15,9 @@ execute if entity @s[tag=tcc.decorated_pot] positioned ~ ~1 ~ run function tcc:b
 ## Soul Conductor
 execute if entity @s[tag=tcc.soul_conductor] unless block ~ ~ ~ minecraft:dropper run function tcc:block/soul_conductor/break/main
 
+## Echoing Hourglass
+execute if entity @s[tag=tcc.echoing_hourglass] unless block ~ ~1 ~ #tcc:air_or_water run function tcc:block/echoing_hourglass/break
+
 ## Positional Anchor
 execute if entity @s[tag=tcc.positional_anchor] run function tcc:block/positional_anchor/tick
 
@@ -23,6 +26,9 @@ execute if entity @s[tag=tcc.soul_seer] run function tcc:block/soul_seer/tick
 
 ## Frostbloom
 execute if entity @s[tag=tcc.frostbloom] run function tcc:block/frostbloom/tick
+
+## Sprouter Egg
+execute if entity @s[tag=tcc.sprouter_egg] positioned ~ ~1 ~ run function tcc:block/sprouter_egg/tick
 
 ## Snail Nest
 execute if entity @s[tag=tcc.snail_nest] run function tcc:block/snail_nest/tick

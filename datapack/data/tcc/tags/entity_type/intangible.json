@@ -1,0 +1,23 @@
+{
+  "values": [
+    "#minecraft:impact_projectiles",
+    "minecraft:area_effect_cloud",
+    "minecraft:ender_pearl",
+    "minecraft:evoker_fangs",
+    "minecraft:experience_bottle",
+    "minecraft:experience_orb",
+    "minecraft:eye_of_ender",
+    "minecraft:item",
+    "minecraft:leash_knot",
+    "minecraft:lightning_bolt",
+    "minecraft:llama_spit",
+    "minecraft:marker",
+    "minecraft:potion",
+    "minecraft:shulker_bullet",
+    "minecraft:block_display",
+    "minecraft:item_display",
+    "minecraft:text_display",
+    "minecraft:interaction",
+    "minecraft:ominous_item_spawner"
+  ]
+}

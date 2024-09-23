@@ -1,0 +1,8 @@
+{
+  "asset_id": "tcc:crystalline",
+  "decal": false,
+  "description": {
+    "translate": "trim_pattern.tcc.crystalline"
+  },
+  "template_item": "minecraft:repeating_command_block"
+}

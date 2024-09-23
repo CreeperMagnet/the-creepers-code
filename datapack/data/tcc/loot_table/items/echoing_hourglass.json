@@ -1,0 +1,49 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{tcc:{id:\"echoing_hourglass\"}}"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_model_data": 330003,
+                "!minecraft:damage": {},
+                "!minecraft:max_damage": {},
+                "!minecraft:enchantments": {},
+                "minecraft:max_stack_size": 64
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.tcc.echoing_hourglass"
+              },
+              "target": "item_name"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "pack.tcc",
+                  "color": "#008725",
+                  "italic": true
+                }
+              ],
+              "mode": "replace_all"
+            }
+          ],
+          "name": "minecraft:warped_fungus_on_a_stick"
+        }
+      ]
+    }
+  ],
+  "random_sequence": "tcc:items/echoing_hourglass"
+}

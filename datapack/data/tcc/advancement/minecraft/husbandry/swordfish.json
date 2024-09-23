@@ -20,26 +20,20 @@
         "italic": true
       }
     ],
-    "frame": "goal"
+    "frame": "challenge"
   },
   "parent": "minecraft:husbandry/fishy_business",
   "criteria": {
     "swordfish": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "predicates": {
-              "minecraft:custom_data": "{tcc:{id:\"swordfish\"}}"
-            }
-          }
-        ]
-      }
+      "trigger": "minecraft:impossible"
     }
   },
   "requirements": [
     [
       "swordfish"
     ]
-  ]
+  ],
+  "rewards": {
+    "experience": 300
+  }
 }

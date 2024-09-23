@@ -1,0 +1,48 @@
+{
+  "parent": "minecraft:husbandry/root",
+  "display": {
+    "icon": {
+      "id": "minecraft:warped_fungus_on_a_stick",
+      "components": {
+        "minecraft:custom_model_data": 330299
+      }
+    },
+    "title": {
+      "translate": "advancements.tcc.minecraft.husbandry.obtain_sprouter_egg.title"
+    },
+    "description": [
+      {
+        "translate": "advancements.tcc.minecraft.husbandry.obtain_sprouter_egg.description"
+      },
+      "\n\n",
+      {
+        "translate": "pack.tcc",
+        "color": "#008725",
+        "italic": true
+      }
+    ],
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "get_egg": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:custom_data": "{tcc:{id:\"sprouter_egg\"}}"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "get_egg"
+    ]
+  ]
+}

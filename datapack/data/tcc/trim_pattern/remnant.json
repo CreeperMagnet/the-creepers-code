@@ -1,0 +1,8 @@
+{
+  "asset_id": "tcc:remnant",
+  "decal": false,
+  "description": {
+    "translate": "trim_pattern.tcc.remnant"
+  },
+  "template_item": "minecraft:chain_command_block"
+}

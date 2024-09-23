@@ -2,13 +2,13 @@
   "category": "misc",
   "type": "crafting_shaped",
   "pattern": [
-    "GGG",
+    "BBB",
     "NSN",
-    "GGG"
+    "BBB"
   ],
   "key": {
-    "G": {
-      "item": "minecraft:gilded_blackstone"
+    "B": {
+      "item": "minecraft:blackstone"
     },
     "N": {
       "item": "minecraft:netherite_scrap"

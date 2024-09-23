@@ -17,8 +17,7 @@ execute if entity @s[gamemode=creative] run return 0
 # Decrements the uses on the bottle
 scoreboard players reset @s tcc.dummy
 execute store result score @s tcc.dummy run data get storage tcc:temp root.item.components."minecraft:custom_data".tcc.potion.uses[0]
-scoreboard players remove @s tcc.dummy 1
-execute store result storage tcc:temp root.item.components."minecraft:custom_data".tcc.potion.uses[0] int 1 run scoreboard players get @s tcc.dummy
+execute store result storage tcc:temp root.item.components."minecraft:custom_data".tcc.potion.uses[0] int 1 run scoreboard players remove @s tcc.dummy 1
 # If there are no uses left, empty the bottle and don't run any of the rest of the code
 $execute if score @s tcc.dummy matches 0 run return run item replace entity @s $(slot) with minecraft:glass_bottle
 

@@ -27,6 +27,12 @@
         "custom_model_data": 330003
       },
       "model": "tcc:item/heartbeet"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330004
+      },
+      "model": "tcc:item/scalesprouts"
     }
   ]
 }

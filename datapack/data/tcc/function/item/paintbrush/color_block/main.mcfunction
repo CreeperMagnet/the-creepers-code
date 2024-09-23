@@ -9,7 +9,7 @@ $execute if block ~ ~ ~ #minecraft:wool_carpets run setblock ~ ~ ~ minecraft:$(c
 $execute if block ~ ~ ~ #tcc:glass run setblock ~ ~ ~ minecraft:$(color)_stained_glass
 $execute if block ~ ~ ~ #tcc:glass_panes run setblock ~ ~ ~ minecraft:$(color)_stained_glass_pane
 $execute if block ~ ~ ~ #minecraft:shulker_boxes run function tcc:item/paintbrush/color_block/shulker_boxes {"color":"$(color)"}
-$execute if block ~ ~ ~ #tcc:glazed_terracotta run setblock ~ ~ ~ minecraft:$(color)_glazed_terracotta
+$execute if block ~ ~ ~ #tcc:glazed_terracotta run function tcc:item/paintbrush/color_block/glazed_terracotta {"color":"$(color)"}
 $execute if block ~ ~ ~ #minecraft:concrete_powder run setblock ~ ~ ~ minecraft:$(color)_concrete_powder
 $execute if block ~ ~ ~ #tcc:terracotta run setblock ~ ~ ~ minecraft:$(color)_terracotta
 $execute if block ~ ~ ~ #minecraft:candles run function tcc:item/paintbrush/color_block/candles {"color":"$(color)"}

@@ -32,12 +32,7 @@
         {
           "type": "minecraft:item",
           "weight": 10,
-          "name": "minecraft:music_disc_stal"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 5,
-          "name": "minecraft:music_disc_cat"
+          "name": "minecraft:music_disc_far"
         },
         {
           "type": "minecraft:item",
@@ -254,20 +249,6 @@
           "type": "minecraft:loot_table",
           "weight": 2,
           "value": "tcc:items/enchanted_golden_carrot"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:empty",
-          "weight": 9
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:vex_armor_trim_smithing_template",
-          "weight": 1
         }
       ]
     }

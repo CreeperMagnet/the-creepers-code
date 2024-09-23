@@ -11,7 +11,6 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:potion_contents": {
-                  "custom_effects": [],
                   "potion": "minecraft:water"
                 }
               }

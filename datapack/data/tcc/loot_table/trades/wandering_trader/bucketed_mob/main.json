@@ -20,37 +20,30 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:tadpole_bucket",
-          "weight": 2
+          "name": "minecraft:tadpole_bucket"
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:cod_bucket",
-          "weight": 1
+          "name": "minecraft:cod_bucket"
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:salmon_bucket",
-          "weight": 1
+          "name": "minecraft:salmon_bucket"
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:tropical_fish_bucket",
-          "weight": 1
+          "name": "minecraft:tropical_fish_bucket"
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:pufferfish_bucket",
-          "weight": 2
+          "name": "minecraft:pufferfish_bucket"
         },
         {
           "type": "minecraft:loot_table",
-          "weight": 2,
           "value": "tcc:trades/wandering_trader/bucketed_mob/axolotl_bucket"
         },
         {
           "type": "minecraft:loot_table",
-          "weight": 3,
           "value": "tcc:trades/wandering_trader/bucketed_mob/snail_bucket"
         }
       ]

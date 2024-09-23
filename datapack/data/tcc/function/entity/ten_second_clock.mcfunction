@@ -12,17 +12,17 @@ execute if entity @s[tag=tcc.block] run function tcc:block/ten_second_clock
 ## Brewing stand marker
 execute if entity @s[type=minecraft:marker,tag=tcc.brewing_stand] unless block ~ ~ ~ minecraft:brewing_stand run kill @s
 
-## Glowing recovery compass items
-execute if entity @s[type=minecraft:item,tag=tcc.recovery_compass_item] run data modify entity @s Age set value -32767s
-
 ## Zombified Archaeologists
 execute if entity @s[type=minecraft:zombie_villager,tag=tcc.zombified_archaeologist] run function tcc:entity/archaeologist/zombie/ten_second_clock
 
 ## Undead burning
 execute if entity @s[tag=tcc.burns_in_sunlight] unless predicate tcc:time_check/night positioned over motion_blocking if entity @s[dx=0,dy=1000,dz=0] run data modify entity @s Fire set value 200s
 
-## Jungle Temple Cursed Crown Loot
-execute if entity @s[type=minecraft:item,tag=tcc.persistent_cursed_crown] run function tcc:entity/persistent_cursed_crown/ten_second_clock
+## Glow lichen zombie not converting to drowned
+execute if entity @s[tag=tcc.glow_lichen_zombie] run data modify entity @s InWaterTime set value -32767
+
+## Persistent Cursed Crown
+execute if entity @s[type=minecraft:item,tag=tcc.persistent_cursed_crown] run data modify entity @s Age set value -32767s
 
 ## Phantom item frame item frame vehicle entity
 kill @s[type=minecraft:item_frame,tag=tcc.phantom_item_frame,predicate=!tcc:entity_properties/has_passenger]

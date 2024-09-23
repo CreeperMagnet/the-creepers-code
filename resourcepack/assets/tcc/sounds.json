@@ -60,6 +60,12 @@
     ],
     "subtitle": "subtitles.tcc.item.smoldering_seeker.use"
   },
+  "item.reactive_seeker.use": {
+    "sounds": [
+      "tcc:item/reactive_seeker_activate"
+    ],
+    "subtitle": "subtitles.tcc.item.reactive_seeker.use"
+  },
   "item.weeping_eye.use": {
     "sounds": [
       "tcc:item/weeping_eye"
@@ -223,7 +229,7 @@
         "pitch": 1.5
       }
     ],
-    "subtitle": "subtitles.tcc.block.teapot.hit"
+    "subtitle": "subtitles.block.generic.hit"
   },
   "block.teapot.break": {
     "sounds": [
@@ -233,6 +239,89 @@
       "entity/armorstand/break4"
     ],
     "subtitle": "subtitles.block.generic.break"
+  },
+  "block.echoing_hourglass.hit": {
+    "sounds": [
+      {
+        "name": "dig/stone1",
+        "pitch": 0.5
+      },
+      {
+        "name": "dig/stone2",
+        "pitch": 0.5
+      },
+      {
+        "name": "dig/stone3",
+        "pitch": 0.5
+      },
+      {
+        "name": "dig/stone4",
+        "pitch": 0.5
+      }
+    ],
+    "subtitle": "subtitles.block.generic.hit"
+  },
+  "block.echoing_hourglass.break": {
+    "sounds": [
+      {
+        "name": "random/glass1",
+        "pitch": 0.8
+      },
+      {
+        "name": "random/glass2",
+        "pitch": 0.8
+      },
+      {
+        "name": "random/glass3",
+        "pitch": 0.8
+      }
+    ],
+    "subtitle": "subtitles.block.generic.break"
+  },
+  "block.echoing_hourglass.retrieve_suspicious_sand": {
+    "sounds": [
+      "tcc:block/echoing_hourglass/retrieve_suspicious_sand1",
+      "tcc:block/echoing_hourglass/retrieve_suspicious_sand2",
+      "tcc:block/echoing_hourglass/retrieve_suspicious_sand3"
+    ],
+    "subtitle": "subtitles.tcc.block.echoing_hourglass.retrieve"
+  },
+  "block.echoing_hourglass.retrieve_suspicious_gravel": {
+    "sounds": [
+      "tcc:block/echoing_hourglass/retrieve_suspicious_gravel1",
+      "tcc:block/echoing_hourglass/retrieve_suspicious_gravel2",
+      "tcc:block/echoing_hourglass/retrieve_suspicious_gravel3"
+    ],
+    "subtitle": "subtitles.tcc.block.echoing_hourglass.retrieve"
+  },
+  "block.echoing_hourglass.retrieve_sand": {
+    "sounds": [
+      "tcc:block/echoing_hourglass/retrieve_sand1",
+      "tcc:block/echoing_hourglass/retrieve_sand2"
+    ],
+    "subtitle": "subtitles.tcc.block.echoing_hourglass.retrieve"
+  },
+  "block.echoing_hourglass.retrieve_gravel": {
+    "sounds": [
+      "tcc:block/echoing_hourglass/retrieve_gravel1",
+      "tcc:block/echoing_hourglass/retrieve_gravel2"
+    ],
+    "subtitle": "subtitles.tcc.block.echoing_hourglass.retrieve"
+  },
+  "block.echoing_hourglass.finish": {
+    "sounds": [
+      "tcc:block/echoing_hourglass/finish1",
+      "tcc:block/echoing_hourglass/finish2",
+      "tcc:block/echoing_hourglass/finish3"
+    ],
+    "subtitle": "subtitles.tcc.block.echoing_hourglass.finish"
+  },
+  "block.echoing_hourglass.finish_fail": {
+    "sounds": [
+      "tcc:block/echoing_hourglass/finish_fail1",
+      "tcc:block/echoing_hourglass/finish_fail2"
+    ],
+    "subtitle": "subtitles.tcc.block.echoing_hourglass.finish_fail"
   },
   "block.gobblerift.place": {
     "sounds": [
@@ -568,5 +657,74 @@
       "entity/itemframe/rotate_item4"
     ],
     "subtitle": "subtitles.tcc.entity.phantom_item_frame.rotate_item"
+  },
+  "entity.sprouter.ambient": {
+    "sounds": [
+      "tcc:mob/sprouter/idle1",
+      "tcc:mob/sprouter/idle2",
+      "tcc:mob/sprouter/idle3",
+      "tcc:mob/sprouter/idle4"
+    ],
+    "subtitle": "subtitles.tcc.entity.sprouter.ambient"
+  },
+  "entity.sprouter.hurt": {
+    "sounds": [
+      "tcc:mob/sprouter/hurt1",
+      "tcc:mob/sprouter/hurt2",
+      "tcc:mob/sprouter/hurt3"
+    ],
+    "subtitle": "subtitles.tcc.entity.sprouter.hurt"
+  },
+  "entity.sprouter.death": {
+    "sounds": [
+      "tcc:mob/sprouter/death1",
+      "tcc:mob/sprouter/death2",
+      "tcc:mob/sprouter/death3"
+    ],
+    "subtitle": "subtitles.tcc.entity.sprouter.death"
+  },
+  "block.sprouter_egg.hatch": {
+    "sounds": [
+      {
+        "name": "mob/turtle/egg/egg_break1",
+        "pitch": 0.8
+      },
+      {
+        "name": "mob/turtle/egg/egg_break2",
+        "pitch": 0.8
+      }
+    ],
+    "subtitle": "subtitles.tcc.block.sprouter_egg.hatch"
+  },
+  "entity.sprouter.shear": {
+    "sounds": [
+      "mob/sheep/shear"
+    ],
+    "subtitle": "subtitles.item.shears.shear"
+  },
+  "entity.sprouter.lay_egg": {
+    "sounds": [
+      {
+        "name": "mob/chicken/plop",
+        "pitch": 0.6
+      },
+      {
+        "name": "mob/chicken/plop",
+        "pitch": 0.7
+      },
+      {
+        "name": "mob/chicken/plop",
+        "pitch": 0.8
+      }
+    ],
+    "subtitle": "subtitles.tcc.entity.sprouter.lay_egg"
+  },
+  "entity.sprouter.eat": {
+    "sounds": [
+      "tcc:mob/sprouter/chew1",
+      "tcc:mob/sprouter/chew2",
+      "tcc:mob/sprouter/chew3"
+    ],
+    "subtitle": "subtitles.tcc.entity.sprouter.eat"
   }
 }

@@ -9,10 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": {
-                "min": 15,
-                "max": 25
-              }
+              "count": 1
             }
           ]
         }
@@ -23,7 +20,21 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:friend_pottery_sherd"
+          "name": "minecraft:tuff"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:calcite"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:deepslate"
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_count",
+          "count": 4
         }
       ]
     }

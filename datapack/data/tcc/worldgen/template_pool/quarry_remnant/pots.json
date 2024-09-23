@@ -1,0 +1,41 @@
+{
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "tcc:quarry_remnant/pots/normal",
+        "processors": "tcc:quarry_remnant",
+        "projection": "rigid"
+      },
+      "weight": 9
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "tcc:quarry_remnant/pots/armor",
+        "processors": "tcc:quarry_remnant",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "tcc:quarry_remnant/pots/core",
+        "processors": "tcc:quarry_remnant",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "tcc:quarry_remnant/pots/molten",
+        "processors": "tcc:quarry_remnant",
+        "projection": "rigid"
+      },
+      "weight": 1
+    }
+  ],
+  "fallback": "minecraft:empty"
+}

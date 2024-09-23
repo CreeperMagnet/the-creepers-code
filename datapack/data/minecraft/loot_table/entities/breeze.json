@@ -1,0 +1,64 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:killed_by_player"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 2.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 2.0,
+                "min": 1.0
+              },
+              "enchantment": "minecraft:looting",
+              "function": "minecraft:enchanted_count_increase"
+            },
+            {
+              "add": true,
+              "count": 2,
+              "function": "minecraft:set_count",
+              "conditions": [
+                {
+                  "condition": "minecraft:reference",
+                  "name": "tcc:entity_properties/slots/armor.head/witch_hat_attacker"
+                }
+              ]
+            }
+          ],
+          "name": "minecraft:breeze_rod"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "minecraft:entities/breeze",
+  "__smithed__": {
+    "rules": [
+      {
+        "type": "append",
+        "target": "pools[0].entries[0].functions",
+        "source": {
+          "type": "reference",
+          "path": "pools[0].entries[0].functions[2]"
+        }
+      }
+    ]
+  }
+}

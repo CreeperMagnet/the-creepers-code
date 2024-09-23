@@ -4,7 +4,7 @@
       "element": {
         "element_type": "minecraft:single_pool_element",
         "location": "tcc:refuge_remains/tower_top",
-        "processors": "tcc:refuge_remains",
+        "processors": "tcc:refuge_remains/only_decay_basalt",
         "projection": "rigid"
       },
       "weight": 1

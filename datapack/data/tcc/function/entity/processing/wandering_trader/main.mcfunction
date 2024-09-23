@@ -14,25 +14,18 @@ function tcc:entity/processing/wandering_trader/add_trade
 loot replace entity @s weapon.mainhand 2 loot tcc:trades/wandering_trader/saplings
 function tcc:entity/processing/wandering_trader/add_trade
 
-
 loot replace entity @s weapon.mainhand 2 loot tcc:trades/wandering_trader/cave_items
 function tcc:entity/processing/wandering_trader/add_trade
 
-
-loot replace entity @s weapon.mainhand 2 loot tcc:trades/wandering_trader/desert_items
+loot replace entity @s weapon.mainhand 2 loot tcc:trades/wandering_trader/warm_biome_items
 function tcc:entity/processing/wandering_trader/add_trade
-
-
-loot replace entity @s weapon.mainhand 2 loot tcc:trades/wandering_trader/jungle_items
-function tcc:entity/processing/wandering_trader/add_trade
-
 
 loot replace entity @s weapon.mainhand 2 loot tcc:trades/wandering_trader/ocean_items
 function tcc:entity/processing/wandering_trader/add_trade
 
-
 loot replace entity @s weapon.mainhand 2 loot tcc:trades/wandering_trader/bucketed_mob/main
 function tcc:entity/processing/wandering_trader/add_trade
+data modify entity @s Offers.Recipes[-1].maxUses set value 1
 
 item replace entity @s weapon.mainhand with minecraft:air
 item replace entity @s weapon.offhand with minecraft:air

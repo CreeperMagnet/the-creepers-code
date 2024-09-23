@@ -2,7 +2,7 @@
 
 data remove storage tcc:temp root
 data modify storage tcc:temp root.item set from entity @s SelectedItem
-data modify storage tcc:temp root.item.count set value 1b
+data modify storage tcc:temp root.item.count set value 1
 item modify entity @s[gamemode=!creative] weapon.mainhand tcc:reduce_count
 
 execute if data storage tcc:temp root.item.components."minecraft:custom_data".tcc{id:"frostbloom"} run summon minecraft:item_display ~ ~ ~ {Rotation:[0.0f,0.0f],Passengers:[{Tags:["tcc.block","tcc.potted_plant","smithed.block","tcc.passenger_entity","tcc.ten_second_clock"],response:true,id:"minecraft:interaction",width:0.38f,height:0.38f}],Tags:["tcc.potted_plant","smithed.block","tcc.block","tcc.tick","tcc.second_clock","tcc.potted_frostbloom"],transformation:{translation:[0.0f,0.5f,0.0f],left_rotation:[0.0f,0.0f,0.0f,1.0f],scale:[1.0f,1.0f,1.0f],right_rotation:[0.0f,0.0f,0.0f,1.0f]},item:{id:"minecraft:structure_block",count:1,components:{"minecraft:custom_model_data":330088}},view_range:4.0f}
