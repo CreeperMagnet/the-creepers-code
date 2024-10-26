@@ -1,0 +1,69 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "tcc:item/diluted_potion/glass",
+    "layer1": "tcc:item/diluted_potion/0_wind_charged"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 1
+      },
+      "model": "tcc:item/diluted_potion/wind_charged/0"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2
+      },
+      "model": "tcc:item/diluted_potion/wind_charged/1"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 3
+      },
+      "model": "tcc:item/diluted_potion/wind_charged/2"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 4
+      },
+      "model": "tcc:item/diluted_potion/wind_charged/3"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 5
+      },
+      "model": "tcc:item/diluted_potion/wind_charged/4"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6
+      },
+      "model": "tcc:item/diluted_potion/wind_charged/5"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 7
+      },
+      "model": "tcc:item/diluted_potion/wind_charged/6"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8
+      },
+      "model": "tcc:item/diluted_potion/wind_charged/7"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 9
+      },
+      "model": "tcc:item/diluted_potion/wind_charged/8"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10
+      },
+      "model": "tcc:item/diluted_potion/wind_charged/9"
+    }
+  ]
+}

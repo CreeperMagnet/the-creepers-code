@@ -6,5 +6,5 @@ execute if entity @s[nbt={item:{components:{"minecraft:custom_data":{break_state
 execute if entity @s[nbt={item:{components:{"minecraft:custom_data":{break_state:1}}}}] run data modify entity @s item.components."minecraft:custom_data".break_state set value 2
 execute if entity @s[nbt={item:{components:{"minecraft:custom_data":{break_state:0}}}}] run data modify entity @s item.components."minecraft:custom_data".break_state set value 1
 scoreboard players set @s tcc.dummy2 10
-function tcc:block/gobblerift/attack/increment_custom_model_data
+data modify entity @s item.components."minecraft:custom_model_data" set value 1
 data remove entity @s attack

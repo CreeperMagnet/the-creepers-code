@@ -7,18 +7,14 @@
     " S "
   ],
   "key": {
-    "W": {
-      "item": "minecraft:wheat"
-    },
-    "S": {
-      "item": "minecraft:stick"
-    }
+    "W": "minecraft:wheat",
+    "S": "minecraft:stick"
   },
   "result": {
     "id": "minecraft:warped_fungus_on_a_stick",
     "count": 1,
     "components": {
-      "minecraft:custom_model_data": 330009,
+      "minecraft:item_model": "tcc:paintbrush/main",
       "!minecraft:enchantments": {},
       "!minecraft:damage": {},
       "!minecraft:max_damage": {},

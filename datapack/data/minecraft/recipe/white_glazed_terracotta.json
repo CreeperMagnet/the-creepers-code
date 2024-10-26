@@ -1,9 +1,7 @@
 {
   "type": "smelting",
   "group": "glazed_terracotta",
-  "ingredient": {
-    "item": "minecraft:white_terracotta"
-  },
+  "ingredient": "minecraft:white_terracotta",
   "result": {
     "id": "minecraft:white_glazed_terracotta"
   },

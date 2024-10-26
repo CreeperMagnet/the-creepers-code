@@ -7,15 +7,13 @@
     " B "
   ],
   "key": {
-    "B": {
-      "item": "minecraft:nether_brick"
-    }
+    "B": "minecraft:nether_brick"
   },
   "result": {
     "id": "minecraft:decorated_pot",
     "count": 1,
     "components": {
-      "minecraft:custom_model_data": 330000,
+      "minecraft:item_model": "tcc:block/decorated_pot/nether_brick/blank_blank",
       "minecraft:custom_data": {
         "tcc": {
           "id": "decorated_pot",

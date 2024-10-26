@@ -16,7 +16,7 @@
                 {
                   "function": "minecraft:set_components",
                   "components": {
-                    "minecraft:custom_model_data": 330035
+                    "minecraft:item_model": "tcc:snail_bucket/light_blue"
                   }
                 }
               ],
@@ -46,7 +46,7 @@
                     {
                       "function": "minecraft:set_components",
                       "components": {
-                        "minecraft:custom_model_data": 330032
+                        "minecraft:item_model": "tcc:snail_bucket/black"
                       }
                     }
                   ],
@@ -63,7 +63,7 @@
                     {
                       "function": "minecraft:set_components",
                       "components": {
-                        "minecraft:custom_model_data": 330038
+                        "minecraft:item_model": "tcc:snail_bucket/yellow"
                       }
                     }
                   ],
@@ -80,7 +80,7 @@
                     {
                       "function": "minecraft:set_components",
                       "components": {
-                        "minecraft:custom_model_data": 330037
+                        "minecraft:item_model": "tcc:snail_bucket/spiral"
                       }
                     }
                   ],

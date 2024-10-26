@@ -5,9 +5,7 @@
     "##"
   ],
   "key": {
-    "#": {
-      "item": "minecraft:sculk_vein"
-    }
+    "#": "minecraft:sculk_vein"
   },
   "result": {
     "id": "minecraft:sculk"

@@ -1,0 +1,38 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "tcc:item/locket_of_learning/empty"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 1
+      },
+      "model": "tcc:item/locket_of_learning/filled_1"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2
+      },
+      "model": "tcc:item/locket_of_learning/filled_2"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 3
+      },
+      "model": "tcc:item/locket_of_learning/filled_3"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 4
+      },
+      "model": "tcc:item/locket_of_learning/filled_4"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 5
+      },
+      "model": "tcc:item/locket_of_learning/filled_5"
+    }
+  ]
+}

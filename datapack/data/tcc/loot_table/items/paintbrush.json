@@ -14,7 +14,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_model_data": 330009,
+                "minecraft:item_model": "tcc:paintbrush/main",
                 "!minecraft:enchantments": {},
                 "!minecraft:damage": {},
                 "!minecraft:max_damage": {}

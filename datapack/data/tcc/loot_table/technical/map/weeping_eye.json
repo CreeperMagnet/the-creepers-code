@@ -20,7 +20,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_model_data": 330001
+                "minecraft:item_model": "tcc:weeping_eye/main"
               }
             }
           ],

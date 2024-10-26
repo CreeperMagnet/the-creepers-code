@@ -7,12 +7,8 @@
   ],
   "key": {
     "#": [
-      {
-        "item": "minecraft:dead_horn_coral"
-      },
-      {
-        "item": "minecraft:dead_horn_coral_fan"
-      }
+      "minecraft:dead_horn_coral",
+      "minecraft:dead_horn_coral_fan"
     ]
   },
   "result": {

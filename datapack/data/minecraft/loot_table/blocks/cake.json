@@ -11,7 +11,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_model_data": 330000
+                "minecraft:item_model": "tcc:cake/one_bite"
               },
               "conditions": [
                 {
@@ -26,7 +26,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_model_data": 330001
+                "minecraft:item_model": "tcc:cake/two_bites"
               },
               "conditions": [
                 {
@@ -41,7 +41,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_model_data": 330002
+                "minecraft:item_model": "tcc:cake/three_bites"
               },
               "conditions": [
                 {
@@ -56,7 +56,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_model_data": 330003
+                "minecraft:item_model": "tcc:cake/four_bites"
               },
               "conditions": [
                 {
@@ -71,7 +71,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_model_data": 330004
+                "minecraft:item_model": "tcc:cake/five_bites"
               },
               "conditions": [
                 {
@@ -86,7 +86,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_model_data": 330005
+                "minecraft:item_model": "tcc:cake/six_bites"
               },
               "conditions": [
                 {

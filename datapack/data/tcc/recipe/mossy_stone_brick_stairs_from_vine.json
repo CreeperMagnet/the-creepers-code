@@ -3,12 +3,8 @@
   "category": "building",
   "group": "mossy_stone_brick_stairs",
   "ingredients": [
-    {
-      "item": "minecraft:stone_brick_stairs"
-    },
-    {
-      "item": "minecraft:vine"
-    }
+    "minecraft:stone_brick_stairs",
+    "minecraft:vine"
   ],
   "result": {
     "id": "minecraft:mossy_stone_brick_stairs"

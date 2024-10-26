@@ -5,15 +5,9 @@
     "III"
   ],
   "key": {
-    "#": {
-      "item": "minecraft:redstone_torch"
-    },
-    "X": {
-      "item": "minecraft:redstone"
-    },
-    "I": {
-      "tag": "tcc:raw_stone_crafting_materials"
-    }
+    "#": "minecraft:redstone_torch",
+    "X": "minecraft:redstone",
+    "I": "#tcc:raw_stone_crafting_materials"
   },
   "result": {
     "id": "minecraft:repeater"

@@ -7,18 +7,14 @@
     " O "
   ],
   "key": {
-    "O": {
-      "item": "minecraft:netherite_scrap"
-    },
-    "M": {
-      "item": "minecraft:redstone"
-    }
+    "O": "minecraft:netherite_scrap",
+    "M": "minecraft:redstone"
   },
   "result": {
     "id": "minecraft:warped_fungus_on_a_stick",
     "count": 1,
     "components": {
-      "minecraft:custom_model_data": 330300,
+      "minecraft:item_model": "tcc:reactive_seeker/unset",
       "!minecraft:enchantments": {},
       "!minecraft:damage": {},
       "!minecraft:max_damage": {},
@@ -32,7 +28,10 @@
       "minecraft:item_name": "{\"translate\": \"item.tcc.reactive_seeker\"}",
       "minecraft:lore": [
         "{\"translate\":\"pack.tcc\",\"color\":\"#008725\",\"italic\":true}"
-      ]
+      ],
+      "minecraft:damage_resistant": {
+        "types": "#minecraft:is_fire"
+      }
     }
   }
 }

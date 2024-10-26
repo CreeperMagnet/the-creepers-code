@@ -1,0 +1,104 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "tcc:item/paintbrush/unused"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 1
+      },
+      "model": "tcc:item/paintbrush/black"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2
+      },
+      "model": "tcc:item/paintbrush/blue"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 3
+      },
+      "model": "tcc:item/paintbrush/brown"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 4
+      },
+      "model": "tcc:item/paintbrush/cyan"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 5
+      },
+      "model": "tcc:item/paintbrush/gray"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6
+      },
+      "model": "tcc:item/paintbrush/green"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 7
+      },
+      "model": "tcc:item/paintbrush/light_blue"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8
+      },
+      "model": "tcc:item/paintbrush/light_gray"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 9
+      },
+      "model": "tcc:item/paintbrush/lime"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10
+      },
+      "model": "tcc:item/paintbrush/magenta"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 11
+      },
+      "model": "tcc:item/paintbrush/orange"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 12
+      },
+      "model": "tcc:item/paintbrush/pink"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 13
+      },
+      "model": "tcc:item/paintbrush/purple"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 14
+      },
+      "model": "tcc:item/paintbrush/red"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 15
+      },
+      "model": "tcc:item/paintbrush/white"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 16
+      },
+      "model": "tcc:item/paintbrush/yellow"
+    }
+  ]
+}

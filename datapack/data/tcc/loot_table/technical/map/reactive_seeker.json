@@ -21,7 +21,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_model_data": 330002
+                "minecraft:item_model": "tcc:reactive_seeker/main"
               }
             }
           ],

@@ -1,0 +1,110 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "tcc:item/weeping_eye/08"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "angle": 0
+      },
+      "model": "tcc:item/weeping_eye/08"
+    },
+    {
+      "predicate": {
+        "angle": 0.03125
+      },
+      "model": "tcc:item/weeping_eye/09"
+    },
+    {
+      "predicate": {
+        "angle": 0.09375
+      },
+      "model": "tcc:item/weeping_eye/10"
+    },
+    {
+      "predicate": {
+        "angle": 0.15625
+      },
+      "model": "tcc:item/weeping_eye/11"
+    },
+    {
+      "predicate": {
+        "angle": 0.21875
+      },
+      "model": "tcc:item/weeping_eye/12"
+    },
+    {
+      "predicate": {
+        "angle": 0.28125
+      },
+      "model": "tcc:item/weeping_eye/13"
+    },
+    {
+      "predicate": {
+        "angle": 0.34375
+      },
+      "model": "tcc:item/weeping_eye/14"
+    },
+    {
+      "predicate": {
+        "angle": 0.40625
+      },
+      "model": "tcc:item/weeping_eye/15"
+    },
+    {
+      "predicate": {
+        "angle": 0.46875
+      },
+      "model": "tcc:item/weeping_eye/00"
+    },
+    {
+      "predicate": {
+        "angle": 0.53125
+      },
+      "model": "tcc:item/weeping_eye/01"
+    },
+    {
+      "predicate": {
+        "angle": 0.59375
+      },
+      "model": "tcc:item/weeping_eye/02"
+    },
+    {
+      "predicate": {
+        "angle": 0.65625
+      },
+      "model": "tcc:item/weeping_eye/03"
+    },
+    {
+      "predicate": {
+        "angle": 0.71875
+      },
+      "model": "tcc:item/weeping_eye/04"
+    },
+    {
+      "predicate": {
+        "angle": 0.78125
+      },
+      "model": "tcc:item/weeping_eye/05"
+    },
+    {
+      "predicate": {
+        "angle": 0.84375
+      },
+      "model": "tcc:item/weeping_eye/06"
+    },
+    {
+      "predicate": {
+        "angle": 0.90625
+      },
+      "model": "tcc:item/weeping_eye/07"
+    },
+    {
+      "predicate": {
+        "angle": 0.96875
+      },
+      "model": "tcc:item/weeping_eye/08"
+    }
+  ]
+}

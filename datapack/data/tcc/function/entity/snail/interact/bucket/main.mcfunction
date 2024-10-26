@@ -7,21 +7,21 @@ data remove storage tcc:temp root.item.components."minecraft:custom_data".tcc.sn
 data remove storage tcc:temp root.item.components."minecraft:custom_data".tcc.snail.Motion
 data remove storage tcc:temp root.item.components."minecraft:custom_data".tcc.snail.UUID
 data remove storage tcc:temp root.item.components."minecraft:custom_data".tcc.snail.CustomName
-execute if entity @s[tag=!tcc.baby,tag=tcc.snail.black] run data modify storage tcc:temp root.item.components."minecraft:custom_model_data" set value 330032
-execute if entity @s[tag=!tcc.baby,tag=tcc.snail.brown] run data modify storage tcc:temp root.item.components."minecraft:custom_model_data" set value 330033
-execute if entity @s[tag=!tcc.baby,tag=tcc.snail.gary] run data modify storage tcc:temp root.item.components."minecraft:custom_model_data" set value 330034
-execute if entity @s[tag=!tcc.baby,tag=tcc.snail.light_blue] run data modify storage tcc:temp root.item.components."minecraft:custom_model_data" set value 330035
-execute if entity @s[tag=!tcc.baby,tag=tcc.snail.skull] run data modify storage tcc:temp root.item.components."minecraft:custom_model_data" set value 330036
-execute if entity @s[tag=!tcc.baby,tag=tcc.snail.spiral] run data modify storage tcc:temp root.item.components."minecraft:custom_model_data" set value 330037
-execute if entity @s[tag=!tcc.baby,tag=tcc.snail.yellow] run data modify storage tcc:temp root.item.components."minecraft:custom_model_data" set value 330038
+execute if entity @s[tag=!tcc.baby,tag=tcc.snail.black] run data modify storage tcc:temp root.item.components."minecraft:item_model" set value "tcc:snail_bucket/black"
+execute if entity @s[tag=!tcc.baby,tag=tcc.snail.brown] run data modify storage tcc:temp root.item.components."minecraft:item_model" set value "tcc:snail_bucket/brown"
+execute if entity @s[tag=!tcc.baby,tag=tcc.snail.gary] run data modify storage tcc:temp root.item.components."minecraft:item_model" set value "tcc:snail_bucket/gary"
+execute if entity @s[tag=!tcc.baby,tag=tcc.snail.light_blue] run data modify storage tcc:temp root.item.components."minecraft:item_model" set value "tcc:snail_bucket/light_blue"
+execute if entity @s[tag=!tcc.baby,tag=tcc.snail.skull] run data modify storage tcc:temp root.item.components."minecraft:item_model" set value "tcc:snail_bucket/skull"
+execute if entity @s[tag=!tcc.baby,tag=tcc.snail.spiral] run data modify storage tcc:temp root.item.components."minecraft:item_model" set value "tcc:snail_bucket/spiral"
+execute if entity @s[tag=!tcc.baby,tag=tcc.snail.yellow] run data modify storage tcc:temp root.item.components."minecraft:item_model" set value "tcc:snail_bucket/yellow"
 
-execute if entity @s[tag=tcc.baby,tag=tcc.snail.black] run data modify storage tcc:temp root.item.components."minecraft:custom_model_data" set value 330252
-execute if entity @s[tag=tcc.baby,tag=tcc.snail.brown] run data modify storage tcc:temp root.item.components."minecraft:custom_model_data" set value 330253
-execute if entity @s[tag=tcc.baby,tag=tcc.snail.gary] run data modify storage tcc:temp root.item.components."minecraft:custom_model_data" set value 330254
-execute if entity @s[tag=tcc.baby,tag=tcc.snail.light_blue] run data modify storage tcc:temp root.item.components."minecraft:custom_model_data" set value 330255
-execute if entity @s[tag=tcc.baby,tag=tcc.snail.skull] run data modify storage tcc:temp root.item.components."minecraft:custom_model_data" set value 330256
-execute if entity @s[tag=tcc.baby,tag=tcc.snail.spiral] run data modify storage tcc:temp root.item.components."minecraft:custom_model_data" set value 330257
-execute if entity @s[tag=tcc.baby,tag=tcc.snail.yellow] run data modify storage tcc:temp root.item.components."minecraft:custom_model_data" set value 330258
+execute if entity @s[tag=tcc.baby,tag=tcc.snail.black] run data modify storage tcc:temp root.item.components."minecraft:item_model" set value "tcc:snail_bucket/black_baby"
+execute if entity @s[tag=tcc.baby,tag=tcc.snail.brown] run data modify storage tcc:temp root.item.components."minecraft:item_model" set value "tcc:snail_bucket/brown_baby"
+execute if entity @s[tag=tcc.baby,tag=tcc.snail.gary] run data modify storage tcc:temp root.item.components."minecraft:item_model" set value "tcc:snail_bucket/gary_baby"
+execute if entity @s[tag=tcc.baby,tag=tcc.snail.light_blue] run data modify storage tcc:temp root.item.components."minecraft:item_model" set value "tcc:snail_bucket/light_blue_baby"
+execute if entity @s[tag=tcc.baby,tag=tcc.snail.skull] run data modify storage tcc:temp root.item.components."minecraft:item_model" set value "tcc:snail_bucket/skull_baby"
+execute if entity @s[tag=tcc.baby,tag=tcc.snail.spiral] run data modify storage tcc:temp root.item.components."minecraft:item_model" set value "tcc:snail_bucket/spiral_baby"
+execute if entity @s[tag=tcc.baby,tag=tcc.snail.yellow] run data modify storage tcc:temp root.item.components."minecraft:item_model" set value "tcc:snail_bucket/yellow_baby"
 
 execute if entity @s[nbt=!{CustomName:'{"translate":"entity.tcc.snail"}'}] run data modify storage tcc:temp root.item.components."minecraft:custom_name" set from entity @s CustomName
 execute if entity @s[tag=!tcc.silent] run playsound tcc:entity.snail.bucket neutral @a[distance=..16]

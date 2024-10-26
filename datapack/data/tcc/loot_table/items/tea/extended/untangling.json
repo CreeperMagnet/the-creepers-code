@@ -4,39 +4,18 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
-          "weight": 1,
+          "type": "minecraft:loot_table",
           "functions": [
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{tcc:{id:\"tea\",tea:{id:\"untangling\",extended:1b}}}"
-            },
-            {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:custom_model_data": 330001,
-                "minecraft:potion_contents": {
-                  "custom_effects": [],
-                  "potion": "minecraft:mundane",
-                  "custom_color": 11959158
-                },
-                "minecraft:hide_additional_tooltip": {}
-              }
-            },
-            {
-              "function": "minecraft:set_name",
-              "name": {
-                "translate": "item.tcc.untangling_tea"
-              },
-              "target": "item_name"
+              "tag": "{tcc:{tea:{extended:1b}}}"
             },
             {
               "function": "minecraft:set_lore",
+              "replace": true,
               "lore": [
                 {
                   "translate": "potion.withDuration",
-                  "color": "gold",
-                  "italic": false,
                   "with": [
                     {
                       "translate": "item.tcc.untangling_tea.lore"
@@ -50,7 +29,9 @@
                         0
                       ]
                     }
-                  ]
+                  ],
+                  "color": "gold",
+                  "italic": false
                 },
                 {
                   "translate": "pack.tcc",
@@ -61,7 +42,7 @@
               "mode": "replace_all"
             }
           ],
-          "name": "minecraft:potion"
+          "value": "tcc:items/tea/untangling"
         }
       ]
     }

@@ -2,5 +2,4 @@
 
 function tcc:entity/snail/summon/set_variant/remove_tags
 tag @s add tcc.snail.black
-data modify entity @s ArmorItems[3].components."minecraft:custom_data".tcc.custom_model_data.idle set value 330072
-data modify entity @s HandItems[0].components."minecraft:custom_model_data" set value 330072
+data modify entity @s ArmorItems[2].components."minecraft:item_model" set value "tcc:entity/snail/black/main"

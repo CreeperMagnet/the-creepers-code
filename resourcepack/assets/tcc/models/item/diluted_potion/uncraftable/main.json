@@ -1,0 +1,69 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "tcc:item/diluted_potion/glass",
+    "layer1": "tcc:item/diluted_potion/0_uncraftable"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 1
+      },
+      "model": "tcc:item/diluted_potion/uncraftable/0"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2
+      },
+      "model": "tcc:item/diluted_potion/uncraftable/1"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 3
+      },
+      "model": "tcc:item/diluted_potion/uncraftable/2"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 4
+      },
+      "model": "tcc:item/diluted_potion/uncraftable/3"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 5
+      },
+      "model": "tcc:item/diluted_potion/uncraftable/4"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6
+      },
+      "model": "tcc:item/diluted_potion/uncraftable/5"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 7
+      },
+      "model": "tcc:item/diluted_potion/uncraftable/6"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8
+      },
+      "model": "tcc:item/diluted_potion/uncraftable/7"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 9
+      },
+      "model": "tcc:item/diluted_potion/uncraftable/8"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10
+      },
+      "model": "tcc:item/diluted_potion/uncraftable/9"
+    }
+  ]
+}

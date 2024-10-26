@@ -6,15 +6,9 @@
     "#R#"
   ],
   "key": {
-    "R": {
-      "item": "minecraft:redstone"
-    },
-    "#": {
-      "tag": "minecraft:stone_crafting_materials"
-    },
-    "X": {
-      "item": "minecraft:bow"
-    }
+    "R": "minecraft:redstone",
+    "#": "#minecraft:stone_crafting_materials",
+    "X": "minecraft:bow"
   },
   "result": {
     "id": "minecraft:dispenser"

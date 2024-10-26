@@ -14,7 +14,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_model_data": 330000,
+                "minecraft:item_model": "tcc:phantom_item_frame",
                 "minecraft:entity_data": {
                   "Tags": [
                     "tcc.phantom_item_frame.initiate"

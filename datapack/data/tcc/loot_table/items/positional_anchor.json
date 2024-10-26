@@ -14,7 +14,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_model_data": 330002,
+                "minecraft:item_model": "tcc:block/positional_anchor/empty",
                 "minecraft:container": [
                   {
                     "slot": 0,
@@ -29,7 +29,7 @@
                             "block": "positional_anchor"
                           }
                         },
-                        "minecraft:custom_model_data": 330000
+                        "minecraft:item_model": "tcc:empty"
                       }
                     }
                   }

@@ -1,0 +1,17 @@
+{
+	"parent": "tcc:item/entity/sprouter/head/adult/main",
+	"display": {
+		"head": {
+			"translation": [0, 4.5, -2],
+			"scale": [1.0, 1.0, 1.0]
+		}
+	},
+  "overrides": [
+    {
+      "predicate": {
+        "damaged": 1
+      },
+      "model": "tcc:item/entity/sprouter/head/baby/hurt"
+    }
+  ]
+}

@@ -17,7 +17,7 @@
                 {
                   "function": "minecraft:set_components",
                   "components": {
-                    "minecraft:custom_model_data": 330008
+                    "minecraft:item_model": "tcc:axolotl_bucket/cyan"
                   }
                 }
               ],
@@ -42,7 +42,7 @@
                     {
                       "function": "minecraft:set_components",
                       "components": {
-                        "minecraft:custom_model_data": 330002
+                        "minecraft:item_model": "tcc:axolotl_bucket/brown"
                       }
                     }
                   ]
@@ -58,7 +58,7 @@
                     {
                       "function": "minecraft:set_components",
                       "components": {
-                        "minecraft:custom_model_data": 330004
+                        "minecraft:item_model": "tcc:snail_bucket/yellow"
                       }
                     }
                   ]
@@ -74,7 +74,7 @@
                     {
                       "function": "minecraft:set_components",
                       "components": {
-                        "minecraft:custom_model_data": 330006
+                        "minecraft:item_model": "tcc:snail_bucket/blue"
                       }
                     }
                   ]

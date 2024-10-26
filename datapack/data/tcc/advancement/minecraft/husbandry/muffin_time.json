@@ -2,9 +2,9 @@
   "parent": "minecraft:husbandry/plant_seed",
   "display": {
     "icon": {
-      "id": "minecraft:poisonous_potato",
+      "id": "minecraft:stone",
       "components": {
-        "minecraft:custom_model_data": 330006
+        "minecraft:item_model": "tcc:sweet_berry_muffin"
       }
     },
     "title": {

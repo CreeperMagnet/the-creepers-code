@@ -2,21 +2,15 @@
   "category": "equipment",
   "type": "crafting_shapeless",
   "ingredients": [
-    {
-      "item": "minecraft:ender_eye"
-    },
-    {
-      "item": "minecraft:ghast_tear"
-    },
-    {
-      "item": "minecraft:popped_chorus_fruit"
-    }
+    "minecraft:ender_eye",
+    "minecraft:ghast_tear",
+    "minecraft:popped_chorus_fruit"
   ],
   "result": {
     "id": "minecraft:warped_fungus_on_a_stick",
     "count": 1,
     "components": {
-      "minecraft:custom_model_data": 330006,
+      "minecraft:item_model": "tcc:weeping_eye/unset",
       "!minecraft:enchantments": {},
       "!minecraft:damage": {},
       "!minecraft:max_damage": {},

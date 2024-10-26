@@ -2,9 +2,9 @@
   "parent": "tcc:minecraft/husbandry/bucket_snail",
   "display": {
     "icon": {
-      "id": "minecraft:warped_fungus_on_a_stick",
+      "id": "minecraft:stone",
       "components": {
-        "minecraft:custom_model_data": 330035
+        "minecraft:item_model": "tcc:snail_bucket/light_blue"
       }
     },
     "title": {
@@ -36,7 +36,7 @@
               "minecraft:custom_data": "{tcc:{id:\"snail_bucket\"}}"
             },
             "components": {
-              "minecraft:custom_model_data": 330032
+              "minecraft:item_model": "tcc:snail_bucket/black"
             }
           }
         ]
@@ -51,7 +51,7 @@
               "minecraft:custom_data": "{tcc:{id:\"snail_bucket\"}}"
             },
             "components": {
-              "minecraft:custom_model_data": 330252
+              "minecraft:item_model": "tcc:snail_bucket/black_baby"
             }
           }
         ]
@@ -66,7 +66,7 @@
               "minecraft:custom_data": "{tcc:{id:\"snail_bucket\"}}"
             },
             "components": {
-              "minecraft:custom_model_data": 330033
+              "minecraft:item_model": "tcc:snail_bucket/brown"
             }
           }
         ]
@@ -81,7 +81,7 @@
               "minecraft:custom_data": "{tcc:{id:\"snail_bucket\"}}"
             },
             "components": {
-              "minecraft:custom_model_data": 330253
+              "minecraft:item_model": "tcc:snail_bucket/brown_baby"
             }
           }
         ]
@@ -96,7 +96,7 @@
               "minecraft:custom_data": "{tcc:{id:\"snail_bucket\"}}"
             },
             "components": {
-              "minecraft:custom_model_data": 330035
+              "minecraft:item_model": "tcc:snail_bucket/light_blue"
             }
           }
         ]
@@ -111,7 +111,7 @@
               "minecraft:custom_data": "{tcc:{id:\"snail_bucket\"}}"
             },
             "components": {
-              "minecraft:custom_model_data": 330255
+              "minecraft:item_model": "tcc:snail_bucket/light_blue_baby"
             }
           }
         ]
@@ -126,7 +126,7 @@
               "minecraft:custom_data": "{tcc:{id:\"snail_bucket\"}}"
             },
             "components": {
-              "minecraft:custom_model_data": 330036
+              "minecraft:item_model": "tcc:snail_bucket/skull"
             }
           }
         ]
@@ -141,7 +141,7 @@
               "minecraft:custom_data": "{tcc:{id:\"snail_bucket\"}}"
             },
             "components": {
-              "minecraft:custom_model_data": 330256
+              "minecraft:item_model": "tcc:snail_bucket/skull"
             }
           }
         ]
@@ -156,7 +156,7 @@
               "minecraft:custom_data": "{tcc:{id:\"snail_bucket\"}}"
             },
             "components": {
-              "minecraft:custom_model_data": 330037
+              "minecraft:item_model": "tcc:snail_bucket/spiral"
             }
           }
         ]
@@ -171,7 +171,7 @@
               "minecraft:custom_data": "{tcc:{id:\"snail_bucket\"}}"
             },
             "components": {
-              "minecraft:custom_model_data": 330257
+              "minecraft:item_model": "tcc:snail_bucket/spiral_baby"
             }
           }
         ]
@@ -186,7 +186,7 @@
               "minecraft:custom_data": "{tcc:{id:\"snail_bucket\"}}"
             },
             "components": {
-              "minecraft:custom_model_data": 330038
+              "minecraft:item_model": "tcc:snail_bucket/yellow"
             }
           }
         ]
@@ -201,7 +201,7 @@
               "minecraft:custom_data": "{tcc:{id:\"snail_bucket\"}}"
             },
             "components": {
-              "minecraft:custom_model_data": 330258
+              "minecraft:item_model": "tcc:snail_bucket/yellow_baby"
             }
           }
         ]

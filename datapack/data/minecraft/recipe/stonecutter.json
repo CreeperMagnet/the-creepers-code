@@ -5,12 +5,8 @@
     "###"
   ],
   "key": {
-    "I": {
-      "item": "minecraft:iron_ingot"
-    },
-    "#": {
-      "tag": "tcc:raw_stone_crafting_materials"
-    }
+    "I": "minecraft:iron_ingot",
+    "#": "#tcc:raw_stone_crafting_materials"
   },
   "result": {
     "id": "minecraft:stonecutter"

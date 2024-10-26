@@ -6,9 +6,7 @@
     "###"
   ],
   "key": {
-    "#": {
-      "item": "minecraft:polished_andesite"
-    }
+    "#": "minecraft:polished_andesite"
   },
   "result": {
     "count": 6,

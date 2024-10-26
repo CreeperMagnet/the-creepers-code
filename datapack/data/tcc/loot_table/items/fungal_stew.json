@@ -14,14 +14,15 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_model_data": 330007,
+                "minecraft:item_model": "tcc:fungal_stew",
                 "minecraft:max_stack_size": 1,
+                "minecraft:consumable": {},
                 "minecraft:food": {
                   "nutrition": 7,
-                  "saturation": 9.0,
-                  "using_converts_to": {
-                    "id": "minecraft:bowl"
-                  }
+                  "saturation": 9.0
+                },
+                "minecraft:use_remainder": {
+                  "id": "minecraft:bowl"
                 }
               }
             },

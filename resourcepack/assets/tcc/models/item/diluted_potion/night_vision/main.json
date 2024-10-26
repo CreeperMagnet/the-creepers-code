@@ -1,0 +1,69 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "tcc:item/diluted_potion/glass",
+    "layer1": "tcc:item/diluted_potion/0_night_vision"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 1
+      },
+      "model": "tcc:item/diluted_potion/night_vision/0"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2
+      },
+      "model": "tcc:item/diluted_potion/night_vision/1"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 3
+      },
+      "model": "tcc:item/diluted_potion/night_vision/2"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 4
+      },
+      "model": "tcc:item/diluted_potion/night_vision/3"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 5
+      },
+      "model": "tcc:item/diluted_potion/night_vision/4"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6
+      },
+      "model": "tcc:item/diluted_potion/night_vision/5"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 7
+      },
+      "model": "tcc:item/diluted_potion/night_vision/6"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8
+      },
+      "model": "tcc:item/diluted_potion/night_vision/7"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 9
+      },
+      "model": "tcc:item/diluted_potion/night_vision/8"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10
+      },
+      "model": "tcc:item/diluted_potion/night_vision/9"
+    }
+  ]
+}

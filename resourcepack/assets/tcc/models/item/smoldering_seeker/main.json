@@ -1,0 +1,200 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "tcc:item/smoldering_seeker/16"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "angle": 0.015625
+      },
+      "model": "tcc:item/smoldering_seeker/17"
+    },
+    {
+      "predicate": {
+        "angle": 0.046875
+      },
+      "model": "tcc:item/smoldering_seeker/18"
+    },
+    {
+      "predicate": {
+        "angle": 0.078125
+      },
+      "model": "tcc:item/smoldering_seeker/19"
+    },
+    {
+      "predicate": {
+        "angle": 0.109375
+      },
+      "model": "tcc:item/smoldering_seeker/20"
+    },
+    {
+      "predicate": {
+        "angle": 0.140625
+      },
+      "model": "tcc:item/smoldering_seeker/21"
+    },
+    {
+      "predicate": {
+        "angle": 0.171875
+      },
+      "model": "tcc:item/smoldering_seeker/22"
+    },
+    {
+      "predicate": {
+        "angle": 0.203125
+      },
+      "model": "tcc:item/smoldering_seeker/23"
+    },
+    {
+      "predicate": {
+        "angle": 0.234375
+      },
+      "model": "tcc:item/smoldering_seeker/24"
+    },
+    {
+      "predicate": {
+        "angle": 0.265625
+      },
+      "model": "tcc:item/smoldering_seeker/25"
+    },
+    {
+      "predicate": {
+        "angle": 0.296875
+      },
+      "model": "tcc:item/smoldering_seeker/26"
+    },
+    {
+      "predicate": {
+        "angle": 0.328125
+      },
+      "model": "tcc:item/smoldering_seeker/27"
+    },
+    {
+      "predicate": {
+        "angle": 0.359375
+      },
+      "model": "tcc:item/smoldering_seeker/28"
+    },
+    {
+      "predicate": {
+        "angle": 0.390625
+      },
+      "model": "tcc:item/smoldering_seeker/29"
+    },
+    {
+      "predicate": {
+        "angle": 0.421875
+      },
+      "model": "tcc:item/smoldering_seeker/30"
+    },
+    {
+      "predicate": {
+        "angle": 0.453125
+      },
+      "model": "tcc:item/smoldering_seeker/31"
+    },
+    {
+      "predicate": {
+        "angle": 0.484375
+      },
+      "model": "tcc:item/smoldering_seeker/00"
+    },
+    {
+      "predicate": {
+        "angle": 0.515625
+      },
+      "model": "tcc:item/smoldering_seeker/01"
+    },
+    {
+      "predicate": {
+        "angle": 0.546875
+      },
+      "model": "tcc:item/smoldering_seeker/02"
+    },
+    {
+      "predicate": {
+        "angle": 0.578125
+      },
+      "model": "tcc:item/smoldering_seeker/03"
+    },
+    {
+      "predicate": {
+        "angle": 0.609375
+      },
+      "model": "tcc:item/smoldering_seeker/04"
+    },
+    {
+      "predicate": {
+        "angle": 0.640625
+      },
+      "model": "tcc:item/smoldering_seeker/05"
+    },
+    {
+      "predicate": {
+        "angle": 0.671875
+      },
+      "model": "tcc:item/smoldering_seeker/06"
+    },
+    {
+      "predicate": {
+        "angle": 0.703125
+      },
+      "model": "tcc:item/smoldering_seeker/07"
+    },
+    {
+      "predicate": {
+        "angle": 0.734375
+      },
+      "model": "tcc:item/smoldering_seeker/08"
+    },
+    {
+      "predicate": {
+        "angle": 0.765625
+      },
+      "model": "tcc:item/smoldering_seeker/09"
+    },
+    {
+      "predicate": {
+        "angle": 0.796875
+      },
+      "model": "tcc:item/smoldering_seeker/10"
+    },
+    {
+      "predicate": {
+        "angle": 0.828125
+      },
+      "model": "tcc:item/smoldering_seeker/11"
+    },
+    {
+      "predicate": {
+        "angle": 0.859375
+      },
+      "model": "tcc:item/smoldering_seeker/12"
+    },
+    {
+      "predicate": {
+        "angle": 0.890625
+      },
+      "model": "tcc:item/smoldering_seeker/13"
+    },
+    {
+      "predicate": {
+        "angle": 0.921875
+      },
+      "model": "tcc:item/smoldering_seeker/14"
+    },
+    {
+      "predicate": {
+        "angle": 0.953125
+      },
+      "model": "tcc:item/smoldering_seeker/15"
+    },
+    {
+      "predicate": {
+        "angle": 0.984375
+      },
+      "model": "tcc:item/smoldering_seeker/16"
+    }
+  ]
+}

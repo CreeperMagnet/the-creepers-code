@@ -6,11 +6,7 @@
     "###"
   ],
   "key": {
-    "#": [
-      {
-        "item": "minecraft:polished_blackstone"
-      }
-    ]
+    "#": "minecraft:polished_blackstone"
   },
   "result": {
     "count": 6,

@@ -7,18 +7,14 @@
     "EEE"
   ],
   "key": {
-    "E": {
-      "item": "minecraft:echo_shard"
-    },
-    "G": {
-      "item": "minecraft:tinted_glass"
-    }
+    "E": "minecraft:echo_shard",
+    "G": "minecraft:tinted_glass"
   },
   "result": {
     "id": "minecraft:warped_fungus_on_a_stick",
     "count": 1,
     "components": {
-      "minecraft:custom_model_data": 330003,
+      "minecraft:item_model": "tcc:echoing_hourglass",
       "minecraft:custom_data": {
         "tcc": {
           "id": "echoing_hourglass"
@@ -31,7 +27,8 @@
       "minecraft:item_name": "{\"translate\":\"item.tcc.echoing_hourglass\"}",
       "minecraft:lore": [
         "{\"translate\":\"pack.tcc\",\"color\":\"#008725\",\"italic\":true}"
-      ]
+      ],
+      "minecraft:rarity": "uncommon"
     }
   }
 }

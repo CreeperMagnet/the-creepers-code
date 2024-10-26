@@ -2,9 +2,9 @@
   "parent": "minecraft:adventure/avoid_vibration",
   "display": {
     "icon": {
-      "id": "minecraft:dropper",
+      "id": "minecraft:stone",
       "components": {
-        "minecraft:custom_model_data": 330011
+        "minecraft:item_model": "tcc:block/soul_conductor/up"
       }
     },
     "title": {

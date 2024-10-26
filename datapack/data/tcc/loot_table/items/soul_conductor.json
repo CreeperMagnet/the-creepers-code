@@ -14,7 +14,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_model_data": 330011,
+                "minecraft:item_model": "tcc:block/soul_conductor/up",
                 "minecraft:container": [
                   {
                     "slot": 0,
@@ -29,14 +29,15 @@
                             "block": "soul_conductor"
                           }
                         },
-                        "minecraft:custom_model_data": 330000
+                        "minecraft:item_model": "tcc:empty"
                       }
                     }
                   }
                 ],
                 "minecraft:block_entity_data": {
                   "id": "minecraft:dropper"
-                }
+                },
+                "minecraft:rarity": "uncommon"
               }
             },
             {

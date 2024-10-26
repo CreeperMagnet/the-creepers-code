@@ -7,21 +7,22 @@
     " I "
   ],
   "key": {
-    "I": {
-      "item": "minecraft:copper_ingot"
-    }
+    "I": "minecraft:copper_ingot"
   },
   "result": {
     "id": "minecraft:warped_fungus_on_a_stick",
     "count": 1,
     "components": {
-      "minecraft:custom_model_data": 330004,
+      "minecraft:item_model": "tcc:wrench",
       "minecraft:damage": 0,
       "minecraft:max_damage": 200,
       "minecraft:custom_data": {
         "tcc": {
           "id": "wrench"
         }
+      },
+      "minecraft:repairable": {
+        "items": "#tcc:repair_items/wrench"
       },
       "minecraft:item_name": "{\"translate\": \"item.tcc.wrench\"}",
       "minecraft:lore": [

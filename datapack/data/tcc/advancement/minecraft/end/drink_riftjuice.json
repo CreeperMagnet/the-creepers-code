@@ -3,7 +3,7 @@
     "icon": {
       "id": "minecraft:potion",
       "components": {
-        "minecraft:custom_model_data": 330000,
+        "minecraft:item_model": "tcc:riftjuice_bottle",
         "minecraft:potion_contents": {
           "custom_color": 16777215
         }

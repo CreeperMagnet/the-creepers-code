@@ -1,0 +1,23 @@
+{
+  "parent": "tcc:item/block/echoing_hourglass/gravel/powder/output/1",
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 1
+      },
+      "model": "tcc:item/block/echoing_hourglass/gravel/powder/output/2"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2
+      },
+      "model": "tcc:item/block/echoing_hourglass/gravel/powder/output/3"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 3
+      },
+      "model": "tcc:item/block/echoing_hourglass/gravel/powder/output/4"
+    }
+  ]
+}

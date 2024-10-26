@@ -8,7 +8,7 @@ stopsound @a[distance=..16] * minecraft:block.dispenser.fail
 
 playsound tcc:block.positional_anchor.fire master @a[distance=..16]
 
-data modify entity @s item.components."minecraft:custom_model_data" set value 330002
+data modify entity @s item.components."minecraft:item_model" set value "tcc:block/positional_anchor/empty"
 setblock ~ ~ ~ minecraft:stone
-setblock ~ ~ ~ minecraft:dropper[facing=down,triggered=true]{CustomName:'{"font":"tcc:technical","translate":"block.tcc.positional_anchor.name"}',Lock:"§positional_anchor\\uF001"}
+setblock ~ ~ ~ minecraft:dropper[facing=down,triggered=true]{CustomName:'{"font":"tcc:technical","translate":"block.tcc.positional_anchor.name"}',lock:{components:{"minecraft:custom_data":{tcc:{positional_anchor:1b}}}}}
 tag @s remove tcc.positional_anchor.filled

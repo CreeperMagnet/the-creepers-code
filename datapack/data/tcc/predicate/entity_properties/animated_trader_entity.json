@@ -1,0 +1,23 @@
+[
+  {
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "movement": {
+        "horizontal_speed": {
+          "min": 0.000009999999747378752
+        }
+      }
+    }
+  },
+  {
+    "condition": "minecraft:inverted",
+    "term": {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "vehicle": {}
+      }
+    }
+  }
+]

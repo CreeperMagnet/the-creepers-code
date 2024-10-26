@@ -1,0 +1,6 @@
+{
+	"parent": "tcc:item/entity/sprouter/body/stage_0/hurt",
+	"textures": {
+		"neck": "tcc:entity/sprouter/neck/stage_3_hurt"
+	}
+}

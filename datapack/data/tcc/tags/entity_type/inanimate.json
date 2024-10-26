@@ -1,9 +1,9 @@
 {
   "values": [
     "#tcc:intangible",
+    "#minecraft:boat",
+    "#tcc:chest_boats",
     "minecraft:armor_stand",
-    "minecraft:boat",
-    "minecraft:chest_boat",
     "minecraft:chest_minecart",
     "minecraft:command_block_minecart",
     "minecraft:end_crystal",

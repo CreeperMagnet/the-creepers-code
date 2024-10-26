@@ -14,19 +14,24 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_model_data": 330003,
-                "minecraft:food": {
-                  "nutrition": 6,
-                  "saturation": 10.0,
-                  "can_always_eat": true,
-                  "effects": [
+                "minecraft:item_model": "tcc:heartbeet",
+                "minecraft:consumable": {
+                  "on_consume_effects": [
                     {
-                      "effect": {
-                        "id": "minecraft:health_boost",
-                        "duration": 600
-                      }
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        {
+                          "id": "minecraft:health_boost",
+                          "duration": 600
+                        }
+                      ]
                     }
                   ]
+                },
+                "minecraft:food": {
+                  "nutrition": 6,
+                  "saturation": 10,
+                  "can_always_eat": true
                 }
               }
             },

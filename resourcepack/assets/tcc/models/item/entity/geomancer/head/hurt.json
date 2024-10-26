@@ -1,0 +1,6 @@
+{
+	"parent": "tcc:item/entity/geomancer/head/main",
+	"textures": {
+		"0": "tcc:entity/geomancer/main_hurt"
+	}
+}

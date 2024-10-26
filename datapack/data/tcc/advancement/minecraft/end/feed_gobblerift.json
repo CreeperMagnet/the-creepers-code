@@ -1,9 +1,9 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:warped_fungus_on_a_stick",
+      "id": "minecraft:stone",
       "components": {
-        "minecraft:custom_model_data": 330008
+        "minecraft:item_model": "tcc:gobblerift"
       }
     },
     "title": {

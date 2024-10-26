@@ -1,8 +1,0 @@
-{
-	"parent": "tcc:entity/sprouter/body/stage_0/moving",
-	"textures": {
-		"body": "tcc:entity/sprouter/body_hurt",
-		"neck": "tcc:entity/sprouter/neck/stage_0_hurt",
-		"flippers": "tcc:entity/sprouter/flippers_hurt"
-	}
-}

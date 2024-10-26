@@ -3,12 +3,8 @@
   "category": "building",
   "group": "mossy_stone_brick_slab",
   "ingredients": [
-    {
-      "item": "minecraft:stone_brick_slab"
-    },
-    {
-      "item": "minecraft:vine"
-    }
+    "minecraft:stone_brick_slab",
+    "minecraft:vine"
   ],
   "result": {
     "id": "minecraft:mossy_stone_brick_slab"

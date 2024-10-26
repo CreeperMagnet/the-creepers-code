@@ -19,6 +19,7 @@
                 "minecraft:item_name",
                 "minecraft:hide_additional_tooltip",
                 "minecraft:banner_patterns",
+                "minecraft:rarity",
                 "minecraft:custom_data",
                 "minecraft:lore"
               ],

@@ -89,7 +89,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_model_data": 330000
+                "minecraft:item_model": "tcc:block/composter/contents1"
               }
             },
             {
@@ -131,7 +131,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_model_data": 330001
+                "minecraft:item_model": "tcc:block/composter/contents2"
               }
             },
             {
@@ -173,7 +173,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_model_data": 330002
+                "minecraft:item_model": "tcc:block/composter/contents3"
               }
             },
             {
@@ -215,7 +215,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_model_data": 330003
+                "minecraft:item_model": "tcc:block/composter/contents4"
               }
             },
             {
@@ -257,7 +257,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_model_data": 330004
+                "minecraft:item_model": "tcc:block/composter/contents5"
               }
             },
             {
@@ -299,7 +299,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_model_data": 330005
+                "minecraft:item_model": "tcc:block/composter/contents6"
               }
             },
             {
@@ -341,7 +341,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_model_data": 330006
+                "minecraft:item_model": "tcc:block/composter/contents7"
               }
             },
             {
@@ -383,7 +383,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_model_data": 330007
+                "minecraft:item_model": "tcc:block/composter/contents_ready"
               }
             },
             {

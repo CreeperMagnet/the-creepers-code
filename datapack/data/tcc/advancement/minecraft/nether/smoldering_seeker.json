@@ -1,9 +1,9 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:compass",
+      "id": "minecraft:stone",
       "components": {
-        "minecraft:custom_model_data": 330000
+        "minecraft:item_model": "tcc:smoldering_seeker/main"
       }
     },
     "title": {

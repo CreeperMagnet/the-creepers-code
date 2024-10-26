@@ -6,12 +6,17 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:mourner_pottery_sherd",
-          "weight": 350
+          "weight": 70
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:plenty_pottery_sherd",
-          "weight": 350
+          "weight": 70
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:echo_shard",
+          "weight": 35
         },
         {
           "type": "minecraft:item",
@@ -22,17 +27,17 @@
               "options": "minecraft:swift_sneak"
             }
           ],
-          "weight": 200
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:enchanted_golden_apple",
-          "weight": 50
+          "weight": 15
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:ward_armor_trim_smithing_template",
-          "weight": 49
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_golden_apple",
+          "weight": 4
         },
         {
           "type": "minecraft:item",

@@ -14,7 +14,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_model_data": 330006,
+                "minecraft:item_model": "tcc:weeping_eye/unset",
                 "!minecraft:enchantments": {},
                 "!minecraft:damage": {},
                 "!minecraft:max_damage": {},

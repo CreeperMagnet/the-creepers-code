@@ -14,7 +14,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_model_data": 330033,
+                "minecraft:item_model": "tcc:snail_bucket",
                 "!minecraft:damage": {},
                 "!minecraft:max_damage": {}
               }

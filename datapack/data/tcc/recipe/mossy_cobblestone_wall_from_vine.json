@@ -3,12 +3,8 @@
   "category": "misc",
   "group": "mossy_cobblestone_wall",
   "ingredients": [
-    {
-      "item": "minecraft:cobblestone_wall"
-    },
-    {
-      "item": "minecraft:vine"
-    }
+    "minecraft:cobblestone_wall",
+    "minecraft:vine"
   ],
   "result": {
     "id": "minecraft:mossy_cobblestone_wall"

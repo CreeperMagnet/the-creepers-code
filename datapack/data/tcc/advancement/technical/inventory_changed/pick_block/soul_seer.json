@@ -7,7 +7,7 @@
         "items": [
           {
             "components": {
-              "minecraft:lock": "\u00a7soul_seer\\uF001"
+              "minecraft:custom_name": "{\"translate\":\"block.tcc.soul_seer.name\",\"font\":\"tcc:technical\"}"
             }
           }
         ]

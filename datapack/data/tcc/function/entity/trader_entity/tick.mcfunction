@@ -1,9 +1,14 @@
 # Ticks a living entity with a wandering trader base
 
-item replace entity @s weapon.mainhand with minecraft:structure_block
-data modify entity @s[tag=!tcc.trader_entity.no_head] ArmorItems[3].components."minecraft:custom_model_data" set from entity @s ArmorItems[3].components."minecraft:custom_data".tcc.custom_model_data.head
-data modify entity @s[tag=!tcc.spellcasting] HandItems[0].components."minecraft:custom_model_data" set from entity @s ArmorItems[3].components."minecraft:custom_data".tcc.custom_model_data.idle
-data modify entity @s[tag=!tcc.spellcasting,tag=!tcc.trader_entity.static,predicate=tcc:entity_properties/moving,predicate=!tcc:entity_properties/in_vehicle] HandItems[0].components."minecraft:custom_model_data" set from entity @s ArmorItems[3].components."minecraft:custom_data".tcc.custom_model_data.moving
-data modify entity @s[tag=tcc.spellcasting] HandItems[0].components."minecraft:custom_model_data" set from entity @s ArmorItems[3].components."minecraft:custom_data".tcc.custom_model_data.spellcasting
+# If this line does not exist, the trader starts shaking uncontrollably
+item replace entity @s weapon.mainhand with minecraft:shears
 
-execute if entity @s[nbt=!{HurtTime:0s}] run function tcc:entity/trader_entity/hurt/main
+data modify entity @s HandItems[0] set from entity @s ArmorItems[2]
+item modify entity @s[predicate=tcc:entity_properties/animated_trader_entity] weapon.mainhand {"function":"set_custom_model_data","value":1}
+
+execute store result score @s tcc.dummy run data get entity @s HurtTime
+execute unless score @s tcc.dummy matches 0 run return run function tcc:entity/trader_entity/hurt
+
+# "damage" is inverted because mojang smells—"1" is full durability, "0" is fully broken
+# we do not reset the damage of the mainhand because that is already done by resetting the item on the second command above
+item modify entity @s armor.head {"function":"set_damage","damage":1}

@@ -7,18 +7,14 @@
     "##"
   ],
   "key": {
-    "#": {
-      "tag": "minecraft:planks"
-    },
-    "B": {
-      "item": "minecraft:brick"
-    }
+    "#": "#minecraft:planks",
+    "B": "minecraft:brick"
   },
   "result": {
     "id": "minecraft:barrel",
     "count": 1,
     "components": {
-      "minecraft:custom_model_data": 330000,
+      "minecraft:item_model": "tcc:block/pottery_table",
       "minecraft:container": [
         {
           "slot": 0,
@@ -33,7 +29,7 @@
                   "block": "pottery_table"
                 }
               },
-              "minecraft:custom_model_data": 330000
+              "minecraft:item_model": "tcc:empty"
             }
           }
         }

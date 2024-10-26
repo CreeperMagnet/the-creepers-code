@@ -1,6 +1,0 @@
-{
-	"parent": "tcc:entity/sprouter/body/stage_0/idle",
-	"textures": {
-		"neck": "tcc:entity/sprouter/neck/stage_3"
-	}
-}

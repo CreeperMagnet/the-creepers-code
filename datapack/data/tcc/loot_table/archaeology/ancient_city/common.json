@@ -33,10 +33,6 @@
           "type": "minecraft:item",
           "name": "minecraft:amethyst_shard",
           "weight": 2
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:echo_shard"
         }
       ]
     }

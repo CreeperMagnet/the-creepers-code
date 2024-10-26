@@ -14,7 +14,9 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_model_data": 330017
+                "minecraft:item_model": "tcc:pottery_sherd/prismarine/artifact",
+                "minecraft:rarity": "uncommon",
+                "!minecraft:consumable": {}
               }
             },
             {
@@ -36,7 +38,7 @@
               "mode": "replace_all"
             }
           ],
-          "name": "minecraft:angler_pottery_sherd"
+          "name": "minecraft:poisonous_potato"
         }
       ]
     }

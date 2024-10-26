@@ -2,33 +2,28 @@
   "category": "misc",
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
-    {
-      "item": "minecraft:bowl"
-    },
-    {
-      "item": "minecraft:warped_fungus"
-    },
-    {
-      "item": "minecraft:crimson_fungus"
-    }
+    "minecraft:bowl",
+    "minecraft:crimson_fungus",
+    "minecraft:warped_fungus"
   ],
   "result": {
     "id": "minecraft:poisonous_potato",
     "count": 1,
     "components": {
-      "minecraft:custom_model_data": 330007,
+      "minecraft:item_model": "tcc:fungal_stew",
       "minecraft:custom_data": {
         "tcc": {
           "id": "fungal_stew"
         }
       },
       "minecraft:max_stack_size": 1,
+      "minecraft:consumable": {},
       "minecraft:food": {
         "nutrition": 7,
-        "saturation": 9.0,
-        "using_converts_to": {
-          "id": "minecraft:bowl"
-        }
+        "saturation": 9.0
+      },
+      "minecraft:use_remainder": {
+        "id": "minecraft:bowl"
       },
       "minecraft:item_name": "{\"translate\":\"item.tcc.fungal_stew\"}",
       "minecraft:lore": [

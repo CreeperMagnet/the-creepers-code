@@ -1,0 +1,7 @@
+{
+	"parent": "tcc:item/block/sprouter_egg/stage_0",
+	"textures": {
+		"0": "tcc:block/sprouter_egg/stage_2",
+		"particle": "tcc:block/sprouter_egg/stage_2"
+	}
+}

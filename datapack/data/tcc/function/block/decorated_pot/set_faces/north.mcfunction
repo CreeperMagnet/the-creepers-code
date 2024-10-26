@@ -1,6 +1,9 @@
 # Sets the faces of the decorated pot
 
-scoreboard players operation #temp_4 tcc.dummy = #temp_0 tcc.dummy
-scoreboard players operation #temp_5 tcc.dummy = #temp_2 tcc.dummy
-scoreboard players operation #temp_6 tcc.dummy = #temp_3 tcc.dummy
-scoreboard players operation #temp_7 tcc.dummy = #temp_1 tcc.dummy
+data modify storage tcc:temp root.macro_input.sherd_0 set from storage tcc:temp root.item.components."minecraft:custom_data".tcc.sherds[2].components."minecraft:custom_data".tcc.sherd
+data modify storage tcc:temp root.macro_input.sherd_1 set from storage tcc:temp root.item.components."minecraft:custom_data".tcc.sherds[0].components."minecraft:custom_data".tcc.sherd
+function tcc:block/decorated_pot/set_faces_macro with storage tcc:temp root.macro_input
+
+data modify storage tcc:temp root.macro_input.sherd_0 set from storage tcc:temp root.item.components."minecraft:custom_data".tcc.sherds[1].components."minecraft:custom_data".tcc.sherd
+data modify storage tcc:temp root.macro_input.sherd_1 set from storage tcc:temp root.item.components."minecraft:custom_data".tcc.sherds[3].components."minecraft:custom_data".tcc.sherd
+execute on passengers run function tcc:block/decorated_pot/set_faces_macro with storage tcc:temp root.macro_input

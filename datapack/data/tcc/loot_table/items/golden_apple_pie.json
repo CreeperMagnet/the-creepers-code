@@ -14,25 +14,27 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_model_data": 330004,
-                "minecraft:rarity": "rare",
+                "minecraft:item_model": "tcc:golden_apple_pie",
+                "minecraft:consumable": {
+                  "on_consume_effects": [
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        {
+                          "id": "minecraft:haste",
+                          "duration": 7200
+                        },
+                        {
+                          "id": "minecraft:speed",
+                          "duration": 2400
+                        }
+                      ]
+                    }
+                  ]
+                },
                 "minecraft:food": {
                   "nutrition": 8,
                   "saturation": 4.8,
-                  "effects": [
-                    {
-                      "effect": {
-                        "id": "minecraft:haste",
-                        "duration": 7200
-                      }
-                    },
-                    {
-                      "effect": {
-                        "id": "minecraft:speed",
-                        "duration": 2400
-                      }
-                    }
-                  ],
                   "can_always_eat": true
                 }
               }

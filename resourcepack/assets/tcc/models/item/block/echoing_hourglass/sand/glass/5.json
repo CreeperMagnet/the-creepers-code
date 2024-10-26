@@ -1,0 +1,7 @@
+{
+  "parent": "tcc:item/block/echoing_hourglass/template_glass/5",
+  "textures": {
+		"input": "tcc:block/echoing_hourglass/sand",
+    "output": "tcc:block/echoing_hourglass/suspicious_sand"
+  }
+}

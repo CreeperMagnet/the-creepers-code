@@ -14,7 +14,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_model_data": 330004,
+                "minecraft:item_model": "tcc:block/soul_seer/off",
                 "minecraft:container": [
                   {
                     "slot": 0,
@@ -29,7 +29,7 @@
                             "block": "soul_seer"
                           }
                         },
-                        "minecraft:custom_model_data": 330000
+                        "minecraft:item_model": "tcc:empty"
                       }
                     }
                   }

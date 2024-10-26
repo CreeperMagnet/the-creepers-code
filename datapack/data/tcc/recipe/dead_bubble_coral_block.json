@@ -7,12 +7,8 @@
   ],
   "key": {
     "#": [
-      {
-        "item": "minecraft:dead_bubble_coral"
-      },
-      {
-        "item": "minecraft:dead_bubble_coral_fan"
-      }
+      "minecraft:dead_bubble_coral",
+      "minecraft:dead_bubble_coral_fan"
     ]
   },
   "result": {

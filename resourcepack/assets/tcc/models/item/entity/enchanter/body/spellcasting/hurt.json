@@ -1,0 +1,6 @@
+{
+  "parent": "tcc:item/entity/enchanter/body/spellcasting/main",
+  "textures": {
+    "0": "tcc:entity/enchanter/main_hurt"
+  }
+}

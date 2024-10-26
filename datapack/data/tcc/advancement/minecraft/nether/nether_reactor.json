@@ -1,9 +1,9 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:dropper",
+      "id": "minecraft:stone",
       "components": {
-        "minecraft:custom_model_data": 330001
+        "minecraft:item_model": "tcc:block/nether_reactor_core/off"
       }
     },
     "title": {

@@ -2,7 +2,8 @@
 
 scoreboard players reset @s tcc.dummy2
 tag @s remove tcc.spellcasting
-attribute @s minecraft:generic.movement_speed modifier remove tcc:slowness
+data modify entity @s ArmorItems[2].components."minecraft:item_model" set value "tcc:entity/geomancer/body/normal/main"
+attribute @s minecraft:movement_speed modifier remove tcc:slowness
 execute if entity @s[tag=tcc.has_line_of_sight] run playsound tcc:entity.geomancer.cast_spell hostile @a[distance=..16]
 data remove storage tcc:temp root
 data modify storage tcc:temp root.UUID set from entity @s UUID

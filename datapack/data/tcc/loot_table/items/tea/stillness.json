@@ -14,11 +14,12 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_model_data": 330001,
+                "minecraft:item_model": "tcc:tea",
                 "minecraft:potion_contents": {
                   "custom_effects": [],
                   "potion": "minecraft:mundane",
-                  "custom_color": 9607935
+                  "custom_color": 9607935,
+                  "custom_name": "tcc:stillness_tea"
                 },
                 "minecraft:hide_additional_tooltip": {}
               }

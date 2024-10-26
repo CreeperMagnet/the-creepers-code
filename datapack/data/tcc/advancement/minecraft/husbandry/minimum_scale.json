@@ -4,7 +4,7 @@
     "icon": {
       "id": "minecraft:potion",
       "components": {
-        "minecraft:custom_model_data": 330003,
+        "minecraft:item_model": "tcc:serum_of_shrinking",
         "minecraft:potion_contents": {
           "potion": "minecraft:mundane",
           "custom_color": 16777215

@@ -7,34 +7,35 @@
     "###"
   ],
   "key": {
-    "#": {
-      "item": "minecraft:gold_ingot"
-    },
-    "F": {
-      "item": "minecraft:chorus_fruit"
-    }
+    "#": "minecraft:gold_ingot",
+    "F": "minecraft:chorus_fruit"
   },
   "result": {
     "id": "minecraft:poisonous_potato",
     "count": 1,
     "components": {
-      "minecraft:custom_model_data": 330005,
+      "minecraft:item_model": "tcc:golden_chorus_fruit",
       "minecraft:custom_data": {
         "tcc": {
           "id": "golden_chorus_fruit"
         }
       },
+      "minecraft:consumable": {
+        "consume_seconds": 5.0
+      },
       "minecraft:food": {
         "nutrition": 8,
         "saturation": 12.0,
-        "can_always_eat": true,
-        "eat_seconds": 5.0
+        "can_always_eat": true
+      },
+      "minecraft:use_cooldown": {
+        "seconds": 10,
+        "cooldown_group": "tcc:golden_chorus_fruit"
       },
       "minecraft:item_name": "{\"translate\":\"item.tcc.golden_chorus_fruit\"}",
       "minecraft:lore": [
         "{\"translate\":\"pack.tcc\",\"color\":\"#008725\",\"italic\":true}"
-      ],
-      "minecraft:rarity": "rare"
+      ]
     }
   }
 }

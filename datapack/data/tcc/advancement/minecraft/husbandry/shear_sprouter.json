@@ -2,9 +2,9 @@
   "parent": "tcc:minecraft/husbandry/obtain_sprouter_egg",
   "display": {
     "icon": {
-      "id": "minecraft:glistering_melon_slice",
+      "id": "minecraft:stone",
       "components": {
-        "minecraft:custom_model_data": 330004
+        "minecraft:item_model": "tcc:scalesprouts"
       }
     },
     "title": {

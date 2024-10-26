@@ -1,0 +1,6 @@
+{
+	"parent": "tcc:item/block/gobblerift/stage_5",
+	"textures": {
+		"1": "tcc:block/gobblerift_hurt"
+	}
+}

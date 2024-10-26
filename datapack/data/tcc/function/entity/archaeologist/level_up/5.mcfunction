@@ -16,5 +16,5 @@ loot replace entity @s weapon.mainhand 1 loot tcc:trades/archaeologist/trade_9/s
 execute if entity @s[nbt={HandItems:[{id:"minecraft:map"},{}]}] run data modify entity @s HandItems[0] set value {id:"minecraft:map",count:1}
 data modify entity @s Offers.Recipes[-1].sell set from entity @s HandItems[0]
 
-item replace entity @s weapon.mainhand with minecraft:structure_block[minecraft:custom_model_data=330064]
+item replace entity @s weapon.mainhand with minecraft:shears[minecraft:item_model="tcc:entity/archaeologist/body/main"]
 item replace entity @s weapon.offhand with minecraft:air

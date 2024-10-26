@@ -14,10 +14,11 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_model_data": 330001,
+                "minecraft:item_model": "tcc:tea",
                 "minecraft:potion_contents": {
                   "potion": "minecraft:mundane",
-                  "custom_color": 15233650
+                  "custom_color": 15233650,
+                  "custom_name": "tcc:clearsight_tea"
                 },
                 "minecraft:hide_additional_tooltip": {}
               }

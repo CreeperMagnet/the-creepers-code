@@ -3,12 +3,8 @@
   "category": "misc",
   "group": "mossy_stone_brick_wall",
   "ingredients": [
-    {
-      "item": "minecraft:stone_brick_wall"
-    },
-    {
-      "item": "minecraft:moss_block"
-    }
+    "minecraft:stone_brick_wall",
+    "minecraft:moss_block"
   ],
   "result": {
     "id": "minecraft:mossy_stone_brick_wall"

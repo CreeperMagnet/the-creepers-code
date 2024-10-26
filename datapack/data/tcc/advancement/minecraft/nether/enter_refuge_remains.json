@@ -1,9 +1,9 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:angler_pottery_sherd",
+      "id": "minecraft:stone",
       "components": {
-        "minecraft:custom_model_data": 330001
+        "minecraft:item_model": "tcc:pottery_sherd/nether_brick/spirit"
       }
     },
     "title": {

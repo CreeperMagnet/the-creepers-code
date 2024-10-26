@@ -2,45 +2,44 @@
   "category": "misc",
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
-    {
-      "item": "minecraft:enchanted_golden_apple"
-    },
-    {
-      "item": "minecraft:sugar"
-    },
-    {
-      "item": "minecraft:egg"
-    }
+    "minecraft:enchanted_golden_apple",
+    "minecraft:sugar",
+    "minecraft:egg"
   ],
   "result": {
     "id": "minecraft:poisonous_potato",
     "count": 1,
     "components": {
-      "minecraft:custom_model_data": 330001,
+      "minecraft:item_model": "tcc:golden_apple_pie",
       "minecraft:custom_data": {
         "tcc": {
           "id": "enchanted_golden_apple_pie"
         }
       },
+      "minecraft:consumable": {
+        "on_consume_effects": [
+          {
+            "type": "minecraft:apply_effects",
+            "effects": [
+              {
+                "id": "minecraft:haste",
+                "duration": 18000,
+                "amplifier": 1,
+                "show_icon": true
+              },
+              {
+                "id": "minecraft:speed",
+                "duration": 6000,
+                "amplifier": 1,
+                "show_icon": true
+              }
+            ]
+          }
+        ]
+      },
       "minecraft:food": {
         "nutrition": 8,
         "saturation": 4.8,
-        "effects": [
-          {
-            "effect": {
-              "id": "minecraft:haste",
-              "duration": 18000,
-              "amplifier": 1
-            }
-          },
-          {
-            "effect": {
-              "id": "minecraft:speed",
-              "duration": 6000,
-              "amplifier": 1
-            }
-          }
-        ],
         "can_always_eat": true
       },
       "minecraft:item_name": "{\"translate\":\"item.tcc.enchanted_golden_apple_pie\"}",
@@ -48,7 +47,7 @@
         "{\"translate\":\"pack.tcc\",\"color\":\"#008725\",\"italic\":true}"
       ],
       "minecraft:enchantment_glint_override": true,
-      "minecraft:rarity": "epic"
+      "minecraft:rarity": "rare"
     }
   }
 }

@@ -3,18 +3,10 @@
   "type": "crafting_shapeless",
   "group": "suspicious_stew",
   "ingredients": [
-    {
-      "item": "minecraft:chorus_flower"
-    },
-    {
-      "item": "minecraft:bowl"
-    },
-    {
-      "item": "minecraft:red_mushroom"
-    },
-    {
-      "item": "minecraft:brown_mushroom"
-    }
+    "minecraft:chorus_flower",
+    "minecraft:bowl",
+    "minecraft:red_mushroom",
+    "minecraft:brown_mushroom"
   ],
   "result": {
     "id": "minecraft:suspicious_stew",

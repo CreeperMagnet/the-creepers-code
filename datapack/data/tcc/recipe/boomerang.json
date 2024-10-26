@@ -7,24 +7,23 @@
     "  L"
   ],
   "key": {
-    "#": {
-      "tag": "minecraft:planks"
-    },
-    "L": {
-      "item": "minecraft:leather"
-    }
+    "#": "#minecraft:planks",
+    "L": "minecraft:leather"
   },
   "result": {
     "id": "minecraft:warped_fungus_on_a_stick",
     "count": 1,
     "components": {
-      "minecraft:custom_model_data": 330002,
+      "minecraft:item_model": "tcc:boomerang",
       "minecraft:damage": 0,
       "minecraft:max_damage": 300,
       "minecraft:custom_data": {
         "tcc": {
           "id": "boomerang"
         }
+      },
+      "minecraft:repairable": {
+        "items": "#tcc:repair_items/boomerang"
       },
       "minecraft:item_name": "{\"translate\": \"item.tcc.boomerang\"}",
       "minecraft:lore": [

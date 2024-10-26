@@ -14,7 +14,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_model_data": 330006,
+                "minecraft:item_model": "tcc:block/snail_nest",
                 "minecraft:container": [
                   {
                     "slot": 0,
@@ -29,7 +29,7 @@
                             "block": "snail_nest"
                           }
                         },
-                        "minecraft:custom_model_data": 330000
+                        "minecraft:item_model": "tcc:empty"
                       }
                     }
                   }

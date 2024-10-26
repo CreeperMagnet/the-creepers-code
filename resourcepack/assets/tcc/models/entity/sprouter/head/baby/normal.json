@@ -1,9 +1,0 @@
-{
-	"parent": "tcc:entity/sprouter/head/adult/normal",
-	"display": {
-		"head": {
-			"translation": [0, 2, -2],
-			"scale": [1.0, 1.0, 1.0]
-		}
-	}
-}

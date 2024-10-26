@@ -1,0 +1,6 @@
+{
+  "parent": "tcc:item/entity/archaeologist/head/main",
+  "textures": {
+    "0": "tcc:entity/archaeologist/hurt"
+  }
+}

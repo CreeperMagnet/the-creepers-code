@@ -5,9 +5,7 @@ execute positioned ~ ~-1 ~ if predicate tcc:location_check/nether_reactor/active
 
 # If there is no valid active multiblock, it is no longer on
 tag @s remove tcc.nether_reactor_core.on
-tag @s remove tcc.glow_in_the_dark
 playsound tcc:block.nether_reactor.burn_out block @a[distance=..16]
 particle minecraft:large_smoke ~ ~ ~ 1 1 1 0.2 100 normal
-data modify entity @s item.components."minecraft:custom_model_data" set value 330000
-data remove entity @s brightness
+data modify entity @s item.components."minecraft:item_model" set value "tcc:block/nether_reactor_core/off"
 fill ~1 ~ ~1 ~-1 ~-2 ~-1 minecraft:cracked_polished_blackstone_bricks replace minecraft:polished_blackstone_bricks

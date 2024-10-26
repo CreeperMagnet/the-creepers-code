@@ -1,0 +1,14 @@
+{
+	"parent": "tcc:item/entity/snail/template",
+	"textures": {
+		"0": "tcc:entity/snail/light_blue/normal"
+	},
+  "overrides": [
+    {
+      "predicate": {
+        "damaged": 1
+      },
+      "model": "tcc:item/entity/snail/light_blue/hurt"
+    }
+  ]
+}

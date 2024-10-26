@@ -14,9 +14,12 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_model_data": 330002,
+                "minecraft:item_model": "tcc:boomerang",
                 "minecraft:damage": 0,
-                "minecraft:max_damage": 300
+                "minecraft:max_damage": 300,
+                "minecraft:repairable": {
+                  "items": "#tcc:repair_items/boomerang"
+                }
               }
             },
             {

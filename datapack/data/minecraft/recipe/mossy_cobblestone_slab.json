@@ -3,9 +3,7 @@
   "category": "building",
   "group": "mossy_cobblestone_slab",
   "key": {
-    "#": {
-      "item": "minecraft:mossy_cobblestone"
-    }
+    "#": "minecraft:mossy_cobblestone"
   },
   "pattern": [
     "###"

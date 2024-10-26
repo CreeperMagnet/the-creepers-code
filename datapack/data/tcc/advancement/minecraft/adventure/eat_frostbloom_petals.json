@@ -2,9 +2,9 @@
   "parent": "tcc:minecraft/adventure/plant_frostbloom",
   "display": {
     "icon": {
-      "id": "minecraft:poisonous_potato",
+      "id": "minecraft:stone",
       "components": {
-        "minecraft:custom_model_data": 330002
+        "minecraft:item_model": "tcc:frostbloom_petals"
       }
     },
     "title": {

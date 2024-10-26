@@ -5,12 +5,8 @@
     "#X"
   ],
   "key": {
-    "#": {
-      "item": "minecraft:warped_roots"
-    },
-    "X": {
-      "item": "minecraft:nether_wart"
-    }
+    "#": "minecraft:warped_roots",
+    "X": "minecraft:nether_wart"
   },
   "result": {
     "id": "minecraft:warped_wart_block"

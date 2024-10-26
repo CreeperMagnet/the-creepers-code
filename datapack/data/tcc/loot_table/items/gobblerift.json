@@ -14,7 +14,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_model_data": 330008,
+                "minecraft:item_model": "tcc:gobblerift",
                 "!minecraft:damage": {},
                 "!minecraft:max_damage": {},
                 "minecraft:rarity": "uncommon"

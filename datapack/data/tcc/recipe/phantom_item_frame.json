@@ -7,18 +7,14 @@
     "###"
   ],
   "key": {
-    "#": {
-      "item": "minecraft:stick"
-    },
-    "X": {
-      "item": "minecraft:phantom_membrane"
-    }
+    "#": "minecraft:stick",
+    "X": "minecraft:phantom_membrane"
   },
   "result": {
     "id": "minecraft:item_frame",
     "count": 1,
     "components": {
-      "minecraft:custom_model_data": 330000,
+      "minecraft:item_model": "tcc:phantom_item_frame",
       "minecraft:entity_data": {
         "Tags": [
           "tcc.phantom_item_frame.initiate"

@@ -2,9 +2,9 @@
   "parent": "minecraft:husbandry/root",
   "display": {
     "icon": {
-      "id": "minecraft:warped_fungus_on_a_stick",
+      "id": "minecraft:stone",
       "components": {
-        "minecraft:custom_model_data": 330299
+        "minecraft:item_model": "tcc:sprouter_egg"
       }
     },
     "title": {

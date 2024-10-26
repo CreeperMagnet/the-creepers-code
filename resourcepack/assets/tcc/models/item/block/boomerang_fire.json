@@ -1,0 +1,32 @@
+{
+	"textures": {
+		"0": "block/fire_0",
+		"1": "block/fire_1",
+		"particle": "block/fire_0"
+	},
+	"elements": [
+		{
+			"from": [8.25, 0, 0],
+			"to": [8.25, 16, 16],
+			"shade": false,
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0, 8]},
+			"faces": {
+				"east": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#0"}
+			},
+			"light_emission": 15
+		},
+		{
+			"from": [7.75, 0, 0],
+			"to": [7.75, 16, 16],
+			"shade": false,
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0, 8]},
+			"faces": {
+				"east": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#1"}
+			},
+			"light_emission": 15
+		}
+	],
+	"gui_light": "front"
+}

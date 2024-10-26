@@ -14,7 +14,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_model_data": 330001,
+                "minecraft:item_model": "tcc:cursed_crown",
                 "minecraft:attribute_modifiers": {
                   "modifiers": [
                     {
@@ -22,14 +22,14 @@
                       "slot": "head",
                       "id": "tcc:cursed_crown_armor",
                       "operation": "add_value",
-                      "type": "minecraft:generic.armor"
+                      "type": "minecraft:armor"
                     },
                     {
                       "amount": -16.0,
                       "slot": "head",
                       "id": "tcc:cursed_crown_health",
                       "operation": "add_value",
-                      "type": "minecraft:generic.max_health"
+                      "type": "minecraft:max_health"
                     }
                   ],
                   "show_in_tooltip": false
@@ -41,7 +41,16 @@
                 },
                 "minecraft:damage": 0,
                 "minecraft:rarity": "uncommon",
-                "minecraft:max_damage": 500
+                "minecraft:max_damage": 500,
+                "minecraft:equippable": {
+                  "equip_sound": {
+                    "sound_id": "tcc:item.armor.equip_cursed_crown"
+                  },
+                  "slot": "head"
+                },
+                "minecraft:repairable": {
+                  "items": "#tcc:repair_items/cursed_crown"
+                }
               }
             },
             {
@@ -70,9 +79,9 @@
                   "italic": false,
                   "color": "blue",
                   "with": [
-                    3,
+                    "3",
                     {
-                      "translate": "attribute.name.generic.armor"
+                      "translate": "attribute.name.armor"
                     }
                   ]
                 },
@@ -81,9 +90,9 @@
                   "italic": false,
                   "color": "red",
                   "with": [
-                    80,
+                    "80",
                     {
-                      "translate": "attribute.name.generic.max_health"
+                      "translate": "attribute.name.max_health"
                     }
                   ]
                 },
@@ -92,7 +101,7 @@
                   "italic": false,
                   "color": "blue",
                   "with": [
-                    80,
+                    "80",
                     {
                       "translate": "item.tcc.cursed_crown.absorption_health"
                     }

@@ -6,9 +6,7 @@
     "###"
   ],
   "key": {
-    "#": {
-      "item": "minecraft:red_nether_bricks"
-    }
+    "#": "minecraft:red_nether_bricks"
   },
   "result": {
     "count": 6,

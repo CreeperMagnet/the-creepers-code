@@ -14,7 +14,8 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_model_data": 330006,
+                "minecraft:item_model": "tcc:sweet_berry_muffin",
+                "minecraft:consumable": {},
                 "minecraft:food": {
                   "nutrition": 7,
                   "saturation": 10.0

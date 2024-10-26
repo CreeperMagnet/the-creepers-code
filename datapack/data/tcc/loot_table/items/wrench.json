@@ -14,9 +14,12 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_model_data": 330004,
+                "minecraft:item_model": "tcc:wrench",
                 "minecraft:damage": 0,
-                "minecraft:max_damage": 200
+                "minecraft:max_damage": 200,
+                "minecraft:repairable": {
+                  "items": "#tcc:repair_items/wrench"
+                }
               }
             },
             {

@@ -4,4 +4,5 @@ data modify storage tcc:temp root.item.components."minecraft:item_name" set valu
 data modify storage tcc:temp root.item.components."minecraft:lore" prepend value '{"color":"red","italic":false,"translate":"effect.tcc.minor_instant_damage"}'
 data modify storage tcc:temp root.item.components."minecraft:custom_data".tcc.potion.uses set value [6,6]
 data modify storage tcc:temp root.item.components."minecraft:lore"[1] set value '{"translate":"item.tcc.diluted_potion.uses","color":"gray","italic":false,"with":[6,6]}'
-data modify storage tcc:temp root.item.components."minecraft:custom_model_data" set value 330105
+data modify storage tcc:temp root.item.components."minecraft:item_model" set value "tcc:diluted_potion/harming/main"
+data modify storage tcc:temp root.item.components."minecraft:custom_model_data" set value 6

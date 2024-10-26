@@ -2,9 +2,9 @@
   "parent": "minecraft:adventure/kill_a_mob",
   "display": {
     "icon": {
-      "id": "minecraft:warped_fungus_on_a_stick",
+      "id": "minecraft:stone",
       "components": {
-        "minecraft:custom_model_data": 330031,
+        "minecraft:item_model": "tcc:locket_of_learning/filled_5",
         "minecraft:enchantment_glint_override": true
       }
     },

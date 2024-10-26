@@ -5,8 +5,7 @@ execute if data storage tcc:temp root.barrel_data[1][{Slot:11b}] unless data sto
 execute if data storage tcc:temp root.barrel_data[1][{Slot:13b}] unless data storage tcc:temp root.barrel_data[1][{Slot:13b,components:{"minecraft:custom_data":{tcc:{id:"pottery_sherd",type:"nether_brick"}}}}] run return 0
 execute if data storage tcc:temp root.barrel_data[1][{Slot:21b}] unless data storage tcc:temp root.barrel_data[1][{Slot:21b,components:{"minecraft:custom_data":{tcc:{id:"pottery_sherd",type:"nether_brick"}}}}] run return 0
 
-function tcc:block/pottery_table/crafting/create_output/decorate_pot/custom_pot_cmd
-execute store result storage tcc:temp root.item.components."minecraft:custom_model_data" int 1 run scoreboard players get @s tcc.dummy
+function tcc:block/pottery_table/crafting/create_output/decorate_pot/common
 
 data modify storage tcc:temp root.item.components."minecraft:lore" prepend value '{"translate":"item.minecraft.nether_brick","color":"gray","italic":false}'
 data modify storage tcc:temp root.item.components."minecraft:lore" prepend value '{"translate":"item.minecraft.nether_brick","color":"gray","italic":false}'

@@ -6,9 +6,7 @@
     "###"
   ],
   "key": {
-    "#": {
-      "item": "minecraft:deepslate_bricks"
-    }
+    "#": "minecraft:deepslate_bricks"
   },
   "result": {
     "count": 6,

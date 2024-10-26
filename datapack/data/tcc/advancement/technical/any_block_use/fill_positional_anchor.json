@@ -19,7 +19,7 @@
                 "blocks": [
                   "minecraft:dropper"
                 ],
-                "nbt": "{Lock:\"\u00a7positional_anchor\\\\uF001\"}"
+                "nbt": "{lock:{components:{\"minecraft:custom_data\":{tcc:{positional_anchor:1b}}}}}"
               }
             }
           }

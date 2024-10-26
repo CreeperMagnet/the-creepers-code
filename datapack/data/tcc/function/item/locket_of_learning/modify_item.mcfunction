@@ -5,12 +5,12 @@ execute store result storage tcc:temp root.item.components."minecraft:custom_dat
 
 # Set custom model data/glint based on fill level
 data modify storage tcc:temp root.item.components."minecraft:enchantment_glint_override" set value false
-execute if score #temp_0 tcc.dummy matches 0 run data modify storage tcc:temp root.item.components."minecraft:custom_model_data" set value 330026
-execute if score #temp_0 tcc.dummy matches 1..349 run data modify storage tcc:temp root.item.components."minecraft:custom_model_data" set value 330027
-execute if score #temp_0 tcc.dummy matches 350..698 run data modify storage tcc:temp root.item.components."minecraft:custom_model_data" set value 330028
-execute if score #temp_0 tcc.dummy matches 699..1046 run data modify storage tcc:temp root.item.components."minecraft:custom_model_data" set value 330029
-execute if score #temp_0 tcc.dummy matches 1047..1394 run data modify storage tcc:temp root.item.components."minecraft:custom_model_data" set value 330030
-execute if score #temp_0 tcc.dummy matches 1395 run data modify storage tcc:temp root.item.components."minecraft:custom_model_data" set value 330031
+execute if score #temp_0 tcc.dummy matches 0 run data modify storage tcc:temp root.item.components."minecraft:custom_model_data" set value 0
+execute if score #temp_0 tcc.dummy matches 1..349 run data modify storage tcc:temp root.item.components."minecraft:custom_model_data" set value 1
+execute if score #temp_0 tcc.dummy matches 350..698 run data modify storage tcc:temp root.item.components."minecraft:custom_model_data" set value 2
+execute if score #temp_0 tcc.dummy matches 699..1046 run data modify storage tcc:temp root.item.components."minecraft:custom_model_data" set value 3
+execute if score #temp_0 tcc.dummy matches 1047..1394 run data modify storage tcc:temp root.item.components."minecraft:custom_model_data" set value 4
+execute if score #temp_0 tcc.dummy matches 1395 run data modify storage tcc:temp root.item.components."minecraft:custom_model_data" set value 5
 execute if score #temp_0 tcc.dummy matches 1395 run data modify storage tcc:temp root.item.components."minecraft:enchantment_glint_override" set value true
 
 # Modifies the mainhand item

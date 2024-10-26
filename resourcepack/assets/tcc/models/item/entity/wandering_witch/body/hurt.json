@@ -1,0 +1,6 @@
+{
+	"parent": "tcc:item/entity/wandering_witch/body/main",
+	"textures": {
+		"0": "tcc:entity/wandering_witch/main_hurt"
+	}
+}

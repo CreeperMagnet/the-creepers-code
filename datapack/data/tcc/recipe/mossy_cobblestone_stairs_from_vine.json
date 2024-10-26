@@ -3,12 +3,8 @@
   "category": "building",
   "group": "mossy_cobblestone_stairs",
   "ingredients": [
-    {
-      "item": "minecraft:cobblestone_stairs"
-    },
-    {
-      "item": "minecraft:vine"
-    }
+    "minecraft:cobblestone_stairs",
+    "minecraft:vine"
   ],
   "result": {
     "id": "minecraft:mossy_cobblestone_stairs"

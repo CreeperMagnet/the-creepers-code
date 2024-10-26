@@ -14,7 +14,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_model_data": 330026,
+                "minecraft:item_model": "tcc:locket_of_learning/main",
                 "!minecraft:enchantments": {},
                 "!minecraft:damage": {},
                 "!minecraft:max_damage": {},
@@ -34,8 +34,8 @@
                 {
                   "translate": "item.tcc.locket_of_learning.lore",
                   "with": [
-                    0,
-                    1395
+                    "0",
+                    "1395"
                   ],
                   "color": "gray",
                   "italic": false

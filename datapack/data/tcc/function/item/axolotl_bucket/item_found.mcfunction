@@ -1,6 +1,6 @@
 # Buckets an axolotl
 
-execute if data storage tcc:temp root.item.components."minecraft:custom_model_data" run return 0
+execute if data storage tcc:temp root.item.components."minecraft:item_model" run return 0
 
 function tcc:item/axolotl_bucket/set_data
 

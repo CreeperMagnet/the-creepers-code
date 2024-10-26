@@ -1,0 +1,6 @@
+{
+	"parent": "tcc:item/block/potted_plant/template",
+	"textures": {
+		"cross": "tcc:block/potted_plant/rose_bush"
+	}
+}

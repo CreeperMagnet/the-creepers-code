@@ -6,9 +6,7 @@
     "###"
   ],
   "key": {
-    "#": {
-      "item": "minecraft:prismarine"
-    }
+    "#": "minecraft:prismarine"
   },
   "result": {
     "count": 6,

@@ -7,15 +7,13 @@
     " B "
   ],
   "key": {
-    "B": {
-      "item": "minecraft:prismarine_shard"
-    }
+    "B": "minecraft:prismarine_shard"
   },
   "result": {
     "id": "minecraft:decorated_pot",
     "count": 1,
     "components": {
-      "minecraft:custom_model_data": 331616,
+      "minecraft:item_model": "tcc:block/decorated_pot/prismarine/blank_blank",
       "minecraft:custom_data": {
         "tcc": {
           "id": "decorated_pot",

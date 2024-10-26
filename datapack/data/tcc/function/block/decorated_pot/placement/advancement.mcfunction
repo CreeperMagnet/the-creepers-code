@@ -13,7 +13,7 @@ data remove storage tcc:temp root.item.count
 
 
 scoreboard players set @s tcc.dummy 0
-execute store result score @s tcc.dummy run attribute @s minecraft:player.block_interaction_range get 1
+execute store result score @s tcc.dummy run attribute @s minecraft:block_interaction_range get 1
 scoreboard players add @s tcc.dummy 2
 execute anchored eyes run function tcc:block/decorated_pot/placement/raycast
 

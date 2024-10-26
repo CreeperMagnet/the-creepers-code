@@ -60,14 +60,14 @@
                     "color": "green",
                     "pattern": "minecraft:border"
                   }
-                ]
+                ],
+                "minecraft:rarity": "uncommon"
               }
             },
             {
               "function": "minecraft:set_name",
               "name": {
-                "translate": "item.tcc.sinister_banner",
-                "color": "gold"
+                "translate": "item.tcc.sinister_banner"
               },
               "target": "item_name"
             },

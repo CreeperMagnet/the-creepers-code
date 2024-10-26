@@ -5,9 +5,7 @@
     "SS"
   ],
   "key": {
-    "S": {
-      "item": "minecraft:prismarine"
-    }
+    "S": "minecraft:prismarine"
   },
   "result": {
     "count": 4,

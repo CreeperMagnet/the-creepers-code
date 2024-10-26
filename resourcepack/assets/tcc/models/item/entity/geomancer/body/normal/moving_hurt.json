@@ -1,0 +1,7 @@
+{
+	"parent": "tcc:item/entity/geomancer/body/normal/moving",
+	"textures": {
+		"0": "tcc:entity/geomancer/main_hurt",
+		"1": "tcc:entity/geomancer/legs_hurt"
+	}
+}

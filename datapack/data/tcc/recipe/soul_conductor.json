@@ -7,24 +7,16 @@
     "ESE"
   ],
   "key": {
-    "E": {
-      "item": "minecraft:echo_shard"
-    },
-    "D": {
-      "item": "minecraft:cobbled_deepslate"
-    },
-    "P": {
-      "item": "minecraft:ender_pearl"
-    },
-    "S": {
-      "item": "minecraft:sculk"
-    }
+    "E": "minecraft:echo_shard",
+    "D": "minecraft:cobbled_deepslate",
+    "P": "minecraft:ender_pearl",
+    "S": "minecraft:sculk"
   },
   "result": {
     "id": "minecraft:dropper",
     "count": 1,
     "components": {
-      "minecraft:custom_model_data": 330011,
+      "minecraft:item_model": "tcc:block/soul_conductor/up",
       "minecraft:container": [
         {
           "slot": 0,
@@ -39,7 +31,7 @@
                   "block": "soul_conductor"
                 }
               },
-              "minecraft:custom_model_data": 330000
+              "minecraft:item_model": "tcc:empty"
             }
           }
         }
@@ -56,7 +48,8 @@
       "minecraft:item_name": "{\"translate\":\"block.tcc.soul_conductor\"}",
       "minecraft:lore": [
         "{\"translate\":\"pack.tcc\",\"color\":\"#008725\",\"italic\":true}"
-      ]
+      ],
+      "minecraft:rarity": "uncommon"
     }
   }
 }

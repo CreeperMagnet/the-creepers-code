@@ -3,12 +3,8 @@
   "category": "building",
   "group": "mossy_cobblestone_slab",
   "ingredients": [
-    {
-      "item": "minecraft:cobblestone_slab"
-    },
-    {
-      "item": "minecraft:vine"
-    }
+    "minecraft:cobblestone_slab",
+    "minecraft:vine"
   ],
   "result": {
     "id": "minecraft:mossy_cobblestone_slab"

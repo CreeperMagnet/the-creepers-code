@@ -1,0 +1,7 @@
+{
+  "parent": "tcc:item/entity/enchanter/body/normal/moving",
+  "textures": {
+    "0": "tcc:entity/enchanter/main_hurt",
+    "2": "tcc:entity/enchanter/legs_hurt"
+  }
+}

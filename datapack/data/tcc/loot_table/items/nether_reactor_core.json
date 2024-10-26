@@ -14,7 +14,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_model_data": 330000,
+                "minecraft:item_model": "tcc:block/nether_reactor_core/off",
                 "minecraft:container": [
                   {
                     "slot": 0,
@@ -29,13 +29,15 @@
                             "block": "nether_reactor_core"
                           }
                         },
-                        "minecraft:custom_model_data": 330000
+                        "minecraft:item_model": "tcc:empty"
                       }
                     }
                   }
                 ],
                 "minecraft:rarity": "rare",
-                "minecraft:fire_resistant": {}
+                "minecraft:damage_resistant": {
+                  "types": "#minecraft:is_fire"
+                }
               }
             },
             {

@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:potion",
+          "name": "minecraft:poisonous_potato",
           "functions": [
             {
               "function": "minecraft:copy_custom_data",
@@ -28,13 +28,21 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_model_data": 330000,
-                "minecraft:potion_contents": {
-                  "potion": "minecraft:mundane",
-                  "custom_color": 16777215
+                "minecraft:item_model": "tcc:riftjuice_bottle",
+                "minecraft:rarity": "uncommon",
+                "minecraft:consumable": {
+                  "animation": "drink",
+                  "has_consume_particles": false,
+                  "sound": "minecraft:entity.generic.drink"
                 },
-                "minecraft:hide_additional_tooltip": {},
-                "minecraft:rarity": "uncommon"
+                "minecraft:food": {
+                  "can_always_eat": true,
+                  "nutrition": 0,
+                  "saturation": 0
+                },
+                "minecraft:use_remainder": {
+                  "id": "minecraft:glass_bottle"
+                } 
               }
             },
             {

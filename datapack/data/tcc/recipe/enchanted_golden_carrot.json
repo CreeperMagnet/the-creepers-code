@@ -7,12 +7,8 @@
     "GGG"
   ],
   "key": {
-    "G": {
-      "item": "minecraft:gold_ingot"
-    },
-    "C": {
-      "item": "minecraft:carrot"
-    }
+    "G": "minecraft:gold_ingot",
+    "C": "minecraft:carrot"
   },
   "result": {
     "id": "minecraft:golden_carrot",
@@ -27,22 +23,25 @@
       "minecraft:lore": [
         "{\"translate\":\"pack.tcc\",\"color\":\"#008725\",\"italic\":true}"
       ],
-      "minecraft:food": {
-        "nutrition": 6,
-        "saturation": 14.4,
-        "can_always_eat": true,
-        "effects": [
+      "minecraft:consumable": {
+        "on_consume_effects": [
           {
-            "effect": {
-              "id": "minecraft:night_vision",
-              "duration": 18000
-            }
+            "type": "minecraft:apply_effects",
+            "effects": [
+              {
+                "id": "minecraft:night_vision",
+                "duration": 18000
+              }
+            ]
           }
         ]
       },
-      "minecraft:custom_model_data": 330000,
-      "minecraft:enchantment_glint_override": true,
-      "minecraft:rarity": "rare"
+      "minecraft:food": {
+        "nutrition": 6,
+        "saturation": 14.4,
+        "can_always_eat": true
+      },
+      "minecraft:enchantment_glint_override": true
     }
   }
 }

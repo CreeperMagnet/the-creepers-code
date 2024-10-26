@@ -6,9 +6,7 @@
     "###"
   ],
   "key": {
-    "#": {
-      "item": "minecraft:warped_planks"
-    }
+    "#": "minecraft:warped_planks"
   },
   "result": {
     "count": 6,

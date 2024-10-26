@@ -7,18 +7,14 @@
     " O "
   ],
   "key": {
-    "O": {
-      "item": "minecraft:nether_brick"
-    },
-    "M": {
-      "item": "minecraft:redstone"
-    }
+    "O": "minecraft:nether_brick",
+    "M": "minecraft:redstone"
   },
   "result": {
     "id": "minecraft:warped_fungus_on_a_stick",
     "count": 1,
     "components": {
-      "minecraft:custom_model_data": 330005,
+      "minecraft:item_model": "tcc:smoldering_seeker/unset",
       "!minecraft:enchantments": {},
       "!minecraft:damage": {},
       "!minecraft:max_damage": {},

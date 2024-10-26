@@ -21,7 +21,7 @@
                 {
                   "function": "minecraft:set_components",
                   "components": {
-                    "minecraft:custom_model_data": 330000
+                    "minecraft:item_model": "tcc:block/respawn_anchor/1"
                   },
                   "conditions": [
                     {
@@ -36,7 +36,7 @@
                 {
                   "function": "minecraft:set_components",
                   "components": {
-                    "minecraft:custom_model_data": 330001
+                    "minecraft:item_model": "tcc:block/respawn_anchor/2"
                   },
                   "conditions": [
                     {
@@ -51,7 +51,7 @@
                 {
                   "function": "minecraft:set_components",
                   "components": {
-                    "minecraft:custom_model_data": 330002
+                    "minecraft:item_model": "tcc:block/respawn_anchor/3"
                   },
                   "conditions": [
                     {
@@ -66,7 +66,7 @@
                 {
                   "function": "minecraft:set_components",
                   "components": {
-                    "minecraft:custom_model_data": 330003
+                    "minecraft:item_model": "tcc:block/respawn_anchor/4"
                   },
                   "conditions": [
                     {

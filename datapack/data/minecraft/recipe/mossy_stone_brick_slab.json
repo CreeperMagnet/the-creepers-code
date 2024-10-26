@@ -3,9 +3,7 @@
   "category": "building",
   "group": "mossy_stone_brick_slab",
   "key": {
-    "#": {
-      "item": "minecraft:mossy_stone_bricks"
-    }
+    "#": "minecraft:mossy_stone_bricks"
   },
   "pattern": [
     "###"

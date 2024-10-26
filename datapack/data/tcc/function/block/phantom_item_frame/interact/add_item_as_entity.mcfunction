@@ -2,7 +2,7 @@
 
 playsound tcc:entity.phantom_item_frame.add_item block @a[distance=..16]
 # Set empty display invisible
-execute on passengers run data modify entity @s item.components."minecraft:custom_model_data" set value 330000
+execute on passengers run data modify entity @s item.components."minecraft:item_model" set value "minecraft:air"
 
 # Display particles
 execute unless entity @s[nbt=!{Facing:4b},nbt=!{Facing:5b}] run particle minecraft:mycelium ~ ~ ~ 0 0.3 0.3 0.3 100

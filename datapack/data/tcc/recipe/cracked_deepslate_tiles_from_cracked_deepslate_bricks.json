@@ -5,9 +5,7 @@
     "##"
   ],
   "key": {
-    "#": {
-      "item": "minecraft:cracked_deepslate_bricks"
-    }
+    "#": "minecraft:cracked_deepslate_bricks"
   },
   "result": {
     "count": 4,

@@ -1,0 +1,123 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "tcc:item/reactive_seeker/base",
+    "layer1": "tcc:item/reactive_seeker/10"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "angle": 0
+      },
+      "model": "tcc:item/reactive_seeker/10"
+    },
+    {
+      "predicate": {
+        "angle": 0.0425
+      },
+      "model": "tcc:item/reactive_seeker/09"
+    },
+    {
+      "predicate": {
+        "angle": 0.065
+      },
+      "model": "tcc:item/reactive_seeker/08"
+    },
+    {
+      "predicate": {
+        "angle": 0.0875
+      },
+      "model": "tcc:item/reactive_seeker/07"
+    },
+    {
+      "predicate": {
+        "angle": 0.11
+      },
+      "model": "tcc:item/reactive_seeker/06"
+    },
+    {
+      "predicate": {
+        "angle": 0.1325
+      },
+      "model": "tcc:item/reactive_seeker/05"
+    },
+    {
+      "predicate": {
+        "angle": 0.155
+      },
+      "model": "tcc:item/reactive_seeker/04"
+    },
+    {
+      "predicate": {
+        "angle": 0.1775
+      },
+      "model": "tcc:item/reactive_seeker/03"
+    },
+    {
+      "predicate": {
+        "angle": 0.2
+      },
+      "model": "tcc:item/reactive_seeker/02"
+    },
+    {
+      "predicate": {
+        "angle": 0.2225
+      },
+      "model": "tcc:item/reactive_seeker/01"
+    },
+    {
+      "predicate": {
+        "angle": 0.7775
+      },
+      "model": "tcc:item/reactive_seeker/02"
+    },
+    {
+      "predicate": {
+        "angle": 0.8
+      },
+      "model": "tcc:item/reactive_seeker/03"
+    },
+    {
+      "predicate": {
+        "angle": 0.8225
+      },
+      "model": "tcc:item/reactive_seeker/04"
+    },
+    {
+      "predicate": {
+        "angle": 0.845
+      },
+      "model": "tcc:item/reactive_seeker/05"
+    },
+    {
+      "predicate": {
+        "angle": 0.8675
+      },
+      "model": "tcc:item/reactive_seeker/06"
+    },
+    {
+      "predicate": {
+        "angle": 0.89
+      },
+      "model": "tcc:item/reactive_seeker/07"
+    },
+    {
+      "predicate": {
+        "angle": 0.9125
+      },
+      "model": "tcc:item/reactive_seeker/08"
+    },
+    {
+      "predicate": {
+        "angle": 0.935
+      },
+      "model": "tcc:item/reactive_seeker/09"
+    },
+    {
+      "predicate": {
+        "angle": 0.9575
+      },
+      "model": "tcc:item/reactive_seeker/10"
+    }
+  ]
+}

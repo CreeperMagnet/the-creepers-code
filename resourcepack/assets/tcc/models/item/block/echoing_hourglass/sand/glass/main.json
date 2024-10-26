@@ -1,0 +1,29 @@
+{
+  "parent": "tcc:item/block/echoing_hourglass/sand/glass/1",
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 1
+      },
+      "model": "tcc:item/block/echoing_hourglass/sand/glass/2"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2
+      },
+      "model": "tcc:item/block/echoing_hourglass/sand/glass/3"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 3
+      },
+      "model": "tcc:item/block/echoing_hourglass/sand/glass/4"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 4
+      },
+      "model": "tcc:item/block/echoing_hourglass/sand/glass/5"
+    }
+  ]
+}

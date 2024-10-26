@@ -7,7 +7,7 @@
         "items": [
           {
             "components": {
-              "minecraft:lock": "\u00a7positional_anchor\\uF001"
+              "minecraft:custom_name": "{\"translate\":\"block.tcc.positional_anchor.name\",\"font\":\"tcc:technical\"}"
             }
           }
         ]

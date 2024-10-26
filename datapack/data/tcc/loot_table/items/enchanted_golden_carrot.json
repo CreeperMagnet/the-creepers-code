@@ -15,20 +15,23 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:enchantment_glint_override": true,
-                "minecraft:rarity": "rare",
-                "minecraft:custom_model_data": 330000,
+                "minecraft:consumable": {
+                  "on_consume_effects": [
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        {
+                          "id": "minecraft:night_vision",
+                          "duration": 18000
+                        }
+                      ]
+                    }
+                  ]
+                },
                 "minecraft:food": {
                   "nutrition": 6,
                   "saturation": 14.4,
-                  "can_always_eat": true,
-                  "effects": [
-                    {
-                      "effect": {
-                        "id": "minecraft:night_vision",
-                        "duration": 18000
-                      }
-                    }
-                  ]
+                  "can_always_eat": true
                 }
               }
             },

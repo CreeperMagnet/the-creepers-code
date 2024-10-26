@@ -6,15 +6,9 @@
     "III"
   ],
   "key": {
-    "#": {
-      "item": "minecraft:redstone_torch"
-    },
-    "X": {
-      "item": "minecraft:quartz"
-    },
-    "I": {
-      "tag": "tcc:raw_stone_crafting_materials"
-    }
+    "#": "minecraft:redstone_torch",
+    "X": "minecraft:quartz",
+    "I": "#tcc:raw_stone_crafting_materials"
   },
   "result": {
     "id": "minecraft:comparator"

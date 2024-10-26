@@ -14,7 +14,8 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_model_data": 330000,
+                "minecraft:item_model": "tcc:apple_pie",
+                "minecraft:consumable": {},
                 "minecraft:food": {
                   "nutrition": 8,
                   "saturation": 4.8

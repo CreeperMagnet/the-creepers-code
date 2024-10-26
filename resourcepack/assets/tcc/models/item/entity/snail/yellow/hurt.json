@@ -1,0 +1,6 @@
+{
+	"parent": "tcc:item/entity/snail/template",
+	"textures": {
+		"0": "tcc:entity/snail/yellow/hurt"
+	}
+}

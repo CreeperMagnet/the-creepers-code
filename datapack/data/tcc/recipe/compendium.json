@@ -2,18 +2,14 @@
   "category": "misc",
   "type": "crafting_shapeless",
   "ingredients": [
-    {
-      "item": "minecraft:book"
-    },
-    {
-      "item": "minecraft:gunpowder"
-    }
+    "minecraft:book",
+    "minecraft:gunpowder"
   ],
   "result": {
     "count": 1,
     "id": "minecraft:written_book",
     "components": {
-      "minecraft:custom_model_data": 330000,
+      "minecraft:item_model": "tcc:compendium",
       "minecraft:custom_data": {
         "tcc": {
           "id": "compendium"

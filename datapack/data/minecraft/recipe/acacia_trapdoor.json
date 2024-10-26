@@ -6,9 +6,7 @@
     "###"
   ],
   "key": {
-    "#": {
-      "item": "minecraft:acacia_planks"
-    }
+    "#": "minecraft:acacia_planks"
   },
   "result": {
     "count": 6,

@@ -7,21 +7,15 @@
     "###"
   ],
   "key": {
-    "C": {
-      "item": "minecraft:crying_obsidian"
-    },
-    "D": {
-      "item": "minecraft:dispenser"
-    },
-    "#": {
-      "item": "minecraft:blackstone"
-    }
+    "C": "minecraft:crying_obsidian",
+    "D": "minecraft:dispenser",
+    "#": "minecraft:blackstone"
   },
   "result": {
     "id": "minecraft:dropper",
     "count": 1,
     "components": {
-      "minecraft:custom_model_data": 330002,
+      "minecraft:item_model": "tcc:block/positional_anchor/empty",
       "minecraft:container": [
         {
           "slot": 0,
@@ -36,7 +30,7 @@
                   "block": "positional_anchor"
                 }
               },
-              "minecraft:custom_model_data": 330000
+              "minecraft:item_model": "tcc:empty"
             }
           }
         }

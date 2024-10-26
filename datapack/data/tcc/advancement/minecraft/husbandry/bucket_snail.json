@@ -2,9 +2,9 @@
   "parent": "minecraft:husbandry/tactical_fishing",
   "display": {
     "icon": {
-      "id": "minecraft:warped_fungus_on_a_stick",
+      "id": "minecraft:stone",
       "components": {
-        "minecraft:custom_model_data": 330033
+        "minecraft:item_model": "tcc:snail_bucket/brown"
       }
     },
     "title": {

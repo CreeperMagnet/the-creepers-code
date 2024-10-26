@@ -2,9 +2,9 @@
   "parent": "minecraft:husbandry/plant_seed",
   "display": {
     "icon": {
-      "id": "minecraft:glistering_melon_slice",
+      "id": "minecraft:stone",
       "components": {
-        "minecraft:custom_model_data": 330003
+        "minecraft:item_model": "tcc:heartbeet"
       }
     },
     "title": {

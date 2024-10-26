@@ -14,15 +14,15 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_model_data": 330000,
+                "minecraft:item_model": "tcc:witch_hat",
                 "minecraft:attribute_modifiers": {
                   "modifiers": [
                     {
-                      "amount": 3.0,
+                      "amount": 3,
                       "slot": "head",
                       "id": "tcc:witch_hat_armor",
                       "operation": "add_value",
-                      "type": "minecraft:generic.armor"
+                      "type": "minecraft:armor"
                     }
                   ]
                 },
@@ -32,7 +32,16 @@
                 },
                 "minecraft:rarity": "uncommon",
                 "minecraft:damage": 0,
-                "minecraft:max_damage": 200
+                "minecraft:max_damage": 200,
+                "minecraft:equippable": {
+                  "equip_sound": {
+                    "sound_id": "tcc:item.armor.equip_witch_hat"
+                  },
+                  "slot": "head"
+                },
+                "minecraft:repairable": {
+                  "items": "#tcc:repair_items/witch_hat"
+                }
               }
             },
             {

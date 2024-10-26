@@ -1,9 +1,9 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:dropper",
+      "id": "minecraft:stone",
       "components": {
-        "minecraft:custom_model_data": 330002
+        "minecraft:item_model": "tcc:block/positional_anchor/empty"
       }
     },
     "title": {
@@ -35,7 +35,7 @@
                 "blocks": [
                   "minecraft:dropper"
                 ],
-                "nbt": "{Lock:\"\u00a7positional_anchor\\\\uF001\"}"
+                "nbt": "{lock:{components:{\"minecraft:custom_data\":{tcc:{positional_anchor:1b}}}}}"
               }
             }
           },

@@ -1,7 +1,7 @@
 {
   "values": [
-    "minecraft:boat",
-    "minecraft:chest_boat",
+    "#minecraft:boat",
+    "#tcc:chest_boats",
     "#tcc:minecarts"
   ]
 }

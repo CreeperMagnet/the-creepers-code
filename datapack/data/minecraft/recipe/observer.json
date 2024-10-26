@@ -6,15 +6,9 @@
     "###"
   ],
   "key": {
-    "Q": {
-      "item": "minecraft:quartz"
-    },
-    "R": {
-      "item": "minecraft:redstone"
-    },
-    "#": {
-      "tag": "minecraft:stone_crafting_materials"
-    }
+    "Q": "minecraft:quartz",
+    "R": "minecraft:redstone",
+    "#": "#minecraft:stone_crafting_materials"
   },
   "result": {
     "id": "minecraft:observer"

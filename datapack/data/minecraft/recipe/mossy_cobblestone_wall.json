@@ -3,9 +3,7 @@
   "category": "misc",
   "group": "mossy_cobblestone_wall",
   "key": {
-    "#": {
-      "item": "minecraft:mossy_cobblestone"
-    }
+    "#": "minecraft:mossy_cobblestone"
   },
   "pattern": [
     "###",

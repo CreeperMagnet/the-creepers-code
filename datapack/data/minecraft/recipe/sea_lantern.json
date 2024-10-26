@@ -5,9 +5,7 @@
     "CC"
   ],
   "key": {
-    "C": {
-      "item": "minecraft:prismarine_crystals"
-    }
+    "C": "minecraft:prismarine_crystals"
   },
   "result": {
     "id": "minecraft:sea_lantern"

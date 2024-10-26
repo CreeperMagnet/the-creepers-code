@@ -6,9 +6,7 @@
     "###"
   ],
   "key": {
-    "#": {
-      "item": "minecraft:dark_oak_planks"
-    }
+    "#": "minecraft:dark_oak_planks"
   },
   "result": {
     "count": 6,

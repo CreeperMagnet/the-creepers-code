@@ -7,17 +7,6 @@
     "minecraft:ice_spikes",
     "minecraft:snowy_beach",
     "minecraft:snowy_plains",
-    "minecraft:snowy_taiga",
-    {"id": "terralith:alpine_grove", "required": false},
-    {"id": "terralith:emerald_peaks", "required": false},
-    {"id": "terralith:frozen_cliffs", "required": false},
-    {"id": "terralith:glacial_chasm", "required": false},
-    {"id": "terralith:gravel_desert", "required": false},
-    {"id": "terralith:ice_marsh", "required": false},
-    {"id": "terralith:scarlet_mountains", "required": false},
-    {"id": "terralith:skylands_winter", "required": false},
-    {"id": "terralith:snowy_badlands", "required": false},
-    {"id": "terralith:snowy_maple_forest", "required": false},
-    {"id": "terralith:wintry_forest", "required": false}
+    "minecraft:snowy_taiga"
   ]
 }

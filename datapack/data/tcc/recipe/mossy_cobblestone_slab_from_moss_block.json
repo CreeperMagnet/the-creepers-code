@@ -3,12 +3,8 @@
   "category": "building",
   "group": "mossy_cobblestone_slab",
   "ingredients": [
-    {
-      "item": "minecraft:cobblestone_slab"
-    },
-    {
-      "item": "minecraft:moss_block"
-    }
+    "minecraft:cobblestone_slab",
+    "minecraft:moss_block"
   ],
   "result": {
     "id": "minecraft:mossy_cobblestone_slab"
