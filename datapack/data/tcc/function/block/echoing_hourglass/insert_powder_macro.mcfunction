@@ -2,7 +2,7 @@
 
 $playsound minecraft:block.$(powder).place player @a[distance=..16]
 tag @s remove tcc.echoing_hourglass.empty
-data modify entity @s item.components."minecraft:custom_data".powder set value {id:"gravel",result:{id:"minecraft:suspicious_gravel",count:1}}
+$data modify entity @s item.components."minecraft:custom_data".powder set value {id:"$(powder)",result:{id:"minecraft:suspicious_$(powder)",count:1}}
 
 # Base display entity: Glass portion
 $data modify entity @s item.components."minecraft:item_model" set value "tcc:block/echoing_hourglass/$(powder)/glass/main"

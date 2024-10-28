@@ -1,7 +1,7 @@
 # Initiates things for the player
 
 # Version initiation message
-tellraw @s {"clickEvent":{"action":"open_url","value":"https://github.com/CreeperMagnet/the-creepers-code/releases/download/1.4.1/tcc_resourcepack_1.4.1.zip"},"fallback": "\nThe Creeper's Code required resource pack is not installed. Click here to download it.\n","translate":"commands.tcc.initiate.version_check","color":"red","with":[{"translate":"commands.tcc.initiate","color":"white","underlined":false,"clickEvent":{"action":"suggest_command","value":""},"with":[{"translate":"pack.tcc","color":"#008725","underlined":true,"hoverEvent":{"action":"show_text","contents":{"translate":"pack.tcc.hover_event"}},"clickEvent":{"action":"open_url","value":"https://thecreeperscode.com"}}]}]}
+tellraw @s {"clickEvent":{"action":"open_url","value":"https://github.com/CreeperMagnet/the-creepers-code/releases/download/1.4.1_hotfix_1/tcc_resourcepack_1.4.1_hotfix_1.zip"},"fallback": "\nThe Creeper's Code required resource pack is not installed. Click here to download it.\n","translate":"commands.tcc.initiate.version_check","color":"red","with":[{"translate":"commands.tcc.initiate","color":"white","underlined":false,"clickEvent":{"action":"suggest_command","value":""},"with":[{"translate":"pack.tcc","color":"#008725","underlined":true,"hoverEvent":{"action":"show_text","contents":{"translate":"pack.tcc.hover_event"}},"clickEvent":{"action":"open_url","value":"https://thecreeperscode.com"}}]}]}
 
 # Scoreboard objectives
 scoreboard players reset @s tcc.dummy2
