@@ -14,26 +14,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:item_model": "tcc:block/pottery_table",
-                "minecraft:container": [
-                  {
-                    "slot": 0,
-                    "item": {
-                      "id": "minecraft:structure_block",
-                      "count": 1,
-                      "components": {
-                        "minecraft:custom_data": {
-                          "tcc": {
-                            "placed_block": true,
-                            "clear": true,
-                            "block": "pottery_table"
-                          }
-                        },
-                        "minecraft:item_model": "tcc:empty"
-                      }
-                    }
-                  }
-                ]
+                "minecraft:item_model": "tcc:block/pottery_table"
               }
             },
             {

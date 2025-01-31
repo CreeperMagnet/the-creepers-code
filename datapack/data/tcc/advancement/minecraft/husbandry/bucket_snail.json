@@ -4,7 +4,12 @@
     "icon": {
       "id": "minecraft:stone",
       "components": {
-        "minecraft:item_model": "tcc:snail_bucket/brown"
+        "minecraft:item_model": "tcc:snail_bucket",
+        "minecraft:custom_model_data": {
+          "strings": [
+            "brown"
+          ]
+        }
       }
     },
     "title": {

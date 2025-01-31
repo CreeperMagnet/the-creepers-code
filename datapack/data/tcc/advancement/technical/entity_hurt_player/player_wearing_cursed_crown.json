@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "hit": {
+    "player_took_damage": {
       "trigger": "minecraft:entity_hurt_player",
       "conditions": {
         "player": [
@@ -10,33 +10,11 @@
           }
         ]
       }
-    },
-    "hit_damage": {
-      "trigger": "minecraft:entity_hurt_player",
-      "conditions": {
-        "player": [
-          {
-            "condition": "minecraft:reference",
-            "name": "tcc:entity_properties/slots/armor.head/cursed_crown"
-          }
-        ],
-        "damage": {
-          "type": {
-            "tags": [
-              {
-                "id": "minecraft:bypasses_armor",
-                "expected": false
-              }
-            ]
-          }
-        }
-      }
     }
   },
   "requirements": [
     [
-      "hit",
-      "hit_damage"
+      "player_took_damage"
     ]
   ],
   "rewards": {

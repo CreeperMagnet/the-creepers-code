@@ -20,5 +20,5 @@ data modify entity @s Offers.Recipes[-1].buy set from entity @s HandItems[0]
 data modify entity @s Offers.Recipes[-1].sell set from entity @s HandItems[1]
 
 
-item replace entity @s weapon.mainhand with minecraft:shears[minecraft:item_model="tcc:entity/archaeologist/body/main"]
+item replace entity @s weapon.mainhand with minecraft:shears[minecraft:item_model="tcc:entity/archaeologist/body"]
 item replace entity @s weapon.offhand with minecraft:air

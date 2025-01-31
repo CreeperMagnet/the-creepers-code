@@ -106,7 +106,7 @@
           "name": "minecraft:emerald"
         },
         {
-          "type": "minecraft:loot_table",
+          "type": "minecraft:item",
           "weight": 5,
           "functions": [
             {
@@ -119,7 +119,7 @@
               "add": false
             }
           ],
-          "value": "tcc:items/snail_mucus"
+          "name": "minecraft:slime_ball"
         }
       ]
     }

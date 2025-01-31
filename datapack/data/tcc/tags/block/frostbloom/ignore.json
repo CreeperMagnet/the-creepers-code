@@ -41,6 +41,7 @@
     "minecraft:wall_torch",
     "minecraft:soul_wall_torch",
     "minecraft:redstone_wall_torch",
-    "minecraft:sculk_vein"
+    "minecraft:sculk_vein",
+      "minecraft:resin_clump"
   ]
 }

@@ -12,10 +12,7 @@ data remove storage tcc:temp root.item.components."minecraft:custom_data".tcc.sh
 data remove storage tcc:temp root.item.components."minecraft:custom_data".tcc.sherds[].count
 
 # Sets macro input for a macro to set item model
-
-data remove storage tcc:temp root.macro_input
-data merge storage tcc:temp {root:{macro_input:{sherd_0:"blank",sherd_1:"blank"}}}
-data modify storage tcc:temp root.macro_input.sherd_0 set from storage tcc:temp root.barrel_data[1][{Slot:21b}].components."minecraft:custom_data".tcc.sherd
-data modify storage tcc:temp root.macro_input.sherd_1 set from storage tcc:temp root.barrel_data[1][{Slot:13b}].components."minecraft:custom_data".tcc.sherd
-data modify storage tcc:temp root.macro_input.material set from storage tcc:temp root.item.components."minecraft:custom_data".tcc.type
-function tcc:block/pottery_table/crafting/create_output/decorate_pot/set_item_model_macro with storage tcc:temp root.macro_input
+data modify storage tcc:temp root.item.components."minecraft:custom_model_data".strings[0] set from storage tcc:temp root.barrel_data[1][{Slot:11b}].components."minecraft:custom_data".tcc.sherd
+data modify storage tcc:temp root.item.components."minecraft:custom_model_data".strings[1] set from storage tcc:temp root.barrel_data[1][{Slot:3b}].components."minecraft:custom_data".tcc.sherd
+data modify storage tcc:temp root.item.components."minecraft:custom_model_data".strings[2] set from storage tcc:temp root.barrel_data[1][{Slot:13b}].components."minecraft:custom_data".tcc.sherd
+data modify storage tcc:temp root.item.components."minecraft:custom_model_data".strings[3] set from storage tcc:temp root.barrel_data[1][{Slot:21b}].components."minecraft:custom_data".tcc.sherd

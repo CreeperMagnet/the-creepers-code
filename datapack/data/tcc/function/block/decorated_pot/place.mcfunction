@@ -1,11 +1,27 @@
 # Commands to place a decorated pot
+data remove storage tcc:temp root
+# east, south, west, north
+execute if entity @s[y_rotation=-135..-45] run data modify storage tcc:temp root.macro_input.rotation set value [270.0f,0.0f]
+execute if entity @s[y_rotation=-45..45] run data modify storage tcc:temp root.macro_input.rotation set value [0.0f,0.0f]
+execute if entity @s[y_rotation=45..135] run data modify storage tcc:temp root.macro_input.rotation set value [90.0f,0.0f]
+execute if entity @s[y_rotation=135..225] run data modify storage tcc:temp root.macro_input.rotation set value [180.0f,0.0f]
+
+# Get the data from the player into storage
+execute if items entity @s weapon.offhand minecraft:decorated_pot[minecraft:custom_data~{tcc:{id:"decorated_pot"}}] run data modify storage tcc:temp root.macro_input.item set from entity @s Inventory[{Slot:-106b}]
+# The mainhand overrides the offhand
+execute if items entity @s weapon.mainhand minecraft:decorated_pot[minecraft:custom_data~{tcc:{id:"decorated_pot"}}] run data modify storage tcc:temp root.macro_input.item set from entity @s SelectedItem
+
+# Summon the display entity using the player's data
+data remove storage tcc:temp root.macro_input.item.count
+data modify storage tcc:temp root.macro_input.model set from storage tcc:temp root.macro_input.item.components."minecraft:item_model"
+data modify storage tcc:temp root.macro_input.model_data set from storage tcc:temp root.macro_input.item.components."minecraft:custom_model_data"
+
+# Setblocks the proper block
+function tcc:block/decorated_pot/place_macro with storage tcc:temp root.macro_input
 
 tag @s remove tcc.tag
 execute if block ~ ~ ~ minecraft:decorated_pot[waterlogged=true] run tag @s add tcc.tag
 setblock ~ ~ ~ minecraft:air
-summon minecraft:item_display ~ ~ ~ {Passengers:[{Tags:["tcc.passenger_entity","tcc.block","tcc.ten_second_clock"],Rotation:[180.0f,0.0f],id:"minecraft:item_display",transformation:{translation:[0.001f,0.501f,-0.001f],left_rotation:[0.0f,0.0f,0.0f,1.0f],scale:[1.005f,1.005f,1.005f],right_rotation:[0.0f,0.0f,0.0f,1.0f]},item:{id:"minecraft:stone",count:1}}],Tags:["tcc.decorated_pot","tcc.decorated_pot.initiate","tcc.block","tcc.tick","smithed.entity","smithed.block"],transformation:{translation:[0.0f,0.5f,0.0f],left_rotation:[0.0f,0.0f,0.0f,1.0f],scale:[1.005f,1.005f,1.005f],right_rotation:[0.0f,0.0f,0.0f,1.0f]},item:{id:"minecraft:stone",count:1},view_range:4.0f}
-execute as @n[type=minecraft:item_display,distance=..1,tag=tcc.decorated_pot.initiate] run function tcc:block/decorated_pot/initiate
-
-execute if entity @s[tag=tcc.tag] run setblock ~ ~ ~ minecraft:decorated_pot[waterlogged=true]{sherds:["minecraft:air","minecraft:air","minecraft:air","minecraft:air"]}
-execute unless entity @s[tag=tcc.tag] run setblock ~ ~ ~ minecraft:decorated_pot[waterlogged=false]{sherds:["minecraft:air","minecraft:air","minecraft:air","minecraft:air"]}
+execute if entity @s[tag=tcc.tag] run setblock ~ ~ ~ minecraft:decorated_pot[waterlogged=true]{sherds:["minecraft:air","minecraft:air","minecraft:air","minecraft:air"],components:{"minecraft:custom_data":{"tcc":{"id":"decorated_pot"}}}}
+execute unless entity @s[tag=tcc.tag] run setblock ~ ~ ~ minecraft:decorated_pot[waterlogged=false]{sherds:["minecraft:air","minecraft:air","minecraft:air","minecraft:air"],components:{"minecraft:custom_data":{"tcc":{"id":"decorated_pot"}}}}
 tag @s remove tcc.tag

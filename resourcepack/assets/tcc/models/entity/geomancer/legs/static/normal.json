@@ -1,0 +1,6 @@
+{
+	"parent": "tcc:entity/illager_template/legs/static",
+	"textures": {
+		"0": "tcc:entity/geomancer/main"
+	}
+}

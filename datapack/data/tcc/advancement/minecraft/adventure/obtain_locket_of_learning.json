@@ -4,8 +4,13 @@
     "icon": {
       "id": "minecraft:stone",
       "components": {
-        "minecraft:item_model": "tcc:locket_of_learning/filled_5",
-        "minecraft:enchantment_glint_override": true
+        "minecraft:item_model": "tcc:locket_of_learning",
+        "minecraft:enchantment_glint_override": true,
+        "minecraft:custom_model_data": {
+          "floats": [
+            1.0
+          ]
+        }
       }
     },
     "title": {

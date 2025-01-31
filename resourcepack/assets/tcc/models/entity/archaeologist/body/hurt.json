@@ -1,0 +1,6 @@
+{
+	"parent": "tcc:entity/archaeologist/body/normal",
+	"textures": {
+		"0": "tcc:entity/archaeologist/hurt"
+	}
+}

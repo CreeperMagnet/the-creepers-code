@@ -5,7 +5,6 @@ effect give @s minecraft:invisibility infinite 0 true
 item modify entity @s weapon.mainhand {"function":"set_custom_data","tag":{fix:"idk why this works but it does"}}
 
 # Set death time stuff
-execute if predicate tcc:time_check/night run return run data modify entity @s DeathTime set value 0s
 data modify entity @s DeathTime set value 19s
 
 # Wandering Witch-specific stuff

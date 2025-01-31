@@ -9,19 +9,7 @@
           "source_entity": {
             "nbt": "{Tags:[\"tcc.glow_lichen_zombie\"]}"
           }
-        },
-        "player": [
-          {
-            "condition": "minecraft:inverted",
-            "term": {
-              "condition": "minecraft:entity_properties",
-              "entity": "this",
-              "predicate": {
-                "nbt": "{Tags:[\"tcc.tea.clearsight\"]}"
-              }
-            }
-          }
-        ]
+        }
       }
     }
   },

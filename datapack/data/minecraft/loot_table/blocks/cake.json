@@ -5,104 +5,25 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:cake",
-          "functions": [
+          "type": "minecraft:alternatives",
+          "children": [
             {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:item_model": "tcc:cake/one_bite"
-              },
-              "conditions": [
+              "type": "minecraft:item",
+              "name": "minecraft:cake",
+              "functions": [
                 {
-                  "condition": "minecraft:block_state_property",
-                  "block": "minecraft:cake",
-                  "properties": {
-                    "bites": "1"
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:item_model": "tcc:cake"
                   }
-                }
-              ]
-            },
-            {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:item_model": "tcc:cake/two_bites"
-              },
-              "conditions": [
+                },
                 {
-                  "condition": "minecraft:block_state_property",
+                  "function": "minecraft:copy_state",
                   "block": "minecraft:cake",
-                  "properties": {
-                    "bites": "2"
-                  }
+                  "properties": [
+                    "bites"
+                  ]
                 }
-              ]
-            },
-            {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:item_model": "tcc:cake/three_bites"
-              },
-              "conditions": [
-                {
-                  "condition": "minecraft:block_state_property",
-                  "block": "minecraft:cake",
-                  "properties": {
-                    "bites": "3"
-                  }
-                }
-              ]
-            },
-            {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:item_model": "tcc:cake/four_bites"
-              },
-              "conditions": [
-                {
-                  "condition": "minecraft:block_state_property",
-                  "block": "minecraft:cake",
-                  "properties": {
-                    "bites": "4"
-                  }
-                }
-              ]
-            },
-            {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:item_model": "tcc:cake/five_bites"
-              },
-              "conditions": [
-                {
-                  "condition": "minecraft:block_state_property",
-                  "block": "minecraft:cake",
-                  "properties": {
-                    "bites": "5"
-                  }
-                }
-              ]
-            },
-            {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:item_model": "tcc:cake/six_bites"
-              },
-              "conditions": [
-                {
-                  "condition": "minecraft:block_state_property",
-                  "block": "minecraft:cake",
-                  "properties": {
-                    "bites": "6"
-                  }
-                }
-              ]
-            },
-            {
-              "function": "minecraft:copy_state",
-              "block": "minecraft:cake",
-              "properties": [
-                "bites"
               ],
               "conditions": [
                 {
@@ -116,6 +37,10 @@
                   }
                 }
               ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:cake"
             }
           ]
         }

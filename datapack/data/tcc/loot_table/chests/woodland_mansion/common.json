@@ -232,6 +232,21 @@
         },
         {
           "type": "minecraft:item",
+          "weight": 10,
+          "name": "minecraft:resin_clump",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 3,
+                "type": "minecraft:uniform"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
           "weight": 3,
           "name": "minecraft:golden_carrot",
           "functions": [

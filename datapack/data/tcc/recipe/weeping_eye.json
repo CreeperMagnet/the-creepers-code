@@ -10,7 +10,7 @@
     "id": "minecraft:warped_fungus_on_a_stick",
     "count": 1,
     "components": {
-      "minecraft:item_model": "tcc:weeping_eye/unset",
+      "minecraft:item_model": "tcc:weeping_eye",
       "!minecraft:enchantments": {},
       "!minecraft:damage": {},
       "!minecraft:max_damage": {},

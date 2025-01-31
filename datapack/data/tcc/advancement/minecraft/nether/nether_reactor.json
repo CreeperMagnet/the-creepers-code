@@ -3,7 +3,12 @@
     "icon": {
       "id": "minecraft:stone",
       "components": {
-        "minecraft:item_model": "tcc:block/nether_reactor_core/off"
+        "minecraft:item_model": "tcc:block/nether_reactor_core",
+        "minecraft:custom_model_data": {
+          "flags": [
+            true
+          ]
+        }
       }
     },
     "title": {

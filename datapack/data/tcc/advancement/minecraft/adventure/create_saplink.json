@@ -1,0 +1,44 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:stone",
+      "components": {
+        "minecraft:item_model": "tcc:saplink",
+        "minecraft:custom_model_data": {
+          "strings": [
+            "minecraft:oak_sapling"
+          ],
+          "flags": [
+            false
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "advancements.tcc.minecraft.adventure.create_saplink.title"
+    },
+    "description": [
+      {
+        "translate": "advancements.tcc.minecraft.adventure.create_saplink.description"
+      },
+      "\n\n",
+      {
+        "translate": "pack.tcc",
+        "color": "#008725",
+        "italic": true
+      }
+    ],
+    "frame": "goal"
+  },
+  "parent": "tcc:minecraft/adventure/heart_transplanter",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "impossible"
+    ]
+  ]
+}

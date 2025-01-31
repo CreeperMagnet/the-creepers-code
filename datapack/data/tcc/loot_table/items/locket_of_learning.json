@@ -14,11 +14,16 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:item_model": "tcc:locket_of_learning/main",
+                "minecraft:item_model": "tcc:locket_of_learning",
                 "!minecraft:enchantments": {},
                 "!minecraft:damage": {},
                 "!minecraft:max_damage": {},
-                "minecraft:rarity": "uncommon"
+                "minecraft:rarity": "uncommon",
+                "minecraft:custom_model_data": {
+                  "floats": [
+                    0.0
+                  ]
+                }
               }
             },
             {

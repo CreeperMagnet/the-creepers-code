@@ -3,15 +3,17 @@
 # Set the value on the locket item based on deposit loop results
 execute store result storage tcc:temp root.item.components."minecraft:custom_data".tcc.stored_points int 1 run scoreboard players get #temp_0 tcc.dummy
 
-# Set custom model data/glint based on fill level
+# Set enchantment glint if full
 data modify storage tcc:temp root.item.components."minecraft:enchantment_glint_override" set value false
-execute if score #temp_0 tcc.dummy matches 0 run data modify storage tcc:temp root.item.components."minecraft:custom_model_data" set value 0
-execute if score #temp_0 tcc.dummy matches 1..349 run data modify storage tcc:temp root.item.components."minecraft:custom_model_data" set value 1
-execute if score #temp_0 tcc.dummy matches 350..698 run data modify storage tcc:temp root.item.components."minecraft:custom_model_data" set value 2
-execute if score #temp_0 tcc.dummy matches 699..1046 run data modify storage tcc:temp root.item.components."minecraft:custom_model_data" set value 3
-execute if score #temp_0 tcc.dummy matches 1047..1394 run data modify storage tcc:temp root.item.components."minecraft:custom_model_data" set value 4
-execute if score #temp_0 tcc.dummy matches 1395 run data modify storage tcc:temp root.item.components."minecraft:custom_model_data" set value 5
 execute if score #temp_0 tcc.dummy matches 1395 run data modify storage tcc:temp root.item.components."minecraft:enchantment_glint_override" set value true
+
+# Do some math to set the float values
+scoreboard players set #temp_1 tcc.dummy 1395
+scoreboard players operation #temp_0 tcc.dummy *= #1000 tcc.dummy
+
+# Value = Points * 1000 / 1395 = (percentage * 1000)
+# Store the value back into the item
+execute store result storage tcc:temp root.item.components."minecraft:custom_model_data".floats[0] float 0.001 run scoreboard players operation #temp_0 tcc.dummy /= #temp_1 tcc.dummy
 
 # Modifies the mainhand item
 function tcc:technical/macros/loot/replace with storage tcc:temp root.item

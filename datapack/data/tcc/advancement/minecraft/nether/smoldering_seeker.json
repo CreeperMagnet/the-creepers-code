@@ -3,7 +3,8 @@
     "icon": {
       "id": "minecraft:stone",
       "components": {
-        "minecraft:item_model": "tcc:smoldering_seeker/main"
+        "minecraft:item_model": "tcc:smoldering_seeker",
+        "lodestone_tracker": {}
       }
     },
     "title": {

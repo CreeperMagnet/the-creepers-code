@@ -10,6 +10,7 @@ execute if block ~ ~ ~ minecraft:dark_oak_wall_hanging_sign run function tcc:ite
 execute if block ~ ~ ~ minecraft:jungle_wall_hanging_sign run function tcc:item/wrench/rotate/macro/facing_cardinal_waterloggable {block:"minecraft:jungle_wall_hanging_sign"}
 execute if block ~ ~ ~ minecraft:mangrove_wall_hanging_sign run function tcc:item/wrench/rotate/macro/facing_cardinal_waterloggable {block:"minecraft:mangrove_wall_hanging_sign"}
 execute if block ~ ~ ~ minecraft:oak_wall_hanging_sign run function tcc:item/wrench/rotate/macro/facing_cardinal_waterloggable {block:"minecraft:oak_wall_hanging_sign"}
+execute if block ~ ~ ~ minecraft:pale_oak_wall_hanging_sign run function tcc:item/wrench/rotate/macro/facing_cardinal_waterloggable {block:"minecraft:pale_oak_wall_hanging_sign"}
 execute if block ~ ~ ~ minecraft:spruce_wall_hanging_sign run function tcc:item/wrench/rotate/macro/facing_cardinal_waterloggable {block:"minecraft:spruce_wall_hanging_sign"}
 execute if block ~ ~ ~ minecraft:warped_wall_hanging_sign run function tcc:item/wrench/rotate/macro/facing_cardinal_waterloggable {block:"minecraft:warped_wall_hanging_sign"}
 

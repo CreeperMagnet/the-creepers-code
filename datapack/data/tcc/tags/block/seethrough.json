@@ -122,6 +122,9 @@
     "minecraft:waxed_oxidized_copper_grate",
     "minecraft:heavy_core",
     "minecraft:trial_spawner",
-    "minecraft:vault"
+    "minecraft:vault",
+    "minecraft:pale_moss_carpet",
+    "minecraft:pale_hanging_moss",
+    "minecraft:resin_clump"
   ]
 }

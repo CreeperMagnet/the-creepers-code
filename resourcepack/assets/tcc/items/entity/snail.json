@@ -1,0 +1,113 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:custom_model_data",
+    "cases": [
+      {
+        "when": "black",
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:custom_model_data",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "tcc:entity/snail/black/normal"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "tcc:entity/snail/black/hurt"
+          }
+        }
+      },
+      {
+        "when": "brown",
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:custom_model_data",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "tcc:entity/snail/brown/normal"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "tcc:entity/snail/brown/hurt"
+          }
+        }
+      },
+      {
+        "when": "gary",
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:custom_model_data",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "tcc:entity/snail/gary/normal"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "tcc:entity/snail/gary/hurt"
+          }
+        }
+      },
+      {
+        "when": "light_blue",
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:custom_model_data",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "tcc:entity/snail/light_blue/normal"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "tcc:entity/snail/light_blue/hurt"
+          }
+        }
+      },
+      {
+        "when": "skull",
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:custom_model_data",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "tcc:entity/snail/skull/normal"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "tcc:entity/snail/skull/hurt"
+          }
+        }
+      },
+      {
+        "when": "spiral",
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:custom_model_data",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "tcc:entity/snail/spiral/normal"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "tcc:entity/snail/spiral/hurt"
+          }
+        }
+      },
+      {
+        "when": "yellow",
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:custom_model_data",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "tcc:entity/snail/yellow/normal"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "tcc:entity/snail/yellow/hurt"
+          }
+        }
+      }
+    ]
+  }
+}

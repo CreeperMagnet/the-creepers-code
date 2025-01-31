@@ -31,7 +31,7 @@
                 "blocks": [
                   "minecraft:decorated_pot"
                 ],
-                "nbt": "{sherds:[\"minecraft:air\",\"minecraft:air\",\"minecraft:air\",\"minecraft:air\"]}"
+                "nbt": "{components:{\"minecraft:custom_data\":{tcc:{id:\"decorated_pot\"}}}}"
               }
             }
           }

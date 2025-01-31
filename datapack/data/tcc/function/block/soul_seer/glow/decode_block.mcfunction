@@ -4,6 +4,7 @@ data modify storage tcc:temp root.macro_input set value {selector:",type=!#tcc:i
 
 execute if block ~ ~-1 ~ minecraft:iron_block run data modify storage tcc:temp root.macro_input.selector set value ",type=minecraft:iron_golem"
 execute if block ~ ~-1 ~ minecraft:acacia_log run data modify storage tcc:temp root.macro_input.selector set value ",type=minecraft:armadillo"
+execute if block ~ ~-1 ~ #minecraft:pale_oak_logs run data modify storage tcc:temp root.macro_input.selector set value ",type=minecraft:creaking"
 execute if block ~ ~-1 ~ minecraft:chiseled_tuff run data modify storage tcc:temp root.macro_input.selector set value ",type=minecraft:breeze"
 execute if block ~ ~-1 ~ minecraft:honeycomb_block run data modify storage tcc:temp root.macro_input.selector set value ",type=minecraft:bee"
 execute if block ~ ~-1 ~ minecraft:sculk run data modify storage tcc:temp root.macro_input.selector set value ",type=minecraft:warden"

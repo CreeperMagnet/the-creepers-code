@@ -1,0 +1,72 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:custom_model_data",
+    "on_false": {
+      "type": "minecraft:select",
+      "property": "minecraft:custom_model_data",
+      "cases": [
+        {
+          "when": "minecraft:acacia_sapling",
+          "model": {
+            "type": "minecraft:model",
+            "model": "tcc:item/saplink/acacia"
+          }
+        },
+        {
+          "when": "minecraft:birch_sapling",
+          "model": {
+            "type": "minecraft:model",
+            "model": "tcc:item/saplink/birch"
+          }
+        },
+        {
+          "when": "minecraft:cherry_sapling",
+          "model": {
+            "type": "minecraft:model",
+            "model": "tcc:item/saplink/cherry"
+          }
+        },
+        {
+          "when": "minecraft:dark_oak_sapling",
+          "model": {
+            "type": "minecraft:model",
+            "model": "tcc:item/saplink/dark_oak"
+          }
+        },
+        {
+          "when": "minecraft:jungle_sapling",
+          "model": {
+            "type": "minecraft:model",
+            "model": "tcc:item/saplink/jungle"
+          }
+        },
+        {
+          "when": "minecraft:oak_sapling",
+          "model": {
+            "type": "minecraft:model",
+            "model": "tcc:item/saplink/oak"
+          }
+        },
+        {
+          "when": "minecraft:pale_oak_sapling",
+          "model": {
+            "type": "minecraft:model",
+            "model": "tcc:item/saplink/pale_oak"
+          }
+        },
+        {
+          "when": "minecraft:spruce_sapling",
+          "model": {
+            "type": "minecraft:model",
+            "model": "tcc:item/saplink/spruce"
+          }
+        }
+      ]
+    },
+    "on_true": {
+      "type": "minecraft:model",
+      "model": "tcc:item/saplink/sonic_screwdriver"
+    }
+  }
+}

@@ -4,6 +4,7 @@
     "minecraft:water",
     "#minecraft:wool_carpets",
     "minecraft:moss_carpet",
-    "minecraft:daylight_detector"
+    "minecraft:daylight_detector",
+    "minecraft:pale_moss_carpet"
   ]
 }

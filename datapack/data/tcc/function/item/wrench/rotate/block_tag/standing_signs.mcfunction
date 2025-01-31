@@ -9,5 +9,6 @@ execute if block ~ ~ ~ minecraft:dark_oak_sign run function tcc:item/wrench/rota
 execute if block ~ ~ ~ minecraft:jungle_sign run function tcc:item/wrench/rotate/macro/rotation_waterloggable {block:"minecraft:jungle_sign"}
 execute if block ~ ~ ~ minecraft:mangrove_sign run function tcc:item/wrench/rotate/macro/rotation_waterloggable {block:"minecraft:mangrove_sign"}
 execute if block ~ ~ ~ minecraft:oak_sign run function tcc:item/wrench/rotate/macro/rotation_waterloggable {block:"minecraft:oak_sign"}
+execute if block ~ ~ ~ minecraft:pale_oak_sign run function tcc:item/wrench/rotate/macro/rotation_waterloggable {block:"minecraft:pale_oak_sign"}
 execute if block ~ ~ ~ minecraft:spruce_sign run function tcc:item/wrench/rotate/macro/rotation_waterloggable {block:"minecraft:spruce_sign"}
 execute if block ~ ~ ~ minecraft:warped_sign run function tcc:item/wrench/rotate/macro/rotation_waterloggable {block:"minecraft:warped_sign"}

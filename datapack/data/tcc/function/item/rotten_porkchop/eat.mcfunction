@@ -1,4 +1,4 @@
-# Makes rotten porkchops give you nausea
+# Makes rotten porkchops anger all zombified piglins around you
 
 advancement revoke @s only tcc:technical/consume_item/rotten_porkchop
 data remove storage tcc:temp root.macro_input

@@ -2,4 +2,4 @@
 
 $execute if entity @s[nbt={Color:$(number)b}] run return 0
 $data modify entity @s Color set value $(number)b
-$execute as @p[tag=tcc.paintbrush.raycaster] at @s run function tcc:item/paintbrush/color_brush {"color":"$(color)","custom_model_data":"$(custom_model_data)"}
+$execute as @p[tag=tcc.paintbrush.raycaster] at @s run function tcc:item/paintbrush/color_brush {"color":"$(color)"}

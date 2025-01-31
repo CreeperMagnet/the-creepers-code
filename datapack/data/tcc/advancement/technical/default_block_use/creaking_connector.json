@@ -1,0 +1,43 @@
+{
+  "criteria": {
+    "click_creaking_connector_with_sapling": {
+      "trigger": "minecraft:default_block_use",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:furnace"
+                ],
+                "nbt": "{CustomName:'{\"translate\":\"block.tcc.creaking_connector.name\",\"font\":\"tcc:technical\"}'}"
+              }
+            }
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "slots": {
+                "weapon.mainhand": {
+                  "items": "#tcc:saplink_saplings"
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "tcc:block/creaking_connector/create_saplink/advancement"
+  },
+  "requirements": [
+    [
+      "click_creaking_connector_with_sapling"
+    ]
+  ]
+}

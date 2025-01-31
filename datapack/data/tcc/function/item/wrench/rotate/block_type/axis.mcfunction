@@ -23,3 +23,5 @@ execute if block ~ ~ ~ minecraft:hay_block run function tcc:item/wrench/rotate/m
 execute if block ~ ~ ~ minecraft:bone_block run function tcc:item/wrench/rotate/macro/axis {block:"minecraft:bone_block"}
 
 execute if block ~ ~ ~ minecraft:muddy_mangrove_roots run function tcc:item/wrench/rotate/macro/axis {block:"minecraft:muddy_mangrove_roots"}
+
+execute if block ~ ~ ~ minecraft:creaking_heart run function tcc:item/wrench/rotate/macro/axis {block:"minecraft:creaking_heart"}

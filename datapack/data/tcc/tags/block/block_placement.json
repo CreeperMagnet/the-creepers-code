@@ -1,6 +1,7 @@
 {
   "values": [
     "minecraft:dropper",
-    "minecraft:barrel"
+    "minecraft:barrel",
+    "minecraft:decorated_pot"
   ]
 }

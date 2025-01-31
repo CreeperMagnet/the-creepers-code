@@ -14,28 +14,11 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:item_model": "tcc:block/soul_seer/off",
-                "minecraft:container": [
-                  {
-                    "slot": 0,
-                    "item": {
-                      "id": "minecraft:structure_block",
-                      "count": 1,
-                      "components": {
-                        "minecraft:custom_data": {
-                          "tcc": {
-                            "placed_block": true,
-                            "clear": true,
-                            "block": "soul_seer"
-                          }
-                        },
-                        "minecraft:item_model": "tcc:empty"
-                      }
-                    }
-                  }
-                ],
-                "minecraft:block_entity_data": {
-                  "id": "minecraft:dropper"
+                "minecraft:item_model": "tcc:block/soul_seer",
+                "minecraft:custom_model_data": {
+                  "flags": [
+                    false
+                  ]
                 }
               }
             },

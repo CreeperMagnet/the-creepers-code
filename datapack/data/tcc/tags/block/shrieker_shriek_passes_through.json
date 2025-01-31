@@ -42,6 +42,7 @@
     "minecraft:redstone_wall_torch",
     "minecraft:frogspawn",
     "minecraft:sculk_vein",
-    "minecraft:cobweb"
+    "minecraft:cobweb",
+    "minecraft:resin_clump"
   ]
 }

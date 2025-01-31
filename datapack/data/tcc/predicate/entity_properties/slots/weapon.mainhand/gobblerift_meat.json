@@ -7,7 +7,7 @@
       "predicate": {
         "slots": {
           "weapon.mainhand": {
-            "items": "#tcc:gobblerift_meat"
+            "items": "#tcc:gobblerift_meat/any"
           }
         }
       }
@@ -19,7 +19,7 @@
         "slots": {
           "weapon.mainhand": {
             "predicates": {
-              "minecraft:custom_data": "{tcc:{gobblerift_meat:1b}}"
+              "minecraft:custom_data": "{tcc:{gobblerift_meat:{}}}"
             }
           }
         }

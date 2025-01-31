@@ -4,7 +4,12 @@
     "icon": {
       "id": "minecraft:stone",
       "components": {
-        "minecraft:item_model": "tcc:block/soul_conductor/up"
+        "minecraft:item_model": "tcc:block/soul_conductor",
+        "minecraft:custom_model_data": {
+          "strings": [
+            "up"
+          ]
+        }
       }
     },
     "title": {

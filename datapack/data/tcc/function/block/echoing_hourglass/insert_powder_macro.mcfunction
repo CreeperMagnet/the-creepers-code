@@ -5,9 +5,8 @@ tag @s remove tcc.echoing_hourglass.empty
 $data modify entity @s item.components."minecraft:custom_data".powder set value {id:"$(powder)",result:{id:"minecraft:suspicious_$(powder)",count:1}}
 
 # Base display entity: Glass portion
-$data modify entity @s item.components."minecraft:item_model" set value "tcc:block/echoing_hourglass/$(powder)/glass/main"
-$execute on passengers if entity @s[tag=tcc.echoing_hourglass.powder_top] run data modify entity @s item.components."minecraft:item_model" set value "tcc:block/echoing_hourglass/$(powder)/powder/input/main"
-$execute on passengers if entity @s[tag=tcc.echoing_hourglass.powder_bottom] run data modify entity @s item.components."minecraft:item_model" set value "tcc:block/echoing_hourglass/$(powder)/powder/output/main"
+$data modify entity @s item.components."minecraft:custom_model_data".strings[0] set value $(powder)
+$execute on passengers if entity @s[type=minecraft:item_display] run data modify entity @s item.components."minecraft:custom_model_data".strings[0] set value $(powder)
 
 scoreboard players set @s tcc.dummy2 40
 data modify storage tcc:temp root.item.count set value 1

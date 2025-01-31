@@ -1,0 +1,6 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "tcc:entity/sponge_drowned/arm"
+  }
+}

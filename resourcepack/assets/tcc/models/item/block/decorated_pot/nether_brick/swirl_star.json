@@ -1,7 +1,0 @@
-{
-	"parent": "tcc:item/block/decorated_pot/template",
-	"textures": {
-		"face_1": "tcc:block/decorated_pot/nether_brick/side/swirl",
-		"face_2": "tcc:block/decorated_pot/nether_brick/side/star"
-	}
-}

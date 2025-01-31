@@ -42,7 +42,8 @@
                 },
                 "minecraft:use_remainder": {
                   "id": "minecraft:glass_bottle"
-                }
+                },
+                "minecraft:max_stack_size": 16
               }
             },
             {

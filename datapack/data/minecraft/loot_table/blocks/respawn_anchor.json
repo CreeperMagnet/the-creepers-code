@@ -21,60 +21,98 @@
                 {
                   "function": "minecraft:set_components",
                   "components": {
-                    "minecraft:item_model": "tcc:block/respawn_anchor/1"
-                  },
+                    "minecraft:item_model": "tcc:block/respawn_anchor"
+                  }
+                },
+                {
+                  "function": "minecraft:set_lore",
+                  "lore": [
+                    {
+                      "translate": "block.tcc.respawn_anchor.charges",
+                      "with": [
+                        "1"
+                      ],
+                      "italic": false,
+                      "color": "gray"
+                    }
+                  ],
+                  "mode": "replace_all",
                   "conditions": [
                     {
                       "condition": "minecraft:block_state_property",
-                      "block": "minecraft:respawn_anchor",
                       "properties": {
                         "charges": "1"
-                      }
+                      },
+                      "block": "minecraft:respawn_anchor"
                     }
                   ]
                 },
                 {
-                  "function": "minecraft:set_components",
-                  "components": {
-                    "minecraft:item_model": "tcc:block/respawn_anchor/2"
-                  },
+                  "function": "minecraft:set_lore",
+                  "lore": [
+                    {
+                      "translate": "block.tcc.respawn_anchor.charges",
+                      "with": [
+                        "2"
+                      ],
+                      "italic": false,
+                      "color": "gray"
+                    }
+                  ],
+                  "mode": "replace_all",
                   "conditions": [
                     {
                       "condition": "minecraft:block_state_property",
-                      "block": "minecraft:respawn_anchor",
                       "properties": {
                         "charges": "2"
-                      }
+                      },
+                      "block": "minecraft:respawn_anchor"
                     }
                   ]
                 },
                 {
-                  "function": "minecraft:set_components",
-                  "components": {
-                    "minecraft:item_model": "tcc:block/respawn_anchor/3"
-                  },
+                  "function": "minecraft:set_lore",
+                  "lore": [
+                    {
+                      "translate": "block.tcc.respawn_anchor.charges",
+                      "with": [
+                        "3"
+                      ],
+                      "italic": false,
+                      "color": "gray"
+                    }
+                  ],
+                  "mode": "replace_all",
                   "conditions": [
                     {
                       "condition": "minecraft:block_state_property",
-                      "block": "minecraft:respawn_anchor",
                       "properties": {
                         "charges": "3"
-                      }
+                      },
+                      "block": "minecraft:respawn_anchor"
                     }
                   ]
                 },
                 {
-                  "function": "minecraft:set_components",
-                  "components": {
-                    "minecraft:item_model": "tcc:block/respawn_anchor/4"
-                  },
+                  "function": "minecraft:set_lore",
+                  "lore": [
+                    {
+                      "translate": "block.tcc.respawn_anchor.charges",
+                      "with": [
+                        "4"
+                      ],
+                      "italic": false,
+                      "color": "gray"
+                    }
+                  ],
+                  "mode": "replace_all",
                   "conditions": [
                     {
                       "condition": "minecraft:block_state_property",
-                      "block": "minecraft:respawn_anchor",
                       "properties": {
                         "charges": "4"
-                      }
+                      },
+                      "block": "minecraft:respawn_anchor"
                     }
                   ]
                 }

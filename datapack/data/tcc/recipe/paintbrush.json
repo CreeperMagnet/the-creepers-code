@@ -14,7 +14,7 @@
     "id": "minecraft:warped_fungus_on_a_stick",
     "count": 1,
     "components": {
-      "minecraft:item_model": "tcc:paintbrush/main",
+      "minecraft:item_model": "tcc:paintbrush",
       "!minecraft:enchantments": {},
       "!minecraft:damage": {},
       "!minecraft:max_damage": {},

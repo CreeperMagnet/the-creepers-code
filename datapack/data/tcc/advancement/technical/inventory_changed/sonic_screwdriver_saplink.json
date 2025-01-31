@@ -1,0 +1,33 @@
+{
+  "parent": "tcc:technical/root",
+  "criteria": {
+    "pick_up_sonic_screwdriver": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "components": {
+              "minecraft:custom_name": "\"Sonic Screwdriver\""
+            },
+            "predicates": {
+              "minecraft:custom_data": {
+                "tcc": {
+                  "id": "saplink",
+                  "sonic_screwdriver": false
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "tcc:item/saplink/sonic_screwdriver/advancement"
+  },
+  "requirements": [
+    [
+      "pick_up_sonic_screwdriver"
+    ]
+  ]
+}

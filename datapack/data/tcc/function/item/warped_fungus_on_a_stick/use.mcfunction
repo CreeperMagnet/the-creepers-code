@@ -21,6 +21,9 @@ execute if entity @s[predicate=tcc:entity_properties/slots/weapon/diluted_potion
 # Dinglebop
 execute if entity @s[predicate=tcc:entity_properties/slots/weapon/tangling_pearl] run function tcc:item/tangling_pearl/use_item
 
+# Saplinks
+execute if entity @s[predicate=tcc:entity_properties/slots/weapon/saplink] run function tcc:item/saplink/use_item
+
 # Things that aren't allowed in adventure mode
 execute if entity @s[gamemode=adventure] run return 0
 
@@ -36,11 +39,17 @@ execute if entity @s[predicate=tcc:entity_properties/slots/weapon/teapot] anchor
 # Frostblooms
 execute if entity @s[predicate=tcc:entity_properties/slots/weapon/frostbloom] anchored eyes run function tcc:block/frostbloom/raycast_start
 
+# Nether brick flower pots
+execute if entity @s[predicate=tcc:entity_properties/slots/weapon/custom_flower_pot] anchored eyes run function tcc:block/flower_pot/raycast_start
+
 # Sprouter Egg
 execute if entity @s[predicate=tcc:entity_properties/slots/weapon/sprouter_egg] anchored eyes run function tcc:block/sprouter_egg/raycast_start
 
 # Gobblerift
 execute if entity @s[predicate=tcc:entity_properties/slots/weapon/gobblerift] anchored eyes run function tcc:block/gobblerift/place/raycast_start
+
+# Gobblerift Seeds
+execute if entity @s[predicate=tcc:entity_properties/slots/weapon/gobblerift_seeds] anchored eyes run function tcc:block/gobblerift/place_seeds/raycast_start
 
 # Echoing Hourglass
 execute if entity @s[predicate=tcc:entity_properties/slots/weapon/echoing_hourglass] anchored eyes run function tcc:block/echoing_hourglass/place/raycast_start

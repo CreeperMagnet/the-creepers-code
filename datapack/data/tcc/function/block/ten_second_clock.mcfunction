@@ -6,8 +6,5 @@ execute if entity @s[type=minecraft:item_display,tag=tcc.prevents_hoppers] posit
 ## Snail Nest
 execute if entity @s[type=minecraft:item_display,tag=tcc.snail_nest] run function tcc:block/snail_nest/ten_second_clock
 
-## Kill teapot entities without their partners
-execute if entity @s[tag=tcc.teapot] run function tcc:block/teapot/ten_second_clock
-
 ## Gobblerift
 execute if entity @s[tag=tcc.gobblerift] run function tcc:block/gobblerift/ten_second_clock

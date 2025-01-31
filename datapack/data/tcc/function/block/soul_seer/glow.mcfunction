@@ -1,6 +1,6 @@
 # Triggers the glowing behavior of soul seer
 
-data modify entity @s item.components."minecraft:item_model" set value "tcc:block/soul_seer/on"
+data modify entity @s item.components."minecraft:custom_model_data".flags[0] set value true
 execute unless block ~ ~1 ~ minecraft:tinted_glass run scoreboard players set @s tcc.dummy2 200
 execute if block ~ ~1 ~ minecraft:tinted_glass run scoreboard players set @s tcc.dummy2 20
 data modify entity @s item.components."minecraft:custom_data".comparator set value 0

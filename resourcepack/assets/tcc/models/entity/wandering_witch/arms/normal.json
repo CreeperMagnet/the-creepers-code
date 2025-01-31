@@ -1,0 +1,6 @@
+{
+	"parent": "tcc:entity/illager_template/arms",
+	"textures": {
+		"0": "tcc:entity/wandering_witch/main"
+	}
+}

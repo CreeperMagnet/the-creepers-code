@@ -20,7 +20,7 @@
         {
           "type": "minecraft:loot_table",
           "weight": 1,
-          "value": "tcc:items/snail_mucus"
+          "value": "tcc:gameplay/snail_slime"
         }
       ]
     }

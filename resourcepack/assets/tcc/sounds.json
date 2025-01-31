@@ -6,8 +6,7 @@
         "stream": true
       }
     ],
-    "subtitle": "subtitles.tcc.item.boomerang.swish",
-    "category": "master"
+    "subtitle": "subtitles.tcc.item.boomerang.swish"
   },
   "item.boomerang.bounce": {
     "sounds": [
@@ -149,18 +148,6 @@
     ],
     "subtitle": "subtitles.tcc.item.cursed_crown.refresh"
   },
-  "block.positional_anchor.fill": {
-    "sounds": [
-      "tcc:block/positional_anchor_fill"
-    ],
-    "subtitle": "subtitles.tcc.block.positional_anchor.fill"
-  },
-  "block.positional_anchor.fire": {
-    "sounds": [
-      "tcc:block/positional_anchor_fire"
-    ],
-    "subtitle": "subtitles.tcc.block.positional_anchor.fire"
-  },
   "block.nether_reactor.activate": {
     "sounds": [
       "tcc:block/nether_reactor_activate1",
@@ -195,50 +182,6 @@
       "tcc:block/soul_seer_emanate"
     ],
     "subtitle": "subtitles.tcc.block.soul_seer.emanate"
-  },
-  "block.teapot.insert_item": {
-    "sounds": [
-      "tcc:block/plop1",
-      "tcc:block/plop2"
-    ],
-    "subtitle": "subtitles.tcc.block.teapot.insert_item"
-  },
-  "block.teapot.brew": {
-    "sounds": [
-      "block/brewing_stand/brew1",
-      "block/brewing_stand/brew2"
-    ],
-    "subtitle": "subtitles.tcc.block.teapot.brew"
-  },
-  "block.teapot.hit": {
-    "sounds": [
-      {
-        "name": "entity/armorstand/hit1",
-        "pitch": 1.5
-      },
-      {
-        "name": "entity/armorstand/hit2",
-        "pitch": 1.5
-      },
-      {
-        "name": "entity/armorstand/hit3",
-        "pitch": 1.5
-      },
-      {
-        "name": "entity/armorstand/hit4",
-        "pitch": 1.5
-      }
-    ],
-    "subtitle": "subtitles.block.generic.hit"
-  },
-  "block.teapot.break": {
-    "sounds": [
-      "entity/armorstand/break1",
-      "entity/armorstand/break2",
-      "entity/armorstand/break3",
-      "entity/armorstand/break4"
-    ],
-    "subtitle": "subtitles.block.generic.break"
   },
   "block.echoing_hourglass.hit": {
     "sounds": [
@@ -474,10 +417,15 @@
   },
   "entity.iceologer.ice_hit": {
     "sounds": [
-      "tcc:mob/iceologer/ice_hit1",
-      "tcc:mob/iceologer/ice_hit2"
+      {
+        "name": "tcc:mob/iceologer/ice_hit1",
+        "volume": 0.5
+      },
+      {
+        "name": "tcc:mob/iceologer/ice_hit2",
+        "volume": 0.5
+      }
     ],
-    "volume": 0.5,
     "subtitle": "subtitles.tcc.entity.iceologer.ice_hit"
   },
   "entity.geomancer.ambient": {
@@ -726,5 +674,118 @@
       "tcc:mob/sprouter/chew3"
     ],
     "subtitle": "subtitles.tcc.entity.sprouter.eat"
+  },
+  "block.creaking_connector.turn_on": {
+    "sounds": [
+      {
+        "name": "block/creaking_heart/hit/creaking_heart_hit5",
+        "pitch": 1.5,
+        "volume": 0.25,
+        "attenuation_distance": 6
+      }
+    ],
+    "subtitle": "subtitles.tcc.block.creaking_connector.turn_on"
+  },
+  "block.creaking_connector.turn_off": {
+    "sounds": [
+      {
+        "name": "block/creaking_heart/hit/creaking_heart_hit5",
+        "pitch": 1.25,
+        "volume": 0.25,
+        "attenuation_distance": 6
+      }
+    ],
+    "subtitle": "subtitles.tcc.block.creaking_connector.turn_off"
+  },
+  "block.creaking_connector.bind_saplink": {
+    "sounds": [
+      "block/creaking_heart/break/creaking_heart_break"
+    ],
+    "subtitle": "subtitles.tcc.block.creaking_connector.bind_saplink"
+  },
+  "item.saplink.used.success": {
+    "sounds": [
+      {
+        "name": "mob/creaking/creaking_activate",
+        "volume": 0.5,
+        "pitch": 1.1,
+        "attenuation_distance": 6
+      },
+      {
+        "name": "mob/creaking/creaking_activate",
+        "volume": 0.5,
+        "pitch": 1.2,
+        "attenuation_distance": 6
+      },
+      {
+        "name": "mob/creaking/creaking_activate",
+        "volume": 0.5,
+        "pitch": 1.15,
+        "attenuation_distance": 6
+      }
+    ],
+    "subtitle": "subtitles.tcc.item.saplink.used.success"
+  },
+  "item.saplink.used.failure": {
+    "sounds": [
+      {
+        "name": "block/creaking_heart/break/creaking_heart_break",
+        "volume": 0.2,
+        "pitch": 1.2,
+        "attenuation_distance": 6
+      },
+      {
+        "name": "block/creaking_heart/break/creaking_heart_break",
+        "volume": 0.2,
+        "pitch": 1.25,
+        "attenuation_distance": 6
+      },
+      {
+        "name": "block/creaking_heart/break/creaking_heart_break",
+        "volume": 0.2,
+        "pitch": 1.15,
+        "attenuation_distance": 6
+      }
+    ],
+    "subtitle": "subtitles.tcc.item.saplink.used.failure"
+  },
+  "item.sonic_screwdriver.used.failure": {
+    "sounds": [
+      {
+        "name": "tcc:item/sonic_screwdriver_failure",
+        "volume": 1.0,
+        "pitch": 1.0,
+        "attenuation_distance": 6
+      }
+    ],
+    "subtitle": "subtitles.tcc.item.sonic_screwdriver.used.failure"
+  },
+  "item.sonic_screwdriver.used.success": {
+    "sounds": [
+      {
+        "name": "tcc:item/sonic_screwdriver_success",
+        "volume": 1.0,
+        "pitch": 1.0,
+        "attenuation_distance": 6
+      }
+    ],
+    "subtitle": "subtitles.tcc.item.sonic_screwdriver.used.success"
+  },
+  "block.pottery_table.craft": {
+    "sounds": [
+      {
+        "name": "tcc:block/pottery_table/craft1",
+        "volume": 1.0,
+        "pitch": 1.0,
+        "attenuation_distance": 6
+      },
+      {
+        "name": "tcc:block/pottery_table/craft2",
+        "volume": 1.0,
+        "pitch": 1.0,
+        "attenuation_distance": 6
+      }
+    ],
+    "subtitle": "subtitles.tcc.block.pottery_table.craft"
   }
 }

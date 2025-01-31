@@ -10,3 +10,4 @@ tag @s remove tcc.gobblerift.seedling_2
 tag @s remove tcc.gobblerift.seedling_3
 tag @s remove tcc.gobblerift.seedling_4
 tag @s remove tcc.gobblerift.seedling_5
+tag @s remove tcc.gobblerift.seedling

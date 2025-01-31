@@ -14,8 +14,13 @@
     "id": "minecraft:warped_fungus_on_a_stick",
     "count": 1,
     "components": {
-      "minecraft:item_model": "tcc:tangling_pearl/off",
+      "minecraft:item_model": "tcc:tangling_pearl",
       "!minecraft:enchantments": {},
+      "minecraft:custom_model_data": {
+        "flags": [
+          false
+        ]
+      },
       "minecraft:custom_data": {
         "tcc": {
           "id": "tangling_pearl",

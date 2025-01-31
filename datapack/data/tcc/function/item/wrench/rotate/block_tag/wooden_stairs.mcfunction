@@ -2,6 +2,7 @@
 
 execute if block ~ ~ ~ minecraft:acacia_stairs run function tcc:item/wrench/rotate/macro/stairs/main {block:"minecraft:acacia_stairs"}
 execute if block ~ ~ ~ minecraft:oak_stairs run function tcc:item/wrench/rotate/macro/stairs/main {block:"minecraft:oak_stairs"}
+execute if block ~ ~ ~ minecraft:pale_oak_stairs run function tcc:item/wrench/rotate/macro/stairs/main {block:"minecraft:pale_oak_stairs"}
 execute if block ~ ~ ~ minecraft:spruce_stairs run function tcc:item/wrench/rotate/macro/stairs/main {block:"minecraft:spruce_stairs"}
 execute if block ~ ~ ~ minecraft:bamboo_stairs run function tcc:item/wrench/rotate/macro/stairs/main {block:"minecraft:bamboo_stairs"}
 execute if block ~ ~ ~ minecraft:birch_stairs run function tcc:item/wrench/rotate/macro/stairs/main {block:"minecraft:birch_stairs"}

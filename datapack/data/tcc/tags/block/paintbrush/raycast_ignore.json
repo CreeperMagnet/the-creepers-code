@@ -42,6 +42,7 @@
       "minecraft:wall_torch",
       "minecraft:soul_wall_torch",
       "minecraft:redstone_wall_torch",
-      "minecraft:scaffolding"
+      "minecraft:scaffolding",
+      "minecraft:resin_clump"
     ]
   }

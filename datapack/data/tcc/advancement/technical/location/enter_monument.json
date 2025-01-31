@@ -1,7 +1,7 @@
 {
   "parent": "tcc:technical/root",
   "criteria": {
-    "enter_monument_without_mining_fatigue_or_tea": {
+    "enter_monument_without_mining_fatigue": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": [
@@ -27,17 +27,9 @@
               "condition": "minecraft:entity_properties",
               "entity": "this",
               "predicate": {
-                "nbt": "{active_effects:[{id:\"minecraft:mining_fatigue\"}]}"
-              }
-            }
-          },
-          {
-            "condition": "minecraft:inverted",
-            "term": {
-              "condition": "minecraft:entity_properties",
-              "entity": "this",
-              "predicate": {
-                "nbt": "{Tags:[\"tcc.tea.vitality\"]}"
+                "effects": {
+                  "minecraft:mining_fatigue": {}
+                }
               }
             }
           },
@@ -59,7 +51,7 @@
   },
   "requirements": [
     [
-      "enter_monument_without_mining_fatigue_or_tea"
+      "enter_monument_without_mining_fatigue"
     ]
   ]
 }

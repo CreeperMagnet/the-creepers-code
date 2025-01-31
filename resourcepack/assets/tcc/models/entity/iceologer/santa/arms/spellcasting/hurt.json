@@ -1,0 +1,6 @@
+{
+	"parent": "tcc:entity/iceologer/santa/arms/spellcasting/normal",
+	"textures": {
+		"0": "tcc:entity/iceologer/santa/main_hurt"
+	}
+}

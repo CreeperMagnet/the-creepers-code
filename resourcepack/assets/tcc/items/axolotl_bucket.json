@@ -1,0 +1,87 @@
+{
+  "model": {
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:custom_model_data",
+    "entries": [
+      {
+        "threshold": 0,
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:custom_model_data",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/axolotl_bucket"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "tcc:item/axolotl_bucket/leucistic_baby"
+          }
+        }
+      },
+      {
+        "threshold": 1,
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:custom_model_data",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "tcc:item/axolotl_bucket/wild"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "tcc:item/axolotl_bucket/wild_baby"
+          }
+        }
+      },
+      {
+        "threshold": 2,
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:custom_model_data",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "tcc:item/axolotl_bucket/gold"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "tcc:item/axolotl_bucket/gold_baby"
+          }
+        }
+      },
+      {
+        "threshold": 3,
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:custom_model_data",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "tcc:item/axolotl_bucket/cyan"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "tcc:item/axolotl_bucket/cyan_baby"
+          }
+        }
+      },
+      {
+        "threshold": 4,
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:custom_model_data",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "tcc:item/axolotl_bucket/blue"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "tcc:item/axolotl_bucket/blue_baby"
+          }
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/axolotl_bucket"
+    }
+  }
+}

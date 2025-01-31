@@ -21,7 +21,7 @@
     }
   },
   "rewards": {
-    "function": "tcc:item/cursed_crown/player_death_keep_inventory"
+    "function": "tcc:item/cursed_crown/player_dies_keep_inventory/advancement"
   },
   "requirements": [
     [

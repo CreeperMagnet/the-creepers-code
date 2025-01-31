@@ -15,26 +15,7 @@
     "id": "minecraft:dropper",
     "count": 1,
     "components": {
-      "minecraft:item_model": "tcc:block/nether_reactor_core/off",
-      "minecraft:container": [
-        {
-          "slot": 0,
-          "item": {
-            "id": "minecraft:structure_block",
-            "count": 1,
-            "components": {
-              "minecraft:custom_data": {
-                "tcc": {
-                  "placed_block": true,
-                  "clear": true,
-                  "block": "nether_reactor_core"
-                }
-              },
-              "minecraft:item_model": "tcc:empty"
-            }
-          }
-        }
-      ],
+      "minecraft:item_model": "tcc:block/nether_reactor_core",
       "minecraft:custom_data": {
         "tcc": {
           "id": "nether_reactor_core",
@@ -48,6 +29,11 @@
       "minecraft:rarity": "rare",
       "minecraft:damage_resistant": {
         "types": "#minecraft:is_fire"
+      },
+      "minecraft:custom_model_data": {
+        "flags": [
+          false
+        ]
       }
     }
   }

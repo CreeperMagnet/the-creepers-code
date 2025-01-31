@@ -11,6 +11,6 @@ execute if data entity @s item.components."minecraft:custom_data".stored_barrel_
 
 # Spawn particles, items, etc.
 execute as @n[tag=!smithed.entity,type=minecraft:item,distance=..3,nbt={PickupDelay:10s,Item:{components:{"minecraft:custom_name":'{"color":"white","font":"tcc:pottery_table","translate":"block.tcc.pottery_table.gui","with":[{"color":"#3F3F3F","font":"minecraft:default","translate":"block.tcc.pottery_table"}]}'},id:"minecraft:barrel"}}] at @s run function tcc:block/pottery_table/break/kill_item
-particle minecraft:item{item:{id:"minecraft:stone",components:{"minecraft:item_model":"tcc:block/pottery_table"}}} ~ ~0.7 ~ 0.4 0.4 0.4 0.07 100 normal
+function tcc:block/break_particles/spawn_generic
 kill @s
 function tcc:block/hopper_updating/undo

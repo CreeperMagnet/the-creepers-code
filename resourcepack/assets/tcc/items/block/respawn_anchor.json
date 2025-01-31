@@ -1,0 +1,48 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:block_state",
+    "block_state_property": "charges",
+    "cases": [
+      {
+        "when": "0",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/respawn_anchor_0"
+        }
+      },
+      {
+        "when": "1",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/respawn_anchor_1"
+        }
+      },
+      {
+        "when": "2",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/respawn_anchor_2"
+        }
+      },
+      {
+        "when": "3",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/respawn_anchor_3"
+        }
+      },
+      {
+        "when": "4",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/respawn_anchor_4"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:block/respawn_anchor_0"
+    }
+  }
+}

@@ -1,6 +1,7 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "tcc:item/smoldering_seeker/18"
+    "layer0": "tcc:item/smoldering_seeker/base",
+    "layer1": "tcc:item/smoldering_seeker/needle/18"
   }
 }

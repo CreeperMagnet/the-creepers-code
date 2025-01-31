@@ -13,11 +13,20 @@
     "id": "minecraft:decorated_pot",
     "count": 1,
     "components": {
-      "minecraft:item_model": "tcc:block/decorated_pot/prismarine/blank_blank",
+      "minecraft:item_model": "tcc:block/prismarine_pot",
+      "minecraft:custom_model_data": {
+        "strings": [
+          "blank",
+          "blank",
+          "blank",
+          "blank"
+        ]
+      },
       "minecraft:custom_data": {
         "tcc": {
           "id": "decorated_pot",
           "type": "prismarine",
+          "custom_block": true,
           "raw_pot": true,
           "sherds": [
             {
@@ -37,10 +46,10 @@
       },
       "minecraft:item_name": "{\"translate\":\"block.tcc.prismarine_pot\"}",
       "minecraft:pot_decorations": [
-        "minecraft:stone",
-        "minecraft:stone",
-        "minecraft:stone",
-        "minecraft:stone"
+        "minecraft:air",
+        "minecraft:air",
+        "minecraft:air",
+        "minecraft:air"
       ],
       "minecraft:lore": [
         "{\"translate\":\"pack.tcc\",\"color\":\"#008725\",\"italic\":true}"

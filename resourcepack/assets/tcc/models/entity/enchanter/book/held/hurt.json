@@ -1,0 +1,6 @@
+{
+	"parent": "tcc:entity/enchanter/book/held/normal",
+	"textures": {
+		"0": "tcc:entity/enchanter/book_hurt"
+	}
+}

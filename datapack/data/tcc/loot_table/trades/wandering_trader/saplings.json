@@ -49,6 +49,10 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:cherry_sapling"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:pale_oak_sapling"
         }
       ]
     }

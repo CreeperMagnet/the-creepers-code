@@ -10,7 +10,9 @@ execute if data storage tcc:temp root.macro_input.item{id:"minecraft:suspicious_
 
 data remove entity @s item.components."minecraft:custom_data".powder
 data remove entity @s item.components."minecraft:custom_data".drop_item
-data modify entity @s item.components."minecraft:item_model" set value "tcc:block/echoing_hourglass/empty"
+data modify entity @s item.components."minecraft:custom_model_data".strings[0] set value "empty"
+data modify entity @s item.components."minecraft:custom_model_data".floats[0] set value 0.0f
+
 tag @s remove tcc.echoing_hourglass.finished
 tag @s add tcc.echoing_hourglass.empty
 execute as @p[advancements={tcc:technical/player_interacted_with_entity/echoing_hourglass=true}] run function tcc:block/echoing_hourglass/interact/take_powder/as_player

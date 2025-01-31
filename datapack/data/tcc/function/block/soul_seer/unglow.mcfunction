@@ -2,7 +2,7 @@
 
 function tcc:block/soul_seer/remove_items/main
 scoreboard players reset @s tcc.dummy2
-data modify entity @s item.components."minecraft:item_model" set value "tcc:block/soul_seer/off"
+data modify entity @s item.components."minecraft:custom_model_data".flags[0] set value false
 execute unless block ~ ~1 ~ minecraft:tinted_glass run playsound tcc:block.soul_seer.emanate block @a[distance=..6] ~ ~ ~ 1 0.5 1
 execute if block ~ ~1 ~ minecraft:tinted_glass run playsound tcc:block.soul_seer.emanate block @a[distance=..6] ~ ~ ~ 0.2 0.5 1
 data modify entity @s item.components."minecraft:custom_data".comparator set value 0

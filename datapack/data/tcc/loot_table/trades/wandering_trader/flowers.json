@@ -101,7 +101,12 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:pink_petals",
-          "weight": 10
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:closed_eyeblossom",
+          "weight": 3
         }
       ],
       "functions": [

@@ -46,3 +46,4 @@ execute if block ~ ~ ~ minecraft:mud_brick_stairs run function tcc:item/wrench/r
 execute if block ~ ~ ~ minecraft:tuff_stairs run function tcc:item/wrench/rotate/macro/stairs/main {block:"minecraft:tuff_stairs"}
 execute if block ~ ~ ~ minecraft:polished_tuff_stairs run function tcc:item/wrench/rotate/macro/stairs/main {block:"minecraft:polished_tuff_stairs"}
 execute if block ~ ~ ~ minecraft:tuff_brick_stairs run function tcc:item/wrench/rotate/macro/stairs/main {block:"minecraft:tuff_brick_stairs"}
+execute if block ~ ~ ~ minecraft:resin_brick_stairs run function tcc:item/wrench/rotate/macro/stairs/main {block:"minecraft:resin_brick_stairs"}

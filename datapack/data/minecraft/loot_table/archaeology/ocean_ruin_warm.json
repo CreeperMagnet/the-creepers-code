@@ -32,7 +32,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:sniffer_egg",
-          "weight": 2
+          "weight": 4
         },
         {
           "type": "minecraft:item",

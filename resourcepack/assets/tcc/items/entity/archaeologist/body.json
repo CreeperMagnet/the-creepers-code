@@ -1,0 +1,32 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:custom_model_data",
+    "on_false": {
+      "type": "minecraft:composite",
+      "models": [
+        {
+          "type": "minecraft:model",
+          "model": "tcc:entity/archaeologist/body/normal"
+        },
+        {
+          "type": "minecraft:model",
+          "model": "tcc:entity/archaeologist/arms/normal"
+        }
+      ]
+    },
+    "on_true": {
+      "type": "minecraft:composite",
+      "models": [
+        {
+          "type": "minecraft:model",
+          "model": "tcc:entity/archaeologist/body/hurt"
+        },
+        {
+          "type": "minecraft:model",
+          "model": "tcc:entity/archaeologist/arms/hurt"
+        }
+      ]
+    }
+  }
+}

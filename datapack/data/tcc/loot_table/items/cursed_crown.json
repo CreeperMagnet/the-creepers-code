@@ -23,16 +23,8 @@
                       "id": "tcc:cursed_crown_armor",
                       "operation": "add_value",
                       "type": "minecraft:armor"
-                    },
-                    {
-                      "amount": -16.0,
-                      "slot": "head",
-                      "id": "tcc:cursed_crown_health",
-                      "operation": "add_value",
-                      "type": "minecraft:max_health"
                     }
-                  ],
-                  "show_in_tooltip": false
+                  ]
                 },
                 "minecraft:enchantments": {
                   "levels": {
@@ -67,45 +59,6 @@
                   "translate": "pack.tcc",
                   "color": "#008725",
                   "italic": true
-                },
-                "",
-                {
-                  "translate": "item.modifiers.head",
-                  "color": "gray",
-                  "italic": false
-                },
-                {
-                  "translate": "attribute.modifier.plus.0",
-                  "italic": false,
-                  "color": "blue",
-                  "with": [
-                    "3",
-                    {
-                      "translate": "attribute.name.armor"
-                    }
-                  ]
-                },
-                {
-                  "translate": "attribute.modifier.take.1",
-                  "italic": false,
-                  "color": "red",
-                  "with": [
-                    "80",
-                    {
-                      "translate": "attribute.name.max_health"
-                    }
-                  ]
-                },
-                {
-                  "translate": "attribute.modifier.plus.1",
-                  "italic": false,
-                  "color": "blue",
-                  "with": [
-                    "80",
-                    {
-                      "translate": "item.tcc.cursed_crown.absorption_health"
-                    }
-                  ]
                 }
               ],
               "mode": "replace_all"

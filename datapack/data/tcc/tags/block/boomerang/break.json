@@ -1,7 +1,11 @@
 {
   "values": [
     "#minecraft:small_flowers",
-    "#minecraft:tall_flowers",
+    "minecraft:sunflower",
+    "minecraft:lilac",
+    "minecraft:peony",
+    "minecraft:rose_bush",
+    "minecraft:pitcher_plant",
     "#minecraft:saplings",
     "#minecraft:flower_pots",
     "minecraft:short_grass",
@@ -43,6 +47,8 @@
     "minecraft:kelp",
     "minecraft:kelp_plant",
     "minecraft:seagrass",
-    "minecraft:tall_seagrass"
+    "minecraft:tall_seagrass",
+    "minecraft:pale_hanging_moss",
+    "minecraft:resin_clump"
   ]
 }

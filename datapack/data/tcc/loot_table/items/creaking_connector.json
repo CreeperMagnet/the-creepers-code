@@ -1,0 +1,51 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{tcc:{id:\"creaking_connector\",custom_block:1b}}"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "tcc:block/creaking_connector",
+                "minecraft:max_stack_size": 1,
+                "minecraft:custom_model_data": {
+                  "flags": [
+                    false
+                  ]
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "block.tcc.creaking_connector"
+              },
+              "target": "item_name"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "pack.tcc",
+                  "color": "#008725",
+                  "italic": true
+                }
+              ],
+              "mode": "replace_all"
+            }
+          ],
+          "name": "minecraft:dropper"
+        }
+      ]
+    }
+  ],
+  "random_sequence": "tcc:items/creaking_connector"
+}

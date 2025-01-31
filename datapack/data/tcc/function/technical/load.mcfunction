@@ -17,7 +17,7 @@ gamerule maxCommandChainLength 1073741824
 ## Compendium Data
 execute unless data storage tcc:compendium player_data run data merge storage tcc:compendium {player_data:[]}
 # The following line is updated when the generator is run
-data modify storage tcc:compendium version set value {release:7,dev:0}
+data modify storage tcc:compendium version set value {release:8,dev:0}
 
 ## Scoreboards
 scoreboard objectives add tcc.used_warped_fungus_on_a_stick minecraft.used:minecraft.warped_fungus_on_a_stick
@@ -48,6 +48,7 @@ scoreboard players set #31 tcc.dummy 31
 scoreboard players set #60 tcc.dummy 60
 scoreboard players set #100 tcc.dummy 100
 scoreboard players set #180 tcc.dummy 180
+scoreboard players set #1000 tcc.dummy 1000
 
 ## Wandering Witch Timer
 execute unless score #wandering_witch_timer tcc.dummy matches -2147483648..2147483647 run scoreboard players set #wandering_witch_timer tcc.dummy 180

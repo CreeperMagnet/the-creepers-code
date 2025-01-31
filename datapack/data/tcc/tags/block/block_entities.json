@@ -36,6 +36,7 @@
     "minecraft:structure_block",
     "minecraft:daylight_detector",
     "minecraft:suspicious_gravel",
-    "minecraft:suspicious_sand"
+    "minecraft:suspicious_sand",
+    "minecraft:creaking_heart"
   ]
 }

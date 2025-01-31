@@ -1,0 +1,6 @@
+{
+	"parent": "tcc:entity/geomancer/facial_hair/normal",
+	"textures": {
+		"0": "tcc:entity/geomancer/main_hurt"
+	}
+}

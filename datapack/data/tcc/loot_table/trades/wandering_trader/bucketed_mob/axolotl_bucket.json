@@ -11,13 +11,17 @@
               "name": "minecraft:axolotl_bucket",
               "functions": [
                 {
-                  "function": "minecraft:set_custom_data",
-                  "tag": "{Variant:4}"
-                },
-                {
                   "function": "minecraft:set_components",
                   "components": {
-                    "minecraft:item_model": "tcc:axolotl_bucket/cyan"
+                    "minecraft:bucket_entity_data": {
+                      "Variant": 4
+                    },
+                    "minecraft:item_model": "tcc:axolotl_bucket",
+                    "minecraft:custom_model_data" : {
+                      "floats": [
+                        4
+                      ]
+                    }
                   }
                 }
               ],
@@ -36,13 +40,17 @@
                   "name": "minecraft:axolotl_bucket",
                   "functions": [
                     {
-                      "function": "minecraft:set_custom_data",
-                      "tag": "{Variant:1}"
-                    },
-                    {
                       "function": "minecraft:set_components",
                       "components": {
-                        "minecraft:item_model": "tcc:axolotl_bucket/brown"
+                        "minecraft:bucket_entity_data": {
+                          "Variant": 1
+                        },
+                        "minecraft:item_model": "tcc:axolotl_bucket",
+                        "minecraft:custom_model_data" : {
+                          "floats": [
+                            1
+                          ]
+                        }
                       }
                     }
                   ]
@@ -52,13 +60,17 @@
                   "name": "minecraft:axolotl_bucket",
                   "functions": [
                     {
-                      "function": "minecraft:set_custom_data",
-                      "tag": "{Variant:2}"
-                    },
-                    {
                       "function": "minecraft:set_components",
                       "components": {
-                        "minecraft:item_model": "tcc:snail_bucket/yellow"
+                        "minecraft:bucket_entity_data": {
+                          "Variant": 2
+                        },
+                        "minecraft:item_model": "tcc:axolotl_bucket",
+                        "minecraft:custom_model_data" : {
+                          "floats": [
+                            2
+                          ]
+                        }
                       }
                     }
                   ]
@@ -68,13 +80,17 @@
                   "name": "minecraft:axolotl_bucket",
                   "functions": [
                     {
-                      "function": "minecraft:set_custom_data",
-                      "tag": "{Variant:3}"
-                    },
-                    {
                       "function": "minecraft:set_components",
                       "components": {
-                        "minecraft:item_model": "tcc:snail_bucket/blue"
+                        "minecraft:bucket_entity_data": {
+                          "Variant": 3
+                        },
+                        "minecraft:item_model": "tcc:axolotl_bucket",
+                        "minecraft:custom_model_data" : {
+                          "floats": [
+                            3
+                          ]
+                        }
                       }
                     }
                   ]

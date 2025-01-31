@@ -61,6 +61,9 @@
     "minecraft:cobweb",
     "minecraft:tripwire_hook",
     "minecraft:bamboo_sapling",
-    "minecraft:moss_carpet"
+    "minecraft:moss_carpet",
+    "minecraft:pale_moss_carpet",
+    "minecraft:pale_hanging_moss",
+    "minecraft:resin_clump"
   ]
 }
