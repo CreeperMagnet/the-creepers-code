@@ -28,9 +28,9 @@
           "custom_block": true
         }
       },
-      "minecraft:item_name": "{\"translate\":\"block.tcc.soul_seer\"}",
+      "minecraft:item_name": {"translate":"block.tcc.soul_seer"},
       "minecraft:lore": [
-        "{\"translate\":\"pack.tcc\",\"color\":\"#008725\",\"italic\":true}"
+        {"translate":"pack.tcc","color":"#008725","italic":true}
       ]
     }
   }

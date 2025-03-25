@@ -36,6 +36,9 @@
     "minecraft:frogspawn",
     "minecraft:sculk_vein",
     "minecraft:pale_moss_carpet",
-    "minecraft:resin_clump"
+    "minecraft:resin_clump",
+    "minecraft:pink_petals",
+    "minecraft:wildflowers",
+    "minecraft:leaf_litter"
   ]
 }

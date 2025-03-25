@@ -4,7 +4,7 @@
   "ingredients": [
     "minecraft:apple",
     "minecraft:sugar",
-    "minecraft:egg"
+    "#minecraft:eggs"
   ],
   "result": {
     "id": "minecraft:poisonous_potato",
@@ -21,9 +21,9 @@
         "nutrition": 8,
         "saturation": 4.8
       },
-      "minecraft:item_name": "{\"translate\":\"item.tcc.apple_pie\"}",
+      "minecraft:item_name": {"translate":"item.tcc.apple_pie"},
       "minecraft:lore": [
-        "{\"translate\":\"pack.tcc\",\"color\":\"#008725\",\"italic\":true}"
+        {"translate":"pack.tcc","color":"#008725","italic":true}
       ]
     }
   }

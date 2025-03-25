@@ -23,7 +23,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{tcc:{id:\"saplink\",sonic_screwdriver:0b}}"
+              "tag": "{tcc:{id:\"saplink\"}}"
             },
             {
               "function": "minecraft:set_components",

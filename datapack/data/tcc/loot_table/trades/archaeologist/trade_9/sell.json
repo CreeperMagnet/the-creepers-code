@@ -14,7 +14,9 @@
                   "condition": "minecraft:entity_properties",
                   "entity": "this",
                   "predicate": {
-                    "nbt": "{VillagerData:{type:\"minecraft:snow\"}}"
+                    "components": {
+                      "minecraft:villager/variant": "minecraft:snow"
+                    }
                   }
                 }
               ]
@@ -31,7 +33,9 @@
                   "condition": "minecraft:entity_properties",
                   "entity": "this",
                   "predicate": {
-                    "nbt": "{VillagerData:{type:\"minecraft:desert\"}}"
+                    "components": {
+                      "minecraft:villager/variant": "minecraft:desert"
+                    }
                   }
                 }
               ]
@@ -44,7 +48,9 @@
                   "condition": "minecraft:entity_properties",
                   "entity": "this",
                   "predicate": {
-                    "nbt": "{VillagerData:{type:\"minecraft:desert\"}}"
+                    "components": {
+                      "minecraft:villager/variant": "minecraft:desert"
+                    }
                   }
                 }
               ]
@@ -57,7 +63,9 @@
                   "condition": "minecraft:entity_properties",
                   "entity": "this",
                   "predicate": {
-                    "nbt": "{VillagerData:{type:\"minecraft:jungle\"}}"
+                    "components": {
+                      "minecraft:villager/variant": "minecraft:jungle"
+                    }
                   }
                 }
               ]
@@ -70,7 +78,9 @@
                   "condition": "minecraft:entity_properties",
                   "entity": "this",
                   "predicate": {
-                    "nbt": "{VillagerData:{type:\"minecraft:plains\"}}"
+                    "components": {
+                      "minecraft:villager/variant": "minecraft:plains"
+                    }
                   }
                 }
               ]
@@ -83,7 +93,9 @@
                   "condition": "minecraft:entity_properties",
                   "entity": "this",
                   "predicate": {
-                    "nbt": "{VillagerData:{type:\"minecraft:savanna\"}}"
+                    "components": {
+                      "minecraft:villager/variant": "minecraft:savanna"
+                    }
                   }
                 }
               ]
@@ -96,7 +108,9 @@
                   "condition": "minecraft:entity_properties",
                   "entity": "this",
                   "predicate": {
-                    "nbt": "{VillagerData:{type:\"minecraft:swamp\"}}"
+                    "components": {
+                      "minecraft:villager/variant": "minecraft:swamp"
+                    }
                   }
                 }
               ]
@@ -109,7 +123,9 @@
                   "condition": "minecraft:entity_properties",
                   "entity": "this",
                   "predicate": {
-                    "nbt": "{VillagerData:{type:\"minecraft:swamp\"}}"
+                    "components": {
+                      "minecraft:villager/variant": "minecraft:swamp"
+                    }
                   }
                 }
               ]
@@ -122,7 +138,9 @@
                   "condition": "minecraft:entity_properties",
                   "entity": "this",
                   "predicate": {
-                    "nbt": "{VillagerData:{type:\"minecraft:taiga\"}}"
+                    "components": {
+                      "minecraft:villager/variant": "minecraft:taiga"
+                    }
                   }
                 }
               ]

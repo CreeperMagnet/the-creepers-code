@@ -9,6 +9,13 @@
     "minecraft:pitcher_plant",
     "minecraft:chorus_flower",
     "minecraft:small_dripleaf",
-    "minecraft:big_dripleaf"
+    "minecraft:big_dripleaf",
+    "minecraft:cactus_flower",
+    "minecraft:bush",
+    "minecraft:firefly_bush",
+    "minecraft:short_grass",
+    "minecraft:tall_grass",
+    "minecraft:short_dry_grass",
+    "minecraft:tall_dry_grass"
   ]
 }

@@ -226,7 +226,7 @@
     }
   },
   "rewards": {
-    "function": "tcc:item/swordfish"
+    "function": "tcc:item/swordfish/advancement"
   },
   "parent": "tcc:technical/root",
   "requirements": [

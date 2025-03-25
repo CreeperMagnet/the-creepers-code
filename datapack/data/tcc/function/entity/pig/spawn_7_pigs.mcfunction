@@ -1,9 +1,9 @@
 # Spawns 4 pigs (1/256 chance)
 
-summon pig ~ ~ ~ {Age:-23999}
-summon pig ~ ~ ~ {Age:-23999}
-summon pig ~ ~ ~ {Age:-23999}
-summon pig ~ ~ ~ {Age:-23999}
-summon pig ~ ~ ~ {Age:-23999}
-summon pig ~ ~ ~ {Age:-23999}
-summon pig ~ ~ ~ {Age:-23999}
+function tcc:entity/pig/summon_pig_macro with storage tcc:temp root.macro_input
+function tcc:entity/pig/summon_pig_macro with storage tcc:temp root.macro_input
+function tcc:entity/pig/summon_pig_macro with storage tcc:temp root.macro_input
+function tcc:entity/pig/summon_pig_macro with storage tcc:temp root.macro_input
+function tcc:entity/pig/summon_pig_macro with storage tcc:temp root.macro_input
+function tcc:entity/pig/summon_pig_macro with storage tcc:temp root.macro_input
+function tcc:entity/pig/summon_pig_macro with storage tcc:temp root.macro_input

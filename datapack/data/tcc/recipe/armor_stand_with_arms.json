@@ -25,7 +25,7 @@
         }
       },
       "minecraft:lore": [
-        "{\"translate\":\"pack.tcc\",\"color\":\"#008725\",\"italic\":true}"
+        {"translate":"pack.tcc","color":"#008725","italic":true}
       ]
     }
   }

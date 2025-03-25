@@ -21,7 +21,11 @@
                   "minecraft:air",
                   "minecraft:air"
                 ],
-                "minecraft:hide_additional_tooltip": {},
+                "minecraft:tooltip_display": {
+                  "hidden_components": [
+                    "minecraft:pot_decorations"
+                  ]
+                },
                 "minecraft:custom_model_data": {
                   "strings": [
                     "blue"

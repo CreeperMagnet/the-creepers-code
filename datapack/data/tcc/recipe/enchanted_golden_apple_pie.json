@@ -4,7 +4,7 @@
   "ingredients": [
     "minecraft:enchanted_golden_apple",
     "minecraft:sugar",
-    "minecraft:egg"
+    "#minecraft:eggs"
   ],
   "result": {
     "id": "minecraft:poisonous_potato",
@@ -42,9 +42,9 @@
         "saturation": 4.8,
         "can_always_eat": true
       },
-      "minecraft:item_name": "{\"translate\":\"item.tcc.enchanted_golden_apple_pie\"}",
+      "minecraft:item_name": {"translate":"item.tcc.enchanted_golden_apple_pie"},
       "minecraft:lore": [
-        "{\"translate\":\"pack.tcc\",\"color\":\"#008725\",\"italic\":true}"
+        {"translate":"pack.tcc","color":"#008725","italic":true}
       ],
       "minecraft:enchantment_glint_override": true,
       "minecraft:rarity": "rare"

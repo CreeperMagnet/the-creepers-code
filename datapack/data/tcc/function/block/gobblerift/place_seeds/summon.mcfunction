@@ -2,7 +2,7 @@
 
 data remove storage tcc:temp root
 execute if entity @s[predicate=tcc:entity_properties/slots/weapon.mainhand/gobblerift_seeds] if data entity @s SelectedItem.components."minecraft:custom_name" run data modify storage tcc:temp root.name set from entity @s SelectedItem.components."minecraft:custom_name"
-execute if entity @s[predicate=!tcc:entity_properties/slots/weapon.mainhand/gobblerift_seeds] if data entity @s Inventory[{Slot:-106b}].components."minecraft:custom_name" run data modify storage tcc:temp root.name set from entity @s Inventory[{Slot:-106b}].components."minecraft:custom_name"
+execute if entity @s[predicate=!tcc:entity_properties/slots/weapon.mainhand/gobblerift_seeds] if data entity @s equipment.offhand.components."minecraft:custom_name" run data modify storage tcc:temp root.name set from entity @s equipment.offhand.components."minecraft:custom_name"
 
 item modify entity @s[gamemode=!creative,predicate=!tcc:entity_properties/slots/weapon.mainhand/gobblerift_seeds] weapon.offhand tcc:reduce_count
 item modify entity @s[gamemode=!creative,predicate=tcc:entity_properties/slots/weapon.mainhand/gobblerift_seeds] weapon.mainhand tcc:reduce_count

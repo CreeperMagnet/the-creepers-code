@@ -23,10 +23,14 @@
         "generation": 0,
         "pages": []
       },
-      "minecraft:hide_additional_tooltip": {},
-      "minecraft:item_name": "{\"translate\": \"item.tcc.compendium\"}",
+      "minecraft:tooltip_display": {
+        "hidden_components": [
+          "minecraft:written_book_content"
+        ]
+      },
+      "minecraft:item_name": {"translate":"item.tcc.compendium"},
       "minecraft:lore": [
-        "{\"translate\":\"pack.tcc\",\"color\":\"#008725\",\"italic\":true}"
+        {"translate":"pack.tcc","color":"#008725","italic":true}
       ]
     }
   }

@@ -115,6 +115,11 @@
           ],
           "name": "minecraft:cherry_sapling",
           "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bundle",
+          "weight": 1
         }
       ],
       "rolls": {

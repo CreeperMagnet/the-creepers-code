@@ -27,9 +27,9 @@
           "enabled": false
         }
       },
-      "minecraft:item_name": "{\"translate\":\"item.tcc.tangling_pearl\"}",
+      "minecraft:item_name": {"translate":"item.tcc.tangling_pearl"},
       "minecraft:lore": [
-        "{\"translate\":\"pack.tcc\",\"color\":\"#008725\",\"italic\":true}"
+        {"translate":"pack.tcc","color":"#008725","italic":true}
       ]
     }
   }

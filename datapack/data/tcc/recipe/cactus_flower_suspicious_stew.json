@@ -1,0 +1,23 @@
+{
+  "category": "misc",
+  "type": "crafting_shapeless",
+  "group": "suspicious_stew",
+  "ingredients": [
+    "minecraft:cactus_flower",
+    "minecraft:bowl",
+    "minecraft:red_mushroom",
+    "minecraft:brown_mushroom"
+  ],
+  "result": {
+    "id": "minecraft:suspicious_stew",
+    "count": 1,
+    "components": {
+      "minecraft:suspicious_stew_effects": [
+        {
+          "id": "minecraft:nausea",
+          "duration": 200
+        }
+      ]
+    }
+  }
+}

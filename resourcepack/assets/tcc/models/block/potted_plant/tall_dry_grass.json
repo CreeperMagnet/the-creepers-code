@@ -1,0 +1,6 @@
+{
+	"parent": "tcc:block/potted_plant/template",
+	"textures": {
+		"cross": "tcc:block/potted_plant/tall_dry_grass"
+	}
+}

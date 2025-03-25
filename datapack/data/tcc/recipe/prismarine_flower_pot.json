@@ -19,9 +19,9 @@
           "type": "prismarine"
         }
       },
-      "minecraft:item_name": "{\"translate\":\"block.tcc.prismarine_flower_pot\"}",
+      "minecraft:item_name": {"translate":"block.tcc.prismarine_flower_pot"},
       "minecraft:lore": [
-        "{\"translate\":\"pack.tcc\",\"color\":\"#008725\",\"italic\":true}"
+        {"translate":"pack.tcc","color":"#008725","italic":true}
       ],
       "!minecraft:enchantments": {},
       "!minecraft:max_damage": {},

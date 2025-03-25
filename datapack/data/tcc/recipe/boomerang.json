@@ -25,9 +25,9 @@
       "minecraft:repairable": {
         "items": "#tcc:repair_items/boomerang"
       },
-      "minecraft:item_name": "{\"translate\": \"item.tcc.boomerang\"}",
+      "minecraft:item_name": {"translate":"item.tcc.boomerang"},
       "minecraft:lore": [
-        "{\"translate\":\"pack.tcc\",\"color\":\"#008725\",\"italic\":true}"
+        {"translate":"pack.tcc","color":"#008725","italic":true}
       ]
     }
   }

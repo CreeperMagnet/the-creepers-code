@@ -49,6 +49,11 @@
     "minecraft:seagrass",
     "minecraft:tall_seagrass",
     "minecraft:pale_hanging_moss",
-    "minecraft:resin_clump"
+    "minecraft:resin_clump",
+    "minecraft:leaf_litter",
+    "minecraft:wildflowers",
+    "minecraft:cactus_flower",
+    "minecraft:short_dry_grass",
+    "minecraft:tall_dry_grass"
   ]
 }

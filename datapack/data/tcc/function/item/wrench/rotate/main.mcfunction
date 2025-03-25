@@ -23,6 +23,8 @@ execute if block ~ ~ ~ #tcc:wrench/block_type/rotation run function tcc:item/wre
 
 execute if block ~ ~ ~ #tcc:wrench/block_type/rotation_waterloggable run function tcc:item/wrench/rotate/block_type/rotation_waterloggable
 
+execute if block ~ ~ ~ #tcc:wrench/block_type/segmented run function tcc:item/wrench/rotate/block_type/segmented
+
 execute if block ~ ~ ~ #minecraft:rails run function tcc:item/wrench/rotate/block_tag/rails
 
 execute if block ~ ~ ~ #minecraft:stairs run function tcc:item/wrench/rotate/block_tag/stairs
@@ -34,8 +36,6 @@ execute if block ~ ~ ~ #minecraft:all_hanging_signs run function tcc:item/wrench
 execute if block ~ ~ ~ #tcc:furnaces run function tcc:item/wrench/rotate/block_tag/furnaces
 
 execute if block ~ ~ ~ minecraft:grindstone run function tcc:item/wrench/rotate/block/grindstone
-
-execute if block ~ ~ ~ minecraft:pink_petals run function tcc:item/wrench/rotate/block/pink_petals
 
 execute if block ~ ~ ~ minecraft:comparator run function tcc:item/wrench/rotate/block/comparator
 

@@ -7,7 +7,7 @@
         "items": [
           {
             "components": {
-              "minecraft:custom_name": "{\"color\":\"white\",\"font\":\"tcc:pottery_table\",\"translate\":\"block.tcc.pottery_table.gui\",\"with\":[{\"color\":\"#3F3F3F\",\"font\":\"minecraft:default\",\"translate\":\"block.tcc.pottery_table\"}]}"
+              "minecraft:custom_name": {"color":"white","font":"tcc:pottery_table","translate":"block.tcc.pottery_table.gui","with":[{"color":"#3F3F3F","font":"minecraft:default","translate":"block.tcc.pottery_table"}]}
             }
           }
         ]

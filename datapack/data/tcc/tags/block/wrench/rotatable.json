@@ -9,6 +9,7 @@
     "#tcc:wrench/block_type/facing_cardinal_waterloggable",
     "#tcc:wrench/block_type/rotation",
     "#tcc:wrench/block_type/rotation_waterloggable",
+    "#tcc:wrench/block_type/segmented",
     "#minecraft:rails",
     "#minecraft:stairs",
     "#minecraft:all_hanging_signs",

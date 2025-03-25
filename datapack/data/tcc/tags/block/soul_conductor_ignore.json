@@ -64,6 +64,14 @@
     "minecraft:moss_carpet",
     "minecraft:pale_moss_carpet",
     "minecraft:pale_hanging_moss",
-    "minecraft:resin_clump"
+    "minecraft:resin_clump",
+    "minecraft:bush",
+    "minecraft:pink_petals",
+    "minecraft:wildflowers",
+    "minecraft:leaf_litter",
+    "minecraft:firefly_bush",
+    "minecraft:cactus_flower",
+    "minecraft:short_dry_grass",
+    "minecraft:tall_dry_grass"
   ]
 }

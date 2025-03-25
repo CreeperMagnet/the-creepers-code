@@ -107,6 +107,11 @@
           "type": "minecraft:item",
           "name": "minecraft:closed_eyeblossom",
           "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:wildflowers",
+          "weight": 2
         }
       ],
       "functions": [

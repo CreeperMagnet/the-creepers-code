@@ -10,5 +10,5 @@ data modify entity @s item.components."minecraft:custom_data".comparator set val
 tag @s remove tcc.tag
 execute if block ~ ~ ~ minecraft:dropper[triggered=true] run tag @s add tcc.tag
 setblock ~ ~ ~ minecraft:cobbled_deepslate
-execute if entity @s[tag=tcc.tag] run setblock ~ ~ ~ minecraft:dropper[facing=down,triggered=true]{CustomName:'{"font":"tcc:technical","translate":"block.tcc.soul_seer.name"}',lock:{components:{"minecraft:custom_data":{tcc:{soul_seer:1b}}}}}
-execute if entity @s[tag=!tcc.tag] run setblock ~ ~ ~ minecraft:dropper[facing=down,triggered=false]{CustomName:'{"font":"tcc:technical","translate":"block.tcc.soul_seer.name"}',lock:{components:{"minecraft:custom_data":{tcc:{soul_seer:1b}}}}}
+execute if entity @s[tag=tcc.tag] run setblock ~ ~ ~ minecraft:dropper[facing=down,triggered=true]{CustomName:{"font":"tcc:technical","translate":"block.tcc.soul_seer.name"},lock:{components:{"minecraft:custom_data":{tcc:{soul_seer:1b}}}}}
+execute if entity @s[tag=!tcc.tag] run setblock ~ ~ ~ minecraft:dropper[facing=down,triggered=false]{CustomName:{"font":"tcc:technical","translate":"block.tcc.soul_seer.name"},lock:{components:{"minecraft:custom_data":{tcc:{soul_seer:1b}}}}}

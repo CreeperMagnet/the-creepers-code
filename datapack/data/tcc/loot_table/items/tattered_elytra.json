@@ -25,7 +25,9 @@
                 "minecraft:max_damage": 432,
                 "minecraft:damage": 312,
                 "minecraft:max_stack_size": 1,
-                "!minecraft:consumable": {}
+                "!minecraft:consumable": {},
+                "minecraft:rarity": "rare",
+                "minecraft:repair_cost": 100
               }
             },
             {

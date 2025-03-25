@@ -10,11 +10,11 @@ data modify entity @s Offers.Recipes append value {buy:{id:"minecraft:emerald",c
 
 # Trade 9
 loot replace entity @s weapon.mainhand 2 loot tcc:trades/archaeologist/trade_9/buy
-data modify entity @s Offers.Recipes[-1].buy set from entity @s HandItems[0]
-data modify entity @s Offers.Recipes[-1].buyB set from entity @s HandItems[1]
+data modify entity @s Offers.Recipes[-1].buy set from entity @s equipment.mainhand
+data modify entity @s Offers.Recipes[-1].buyB set from entity @s equipment.offhand
 loot replace entity @s weapon.mainhand 1 loot tcc:trades/archaeologist/trade_9/sell
-execute if entity @s[nbt={HandItems:[{id:"minecraft:map"},{}]}] run data modify entity @s HandItems[0] set value {id:"minecraft:map",count:1}
-data modify entity @s Offers.Recipes[-1].sell set from entity @s HandItems[0]
+execute if entity @s[nbt={equipment:{mainhand:{id:"minecraft:map"}}}] run data modify entity @s equipment.mainhand set value {id:"minecraft:map",count:1}
+data modify entity @s Offers.Recipes[-1].sell set from entity @s equipment.mainhand
 
 item replace entity @s weapon.mainhand with minecraft:shears[minecraft:item_model="tcc:entity/archaeologist/body"]
 item replace entity @s weapon.offhand with minecraft:air

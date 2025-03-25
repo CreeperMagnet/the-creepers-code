@@ -19,9 +19,9 @@
           "id": "enchanted_golden_carrot"
         }
       },
-      "minecraft:item_name": "{\"translate\":\"item.tcc.enchanted_golden_carrot\"}",
+      "minecraft:item_name": {"translate":"item.tcc.enchanted_golden_carrot"},
       "minecraft:lore": [
-        "{\"translate\":\"pack.tcc\",\"color\":\"#008725\",\"italic\":true}"
+        {"translate":"pack.tcc","color":"#008725","italic":true}
       ],
       "minecraft:consumable": {
         "on_consume_effects": [

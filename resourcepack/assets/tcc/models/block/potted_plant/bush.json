@@ -1,0 +1,6 @@
+{
+	"parent": "tcc:block/potted_plant/template_tinted",
+	"textures": {
+		"cross": "tcc:block/potted_plant/bush"
+	}
+}

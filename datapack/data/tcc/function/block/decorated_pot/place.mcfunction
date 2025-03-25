@@ -7,7 +7,7 @@ execute if entity @s[y_rotation=45..135] run data modify storage tcc:temp root.m
 execute if entity @s[y_rotation=135..225] run data modify storage tcc:temp root.macro_input.rotation set value [180.0f,0.0f]
 
 # Get the data from the player into storage
-execute if items entity @s weapon.offhand minecraft:decorated_pot[minecraft:custom_data~{tcc:{id:"decorated_pot"}}] run data modify storage tcc:temp root.macro_input.item set from entity @s Inventory[{Slot:-106b}]
+execute if items entity @s weapon.offhand minecraft:decorated_pot[minecraft:custom_data~{tcc:{id:"decorated_pot"}}] run data modify storage tcc:temp root.macro_input.item set from entity @s equipment.offhand
 # The mainhand overrides the offhand
 execute if items entity @s weapon.mainhand minecraft:decorated_pot[minecraft:custom_data~{tcc:{id:"decorated_pot"}}] run data modify storage tcc:temp root.macro_input.item set from entity @s SelectedItem
 

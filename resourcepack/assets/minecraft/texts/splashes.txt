@@ -124,7 +124,7 @@
 §2Contains unhealthy amounts of green!
 §2Font magic!
 §2:beta:
-§2No more postgen!
+§2May contain postgen!
 §l§n§6E
 §2§oMaybe compatible?
 §2"When will you update to the snapshots?"

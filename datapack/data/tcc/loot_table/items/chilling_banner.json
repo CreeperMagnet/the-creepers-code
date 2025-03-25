@@ -14,7 +14,11 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:hide_additional_tooltip": {},
+                "minecraft:tooltip_display": {
+                  "hidden_components": [
+                    "minecraft:banner_patterns"
+                  ]
+                },
                 "minecraft:banner_patterns": [
                   {
                     "color": "magenta",

@@ -1,8 +1,18 @@
 {
   "model": {
-    "type": "minecraft:condition",
-    "property": "minecraft:custom_model_data",
-    "on_false": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_name",
+    "cases": [
+      {
+        "when": "Sonic Screwdriver",
+        "model": {
+          "type": "minecraft:model",
+          "model": "tcc:item/saplink/sonic_screwdriver"
+        }
+      }
+    ],
+    "fallback": {
       "type": "minecraft:select",
       "property": "minecraft:custom_model_data",
       "cases": [
@@ -63,10 +73,6 @@
           }
         }
       ]
-    },
-    "on_true": {
-      "type": "minecraft:model",
-      "model": "tcc:item/saplink/sonic_screwdriver"
     }
   }
 }

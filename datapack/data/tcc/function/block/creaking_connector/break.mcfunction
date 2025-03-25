@@ -1,6 +1,6 @@
 # Commands to break a creaking connector
 
-kill @n[tag=!smithed.entity,type=minecraft:item,distance=..2,nbt={PickupDelay:10s,Item:{components:{"minecraft:custom_name":'{"font":"tcc:technical","translate":"block.tcc.creaking_connector.name"}'},id:"minecraft:furnace"}}]
+kill @n[tag=!smithed.entity,type=minecraft:item,distance=..2,nbt={PickupDelay:10s,Item:{components:{"minecraft:custom_name":{"font":"tcc:technical","translate":"block.tcc.creaking_connector.name"}},id:"minecraft:furnace"}}]
 kill @e[type=minecraft:item,nbt={Item:{components:{"minecraft:custom_data":{tcc:{clear:1b}}}}}]
 
 data remove storage tcc:temp root.macro_input

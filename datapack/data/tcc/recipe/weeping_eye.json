@@ -21,9 +21,9 @@
           "id": "weeping_eye"
         }
       },
-      "minecraft:item_name": "{\"translate\": \"item.tcc.weeping_eye\"}",
+      "minecraft:item_name": {"translate":"item.tcc.weeping_eye"},
       "minecraft:lore": [
-        "{\"translate\":\"pack.tcc\",\"color\":\"#008725\",\"italic\":true}"
+        {"translate":"pack.tcc","color":"#008725","italic":true}
       ]
     }
   }

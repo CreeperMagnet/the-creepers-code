@@ -5,7 +5,7 @@
     "minecraft:wheat",
     "minecraft:wheat",
     "minecraft:glow_berries",
-    "minecraft:egg"
+    "#minecraft:eggs"
   ],
   "result": {
     "id": "minecraft:poisonous_potato",
@@ -22,9 +22,9 @@
         "nutrition": 7,
         "saturation": 10.0
       },
-      "minecraft:item_name": "{\"translate\":\"item.tcc.glow_berry_muffin\"}",
+      "minecraft:item_name": {"translate":"item.tcc.glow_berry_muffin"},
       "minecraft:lore": [
-        "{\"translate\":\"pack.tcc\",\"color\":\"#008725\",\"italic\":true}"
+        {"translate":"pack.tcc","color":"#008725","italic":true}
       ]
     }
   }

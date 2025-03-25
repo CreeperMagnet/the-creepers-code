@@ -125,6 +125,13 @@
     "minecraft:vault",
     "minecraft:pale_moss_carpet",
     "minecraft:pale_hanging_moss",
-    "minecraft:resin_clump"
+    "minecraft:resin_clump",
+    "minecraft:leaf_litter",
+    "minecraft:wildflowers",
+    "minecraft:bush",
+    "minecraft:firefly_bush",
+    "minecraft:cactus_flower",
+    "minecraft:short_dry_grass",
+    "minecraft:tall_dry_grass"
   ]
 }

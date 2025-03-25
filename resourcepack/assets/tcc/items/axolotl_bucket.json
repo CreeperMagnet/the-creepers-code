@@ -1,10 +1,11 @@
 {
   "model": {
-    "type": "minecraft:range_dispatch",
-    "property": "minecraft:custom_model_data",
-    "entries": [
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:axolotl/variant",
+    "cases": [
       {
-        "threshold": 0,
+        "when": "lucy",
         "model": {
           "type": "minecraft:condition",
           "property": "minecraft:custom_model_data",
@@ -19,7 +20,7 @@
         }
       },
       {
-        "threshold": 1,
+        "when": "wild",
         "model": {
           "type": "minecraft:condition",
           "property": "minecraft:custom_model_data",
@@ -34,7 +35,7 @@
         }
       },
       {
-        "threshold": 2,
+        "when": "gold",
         "model": {
           "type": "minecraft:condition",
           "property": "minecraft:custom_model_data",
@@ -49,7 +50,7 @@
         }
       },
       {
-        "threshold": 3,
+        "when": "cyan",
         "model": {
           "type": "minecraft:condition",
           "property": "minecraft:custom_model_data",
@@ -64,7 +65,7 @@
         }
       },
       {
-        "threshold": 4,
+        "when": "blue",
         "model": {
           "type": "minecraft:condition",
           "property": "minecraft:custom_model_data",

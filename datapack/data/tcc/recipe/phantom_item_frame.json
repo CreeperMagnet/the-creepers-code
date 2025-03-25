@@ -28,9 +28,9 @@
           "id": "phantom_item_frame"
         }
       },
-      "minecraft:item_name": "{\"translate\":\"item.tcc.phantom_item_frame\"}",
+      "minecraft:item_name": {"translate":"item.tcc.phantom_item_frame"},
       "minecraft:lore": [
-        "{\"translate\":\"pack.tcc\",\"color\":\"#008725\",\"italic\":true}"
+        {"translate":"pack.tcc","color":"#008725","italic":true}
       ]
     }
   }

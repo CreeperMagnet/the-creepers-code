@@ -120,6 +120,11 @@
             }
           ],
           "name": "minecraft:slime_ball"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bundle",
+          "weight": 1
         }
       ]
     }

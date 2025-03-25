@@ -32,9 +32,9 @@
         "seconds": 10,
         "cooldown_group": "tcc:golden_chorus_fruit"
       },
-      "minecraft:item_name": "{\"translate\":\"item.tcc.golden_chorus_fruit\"}",
+      "minecraft:item_name": {"translate":"item.tcc.golden_chorus_fruit"},
       "minecraft:lore": [
-        "{\"translate\":\"pack.tcc\",\"color\":\"#008725\",\"italic\":true}"
+        {"translate":"pack.tcc","color":"#008725","italic":true}
       ]
     }
   }

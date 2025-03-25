@@ -132,7 +132,7 @@
           "condition": "minecraft:entity_properties",
           "entity": "this",
           "predicate": {
-            "nbt": "{CustomName:'\"CreeperMagnet_\"'}"
+            "nbt": "{CustomName:\"CreeperMagnet_\"}"
           }
         }
       ]

@@ -15,17 +15,15 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:item_model": "tcc:witch_hat",
-                "minecraft:attribute_modifiers": {
-                  "modifiers": [
-                    {
-                      "amount": 3,
-                      "slot": "head",
-                      "id": "tcc:witch_hat_armor",
-                      "operation": "add_value",
-                      "type": "minecraft:armor"
-                    }
-                  ]
-                },
+                "minecraft:attribute_modifiers": [
+                  {
+                    "amount": 3,
+                    "slot": "head",
+                    "id": "tcc:witch_hat_armor",
+                    "operation": "add_value",
+                    "type": "minecraft:armor"
+                  }
+                ],
                 "minecraft:rarity": "uncommon",
                 "minecraft:damage": 0,
                 "minecraft:max_damage": 200,

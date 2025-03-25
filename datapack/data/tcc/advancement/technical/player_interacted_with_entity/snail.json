@@ -173,7 +173,7 @@
             "minecraft:name_tag"
           ],
           "components": {
-            "minecraft:custom_name": "\"Gary\""
+            "minecraft:custom_name": "Gary"
           }
         },
         "entity": [
@@ -182,16 +182,6 @@
             "entity": "this",
             "predicate": {
               "nbt": "{Tags:[\"tcc.snail\"]}"
-            }
-          },
-          {
-            "condition": "minecraft:inverted",
-            "term": {
-              "condition": "minecraft:entity_properties",
-              "entity": "this",
-              "predicate": {
-                "nbt": "{Tags:[\"tcc.snail.gary\"]}"
-              }
             }
           }
         ]

@@ -2,7 +2,7 @@
 
 data remove storage tcc:temp root
 execute if predicate tcc:entity_properties/slots/weapon.mainhand/saplink run data modify storage tcc:temp root.item set from entity @s SelectedItem
-execute unless predicate tcc:entity_properties/slots/weapon.mainhand/saplink run data modify storage tcc:temp root.item set from entity @s Inventory[{Slot:-106b}]
+execute unless predicate tcc:entity_properties/slots/weapon.mainhand/saplink run data modify storage tcc:temp root.item set from entity @s equipment.offhand
 
 data modify storage tcc:temp root.macro_input.id set from storage tcc:temp root.item.components."minecraft:custom_data".tcc.saplink_id
 data modify storage tcc:temp root.macro_input.wood_type set from storage tcc:temp root.item.components."minecraft:custom_model_data".strings[0]

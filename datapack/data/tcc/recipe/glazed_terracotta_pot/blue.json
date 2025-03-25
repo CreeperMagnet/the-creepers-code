@@ -42,7 +42,7 @@
           ]
         }
       },
-      "minecraft:item_name": "{\"translate\":\"block.tcc.glazed_terracotta_pot.blue\"}",
+      "minecraft:item_name": {"translate":"block.tcc.glazed_terracotta_pot.blue"},
       "minecraft:pot_decorations": [
         "minecraft:air",
         "minecraft:air",
@@ -50,9 +50,13 @@
         "minecraft:air"
       ],
       "minecraft:lore": [
-        "{\"translate\":\"pack.tcc\",\"color\":\"#008725\",\"italic\":true}"
+        {"translate":"pack.tcc","color":"#008725","italic":true}
       ],
-      "minecraft:hide_additional_tooltip": {}
+      "minecraft:tooltip_display": {
+        "hidden_components": [
+          "minecraft:pot_decorations"
+        ]
+      }
     }
   }
 }

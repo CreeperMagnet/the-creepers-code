@@ -21,6 +21,8 @@
     "minecraft:hanging_roots",
     "minecraft:glow_lichen",
     "minecraft:sculk_vein",
-    "minecraft:resin_clump"
+    "minecraft:resin_clump",
+    "minecraft:short_dry_grass",
+    "minecraft:tall_dry_grass"
   ]
 }

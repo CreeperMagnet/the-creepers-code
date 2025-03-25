@@ -22,9 +22,9 @@
           "custom_block": true
         }
       },
-      "minecraft:item_name": "{\"translate\":\"block.tcc.nether_reactor_core\"}",
+      "minecraft:item_name": {"translate":"block.tcc.nether_reactor_core"},
       "minecraft:lore": [
-        "{\"translate\":\"pack.tcc\",\"color\":\"#008725\",\"italic\":true}"
+        {"translate":"pack.tcc","color":"#008725","italic":true}
       ],
       "minecraft:rarity": "rare",
       "minecraft:damage_resistant": {
