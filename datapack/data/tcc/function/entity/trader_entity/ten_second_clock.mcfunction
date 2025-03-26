@@ -6,7 +6,6 @@ item modify entity @s weapon.mainhand {"function":"set_custom_data","tag":{fix:"
 
 # Set death time stuff
 data modify entity @s DeathTime set value 19s
-data remove entity @s Offers.Recipes
 
 # Wandering Witch-specific stuff
 execute if entity @s[tag=tcc.wandering_witch] run return run function tcc:entity/wandering_witch/ten_second_clock
