@@ -30,7 +30,7 @@
     ],
     "frame": "goal"
   },
-  "parent": "tcc:minecraft/adventure/heart_transplanter",
+  "parent": "minecraft:adventure/heart_transplanter",
   "criteria": {
     "impossible": {
       "trigger": "minecraft:impossible"

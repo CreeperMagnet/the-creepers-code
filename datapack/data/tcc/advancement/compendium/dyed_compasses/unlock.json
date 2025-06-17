@@ -1,0 +1,1 @@
+{"parent":"tcc:compendium/root","criteria":{"unlock":{"trigger":"minecraft:inventory_changed","conditions":{"items":[{"items":["minecraft:compass"]}]}}},"rewards":{"function":"tcc:item/compendium/unlock/entries/dyed_compasses/from_advancement"}}

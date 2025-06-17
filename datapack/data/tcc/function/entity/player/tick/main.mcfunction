@@ -4,4 +4,4 @@
 execute if entity @s[gamemode=!spectator] run function tcc:entity/player/tick/non_spectators
 
 # Emoji
-execute if entity @s[tag=!tcc.emoji_mute] unless entity @s[scores={tcc.emoji=0}] run function tcc:entity/player/emoji
+execute unless score @s tcc.emoji matches 0 if entity @s[tag=!tcc.emoji_mute] run function tcc:entity/player/emoji

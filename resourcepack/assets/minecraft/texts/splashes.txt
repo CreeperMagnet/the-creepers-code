@@ -1,5 +1,4 @@
 §2The underscore is all that matters
-§2Parrot dismounting is a joke
 §2Now contains §mNBT§r§2 component crafting!
 §2TCC secret: The carrot on a stick texture was backwards for 2+ years
 §2Eat the rotten porkchops
@@ -19,8 +18,7 @@
 §2If you can’t see this message, download Minecraft.
 §2Here I go breaking backwards compatibility again!
 §2May contain feature creep
-§2RIP obsidian shards, peculiar berries, and every other removed feature that should never have been made in the first place.
-§2Bukkit + TCC = A very sad error log
+§2RIP obsidian shards, peculiar berries, rings, tea, and every other removed feature that should never have been made in the first place.
 §2Please do not mix with mods
 §2Datapacks, not data packs
 §2Datapacks, not data-packs
@@ -34,57 +32,39 @@
 §2Also play Mechanization!
 §2Also play Dinos and Dodos!
 §2Also play Call of Chaos!
-§2Also play TTB!
-§2Also play Caelesti!
 §2Also play Incendium!
-§2Also play Marina!
-§2Also play Florcraft!
 §2Also play Ocean Additions!
 §2Also play The Wastes!
 §2Also play Valiance!
+§2Also play Fathoms!
 §2Also play(?) Worldtool!
 §2Play something else! Variety!
 §2Big Pack Suffering!
 §2Don't Explode: Code!
 §2RIP Chroma
-§2When in doubt, blame Dragon
-§2haha dragon lazy
 §2Proudly sponsored by Smithed
-§2I am fueled by spite!
 §2RIP DPC
 §2MAXIMUM MONKE ENGAGED
-§2Once again, Creeper does all the work
 §2The real CreeperMagnet_ is the friends we made along the way
 §2Monkey brain approved!
-§2We don't talk about the scuttler.
 §2Now with less optimizations and more lag!
 §2Wait, it's all wandering traders?
 §2eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
 §2Now with more creepers and code!
 §2Powered by Infinite Monkey Theorem
-§2Weird foods!
-§2What's with all the monkeys?
-§2Alliteration!
 §2Boom!
 §2Attracting creepers since 2017
 §2Almost official!
 §2Creeper magnets not included
 §2It's all just a retextured flipped pig
-§2delete dragon
 §2Free lag!
 §2Not as many explosions as advertised
 §2Lazy devs!
 §2The latest in datapack technology!
+§2Oops, all macros!
 §2le monke
 §2It's fun I promise! (Source: Dude trust me)
 §2Compatibility?
-§2Made of pure magic!
-§2Made with monkey sweat and tears
-§2In the Land of Monke where shadows lie!
-§2True!
-§2Based!
-§2the monkeys took over
-§2Monkey see, monkey do...
 §2Vanilla!
 §2Vanilla++;
 §2Vanilla--;
@@ -100,12 +80,7 @@
 §2[insert funny]
 §2Not made by ICY!
 §2Get me out of here!
-§2Now with integrated graphics!
 §2Only one command!
-§2Where did the magnet go?
-§2Creepers and magnets!
-§2Now with 100% more creeper magnets
-§2stiNkoR_the_2nd
 §2With all the new splashes we've added, the chances you'll see this one are pretty slim!
 §2Based on the popular anime!
 §2Does not attract creepers :(
@@ -124,7 +99,7 @@
 §2Contains unhealthy amounts of green!
 §2Font magic!
 §2:beta:
-§2May contain postgen!
+§2No more postgen! (Please, Mojang. Please.)
 §l§n§6E
 §2§oMaybe compatible?
 §2"When will you update to the snapshots?"
@@ -135,7 +110,7 @@
 §2Villager companion sold separately
 §2Thanks, DanTDM!
 §2LogDotZip owes me $20
-§2Federal law prohibits uninstalling this datapack
+§2International law prohibits uninstalling this datapack
 §2Fun for the whole family!
 §2Soon to be a major religion
 §2Some splashes brought to you by Futurama!
@@ -150,21 +125,17 @@
 §2For external use only
 §2Known to cause insanity in laboratory mice
 §2All hail Mully
-§2Making waves!
 §2How many reworks of a rework can there be?
-§2So many villages! So many villagers!
-§2Unlock until you can unlock no more!
-§2The #1 Ocean Monument Pack!
 §2Imagine the pottabilities!
 §2Featuring conductable souls!
-§2Seer of souls
-§2Armed and Armored!
 §2May contain worldbuilding.
 §2Bet you've never seen green splashes before!
 §2How much compendium code could there possibly be?
 §2The most note-able spot for rewaxation!
-§2In the jungle, the mighty jungle!
 §2Armor trims sold separately
 §2Sniffer 2: Electric Boogaloo
 §2The sponge has been exterminated
-§2[insert 1.5 joke here]
+§2Now with wireless redstone!
+§2Now with §m2§r§2 20 new pots!
+§2Now featuring shameless theft!
+§2[insert 1.6 joke here]

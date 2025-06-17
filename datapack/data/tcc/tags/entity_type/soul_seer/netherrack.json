@@ -10,6 +10,7 @@
     "minecraft:ghast",
     "minecraft:wither_skeleton",
     "minecraft:wither",
-    "minecraft:magma_cube"
+    "minecraft:magma_cube",
+    "minecraft:happy_ghast"
   ]
 }

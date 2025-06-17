@@ -9,182 +9,6 @@
             "when": "blank",
             "model": {
               "type": "minecraft:model",
-              "model": "tcc:block/decorated_pot/prismarine/side/blank/north"
-            }
-          },
-          {
-            "when": "artifact",
-            "model": {
-              "type": "minecraft:model",
-              "model": "tcc:block/decorated_pot/prismarine/side/artifact/north"
-            }
-          },
-          {
-            "when": "catch",
-            "model": {
-              "type": "minecraft:model",
-              "model": "tcc:block/decorated_pot/prismarine/side/catch/north"
-            }
-          },
-          {
-            "when": "idol",
-            "model": {
-              "type": "minecraft:model",
-              "model": "tcc:block/decorated_pot/prismarine/side/idol/north"
-            }
-          },
-          {
-            "when": "ink",
-            "model": {
-              "type": "minecraft:model",
-              "model": "tcc:block/decorated_pot/prismarine/side/ink/north"
-            }
-          },
-          {
-            "when": "pickle",
-            "model": {
-              "type": "minecraft:model",
-              "model": "tcc:block/decorated_pot/prismarine/side/pickle/north"
-            }
-          },
-          {
-            "when": "protector",
-            "model": {
-              "type": "minecraft:model",
-              "model": "tcc:block/decorated_pot/prismarine/side/protector/north"
-            }
-          },
-          {
-            "when": "reef",
-            "model": {
-              "type": "minecraft:model",
-              "model": "tcc:block/decorated_pot/prismarine/side/reef/north"
-            }
-          },
-          {
-            "when": "shell",
-            "model": {
-              "type": "minecraft:model",
-              "model": "tcc:block/decorated_pot/prismarine/side/shell/north"
-            }
-          },
-          {
-            "when": "turtle",
-            "model": {
-              "type": "minecraft:model",
-              "model": "tcc:block/decorated_pot/prismarine/side/turtle/north"
-            }
-          },
-          {
-            "when": "voyager",
-            "model": {
-              "type": "minecraft:model",
-              "model": "tcc:block/decorated_pot/prismarine/side/voyager/north"
-            }
-          }
-        ],
-        "property": "minecraft:custom_model_data",
-        "index": 0,
-        "fallback": {
-          "type": "minecraft:model",
-          "model": "tcc:block/decorated_pot/prismarine/side/blank/north"
-        }
-      },
-      {
-        "type": "minecraft:select",
-        "cases": [
-          {
-            "when": "blank",
-            "model": {
-              "type": "minecraft:model",
-              "model": "tcc:block/decorated_pot/prismarine/side/blank/east"
-            }
-          },
-          {
-            "when": "artifact",
-            "model": {
-              "type": "minecraft:model",
-              "model": "tcc:block/decorated_pot/prismarine/side/artifact/east"
-            }
-          },
-          {
-            "when": "catch",
-            "model": {
-              "type": "minecraft:model",
-              "model": "tcc:block/decorated_pot/prismarine/side/catch/east"
-            }
-          },
-          {
-            "when": "idol",
-            "model": {
-              "type": "minecraft:model",
-              "model": "tcc:block/decorated_pot/prismarine/side/idol/east"
-            }
-          },
-          {
-            "when": "ink",
-            "model": {
-              "type": "minecraft:model",
-              "model": "tcc:block/decorated_pot/prismarine/side/ink/east"
-            }
-          },
-          {
-            "when": "pickle",
-            "model": {
-              "type": "minecraft:model",
-              "model": "tcc:block/decorated_pot/prismarine/side/pickle/east"
-            }
-          },
-          {
-            "when": "protector",
-            "model": {
-              "type": "minecraft:model",
-              "model": "tcc:block/decorated_pot/prismarine/side/protector/east"
-            }
-          },
-          {
-            "when": "reef",
-            "model": {
-              "type": "minecraft:model",
-              "model": "tcc:block/decorated_pot/prismarine/side/reef/east"
-            }
-          },
-          {
-            "when": "shell",
-            "model": {
-              "type": "minecraft:model",
-              "model": "tcc:block/decorated_pot/prismarine/side/shell/east"
-            }
-          },
-          {
-            "when": "turtle",
-            "model": {
-              "type": "minecraft:model",
-              "model": "tcc:block/decorated_pot/prismarine/side/turtle/east"
-            }
-          },
-          {
-            "when": "voyager",
-            "model": {
-              "type": "minecraft:model",
-              "model": "tcc:block/decorated_pot/prismarine/side/voyager/east"
-            }
-          }
-        ],
-        "property": "minecraft:custom_model_data",
-        "index": 1,
-        "fallback": {
-          "type": "minecraft:model",
-          "model": "tcc:block/decorated_pot/prismarine/side/blank/east"
-        }
-      },
-      {
-        "type": "minecraft:select",
-        "cases": [
-          {
-            "when": "blank",
-            "model": {
-              "type": "minecraft:model",
               "model": "tcc:block/decorated_pot/prismarine/side/blank/south"
             }
           },
@@ -260,7 +84,7 @@
           }
         ],
         "property": "minecraft:custom_model_data",
-        "index": 2,
+        "index": 0,
         "fallback": {
           "type": "minecraft:model",
           "model": "tcc:block/decorated_pot/prismarine/side/blank/south"
@@ -348,10 +172,186 @@
           }
         ],
         "property": "minecraft:custom_model_data",
-        "index": 3,
+        "index": 1,
         "fallback": {
           "type": "minecraft:model",
           "model": "tcc:block/decorated_pot/prismarine/side/blank/west"
+        }
+      },
+      {
+        "type": "minecraft:select",
+        "cases": [
+          {
+            "when": "blank",
+            "model": {
+              "type": "minecraft:model",
+              "model": "tcc:block/decorated_pot/prismarine/side/blank/east"
+            }
+          },
+          {
+            "when": "artifact",
+            "model": {
+              "type": "minecraft:model",
+              "model": "tcc:block/decorated_pot/prismarine/side/artifact/east"
+            }
+          },
+          {
+            "when": "catch",
+            "model": {
+              "type": "minecraft:model",
+              "model": "tcc:block/decorated_pot/prismarine/side/catch/east"
+            }
+          },
+          {
+            "when": "idol",
+            "model": {
+              "type": "minecraft:model",
+              "model": "tcc:block/decorated_pot/prismarine/side/idol/east"
+            }
+          },
+          {
+            "when": "ink",
+            "model": {
+              "type": "minecraft:model",
+              "model": "tcc:block/decorated_pot/prismarine/side/ink/east"
+            }
+          },
+          {
+            "when": "pickle",
+            "model": {
+              "type": "minecraft:model",
+              "model": "tcc:block/decorated_pot/prismarine/side/pickle/east"
+            }
+          },
+          {
+            "when": "protector",
+            "model": {
+              "type": "minecraft:model",
+              "model": "tcc:block/decorated_pot/prismarine/side/protector/east"
+            }
+          },
+          {
+            "when": "reef",
+            "model": {
+              "type": "minecraft:model",
+              "model": "tcc:block/decorated_pot/prismarine/side/reef/east"
+            }
+          },
+          {
+            "when": "shell",
+            "model": {
+              "type": "minecraft:model",
+              "model": "tcc:block/decorated_pot/prismarine/side/shell/east"
+            }
+          },
+          {
+            "when": "turtle",
+            "model": {
+              "type": "minecraft:model",
+              "model": "tcc:block/decorated_pot/prismarine/side/turtle/east"
+            }
+          },
+          {
+            "when": "voyager",
+            "model": {
+              "type": "minecraft:model",
+              "model": "tcc:block/decorated_pot/prismarine/side/voyager/east"
+            }
+          }
+        ],
+        "property": "minecraft:custom_model_data",
+        "index": 2,
+        "fallback": {
+          "type": "minecraft:model",
+          "model": "tcc:block/decorated_pot/prismarine/side/blank/east"
+        }
+      },
+      {
+        "type": "minecraft:select",
+        "cases": [
+          {
+            "when": "blank",
+            "model": {
+              "type": "minecraft:model",
+              "model": "tcc:block/decorated_pot/prismarine/side/blank/north"
+            }
+          },
+          {
+            "when": "artifact",
+            "model": {
+              "type": "minecraft:model",
+              "model": "tcc:block/decorated_pot/prismarine/side/artifact/north"
+            }
+          },
+          {
+            "when": "catch",
+            "model": {
+              "type": "minecraft:model",
+              "model": "tcc:block/decorated_pot/prismarine/side/catch/north"
+            }
+          },
+          {
+            "when": "idol",
+            "model": {
+              "type": "minecraft:model",
+              "model": "tcc:block/decorated_pot/prismarine/side/idol/north"
+            }
+          },
+          {
+            "when": "ink",
+            "model": {
+              "type": "minecraft:model",
+              "model": "tcc:block/decorated_pot/prismarine/side/ink/north"
+            }
+          },
+          {
+            "when": "pickle",
+            "model": {
+              "type": "minecraft:model",
+              "model": "tcc:block/decorated_pot/prismarine/side/pickle/north"
+            }
+          },
+          {
+            "when": "protector",
+            "model": {
+              "type": "minecraft:model",
+              "model": "tcc:block/decorated_pot/prismarine/side/protector/north"
+            }
+          },
+          {
+            "when": "reef",
+            "model": {
+              "type": "minecraft:model",
+              "model": "tcc:block/decorated_pot/prismarine/side/reef/north"
+            }
+          },
+          {
+            "when": "shell",
+            "model": {
+              "type": "minecraft:model",
+              "model": "tcc:block/decorated_pot/prismarine/side/shell/north"
+            }
+          },
+          {
+            "when": "turtle",
+            "model": {
+              "type": "minecraft:model",
+              "model": "tcc:block/decorated_pot/prismarine/side/turtle/north"
+            }
+          },
+          {
+            "when": "voyager",
+            "model": {
+              "type": "minecraft:model",
+              "model": "tcc:block/decorated_pot/prismarine/side/voyager/north"
+            }
+          }
+        ],
+        "property": "minecraft:custom_model_data",
+        "index": 3,
+        "fallback": {
+          "type": "minecraft:model",
+          "model": "tcc:block/decorated_pot/prismarine/side/blank/north"
         }
       },
       {

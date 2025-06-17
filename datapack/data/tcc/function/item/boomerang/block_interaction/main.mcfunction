@@ -28,5 +28,9 @@ execute if block ~ ~ ~ minecraft:bush run function tcc:item/boomerang/block_inte
 
 execute if block ~ ~ ~ minecraft:pitcher_crop[age=4] run setblock ~ ~ ~ minecraft:air destroy
 
+execute if block ~ ~ ~ #minecraft:leaves unless block ~ ~ ~ #minecraft:leaves[distance=7,persistent=false] run return run function tcc:item/boomerang/block_interaction/forced_bounce
+execute if block ~ ~ ~ #minecraft:leaves[distance=7,persistent=false] if predicate tcc:location_check/in_water run setblock ~ ~ ~ minecraft:water destroy
+execute if block ~ ~ ~ #minecraft:leaves[distance=7,persistent=false] unless predicate tcc:location_check/in_water run setblock ~ ~ ~ minecraft:air destroy
+
 execute if block ~ ~ ~ #tcc:boomerang/break if predicate tcc:location_check/in_water run setblock ~ ~ ~ minecraft:water destroy
 execute if block ~ ~ ~ #tcc:boomerang/break unless predicate tcc:location_check/in_water run setblock ~ ~ ~ minecraft:air destroy

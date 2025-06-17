@@ -1,0 +1,142 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": 1,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:cooked_chicken",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 3,
+                "min": 1
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:bread",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 3,
+                "min": 1
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:baked_potato",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": 1,
+              "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:set_potion",
+              "id": "minecraft:regeneration"
+            }
+          ],
+          "name": "minecraft:potion"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": 1,
+              "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:set_potion",
+              "id": "minecraft:swiftness"
+            }
+          ],
+          "name": "minecraft:potion"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:reference",
+              "name": "tcc:set_potion_data/type/blind_rage"
+            }
+          ],
+          "name": "minecraft:potion"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:reference",
+              "name": "tcc:set_potion_data/type/fortitude"
+            }
+          ],
+          "name": "minecraft:potion"
+        }
+      ],
+      "rolls": 1
+    }
+  ],
+  "random_sequence": "minecraft:spawners/trial_chamber/consumables",
+  "__smithed__": {
+    "rules": [
+      {
+        "type": "append",
+        "target": "pools[0].entries",
+        "source": {
+          "type": "reference",
+          "path": "pools[0].entries[5]"
+        }
+      },
+      {
+        "type": "append",
+        "target": "pools[0].entries",
+        "source": {
+          "type": "reference",
+          "path": "pools[0].entries[6]"
+        }
+      },
+      {
+        "type": "merge",
+        "target": "pools[0].entries[0].weight",
+        "source": {
+          "type": "reference",
+          "path": "pools[0].entries[0].weight"
+        }
+      },
+      {
+        "type": "merge",
+        "target": "pools[0].entries[1].weight",
+        "source": {
+          "type": "reference",
+          "path": "pools[0].entries[1].weight"
+        }
+      }
+    ]
+  }
+}

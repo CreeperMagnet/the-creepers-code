@@ -9,6 +9,10 @@
     "minecraft:horse",
     "minecraft:mule",
     "minecraft:donkey",
-    "minecraft:fox"
+    "minecraft:camel",
+    "minecraft:skeleton_horse",
+    "minecraft:zombie_horse",
+    "minecraft:fox",
+    "minecraft:happy_ghast"
   ]
 }

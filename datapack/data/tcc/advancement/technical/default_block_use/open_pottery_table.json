@@ -11,7 +11,9 @@
                 "blocks": [
                   "minecraft:barrel"
                 ],
-                "nbt": "{CustomName:{\"translate\":\"block.tcc.pottery_table.gui\",\"with\":[{\"translate\":\"block.tcc.pottery_table\",\"font\":\"minecraft:default\",\"color\":\"#3F3F3F\"}],\"font\":\"tcc:pottery_table\",\"color\":\"white\"}}"
+                "predicates": {
+                  "minecraft:custom_data": "{tcc:{block_id:\"pottery_table\"}}"
+                }
               }
             }
           }

@@ -11,7 +11,9 @@
                 "blocks": [
                   "minecraft:furnace"
                 ],
-                "nbt": "{CustomName:{\"translate\":\"block.tcc.creaking_connector.name\",\"font\":\"tcc:technical\"}}"
+                "predicates": {
+                  "minecraft:custom_data": "{tcc:{block_id:\"creaking_connector\"}}"
+                }
               }
             }
           }

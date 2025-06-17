@@ -33,9 +33,6 @@ execute if entity @s[predicate=tcc:entity_properties/slots/weapon/wrench] run fu
 # Paintbrushes
 execute if entity @s[predicate=tcc:entity_properties/slots/weapon/paintbrush] run function tcc:item/paintbrush/dye/check
 
-# Teapots
-execute if entity @s[predicate=tcc:entity_properties/slots/weapon/teapot] anchored eyes run function tcc:block/teapot/raycast_start
-
 # Frostblooms
 execute if entity @s[predicate=tcc:entity_properties/slots/weapon/frostbloom] anchored eyes run function tcc:block/frostbloom/raycast_start
 

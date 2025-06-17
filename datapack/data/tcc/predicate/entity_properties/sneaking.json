@@ -1,9 +1,12 @@
 {
-  "condition": "minecraft:entity_scores",
+  "condition": "minecraft:entity_properties",
   "entity": "this",
-  "scores": {
-    "tcc.sneaking": {
-      "min": 1
+  "predicate": {
+    "type_specific": {
+      "type": "minecraft:player",
+      "input": {
+        "sneak": true
+      }
     }
   }
 }

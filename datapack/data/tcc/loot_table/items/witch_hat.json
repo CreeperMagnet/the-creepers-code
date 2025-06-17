@@ -21,7 +21,10 @@
                     "slot": "head",
                     "id": "tcc:witch_hat_armor",
                     "operation": "add_value",
-                    "type": "minecraft:armor"
+                    "type": "minecraft:armor",
+                    "display": {
+                      "type": "default"
+                    }
                   }
                 ],
                 "minecraft:rarity": "uncommon",

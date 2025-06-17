@@ -18,6 +18,7 @@
     "minecraft:cactus",
     "minecraft:chorus_plant",
     "minecraft:bush",
-    "minecraft:firefly_bush"
+    "minecraft:firefly_bush",
+    "#minecraft:leaves"
   ]
 }

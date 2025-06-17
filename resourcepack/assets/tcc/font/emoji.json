@@ -3,14 +3,14 @@
     {
       "type": "space",
       "advances": {
-        " ": 4
+        " ": 1
       }
     },
     {
       "type": "bitmap",
-      "file": "tcc:gui/emoji/default.png",
-      "ascent": 7,
-      "height": 16.5,
+      "file": "tcc:gui/emoji/expressionless.png",
+      "ascent": 6,
+      "height": 16,
       "chars": [
         "\uc001"
       ]
@@ -18,8 +18,8 @@
     {
       "type": "bitmap",
       "file": "tcc:gui/emoji/angry.png",
-      "ascent": 7,
-      "height": 16.5,
+      "ascent": 6,
+      "height": 16,
       "chars": [
         "\uc002"
       ]
@@ -27,8 +27,8 @@
     {
       "type": "bitmap",
       "file": "tcc:gui/emoji/confused.png",
-      "ascent": 7,
-      "height": 16.5,
+      "ascent": 6,
+      "height": 16,
       "chars": [
         "\uc003"
       ]
@@ -36,8 +36,8 @@
     {
       "type": "bitmap",
       "file": "tcc:gui/emoji/sad.png",
-      "ascent": 7,
-      "height": 16.5,
+      "ascent": 6,
+      "height": 16,
       "chars": [
         "\uc004"
       ]
@@ -45,8 +45,8 @@
     {
       "type": "bitmap",
       "file": "tcc:gui/emoji/scared.png",
-      "ascent": 7,
-      "height": 16.5,
+      "ascent": 6,
+      "height": 16,
       "chars": [
         "\uc005"
       ]
@@ -54,8 +54,8 @@
     {
       "type": "bitmap",
       "file": "tcc:gui/emoji/queasy.png",
-      "ascent": 7,
-      "height": 16.5,
+      "ascent": 6,
+      "height": 16,
       "chars": [
         "\uc006"
       ]
@@ -63,8 +63,8 @@
     {
       "type": "bitmap",
       "file": "tcc:gui/emoji/sobbing.png",
-      "ascent": 7,
-      "height": 16.5,
+      "ascent": 6,
+      "height": 16,
       "chars": [
         "\uc007"
       ]
@@ -72,8 +72,8 @@
     {
       "type": "bitmap",
       "file": "tcc:gui/emoji/shrug.png",
-      "ascent": 7,
-      "height": 16.5,
+      "ascent": 6,
+      "height": 16,
       "chars": [
         "\uc008"
       ]
@@ -81,62 +81,62 @@
     {
       "type": "bitmap",
       "file": "tcc:gui/emoji/crazy.png",
-      "ascent": 7,
-      "height": 16.5,
+      "ascent": 6,
+      "height": 16,
       "chars": [
         "\uc009"
       ]
     },
     {
       "type": "bitmap",
-      "file": "tcc:gui/emoji/deal_with_it.png",
-      "ascent": 7,
-      "height": 16.5,
+      "file": "tcc:gui/emoji/cool.png",
+      "ascent": 6,
+      "height": 16,
       "chars": [
         "\uc010"
       ]
     },
     {
       "type": "bitmap",
-      "file": "tcc:gui/emoji/jolly.png",
-      "ascent": 7,
-      "height": 16.5,
+      "file": "tcc:gui/emoji/happy.png",
+      "ascent": 6,
+      "height": 16,
       "chars": [
         "\uc011"
       ]
     },
     {
       "type": "bitmap",
-      "file": "tcc:gui/emoji/monocle.png",
-      "ascent": 7,
-      "height": 16.5,
+      "file": "tcc:gui/emoji/fancy.png",
+      "ascent": 6,
+      "height": 16,
       "chars": [
         "\uc012"
       ]
     },
     {
       "type": "bitmap",
-      "file": "tcc:gui/emoji/smart.png",
-      "ascent": 7,
-      "height": 16.5,
+      "file": "tcc:gui/emoji/nerd.png",
+      "ascent": 6,
+      "height": 16,
       "chars": [
         "\uc013"
       ]
     },
     {
       "type": "bitmap",
-      "file": "tcc:gui/emoji/sneaky.png",
-      "ascent": 7,
-      "height": 16.5,
+      "file": "tcc:gui/emoji/mindblown.png",
+      "ascent": 6,
+      "height": 16,
       "chars": [
         "\uc014"
       ]
     },
     {
       "type": "bitmap",
-      "file": "tcc:gui/emoji/eyeroll.png",
-      "ascent": 7,
-      "height": 16.5,
+      "file": "tcc:gui/emoji/eye_roll.png",
+      "ascent": 6,
+      "height": 16,
       "chars": [
         "\uc015"
       ]
@@ -144,8 +144,8 @@
     {
       "type": "bitmap",
       "file": "tcc:gui/emoji/love.png",
-      "ascent": 7,
-      "height": 16.5,
+      "ascent": 6,
+      "height": 16,
       "chars": [
         "\uc016"
       ]
@@ -153,53 +153,53 @@
     {
       "type": "bitmap",
       "file": "tcc:gui/emoji/sleepy.png",
-      "ascent": 7,
-      "height": 16.5,
+      "ascent": 6,
+      "height": 16,
       "chars": [
         "\uc017"
       ]
     },
     {
       "type": "bitmap",
-      "file": "tcc:gui/emoji/thumbsup.png",
-      "ascent": 7,
-      "height": 16.5,
+      "file": "tcc:gui/emoji/thumbs_up.png",
+      "ascent": 6,
+      "height": 16,
       "chars": [
         "\uc018"
       ]
     },
     {
       "type": "bitmap",
-      "file": "tcc:gui/emoji/thumbsdown.png",
-      "ascent": 7,
-      "height": 16.5,
+      "file": "tcc:gui/emoji/thumbs_down.png",
+      "ascent": 6,
+      "height": 16,
       "chars": [
         "\uc019"
       ]
     },
     {
       "type": "bitmap",
-      "file": "tcc:gui/emoji/zombie.png",
-      "ascent": 7,
-      "height": 16.5,
+      "file": "tcc:gui/emoji/zombified.png",
+      "ascent": 6,
+      "height": 16,
       "chars": [
         "\uc020"
       ]
     },
     {
       "type": "bitmap",
-      "file": "tcc:gui/emoji/herobrine.png",
-      "ascent": 7,
-      "height": 16.5,
+      "file": "tcc:gui/emoji/spooky.png",
+      "ascent": 6,
+      "height": 16,
       "chars": [
         "\uc021"
       ]
     },
     {
       "type": "bitmap",
-      "file": "tcc:gui/emoji/stare.png",
-      "ascent": 7,
-      "height": 16.5,
+      "file": "tcc:gui/emoji/staring.png",
+      "ascent": 6,
+      "height": 16,
       "chars": [
         "\uc022"
       ]
@@ -207,17 +207,17 @@
     {
       "type": "bitmap",
       "file": "tcc:gui/emoji/alien.png",
-      "ascent": 7,
-      "height": 16.5,
+      "ascent": 6,
+      "height": 16,
       "chars": [
         "\uc023"
       ]
     },
     {
       "type": "bitmap",
-      "file": "tcc:gui/emoji/bow.png",
-      "ascent": 7,
-      "height": 16.5,
+      "file": "tcc:gui/emoji/clown.png",
+      "ascent": 6,
+      "height": 16,
       "chars": [
         "\uc024"
       ]
@@ -225,8 +225,8 @@
     {
       "type": "bitmap",
       "file": "tcc:gui/emoji/creeper.png",
-      "ascent": 7,
-      "height": 16.5,
+      "ascent": 6,
+      "height": 16,
       "chars": [
         "\uc025"
       ]
@@ -234,8 +234,8 @@
     {
       "type": "bitmap",
       "file": "tcc:gui/emoji/dab.png",
-      "ascent": 7,
-      "height": 16.5,
+      "ascent": 6,
+      "height": 16,
       "chars": [
         "\uc026"
       ]
@@ -243,8 +243,8 @@
     {
       "type": "bitmap",
       "file": "tcc:gui/emoji/flushed.png",
-      "ascent": 7,
-      "height": 16.5,
+      "ascent": 6,
+      "height": 16,
       "chars": [
         "\uc027"
       ]
@@ -252,8 +252,8 @@
     {
       "type": "bitmap",
       "file": "tcc:gui/emoji/food.png",
-      "ascent": 7,
-      "height": 16.5,
+      "ascent": 6,
+      "height": 16,
       "chars": [
         "\uc028"
       ]
@@ -261,8 +261,8 @@
     {
       "type": "bitmap",
       "file": "tcc:gui/emoji/hollow.png",
-      "ascent": 7,
-      "height": 16.5,
+      "ascent": 6,
+      "height": 16,
       "chars": [
         "\uc029"
       ]
@@ -270,8 +270,8 @@
     {
       "type": "bitmap",
       "file": "tcc:gui/emoji/illager.png",
-      "ascent": 7,
-      "height": 16.5,
+      "ascent": 6,
+      "height": 16,
       "chars": [
         "\uc030"
       ]
@@ -279,8 +279,8 @@
     {
       "type": "bitmap",
       "file": "tcc:gui/emoji/imp.png",
-      "ascent": 7,
-      "height": 16.5,
+      "ascent": 6,
+      "height": 16,
       "chars": [
         "\uc031"
       ]
@@ -288,8 +288,8 @@
     {
       "type": "bitmap",
       "file": "tcc:gui/emoji/pickaxe.png",
-      "ascent": 7,
-      "height": 16.5,
+      "ascent": 6,
+      "height": 16,
       "chars": [
         "\uc032"
       ]
@@ -297,8 +297,8 @@
     {
       "type": "bitmap",
       "file": "tcc:gui/emoji/skull.png",
-      "ascent": 7,
-      "height": 16.5,
+      "ascent": 6,
+      "height": 16,
       "chars": [
         "\uc033"
       ]
@@ -306,8 +306,8 @@
     {
       "type": "bitmap",
       "file": "tcc:gui/emoji/sword.png",
-      "ascent": 7,
-      "height": 16.5,
+      "ascent": 6,
+      "height": 16,
       "chars": [
         "\uc034"
       ]
@@ -315,8 +315,8 @@
     {
       "type": "bitmap",
       "file": "tcc:gui/emoji/troll.png",
-      "ascent": 7,
-      "height": 16.5,
+      "ascent": 6,
+      "height": 16,
       "chars": [
         "\uc035"
       ]
@@ -324,8 +324,8 @@
     {
       "type": "bitmap",
       "file": "tcc:gui/emoji/works_as_intended.png",
-      "ascent": 7,
-      "height": 16.5,
+      "ascent": 6,
+      "height": 16,
       "chars": [
         "\uc036"
       ]
@@ -333,8 +333,8 @@
     {
       "type": "bitmap",
       "file": "tcc:gui/emoji/facepalm.png",
-      "ascent": 7,
-      "height": 16.5,
+      "ascent": 6,
+      "height": 16,
       "chars": [
         "\uc037"
       ]
@@ -342,17 +342,53 @@
     {
       "type": "bitmap",
       "file": "tcc:gui/emoji/laughing.png",
-      "ascent": 7,
-      "height": 16.5,
+      "ascent": 6,
+      "height": 16,
       "chars": [
         "\uc038"
       ]
     },
     {
       "type": "bitmap",
-      "file": "tcc:gui/emoji/default.png",
-      "ascent": 7,
-      "height": 7,
+      "file": "tcc:gui/emoji/fire.png",
+      "ascent": 6,
+      "height": 16,
+      "chars": [
+        "\uc039"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "tcc:gui/emoji/pleading.png",
+      "ascent": 6,
+      "height": 16,
+      "chars": [
+        "\uc040"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "tcc:gui/emoji/sparkles.png",
+      "ascent": 6,
+      "height": 16,
+      "chars": [
+        "\uc041"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "tcc:gui/emoji/smirk.png",
+      "ascent": 6,
+      "height": 16,
+      "chars": [
+        "\uc042"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "tcc:gui/emoji/expressionless.png",
+      "ascent": 9,
+      "height": 13,
       "chars": [
         "\ue001"
       ]
@@ -360,8 +396,8 @@
     {
       "type": "bitmap",
       "file": "tcc:gui/emoji/angry.png",
-      "ascent": 7,
-      "height": 7,
+      "ascent": 9,
+      "height": 13,
       "chars": [
         "\ue002"
       ]
@@ -369,8 +405,8 @@
     {
       "type": "bitmap",
       "file": "tcc:gui/emoji/confused.png",
-      "ascent": 7,
-      "height": 7,
+      "ascent": 9,
+      "height": 13,
       "chars": [
         "\ue003"
       ]
@@ -378,8 +414,8 @@
     {
       "type": "bitmap",
       "file": "tcc:gui/emoji/sad.png",
-      "ascent": 7,
-      "height": 7,
+      "ascent": 9,
+      "height": 13,
       "chars": [
         "\ue004"
       ]
@@ -387,8 +423,8 @@
     {
       "type": "bitmap",
       "file": "tcc:gui/emoji/scared.png",
-      "ascent": 7,
-      "height": 7,
+      "ascent": 9,
+      "height": 13,
       "chars": [
         "\ue005"
       ]
@@ -396,8 +432,8 @@
     {
       "type": "bitmap",
       "file": "tcc:gui/emoji/queasy.png",
-      "ascent": 7,
-      "height": 7,
+      "ascent": 9,
+      "height": 13,
       "chars": [
         "\ue006"
       ]
@@ -405,8 +441,8 @@
     {
       "type": "bitmap",
       "file": "tcc:gui/emoji/sobbing.png",
-      "ascent": 7,
-      "height": 7,
+      "ascent": 9,
+      "height": 13,
       "chars": [
         "\ue007"
       ]
@@ -414,8 +450,8 @@
     {
       "type": "bitmap",
       "file": "tcc:gui/emoji/shrug.png",
-      "ascent": 7,
-      "height": 7,
+      "ascent": 10,
+      "height": 14,
       "chars": [
         "\ue008"
       ]
@@ -423,62 +459,62 @@
     {
       "type": "bitmap",
       "file": "tcc:gui/emoji/crazy.png",
-      "ascent": 7,
-      "height": 7,
+      "ascent": 9,
+      "height": 13,
       "chars": [
         "\ue009"
       ]
     },
     {
       "type": "bitmap",
-      "file": "tcc:gui/emoji/deal_with_it.png",
-      "ascent": 7,
-      "height": 7,
+      "file": "tcc:gui/emoji/cool.png",
+      "ascent": 9,
+      "height": 13,
       "chars": [
         "\ue010"
       ]
     },
     {
       "type": "bitmap",
-      "file": "tcc:gui/emoji/jolly.png",
-      "ascent": 7,
-      "height": 7,
+      "file": "tcc:gui/emoji/happy.png",
+      "ascent": 9,
+      "height": 13,
       "chars": [
         "\ue011"
       ]
     },
     {
       "type": "bitmap",
-      "file": "tcc:gui/emoji/monocle.png",
-      "ascent": 7,
-      "height": 7,
+      "file": "tcc:gui/emoji/fancy.png",
+      "ascent": 9,
+      "height": 13,
       "chars": [
         "\ue012"
       ]
     },
     {
       "type": "bitmap",
-      "file": "tcc:gui/emoji/smart.png",
-      "ascent": 7,
-      "height": 7,
+      "file": "tcc:gui/emoji/nerd.png",
+      "ascent": 9,
+      "height": 13,
       "chars": [
         "\ue013"
       ]
     },
     {
       "type": "bitmap",
-      "file": "tcc:gui/emoji/sneaky.png",
-      "ascent": 7,
-      "height": 7,
+      "file": "tcc:gui/emoji/mindblown.png",
+      "ascent": 11,
+      "height": 16,
       "chars": [
         "\ue014"
       ]
     },
     {
       "type": "bitmap",
-      "file": "tcc:gui/emoji/eyeroll.png",
-      "ascent": 7,
-      "height": 7,
+      "file": "tcc:gui/emoji/eye_roll.png",
+      "ascent": 9,
+      "height": 13,
       "chars": [
         "\ue015"
       ]
@@ -486,8 +522,8 @@
     {
       "type": "bitmap",
       "file": "tcc:gui/emoji/love.png",
-      "ascent": 7,
-      "height": 7,
+      "ascent": 11,
+      "height": 15,
       "chars": [
         "\ue016"
       ]
@@ -495,53 +531,53 @@
     {
       "type": "bitmap",
       "file": "tcc:gui/emoji/sleepy.png",
-      "ascent": 7,
-      "height": 7,
+      "ascent": 10,
+      "height": 14,
       "chars": [
         "\ue017"
       ]
     },
     {
       "type": "bitmap",
-      "file": "tcc:gui/emoji/thumbsup.png",
-      "ascent": 7,
-      "height": 7,
+      "file": "tcc:gui/emoji/thumbs_up.png",
+      "ascent": 10,
+      "height": 14,
       "chars": [
         "\ue018"
       ]
     },
     {
       "type": "bitmap",
-      "file": "tcc:gui/emoji/thumbsdown.png",
-      "ascent": 7,
-      "height": 7,
+      "file": "tcc:gui/emoji/thumbs_down.png",
+      "ascent": 10,
+      "height": 14,
       "chars": [
         "\ue019"
       ]
     },
     {
       "type": "bitmap",
-      "file": "tcc:gui/emoji/zombie.png",
-      "ascent": 7,
-      "height": 7,
+      "file": "tcc:gui/emoji/zombified.png",
+      "ascent": 9,
+      "height": 13,
       "chars": [
         "\ue020"
       ]
     },
     {
       "type": "bitmap",
-      "file": "tcc:gui/emoji/herobrine.png",
-      "ascent": 7,
-      "height": 7,
+      "file": "tcc:gui/emoji/spooky.png",
+      "ascent": 9,
+      "height": 13,
       "chars": [
         "\ue021"
       ]
     },
     {
       "type": "bitmap",
-      "file": "tcc:gui/emoji/stare.png",
-      "ascent": 7,
-      "height": 7,
+      "file": "tcc:gui/emoji/staring.png",
+      "ascent": 9,
+      "height": 13,
       "chars": [
         "\ue022"
       ]
@@ -549,17 +585,17 @@
     {
       "type": "bitmap",
       "file": "tcc:gui/emoji/alien.png",
-      "ascent": 7,
-      "height": 7,
+      "ascent": 9,
+      "height": 12,
       "chars": [
         "\ue023"
       ]
     },
     {
       "type": "bitmap",
-      "file": "tcc:gui/emoji/bow.png",
-      "ascent": 7,
-      "height": 7,
+      "file": "tcc:gui/emoji/clown.png",
+      "ascent": 11,
+      "height": 15,
       "chars": [
         "\ue024"
       ]
@@ -567,8 +603,8 @@
     {
       "type": "bitmap",
       "file": "tcc:gui/emoji/creeper.png",
-      "ascent": 7,
-      "height": 7,
+      "ascent": 8,
+      "height": 10,
       "chars": [
         "\ue025"
       ]
@@ -576,8 +612,8 @@
     {
       "type": "bitmap",
       "file": "tcc:gui/emoji/dab.png",
-      "ascent": 7,
-      "height": 7,
+      "ascent": 9,
+      "height": 12,
       "chars": [
         "\ue026"
       ]
@@ -585,8 +621,8 @@
     {
       "type": "bitmap",
       "file": "tcc:gui/emoji/flushed.png",
-      "ascent": 7,
-      "height": 7,
+      "ascent": 9,
+      "height": 13,
       "chars": [
         "\ue027"
       ]
@@ -594,8 +630,8 @@
     {
       "type": "bitmap",
       "file": "tcc:gui/emoji/food.png",
-      "ascent": 7,
-      "height": 7,
+      "ascent": 8,
+      "height": 10,
       "chars": [
         "\ue028"
       ]
@@ -603,8 +639,8 @@
     {
       "type": "bitmap",
       "file": "tcc:gui/emoji/hollow.png",
-      "ascent": 7,
-      "height": 7,
+      "ascent": 9,
+      "height": 13,
       "chars": [
         "\ue029"
       ]
@@ -612,8 +648,8 @@
     {
       "type": "bitmap",
       "file": "tcc:gui/emoji/illager.png",
-      "ascent": 7,
-      "height": 7,
+      "ascent": 9,
+      "height": 13,
       "chars": [
         "\ue030"
       ]
@@ -621,8 +657,8 @@
     {
       "type": "bitmap",
       "file": "tcc:gui/emoji/imp.png",
-      "ascent": 7,
-      "height": 7,
+      "ascent": 11,
+      "height": 15,
       "chars": [
         "\ue031"
       ]
@@ -630,8 +666,8 @@
     {
       "type": "bitmap",
       "file": "tcc:gui/emoji/pickaxe.png",
-      "ascent": 7,
-      "height": 7,
+      "ascent": 8,
+      "height": 10,
       "chars": [
         "\ue032"
       ]
@@ -639,8 +675,8 @@
     {
       "type": "bitmap",
       "file": "tcc:gui/emoji/skull.png",
-      "ascent": 7,
-      "height": 7,
+      "ascent": 9,
+      "height": 12,
       "chars": [
         "\ue033"
       ]
@@ -648,8 +684,8 @@
     {
       "type": "bitmap",
       "file": "tcc:gui/emoji/sword.png",
-      "ascent": 7,
-      "height": 7,
+      "ascent": 8,
+      "height": 10,
       "chars": [
         "\ue034"
       ]
@@ -657,8 +693,8 @@
     {
       "type": "bitmap",
       "file": "tcc:gui/emoji/troll.png",
-      "ascent": 7,
-      "height": 7,
+      "ascent": 10,
+      "height": 14,
       "chars": [
         "\ue035"
       ]
@@ -666,8 +702,8 @@
     {
       "type": "bitmap",
       "file": "tcc:gui/emoji/works_as_intended.png",
-      "ascent": 7,
-      "height": 7,
+      "ascent": 10,
+      "height": 14,
       "chars": [
         "\ue036"
       ]
@@ -675,8 +711,8 @@
     {
       "type": "bitmap",
       "file": "tcc:gui/emoji/facepalm.png",
-      "ascent": 7,
-      "height": 7,
+      "ascent": 10,
+      "height": 14,
       "chars": [
         "\ue037"
       ]
@@ -684,10 +720,46 @@
     {
       "type": "bitmap",
       "file": "tcc:gui/emoji/laughing.png",
-      "ascent": 7,
-      "height": 7,
+      "ascent": 9,
+      "height": 13,
       "chars": [
         "\ue038"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "tcc:gui/emoji/fire.png",
+      "ascent": 10,
+      "height": 13,
+      "chars": [
+        "\ue039"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "tcc:gui/emoji/pleading.png",
+      "ascent": 9,
+      "height": 13,
+      "chars": [
+        "\ue040"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "tcc:gui/emoji/sparkles.png",
+      "ascent": 10,
+      "height": 13,
+      "chars": [
+        "\ue041"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "tcc:gui/emoji/smirk.png",
+      "ascent": 9,
+      "height": 13,
+      "chars": [
+        "\ue042"
       ]
     }
   ]

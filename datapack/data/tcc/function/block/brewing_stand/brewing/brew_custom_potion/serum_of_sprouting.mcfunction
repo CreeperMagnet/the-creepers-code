@@ -1,9 +1,8 @@
-# Starts the recipe process of a brewing recipe
+# Checks all needed criteria for a serum of sprouting
 
-data modify storage tcc:temp root.item.components."minecraft:potion_contents" set value {custom_color:16777215,potion:"minecraft:mundane",custom_name:"tcc:serum_of_sprouting"}
-data modify storage tcc:temp root.item.components."minecraft:lore" set value [{"color":"dark_purple","italic":false,"translate":"potion.whenDrank"},{"color":"blue","italic":false,"translate":"attribute.modifier.plus.1","with":["17",{"translate":"attribute.name.scale"}]},{"translate":"pack.tcc","color":"#008725"}]
-data modify storage tcc:temp root.item.components."minecraft:custom_data".tcc set value {id:"serum_of_sprouting"}
-data modify storage tcc:temp root.item.components."minecraft:tooltip_display" set value {hidden_components:["minecraft:potion_contents"]}
-data modify storage tcc:temp root.item.components."minecraft:item_name" set value {"translate":"item.tcc.serum_of_sprouting"}
-data modify storage tcc:temp root.item.components."minecraft:max_stack_size" set value 16
-data modify storage tcc:temp root.item.components."minecraft:item_model" set value "tcc:serum_of_sprouting"
+$execute if data storage tcc:temp root.item{id:"minecraft:potion",components:{"minecraft:potion_contents":{"potion":"minecraft:thick"}}} run item replace block ~ ~ ~ container.$(slot) with minecraft:air
+$execute if data storage tcc:temp root.item{id:"minecraft:potion",components:{"minecraft:potion_contents":{"potion":"minecraft:thick"}}} run return run loot replace block ~ ~ ~ container.$(slot) loot tcc:items/serum_of_sprouting
+
+$execute if data storage tcc:temp root.item.components."minecraft:potion_contents"{"potion":"minecraft:awkward"} run return run item modify block ~ ~ ~ container.$(slot) tcc:set_potion_data/type/mundane
+$execute if data storage tcc:temp root.item.components."minecraft:potion_contents"{"potion":"minecraft:water"} run return run item modify block ~ ~ ~ container.$(slot) tcc:set_potion_data/type/mundane
+$execute unless data storage tcc:temp root.item{id:"minecraft:potion"} if data storage tcc:temp root.item.components."minecraft:potion_contents"{"potion":"minecraft:thick"} run item modify block ~ ~ ~ container.$(slot) tcc:set_potion_data/type/mundane

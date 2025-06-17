@@ -14,7 +14,9 @@
                 "state": {
                   "triggered": "false"
                 },
-                "nbt": "{CustomName:{\"translate\":\"block.tcc.soul_conductor.name\",\"font\":\"tcc:technical\"}}"
+                "predicates": {
+                  "minecraft:custom_data": "{tcc:{block_id:\"soul_conductor\"}}"
+                }
               }
             }
           }

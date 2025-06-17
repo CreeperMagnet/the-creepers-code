@@ -6,6 +6,9 @@ execute if entity @s[scores={tcc.cursed_crown_cooldown=0..}] run function tcc:it
 # Compendiums maintaining after death
 execute if entity @s[tag=tcc.needs_to_respawn_with_compendium,nbt=!{Health:0f}] if loaded ~ ~ ~ run function tcc:entity/player/die/respawn_with_compendium
 
+# Enable emoji trigger due to https://github.com/CreeperMagnet/the-creepers-code/issues/280
+scoreboard players enable @s tcc.emoji
+
 # Stop if in spectator mode
 execute if entity @s[gamemode=spectator] run return 0
 

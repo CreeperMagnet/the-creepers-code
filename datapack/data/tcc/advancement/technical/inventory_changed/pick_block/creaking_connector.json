@@ -6,8 +6,8 @@
       "conditions": {
         "items": [
           {
-            "components": {
-              "minecraft:custom_name": {"translate":"block.tcc.creaking_connector.name","font":"tcc:technical"}
+            "predicates": {
+              "minecraft:custom_data": "{tcc:{block_id:\"creaking_connector\"}}"
             }
           }
         ]

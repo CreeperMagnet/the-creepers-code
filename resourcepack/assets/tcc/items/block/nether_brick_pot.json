@@ -11,145 +11,289 @@
             "when": "blank",
             "model": {
               "type": "minecraft:model",
-              "model": "tcc:block/decorated_pot/nether_brick/side/blank/north"
+              "model": "tcc:block/decorated_pot/nether_brick/side/blank/south"
             }
           },
           {
             "when": "armor",
             "model": {
               "type": "minecraft:model",
-              "model": "tcc:block/decorated_pot/nether_brick/side/armor/north"
+              "model": "tcc:block/decorated_pot/nether_brick/side/armor/south"
             }
           },
           {
             "when": "beast",
             "model": {
               "type": "minecraft:model",
-              "model": "tcc:block/decorated_pot/nether_brick/side/beast/north"
+              "model": "tcc:block/decorated_pot/nether_brick/side/beast/south"
             }
           },
           {
             "when": "core",
             "model": {
               "type": "minecraft:model",
-              "model": "tcc:block/decorated_pot/nether_brick/side/core/north"
+              "model": "tcc:block/decorated_pot/nether_brick/side/core/south"
             }
           },
           {
             "when": "crop",
             "model": {
               "type": "minecraft:model",
-              "model": "tcc:block/decorated_pot/nether_brick/side/crop/north"
+              "model": "tcc:block/decorated_pot/nether_brick/side/crop/south"
             }
           },
           {
             "when": "detection",
             "model": {
               "type": "minecraft:model",
-              "model": "tcc:block/decorated_pot/nether_brick/side/detection/north"
+              "model": "tcc:block/decorated_pot/nether_brick/side/detection/south"
             }
           },
           {
             "when": "escape",
             "model": {
               "type": "minecraft:model",
-              "model": "tcc:block/decorated_pot/nether_brick/side/escape/north"
+              "model": "tcc:block/decorated_pot/nether_brick/side/escape/south"
             }
           },
           {
             "when": "flame",
             "model": {
               "type": "minecraft:model",
-              "model": "tcc:block/decorated_pot/nether_brick/side/flame/north"
+              "model": "tcc:block/decorated_pot/nether_brick/side/flame/south"
             }
           },
           {
             "when": "horror",
             "model": {
               "type": "minecraft:model",
-              "model": "tcc:block/decorated_pot/nether_brick/side/horror/north"
+              "model": "tcc:block/decorated_pot/nether_brick/side/horror/south"
             }
           },
           {
             "when": "hunter",
             "model": {
               "type": "minecraft:model",
-              "model": "tcc:block/decorated_pot/nether_brick/side/hunter/north"
+              "model": "tcc:block/decorated_pot/nether_brick/side/hunter/south"
             }
           },
           {
             "when": "molten",
             "model": {
               "type": "minecraft:model",
-              "model": "tcc:block/decorated_pot/nether_brick/side/molten/north"
+              "model": "tcc:block/decorated_pot/nether_brick/side/molten/south"
             }
           },
           {
             "when": "mount",
             "model": {
               "type": "minecraft:model",
-              "model": "tcc:block/decorated_pot/nether_brick/side/mount/north"
+              "model": "tcc:block/decorated_pot/nether_brick/side/mount/south"
             }
           },
           {
             "when": "portal",
             "model": {
               "type": "minecraft:model",
-              "model": "tcc:block/decorated_pot/nether_brick/side/portal/north"
+              "model": "tcc:block/decorated_pot/nether_brick/side/portal/south"
             }
           },
           {
             "when": "ranger",
             "model": {
               "type": "minecraft:model",
-              "model": "tcc:block/decorated_pot/nether_brick/side/ranger/north"
+              "model": "tcc:block/decorated_pot/nether_brick/side/ranger/south"
             }
           },
           {
             "when": "riches",
             "model": {
               "type": "minecraft:model",
-              "model": "tcc:block/decorated_pot/nether_brick/side/riches/north"
+              "model": "tcc:block/decorated_pot/nether_brick/side/riches/south"
             }
           },
           {
             "when": "sorrow",
             "model": {
               "type": "minecraft:model",
-              "model": "tcc:block/decorated_pot/nether_brick/side/sorrow/north"
+              "model": "tcc:block/decorated_pot/nether_brick/side/sorrow/south"
             }
           },
           {
             "when": "spirit",
             "model": {
               "type": "minecraft:model",
-              "model": "tcc:block/decorated_pot/nether_brick/side/spirit/north"
+              "model": "tcc:block/decorated_pot/nether_brick/side/spirit/south"
             }
           },
           {
             "when": "star",
             "model": {
               "type": "minecraft:model",
-              "model": "tcc:block/decorated_pot/nether_brick/side/star/north"
+              "model": "tcc:block/decorated_pot/nether_brick/side/star/south"
             }
           },
           {
             "when": "swirl",
             "model": {
               "type": "minecraft:model",
-              "model": "tcc:block/decorated_pot/nether_brick/side/swirl/north"
+              "model": "tcc:block/decorated_pot/nether_brick/side/swirl/south"
             }
           }
         ],
         "fallback": {
           "type": "minecraft:model",
-          "model": "tcc:block/decorated_pot/nether_brick/side/blank/north"
+          "model": "tcc:block/decorated_pot/nether_brick/side/blank/south"
         }
       },
       {
         "type": "minecraft:select",
         "property": "minecraft:custom_model_data",
         "index": 1,
+        "cases": [
+          {
+            "when": "blank",
+            "model": {
+              "type": "minecraft:model",
+              "model": "tcc:block/decorated_pot/nether_brick/side/blank/west"
+            }
+          },
+          {
+            "when": "armor",
+            "model": {
+              "type": "minecraft:model",
+              "model": "tcc:block/decorated_pot/nether_brick/side/armor/west"
+            }
+          },
+          {
+            "when": "beast",
+            "model": {
+              "type": "minecraft:model",
+              "model": "tcc:block/decorated_pot/nether_brick/side/beast/west"
+            }
+          },
+          {
+            "when": "core",
+            "model": {
+              "type": "minecraft:model",
+              "model": "tcc:block/decorated_pot/nether_brick/side/core/west"
+            }
+          },
+          {
+            "when": "crop",
+            "model": {
+              "type": "minecraft:model",
+              "model": "tcc:block/decorated_pot/nether_brick/side/crop/west"
+            }
+          },
+          {
+            "when": "detection",
+            "model": {
+              "type": "minecraft:model",
+              "model": "tcc:block/decorated_pot/nether_brick/side/detection/west"
+            }
+          },
+          {
+            "when": "escape",
+            "model": {
+              "type": "minecraft:model",
+              "model": "tcc:block/decorated_pot/nether_brick/side/escape/west"
+            }
+          },
+          {
+            "when": "flame",
+            "model": {
+              "type": "minecraft:model",
+              "model": "tcc:block/decorated_pot/nether_brick/side/flame/west"
+            }
+          },
+          {
+            "when": "horror",
+            "model": {
+              "type": "minecraft:model",
+              "model": "tcc:block/decorated_pot/nether_brick/side/horror/west"
+            }
+          },
+          {
+            "when": "hunter",
+            "model": {
+              "type": "minecraft:model",
+              "model": "tcc:block/decorated_pot/nether_brick/side/hunter/west"
+            }
+          },
+          {
+            "when": "molten",
+            "model": {
+              "type": "minecraft:model",
+              "model": "tcc:block/decorated_pot/nether_brick/side/molten/west"
+            }
+          },
+          {
+            "when": "mount",
+            "model": {
+              "type": "minecraft:model",
+              "model": "tcc:block/decorated_pot/nether_brick/side/mount/west"
+            }
+          },
+          {
+            "when": "portal",
+            "model": {
+              "type": "minecraft:model",
+              "model": "tcc:block/decorated_pot/nether_brick/side/portal/west"
+            }
+          },
+          {
+            "when": "ranger",
+            "model": {
+              "type": "minecraft:model",
+              "model": "tcc:block/decorated_pot/nether_brick/side/ranger/west"
+            }
+          },
+          {
+            "when": "riches",
+            "model": {
+              "type": "minecraft:model",
+              "model": "tcc:block/decorated_pot/nether_brick/side/riches/west"
+            }
+          },
+          {
+            "when": "sorrow",
+            "model": {
+              "type": "minecraft:model",
+              "model": "tcc:block/decorated_pot/nether_brick/side/sorrow/west"
+            }
+          },
+          {
+            "when": "spirit",
+            "model": {
+              "type": "minecraft:model",
+              "model": "tcc:block/decorated_pot/nether_brick/side/spirit/west"
+            }
+          },
+          {
+            "when": "star",
+            "model": {
+              "type": "minecraft:model",
+              "model": "tcc:block/decorated_pot/nether_brick/side/star/west"
+            }
+          },
+          {
+            "when": "swirl",
+            "model": {
+              "type": "minecraft:model",
+              "model": "tcc:block/decorated_pot/nether_brick/side/swirl/west"
+            }
+          }
+        ],
+        "fallback": {
+          "type": "minecraft:model",
+          "model": "tcc:block/decorated_pot/nether_brick/side/blank/west"
+        }
+      },
+      {
+        "type": "minecraft:select",
+        "property": "minecraft:custom_model_data",
+        "index": 2,
         "cases": [
           {
             "when": "blank",
@@ -293,289 +437,145 @@
       {
         "type": "minecraft:select",
         "property": "minecraft:custom_model_data",
-        "index": 2,
-        "cases": [
-          {
-            "when": "blank",
-            "model": {
-              "type": "minecraft:model",
-              "model": "tcc:block/decorated_pot/nether_brick/side/blank/south"
-            }
-          },
-          {
-            "when": "armor",
-            "model": {
-              "type": "minecraft:model",
-              "model": "tcc:block/decorated_pot/nether_brick/side/armor/south"
-            }
-          },
-          {
-            "when": "beast",
-            "model": {
-              "type": "minecraft:model",
-              "model": "tcc:block/decorated_pot/nether_brick/side/beast/south"
-            }
-          },
-          {
-            "when": "core",
-            "model": {
-              "type": "minecraft:model",
-              "model": "tcc:block/decorated_pot/nether_brick/side/core/south"
-            }
-          },
-          {
-            "when": "crop",
-            "model": {
-              "type": "minecraft:model",
-              "model": "tcc:block/decorated_pot/nether_brick/side/crop/south"
-            }
-          },
-          {
-            "when": "detection",
-            "model": {
-              "type": "minecraft:model",
-              "model": "tcc:block/decorated_pot/nether_brick/side/detection/south"
-            }
-          },
-          {
-            "when": "escape",
-            "model": {
-              "type": "minecraft:model",
-              "model": "tcc:block/decorated_pot/nether_brick/side/escape/south"
-            }
-          },
-          {
-            "when": "flame",
-            "model": {
-              "type": "minecraft:model",
-              "model": "tcc:block/decorated_pot/nether_brick/side/flame/south"
-            }
-          },
-          {
-            "when": "horror",
-            "model": {
-              "type": "minecraft:model",
-              "model": "tcc:block/decorated_pot/nether_brick/side/horror/south"
-            }
-          },
-          {
-            "when": "hunter",
-            "model": {
-              "type": "minecraft:model",
-              "model": "tcc:block/decorated_pot/nether_brick/side/hunter/south"
-            }
-          },
-          {
-            "when": "molten",
-            "model": {
-              "type": "minecraft:model",
-              "model": "tcc:block/decorated_pot/nether_brick/side/molten/south"
-            }
-          },
-          {
-            "when": "mount",
-            "model": {
-              "type": "minecraft:model",
-              "model": "tcc:block/decorated_pot/nether_brick/side/mount/south"
-            }
-          },
-          {
-            "when": "portal",
-            "model": {
-              "type": "minecraft:model",
-              "model": "tcc:block/decorated_pot/nether_brick/side/portal/south"
-            }
-          },
-          {
-            "when": "ranger",
-            "model": {
-              "type": "minecraft:model",
-              "model": "tcc:block/decorated_pot/nether_brick/side/ranger/south"
-            }
-          },
-          {
-            "when": "riches",
-            "model": {
-              "type": "minecraft:model",
-              "model": "tcc:block/decorated_pot/nether_brick/side/riches/south"
-            }
-          },
-          {
-            "when": "sorrow",
-            "model": {
-              "type": "minecraft:model",
-              "model": "tcc:block/decorated_pot/nether_brick/side/sorrow/south"
-            }
-          },
-          {
-            "when": "spirit",
-            "model": {
-              "type": "minecraft:model",
-              "model": "tcc:block/decorated_pot/nether_brick/side/spirit/south"
-            }
-          },
-          {
-            "when": "star",
-            "model": {
-              "type": "minecraft:model",
-              "model": "tcc:block/decorated_pot/nether_brick/side/star/south"
-            }
-          },
-          {
-            "when": "swirl",
-            "model": {
-              "type": "minecraft:model",
-              "model": "tcc:block/decorated_pot/nether_brick/side/swirl/south"
-            }
-          }
-        ],
-        "fallback": {
-          "type": "minecraft:model",
-          "model": "tcc:block/decorated_pot/nether_brick/side/blank/south"
-        }
-      },
-      {
-        "type": "minecraft:select",
-        "property": "minecraft:custom_model_data",
         "index": 3,
         "cases": [
           {
             "when": "blank",
             "model": {
               "type": "minecraft:model",
-              "model": "tcc:block/decorated_pot/nether_brick/side/blank/west"
+              "model": "tcc:block/decorated_pot/nether_brick/side/blank/north"
             }
           },
           {
             "when": "armor",
             "model": {
               "type": "minecraft:model",
-              "model": "tcc:block/decorated_pot/nether_brick/side/armor/west"
+              "model": "tcc:block/decorated_pot/nether_brick/side/armor/north"
             }
           },
           {
             "when": "beast",
             "model": {
               "type": "minecraft:model",
-              "model": "tcc:block/decorated_pot/nether_brick/side/beast/west"
+              "model": "tcc:block/decorated_pot/nether_brick/side/beast/north"
             }
           },
           {
             "when": "core",
             "model": {
               "type": "minecraft:model",
-              "model": "tcc:block/decorated_pot/nether_brick/side/core/west"
+              "model": "tcc:block/decorated_pot/nether_brick/side/core/north"
             }
           },
           {
             "when": "crop",
             "model": {
               "type": "minecraft:model",
-              "model": "tcc:block/decorated_pot/nether_brick/side/crop/west"
+              "model": "tcc:block/decorated_pot/nether_brick/side/crop/north"
             }
           },
           {
             "when": "detection",
             "model": {
               "type": "minecraft:model",
-              "model": "tcc:block/decorated_pot/nether_brick/side/detection/west"
+              "model": "tcc:block/decorated_pot/nether_brick/side/detection/north"
             }
           },
           {
             "when": "escape",
             "model": {
               "type": "minecraft:model",
-              "model": "tcc:block/decorated_pot/nether_brick/side/escape/west"
+              "model": "tcc:block/decorated_pot/nether_brick/side/escape/north"
             }
           },
           {
             "when": "flame",
             "model": {
               "type": "minecraft:model",
-              "model": "tcc:block/decorated_pot/nether_brick/side/flame/west"
+              "model": "tcc:block/decorated_pot/nether_brick/side/flame/north"
             }
           },
           {
             "when": "horror",
             "model": {
               "type": "minecraft:model",
-              "model": "tcc:block/decorated_pot/nether_brick/side/horror/west"
+              "model": "tcc:block/decorated_pot/nether_brick/side/horror/north"
             }
           },
           {
             "when": "hunter",
             "model": {
               "type": "minecraft:model",
-              "model": "tcc:block/decorated_pot/nether_brick/side/hunter/west"
+              "model": "tcc:block/decorated_pot/nether_brick/side/hunter/north"
             }
           },
           {
             "when": "molten",
             "model": {
               "type": "minecraft:model",
-              "model": "tcc:block/decorated_pot/nether_brick/side/molten/west"
+              "model": "tcc:block/decorated_pot/nether_brick/side/molten/north"
             }
           },
           {
             "when": "mount",
             "model": {
               "type": "minecraft:model",
-              "model": "tcc:block/decorated_pot/nether_brick/side/mount/west"
+              "model": "tcc:block/decorated_pot/nether_brick/side/mount/north"
             }
           },
           {
             "when": "portal",
             "model": {
               "type": "minecraft:model",
-              "model": "tcc:block/decorated_pot/nether_brick/side/portal/west"
+              "model": "tcc:block/decorated_pot/nether_brick/side/portal/north"
             }
           },
           {
             "when": "ranger",
             "model": {
               "type": "minecraft:model",
-              "model": "tcc:block/decorated_pot/nether_brick/side/ranger/west"
+              "model": "tcc:block/decorated_pot/nether_brick/side/ranger/north"
             }
           },
           {
             "when": "riches",
             "model": {
               "type": "minecraft:model",
-              "model": "tcc:block/decorated_pot/nether_brick/side/riches/west"
+              "model": "tcc:block/decorated_pot/nether_brick/side/riches/north"
             }
           },
           {
             "when": "sorrow",
             "model": {
               "type": "minecraft:model",
-              "model": "tcc:block/decorated_pot/nether_brick/side/sorrow/west"
+              "model": "tcc:block/decorated_pot/nether_brick/side/sorrow/north"
             }
           },
           {
             "when": "spirit",
             "model": {
               "type": "minecraft:model",
-              "model": "tcc:block/decorated_pot/nether_brick/side/spirit/west"
+              "model": "tcc:block/decorated_pot/nether_brick/side/spirit/north"
             }
           },
           {
             "when": "star",
             "model": {
               "type": "minecraft:model",
-              "model": "tcc:block/decorated_pot/nether_brick/side/star/west"
+              "model": "tcc:block/decorated_pot/nether_brick/side/star/north"
             }
           },
           {
             "when": "swirl",
             "model": {
               "type": "minecraft:model",
-              "model": "tcc:block/decorated_pot/nether_brick/side/swirl/west"
+              "model": "tcc:block/decorated_pot/nether_brick/side/swirl/north"
             }
           }
         ],
         "fallback": {
           "type": "minecraft:model",
-          "model": "tcc:block/decorated_pot/nether_brick/side/blank/west"
+          "model": "tcc:block/decorated_pot/nether_brick/side/blank/north"
         }
       },
       {

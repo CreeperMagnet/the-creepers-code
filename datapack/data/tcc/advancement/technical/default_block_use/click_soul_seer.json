@@ -11,7 +11,9 @@
                 "blocks": [
                   "minecraft:dropper"
                 ],
-                "nbt": "{lock:{components:{\"minecraft:custom_data\":{tcc:{soul_seer:1b}}}}}"
+                "predicates": {
+                  "minecraft:custom_data": "{tcc:{block_id:\"soul_seer\"}}"
+                }
               }
             }
           }

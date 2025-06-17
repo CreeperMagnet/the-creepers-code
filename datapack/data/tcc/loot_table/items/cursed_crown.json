@@ -21,7 +21,10 @@
                     "slot": "head",
                     "id": "tcc:cursed_crown_armor",
                     "operation": "add_value",
-                    "type": "minecraft:armor"
+                    "type": "minecraft:armor",
+                    "display": {
+                      "type": "default"
+                    }
                   }
                 ],
                 "minecraft:enchantments": {

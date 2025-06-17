@@ -9,6 +9,7 @@
     "minecraft:jack_o_lantern",
     "minecraft:chorus_plant",
     "minecraft:cactus",
-    "minecraft:scaffolding"
+    "minecraft:scaffolding",
+    "#minecraft:leaves"
   ]
 }

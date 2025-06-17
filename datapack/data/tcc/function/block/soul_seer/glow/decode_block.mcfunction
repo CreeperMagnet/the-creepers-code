@@ -46,8 +46,8 @@ execute if block ~ ~-1 ~ minecraft:glowstone run data modify storage tcc:temp ro
 execute if block ~ ~-1 ~ minecraft:nether_bricks run data modify storage tcc:temp root.macro_input.selector set value ",type=#tcc:soul_seer/nether_bricks"
 
 # Player heads
-execute if block ~ ~-1 ~ minecraft:player_head run data modify storage tcc:temp root.macro_input.player_name set from block ~ ~-1 ~ SkullOwner.Name
-execute if block ~ ~-1 ~ minecraft:player_wall_head run data modify storage tcc:temp root.macro_input.player_name set from block ~ ~-1 ~ SkullOwner.Name
+execute if block ~ ~-1 ~ minecraft:player_head run data modify storage tcc:temp root.macro_input.player_name set from block ~ ~-1 ~ profile.name
+execute if block ~ ~-1 ~ minecraft:player_wall_head run data modify storage tcc:temp root.macro_input.player_name set from block ~ ~-1 ~ profile.name
 execute if block ~ ~-1 ~ minecraft:player_head unless data storage tcc:temp root.macro_input.player_name run data modify storage tcc:temp root.macro_input.selector set value ",type=minecraft:player"
 execute if block ~ ~-1 ~ minecraft:player_wall_head unless data storage tcc:temp root.macro_input.player_name run data modify storage tcc:temp root.macro_input.selector set value ",type=minecraft:player"
 execute if data storage tcc:temp root.macro_input.player_name run function tcc:block/soul_seer/glow/get_head_name with storage tcc:temp root.macro_input

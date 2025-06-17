@@ -1,14 +1,14 @@
 # Duplicates a sherd based on several factors
 
 # If not all of the slots are filled, stop
-execute unless data storage tcc:temp root.barrel_data[1][{Slot:3b}] run return 0
-execute unless data storage tcc:temp root.barrel_data[1][{Slot:11b}] run return 0
-execute unless data storage tcc:temp root.barrel_data[1][{Slot:12b}] run return 0
-execute unless data storage tcc:temp root.barrel_data[1][{Slot:13b}] run return 0
-execute unless data storage tcc:temp root.barrel_data[1][{Slot:21b}] run return 0
+execute unless items block ~ ~ ~ container.3 * run return 0
+execute unless items block ~ ~ ~ container.11 * run return 0
+execute unless items block ~ ~ ~ container.12 * run return 0
+execute unless items block ~ ~ ~ container.13 * run return 0
+execute unless items block ~ ~ ~ container.21 * run return 0
 
 # Check that all the sherds are the same
-data modify storage tcc:temp root.all_same_checker set from storage tcc:temp root.barrel_data[1]
+data modify storage tcc:temp root.all_same_checker set from block ~ ~ ~ Items
 data remove storage tcc:temp root.all_same_checker[].count
 data remove storage tcc:temp root.all_same_checker[].components."minecraft:custom_name"
 data remove storage tcc:temp root.all_same_checker[].Slot
@@ -21,9 +21,9 @@ execute store success score @s tcc.dummy run data modify storage tcc:temp root.a
 execute if score @s tcc.dummy matches 1.. run return 0
 
 # Check middle item for proper type
-execute if data storage tcc:temp root.barrel_data[1][{Slot:12b,id:"minecraft:nether_brick"}] unless data storage tcc:temp root.barrel_data[1][{Slot:3b,components:{"minecraft:custom_data":{tcc:{id:"pottery_sherd",type:"nether_brick"}}}}] run return 0
-execute if data storage tcc:temp root.barrel_data[1][{Slot:12b,id:"minecraft:prismarine_shard"}] unless data storage tcc:temp root.barrel_data[1][{Slot:3b,components:{"minecraft:custom_data":{tcc:{id:"pottery_sherd",type:"prismarine"}}}}] run return 0
-execute if data storage tcc:temp root.barrel_data[1][{Slot:12b,id:"minecraft:brick"}] if data storage tcc:temp root.barrel_data[1][{Slot:3b,components:{"minecraft:custom_data":{tcc:{id:"pottery_sherd"}}}}] run return 0
+execute if items block ~ ~ ~ container.12 minecraft:nether_brick unless items block ~ ~ ~ container.3 *[minecraft:custom_data~{tcc:{id:"pottery_sherd",type:"nether_brick"}}] run return 0
+execute if items block ~ ~ ~ container.12 minecraft:prismarine_shard unless items block ~ ~ ~ container.3 *[minecraft:custom_data~{tcc:{id:"pottery_sherd",type:"prismarine"}}] run return 0
+execute if items block ~ ~ ~ container.12 minecraft:brick if items block ~ ~ ~ container.3 *[minecraft:custom_data~{tcc:{id:"pottery_sherd"}}] run return 0
 
 # Edit output item if everything checks out
 item replace block ~ ~ ~ container.15 from block ~ ~ ~ container.3

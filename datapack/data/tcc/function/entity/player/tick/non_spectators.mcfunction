@@ -14,5 +14,4 @@ execute if entity @s[tag=tcc.has_enabled_tangling_pearl] as @e[type=#tcc:tanglin
 execute anchored eyes positioned ^ ^ ^ if predicate tcc:multiple_condition_types/turtle_helmet_activation_conditions run effect give @s minecraft:water_breathing 31 0 true
 
 ## Reset scores
-scoreboard players reset @s tcc.sneaking
 scoreboard players reset @s tcc.used_warped_fungus_on_a_stick

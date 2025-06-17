@@ -96,6 +96,18 @@
           "functions": [
             {
               "add": false,
+              "count": 1,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:dried_ghast",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
               "count": {
                 "type": "minecraft:uniform",
                 "max": 9,
@@ -293,7 +305,7 @@
         "target": "pools[0].entries",
         "source": {
           "type": "reference",
-          "path": "pools[0].entries[18]"
+          "path": "pools[0].entries[19]"
         }
       }
     ]

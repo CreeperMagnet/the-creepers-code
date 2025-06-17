@@ -95,6 +95,11 @@
         },
         {
           "type": "minecraft:item",
+          "name": "minecraft:dried_ghast",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
           "name": "minecraft:skeleton_skull",
           "weight": 1
         }
