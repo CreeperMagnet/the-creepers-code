@@ -1,6 +1,6 @@
 {
   "pack": {
-    "pack_format": 80,
+    "pack_format": 81,
     "description": [
       {
         "text": "The Creeper's Code",
@@ -10,7 +10,7 @@
         "text": "\n"
       },
       {
-        "text": "Version 1.5.2",
+        "text": "Version 1.5.3",
         "color": "green"
       }
     ]
@@ -26,12 +26,12 @@
   "overlays": {
     "entries": [
       {
-        "formats": [45,79],
+        "formats": [45,80],
         "directory": "invalid_version"
       },
       {
         "formats": {
-          "min_inclusive": 81,
+          "min_inclusive": 82,
           "max_inclusive": 2147483647
         },
         "directory": "invalid_version"

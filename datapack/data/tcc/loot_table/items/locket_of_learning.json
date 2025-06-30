@@ -23,6 +23,14 @@
                   "floats": [
                     0.0
                   ]
+                },
+                "minecraft:equippable": {
+                  "slot": "chest",
+                  "asset_id": "tcc:locket_of_learning/empty",
+                  "equip_sound": {
+                    "sound_id": "tcc:item.armor.equip_locket_of_learning"
+                  },
+                  "swappable": false
                 }
               }
             },

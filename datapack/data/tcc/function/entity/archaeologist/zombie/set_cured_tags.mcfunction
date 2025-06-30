@@ -12,3 +12,4 @@ $execute unless entity @s[nbt={Gossips:[{Target:$(UUID),Type:"minor_positive"}]}
 data modify entity @s Gossips set from storage tcc:temp root.zombie_data.Gossips
 data modify entity @s VillagerData.profession set value "minecraft:fisherman"
 data modify entity @s Offers.Recipes set from storage tcc:temp root.zombie_data.Offers.Recipes
+$advancement grant @p[nbt={UUID:$(UUID)}] only minecraft:story/cure_zombie_villager

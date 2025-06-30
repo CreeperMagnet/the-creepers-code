@@ -13,4 +13,5 @@ $execute if block ~ ~ ~ #tcc:glazed_terracotta run function tcc:item/paintbrush/
 $execute if block ~ ~ ~ #minecraft:concrete_powder run setblock ~ ~ ~ minecraft:$(color)_concrete_powder
 $execute if block ~ ~ ~ #tcc:terracotta run setblock ~ ~ ~ minecraft:$(color)_terracotta
 $execute if block ~ ~ ~ #minecraft:candles run function tcc:item/paintbrush/color_block/candles {"color":"$(color)"}
+$execute if block ~ ~ ~ #minecraft:beds run function tcc:item/paintbrush/color_block/bed/main {"color":"$(color)"}
 $function tcc:item/paintbrush/color_brush {color:"$(color)"}

@@ -8,6 +8,7 @@
 §2Don't eat the swordfish!
 §2Eat the swordfish, they're a tasty snack!
 §2Swordfish taste rather odd.
+§2Contains berry good food!
 §2Jeb’s law!
 §2Rule 1 of datapacking
 §2Half of these splashes used to be about lag, then I optimized
@@ -55,6 +56,7 @@
 §2Boom!
 §2Attracting creepers since 2017
 §2Almost official!
+§2Often confused with vanilla!
 §2Creeper magnets not included
 §2It's all just a retextured flipped pig
 §2Free lag!
@@ -81,12 +83,12 @@
 §2Not made by ICY!
 §2Get me out of here!
 §2Only one command!
-§2With all the new splashes we've added, the chances you'll see this one are pretty slim!
 §2Based on the popular anime!
 §2Does not attract creepers :(
 §2Not magnetic :(
 §2Not made by creepers :(
 §2Made with 100% effort!
+§2Powered by LEGO!
 §2The devs are here of their own free will
 §2:boqheart:
 §2Works as intended!
@@ -113,20 +115,27 @@
 §2International law prohibits uninstalling this datapack
 §2Fun for the whole family!
 §2Soon to be a major religion
+§2Soon to be a hit television show
 §2Some splashes brought to you by Futurama!
 §2If you can read this, thank us!
 §2Made you look!
 §2No refunds
 §2Provides a full day's supply of Vitamins T, C, and C!
-§2Soon to be a hit television show
+§2Part of a balanced br... game!
 §2Ask your doctor if TCC is right for you
 §2The one bright spot in your life!
 §2#1 most downloaded datapack among download-bots
 §2For external use only
 §2Known to cause insanity in laboratory mice
+§2Slightly radioactive!
+§2Rots your teeth!
+§2Definitely cursed!
 §2All hail Mully
+§2Loved by penguins!
+§2In my understanding, I think...
 §2How many reworks of a rework can there be?
 §2Imagine the pottabilities!
+§2Don't worry, we sherd your complaints about not enough archaeology content!
 §2Featuring conductable souls!
 §2May contain worldbuilding.
 §2Bet you've never seen green splashes before!

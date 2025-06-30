@@ -11,7 +11,7 @@ execute unless entity @s[nbt=!{variant:"minecraft:courbet"},nbt=!{variant:"minec
 # 2x2 paintings
 execute unless entity @s[nbt=!{variant:"minecraft:baroque"},nbt=!{variant:"minecraft:bust"},nbt=!{variant:"minecraft:humble"},nbt=!{variant:"minecraft:match"},nbt=!{variant:"minecraft:skull_and_roses"},nbt=!{variant:"minecraft:stage"},nbt=!{variant:"minecraft:void"},nbt=!{variant:"minecraft:wither"}] run function tcc:item/paintbrush/painting_cycle/2x2
 # 3x3 paintings
-execute unless entity @s[nbt=!{variant:"minecraft:bouquet"},nbt=!{variant:"minecraft:cavebird"},nbt=!{variant:"minecraft:cotan"},nbt=!{variant:"minecraft:endboss"},nbt=!{variant:"minecraft:fern"},nbt=!{variant:"minecraft:owlemons"},nbt=!{variant:"minecraft:sunflowers"},nbt=!{variant:"minecraft:tides"}] run function tcc:item/paintbrush/painting_cycle/3x3
+execute unless entity @s[nbt=!{variant:"minecraft:bouquet"},nbt=!{variant:"minecraft:cavebird"},nbt=!{variant:"minecraft:cotan"},nbt=!{variant:"minecraft:endboss"},nbt=!{variant:"minecraft:fern"},nbt=!{variant:"minecraft:owlemons"},nbt=!{variant:"minecraft:sunflowers"},nbt=!{variant:"minecraft:tides"},nbt=!{variant:"minecraft:dennis"}] run function tcc:item/paintbrush/painting_cycle/3x3
 # 3x4 paintings
 execute unless entity @s[nbt=!{variant:"minecraft:backyard"},nbt=!{variant:"minecraft:pond"},nbt=!{variant:"tcc:coward"}] run function tcc:item/paintbrush/painting_cycle/3x4
 # 4x2 paintings

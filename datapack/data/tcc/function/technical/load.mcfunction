@@ -17,7 +17,7 @@ gamerule maxCommandChainLength 1073741824
 ## Compendium Data
 execute unless data storage tcc:compendium player_data run data merge storage tcc:compendium {player_data:[]}
 # The following line is updated when the generator is run
-data modify storage tcc:compendium version set value {release:10,dev:0}
+data modify storage tcc:compendium version set value {release:11,dev:0}
 
 ## Scoreboards
 scoreboard objectives add tcc.used_warped_fungus_on_a_stick minecraft.used:minecraft.warped_fungus_on_a_stick
