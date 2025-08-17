@@ -26,7 +26,7 @@
     ]
   ],
   "rewards": {
-    "function": "tcc:item/wrench/rotate_hit_player"
+    "function": "tcc:item/wrench/player_rotation/rotate_hit_player"
   },
   "parent": "tcc:technical/root"
 }

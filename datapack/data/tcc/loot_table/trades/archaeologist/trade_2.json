@@ -30,10 +30,6 @@
               "options": [
                 "minecraft:unbreaking"
               ]
-            },
-            {
-              "function": "minecraft:set_custom_data",
-              "tag": "{tcc:{zombified_villager_detection:1b}}"
             }
           ]
         }

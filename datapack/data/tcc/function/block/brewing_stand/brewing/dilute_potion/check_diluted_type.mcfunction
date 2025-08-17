@@ -3,7 +3,7 @@
 data modify storage tcc:temp root.potion set from storage tcc:temp root.item.components."minecraft:potion_contents".potion
 execute if data storage tcc:temp root.item.components."minecraft:custom_data".tcc.potion.id run data modify storage tcc:temp root.potion set from storage tcc:temp root.item.components."minecraft:custom_data".tcc.potion.id
 data modify storage tcc:temp root.item set value {id:"minecraft:warped_fungus_on_a_stick",count:1,components:{"minecraft:item_model":"tcc:diluted_potion","!minecraft:enchantments":{},"minecraft:custom_data":{tcc:{id:"diluted_potion",potion:{uses:[10,10]}}},"minecraft:custom_model_data":{"floats":[10.0f],"colors":[16253176]},"!minecraft:damage":{},"!minecraft:max_damage":{}}}
-data modify storage tcc:temp root.item.components."minecraft:lore" set value [{"translate":"item.tcc.diluted_potion.uses","color":"gray","italic":false,"with":["10","10"]},{"translate":"pack.tcc","color":"#008725","italic":true}]
+data modify storage tcc:temp root.item.components."minecraft:lore" set value [{"translate":"item.tcc.diluted_potion.uses","color":"gray","italic":false,"with":["10","10"]},{"translate":"pack.tcc","color":"white","italic":false,"font":"tcc:tooltip"}]
 data modify storage tcc:temp root.item.components."minecraft:custom_data".tcc.potion.id set from storage tcc:temp root.potion
 
 execute if data storage tcc:temp root{potion:"minecraft:leaping"} run return run function tcc:block/brewing_stand/brewing/dilute_potion/set_generic_tags {color:16646020,translation:"leaping",lore_color:"blue",effect:"jump_boost",duration:18,duration_lore_0:1,duration_lore_1:8,amplifier:0}

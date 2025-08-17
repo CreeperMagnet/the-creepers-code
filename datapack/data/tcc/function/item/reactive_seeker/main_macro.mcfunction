@@ -12,7 +12,7 @@ $data modify storage tcc:temp root.map set from entity @s $(slot_raw)
 function tcc:technical/macros/loot/replace with storage tcc:temp root.stored_item
 
 # Edit item stored in temp
-data merge storage tcc:temp {root:{item:{id:"minecraft:poisonous_potato",count:1,components:{"minecraft:lodestone_tracker":{target:{pos:[0,7,0],dimension:"minecraft:the_nether"},tracked:0b},"!minecraft:consumable":{},"minecraft:max_stack_size":1}}}}
+data merge storage tcc:temp {root:{item:{id:"minecraft:poisonous_potato",count:1,components:{"minecraft:lodestone_tracker":{target:{pos:[0,7,0],dimension:"minecraft:the_nether"},tracked:0b},"!minecraft:consumable":{}}}}}
 execute store result storage tcc:temp root.item.components."minecraft:lodestone_tracker".target.pos[0] int 1.0 run data get storage tcc:temp root.map.components."minecraft:map_decorations".+.x
 execute store result storage tcc:temp root.item.components."minecraft:lodestone_tracker".target.pos[2] int 1.0 run data get storage tcc:temp root.map.components."minecraft:map_decorations".+.z
 

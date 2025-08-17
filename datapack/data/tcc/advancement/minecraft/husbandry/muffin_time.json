@@ -17,8 +17,9 @@
       "\n\n",
       {
         "translate": "pack.tcc",
-        "color": "#008725",
-        "italic": true
+        "color": "white",
+        "italic": false,
+        "font": "tcc:tooltip"
       }
     ],
     "frame": "task",

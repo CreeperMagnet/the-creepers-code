@@ -1,7 +1,8 @@
 # Resets the archaeologist
 
 tag @s remove tcc.archaeologist
-tag @s remove tcc.tick
+tag @s remove smithed.entity
+
 team leave @s
 data remove entity @s equipment.mainhand
 data remove entity @s equipment.offhand

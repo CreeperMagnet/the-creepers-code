@@ -38,7 +38,7 @@
     ]
   ],
   "rewards": {
-    "function": "tcc:entity/processing/disable_spawning"
+    "function": "tcc:entity/converted_mobs/spawn_egg_fix"
   },
   "parent": "tcc:technical/root"
 }

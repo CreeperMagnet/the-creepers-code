@@ -38,20 +38,19 @@
               "target": "item_name"
             },
             {
+              "function": "minecraft:reference",
+              "name": "tcc:add_tooltip_lore"
+            },
+            {
               "function": "minecraft:set_lore",
               "lore": [
-                {
-                  "translate": "pack.tcc",
-                  "color": "#008725",
-                  "italic": true
-                },
                 {
                   "translate": "item.tcc.tattered_elytra.lore",
                   "color": "red",
                   "italic": false
                 }
               ],
-              "mode": "replace_all"
+              "mode": "append"
             }
           ],
           "name": "minecraft:poisonous_potato"

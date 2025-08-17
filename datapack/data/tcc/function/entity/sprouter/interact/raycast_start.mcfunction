@@ -5,7 +5,6 @@ data modify storage tcc:temp root.item set from entity @s SelectedItem
 
 tag @s remove tcc.tag
 scoreboard players set @s tcc.dummy 0
-execute if entity @s[advancements={tcc:technical/player_interacted_with_entity/sprouter={leash=true}}] run data modify storage tcc:temp root.macro_input.UUID set from entity @s UUID
 execute store result score @s tcc.dummy run attribute @s minecraft:entity_interaction_range get 100
 execute anchored eyes run function tcc:entity/sprouter/interact/raycast
 item modify entity @s[tag=tcc.tag,gamemode=!creative,advancements={tcc:technical/player_interacted_with_entity/sprouter={shear=false}}] weapon.mainhand tcc:reduce_count

@@ -20,14 +20,21 @@
       "minecraft:consumable": {},
       "minecraft:food": {
         "nutrition": 7,
-        "saturation": 9.0
+        "saturation": 9
       },
       "minecraft:use_remainder": {
         "id": "minecraft:bowl"
       },
-      "minecraft:item_name": {"translate":"item.tcc.fungal_stew"},
+      "minecraft:item_name": {
+        "translate": "item.tcc.fungal_stew"
+      },
       "minecraft:lore": [
-        {"translate":"pack.tcc","color":"#008725","italic":true}
+        {
+          "translate": "pack.tcc",
+          "color": "white",
+          "italic": false,
+          "font": "tcc:tooltip"
+        }
       ]
     }
   }

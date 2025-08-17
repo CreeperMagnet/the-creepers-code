@@ -2,6 +2,5 @@
 
 data modify storage tcc:temp root.item set from entity @s item.components."minecraft:custom_data".item
 execute unless data storage tcc:temp root.item.components run data modify storage tcc:temp root.item.components set value {}
-data modify storage tcc:temp root.item.slot set value "weapon.mainhand"
-execute as @p[advancements={tcc:technical/player_interacted_with_entity/potted_plant=true}] run function tcc:technical/macros/loot/replace with storage tcc:temp root.item
+execute as @p[advancements={tcc:technical/player_interacted_with_entity/potted_plant=true}] at @s run function tcc:technical/macros/loot/give_or_spawn_if_full with storage tcc:temp root.item
 kill @s

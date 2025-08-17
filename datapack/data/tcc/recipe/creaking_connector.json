@@ -28,9 +28,16 @@
           "custom_block": true
         }
       },
-      "minecraft:item_name": {"translate":"block.tcc.creaking_connector"},
+      "minecraft:item_name": {
+        "translate": "block.tcc.creaking_connector"
+      },
       "minecraft:lore": [
-        {"translate":"pack.tcc","color":"#008725","italic":true}
+        {
+          "translate": "pack.tcc",
+          "color": "white",
+          "italic": false,
+          "font": "tcc:tooltip"
+        }
       ]
     }
   }

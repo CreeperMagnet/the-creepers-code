@@ -76,15 +76,8 @@
               "target": "item_name"
             },
             {
-              "function": "set_lore",
-              "lore": [
-                {
-                  "translate": "pack.tcc",
-                  "color": "#008725",
-                  "italic": true
-                }
-              ],
-              "mode": "replace_all"
+              "function": "minecraft:reference",
+              "name": "tcc:add_tooltip_lore"
             }
           ],
           "name": "minecraft:white_banner"

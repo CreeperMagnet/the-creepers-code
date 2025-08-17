@@ -91,6 +91,15 @@
     ],
     "subtitle": "subtitles.tcc.item.wrench.rotate_block"
   },
+  "item.wrench.rotate_player": {
+    "sounds": [
+      "tcc:item/wrench1",
+      "tcc:item/wrench2",
+      "tcc:item/wrench3",
+      "tcc:item/wrench4"
+    ],
+    "subtitle": "subtitles.tcc.item.wrench.rotate_player"
+  },
   "item.wrench.pose_armor_stand": {
     "sounds": [
       "tcc:item/wrench1",

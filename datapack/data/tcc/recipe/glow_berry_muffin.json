@@ -20,11 +20,18 @@
       "minecraft:consumable": {},
       "minecraft:food": {
         "nutrition": 7,
-        "saturation": 10.0
+        "saturation": 10
       },
-      "minecraft:item_name": {"translate":"item.tcc.glow_berry_muffin"},
+      "minecraft:item_name": {
+        "translate": "item.tcc.glow_berry_muffin"
+      },
       "minecraft:lore": [
-        {"translate":"pack.tcc","color":"#008725","italic":true}
+        {
+          "translate": "pack.tcc",
+          "color": "white",
+          "italic": false,
+          "font": "tcc:tooltip"
+        }
       ]
     }
   }

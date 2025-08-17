@@ -7,7 +7,7 @@
         "player": [
           {
             "condition": "minecraft:reference",
-            "name": "tcc:entity_properties/slots/weapon.mainhand/can_be_potted"
+            "name": "tcc:entity_properties/slots/weapon.mainhand/pottable_plants_new"
           }
         ],
         "location": [

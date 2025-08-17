@@ -29,6 +29,7 @@
       "entries": [
         {
           "type": "minecraft:item",
+          "weight": 5,
           "functions": [
             {
               "function": "minecraft:set_instrument",
@@ -36,6 +37,11 @@
             }
           ],
           "name": "minecraft:goat_horn"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:music_disc_wait"
         }
       ]
     },
@@ -89,5 +95,5 @@
       ]
     }
   ],
-  "random_sequence": "tcc:chests/tundra_keep/rare"
+  "random_sequence": "tcc:chests/tundra_keep/treasure"
 }

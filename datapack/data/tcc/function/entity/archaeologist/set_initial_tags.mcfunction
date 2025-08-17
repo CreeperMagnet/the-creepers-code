@@ -1,7 +1,7 @@
 # Sets the initial trades of a archaeologist
 
 tag @s add tcc.archaeologist
-tag @s add tcc.tick
+tag @s add smithed.entity
 
 item replace entity @s armor.head with minecraft:shears[minecraft:item_model="tcc:entity/archaeologist/head"]
 execute unless data entity @s CustomName run team join tcc.no_nametag

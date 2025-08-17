@@ -1,5 +1,9 @@
 # Updates unlocked entries for outdated books
 
+# If the player is in creative, don't run any updating code
+advancement revoke @s[gamemode=creative] only tcc:technical/inventory_changed/compendium/unlockable
+execute if entity @s[gamemode=creative] run return 0
+
 advancement revoke @s[tag=tcc.modifying_item] only tcc:technical/inventory_changed/compendium/unlockable
 # If this was called due to a modified item in this code, return
 execute if entity @s[tag=tcc.modifying_item] run return 0

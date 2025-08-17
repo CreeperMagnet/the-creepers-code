@@ -13,7 +13,9 @@
       "minecraft:lore": [
         {
           "translate": "pack.tcc",
-          "color": "#008725"
+          "color": "white",
+          "italic": false,
+          "font": "tcc:tooltip"
         }
       ],
       "minecraft:enchantment_glint_override": false

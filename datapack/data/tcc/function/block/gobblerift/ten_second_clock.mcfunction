@@ -1,8 +1,7 @@
-# Commands to run every ten seconds
+# Commands to run every ten seconds for gobblerift item display
 
-data modify entity @s[type=minecraft:item_display] item.components."minecraft:custom_data".break_state set value 0
-execute if entity @s[tag=tcc.gobblerift.bonemealable] run function tcc:block/gobblerift/grow/main
-execute if entity @s[tag=tcc.gobblerift.digesting] run function tcc:block/gobblerift/grow/digest
+data modify entity @s item.components."minecraft:custom_data".break_state set value 0
 
-execute if entity @s[type=minecraft:interaction,predicate=!tcc:entity_properties/in_vehicle] run function tcc:block/gobblerift/break/interaction
-execute if entity @s[type=minecraft:item_display,predicate=!tcc:entity_properties/has_passenger] run function tcc:block/gobblerift/break/main
+# Stuff to run on the interaction entity riding this entity
+execute on passengers if entity @s[tag=tcc.gobblerift.bonemealable] run function tcc:block/gobblerift/grow/main
+execute on passengers if entity @s[tag=tcc.gobblerift.digesting] run function tcc:block/gobblerift/grow/digest

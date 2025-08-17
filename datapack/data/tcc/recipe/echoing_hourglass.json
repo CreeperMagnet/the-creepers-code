@@ -24,9 +24,16 @@
       "!minecraft:damage": {},
       "!minecraft:max_damage": {},
       "!minecraft:enchantments": {},
-      "minecraft:item_name": {"translate":"item.tcc.echoing_hourglass"},
+      "minecraft:item_name": {
+        "translate": "item.tcc.echoing_hourglass"
+      },
       "minecraft:lore": [
-        {"translate":"pack.tcc","color":"#008725","italic":true}
+        {
+          "translate": "pack.tcc",
+          "color": "white",
+          "italic": false,
+          "font": "tcc:tooltip"
+        }
       ],
       "minecraft:rarity": "uncommon"
     }

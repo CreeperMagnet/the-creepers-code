@@ -16,13 +16,14 @@
       "\n\n",
       {
         "translate": "pack.tcc",
-        "color": "#008725",
-        "italic": true
+        "color": "white",
+        "italic": false,
+        "font": "tcc:tooltip"
       }
     ],
     "frame": "task"
   },
-  "parent": "minecraft:nether/root",
+  "parent": "minecraft:nether/obtain_ancient_debris",
   "criteria": {
     "use_reactive_seeker": {
       "trigger": "minecraft:impossible"

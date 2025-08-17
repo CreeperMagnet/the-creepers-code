@@ -22,7 +22,7 @@
                       "effects": [
                         {
                           "id": "minecraft:night_vision",
-                          "duration": 18000
+                          "duration": 48000
                         }
                       ]
                     }
@@ -43,15 +43,8 @@
               "target": "item_name"
             },
             {
-              "function": "minecraft:set_lore",
-              "lore": [
-                {
-                  "translate": "pack.tcc",
-                  "color": "#008725",
-                  "italic": true
-                }
-              ],
-              "mode": "replace_all"
+              "function": "minecraft:reference",
+              "name": "tcc:add_tooltip_lore"
             }
           ],
           "name": "minecraft:golden_carrot"

@@ -23,5 +23,6 @@
       ]
     }
   },
-  "type": "minecraft:jigsaw"
+  "type": "minecraft:jigsaw",
+  "liquid_settings": "ignore_waterlogging"
 }

@@ -263,7 +263,16 @@
         {
           "type": "minecraft:loot_table",
           "weight": 2,
-          "value": "tcc:items/enchanted_golden_carrot"
+          "value": "tcc:items/enchanted_golden_carrot",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 3
+              }
+            }
+          ]
         }
       ]
     }

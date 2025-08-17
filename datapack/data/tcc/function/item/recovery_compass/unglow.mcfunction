@@ -1,6 +1,6 @@
 # Removes data from glowing item
 
-tag @s remove tcc.second_clock
+execute if entity @s[nbt={Age:-32767s}] run return 0
 tag @s remove tcc.recovery_compass_item
 data modify entity @s Age set value 0s
 team leave @s

@@ -19,9 +19,16 @@
           "type": "nether_brick"
         }
       },
-      "minecraft:item_name": {"translate":"block.tcc.nether_brick_flower_pot"},
+      "minecraft:item_name": {
+        "translate": "block.tcc.nether_brick_flower_pot"
+      },
       "minecraft:lore": [
-        {"translate":"pack.tcc","color":"#008725","italic":true}
+        {
+          "translate": "pack.tcc",
+          "color": "white",
+          "italic": false,
+          "font": "tcc:tooltip"
+        }
       ],
       "!minecraft:enchantments": {},
       "!minecraft:max_damage": {},

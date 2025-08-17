@@ -63,6 +63,8 @@ execute if block ~ ~ ~ minecraft:trapped_chest[type=single] run function tcc:ite
 
 execute if block ~ ~ ~ minecraft:repeater[locked=false] run function tcc:item/wrench/rotate/block/repeater
 
+execute if block ~ ~ ~ minecraft:bell[attachment=floor] run function tcc:item/wrench/rotate/macro/facing_cardinal {block:"minecraft:bell"}
+
 execute if block ~ ~ ~ minecraft:iron_trapdoor[powered=false] run function tcc:item/wrench/rotate/block/iron_trapdoor/main
 
 execute if block ~ ~ ~ minecraft:iron_door[powered=false] run function tcc:item/wrench/rotate/block/iron_door/main

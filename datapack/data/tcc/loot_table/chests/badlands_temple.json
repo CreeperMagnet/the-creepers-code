@@ -186,6 +186,11 @@
               }
             }
           ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:music_disc_blocks"
         }
       ]
     },
@@ -284,7 +289,16 @@
         {
           "type": "minecraft:loot_table",
           "value": "tcc:items/enchanted_golden_carrot",
-          "weight": 1
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 3
+              }
+            }
+          ]
         }
       ]
     }

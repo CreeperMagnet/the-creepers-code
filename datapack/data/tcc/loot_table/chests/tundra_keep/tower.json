@@ -23,6 +23,11 @@
         },
         {
           "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:music_disc_wait"
+        },
+        {
+          "type": "minecraft:item",
           "name": "minecraft:arrow",
           "weight": 4,
           "functions": [
@@ -103,5 +108,5 @@
       ]
     }
   ],
-  "random_sequence": "tcc:chests/tundra_keep/tent"
+  "random_sequence": "tcc:chests/tundra_keep/tower"
 }

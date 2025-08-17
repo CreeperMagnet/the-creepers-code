@@ -22,14 +22,8 @@
     }
   },
   {
-    "function": "minecraft:set_lore",
-    "lore": [
-      {
-        "translate": "pack.tcc",
-        "color": "#008725"
-      }
-    ],
-    "mode": "replace_all"
+    "function": "minecraft:reference",
+    "name": "tcc:add_tooltip_lore"
   },
   {
     "function": "minecraft:set_custom_data",

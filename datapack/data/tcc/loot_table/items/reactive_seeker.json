@@ -33,15 +33,8 @@
               "target": "item_name"
             },
             {
-              "function": "minecraft:set_lore",
-              "lore": [
-                {
-                  "translate": "pack.tcc",
-                  "color": "#008725",
-                  "italic": true
-                }
-              ],
-              "mode": "replace_all"
+              "function": "minecraft:reference",
+              "name": "tcc:add_tooltip_lore"
             }
           ],
           "name": "minecraft:warped_fungus_on_a_stick"

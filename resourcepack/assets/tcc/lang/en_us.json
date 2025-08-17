@@ -264,6 +264,7 @@
   "commands.tcc.reload.success": " Updated datapacks and TCC scoreboards",
   "commands.tcc.initiate": "%s is enabled.",
   "commands.tcc.wrong_version": "\nYou are using The Creeper's Code on the incorrect Minecraft version. Check the version you downloaded the pack for and try again.",
+  "commands.tcc.wrong_armor_trim_addon_version": "\nYou are using TCC's Armor Trim Addon on the incorrect Minecraft version. Check the version you downloaded the pack for and try again.",
   "commands.tcc.initiate.wrong_version.title": "WRONG VERSION",
 
   "chat.tcc.gamerules.title": "TCC Gamerules",
@@ -411,6 +412,7 @@
   "subtitles.tcc.item.armor.equip_witch_hat": "Witch Hat rustles",
   "subtitles.tcc.item.armor.equip_cursed_crown": "Cursed Crown clinks",
   "subtitles.tcc.item.wrench.rotate_block": "Wrench rotates block",
+  "subtitles.tcc.item.wrench.rotate_player": "Wrench rotates player",
   "subtitles.tcc.item.wrench.pose_armor_stand": "Wrench poses Armor Stand",
   "subtitles.tcc.item.locket_of_learning.deposit": "Locket of Learning fills",
   "subtitles.tcc.item.paintbrush.paint": "Paintbrush strokes",
@@ -480,10 +482,18 @@
   "subtitles.tcc.block.pottery_table.craft": "Pottery Table used",
 
   "painting.tcc.coward.title": "Coward",
+
+
+
+
+
+  "tcc.not_translated_separator": "Strings below this line will not be included for translation on Crowdin.",
+
+
+
+
+
   "painting.tcc.coward.author": "CreeperMagnet_",
-
-
-
 
   "pack.tcc": "The Creeper's Code",
   "potion.tcc.duration": "%s%s:%s%s",
@@ -492,8 +502,6 @@
   "block.tcc.soul_seer.name": " ",
   "block.tcc.creaking_connector.name": " ",
   "block.tcc.soul_conductor.name": " ",
-
-  "commands.tcc.initiate.version_check": "%s",
 
   "chat.tcc.emoji.angry.icon": "\ue002",
   "chat.tcc.emoji.angry.chat": "\uc002",
@@ -578,5 +586,8 @@
   "chat.tcc.emoji.sparkles.icon": " \ue041",
   "chat.tcc.emoji.sparkles.chat": "\uc041",
   "chat.tcc.emoji.smirk.icon": "\ue042",
-  "chat.tcc.emoji.smirk.chat": "\uc042"
+  "chat.tcc.emoji.smirk.chat": "\uc042",
+
+  "tcc.resource_pack_validation.check_installed": "%s",
+  "tcc.resource_pack_validation.check_version.dev_version_do_not_distribute": "%s"
 }

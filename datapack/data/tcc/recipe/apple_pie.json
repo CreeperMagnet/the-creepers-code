@@ -21,9 +21,16 @@
         "nutrition": 8,
         "saturation": 4.8
       },
-      "minecraft:item_name": {"translate":"item.tcc.apple_pie"},
+      "minecraft:item_name": {
+        "translate": "item.tcc.apple_pie"
+      },
       "minecraft:lore": [
-        {"translate":"pack.tcc","color":"#008725","italic":true}
+        {
+          "translate": "pack.tcc",
+          "color": "white",
+          "italic": false,
+          "font": "tcc:tooltip"
+        }
       ]
     }
   }

@@ -1,7 +1,7 @@
 # Initiates things for the player
 
-# Version initiation message
-tellraw @s {"click_event":{"action":"open_url","url":"https://github.com/CreeperMagnet/the-creepers-code/releases/download/1.5.3/tcc_resourcepack_1.5.3.zip"},"fallback": "\nThe Creeper's Code required resource pack is not installed. Click here to download it.\n","translate":"commands.tcc.initiate.version_check","color":"red","with":[{"translate":"commands.tcc.initiate","color":"white","underlined":false,"click_event":{"action":"suggest_command","command":""},"with":[{"translate":"pack.tcc","color":"#008725","underlined":true,"hover_event":{"action":"show_text","value":{"translate":"pack.tcc.hover_event"}},"click_event":{"action":"open_url","url":"https://thecreeperscode.com"}}]}]}
+##### DO NOT MOVE THE POSITION OF THE BELOW LINE. IT IS EDITED BEFORE EXPORT.
+tellraw @s {"click_event":{"action":"open_url","url":"https://github.com/CreeperMagnet/tcc/"},"fallback": "\nWARNING\n\nThe Creeper's Code required resource pack is not installed. Click here to download it. Gameplay will break if not used.\n\nWARNING","translate":"tcc.resource_pack_validation.check_installed","color":"red","bold":true,"with":[{"translate":"tcc.resource_pack_validation.check_version.dev_version_do_not_distribute","fallback":"\nWARNING\n\nYou have the wrong version of the TCC resource pack installed. Click here to download the correct one. Gameplay will break if not used.\n\nWARNING","with":[{"translate":"commands.tcc.initiate","color":"white","underlined":false,"bold":false,"click_event":{"action":"suggest_command","command":""},"with":[{"translate":"pack.tcc","color":"#008725","underlined":true,"hover_event":{"action":"show_text","value":{"translate":"pack.tcc.hover_event"}},"click_event":{"action":"open_url","url":"https://thecreeperscode.com"}}]}]}]}
 
 # Scoreboard objectives
 scoreboard players reset @s tcc.dummy2

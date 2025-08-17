@@ -6,5 +6,4 @@ execute if data storage tcc:temp root.item.components."minecraft:custom_data".tc
 execute if data storage tcc:temp root.item{id:"minecraft:beetroot_soup"} run function tcc:entity/snail/interact/breed
 execute if data storage tcc:temp root.item{id:"minecraft:bucket"} run function tcc:entity/snail/interact/bucket/main
 execute if data storage tcc:temp root.item{id:"minecraft:name_tag"} run data modify entity @s equipment.chest.components."minecraft:custom_name" set from storage tcc:temp root.item.components."minecraft:custom_name"
-execute if data storage tcc:temp root.item{id:"minecraft:lead"} run return run function tcc:technical/macros/leash_entity with storage tcc:temp root.macro_input
 data remove entity @s Offers.Recipes

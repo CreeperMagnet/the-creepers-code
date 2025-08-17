@@ -6,5 +6,4 @@ item replace entity @s armor.head with minecraft:stone[minecraft:item_model="tcc
 item replace entity @s weapon.mainhand with air
 data remove entity @s[nbt={CustomName:{"translate":"entity.tcc.archaeologist"}}] CustomName
 tag @s add tcc.zombified_archaeologist
-tag @s add tcc.ten_second_clock
-tag @s add tcc.burns_in_sunlight
+tag @s remove tcc.archaeologist

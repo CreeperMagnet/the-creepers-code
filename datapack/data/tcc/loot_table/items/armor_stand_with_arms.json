@@ -16,7 +16,7 @@
               "components": {
                 "minecraft:item_model": "tcc:armor_stand_with_arms",
                 "minecraft:entity_data": {
-                  "ShowArms": 1,
+                  "ShowArms": true,
                   "Tags": [
                     "tcc.armor_stand_with_arms"
                   ],
@@ -25,15 +25,8 @@
               }
             },
             {
-              "function": "set_lore",
-              "lore": [
-                {
-                  "translate": "pack.tcc",
-                  "color": "#008725",
-                  "italic": true
-                }
-              ],
-              "mode": "replace_all"
+              "function": "minecraft:reference",
+              "name": "tcc:add_tooltip_lore"
             }
           ],
           "name": "minecraft:armor_stand"
