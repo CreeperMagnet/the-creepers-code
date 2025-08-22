@@ -3,7 +3,7 @@
     {
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "tcc:refuge_remains/pottery_table",
+        "location": "tcc:common/block/pottery_table",
         "processors": "minecraft:empty",
         "projection": "rigid"
       },

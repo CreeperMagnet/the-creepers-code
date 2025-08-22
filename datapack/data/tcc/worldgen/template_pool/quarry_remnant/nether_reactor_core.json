@@ -3,7 +3,7 @@
     {
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "tcc:quarry_remnant/nether_reactor_core",
+        "location": "tcc:common/block/nether_reactor_core",
         "processors": "tcc:quarry_remnant",
         "projection": "rigid"
       },

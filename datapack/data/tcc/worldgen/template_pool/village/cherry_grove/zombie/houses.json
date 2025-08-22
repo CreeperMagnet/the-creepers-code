@@ -237,7 +237,7 @@
     {
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "tcc:village/cherry_grove/zombie/houses/archaeologist",
+        "location": "tcc:village/cherry_grove/houses/archaeologist",
         "processors": "tcc:village/cherry_grove/zombie",
         "projection": "rigid"
       },

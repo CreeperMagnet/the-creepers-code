@@ -246,7 +246,7 @@
     {
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "tcc:village/sparse_jungle/zombie/houses/archaeologist",
+        "location": "tcc:village/sparse_jungle/houses/archaeologist",
         "processors": "tcc:village/sparse_jungle/zombie",
         "projection": "rigid"
       },

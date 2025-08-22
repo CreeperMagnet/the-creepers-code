@@ -3,7 +3,7 @@
     {
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "tcc:woodland_mansion/mobs/enchanter",
+        "location": "tcc:common/mob/enchanter",
         "processors": "minecraft:empty",
         "projection": "rigid"
       },

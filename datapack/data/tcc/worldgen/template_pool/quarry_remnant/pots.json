@@ -3,7 +3,7 @@
     {
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "tcc:quarry_remnant/pots/normal",
+        "location": "tcc:common/block/decorated_nether_brick_pot/normal",
         "processors": "tcc:quarry_remnant",
         "projection": "rigid"
       },
@@ -12,7 +12,7 @@
     {
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "tcc:quarry_remnant/pots/armor",
+        "location": "tcc:common/block/decorated_nether_brick_pot/armor",
         "processors": "tcc:quarry_remnant",
         "projection": "rigid"
       },
@@ -21,7 +21,7 @@
     {
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "tcc:quarry_remnant/pots/core",
+        "location": "tcc:common/block/decorated_nether_brick_pot/core",
         "processors": "tcc:quarry_remnant",
         "projection": "rigid"
       },
@@ -30,7 +30,7 @@
     {
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "tcc:quarry_remnant/pots/molten",
+        "location": "tcc:common/block/decorated_nether_brick_pot/molten",
         "processors": "tcc:quarry_remnant",
         "projection": "rigid"
       },

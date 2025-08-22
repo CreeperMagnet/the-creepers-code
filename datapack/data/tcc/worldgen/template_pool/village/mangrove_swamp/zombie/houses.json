@@ -246,7 +246,7 @@
     {
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "tcc:village/mangrove_swamp/zombie/houses/archaeologist",
+        "location": "tcc:village/mangrove_swamp/houses/archaeologist",
         "processors": "tcc:village/mangrove_swamp/zombie",
         "projection": "rigid"
       },
