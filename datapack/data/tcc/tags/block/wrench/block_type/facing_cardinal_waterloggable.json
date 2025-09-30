@@ -1,6 +1,8 @@
 {
   "values": [
     "minecraft:ender_chest",
-    "minecraft:decorated_pot"
+    "minecraft:decorated_pot",
+    "#minecraft:copper_golem_statues",
+    "#minecraft:wooden_shelves"
   ]
 }

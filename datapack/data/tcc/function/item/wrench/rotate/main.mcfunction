@@ -29,26 +29,13 @@ execute if block ~ ~ ~ #minecraft:rails run function tcc:item/wrench/rotate/bloc
 
 execute if block ~ ~ ~ #minecraft:stairs run function tcc:item/wrench/rotate/block_tag/stairs
 
-execute if block ~ ~ ~ #minecraft:beehives run function tcc:item/wrench/rotate/block_tag/beehives
-
 execute if block ~ ~ ~ #minecraft:all_hanging_signs run function tcc:item/wrench/rotate/block_tag/all_hanging_signs/main
-
-execute if block ~ ~ ~ #tcc:furnaces run function tcc:item/wrench/rotate/block_tag/furnaces
-
-execute if block ~ ~ ~ minecraft:grindstone run function tcc:item/wrench/rotate/block/grindstone
-
-execute if block ~ ~ ~ minecraft:comparator run function tcc:item/wrench/rotate/block/comparator
-
-execute if block ~ ~ ~ minecraft:lectern run function tcc:item/wrench/rotate/block/lectern
 
 execute if block ~ ~ ~ minecraft:hopper run function tcc:item/wrench/rotate/block/hopper/main
 
-execute if block ~ ~ ~ #tcc:wrench/creative_only run function tcc:item/wrench/rotate/creative_only
-
-execute if block ~ ~ ~ minecraft:chiseled_bookshelf run function tcc:item/wrench/rotate/block/chiseled_bookshelf/main
-
 execute if block ~ ~ ~ minecraft:crafter run function tcc:item/wrench/rotate/block/crafter/main
 
+execute if block ~ ~ ~ #tcc:wrench/creative_only run function tcc:item/wrench/rotate/creative_only
 
 # Exceptions that *should* be up there, but have to match specific criteria to be able to rotate
 execute if block ~ ~ ~ minecraft:piston[extended=false] run function tcc:item/wrench/rotate/macro/facing_all {block:"minecraft:piston"}
@@ -60,6 +47,8 @@ execute if block ~ ~ ~ #minecraft:fence_gates[open=false,powered=false] run func
 execute if block ~ ~ ~ minecraft:chest[type=single] run function tcc:item/wrench/rotate/macro/facing_cardinal_waterloggable {block:"minecraft:chest"}
 
 execute if block ~ ~ ~ minecraft:trapped_chest[type=single] run function tcc:item/wrench/rotate/macro/facing_cardinal_waterloggable {block:"minecraft:trapped_chest"}
+
+execute if block ~ ~ ~ #minecraft:copper_chests[type=single] run function tcc:item/wrench/rotate/block_tag/copper_chests
 
 execute if block ~ ~ ~ minecraft:repeater[locked=false] run function tcc:item/wrench/rotate/block/repeater
 

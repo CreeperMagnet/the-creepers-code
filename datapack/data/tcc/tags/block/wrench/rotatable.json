@@ -13,14 +13,7 @@
     "#minecraft:rails",
     "#minecraft:stairs",
     "#minecraft:all_hanging_signs",
-    "#tcc:furnaces",
     "minecraft:hopper",
-    "#minecraft:beehives",
-    "minecraft:grindstone",
-    "minecraft:comparator",
-    "minecraft:lectern",
-    "minecraft:pink_petals",
-    "minecraft:chiseled_bookshelf",
     "minecraft:crafter"
   ]
 }

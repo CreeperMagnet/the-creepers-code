@@ -1,0 +1,17 @@
+{
+  "category": "equipment",
+  "type": "crafting_shaped",
+  "pattern": [
+    "  #",
+    "#L#",
+    "# #"
+  ],
+  "key": {
+    "#": "minecraft:copper_ingot",
+    "L": "minecraft:leather"
+  },
+  "result": {
+    "id": "minecraft:copper_horse_armor"
+  },
+  "group": "horse_armor"
+}

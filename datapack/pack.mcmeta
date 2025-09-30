@@ -1,6 +1,7 @@
 {
   "pack": {
-    "pack_format": 81,
+    "min_format": [88,0],
+    "max_format": [88,0],
     "description": [
       {
         "text": "The Creeper's Code",
@@ -26,14 +27,15 @@
   "overlays": {
     "entries": [
       {
-        "formats": [45,80],
+        "formats": [45,87],
+        "min_format": [45,0],
+        "max_format": 87,
         "directory": "invalid_version"
       },
       {
-        "formats": {
-          "min_inclusive": 82,
-          "max_inclusive": 2147483647
-        },
+        "formats": [89,2147483647],
+        "min_format": [89,1],
+        "max_format": 2147483647,
         "directory": "invalid_version"
       }
     ]

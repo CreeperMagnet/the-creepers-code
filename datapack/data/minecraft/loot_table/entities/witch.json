@@ -264,13 +264,6 @@
                   "unenchanted_chance": 0.01
                 }
               ]
-            },
-            {
-              "condition": "minecraft:entity_properties",
-              "entity": "attacker",
-              "predicate": {
-                "nbt": "{powered:1b}"
-              }
             }
           ]
         }

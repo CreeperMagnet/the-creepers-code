@@ -39,6 +39,8 @@
     "minecraft:redstone_wire",
     "minecraft:soul_torch",
     "minecraft:soul_wall_torch",
+    "minecraft:copper_torch",
+    "minecraft:copper_wall_torch",
     "minecraft:nether_sprouts",
     "minecraft:scaffolding",
     "minecraft:tripwire",
