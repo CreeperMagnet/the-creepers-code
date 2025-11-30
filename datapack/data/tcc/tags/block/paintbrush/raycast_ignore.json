@@ -44,6 +44,9 @@
     "minecraft:soul_wall_torch",
     "minecraft:redstone_wall_torch",
     "minecraft:copper_wall_torch",
+    "minecraft:frogspawn",
+    "minecraft:sculk_vein",
+    "minecraft:pale_moss_carpet",
     "minecraft:scaffolding",
     "minecraft:resin_clump"
   ]

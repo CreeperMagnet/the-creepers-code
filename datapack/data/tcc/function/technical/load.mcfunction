@@ -27,6 +27,7 @@ scoreboard objectives add tcc.tea dummy
 scoreboard objectives add tcc.boomerang_cooldown dummy
 scoreboard objectives add tcc.cursed_crown_cooldown dummy
 scoreboard objectives add tcc.soul_seer_cooldown dummy
+scoreboard objectives add tcc.paintbrush_timer dummy
 
 #Use for operations spanning multiple ticks
 scoreboard objectives add tcc.dummy2 dummy
@@ -42,6 +43,7 @@ scoreboard players set #6 tcc.dummy 6
 scoreboard players set #10 tcc.dummy 10
 scoreboard players set #12 tcc.dummy 12
 scoreboard players set #16 tcc.dummy 16
+scoreboard players set #18 tcc.dummy 18
 scoreboard players set #25 tcc.dummy 25
 scoreboard players set #31 tcc.dummy 31
 scoreboard players set #60 tcc.dummy 60

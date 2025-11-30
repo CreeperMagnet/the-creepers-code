@@ -1,5 +1,7 @@
 # Second-clocks a living entity with a wandering trader base
 
+team join smithed.prevent_aggression
+
 execute if entity @s[predicate=tcc:random_chance/0.1,tag=!tcc.silent] run function tcc:entity/trader_entity/sounds/ambient
 
 data remove entity @s[tag=!tcc.wandering_witch] Offers.Recipes

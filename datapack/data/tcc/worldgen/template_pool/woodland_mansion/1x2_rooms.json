@@ -3,263 +3,263 @@
     {
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "tcc:woodland_mansion/1x2_rooms/1",
+        "location": "tcc:woodland_mansion/1x2_room/bedroom_double",
         "processors": "minecraft:empty",
         "projection": "rigid"
       },
-      "weight": 2
+      "weight": 6
     },
     {
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "tcc:woodland_mansion/1x2_rooms/2",
+        "location": "tcc:woodland_mansion/1x2_room/bedroom_double_loft",
         "processors": "minecraft:empty",
         "projection": "rigid"
       },
-      "weight": 2
+      "weight": 6
     },
     {
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "tcc:woodland_mansion/1x2_rooms/3",
+        "location": "tcc:woodland_mansion/1x2_room/bedroom_triple",
         "processors": "minecraft:empty",
         "projection": "rigid"
       },
-      "weight": 2
+      "weight": 6
     },
     {
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "tcc:woodland_mansion/1x2_rooms/4",
+        "location": "tcc:woodland_mansion/1x2_room/dining",
         "processors": "minecraft:empty",
         "projection": "rigid"
       },
-      "weight": 2
+      "weight": 6
     },
     {
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "tcc:woodland_mansion/1x2_rooms/5",
+        "location": "tcc:woodland_mansion/1x2_room/kitchen",
         "processors": "minecraft:empty",
         "projection": "rigid"
       },
-      "weight": 2
+      "weight": 6
     },
     {
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "tcc:woodland_mansion/1x2_rooms/6",
+        "location": "tcc:woodland_mansion/1x2_room/library_desks",
         "processors": "minecraft:empty",
         "projection": "rigid"
       },
-      "weight": 2
+      "weight": 6
     },
     {
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "tcc:woodland_mansion/1x2_rooms/7",
+        "location": "tcc:woodland_mansion/1x2_room/library_nook",
         "processors": "minecraft:empty",
         "projection": "rigid"
       },
-      "weight": 2
+      "weight": 6
     },
     {
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "tcc:woodland_mansion/1x2_rooms/8",
+        "location": "tcc:woodland_mansion/1x2_room/library_office",
         "processors": "minecraft:empty",
         "projection": "rigid"
       },
-      "weight": 2
+      "weight": 6
     },
     {
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "tcc:woodland_mansion/1x2_rooms/9",
+        "location": "tcc:woodland_mansion/1x2_room/library_table",
         "processors": "minecraft:empty",
         "projection": "rigid"
       },
-      "weight": 2
+      "weight": 6
     },
     {
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "tcc:woodland_mansion/1x2_rooms/10",
+        "location": "tcc:woodland_mansion/1x2_room/log_arches",
         "processors": "minecraft:empty",
         "projection": "rigid"
       },
-      "weight": 2
+      "weight": 6
     },
     {
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "tcc:woodland_mansion/1x2_rooms/11",
+        "location": "tcc:woodland_mansion/1x2_room/long_table",
         "processors": "minecraft:empty",
         "projection": "rigid"
       },
-      "weight": 2
+      "weight": 6
     },
     {
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "tcc:woodland_mansion/1x2_rooms/12",
+        "location": "tcc:woodland_mansion/1x2_room/mushroom_farm",
         "processors": "minecraft:empty",
         "projection": "rigid"
       },
-      "weight": 2
+      "weight": 6
     },
     {
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "tcc:woodland_mansion/1x2_rooms/13",
+        "location": "tcc:woodland_mansion/1x2_room/podium",
         "processors": "minecraft:empty",
         "projection": "rigid"
       },
-      "weight": 2
+      "weight": 6
     },
     {
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "tcc:woodland_mansion/1x2_rooms/14",
+        "location": "tcc:woodland_mansion/1x2_room/pumpkin_and_melon_farm",
         "processors": "minecraft:empty",
         "projection": "rigid"
       },
-      "weight": 2
+      "weight": 6
     },
     {
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "tcc:woodland_mansion/1x2_rooms/15",
+        "location": "tcc:woodland_mansion/1x2_room/storage",
         "processors": "minecraft:empty",
         "projection": "rigid"
       },
-      "weight": 2
+      "weight": 6
     },
     {
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "tcc:woodland_mansion/1x2_rooms/16",
+        "location": "tcc:woodland_mansion/1x2_room/tree_farm",
         "processors": "minecraft:empty",
         "projection": "rigid"
       },
-      "weight": 2
+      "weight": 6
     },
     {
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "tcc:woodland_mansion/1x2_rooms/17",
+        "location": "tcc:woodland_mansion/1x2_room/wheat_farm",
         "processors": "minecraft:empty",
         "projection": "rigid"
       },
-      "weight": 2
+      "weight": 6
     },
     {
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "tcc:woodland_mansion/1x2_rooms/18",
+        "location": "tcc:woodland_mansion/1x2_room/winding_nightmare",
         "processors": "minecraft:empty",
         "projection": "rigid"
       },
-      "weight": 2
+      "weight": 6
     },
     {
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "tcc:woodland_mansion/1x2_rooms/19",
+        "location": "tcc:woodland_mansion/1x2_room/wool_piles",
         "processors": "minecraft:empty",
         "projection": "rigid"
       },
-      "weight": 2
+      "weight": 6
     },
     {
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "tcc:woodland_mansion/1x2_rooms/20",
+        "location": "tcc:woodland_mansion/1x2_room/banners",
         "processors": "minecraft:empty",
         "projection": "rigid"
       },
-      "weight": 2
+      "weight": 6
     },
     {
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "tcc:woodland_mansion/1x2_rooms/21",
+        "location": "tcc:woodland_mansion/1x2_room/secret/black_cat_wool_statue",
         "processors": "minecraft:empty",
         "projection": "rigid"
       },
-      "weight": 2
+      "weight": 5
     },
     {
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "tcc:woodland_mansion/1x2_rooms/22",
+        "location": "tcc:woodland_mansion/1x2_room/secret/chicken_wool_statue",
         "processors": "minecraft:empty",
         "projection": "rigid"
       },
-      "weight": 2
+      "weight": 5
     },
     {
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "tcc:woodland_mansion/1x2_rooms/23",
+        "location": "tcc:woodland_mansion/1x2_room/secret/cobwebs",
         "processors": "minecraft:empty",
         "projection": "rigid"
       },
-      "weight": 2
+      "weight": 5
     },
     {
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "tcc:woodland_mansion/1x2_rooms/secret/1",
+        "location": "tcc:woodland_mansion/1x2_room/secret/diamond_block_carpet_pattern",
         "processors": "minecraft:empty",
         "projection": "rigid"
       },
-      "weight": 1
+      "weight": 5
     },
     {
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "tcc:woodland_mansion/1x2_rooms/secret/2",
+        "location": "tcc:woodland_mansion/1x2_room/secret/fake_end_portal",
         "processors": "minecraft:empty",
         "projection": "rigid"
       },
-      "weight": 1
+      "weight": 5
     },
     {
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "tcc:woodland_mansion/1x2_rooms/secret/3",
+        "location": "tcc:woodland_mansion/1x2_room/secret/mulligan_wool_statue",
         "processors": "minecraft:empty",
         "projection": "rigid"
       },
-      "weight": 1
+      "weight": 5
     },
     {
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "tcc:woodland_mansion/1x2_rooms/secret/4",
+        "location": "tcc:woodland_mansion/1x2_room/secret/obsidian_geometry",
         "processors": "minecraft:empty",
         "projection": "rigid"
       },
-      "weight": 1
+      "weight": 5
     },
     {
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "tcc:woodland_mansion/1x2_rooms/secret/5",
+        "location": "tcc:woodland_mansion/1x2_room/secret/tree",
         "processors": "minecraft:empty",
         "projection": "rigid"
       },
-      "weight": 1
+      "weight": 5
     },
     {
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "tcc:woodland_mansion/1x2_rooms/secret/6",
+        "location": "tcc:woodland_mansion/1x2_room/secret/wool_piles",
         "processors": "minecraft:empty",
         "projection": "rigid"
       },
-      "weight": 1
+      "weight": 5
     }
   ],
   "fallback": "minecraft:empty"

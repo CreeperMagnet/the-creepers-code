@@ -120,6 +120,17 @@
     ],
     "subtitle": "subtitles.tcc.item.armor.equip_cursed_crown"
   },
+  "item.armor.equip_locket_of_learning": {
+    "sounds": [
+      "item/armor/equip_gold1",
+      "item/armor/equip_gold2",
+      "item/armor/equip_gold3",
+      "item/armor/equip_gold4",
+      "item/armor/equip_gold5",
+      "item/armor/equip_gold6"
+    ],
+    "subtitle": "subtitles.tcc.item.armor.equip_locket_of_learning"
+  },
   "item.locket_of_learning.deposit": {
     "sounds": [
       "tcc:item/locket_deposit1",
@@ -129,7 +140,7 @@
     ],
     "subtitle": "subtitles.tcc.item.locket_of_learning.deposit"
   },
-  "item.paintbrush.paint": {
+  "item.brush.paint": {
     "sounds": [
       "tcc:item/paintbrush1",
       "tcc:item/paintbrush2",
@@ -137,7 +148,7 @@
       "tcc:item/paintbrush4",
       "tcc:item/paintbrush5"
     ],
-    "subtitle": "subtitles.tcc.item.paintbrush.paint"
+    "subtitle": "subtitles.tcc.item.brush.paint"
   },
   "item.tangling_pearl.activate": {
     "sounds": [
@@ -383,6 +394,26 @@
       "tcc:mob/enchanter/spell2"
     ],
     "subtitle": "subtitles.tcc.entity.enchanter.spell"
+  },
+  "entity.enchanter.hit_enchanted_mob": {
+    "sounds": [
+      {
+        "name": "tcc:mob/enchanter/enchant_chime_1",
+        "pitch": 0.6,
+        "volume": 1.2
+      },
+      {
+        "name": "tcc:mob/enchanter/enchant_chime_2",
+        "pitch": 0.6,
+        "volume": 1.2
+      },
+      {
+        "name": "tcc:mob/enchanter/enchant_chime_3",
+        "pitch": 0.6,
+        "volume": 1.2
+      }
+    ],
+    "subtitle": "subtitles.tcc.entity.enchanter.hit_enchanted_mob"
   },
   "entity.iceologer.ambient": {
     "sounds": [

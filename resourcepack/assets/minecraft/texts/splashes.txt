@@ -17,6 +17,8 @@
 §2Don’t look directly at the bugs.
 §2May contain nuts and a hint of lag
 §2If you can’t see this message, download Minecraft.
+§2If you can read this, thank us!
+§2If you're reading this, it's already too late.
 §2Here I go breaking backwards compatibility again!
 §2May contain feature creep
 §2RIP obsidian shards, peculiar berries, rings, tea, and every other removed feature that should never have been made in the first place.
@@ -117,7 +119,6 @@
 §2Soon to be a major religion
 §2Soon to be a hit television show
 §2Some splashes brought to you by Futurama!
-§2If you can read this, thank us!
 §2Made you look!
 §2No refunds
 §2Provides a full day's supply of Vitamins T, C, and C!
@@ -145,6 +146,8 @@
 §2Sniffer 2: Electric Boogaloo
 §2The sponge has been exterminated
 §2Now with wireless redstone!
-§2Now with §m2§r§2 20 new pots!
 §2Now featuring shameless theft!
-§2[insert 1.6 joke here]
+§2Who up creaking they crypt?
+§2Make sure to check your resin candy for pale oak splinters!
+§2I think I may be addicted to pottery.
+§2[insert 1.7 joke here]

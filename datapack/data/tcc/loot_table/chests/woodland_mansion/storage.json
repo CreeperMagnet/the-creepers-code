@@ -3,97 +3,121 @@
   "pools": [
     {
       "rolls": {
-        "min": -2,
+        "min": -1,
         "max": 1
       },
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:string"
+          "name": "minecraft:experience_bottle",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:feather"
+          "name": "minecraft:emerald",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:bone"
+          "name": "minecraft:resin_clump",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:bowl"
+          "name": "minecraft:lapis_lazuli",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 2,
+        "max": 3
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:string",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 3
+              }
+            }
+          ]
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:stick"
+          "name": "minecraft:paper",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 4,
+                "max": 6
+              }
+            }
+          ]
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:coal"
+          "name": "minecraft:candle",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 4
+              }
+            }
+          ]
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:wheat"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:gunpowder"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:paper"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:iron_nugget"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:gold_nugget"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:melon_seeds"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:pumpkin_seeds"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:iron_ingot"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:gold_ingot"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:diamond"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:mushroom_stew"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:red_mushroom"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:brown_mushroom"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:spider_eye"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:bread"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:resin_clump"
+          "name": "minecraft:book",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 3
+              }
+            }
+          ]
         }
       ]
     }

@@ -2,6 +2,7 @@
   "values": [
     "minecraft:brick",
     "minecraft:nether_brick",
-    "minecraft:prismarine_shard"
+    "minecraft:prismarine_shard",
+    "minecraft:resin_brick"
   ]
 }

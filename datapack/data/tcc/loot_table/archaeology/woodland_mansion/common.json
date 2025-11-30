@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:brick",
+          "name": "minecraft:resin_brick",
           "weight": 5
         },
         {

@@ -23,6 +23,7 @@ execute unless block ~ ~-0.6 ~ minecraft:snow if block ~ ~ ~ minecraft:snow[laye
 execute if block ~ ~ ~ minecraft:decorated_pot align xyz positioned ~0.5 ~0.5 ~0.5 run function tcc:item/boomerang/block_interaction/decorated_pot
 execute if block ~ ~ ~ minecraft:cactus run function tcc:item/boomerang/block_interaction/cactus
 execute if block ~ ~ ~ minecraft:chorus_plant run function tcc:item/boomerang/block_interaction/chorus_plant
+execute if block ~ ~ ~ minecraft:chorus_flower run function tcc:item/boomerang/block_interaction/chorus_flower
 execute if block ~ ~ ~ minecraft:firefly_bush run function tcc:item/boomerang/block_interaction/firefly_bush
 execute if block ~ ~ ~ minecraft:bush run function tcc:item/boomerang/block_interaction/bush
 

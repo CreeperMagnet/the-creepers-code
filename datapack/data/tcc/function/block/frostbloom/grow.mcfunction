@@ -2,5 +2,9 @@
 
 function tcc:block/frostbloom/freeze/main
 function tcc:block/frostbloom/freeze/main
+function tcc:block/frostbloom/freeze/main
+function tcc:block/frostbloom/freeze/main
+function tcc:block/frostbloom/freeze/main
+function tcc:block/frostbloom/freeze/main
 
 setblock ~ ~ ~ minecraft:spruce_sapling[stage=0]

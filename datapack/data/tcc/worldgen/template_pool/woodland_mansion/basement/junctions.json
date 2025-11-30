@@ -3,8 +3,8 @@
     {
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "tcc:woodland_mansion/basement/junctions/1",
-        "processors": "tcc:woodland_mansion_archaeology",
+        "location": "tcc:woodland_mansion/basement/junction/balcony_library",
+        "processors": "tcc:woodland_mansion/archaeology",
         "projection": "rigid"
       },
       "weight": 1
@@ -12,8 +12,8 @@
     {
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "tcc:woodland_mansion/basement/junctions/2",
-        "processors": "tcc:woodland_mansion_archaeology",
+        "location": "tcc:woodland_mansion/basement/junction/long_hallway",
+        "processors": "tcc:woodland_mansion/archaeology",
         "projection": "rigid"
       },
       "weight": 1
@@ -21,8 +21,8 @@
     {
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "tcc:woodland_mansion/basement/junctions/3",
-        "processors": "tcc:woodland_mansion_archaeology",
+        "location": "tcc:woodland_mansion/basement/junction/meeting_rooms",
+        "processors": "tcc:woodland_mansion/archaeology",
         "projection": "rigid"
       },
       "weight": 1
@@ -30,8 +30,8 @@
     {
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "tcc:woodland_mansion/basement/junctions/4",
-        "processors": "tcc:woodland_mansion_archaeology",
+        "location": "tcc:woodland_mansion/basement/junction/open_concept",
+        "processors": "tcc:woodland_mansion/archaeology",
         "projection": "rigid"
       },
       "weight": 1
@@ -39,8 +39,8 @@
     {
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "tcc:woodland_mansion/basement/junctions/5",
-        "processors": "tcc:woodland_mansion_archaeology",
+        "location": "tcc:woodland_mansion/basement/junction/secret_balcony",
+        "processors": "tcc:woodland_mansion/archaeology",
         "projection": "rigid"
       },
       "weight": 1
@@ -48,8 +48,8 @@
     {
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "tcc:woodland_mansion/basement/junctions/6",
-        "processors": "tcc:woodland_mansion_archaeology",
+        "location": "tcc:woodland_mansion/basement/junction/secret_meeting_room",
+        "processors": "tcc:woodland_mansion/archaeology",
         "projection": "rigid"
       },
       "weight": 1
@@ -57,8 +57,8 @@
     {
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "tcc:woodland_mansion/basement/junctions/7",
-        "processors": "tcc:woodland_mansion_archaeology",
+        "location": "tcc:woodland_mansion/basement/junction/storage",
+        "processors": "tcc:woodland_mansion/archaeology",
         "projection": "rigid"
       },
       "weight": 1

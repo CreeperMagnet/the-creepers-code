@@ -1,8 +1,7 @@
 {
   "asset_id": "tcc:aurora",
-  "decal": false,
+  "decal": true,
   "description": {
     "translate": "trim_pattern.tcc.aurora"
-  },
-  "template_item": "minecraft:jigsaw"
+  }
 }

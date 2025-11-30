@@ -4,13 +4,18 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:explorer_pottery_sherd",
+          "type": "minecraft:loot_table",
+          "value": "tcc:items/pottery_sherd/resin_brick/moon",
           "weight": 8
         },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:blade_pottery_sherd",
+          "type": "minecraft:loot_table",
+          "value": "tcc:items/pottery_sherd/resin_brick/shade",
+          "weight": 8
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "tcc:items/pottery_sherd/resin_brick/slumber",
           "weight": 8
         },
         {

@@ -3,7 +3,7 @@
     {
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "tcc:woodland_mansion/second_floors/1",
+        "location": "tcc:woodland_mansion/second_floor/1",
         "processors": "minecraft:empty",
         "projection": "rigid"
       },
@@ -12,7 +12,7 @@
     {
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "tcc:woodland_mansion/second_floors/2",
+        "location": "tcc:woodland_mansion/second_floor/2",
         "processors": "minecraft:empty",
         "projection": "rigid"
       },
@@ -21,7 +21,7 @@
     {
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "tcc:woodland_mansion/second_floors/3",
+        "location": "tcc:woodland_mansion/second_floor/3",
         "processors": "minecraft:empty",
         "projection": "rigid"
       },
@@ -30,7 +30,7 @@
     {
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "tcc:woodland_mansion/second_floors/4",
+        "location": "tcc:woodland_mansion/second_floor/4",
         "processors": "minecraft:empty",
         "projection": "rigid"
       },
@@ -39,7 +39,7 @@
     {
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "tcc:woodland_mansion/second_floors/5",
+        "location": "tcc:woodland_mansion/second_floor/5",
         "processors": "minecraft:empty",
         "projection": "rigid"
       },
@@ -48,7 +48,7 @@
     {
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "tcc:woodland_mansion/second_floors/6",
+        "location": "tcc:woodland_mansion/second_floor/6",
         "processors": "minecraft:empty",
         "projection": "rigid"
       },
@@ -57,7 +57,7 @@
     {
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "tcc:woodland_mansion/second_floors/7",
+        "location": "tcc:woodland_mansion/second_floor/7",
         "processors": "minecraft:empty",
         "projection": "rigid"
       },
@@ -66,7 +66,7 @@
     {
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "tcc:woodland_mansion/second_floors/8",
+        "location": "tcc:woodland_mansion/second_floor/8",
         "processors": "minecraft:empty",
         "projection": "rigid"
       },

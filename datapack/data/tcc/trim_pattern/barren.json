@@ -1,8 +1,7 @@
 {
   "asset_id": "tcc:barren",
-  "decal": false,
+  "decal": true,
   "description": {
     "translate": "trim_pattern.tcc.barren"
-  },
-  "template_item": "minecraft:structure_block"
+  }
 }

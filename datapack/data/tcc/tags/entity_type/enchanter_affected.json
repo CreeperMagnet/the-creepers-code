@@ -2,15 +2,6 @@
   "values": [
     "#minecraft:illager",
     "minecraft:ravager",
-    "minecraft:vex",
-    "minecraft:zombie",
-    "minecraft:zombie_villager",
-    "minecraft:husk",
-    "minecraft:drowned",
-    "minecraft:skeleton",
-    "minecraft:enderman",
-    "minecraft:slime",
-    "minecraft:witch",
-    "minecraft:stray"
+    "minecraft:vex"
   ]
 }

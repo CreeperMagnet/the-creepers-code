@@ -23,6 +23,7 @@ execute if score @s tcc.dummy matches 1.. run return 0
 # Check middle item for proper type
 execute if items block ~ ~ ~ container.12 minecraft:nether_brick unless items block ~ ~ ~ container.3 *[minecraft:custom_data~{tcc:{id:"pottery_sherd",type:"nether_brick"}}] run return 0
 execute if items block ~ ~ ~ container.12 minecraft:prismarine_shard unless items block ~ ~ ~ container.3 *[minecraft:custom_data~{tcc:{id:"pottery_sherd",type:"prismarine"}}] run return 0
+execute if items block ~ ~ ~ container.12 minecraft:resin_brick unless items block ~ ~ ~ container.3 *[minecraft:custom_data~{tcc:{id:"pottery_sherd",type:"resin_brick"}}] run return 0
 execute if items block ~ ~ ~ container.12 minecraft:brick if items block ~ ~ ~ container.3 *[minecraft:custom_data~{tcc:{id:"pottery_sherd"}}] run return 0
 
 # Edit output item if everything checks out

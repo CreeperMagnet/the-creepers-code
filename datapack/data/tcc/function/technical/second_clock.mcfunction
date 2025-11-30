@@ -5,12 +5,15 @@ execute store result score #difficulty tcc.dummy run difficulty
 
 # Put all prevent aggro mobs on the proper team
 team join smithed.prevent_aggression @e[type=#tcc:prevent_aggression,tag=!smithed.entity]
-
+team leave @e[type=minecraft:vindicator,name=Johnny,team=smithed.prevent_aggression]
 
 # Vanilla entity modification
 
 ## Pillager Modifications
 execute as @e[type=minecraft:pillager,tag=!tcc.modified_vanilla_entity,tag=!smithed.entity] at @s run function tcc:entity/pillager/process
+
+## Enchanter Effect Particles
+execute as @e[type=#tcc:enchanter_affected,predicate=tcc:entity_properties/is_affected_by_enchanter] at @s run particle minecraft:enchant ~ ~2 ~ 0.2 0.1 0.2 1 2 normal
 
 ## Snail Spawning
 execute as @e[type=minecraft:pig,tag=!tcc.modified_vanilla_entity,tag=!smithed.entity] at @s run function tcc:entity/pig/process
@@ -34,10 +37,7 @@ execute as @e[type=minecraft:drowned,tag=!tcc.modified_vanilla_entity,tag=!smith
 execute as @e[type=minecraft:wandering_trader,tag=!tcc.modified_vanilla_entity,tag=!smithed.entity] at @s run function tcc:entity/wandering_trader/process
 
 ## Zombie Villager Modifications
-execute as @e[type=minecraft:zombie_villager,tag=tcc.archaeologist] at @s run function tcc:entity/archaeologist/zombie/set_tags
-
-
-
+execute as @e[type=minecraft:zombie_villager,tag=!tcc.has_been_zombified] at @s run function tcc:entity/villager_zombification/second_clock
 
 # Other Entities
 

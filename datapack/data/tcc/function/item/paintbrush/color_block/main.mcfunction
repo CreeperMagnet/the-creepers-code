@@ -1,5 +1,6 @@
 # Colors a block
 
+scoreboard players set @s tcc.paintbrush_timer -20
 $execute if block ~ ~ ~ #tcc:paintbrush/$(color) run return 0
 
 $execute if block ~ ~ ~ #tcc:candle_cakes run setblock ~ ~ ~ minecraft:$(color)_candle_cake
@@ -14,4 +15,7 @@ $execute if block ~ ~ ~ #minecraft:concrete_powder run setblock ~ ~ ~ minecraft:
 $execute if block ~ ~ ~ #tcc:terracotta run setblock ~ ~ ~ minecraft:$(color)_terracotta
 $execute if block ~ ~ ~ #minecraft:candles run function tcc:item/paintbrush/color_block/candles {"color":"$(color)"}
 $execute if block ~ ~ ~ #minecraft:beds run function tcc:item/paintbrush/color_block/bed/main {"color":"$(color)"}
-$function tcc:item/paintbrush/color_brush {color:"$(color)"}
+playsound tcc:item.brush.paint block @a[distance=..16]
+execute if entity @s[gamemode=creative] run return 0
+execute if items entity @s weapon.mainhand minecraft:brush run return run function tcc:technical/macros/damage_slot/main {slot:"weapon.mainhand",slot_raw:"SelectedItem",amount:"1"}
+function tcc:technical/macros/damage_slot/main {slot:"weapon.offhand",slot_raw:"equipment.offhand",amount:"1"}

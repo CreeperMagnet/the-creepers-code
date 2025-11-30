@@ -2,6 +2,9 @@
 
 # Entities
 
+## Fixes for smithed.prevent_aggression
+execute as @e[type=minecraft:villager,team=smithed.prevent_aggression,tag=tcc.has_been_zombified] run function tcc:entity/villager_zombification/cured_remove_tags
+
 ## Trader Entities
 execute as @e[type=minecraft:wandering_trader,tag=tcc.trader_entity] at @s run function tcc:entity/trader_entity/ten_second_clock
 
@@ -24,7 +27,7 @@ execute as @e[type=minecraft:interaction,tag=tcc.gobblerift,predicate=!tcc:entit
 execute as @e[type=minecraft:zombie_villager,tag=tcc.zombified_archaeologist] at @s run function tcc:entity/archaeologist/zombie/ten_second_clock
 
 ## Coral drowned burning in sunlight
-execute as @e[type=minecraft:drowned,tag=tcc.coral_drowned] at @s unless predicate tcc:time_check/night positioned over motion_blocking if entity @s[dx=0,dy=1000,dz=0] run data modify entity @s Fire set value 200s
+execute as @e[type=minecraft:drowned,tag=tcc.coral_drowned] at @s unless predicate tcc:time_check/night if dimension minecraft:overworld positioned over motion_blocking if entity @s[dx=0,dy=1000,dz=0] run data modify entity @s Fire set value 200s
 
 
 # Wandering Witch Spawning Clock

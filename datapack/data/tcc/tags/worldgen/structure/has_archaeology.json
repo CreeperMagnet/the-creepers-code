@@ -11,6 +11,7 @@
     "tcc:badlands_temple",
     "tcc:desert_well",
     "tcc:quarry_remnant",
-    "tcc:refuge_remains"
+    "tcc:refuge_remains",
+    "#tcc:creaking_crypt"
   ]
 }

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": "minecraft:iron_ingot",
+    "I": "minecraft:iron_nugget"
+  },
+  "pattern": [
+    "#I#",
+    "#I#"
+  ],
+  "result": {
+    "count": 16,
+    "id": "minecraft:iron_bars"
+  }
+}

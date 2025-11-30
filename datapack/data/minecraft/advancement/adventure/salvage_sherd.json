@@ -17,6 +17,18 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
+    "has_tcc_sherd": {
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:custom_data": "{tcc:{id:\"pottery_sherd\"}}"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
     "ocean_ruin_cold": {
       "conditions": {
         "loot_table": "minecraft:archaeology/ocean_ruin_cold"
@@ -214,6 +226,30 @@
         "loot_table": "tcc:archaeology/echoing_hourglass/woodland_mansion"
       },
       "trigger": "minecraft:player_generates_container_loot"
+    },
+    "tcc:echoing_hourglass_creaking_crypt": {
+      "conditions": {
+        "loot_table": "tcc:archaeology/echoing_hourglass/creaking_crypt"
+      },
+      "trigger": "minecraft:player_generates_container_loot"
+    },
+    "tcc:creaking_crypt_common": {
+      "conditions": {
+        "loot_table": "tcc:archaeology/creaking_crypt/common"
+      },
+      "trigger": "minecraft:player_generates_container_loot"
+    },
+    "tcc:creaking_crypt_rare": {
+      "conditions": {
+        "loot_table": "tcc:archaeology/creaking_crypt/rare"
+      },
+      "trigger": "minecraft:player_generates_container_loot"
+    },
+    "tcc:creaking_crypt_grave": {
+      "conditions": {
+        "loot_table": "tcc:archaeology/creaking_crypt/grave"
+      },
+      "trigger": "minecraft:player_generates_container_loot"
     }
   },
   "display": {
@@ -266,10 +302,15 @@
       "tcc:echoing_hourglass_refuge_remains",
       "tcc:echoing_hourglass_trail_ruins",
       "tcc:echoing_hourglass_trial_chambers",
-      "tcc:echoing_hourglass_woodland_mansion"
+      "tcc:echoing_hourglass_woodland_mansion",
+      "tcc:echoing_hourglass_creaking_crypt",
+      "tcc:creaking_crypt_common",
+      "tcc:creaking_crypt_rare",
+      "tcc:creaking_crypt_grave"
     ],
     [
-      "has_sherd"
+      "has_sherd",
+      "has_tcc_sherd"
     ]
   ],
   "sends_telemetry_event": true

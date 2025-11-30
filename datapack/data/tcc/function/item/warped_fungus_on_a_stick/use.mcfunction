@@ -30,9 +30,6 @@ execute if entity @s[gamemode=adventure] run return 0
 # Wrenches
 execute if entity @s[predicate=tcc:entity_properties/slots/weapon/wrench] run function tcc:item/wrench/raycast_start
 
-# Paintbrushes
-execute if entity @s[predicate=tcc:entity_properties/slots/weapon/paintbrush] run function tcc:item/paintbrush/dye/check
-
 # Frostblooms
 execute if entity @s[predicate=tcc:entity_properties/slots/weapon/frostbloom] anchored eyes run function tcc:block/frostbloom/raycast_start
 

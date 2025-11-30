@@ -2186,33 +2186,6 @@
             "block_state": {
               "Name": "minecraft:cobblestone_slab",
               "Properties": {
-                "facing": "east",
-                "half": "bottom",
-                "shape": "outer_right",
-                "waterlogged": "false"
-              }
-            }
-          },
-          "output_state": {
-            "Name": "minecraft:mossy_cobblestone_slab",
-            "Properties": {
-              "facing": "east",
-              "half": "bottom",
-              "shape": "outer_right",
-              "waterlogged": "false"
-            }
-          }
-        },
-        {
-          "location_predicate": {
-            "predicate_type": "minecraft:always_true"
-          },
-          "input_predicate": {
-            "predicate_type": "minecraft:random_blockstate_match",
-            "probability": 0.3,
-            "block_state": {
-              "Name": "minecraft:cobblestone_slab",
-              "Properties": {
                 "type": "top",
                 "waterlogged": "true"
               }

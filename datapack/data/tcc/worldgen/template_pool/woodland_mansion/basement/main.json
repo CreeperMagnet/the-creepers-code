@@ -4,7 +4,7 @@
       "element": {
         "element_type": "minecraft:single_pool_element",
         "location": "tcc:woodland_mansion/basement/main",
-        "processors": "minecraft:empty",
+        "processors": "tcc:woodland_mansion/basement_decay",
         "projection": "rigid"
       },
       "weight": 1

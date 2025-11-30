@@ -587,6 +587,102 @@
           }
         ]
       }
+    },
+    "tcc:awaken_pottery_sherd": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "components": {
+              "minecraft:custom_data": "{tcc:{id:\"pottery_sherd\",sherd:\"awaken\",type:\"resin_brick\"}}"
+            }
+          }
+        ]
+      }
+    },
+    "tcc:blight_pottery_sherd": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "components": {
+              "minecraft:custom_data": "{tcc:{id:\"pottery_sherd\",sherd:\"blight\",type:\"resin_brick\"}}"
+            }
+          }
+        ]
+      }
+    },
+    "tcc:link_pottery_sherd": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "components": {
+              "minecraft:custom_data": "{tcc:{id:\"pottery_sherd\",sherd:\"link\",type:\"resin_brick\"}}"
+            }
+          }
+        ]
+      }
+    },
+    "tcc:moon_pottery_sherd": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "components": {
+              "minecraft:custom_data": "{tcc:{id:\"pottery_sherd\",sherd:\"moon\",type:\"resin_brick\"}}"
+            }
+          }
+        ]
+      }
+    },
+    "tcc:shade_pottery_sherd": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "components": {
+              "minecraft:custom_data": "{tcc:{id:\"pottery_sherd\",sherd:\"shade\",type:\"resin_brick\"}}"
+            }
+          }
+        ]
+      }
+    },
+    "tcc:slumber_pottery_sherd": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "components": {
+              "minecraft:custom_data": "{tcc:{id:\"pottery_sherd\",sherd:\"slumber\",type:\"resin_brick\"}}"
+            }
+          }
+        ]
+      }
+    },
+    "tcc:stare_pottery_sherd": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "components": {
+              "minecraft:custom_data": "{tcc:{id:\"pottery_sherd\",sherd:\"stare\",type:\"resin_brick\"}}"
+            }
+          }
+        ]
+      }
+    },
+    "tcc:watcher_pottery_sherd": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "components": {
+              "minecraft:custom_data": "{tcc:{id:\"pottery_sherd\",sherd:\"watcher\",type:\"resin_brick\"}}"
+            }
+          }
+        ]
+      }
     }
   },
   "rewards": {
@@ -745,6 +841,30 @@
     ],
     [
       "tcc:swirl_pottery_sherd"
+    ],
+    [
+      "tcc:awaken_pottery_sherd"
+    ],
+    [
+      "tcc:blight_pottery_sherd"
+    ],
+    [
+      "tcc:link_pottery_sherd"
+    ],
+    [
+      "tcc:moon_pottery_sherd"
+    ],
+    [
+      "tcc:shade_pottery_sherd"
+    ],
+    [
+      "tcc:slumber_pottery_sherd"
+    ],
+    [
+      "tcc:stare_pottery_sherd"
+    ],
+    [
+      "tcc:watcher_pottery_sherd"
     ]
   ]
 }

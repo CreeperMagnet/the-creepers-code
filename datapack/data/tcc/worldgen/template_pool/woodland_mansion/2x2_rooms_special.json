@@ -3,7 +3,7 @@
     {
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "tcc:woodland_mansion/2x2_rooms_special/1",
+        "location": "tcc:woodland_mansion/third_floor_treasure_room",
         "processors": "minecraft:empty",
         "projection": "rigid"
       },
