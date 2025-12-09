@@ -8,6 +8,8 @@
     "minecraft:turtle",
     "minecraft:dolphin",
     "minecraft:glow_squid",
-    "minecraft:axolotl"
+    "minecraft:axolotl",
+    "minecraft:nautilus",
+    "minecraft:zombie_nautilus"
   ]
 }

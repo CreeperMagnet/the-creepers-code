@@ -356,8 +356,10 @@
   "death.attack.tcc.iceologer_ice": "%s was frozen solid by %2$s",
   "death.attack.tcc.geomancer_explosive": "%1$s was blown to bits by %2$s",
   "death.attack.tcc.geomancer_explosive_no_geomancer": "%1$s was blown to bits",
-  "death.attack.tcc.swordfish": "%1$s impaled themselves from the inside out",
-  "death.attack.tcc.swordfish.item": "%1$s impaled themselves from the inside out",
+  "death.attack.tcc.swordfish_eat": "%1$s impaled themselves from the inside out",
+  "death.attack.tcc.swordfish_eat.item": "%1$s impaled themselves from the inside out",
+  "death.attack.tcc.swordfish_hit": "%1$s was cornobbled by %2$s",
+  "death.attack.tcc.swordfish_hit.item": "%1$s was cornobbled by %2$s with %3$s",
   "death.attack.tcc.snail_salt": "%1$s dried out",
 
   "advancements.tcc.minecraft.adventure.use_witch_hat.title": "Bountiful Brewing",

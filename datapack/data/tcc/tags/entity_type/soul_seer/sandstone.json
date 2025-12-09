@@ -1,6 +1,8 @@
 {
   "values": [
     "minecraft:husk",
-    "minecraft:camel"
+    "minecraft:camel",
+    "minecraft:camel_husk",
+    "minecraft:parched"
   ]
 }

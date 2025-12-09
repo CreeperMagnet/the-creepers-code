@@ -42,7 +42,7 @@ execute if block ~ ~ ~ minecraft:piston[extended=false] run function tcc:item/wr
 
 execute if block ~ ~ ~ minecraft:sticky_piston[extended=false] run function tcc:item/wrench/rotate/macro/facing_all {block:"minecraft:sticky_piston"}
 
-execute if block ~ ~ ~ #minecraft:fence_gates[open=false,powered=false] run function tcc:item/wrench/rotate/block_tag/fence_gates
+execute if block ~ ~ ~ #minecraft:fence_gates[powered=false] run function tcc:item/wrench/rotate/block_tag/fence_gates/main
 
 execute if block ~ ~ ~ minecraft:chest[type=single] run function tcc:item/wrench/rotate/macro/facing_cardinal_waterloggable {block:"minecraft:chest"}
 

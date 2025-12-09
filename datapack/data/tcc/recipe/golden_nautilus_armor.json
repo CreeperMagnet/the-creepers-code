@@ -1,0 +1,17 @@
+{
+  "category": "equipment",
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "#S#",
+    "###"
+  ],
+  "key": {
+    "#": "minecraft:gold_ingot",
+    "S": "minecraft:nautilus_shell"
+  },
+  "result": {
+    "id": "minecraft:golden_nautilus_armor"
+  },
+  "group": "nautilus_armor"
+}

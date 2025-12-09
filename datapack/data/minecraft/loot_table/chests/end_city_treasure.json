@@ -102,6 +102,22 @@
               "options": "#minecraft:on_random_loot"
             }
           ],
+          "name": "minecraft:diamond_spear",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "max": 39.0,
+                "min": 20.0
+              },
+              "options": "#minecraft:on_random_loot"
+            }
+          ],
           "name": "minecraft:diamond_boots",
           "weight": 3
         },
@@ -375,14 +391,6 @@
         "target": "pools[0].entries",
         "source": {
           "type": "reference",
-          "path": "pools[0].entries[19]"
-        }
-      },
-      {
-        "type": "append",
-        "target": "pools[0].entries",
-        "source": {
-          "type": "reference",
           "path": "pools[0].entries[20]"
         }
       },
@@ -395,12 +403,24 @@
         }
       },
       {
+        "type": "append",
+        "target": "pools[0].entries",
+        "source": {
+          "type": "reference",
+          "path": "pools[0].entries[22]"
+        }
+      },
+      {
         "type": "replace",
         "target": "pools[0].entries[4]",
         "source": {
           "type": "reference",
           "path": "pools[0].entries[4]"
         }
+      },
+      {
+        "type": "remove",
+        "target": "pools[0].entries[9]"
       },
       {
         "type": "remove",

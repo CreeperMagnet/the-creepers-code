@@ -1,6 +1,6 @@
 # Special interactions with blocks
 
-execute store result score #temp_1 tcc.dummy run gamerule projectilesCanBreakBlocks
+execute store result score #temp_1 tcc.dummy run gamerule minecraft:projectiles_can_break_blocks
 execute if score #temp_1 tcc.dummy matches 0 if block ~ ~ ~ #tcc:boomerang/interact_solid run function tcc:item/boomerang/block_interaction/forced_bounce
 execute if score #temp_1 tcc.dummy matches 0 run return 0
 

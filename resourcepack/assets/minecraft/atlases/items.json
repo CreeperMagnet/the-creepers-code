@@ -1,0 +1,85 @@
+{
+  "sources": [
+    {
+      "type": "paletted_permutations",
+      "palette_key": "tcc:item/dyed_compass/color_palettes/palette",
+      "permutations": {
+        "black": "tcc:item/dyed_compass/color_palettes/black",
+        "blue": "tcc:item/dyed_compass/color_palettes/blue",
+        "brown": "tcc:item/dyed_compass/color_palettes/brown",
+        "cyan": "tcc:item/dyed_compass/color_palettes/cyan",
+        "gray": "tcc:item/dyed_compass/color_palettes/gray",
+        "green": "tcc:item/dyed_compass/color_palettes/green",
+        "light_blue": "tcc:item/dyed_compass/color_palettes/light_blue",
+        "light_gray": "tcc:item/dyed_compass/color_palettes/light_gray",
+        "lime": "tcc:item/dyed_compass/color_palettes/lime",
+        "magenta": "tcc:item/dyed_compass/color_palettes/magenta",
+        "orange": "tcc:item/dyed_compass/color_palettes/orange",
+        "pink": "tcc:item/dyed_compass/color_palettes/pink",
+        "purple": "tcc:item/dyed_compass/color_palettes/purple",
+        "red": "tcc:item/dyed_compass/color_palettes/red",
+        "white": "tcc:item/dyed_compass/color_palettes/white",
+        "yellow": "tcc:item/dyed_compass/color_palettes/yellow"
+      },
+      "textures": [
+        "tcc:item/dyed_compass/overlay/00",
+        "tcc:item/dyed_compass/overlay/01",
+        "tcc:item/dyed_compass/overlay/02",
+        "tcc:item/dyed_compass/overlay/03",
+        "tcc:item/dyed_compass/overlay/04",
+        "tcc:item/dyed_compass/overlay/05",
+        "tcc:item/dyed_compass/overlay/06",
+        "tcc:item/dyed_compass/overlay/07",
+        "tcc:item/dyed_compass/overlay/08",
+        "tcc:item/dyed_compass/overlay/09",
+        "tcc:item/dyed_compass/overlay/10",
+        "tcc:item/dyed_compass/overlay/11",
+        "tcc:item/dyed_compass/overlay/12",
+        "tcc:item/dyed_compass/overlay/13",
+        "tcc:item/dyed_compass/overlay/14",
+        "tcc:item/dyed_compass/overlay/15",
+        "tcc:item/dyed_compass/overlay/16",
+        "tcc:item/dyed_compass/overlay/17",
+        "tcc:item/dyed_compass/overlay/18",
+        "tcc:item/dyed_compass/overlay/19",
+        "tcc:item/dyed_compass/overlay/20",
+        "tcc:item/dyed_compass/overlay/21",
+        "tcc:item/dyed_compass/overlay/22",
+        "tcc:item/dyed_compass/overlay/23",
+        "tcc:item/dyed_compass/overlay/24",
+        "tcc:item/dyed_compass/overlay/25",
+        "tcc:item/dyed_compass/overlay/26",
+        "tcc:item/dyed_compass/overlay/27",
+        "tcc:item/dyed_compass/overlay/28",
+        "tcc:item/dyed_compass/overlay/29",
+        "tcc:item/dyed_compass/overlay/30",
+        "tcc:item/dyed_compass/overlay/31"
+      ]
+    },
+    {
+      "type": "paletted_permutations",
+      "palette_key": "tcc:item/dyed_book/color_palettes/palette",
+      "permutations": {
+        "black": "tcc:item/dyed_book/color_palettes/black",
+        "blue": "tcc:item/dyed_book/color_palettes/blue",
+        "brown": "tcc:item/dyed_book/color_palettes/brown",
+        "cyan": "tcc:item/dyed_book/color_palettes/cyan",
+        "gray": "tcc:item/dyed_book/color_palettes/gray",
+        "green": "tcc:item/dyed_book/color_palettes/green",
+        "light_blue": "tcc:item/dyed_book/color_palettes/light_blue",
+        "light_gray": "tcc:item/dyed_book/color_palettes/light_gray",
+        "lime": "tcc:item/dyed_book/color_palettes/lime",
+        "magenta": "tcc:item/dyed_book/color_palettes/magenta",
+        "orange": "tcc:item/dyed_book/color_palettes/orange",
+        "pink": "tcc:item/dyed_book/color_palettes/pink",
+        "purple": "tcc:item/dyed_book/color_palettes/purple",
+        "red": "tcc:item/dyed_book/color_palettes/red",
+        "white": "tcc:item/dyed_book/color_palettes/white",
+        "yellow": "tcc:item/dyed_book/color_palettes/yellow"
+      },
+      "textures": [
+        "tcc:item/dyed_book/base"
+      ]
+    }
+  ]
+}

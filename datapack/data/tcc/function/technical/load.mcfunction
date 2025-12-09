@@ -10,9 +10,9 @@ execute unless score #server_version tcc.dummy matches 122 run function tcc:tech
 execute as @a run function tcc:item/compendium/refresh
 
 ## Gamerules
-gamerule logAdminCommands false
-gamerule commandBlockOutput false
-gamerule maxCommandChainLength 1073741824
+gamerule minecraft:log_admin_commands false
+gamerule minecraft:command_block_output false
+gamerule minecraft:max_command_sequence_length 1073741824
 
 ## Compendium Data
 execute unless data storage tcc:compendium player_data run data merge storage tcc:compendium {player_data:[]}

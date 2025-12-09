@@ -24,7 +24,8 @@
                   "nutrition": 1,
                   "saturation": 0.0,
                   "can_always_eat": true
-                }
+                },
+                "minecraft:damage_type": "tcc:swordfish_hit"
               }
             },
             {
